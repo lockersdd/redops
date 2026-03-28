@@ -1,21 +1,28 @@
 {
-  "generated_at": "2026-03-28T10:01:19.996979+00:00",
+  "generated_at": "2026-03-28T10:58:57.113289+00:00",
   "sources_ok": 20,
   "sources_total": 21,
   "total": 265,
   "articles": [
     {
-      "id": "TheHa-58152",
-      "title": "TA446 Deploys DarkSword iOS Exploit Kit in Targeted Spear-Phishing Campaign",
-      "link": "https://thehackernews.com/2026/03/ta446-deploys-leaked-darksword-ios.html",
-      "desc": "Proofpoint has disclosed details of a targeted email campaign in which threat actors with ties to Russia are leveraging the recently disclosed DarkSword exploit kit to target iOS devices.\nThe activity has been attributed with high confidence to the Russian state-sponsored threat group known as TA446, which is also tracked by the broader cybersecurity community under the monikers Callisto,",
-      "pubDate": "Sat, 28 Mar 2026 12:37:00 +0530",
+      "id": "TheHa-968718",
+      "title": "Citrix NetScaler Under Active Recon for CVE-2026-3055 (CVSS 9.3) Memory Overread Bug",
+      "link": "https://thehackernews.com/2026/03/citrix-netscaler-under-active-recon-for.html",
+      "desc": "A recently disclosed critical security flaw impacting Citrix NetScaler ADC and NetScaler Gateway is witnessing active reconnaissance activity, according to Defused Cyber and watchTowr.\nThe vulnerability, CVE-2026-3055 (CVSS score: 9.3), refers to a case of insufficient input validation leading to memory overread, which an attacker could exploit to leak potentially sensitive information.\nPer",
+      "pubDate": "Sat, 28 Mar 2026 14:41:00 +0530",
       "source": "The Hacker News",
-      "cat": "threats",
+      "cat": "breaches",
       "sev": "high",
-      "tags": [],
+      "tags": [
+        {
+          "t": "CVE-2026-3055",
+          "cls": "cve"
+        }
+      ],
       "iocs": {
-        "cves": [],
+        "cves": [
+          "CVE-2026-3055"
+        ],
         "ips": [],
         "hashes": []
       },
@@ -24,7 +31,7 @@
       "ts": 0
     },
     {
-      "id": "TheHa-268009",
+      "id": "TheHa-111773",
       "title": "CISA Adds CVE-2025-53521 to KEV After Active F5 BIG-IP APM Exploitation",
       "link": "https://thehackernews.com/2026/03/cisa-adds-cve-2025-53521-to-kev-after.html",
       "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added a critical security flaw impacting F5 BIG-IP Access Policy Manager (APM) to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation.\nThe vulnerability in question is CVE-2025-53521 (CVSS v4 score: 9.3), which could allow a threat actor to achieve remote code execution.\n\"When a",
@@ -50,7 +57,26 @@
       "ts": 0
     },
     {
-      "id": "TheHa-15059",
+      "id": "TheHa-809286",
+      "title": "TA446 Deploys DarkSword iOS Exploit Kit in Targeted Spear-Phishing Campaign",
+      "link": "https://thehackernews.com/2026/03/ta446-deploys-leaked-darksword-ios.html",
+      "desc": "Proofpoint has disclosed details of a targeted email campaign in which threat actors with ties to Russia are leveraging the recently disclosed DarkSword exploit kit to target iOS devices.\nThe activity has been attributed with high confidence to the Russian state-sponsored threat group known as TA446, which is also tracked by the broader cybersecurity community under the monikers Callisto,",
+      "pubDate": "Sat, 28 Mar 2026 12:37:00 +0530",
+      "source": "The Hacker News",
+      "cat": "threats",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "TheHa-862541",
       "title": "Apple Sends Lock Screen Alerts to Outdated iPhones Over Active Web-Based Exploits",
       "link": "https://thehackernews.com/2026/03/apple-sends-lock-screen-alerts-to.html",
       "desc": "Apple is now sending Lock Screen notifications to iPhones and iPads running older versions of iOS and iPadOS to alert users of web-based attacks and urge them to install the update.\nThe development was first reported by MacRumors.\n\"Apple is aware of attacks targeting out-of-date iOS software, including the version on your iPhone. Install this critical update to protect your iPhone,\" the",
@@ -69,7 +95,7 @@
       "ts": 0
     },
     {
-      "id": "TheHa-649760",
+      "id": "TheHa-142593",
       "title": "TeamPCP Pushes Malicious Telnyx Versions to PyPI, Hides Stealer in WAV Files",
       "link": "https://thehackernews.com/2026/03/teampcp-pushes-malicious-telnyx.html",
       "desc": "TeamPCP, the threat actor behind the supply chain attack targeting Trivy, KICS, and litellm, has now compromised the telnyx Python package by pushing two malicious versions to steal sensitive data.\nThe two versions, 4.87.1 and 4.87.2, published to the Python Package Index (PyPI) repository on March 27, 2026, concealed their credential harvesting capabilities within a .WAV file. Users are",
@@ -88,7 +114,7 @@
       "ts": 0
     },
     {
-      "id": "TheHa-464798",
+      "id": "TheHa-578970",
       "title": "Open VSX Bug Let Malicious VS Code Extensions Bypass Pre-Publish Security Checks",
       "link": "https://thehackernews.com/2026/03/open-vsx-bug-let-malicious-vs-code.html",
       "desc": "Cybersecurity researchers have disclosed details of a now-patched bug impacting Open VSX's pre-publish scanning pipeline to cause the tool to allow a malicious Microsoft Visual Studio Code (VS Code) extension to pass the vetting process and go live in the registry.\n\"The pipeline had a single boolean return value that meant both 'no scanners are configured' and 'all scanners failed to run,'\" Koi",
@@ -107,7 +133,7 @@
       "ts": 0
     },
     {
-      "id": "TheHa-612807",
+      "id": "TheHa-299357",
       "title": "AitM Phishing Targets TikTok Business Accounts Using Cloudflare Turnstile Evasion",
       "link": "https://thehackernews.com/2026/03/aitm-phishing-targets-tiktok-business.html",
       "desc": "Threat actors are using adversary-in-the-middle (AitM) phishing pages to seize control of TikTok for Business accounts in a new campaign, according to a report from Push Security.\nBusiness accounts associated with social media platforms are a lucrative target, as they can be weaponized by bad actors for malvertising and distributing malware.\n\"TikTok has been historically abused to distribute",
@@ -126,7 +152,7 @@
       "ts": 0
     },
     {
-      "id": "TheHa-828032",
+      "id": "TheHa-806723",
       "title": "We Are At War",
       "link": "https://thehackernews.com/2026/03/we-are-at-war.html",
       "desc": "Rising geopolitical tensions are reflected (or in some cases preceded) by cyber operations, while technology itself has become politicized. Let’s admit it: we are in the middle of it.&nbsp;\nIntroduction: One tech power to rule them all is a thing of the past&nbsp;\nThe relative safety, peace and prosperity that much of the world has enjoyed since 1945 was not accidental. It emerged from the ashes",
@@ -145,7 +171,7 @@
       "ts": 0
     },
     {
-      "id": "TheHa-175022",
+      "id": "TheHa-173091",
       "title": "Bearlyfy Hits Russian Firms with Custom GenieLocker Ransomware",
       "link": "https://thehackernews.com/2026/03/bearlyfy-hits-70-russian-firms-with.html",
       "desc": "A pro-Ukrainian group called Bearlyfy has been attributed to more than 70 cyber attacks targeting Russian companies since it first surfaced in the threat landscape in January 2025, with recent attacks leveraging a custom Windows ransomware strain codenamed GenieLocker.\n\"Bearlyfy (also known as Labubu) operates as a dual-purpose group aimed at inflicting maximum damage upon Russian businesses;",
@@ -164,7 +190,7 @@
       "ts": 0
     },
     {
-      "id": "TheHa-96663",
+      "id": "TheHa-623315",
       "title": "LangChain, LangGraph Flaws Expose Files, Secrets, Databases in Widely Used AI Frameworks",
       "link": "https://thehackernews.com/2026/03/langchain-langgraph-flaws-expose-files.html",
       "desc": "Cybersecurity researchers have disclosed three security vulnerabilities impacting LangChain and LangGraph that, if successfully exploited, could expose filesystem data, environment secrets, and conversation history.\nBoth LangChain and LangGraph are open-source frameworks that are used to build applications powered by Large Language Models (LLMs). LangGraph is built on the foundations of",
@@ -183,7 +209,7 @@
       "ts": 0
     },
     {
-      "id": "TheHa-488515",
+      "id": "TheHa-310508",
       "title": "China-Linked Red Menshen Uses Stealthy BPFDoor Implants to Spy via Telecom Networks",
       "link": "https://thehackernews.com/2026/03/china-linked-red-menshen-uses-stealthy.html",
       "desc": "A long-term and ongoing campaign attributed to a China-nexus threat actor has embedded itself in telecom networks to conduct espionage against government networks.\nThe strategic positioning activity, which involves implanting and maintaining stealthy access mechanisms within critical environments, has been attributed to Red Menshen, a threat cluster that's also tracked as Earth Bluecrow,",
@@ -202,7 +228,7 @@
       "ts": 0
     },
     {
-      "id": "TheHa-316316",
+      "id": "TheHa-217009",
       "title": "[Webinar] Stop Guessing. Learn to Validate Your Defenses Against Real Attacks",
       "link": "https://thehackernews.com/2026/03/webinar-stop-guessing-learn-to-validate.html",
       "desc": "Most teams have security tools in place. Alerts are firing, dashboards look clean, threat intel is flowing in. On the surface, everything feels under control.\nBut one question usually stays unanswered: Would your defenses actually stop a real attack?\nThat’s where things get shaky. A control exists, so it’s assumed to work. A detection rule is active, so it’s expected to catch something. But very",
@@ -221,7 +247,7 @@
       "ts": 0
     },
     {
-      "id": "TheHa-2121",
+      "id": "TheHa-492803",
       "title": "Claude Extension Flaw Enabled Zero-Click XSS Prompt Injection via Any Website",
       "link": "https://thehackernews.com/2026/03/claude-extension-flaw-enabled-zero.html",
       "desc": "Cybersecurity researchers have disclosed a vulnerability in Anthropic's Claude Google Chrome Extension that could have been exploited to trigger malicious prompts simply by visiting a web page.\nThe flaw \"allowed any website to silently inject prompts into that assistant as if the user wrote them,\" Koi Security researcher Oren Yomtov said in a report shared with The Hacker News. \"No clicks, no",
@@ -240,7 +266,7 @@
       "ts": 0
     },
     {
-      "id": "TheHa-219995",
+      "id": "TheHa-667644",
       "title": "Masters of Imitation: How Hackers and Art Forgers Perfect the Art of Deception",
       "link": "https://thehackernews.com/2026/03/masters-of-imitation-how-hackers-and.html",
       "desc": "Unmasking impostors is something the art world has faced for decades, and there are valuable lessons from the works of Elmyr de Hory that can apply to the world of defensive cybersecurity. During the 1960s, de Hory gained infamy as a premier forger, passing off counterfeit masterworks of Picasso, Matisse, and Renoir to unsuspecting collectors and renowned museums. Over the next several decades,",
@@ -259,7 +285,7 @@
       "ts": 0
     },
     {
-      "id": "TheHa-835699",
+      "id": "TheHa-57101",
       "title": "ThreatsDay Bulletin: PQC Push, AI Vuln Hunting, Pirated Traps, Phishing Kits & 20 More Stories",
       "link": "https://thehackernews.com/2026/03/threatsday-bulletin-pqc-push-ai-vuln.html",
       "desc": "Some weeks in security feel loud. This one feels sneaky. Less big dramatic fireworks, more of that slow creeping sense that too many people are getting way too comfortable abusing things they probably shouldn&rsquo;t even be touching.\nThere&rsquo;s a little bit of everything in this one, too. Weird delivery tricks, old problems coming back in slightly worse forms, shady infrastructure doing",
@@ -278,26 +304,7 @@
       "ts": 0
     },
     {
-      "id": "TheHa-945053",
-      "title": "Coruna iOS Kit Reuses 2023 Triangulation Exploit Code in Recent Mass Attacks",
-      "link": "https://thehackernews.com/2026/03/coruna-ios-kit-reuses-2023.html",
-      "desc": "The kernel exploit for two security vulnerabilities used in the recently uncovered Apple iOS exploit kit known as Coruna is an updated version of the same exploit that was used in the Operation Triangulation campaign back in 2023, according to new findings from Kaspersky.\n\"When Coruna was first reported, the public evidence wasn't sufficient to link its code to Triangulation — shared",
-      "pubDate": "Thu, 26 Mar 2026 16:37:00 +0530",
-      "source": "The Hacker News",
-      "cat": "threats",
-      "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "Krebs-361150",
+      "id": "Krebs-581415",
       "title": "‘CanisterWorm’ Springs Wiper Attack Targeting Iran",
       "link": "https://krebsonsecurity.com/2026/03/canisterworm-springs-wiper-attack-targeting-iran/",
       "desc": "A financially motivated data theft and extortion group is attempting to inject itself into the Iran war, unleashing a worm that spreads through poorly secured cloud services and wipes data on infected systems that use Iran's time zone or have Farsi set as the default language.",
@@ -316,7 +323,7 @@
       "ts": 0
     },
     {
-      "id": "Krebs-656758",
+      "id": "Krebs-91372",
       "title": "Feds Disrupt IoT Botnets Behind Huge DDoS Attacks",
       "link": "https://krebsonsecurity.com/2026/03/feds-disrupt-iot-botnets-behind-huge-ddos-attacks/",
       "desc": "The U.S. Justice Department joined authorities in Canada and Germany in dismantling the online infrastructure behind four highly disruptive botnets that compromised more than three million hacked Internet of Things (IoT) devices, such as routers and web cameras. The feds say the four botnets -- named Aisuru, Kimwolf, JackSkid and Mossad -- are responsible for a series of recent record-smashing dis",
@@ -335,7 +342,7 @@
       "ts": 0
     },
     {
-      "id": "Krebs-65242",
+      "id": "Krebs-642678",
       "title": "Iran-Backed Hackers Claim Wiper Attack on Medtech Firm Stryker",
       "link": "https://krebsonsecurity.com/2026/03/iran-backed-hackers-claim-wiper-attack-on-medtech-firm-stryker/",
       "desc": "A hacktivist group with links to Iran's intelligence agencies is claiming responsibility for a data-wiping attack against Stryker, a global medical technology company based in Michigan. News reports out of Ireland, Stryker's largest hub outside of the United States, said the company sent home more than 5,000 workers there today. Meanwhile, a voicemail message at Stryker's main U.S. headquarters sa",
@@ -354,7 +361,7 @@
       "ts": 0
     },
     {
-      "id": "Krebs-600376",
+      "id": "Krebs-931665",
       "title": "Microsoft Patch Tuesday, March 2026 Edition",
       "link": "https://krebsonsecurity.com/2026/03/microsoft-patch-tuesday-march-2026-edition/",
       "desc": "Microsoft Corp. today pushed security updates to fix at least 77 vulnerabilities in its Windows operating systems and other software. There are no pressing \"zero-day\" flaws this month (compared to February's five zero-day treat), but as usual some patches may deserve more rapid attention from organizations using Windows. Here are a few highlights from this month's Patch Tuesday.",
@@ -373,7 +380,7 @@
       "ts": 0
     },
     {
-      "id": "Krebs-740798",
+      "id": "Krebs-295567",
       "title": "How AI Assistants are Moving the Security Goalposts",
       "link": "https://krebsonsecurity.com/2026/03/how-ai-assistants-are-moving-the-security-goalposts/",
       "desc": "AI-based assistants or \"agents\" -- autonomous programs that have access to the user's computer, files, online services and can automate virtually any task -- are growing in popularity with developers and IT workers. But as so many eyebrow-raising headlines over the past few weeks have shown, these powerful and assertive new tools are rapidly shifting the security priorities for organizations, whil",
@@ -392,7 +399,7 @@
       "ts": 0
     },
     {
-      "id": "Krebs-418749",
+      "id": "Krebs-999753",
       "title": "Who is the Kimwolf Botmaster “Dort”?",
       "link": "https://krebsonsecurity.com/2026/02/who-is-the-kimwolf-botmaster-dort/",
       "desc": "In early January 2026, KrebsOnSecurity revealed how a security researcher disclosed a vulnerability that was used to assemble Kimwolf, the world's largest and most disruptive botnet. Since then, the person in control of Kimwolf -- who goes by the handle \"Dort\" -- has coordinated a barrage of distributed denial-of-service (DDoS), doxing and email flooding attacks against the researcher and this aut",
@@ -411,7 +418,7 @@
       "ts": 0
     },
     {
-      "id": "Krebs-594534",
+      "id": "Krebs-660098",
       "title": "‘Starkiller’ Phishing Service Proxies Real Login Pages, MFA",
       "link": "https://krebsonsecurity.com/2026/02/starkiller-phishing-service-proxies-real-login-pages-mfa/",
       "desc": "Most phishing websites are little more than static copies of login pages for popular online destinations, and they are often quickly taken down by anti-abuse activists and security firms. But a stealthy new phishing-as-a-service offering lets customers sidestep both of these pitfalls: It uses cleverly disguised links to load the target brand's real website, and then acts as a relay between the tar",
@@ -430,7 +437,7 @@
       "ts": 0
     },
     {
-      "id": "Krebs-885882",
+      "id": "Krebs-829880",
       "title": "Kimwolf Botnet Swamps Anonymity Network I2P",
       "link": "https://krebsonsecurity.com/2026/02/kimwolf-botnet-swamps-anonymity-network-i2p/",
       "desc": "For the past week, the massive \"Internet of Things\" (IoT) botnet known as Kimwolf has been disrupting the The Invisible Internet Project (I2P), a decentralized, encrypted communications network designed to anonymize and secure online communications. I2P users started reporting disruptions in the network around the same time the Kimwolf botmasters began relying on it to evade takedown attempts agai",
@@ -449,7 +456,7 @@
       "ts": 0
     },
     {
-      "id": "Krebs-432100",
+      "id": "Krebs-962961",
       "title": "Patch Tuesday, February 2026 Edition",
       "link": "https://krebsonsecurity.com/2026/02/patch-tuesday-february-2026-edition/",
       "desc": "Microsoft today released updates to fix more than 50 security holes in its Windows operating systems and other software, including patches for a whopping six \"zero-day\" vulnerabilities that attackers are already exploiting in the wild.",
@@ -468,7 +475,7 @@
       "ts": 0
     },
     {
-      "id": "Krebs-537305",
+      "id": "Krebs-470629",
       "title": "Please Don’t Feed the Scattered Lapsus ShinyHunters",
       "link": "https://krebsonsecurity.com/2026/02/please-dont-feed-the-scattered-lapsus-shiny-hunters/",
       "desc": "A prolific data ransom gang that calls itself Scattered Lapsus ShinyHunters (SLSH) has a distinctive playbook when it seeks to extort payment from victim firms: Harassing, threatening and even swatting executives and their families, all while notifying journalists and regulators… Read More &#187;",
@@ -487,7 +494,26 @@
       "ts": 0
     },
     {
-      "id": "Securi-421932",
+      "id": "Securi-809680",
+      "title": "Cloudflare-Themed ClickFix Attack Drops Infiniti Stealer on Macs",
+      "link": "https://www.securityweek.com/cloudflare-themed-clickfix-attack-drops-infiniti-stealer-on-macs/",
+      "desc": "The infection chain includes a fake CAPTCHA page, a Bash script, a Nuitka loader, and the Python-based infostealer.\nThe post Cloudflare-Themed ClickFix Attack Drops Infiniti Stealer on Macs appeared first on SecurityWeek.",
+      "pubDate": "Sat, 28 Mar 2026 10:30:00 +0000",
+      "source": "SecurityWeek",
+      "cat": "threats",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "Securi-525255",
       "title": "Pro-Iranian Hacking Group Claims Credit for Hack of FBI Director Kash Patel’s Personal Account",
       "link": "https://www.securityweek.com/pro-iranian-hacking-group-claims-credit-for-hack-of-fbi-director-kash-patels-personal-account/",
       "desc": "The group that it was making available for download emails and other documents from Patel’s account. \nThe post Pro-Iranian Hacking Group Claims Credit for Hack of FBI Director Kash Patel’s Personal Account appeared first on SecurityWeek.",
@@ -506,7 +532,7 @@
       "ts": 0
     },
     {
-      "id": "Securi-247809",
+      "id": "Securi-41919",
       "title": "In Other News: Palo Alto Recruiter Scam, Anti-Deepfake Chip, Google Sets 2029 Quantum Deadline",
       "link": "https://www.securityweek.com/in-other-news-palo-alto-recruiter-scam-anti-deepfake-chip-google-sets-2029-quantum-deadline/",
       "desc": "Other noteworthy stories that might have slipped under the radar: Heritage Bank data breach, new State Department unit tackles cyber threats, LA Metro disruptions.\nThe post In Other News: Palo Alto Recruiter Scam, Anti-Deepfake Chip, Google Sets 2029 Quantum Deadline appeared first on SecurityWeek.",
@@ -525,7 +551,7 @@
       "ts": 0
     },
     {
-      "id": "Securi-328149",
+      "id": "Securi-803396",
       "title": "OpenAI Launches Bug Bounty Program for Abuse and Safety Risks",
       "link": "https://www.securityweek.com/openai-launches-bug-bounty-program-for-abuse-and-safety-risks/",
       "desc": "Through the new program, OpenAI will reward reports covering design or implementation issues leading to material harm.\nThe post OpenAI Launches Bug Bounty Program for Abuse and Safety Risks appeared first on SecurityWeek.",
@@ -544,7 +570,7 @@
       "ts": 0
     },
     {
-      "id": "Securi-941776",
+      "id": "Securi-223618",
       "title": "TP-Link Patches High-Severity Router Vulnerabilities",
       "link": "https://www.securityweek.com/tp-link-patches-high-severity-router-vulnerabilities/",
       "desc": "The security defects could be used to bypass authentication, execute arbitrary commands, and decrypt configuration files.\nThe post TP-Link Patches High-Severity Router Vulnerabilities appeared first on SecurityWeek.",
@@ -563,7 +589,7 @@
       "ts": 0
     },
     {
-      "id": "Securi-954112",
+      "id": "Securi-599790",
       "title": "RSAC 2026 Conference Announcements Summary (Days 3-4)",
       "link": "https://www.securityweek.com/rsac-2026-conference-announcements-summary-days-3-4/",
       "desc": "A summary of the announcements made by vendors on the third and fourth days of the RSAC 2026 Conference.\nThe post RSAC 2026 Conference Announcements Summary (Days 3-4) appeared first on SecurityWeek.",
@@ -582,7 +608,7 @@
       "ts": 0
     },
     {
-      "id": "Securi-622834",
+      "id": "Securi-639780",
       "title": "Coruna iOS Exploit Kit Likely an Update to Operation Triangulation",
       "link": "https://www.securityweek.com/coruna-ios-exploit-kit-likely-an-update-to-operation-triangulation/",
       "desc": "Coruna contains the updated version of a kernel exploit used in Operation Triangulation three years ago.\nThe post Coruna iOS Exploit Kit Likely an Update to Operation Triangulation appeared first on SecurityWeek.",
@@ -601,7 +627,7 @@
       "ts": 0
     },
     {
-      "id": "Securi-687465",
+      "id": "Securi-534687",
       "title": "CISA Flags Critical PTC Vulnerability That Had German Police Mobilized",
       "link": "https://www.securityweek.com/cisa-flags-critical-ptc-vulnerability-that-had-german-police-mobilized/",
       "desc": "Police in Germany physically warned organizations about the critical PTC Windchill vulnerability tracked as CVE-2026-4681.\nThe post CISA Flags Critical PTC Vulnerability That Had German Police Mobilized appeared first on SecurityWeek.",
@@ -627,7 +653,7 @@
       "ts": 0
     },
     {
-      "id": "Securi-152723",
+      "id": "Securi-401711",
       "title": "Hightower Holding Data Breach Impacts 130,000",
       "link": "https://www.securityweek.com/hightower-holding-data-breach-impacts-130000/",
       "desc": "The holdings company says hackers stole names, Social Security numbers, and driver’s license numbers from its environment.\nThe post Hightower Holding Data Breach Impacts 130,000 appeared first on SecurityWeek.",
@@ -646,7 +672,7 @@
       "ts": 0
     },
     {
-      "id": "Securi-791632",
+      "id": "Securi-300502",
       "title": "BIND Updates Patch High-Severity Vulnerabilities",
       "link": "https://www.securityweek.com/bind-updates-patch-high-severity-vulnerabilities-2/",
       "desc": "Specially crafted domains could be used to cause out-of-memory conditions, leading to memory leaks in the BIND resolvers.\nThe post BIND Updates Patch High-Severity Vulnerabilities appeared first on SecurityWeek.",
@@ -665,26 +691,7 @@
       "ts": 0
     },
     {
-      "id": "Securi-428831",
-      "title": "Chinese Hackers Caught Deep Within Telecom Backbone Infrastructure",
-      "link": "https://www.securityweek.com/chinese-hackers-caught-deep-within-telecom-backbone-infrastructure/",
-      "desc": "The state-sponsored threat actor deployed kernel implants and passive backdoors enabling long-term, high-level espionage.\nThe post Chinese Hackers Caught Deep Within Telecom Backbone Infrastructure appeared first on SecurityWeek.",
-      "pubDate": "Thu, 26 Mar 2026 13:00:00 +0000",
-      "source": "SecurityWeek",
-      "cat": "threats",
-      "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "GBHack-275701",
+      "id": "GBHack-910617",
       "title": "Cisco Catalyst Center Vulnerability Allows Attackers to Escalate Privileges",
       "link": "https://gbhackers.com/cisco-catalyst-center/",
       "desc": "A critical security vulnerability has been identified in the Cisco Catalyst Center Virtual Appliance that could enable authenticated, remote attackers to escalate their privileges to Administrator on affected systems. This vulnerability CVE-2025-20341 caused by insufficient validation of user-supplied input, underscores the urgent need for patching among organizations that use the affected platfor",
@@ -710,7 +717,7 @@
       "ts": 0
     },
     {
-      "id": "GBHack-10681",
+      "id": "GBHack-12110",
       "title": "Multiple Cisco Unified CCX Vulnerabilities Enable Arbitrary Command Execution by Attackers",
       "link": "https://gbhackers.com/cisco-unified-ccx/",
       "desc": "Cisco has disclosed critical security vulnerabilities affecting Cisco Unified Contact Center Express (Unified CCX) that could enable unauthenticated, remote attackers to execute arbitrary commands, escalate privileges to root, and bypass authentication mechanisms. The vulnerabilities reside in the Java Remote Method Invocation (RMI) process and CCX Editor application, presenting severe risks to en",
@@ -729,7 +736,7 @@
       "ts": 0
     },
     {
-      "id": "GBHack-21827",
+      "id": "GBHack-634275",
       "title": "RONINGLOADER Uses Signed Drivers to Disable Microsoft Defender and Bypass EDR",
       "link": "https://gbhackers.com/roningloader/",
       "desc": "Elastic Security Labs has uncovered a sophisticated campaign deploying a newly identified loader, dubbed RONINGLOADER, that weaponizes legitimately signed kernel drivers to systematically disable Microsoft Defender and evade endpoint detection and response (EDR) tools. Attributed to the Dragon Breath APT group (APT-Q-27), this campaign demonstrates a significant evolution in attack sophistication,",
@@ -748,7 +755,7 @@
       "ts": 0
     },
     {
-      "id": "GBHack-9533",
+      "id": "GBHack-11081",
       "title": "Hackers Exploit Rogue MCP Server to Inject Malicious Code into Cursor’s Built-In Browser",
       "link": "https://gbhackers.com/hackers-exploit-rogue-mcp-server-to-inject-malicious-code/",
       "desc": "Security researchers have uncovered a critical vulnerability in Cursor, the AI-powered code editor, that allows attackers to inject malicious code through rogue Model Context Protocol (MCP) servers. Unlike VS Code, Cursor lacks integrity checks on its runtime components, making it vulnerable to tampering through MCP server registration. The attack works by registering a local MCP [&#8230;]\nThe pos",
@@ -767,7 +774,7 @@
       "ts": 0
     },
     {
-      "id": "GBHack-950215",
+      "id": "GBHack-294320",
       "title": "NVIDIA NeMo Flaw Enables Code Injection and Privilege Escalation Attacks",
       "link": "https://gbhackers.com/nvidia-nemo-flaw/",
       "desc": "NVIDIA has released critical security patches addressing two high-severity vulnerabilities in its NeMo Framework that could allow attackers to execute arbitrary code and escalate privileges on affected systems. The vulnerabilities affect all versions of the framework before 2.5.0, and users should update to 2.5.0 immediately. CVE ID Description CVSS Score Severity CVE-2025-23361 Improper control o",
@@ -793,7 +800,7 @@
       "ts": 0
     },
     {
-      "id": "GBHack-281887",
+      "id": "GBHack-246823",
       "title": "Cybercriminals Use Fake Invoices to Deploy XWorm and Steal Login Credentials",
       "link": "https://gbhackers.com/fake-invoices/",
       "desc": "Cybercriminals are deploying sophisticated phishing campaigns that weaponize seemingly legitimate invoice emails to distribute Backdoor.XWorm is a dangerous remote-access trojan (RAT) capable of stealing sensitive credentials, recording keystrokes, and installing ransomware. Security researchers have uncovered an active malware distribution operation using Visual Basic Script attachments disguised",
@@ -812,7 +819,7 @@
       "ts": 0
     },
     {
-      "id": "GBHack-808021",
+      "id": "GBHack-272483",
       "title": "Advanced macOS DigitStealer Uses Multi-Stage Attack Chain to Evade Detection",
       "link": "https://gbhackers.com/macos-digitstealer/",
       "desc": "Jamf Threat Labs has identified a new family of malicious stealers tracked as DigitStealer, representing a significant evolution in macOS-targeted malware. Unlike traditional infostealers that follow linear execution paths, DigitStealer introduced sophisticated multi-stage attack techniques, extensive anti-analysis checks, and novel persistence mechanisms, demonstrating the threat actors&#8217; de",
@@ -831,7 +838,7 @@
       "ts": 0
     },
     {
-      "id": "GBHack-334741",
+      "id": "GBHack-717232",
       "title": "Formbook Malware Campaign Uses Malicious ZIP Files and Layered Scripting Techniques",
       "link": "https://gbhackers.com/formbook-malware-2/",
       "desc": "A new campaign leveraging Formbook malware has emerged, showcasing sophisticated multi-stage infection tactics that underscore the importance of analyzing more than just executable files during malware investigations. When teaching malware reverse-engineering in courses like SANS FOR610, it’s critical to addressed that reverse engineering applies to every component in the infection chain, not just",
@@ -850,7 +857,7 @@
       "ts": 0
     },
     {
-      "id": "GBHack-175014",
+      "id": "GBHack-820107",
       "title": "Analysis of Multi-Stage Phishing Kits Leveraging Telegram for Credential Theft and Evasion Techniques",
       "link": "https://gbhackers.com/phishing-kits/",
       "desc": "Researchers at Group-IB have uncovered a sophisticated phishing framework that demonstrates how cybercriminals are industrializing credential theft through automation, evasion techniques, and Telegram-based data exfiltration. The kit targets explicitly Aruba S.p.A., an Italian IT services provider serving over 5.4 million customers, highlighting the significant financial and operational risks pose",
@@ -869,7 +876,7 @@
       "ts": 0
     },
     {
-      "id": "GBHack-724907",
+      "id": "GBHack-512491",
       "title": "Kraken Ransomware Targets Windows, Linux, and VMware ESXi in Enterprise Environments",
       "link": "https://gbhackers.com/kraken-ransomware/",
       "desc": "Cisco Talos has identified an emerging threat from Kraken, a sophisticated cross-platform ransomware group that has emerged from the remnants of the HelloKitty ransomware cartel. In August 2025, the security firm observed the Russian-speaking group conducting big-game hunting and double-extortion attacks against enterprise environments worldwide. Kraken represents a significant evolution in ransom",
@@ -888,7 +895,7 @@
       "ts": 0
     },
     {
-      "id": "HackRe-963380",
+      "id": "HackRe-844909",
       "title": "Iran-Linked Handala Hackers Breach FBI Chief Kash Patel’s Gmail",
       "link": "https://hackread.com/iran-handala-hackers-fbi-chief-kash-patel-gmail-breach/",
       "desc": "Iran-linked Handala hackers breached FBI Chief Kash Patel’s Gmail, leaking photos and documents. Officials say no classified data was exposed.",
@@ -907,7 +914,7 @@
       "ts": 0
     },
     {
-      "id": "HackRe-851701",
+      "id": "HackRe-564131",
       "title": "ShinyHunters Walk Away from BreachForums, Leak 300,000-User Database",
       "link": "https://hackread.com/shinyhunters-breachforums-leak-300000-user-database/",
       "desc": "ShinyHunters leaves BreachForums, leaks data of 300,000 users, warns all active domains are fake, and threatens more leaks from forum backups.",
@@ -926,7 +933,7 @@
       "ts": 0
     },
     {
-      "id": "HackRe-50353",
+      "id": "HackRe-492408",
       "title": "Google Sets 2029 Deadline as Quantum Computers Threaten Encryption",
       "link": "https://hackread.com/google-2029-deadline-quantum-computers-encryption/",
       "desc": "Google fast-tracks post-quantum cryptography with a 2029 deadline as researchers warn quantum computers could break current encryption sooner than expected.",
@@ -945,7 +952,7 @@
       "ts": 0
     },
     {
-      "id": "HackRe-865891",
+      "id": "HackRe-231899",
       "title": "BianLian Ransomware Spreads via Fake Invoice SVG Images in New Attacks",
       "link": "https://hackread.com/bianlian-ransomware-fake-invoice-svg-images-attacks/",
       "desc": "Researchers at WatchGuard have identified a new phishing campaign targeting companies in Venezuela. Using malicious SVG image files&#8230;",
@@ -964,7 +971,7 @@
       "ts": 0
     },
     {
-      "id": "HackRe-72822",
+      "id": "HackRe-926637",
       "title": "New Ghost Campaign Uses Fake npm Progress Bars to Phish Sudo Passwords",
       "link": "https://hackread.com/ghost-campaign-npm-progress-bars-phish-sudo-passwords/",
       "desc": "ReversingLabs researchers identify a new Ghost campaign using fake npm install logs and progress bars to phish for sudo passwords and steal crypto wallets from developers.",
@@ -983,7 +990,7 @@
       "ts": 0
     },
     {
-      "id": "HackRe-437242",
+      "id": "HackRe-422069",
       "title": "Best AI Security Solutions for Enterprises in 2026",
       "link": "https://hackread.com/best-ai-security-solutions-enterprises-2026/",
       "desc": "Enterprise AI security solutions in 2026, compare Check Point, Palo Alto, CrowdStrike, Fortinet, and Zscaler across cloud, endpoint, and network.",
@@ -1002,7 +1009,7 @@
       "ts": 0
     },
     {
-      "id": "HackRe-726014",
+      "id": "HackRe-255104",
       "title": "Quish Splash QR Code Phishing Campaign Hits 1.6 Million Users",
       "link": "https://hackread.com/quish-splash-qr-code-phishing-hits-users/",
       "desc": "7AI research reveals a massive QR code phishing attack that evaded SPF, DKIM, and DMARC. Find out how 1.6 million emails went undetected.",
@@ -1021,7 +1028,7 @@
       "ts": 0
     },
     {
-      "id": "HackRe-607761",
+      "id": "HackRe-558877",
       "title": "New PXA Stealer Malware Targets Banks, Uses Telegram to Exfiltrate Data",
       "link": "https://hackread.com/financial-firms-rise-pxa-stealer-attacks/",
       "desc": "CyberProof researchers have detected a 10% surge in PXA Stealer attacks targeting financial institutions in Q1 2026. Learn&#8230;",
@@ -1040,7 +1047,7 @@
       "ts": 0
     },
     {
-      "id": "HackRe-45440",
+      "id": "HackRe-198491",
       "title": "Acalvio ShadowPlex Review: Deception-Based Preemptive Cybersecurity",
       "link": "https://hackread.com/acalvio-shadowplex-review-preemptive-cybersecurity/",
       "desc": "This practitioner-focused review covers Acalvio ShadowPlex, a deception-first platform designed to stop attacker progress across IT, cloud, OT,&#8230;",
@@ -1059,7 +1066,7 @@
       "ts": 0
     },
     {
-      "id": "HackRe-677598",
+      "id": "HackRe-279252",
       "title": "Suspected Hijacked Developer Accounts Spread npm Malware",
       "link": "https://hackread.com/suspected-hijacked-developer-accounts-npm-malware/",
       "desc": "Sonatype uncovers a sophisticated malware campaign using hijacked npm developer accounts to steal API keys and passwords. Is your dev environment at risk?",
@@ -1078,7 +1085,7 @@
       "ts": 0
     },
     {
-      "id": "Exploi-545599",
+      "id": "Exploi-881623",
       "title": "[webapps] WordPress Backup Migration 1.3.7 - Remote Command Execution",
       "link": "https://www.exploit-db.com/exploits/52486",
       "desc": "WordPress Backup Migration 1.3.7 - Remote Command Execution",
@@ -1097,7 +1104,7 @@
       "ts": 0
     },
     {
-      "id": "Exploi-509322",
+      "id": "Exploi-7395",
       "title": "[webapps] mailcow 2025-01a - Host Header Password Reset Poisoning",
       "link": "https://www.exploit-db.com/exploits/52485",
       "desc": "mailcow 2025-01a - Host Header Password Reset Poisoning",
@@ -1116,7 +1123,7 @@
       "ts": 0
     },
     {
-      "id": "Exploi-238425",
+      "id": "Exploi-646345",
       "title": "[webapps] Easy File Sharing Web Server v7.2 - Buffer Overflow",
       "link": "https://www.exploit-db.com/exploits/52484",
       "desc": "Easy File Sharing Web Server v7.2 - Buffer Overflow",
@@ -1135,7 +1142,7 @@
       "ts": 0
     },
     {
-      "id": "Exploi-227409",
+      "id": "Exploi-607296",
       "title": "[webapps] WeGIA 3.5.0 - SQL Injection",
       "link": "https://www.exploit-db.com/exploits/52483",
       "desc": "WeGIA 3.5.0 - SQL Injection",
@@ -1154,7 +1161,7 @@
       "ts": 0
     },
     {
-      "id": "Exploi-489542",
+      "id": "Exploi-603906",
       "title": "[webapps] Boss Mini v1.4.0 - Local File Inclusion (LFI)",
       "link": "https://www.exploit-db.com/exploits/52482",
       "desc": "Boss Mini v1.4.0 - Local File Inclusion (LFI)",
@@ -1173,7 +1180,7 @@
       "ts": 0
     },
     {
-      "id": "Exploi-84493",
+      "id": "Exploi-93910",
       "title": "[webapps] motionEye 0.43.1b4 - RCE",
       "link": "https://www.exploit-db.com/exploits/52481",
       "desc": "motionEye 0.43.1b4 - RCE",
@@ -1192,7 +1199,7 @@
       "ts": 0
     },
     {
-      "id": "Exploi-149438",
+      "id": "Exploi-795282",
       "title": "[remote] Windows 10.0.17763.7009 - spoofing vulnerability",
       "link": "https://www.exploit-db.com/exploits/52480",
       "desc": "Windows 10.0.17763.7009 - spoofing vulnerability",
@@ -1211,7 +1218,7 @@
       "ts": 0
     },
     {
-      "id": "Exploi-672393",
+      "id": "Exploi-246197",
       "title": "[local] glibc 2.38 - Buffer Overflow",
       "link": "https://www.exploit-db.com/exploits/52479",
       "desc": "glibc 2.38 - Buffer Overflow",
@@ -1230,7 +1237,7 @@
       "ts": 0
     },
     {
-      "id": "Exploi-570988",
+      "id": "Exploi-530563",
       "title": "[remote] windows 10/11 - NTLM Hash Disclosure Spoofing",
       "link": "https://www.exploit-db.com/exploits/52478",
       "desc": "windows 10/11 - NTLM Hash Disclosure Spoofing",
@@ -1249,7 +1256,7 @@
       "ts": 0
     },
     {
-      "id": "Exploi-488716",
+      "id": "Exploi-662311",
       "title": "[remote] Redis 8.0.2 - RCE",
       "link": "https://www.exploit-db.com/exploits/52477",
       "desc": "Redis 8.0.2 - RCE",
@@ -1268,7 +1275,7 @@
       "ts": 0
     },
     {
-      "id": "Exploi-464270",
+      "id": "Exploi-439129",
       "title": "[webapps] OctoPrint 1.11.2 - File Upload",
       "link": "https://www.exploit-db.com/exploits/52476",
       "desc": "OctoPrint 1.11.2 - File Upload",
@@ -1287,7 +1294,7 @@
       "ts": 0
     },
     {
-      "id": "Exploi-468121",
+      "id": "Exploi-931829",
       "title": "[remote] Ingress-NGINX Admission Controller v1.11.1 - FD Injection to RCE",
       "link": "https://www.exploit-db.com/exploits/52475",
       "desc": "Ingress-NGINX Admission Controller v1.11.1 - FD Injection to RCE",
@@ -1306,7 +1313,7 @@
       "ts": 0
     },
     {
-      "id": "Exploi-501613",
+      "id": "Exploi-565536",
       "title": "[webapps] aiohttp 3.9.1 - directory traversal PoC",
       "link": "https://www.exploit-db.com/exploits/52474",
       "desc": "aiohttp 3.9.1 - directory traversal PoC",
@@ -1325,7 +1332,7 @@
       "ts": 0
     },
     {
-      "id": "Exploi-765496",
+      "id": "Exploi-736297",
       "title": "[webapps] FortiWeb Fabric Connector 7.6.x - SQL Injection to Remote Code Execution",
       "link": "https://www.exploit-db.com/exploits/52473",
       "desc": "FortiWeb Fabric Connector 7.6.x - SQL Injection to Remote Code Execution",
@@ -1344,7 +1351,7 @@
       "ts": 0
     },
     {
-      "id": "Exploi-916431",
+      "id": "Exploi-965627",
       "title": "[local] Docker Desktop 4.44.3 - Unauthenticated  API Exposure",
       "link": "https://www.exploit-db.com/exploits/52472",
       "desc": "Docker Desktop 4.44.3 - Unauthenticated  API Exposure",
@@ -1363,7 +1370,7 @@
       "ts": 0
     },
     {
-      "id": "VulnHu-427626",
+      "id": "VulnHu-567748",
       "title": "Matrix-Breakout: 2 Morpheus",
       "link": "https://www.vulnhub.com/entry/matrix-breakout_2-morpheus,757/",
       "desc": "This is the second in the Matrix-Breakout series, subtitled Morpheus:1.  It’s themed as a throwback to the first Matrix movie.  You play Trinity, trying to investigate a computer on the Nebuchadnezzar that Cypher has locked everyone else out from, which holds the key to a mystery.VulnHub",
@@ -1382,7 +1389,7 @@
       "ts": 0
     },
     {
-      "id": "VulnHu-578885",
+      "id": "VulnHu-654191",
       "title": "Web Machine: (N7)",
       "link": "https://www.vulnhub.com/entry/web-machine_n7,756/",
       "desc": "Difficulty: MediumVulnHub",
@@ -1401,7 +1408,7 @@
       "ts": 0
     },
     {
-      "id": "VulnHu-323378",
+      "id": "VulnHu-427036",
       "title": "The Planets: Earth",
       "link": "https://www.vulnhub.com/entry/the-planets_earth,755/",
       "desc": "Difficulty: Easy\nEarth is an easy box though you will likely find it more challenging than \"Mercury\" in this series and on the harder side of easy, depending on your experience. There are two flags on the box: a user and root flag which include an md5 hash. This has been tested on VirtualBox so may not work correctly on VMware. Any questions/issues or feedback please email me at: SirFlash at proto",
@@ -1420,7 +1427,7 @@
       "ts": 0
     },
     {
-      "id": "VulnHu-877842",
+      "id": "VulnHu-967978",
       "title": "Jangow: 1.0.1",
       "link": "https://www.vulnhub.com/entry/jangow_101,754/",
       "desc": "Difficulty: easy\nThe secret to this box is enumeration! Inquiries jangow2021@gmail.comVulnHub",
@@ -1439,7 +1446,7 @@
       "ts": 0
     },
     {
-      "id": "VulnHu-475072",
+      "id": "VulnHu-724050",
       "title": "Red: 1",
       "link": "https://www.vulnhub.com/entry/red_1,753/",
       "desc": "Red has taken over your system, are you able to regain control?VulnHub",
@@ -1458,7 +1465,7 @@
       "ts": 0
     },
     {
-      "id": "VulnHu-611700",
+      "id": "VulnHu-543762",
       "title": "Napping: 1.0.1",
       "link": "https://www.vulnhub.com/entry/napping_101,752/",
       "desc": "Even Admins can fall asleep on the jobVulnHub",
@@ -1477,7 +1484,7 @@
       "ts": 0
     },
     {
-      "id": "VulnHu-414890",
+      "id": "VulnHu-771534",
       "title": "Empire: Breakout",
       "link": "https://www.vulnhub.com/entry/empire_breakout,751/",
       "desc": "Difficulty: Easy\nThis box was created to be an Easy box, but it can be Medium if you get lost.\nFor hints discord Server ( https://discord.gg/7asvAhCEhe )VulnHub",
@@ -1496,7 +1503,7 @@
       "ts": 0
     },
     {
-      "id": "VulnHu-612785",
+      "id": "VulnHu-681082",
       "title": "Empire: LupinOne",
       "link": "https://www.vulnhub.com/entry/empire_lupinone,750/",
       "desc": "Difficulty: Medium\nThis box was created to be medium, but it can be hard if you get lost.\nCTF like box.\nYou have to enumerate as much as you can.\nFor hints discord Server ( https://discord.gg/7asvAhCEhe )VulnHub",
@@ -1515,7 +1522,7 @@
       "ts": 0
     },
     {
-      "id": "VulnHu-631792",
+      "id": "VulnHu-700313",
       "title": "Thales: 1",
       "link": "https://www.vulnhub.com/entry/thales_1,749/",
       "desc": "Description :  Open your eyes and change your  perspective\nincludes 2 flags:user.txt and root.txt.\nTelegram: @machineboy141 (for any hint)VulnHub",
@@ -1534,7 +1541,7 @@
       "ts": 0
     },
     {
-      "id": "VulnHu-139049",
+      "id": "VulnHu-17759",
       "title": "ICA: 1",
       "link": "https://www.vulnhub.com/entry/ica_1,748/",
       "desc": "According to information from our intelligence network, ICA is working on a secret project. We need to find out what the project is. Once you have the access information, send them to us. We will place a backdoor to access the system later. You just focus on what the project is. You will probably have to go through several layers of security. The Agency has full confidence that you will successful",
@@ -1553,7 +1560,7 @@
       "ts": 0
     },
     {
-      "id": "VulnHu-565499",
+      "id": "VulnHu-285727",
       "title": "digitalworld.local: electrical",
       "link": "https://www.vulnhub.com/entry/digitalworldlocal_electrical,747/",
       "desc": "Good Tech Inc. has realised its machines were vulnerable. They have decided to deploy a permanent VAPT machine within their network, where contractors can remotely access to perform the necessary vulnerability assessment scans.\nHowever, this has not been the most secure deployment. Can you root this machine?\nIf you MUST have hints for this machine: ELECTRICAL is (#1): well-intentioned but horrible",
@@ -1572,7 +1579,7 @@
       "ts": 0
     },
     {
-      "id": "VulnHu-817377",
+      "id": "VulnHu-24185",
       "title": "Noob: 1",
       "link": "https://www.vulnhub.com/entry/noob_1,746/",
       "desc": "N/AVulnHub",
@@ -1591,7 +1598,7 @@
       "ts": 0
     },
     {
-      "id": "VulnHu-154312",
+      "id": "VulnHu-288771",
       "title": "Corrosion: 2",
       "link": "https://www.vulnhub.com/entry/corrosion_2,745/",
       "desc": "Difficulty: Medium\nHint: Enumeration is key.VulnHub",
@@ -1610,7 +1617,7 @@
       "ts": 0
     },
     {
-      "id": "VulnHu-782910",
+      "id": "VulnHu-290651",
       "title": "Dripping Blues: 1",
       "link": "https://www.vulnhub.com/entry/dripping-blues_1,744/",
       "desc": "get flags\ndifficulty: easy\nabout vm: tested and exported from virtualbox. dhcp and nested vtx/amdv enabled. you can contact me by email for troubleshooting or questions.VulnHub",
@@ -1629,7 +1636,7 @@
       "ts": 0
     },
     {
-      "id": "VulnHu-952447",
+      "id": "VulnHu-804309",
       "title": "doubletrouble: 1",
       "link": "https://www.vulnhub.com/entry/doubletrouble_1,743/",
       "desc": "get flags\ndifficulty: easy\nabout vm: tested and exported from virtualbox. dhcp and nested vtx/amdv enabled. you can contact me by email for troubleshooting or questions.VulnHub",
@@ -1648,7 +1655,7 @@
       "ts": 0
     },
     {
-      "id": "Pentes-835990",
+      "id": "Pentes-946560",
       "title": "Insecure IAM is the root of many cloud security failures",
       "link": "https://www.pentestpartners.com/security-blog/insecure-iam-is-the-root-of-many-cloud-security-failures/",
       "desc": "TL;DR   Introduction Identity and Access Management, or IAM, is one of the most important security controls in any cloud environment. If it is weak, attackers can often work around the protections that sit on top of it.&#160; We see this regularly in cloud penetration tests. Once an attacker has access to compromised credentials, they can [&#8230;]\nThe post Insecure IAM is the root of many cloud s",
@@ -1667,7 +1674,7 @@
       "ts": 0
     },
     {
-      "id": "Pentes-309061",
+      "id": "Pentes-329474",
       "title": "Taming the dragon: reverse engineering firmware with Ghidra",
       "link": "https://www.pentestpartners.com/security-blog/taming-the-dragon-reverse-engineering-firmware-with-ghidra/",
       "desc": "Introduction   I&#160;stumbled into&#160;infosec the same year the NSA&#160;graced us with&#160;Ghidra.&#160;It’s&#160;by far&#160;become the most used tool in my arsenal&#160;for reverse engineering and vulnerability research.&#160;It’s&#160;free, extensible, and supports&#160;some of the quirkier architectures we&#160;come across.&#160; But its&#160;learning curve&#160;is steep.&#160; This blog&",
@@ -1686,7 +1693,7 @@
       "ts": 0
     },
     {
-      "id": "Pentes-281376",
+      "id": "Pentes-731742",
       "title": "Breaking Out of Citrix and other Restricted Desktop Environments",
       "link": "https://www.pentestpartners.com/security-blog/breaking-out-of-citrix-and-other-restricted-desktop-environments/",
       "desc": "Introduction Many organisations are turning to virtualisation of apps and desktops. This often involves virtualisation platforms such as Citrix to deliver these services.&#160; Get your configuration or lock-down wrong and&#160;you’ll&#160;find users ‘breaking out’ of the environment you thought you had secured. It might not be long after that when you find that your entire domain [&#8230;]\nThe po",
@@ -1705,7 +1712,7 @@
       "ts": 0
     },
     {
-      "id": "Pentes-59554",
+      "id": "Pentes-864220",
       "title": "EV batteries as grid infrastructure and the security risk that follows",
       "link": "https://www.pentestpartners.com/security-blog/ev-batteries-as-grid-infrastructure-and-the-security-risk-that-follows/",
       "desc": "TL;DR  Introduction   I’m&#160;a huge fan of micro generation and domestic power storage batteries. However, as we dash for net zero, one of the ways to balance the grid is to capitalise on EV batteries and their large capacity to store power.&#160; BUT&#160; To take advantage of their capacity, we need bidirectional EV chargers and vehicles [&#8230;]\nThe post EV batteries as grid infrastructure a",
@@ -1724,7 +1731,7 @@
       "ts": 0
     },
     {
-      "id": "Pentes-182666",
+      "id": "Pentes-105391",
       "title": "Shelly IoT door controller config fail: leaving your garage, home and security exposed",
       "link": "https://www.pentestpartners.com/security-blog/shelly-iot-door-controller-config-fail-leaving-your-garage-home-and-security-exposed/",
       "desc": "TL;DR Introduction I love my&#160;Shelly devices. They are an essential part of my smart home setup. I use them for everything from lights and plugs to garage doors and garden sprinkler control! One of the first Shelly devices I installed about five years ago recently stopped working, so I replaced it with one of their [&#8230;]\nThe post Shelly IoT door controller config fail: leaving your garage,",
@@ -1743,7 +1750,7 @@
       "ts": 0
     },
     {
-      "id": "Pentes-640676",
+      "id": "Pentes-646005",
       "title": "Covert recording is easy, which is the problem",
       "link": "https://www.pentestpartners.com/security-blog/covert-recording-is-easy-which-is-the-problem/",
       "desc": "TL; DR&#160;&#160; A normal shopping trip into ethically dubious kit&#160; As part of physical social engineering engagements,&#160;I will often trawl the common online stores for&#160;devices that could be abused to gain information. This is not technical abuse. It is using the device as it was designed, but not in the most ethical way.&#160; That&#160;often includes&#160;things [&#8230;]\nThe pos",
@@ -1762,7 +1769,7 @@
       "ts": 0
     },
     {
-      "id": "Pentes-360664",
+      "id": "Pentes-639901",
       "title": "Movie breakdown: Hackers (1995)",
       "link": "https://www.pentestpartners.com/security-blog/movie-breakdown-hackers-1995/",
       "desc": "Introduction Before you start, how about getting the Hackers soundtrack playing as you read this? Get a bit of the Stereo MCs pumping… https://open.spotify.com/playlist/5uMdR4Mb3ZL2FYTNjs9nnD How plausible are the hacks?&#160;We’ll&#160;ignore the dodgy CGI, IRC sessions, l33t speak and questionable acting in the quest to find what stacks up in the real world.&#160; Robot videotape vault Now, [&#8",
@@ -1781,7 +1788,7 @@
       "ts": 0
     },
     {
-      "id": "Pentes-565268",
+      "id": "Pentes-602870",
       "title": "Preparing for the EU Cyber Resilience Act (CRA)",
       "link": "https://www.pentestpartners.com/security-blog/preparing-for-the-eu-cyber-resilience-act-cra/",
       "desc": "TL;DR&#160;&#160; Raising the baseline for product security&#160; Product security has matured significantly over the last decade.&#160;Secure defaults,&#160;defined ownership of security risk, reliable update mechanisms, and structured vulnerability handling are now&#160;mainstream and&#160;well understood by experienced engineering and security teams. These practices are no longer aspirational. ",
@@ -1800,7 +1807,7 @@
       "ts": 0
     },
     {
-      "id": "Pentes-175560",
+      "id": "Pentes-198445",
       "title": "Carlsberg… probably not the best cybersecurity in the world",
       "link": "https://www.pentestpartners.com/security-blog/carlsberg-probably-not-the-best-cybersecurity-in-the-world/",
       "desc": "TL;DR&#160; The exhibition&#160; My Wife and I visited the Carlsberg exhibition in Copenhagen in August&#160;2025&#160;and we were given wristbands with a QR code on them. As we went through the exhibition,&#160;there were various interactive elements where you could create your own blend of beer, create a video of you dancing in a beer glass, and [&#8230;]\nThe post Carlsberg… probably not the bes",
@@ -1819,7 +1826,7 @@
       "ts": 0
     },
     {
-      "id": "Pentes-958598",
+      "id": "Pentes-984336",
       "title": "Compromising a multi-cloud environment from a single exposed secret",
       "link": "https://www.pentestpartners.com/security-blog/compromising-a-multi-cloud-environment-from-a-single-exposed-secret/",
       "desc": "TL;DR&#160; Introduction&#160; In practice, it is still hard to keep secrets safe in the cloud. All&#160;major&#160;cloud service providers have managed secrets solutions, but they only work if secrets are added, stored, and used correctly. In the real world, credentials, API keys, and tokens still tend to leak through everyday operational shortcuts instead of complicated failures.&#160; [&#8230;]",
@@ -1838,7 +1845,7 @@
       "ts": 0
     },
     {
-      "id": "Sophos-392465",
+      "id": "Sophos-620297",
       "title": "Cyber Advisory: Increased Cyber Risk Amid U.S.–Israel–Iran Escalation",
       "link": "https://www.sophos.com/en-us/blog/cyber-advisory-increased-cyber-risk-amid-u-s-israel-iran-escalation",
       "desc": "&lt;p&gt;Insights and recommended defensive measures from Sophos X-Ops Counter Threat Unit&lt;/p&gt;Categories: Security OperationsTags: Sophos CTU, Iran, Operation Epic Fury",
@@ -1857,7 +1864,7 @@
       "ts": 0
     },
     {
-      "id": "Sophos-68487",
+      "id": "Sophos-5638",
       "title": "The Active Adversary Report: Safety in numbers",
       "link": "https://www.sophos.com/en-us/blog/the-active-adversary-report-safety-in-numbers",
       "desc": "&lt;p&gt;What a long, strange trip it’s been&lt;/p&gt;Categories: Security OperationsTags: Active Adversary",
@@ -1876,7 +1883,7 @@
       "ts": 0
     },
     {
-      "id": "Sophos-848151",
+      "id": "Sophos-296495",
       "title": "Nowhere, man: The 2026 Active Adversary Report",
       "link": "https://www.sophos.com/en-us/blog/2026-sophos-active-adversary-report",
       "desc": "&lt;p&gt;AI headline hype didn’t deliver a sea change for practical defense — but one below-the-radar development should&lt;/p&gt;Categories: Security Operations, Threat ResearchTags: Active Adversary, Active Adversary Report",
@@ -1895,7 +1902,7 @@
       "ts": 0
     },
     {
-      "id": "Sophos-476961",
+      "id": "Sophos-552880",
       "title": "From Security Operations to Security Leadership: Sophos CISO Advantage",
       "link": "https://www.sophos.com/en-us/blog/from-security-operations-to-security-leadership-sophos-ciso-advantage",
       "desc": "Categories: Products &amp; Services, Security Operations",
@@ -1914,7 +1921,7 @@
       "ts": 0
     },
     {
-      "id": "Sophos-303560",
+      "id": "Sophos-862387",
       "title": "Sophos achieves its best-ever results in the MITRE ATT&CK Enterprise 2025 Evaluation",
       "link": "https://www.sophos.com/en-us/blog/sophos-achieves-its-best-ever-results-in-the-mitre-attck-enterprise-2025-evaluation",
       "desc": "&lt;p&gt;A major milestone: Sophos XDR delivers 100% detection&lt;sup&gt;1&lt;/sup&gt; coverage in the latest ATT&amp;amp;CK Evaluation.&lt;/p&gt;Categories: Products &amp; Services, Security OperationsTags: MITRE ATT&amp;CK, Sophos Endpoint, Sophos EDR, Sophos XDR",
@@ -1933,7 +1940,7 @@
       "ts": 0
     },
     {
-      "id": "Sophos-919159",
+      "id": "Sophos-17163",
       "title": "Introducing Sophos Intelix for Microsoft 365 Copilot",
       "link": "https://www.sophos.com/en-us/blog/introducing-sophos-intelix-for-microsoft-365-copilot",
       "desc": "Bringing Sophos threat intelligence directly into Microsoft 365 Copilot.Categories: Products &amp; Services, Security OperationsTags: Featured, Microsoft, Microsoft 365 Copilot, Microsoft Copilot, Microsoft Defender, Microsoft Intelligent Security Association (MISA), Microsoft Security Copilot, Sophos Intelix, Sophos X-Ops",
@@ -1952,7 +1959,7 @@
       "ts": 0
     },
     {
-      "id": "Sophos-289433",
+      "id": "Sophos-212785",
       "title": "Introducing Sophos Intelix for Microsoft Security Copilot",
       "link": "https://www.sophos.com/en-us/blog/introducing-sophos-intelix-for-microsoft-security-copilot",
       "desc": "Elevating threat intelligence for all Security Copilot users.Categories: Products &amp; Services, Security OperationsTags: Featured, Microsoft, Microsoft 365 Copilot, Microsoft Copilot, Microsoft Defender, Microsoft Intelligent Security Association (MISA), Microsoft Security Copilot, Sophos Intelix, Sophos X-Ops",
@@ -1971,7 +1978,7 @@
       "ts": 0
     },
     {
-      "id": "Sophos-464623",
+      "id": "Sophos-981685",
       "title": "Campaña maliciosa en WhatsApp despliega el troyano bancario Astaroth",
       "link": "https://www.sophos.com/en-us/blog/campana-maliciosa-en-whatsapp-despliega-el-troyano-bancario-astaroth",
       "desc": "Otra campaña dirigida a usuarios de WhatsApp en Brasil se propaga como un gusano y emplea múltiples cargas útiles para el robo de credenciales, secuestro de sesiones y persistencia.Categories: Security Operations",
@@ -1990,7 +1997,7 @@
       "ts": 0
     },
     {
-      "id": "Sophos-387672",
+      "id": "Sophos-294077",
       "title": "Cybersecurity for Microsoft Environments",
       "link": "https://www.sophos.com/en-us/blog/advancing-cybersecurity-for-microsoft-environments",
       "desc": "From certified MDR services to open threat intelligence frameworks, Sophos is delivering the clarity, context, and confidence organizations need to stay ahead of evolving threats.Categories: Products &amp; Services, Security OperationsTags: Featured, Microsoft, Microsoft 365 Copilot, Microsoft Copilot, Microsoft Defender, Microsoft Intelligent Security Association (MISA), Microsoft Security Copilo",
@@ -2009,7 +2016,7 @@
       "ts": 0
     },
     {
-      "id": "Sophos-151313",
+      "id": "Sophos-325493",
       "title": "Detecting fraudulent North Korean hires: A CISO playbook",
       "link": "https://www.sophos.com/en-us/blog/detecting-fraudulent-north-korean-hires-a-ciso-playbook",
       "desc": "Has a North Korean threat actor applied for a position at your organization, or even been hired? We’re sharing a toolkit to help you detect and avoid that risk.Categories: Security OperationsTags: CISO, Featured, North Korea, playbook, toolkit",
@@ -2028,7 +2035,7 @@
       "ts": 0
     },
     {
-      "id": "Sophos-826239",
+      "id": "Sophos-53708",
       "title": "Phake phishing: Phundamental or pholly?",
       "link": "https://www.sophos.com/en-us/blog/phake-phishing-phundamental-or-pholly",
       "desc": "Debates over the effectiveness of phishing simulations are widespread. Sophos X-Ops looks at the arguments for and against – and our own phishing philosophyCategories: Security OperationsTags: Featured, Phishing, simulations, Sophos X-Ops, Training",
@@ -2047,7 +2054,7 @@
       "ts": 0
     },
     {
-      "id": "Sophos-102104",
+      "id": "Sophos-226819",
       "title": "What happens when a cybersecurity company gets phished?",
       "link": "https://www.sophos.com/en-us/blog/what-happens-when-a-cybersecurity-company-gets-phished",
       "desc": "A Sophos employee was phished, but we countered the threat with an end-to-end defense processCategories: Security OperationsTags: Featured, MFA, MFA phishing, Sophos X-Ops",
@@ -2066,7 +2073,7 @@
       "ts": 0
     },
     {
-      "id": "Sophos-868948",
+      "id": "Sophos-816979",
       "title": "Rubrik & Sophos Enhance Cyber Resilience for Microsoft 365",
       "link": "https://www.sophos.com/en-us/blog/rubrik-sophos-enhance-cyber-resilience-for-microsoft-365",
       "desc": "Categories: Products &amp; Services, Security news, Security OperationsTags: MDR, Partners",
@@ -2085,7 +2092,7 @@
       "ts": 0
     },
     {
-      "id": "Sophos-456427",
+      "id": "Sophos-722798",
       "title": "Sophos’ Secure by Design 2025 Progress",
       "link": "https://www.sophos.com/en-us/blog/sophos-secure-by-design-2025-progress",
       "desc": "One year on, we are pleased to share progress on our secure-by-design commitments.Categories: Security OperationsTags: CISA, Featured, Secure by Design, Sophos X-Ops",
@@ -2104,7 +2111,7 @@
       "ts": 0
     },
     {
-      "id": "Sophos-799890",
+      "id": "Sophos-736216",
       "title": "Lumma Stealer, coming and going",
       "link": "https://www.sophos.com/en-us/blog/lumma-stealer-coming-and-going",
       "desc": "The high-profile information stealer switches up its TTPs, but keeps the CAPTCHA tactic; we take a deep diveCategories: Security Operations, Threat ResearchTags: Featured, Information Stealers, Lumma Stealer, Sophos X-Ops",
@@ -2123,7 +2130,7 @@
       "ts": 0
     },
     {
-      "id": "Sophos-292184",
+      "id": "Sophos-131163",
       "title": "NICKEL ALLEY strategy: Fake it 'til you make it",
       "link": "https://www.sophos.com/en-us/blog/nickel-alley-strategy-fake-it-til-you-make-it",
       "desc": "Victimizing software developers via fake companies, jobs, and code repositories to steal cryptocurrencyCategories: Threat ResearchTags: NICKEL ALLEY, Contagious Interview, North Korea, clickfix",
@@ -2142,7 +2149,7 @@
       "ts": 0
     },
     {
-      "id": "Sophos-696385",
+      "id": "Sophos-572051",
       "title": "Oracle vulnerability (CVE-2026-21992) impacts core products",
       "link": "https://www.sophos.com/en-us/blog/oracle-vulnerability-cve-2026-21992-impacts-core-products",
       "desc": "Categories: Threat ResearchTags: advisory, vulnerability, Oracle",
@@ -2168,7 +2175,7 @@
       "ts": 0
     },
     {
-      "id": "Sophos-658421",
+      "id": "Sophos-632297",
       "title": "Android devices ship with firmware-level malware",
       "link": "https://www.sophos.com/en-us/blog/android-devices-ship-with-firmware-level-malware",
       "desc": "Keenadu malware gives an attacker control over a device but appears to be used primarily to facilitate ad fraudCategories: Threat ResearchTags: Android, Keenadu",
@@ -2187,7 +2194,7 @@
       "ts": 0
     },
     {
-      "id": "Sophos-194790",
+      "id": "Sophos-42126",
       "title": "Initial access techniques used by Iran-based threat actors",
       "link": "https://www.sophos.com/en-us/blog/initial-access-techniques-used-by-iran-based-threat-actors",
       "desc": "Analysis of attacks originating from Iran-linked threat groups reveals a preference for certain techniquesCategories: Threat ResearchTags: Iran, initial access",
@@ -2206,7 +2213,7 @@
       "ts": 0
     },
     {
-      "id": "Sophos-329987",
+      "id": "Sophos-677328",
       "title": "March Patch Tuesday visits 15 product families",
       "link": "https://www.sophos.com/en-us/blog/march-patch-tuesday-visits-15-product-families",
       "desc": "Eight Critical-severity bugs – none in Windows – appear in 84-CVE haulCategories: Threat ResearchTags: Patch Tuesday, x-ops, Microsoft, Windows, detection",
@@ -2225,7 +2232,7 @@
       "ts": 0
     },
     {
-      "id": "Sophos-948939",
+      "id": "Sophos-572070",
       "title": "Evil evolution: ClickFix and macOS infostealers",
       "link": "https://www.sophos.com/en-us/blog/evil-evolution-clickfix-and-macos-infostealers",
       "desc": "&lt;p&gt;Across three recent campaigns, Sophos X-Ops notes shifts in both lures and malware capabilities, as threat actors leveraging ClickFix techniques increasingly target macOS users with infostealers&lt;/p&gt;Categories: Threat ResearchTags: MacOS, infostealer, clickfix, MacSync, Social engineering",
@@ -2244,7 +2251,7 @@
       "ts": 0
     },
     {
-      "id": "Sophos-91542",
+      "id": "Sophos-971660",
       "title": "Hacktivist campaigns increase as United States, Iran, and Israel conflict intensifies",
       "link": "https://www.sophos.com/en-us/blog/hacktivist-campaigns-increase-as-united-states-iran-and-israel-conflict-intensifies",
       "desc": "Rising tensions have sparked an increase in regional hacktivist activity, but impact has been minimalCategories: Threat ResearchTags: hacktivism, Iran, israel, Operation Epic Fury",
@@ -2263,7 +2270,7 @@
       "ts": 0
     },
     {
-      "id": "Sophos-26307",
+      "id": "Sophos-939591",
       "title": "Cisco SD-WAN vulnerabilities (CVE-2026-20127, CVE-2022-20775) in active exploitation",
       "link": "https://www.sophos.com/en-us/blog/cisco-sd-wan-vulnerabilities-cve-2026-20127-cve-2022-20775-in-active-exploitation",
       "desc": "Categories: Threat ResearchTags: advisory, vulnerability, SD-WAN",
@@ -2294,7 +2301,7 @@
       "ts": 0
     },
     {
-      "id": "Sophos-848151",
+      "id": "Sophos-296495",
       "title": "Nowhere, man: The 2026 Active Adversary Report",
       "link": "https://www.sophos.com/en-us/blog/2026-sophos-active-adversary-report",
       "desc": "&lt;p&gt;AI headline hype didn’t deliver a sea change for practical defense — but one below-the-radar development should&lt;/p&gt;Categories: Security Operations, Threat ResearchTags: Active Adversary, Active Adversary Report",
@@ -2313,7 +2320,7 @@
       "ts": 0
     },
     {
-      "id": "Sophos-899202",
+      "id": "Sophos-952677",
       "title": "February’s Patch Tuesday assumes battle stations",
       "link": "https://www.sophos.com/en-us/blog/februarys-patch-tuesday-assumes-battle-stations",
       "desc": "Just 58 CVEs to spar with in February, but plenty are already under attackCategories: Threat Research, X-opsTags: Patch Tuesday, Microsoft, Windows",
@@ -2332,7 +2339,7 @@
       "ts": 0
     },
     {
-      "id": "Sophos-250484",
+      "id": "Sophos-50664",
       "title": "The OpenClaw experiment is a warning shot for enterprise AI security",
       "link": "https://www.sophos.com/en-us/blog/the-openclaw-experiment-is-a-warning-shot-for-enterprise-ai-security",
       "desc": "&lt;p&gt;Agentic AI promises a lot – but it also introduces more risk. Sophos’ CISO explores the challenges and how to address them&lt;/p&gt;Categories: Threat ResearchTags: AI, LLM, OpenClaw, CISO, risk, Sophos X-Ops",
@@ -2351,7 +2358,7 @@
       "ts": 0
     },
     {
-      "id": "Sophos-985024",
+      "id": "Sophos-948329",
       "title": "Threat Intelligence Executive Report – Volume 2025, Number 6",
       "link": "https://www.sophos.com/en-us/blog/threat-intelligence-executive-report-volume-2025-number-6",
       "desc": "This issue of the Counter Threat Unit’s high-level bimonthly report discusses noteworthy updates in the threat landscape during September and OctoberCategories: Threat ResearchTags: EDR killer, infostealer, Ransomware",
@@ -2370,7 +2377,7 @@
       "ts": 0
     },
     {
-      "id": "Sophos-175695",
+      "id": "Sophos-941663",
       "title": "Malicious use of virtual machine infrastructure",
       "link": "https://www.sophos.com/en-us/blog/malicious-use-of-virtual-machine-infrastructure",
       "desc": "&lt;p&gt;Bulletproof hosting providers are abusing the legitimate ISPsystem infrastructure to supply virtual machines to cybercriminals&lt;/p&gt;Categories: Threat ResearchTags: virtual machine, cybercrime, Ransomware, ISPs",
@@ -2389,7 +2396,7 @@
       "ts": 0
     },
     {
-      "id": "Sophos-185365",
+      "id": "Sophos-928610",
       "title": "Eeny, meeny, miny, moe? How ransomware operators choose victims",
       "link": "https://www.sophos.com/en-us/blog/eeny-meeny-miny-moe-how-ransomware-operators-choose-victims",
       "desc": "Most ransomware attacks are opportunistic, not targeted at a specific sector or regionCategories: Threat ResearchTags: Ransomware, cybercrime, state-sponsored ransomware, victimization",
@@ -2408,7 +2415,7 @@
       "ts": 0
     },
     {
-      "id": "Sophos-664923",
+      "id": "Sophos-787871",
       "title": "Microsoft Office vulnerability (CVE-2026-21509) in active exploitation",
       "link": "https://www.sophos.com/en-us/blog/microsoft-office-vulnerability-cve-2026-21509-in-active-exploitation",
       "desc": "Categories: Threat ResearchTags: Microsoft Office, vulnerability, advisory",
@@ -2434,7 +2441,7 @@
       "ts": 0
     },
     {
-      "id": "Malwar-731044",
+      "id": "Malwar-498963",
       "title": "Criminals are renting virtual phones to bypass bank security",
       "link": "https://www.malwarebytes.com/blog/news/2026/03/criminals-are-renting-virtual-phones-to-bypass-bank-security",
       "desc": "Not a real phone, but good enough to fool your bank. Researchers warn criminals are using virtual devices to bypass fraud checks.",
@@ -2453,7 +2460,7 @@
       "ts": 0
     },
     {
-      "id": "Malwar-65363",
+      "id": "Malwar-457723",
       "title": "Bogus Avast website fakes virus scan, installs Venom Stealer instead",
       "link": "https://www.malwarebytes.com/blog/threat-intel/2026/03/bogus-avast-website-fakes-virus-scan-installs-venom-stealer-instead",
       "desc": "A fake Avast scan tells you your PC is infected, then installs the malware that steals passwords, session data and crypto wallets.",
@@ -2472,7 +2479,7 @@
       "ts": 0
     },
     {
-      "id": "Malwar-590427",
+      "id": "Malwar-458911",
       "title": "Infiniti Stealer: a new macOS infostealer using ClickFix and Python/Nuitka",
       "link": "https://www.malwarebytes.com/blog/threat-intel/2026/03/infiniti-stealer-a-new-macos-infostealer-using-clickfix-and-python-nuitka",
       "desc": "A new macOS infostealer, NukeChain (now Infiniti Stealer), uses fake CAPTCHA pages to trick users into running malicious commands.",
@@ -2491,7 +2498,7 @@
       "ts": 0
     },
     {
-      "id": "Malwar-204837",
+      "id": "Malwar-258374",
       "title": "GlassWorm attack installs fake browser extension for surveillance",
       "link": "https://www.malwarebytes.com/blog/news/2026/03/glassworm-attack-installs-fake-browser-extension-for-surveillance",
       "desc": "It hides inside developer tools, then monitors activity and steals data, turning a single infection into a wider risk across the supply chain.",
@@ -2510,7 +2517,7 @@
       "ts": 0
     },
     {
-      "id": "Malwar-717996",
+      "id": "Malwar-109109",
       "title": "Landmark verdicts put Meta’s “addiction machine” platforms on trial",
       "link": "https://www.malwarebytes.com/blog/news/2026/03/landmark-verdicts-put-metas-addiction-machine-platforms-on-trial",
       "desc": "Courts are starting to question how platforms are built, not just what’s posted.",
@@ -2529,7 +2536,7 @@
       "ts": 0
     },
     {
-      "id": "Malwar-406481",
+      "id": "Malwar-474700",
       "title": "Hackers claim to have accessed data tied to millions of crime tipsters",
       "link": "https://www.malwarebytes.com/blog/news/2026/03/hackers-claim-to-have-accessed-data-tied-to-millions-of-crime-tipsters",
       "desc": "A hacktivist group claims to have obtained sensitive data on crime tipsters and the people they reported, dating back to 1987.",
@@ -2548,7 +2555,7 @@
       "ts": 0
     },
     {
-      "id": "Malwar-164492",
+      "id": "Malwar-775758",
       "title": "New FCC router ban could leave home networks less secure",
       "link": "https://www.malwarebytes.com/blog/news/2026/03/new-fcc-router-ban-could-leave-home-networks-less-secure",
       "desc": "The FCC announced a ban on routers made outside the US, but it could backfire. Here’s the real risk, and what you can do about it.",
@@ -2567,7 +2574,7 @@
       "ts": 0
     },
     {
-      "id": "Malwar-895250",
+      "id": "Malwar-45234",
       "title": "Meet Khaled Mohamed: the bug hunter who found a Microsoft flaw",
       "link": "https://www.malwarebytes.com/blog/bugs/2026/03/meet-khaled-mohamed-the-bug-hunter-who-found-a-microsoft-flaw",
       "desc": "We talked to Khaled Mohamed on going from script kiddie to bug bounty hunter, and the moment he uncovered a flaw in Microsoft Authenticator.",
@@ -2586,7 +2593,7 @@
       "ts": 0
     },
     {
-      "id": "Malwar-646297",
+      "id": "Malwar-98642",
       "title": "FBI, CISA warn of Russian hackers hijacking Signal and WhatsApp accounts",
       "link": "https://www.malwarebytes.com/blog/news/2026/03/fbi-cisa-warn-of-russian-hackers-hijacking-signal-and-whatsapp-accounts",
       "desc": "The FBI and CISA join European agencies in warning of a widespread, easily scalable social engineering campaign targeting messaging apps.",
@@ -2605,7 +2612,7 @@
       "ts": 0
     },
     {
-      "id": "Malwar-510823",
+      "id": "Malwar-852929",
       "title": "Scam compounds hiring &#8220;AI models&#8221; to seal the deal in deepfake video calls",
       "link": "https://www.malwarebytes.com/blog/news/2026/03/scam-compounds-hiring-ai-models-to-seal-deal-in-deepfake-video-calls",
       "desc": "Forced labor doesn’t play well on camera, so scam compounds are hiring women to  deepfake their faces on video calls.",
@@ -2624,7 +2631,7 @@
       "ts": 0
     },
     {
-      "id": "Malwar-759172",
+      "id": "Malwar-512362",
       "title": "FriendlyDealer mimics official app stores to push unvetted gambling apps",
       "link": "https://www.malwarebytes.com/blog/scams/2026/03/friendlydealer-mimics-official-app-stores-to-push-unvetted-gambling-apps",
       "desc": "Think you’re downloading from Google or Apple? 1,500+ fake app store sites look like the real thing, but push unvetted, cloned web-based casino apps.",
@@ -2643,7 +2650,7 @@
       "ts": 0
     },
     {
-      "id": "Malwar-864213",
+      "id": "Malwar-64460",
       "title": "The March Madness scam playbook",
       "link": "https://www.malwarebytes.com/blog/news/2026/03/the-march-madness-scam-playbook",
       "desc": "Fans aren't the only ones who show up for March Madness. Here's how to spot all the different scams that turn up to major sporting events.",
@@ -2662,7 +2669,7 @@
       "ts": 0
     },
     {
-      "id": "Malwar-40003",
+      "id": "Malwar-720008",
       "title": "Advanced Flow will make Android sideloading safer",
       "link": "https://www.malwarebytes.com/blog/news/2026/03/advanced-flow-will-make-android-sideloading-safer",
       "desc": "Google’s new Advanced Flow aims to make sideloading safer on Android by slowing down scam-driven installs.",
@@ -2681,7 +2688,7 @@
       "ts": 0
     },
     {
-      "id": "Malwar-772579",
+      "id": "Malwar-35636",
       "title": "A week in security (March 16 &#8211; March 22)",
       "link": "https://www.malwarebytes.com/blog/uncategorized/2026/03/a-week-in-security-march-16-march-22",
       "desc": "A list of topics we covered in the week of March 16 to March 22 of 2026",
@@ -2700,7 +2707,7 @@
       "ts": 0
     },
     {
-      "id": "Malwar-80868",
+      "id": "Malwar-706422",
       "title": "This is all it takes to stop a train (Lock and Code S07E06)",
       "link": "https://www.malwarebytes.com/blog/podcast/2026/03/this-is-all-it-takes-to-stop-a-train-lock-and-code-s07e06",
       "desc": "This week on the Lock and Code podcast, we speak with Rachel Swan about the simple network problems causing major train outages in the Bay.",
@@ -2719,7 +2726,7 @@
       "ts": 0
     },
     {
-      "id": "SANSI-810519",
+      "id": "SANSI-231974",
       "title": "TeamPCP Supply Chain Campaign: Update 002 - Telnyx PyPI Compromise, Vect Ransomware Mass Affiliate Program, and First Named Victim Claim, (Fri, Mar 27th)",
       "link": "https://isc.sans.edu/diary/rss/32838",
       "desc": "This is the second update to the TeamPCP supply chain campaign threat intelligence report, \"When the Security Scanner Became the Weapon\" (v3.0, March 25, 2026). Update 001 covered developments through March 26. This update covers developments from March 26-27, 2026.&#xd;",
@@ -2738,7 +2745,7 @@
       "ts": 0
     },
     {
-      "id": "SANSI-723800",
+      "id": "SANSI-818205",
       "title": "ISC Stormcast For Friday, March 27th, 2026 https://isc.sans.edu/podcastdetail/9868, (Fri, Mar 27th)",
       "link": "https://isc.sans.edu/diary/rss/32836",
       "desc": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
@@ -2757,7 +2764,7 @@
       "ts": 0
     },
     {
-      "id": "SANSI-625905",
+      "id": "SANSI-26843",
       "title": "TeamPCP Supply Chain Campaign: Update 001 - Checkmarx Scope Wider Than Reported, CISA KEV Entry, and Detection Tools Available, (Thu, Mar 26th)",
       "link": "https://isc.sans.edu/diary/rss/32834",
       "desc": "This is the first update to the TeamPCP supply chain campaign threat intelligence report, \"When the Security Scanner Became the Weapon\" (v3.0, March 25, 2026). That report covers the full campaign from the February 28 initial access through the March 24 LiteLLM PyPI compromise. This update covers developments since publication.&#xd;",
@@ -2776,7 +2783,7 @@
       "ts": 0
     },
     {
-      "id": "SANSI-205635",
+      "id": "SANSI-971141",
       "title": "ISC Stormcast For Thursday, March 26th, 2026 https://isc.sans.edu/podcastdetail/9866, (Thu, Mar 26th)",
       "link": "https://isc.sans.edu/diary/rss/32832",
       "desc": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
@@ -2795,7 +2802,7 @@
       "ts": 0
     },
     {
-      "id": "SANSI-685152",
+      "id": "SANSI-629836",
       "title": "Apple Patches (almost) everything again. March 2026 edition., (Wed, Mar 25th)",
       "link": "https://isc.sans.edu/diary/rss/32830",
       "desc": "Apple released the next version of its operating system, patching 85 different vulnerabilities across all of them. None of the vulnerabilities are currently being exploited. The last three macOS \"generations\" are covered, as are the last two versions of iOS/iPadOS. For tvOS, watchOS, and visionOS, only the current version received patches. This update also includes the recently released Background",
@@ -2814,7 +2821,7 @@
       "ts": 0
     },
     {
-      "id": "SANSI-581878",
+      "id": "SANSI-956811",
       "title": "SmartApeSG campaign pushes Remcos RAT, NetSupport RAT, StealC, and Sectop RAT (ArechClient2), (Wed, Mar 25th)",
       "link": "https://isc.sans.edu/diary/rss/32826",
       "desc": "Introduction&#xd;",
@@ -2833,7 +2840,7 @@
       "ts": 0
     },
     {
-      "id": "SANSI-383306",
+      "id": "SANSI-592088",
       "title": "ISC Stormcast For Wednesday, March 25th, 2026 https://isc.sans.edu/podcastdetail/9864, (Wed, Mar 25th)",
       "link": "https://isc.sans.edu/diary/rss/32828",
       "desc": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
@@ -2852,7 +2859,7 @@
       "ts": 0
     },
     {
-      "id": "SANSI-443627",
+      "id": "SANSI-119572",
       "title": "Detecting IP KVMs, (Tue, Mar 24th)",
       "link": "https://isc.sans.edu/diary/rss/32824",
       "desc": "I have written about how to&&#x23&#x3b;x26&#x3b;&#x23&#x3b;xc2&#x3b;&&#x23&#x3b;x26&#x3b;&#x23&#x3b;xa0&#x3b;use IP KVMs securely, and recently, researchers at Eclypsium published yet another report on IP KVM vulnerabilities.&&#x23&#x3b;x26&#x3b;&#x23&#x3b;xc2&#x3b;&&#x23&#x3b;x26&#x3b;&#x23&#x3b;xa0&#x3b;But there is another issue I haven&&#x23&#x3b;x26&#x3b;&#x23&#x3b;39&#x3b;t mentioned yet wit",
@@ -2871,7 +2878,7 @@
       "ts": 0
     },
     {
-      "id": "SANSI-381593",
+      "id": "SANSI-104074",
       "title": "ISC Stormcast For Tuesday, March 24th, 2026 https://isc.sans.edu/podcastdetail/9862, (Tue, Mar 24th)",
       "link": "https://isc.sans.edu/diary/rss/32822",
       "desc": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
@@ -2890,7 +2897,7 @@
       "ts": 0
     },
     {
-      "id": "SANSI-843379",
+      "id": "SANSI-342252",
       "title": "Tool updates: lots of security and logic fixes, (Mon, Mar 23rd)",
       "link": "https://isc.sans.edu/diary/rss/32820",
       "desc": "So, I&&#x23&#x3b;x26&#x3b;&#x23&#x3b;39&#x3b;ve been slow to get on the Claude Code/OpenCode/Codex/OpenClaw bandwagon, but I had some time last week so I asked Claude to review (/security-review) some of my python scripts. He found more than I&&#x23&#x3b;x26&#x3b;&#x23&#x3b;39&#x3b;d like to admit, so I checked in a bunch of updates. In reviewing his suggestions, he was right, I made some stupid m",
@@ -2909,7 +2916,7 @@
       "ts": 0
     },
     {
-      "id": "Schnei-76714",
+      "id": "Schnei-669350",
       "title": "Friday Squid Blogging: Bioluminescent Bacteria in Squid",
       "link": "https://www.schneier.com/blog/archives/2026/03/friday-squid-blogging-bioluminescent-bacteria-in-squid.html",
       "desc": "The Hawaiian bobtail squid has bioluminescent bacteria.",
@@ -2928,7 +2935,7 @@
       "ts": 0
     },
     {
-      "id": "Schnei-786852",
+      "id": "Schnei-236053",
       "title": "As the US Midterms Approach, AI Is Going to Emerge as a Key Issue Concerning Voters",
       "link": "https://www.schneier.com/blog/archives/2026/03/as-the-us-midterms-approach-ai-is-going-to-emerge-as-a-key-issue-concerning-voters.html",
       "desc": "In December, the Trump administration signed an executive order that neutered states&#8217; ability to regulate AI by ordering his administration to both sue and withhold funds from states that try to do so. This action pointedly supported industry lobbyists keen to avoid any constraints and consequences on their deployment of AI, while undermining the efforts of consumers, advocates, and industry",
@@ -2947,7 +2954,7 @@
       "ts": 0
     },
     {
-      "id": "Schnei-75095",
+      "id": "Schnei-415160",
       "title": "Sen. Wyden Warns of Another Section 702 Abuse",
       "link": "https://www.schneier.com/blog/archives/2026/03/sen-wyden-warns-of-another-section-702-abuse.html",
       "desc": "Sen. Ron Wyden is warning us of an abuse of Section 702:\nWyden took to the Senate floor to deliver a lengthy speech, ostensibly about the since approved (with support of many Democrats) nomination of Joshua Rudd to lead the NSA. Wyden was protesting that nomination, but in the context of Rudd being unwilling to agree to basic constitutional limitations on NSA surveillance. But that&#8217;s just a ",
@@ -2966,7 +2973,7 @@
       "ts": 0
     },
     {
-      "id": "Schnei-961131",
+      "id": "Schnei-969833",
       "title": "Team Mirai and Democracy",
       "link": "https://www.schneier.com/blog/archives/2026/03/team-mirai-and-democracy.html",
       "desc": "Japan’s election last month and the rise of the country’s newest and most innovative political party, Team Mirai, illustrates the viability of a different way to do politics.\nIn this model, technology is used to make democratic processes stronger, instead of undermining them. It is harnessed to root out corruption, instead of serving as a cash cow for campaign donations.\nImagine an election where ",
@@ -2985,7 +2992,7 @@
       "ts": 0
     },
     {
-      "id": "Schnei-408751",
+      "id": "Schnei-857173",
       "title": "Microsoft Xbox One Hacked",
       "link": "https://www.schneier.com/blog/archives/2026/03/microsoft-xbox-hacked.html",
       "desc": "It&#8217;s an impressive feat, over a decade after the box was released:\nSince reset glitching wasn&#8217;t possible, Gaasedelen thought some voltage glitching could do the trick. So, instead of tinkering with the system rest pin(s) the hacker targeted the momentary collapse of the CPU voltage rail. This was quite a feat, as Gaasedelen couldn&#8217;t &#8216;see&#8217; into the Xbox One, so had to ",
@@ -3004,7 +3011,7 @@
       "ts": 0
     },
     {
-      "id": "Schnei-920041",
+      "id": "Schnei-401283",
       "title": "Friday Squid Blogging: Jumbo Flying Squid in the South Pacific",
       "link": "https://www.schneier.com/blog/archives/2026/03/friday-squid-blogging-jumbo-flying-squid-in-the-south-pacific.html",
       "desc": "The population needs better conservation.\nAs usual, you can also use this squid post to talk about the security stories in the news that I haven&#8217;t covered.\nBlog moderation policy.",
@@ -3023,7 +3030,7 @@
       "ts": 0
     },
     {
-      "id": "Schnei-974733",
+      "id": "Schnei-868361",
       "title": "Proton Mail Shared User Information with the Police",
       "link": "https://www.schneier.com/blog/archives/2026/03/proton-mail-shared-user-information-with-the-police.html",
       "desc": "404 Media has a story about Proton Mail giving subscriber data to the Swiss government, who passed the information to the FBI.\nIt&#8217;s metadata&#8212;payment information related to a particular account&#8212;but still important knowledge. This sort of thing happens, even to privacy-centric companies like Proton Mail.",
@@ -3042,7 +3049,7 @@
       "ts": 0
     },
     {
-      "id": "Schnei-434330",
+      "id": "Schnei-368177",
       "title": "Hacking a Robot Vacuum",
       "link": "https://www.schneier.com/blog/archives/2026/03/hacking-a-robot-vacuum.html",
       "desc": "Someone tries to remote control his own DJI Romo vacuum, and ends up controlling 7,000 of them from all around the world.\nThe IoT is horribly insecure, but we already knew that.",
@@ -3061,7 +3068,7 @@
       "ts": 0
     },
     {
-      "id": "Schnei-605526",
+      "id": "Schnei-519369",
       "title": "Meta’s AI Glasses and Privacy",
       "link": "https://www.schneier.com/blog/archives/2026/03/metas-ai-glasses-and-privacy.html",
       "desc": "Surprising no one, Meta&#8217;s new AI glasses are a privacy disaster.\nI&#8217;m not sure what can be done here. This is a technology that will exist, whether we like it or not.\nMeanwhile, there is a new Android app that detects when there are smart glasses nearby.",
@@ -3080,7 +3087,7 @@
       "ts": 0
     },
     {
-      "id": "Schnei-862098",
+      "id": "Schnei-662545",
       "title": "South Korean Police Accidentally Post Cryptocurrency Wallet Password",
       "link": "https://www.schneier.com/blog/archives/2026/03/south-korean-police-accidentally-post-cryptocurrency-wallet-password.html",
       "desc": "An expensive mistake:\n\nSomeone jumped at the opportunity to steal $4.4 million in crypto assets after South Korea&#8217;s National Tax Service exposed publicly the mnemonic recovery phrase of a seized cryptocurrency wallet.\nThe funds were stored in a Ledger cold wallet seized in law enforcement raids at 124 high-value tax evaders that resulted in confiscating digital assets worth 8.1 billion won (",
@@ -3099,7 +3106,7 @@
       "ts": 0
     },
     {
-      "id": "ESETB-298135",
+      "id": "ESETB-196724",
       "title": "RSAC 2026 wrap-up – Week in security with Tony Anscombe",
       "link": "https://www.welivesecurity.com/en/videos/rsac-2026-wrap-up-week-security-tony-anscombe/",
       "desc": "This year, AI agents took the center stage – as a defensive capability, but more pressingly as a risk many organizations haven't caught up with",
@@ -3118,7 +3125,7 @@
       "ts": 0
     },
     {
-      "id": "ESETB-905539",
+      "id": "ESETB-133082",
       "title": "A cunning predator: How Silver Fox preys on Japanese firms this tax season",
       "link": "https://www.welivesecurity.com/en/business-security/cunning-predator-how-silver-fox-preys-japanese-firms-tax-season/",
       "desc": "Silver Fox is back in Japan, spoofing tax and HR emails timed to the one season when no one thinks twice about opening them",
@@ -3137,7 +3144,7 @@
       "ts": 0
     },
     {
-      "id": "ESETB-23613",
+      "id": "ESETB-458784",
       "title": "Virtual machines, virtually everywhere – and with real security gaps",
       "link": "https://www.welivesecurity.com/en/business-security/virtual-machines-virtually-everywhere-real-security-gaps/",
       "desc": "Cloud VMs offer unmatched speed, scale and flexibility – all of which could eventually count for little if they’re left to fend for themselves",
@@ -3156,7 +3163,7 @@
       "ts": 0
     },
     {
-      "id": "ESETB-425441",
+      "id": "ESETB-563639",
       "title": "Cloud workload security: Mind the gaps",
       "link": "https://www.welivesecurity.com/en/business-security/cloud-workload-security-mind-gaps/",
       "desc": "As IT infrastructure expands, visibility and control often lag behind – until an incident forces a reckoning",
@@ -3175,7 +3182,7 @@
       "ts": 0
     },
     {
-      "id": "ESETB-937010",
+      "id": "ESETB-246709",
       "title": "Move fast and save things: A quick guide to recovering a hacked account",
       "link": "https://www.welivesecurity.com/en/cybersecurity/move-fast-save-things-quick-guide-recovering-hacked-account/",
       "desc": "What you do – and how fast – after an account is compromised often matters more than it may seem",
@@ -3194,7 +3201,7 @@
       "ts": 0
     },
     {
-      "id": "ESETB-119600",
+      "id": "ESETB-438193",
       "title": "EDR killers explained: Beyond the drivers",
       "link": "https://www.welivesecurity.com/en/eset-research/edr-killers-explained-beyond-the-drivers/",
       "desc": "ESET researchers dive deeper into the EDR killer ecosystem, disclosing how attackers abuse vulnerable drivers",
@@ -3213,7 +3220,7 @@
       "ts": 0
     },
     {
-      "id": "ESETB-762172",
+      "id": "ESETB-494208",
       "title": "Face value: What it takes to fool facial recognition",
       "link": "https://www.welivesecurity.com/en/privacy/face-value-what-takes-fool-facial-recognition/",
       "desc": "ESET’s Jake Moore used smart glasses, deepfakes and face swaps to ‘hack’ widely-used facial recognition systems – and he'll demo it all at RSAC 2026",
@@ -3232,7 +3239,7 @@
       "ts": 0
     },
     {
-      "id": "ESETB-922331",
+      "id": "ESETB-349309",
       "title": "Cyber fallout from the Iran war: What to have on your radar",
       "link": "https://www.welivesecurity.com/en/business-security/cyber-fallout-iran-war-what-have-radar/",
       "desc": "The cybersecurity implications of the war in the Middle East extend far beyond the region. Here’s where to focus your defenses.",
@@ -3251,7 +3258,7 @@
       "ts": 0
     },
     {
-      "id": "ESETB-792948",
+      "id": "ESETB-601902",
       "title": "Sednit reloaded: Back in the trenches",
       "link": "https://www.welivesecurity.com/en/eset-research/sednit-reloaded-back-trenches/",
       "desc": "The resurgence of one of Russia’s most notorious APT groups",
@@ -3270,7 +3277,7 @@
       "ts": 0
     },
     {
-      "id": "ESETB-370586",
+      "id": "ESETB-249331",
       "title": "What cybersecurity actually does for your business",
       "link": "https://www.welivesecurity.com/en/business-security/what-cybersecurity-actually-does-for-your-business/",
       "desc": "The ability to continue operating safely in an unsafe environment where competitors cannot is a competitive advantage that is rarely measured or discussed",
@@ -3289,7 +3296,7 @@
       "ts": 0
     },
     {
-      "id": "ESETB-59944",
+      "id": "ESETB-972431",
       "title": "How SMBs use threat research and MDR to build a defensive edge",
       "link": "https://www.welivesecurity.com/en/business-security/how-smbs-use-threat-research-mdr-build-defensive-edge/",
       "desc": "We speak to Director of ESET Threat Research Jean-Ian Boutin about where solutions that blend advanced technology with human expertise provide the most practical value for businesses",
@@ -3308,7 +3315,7 @@
       "ts": 0
     },
     {
-      "id": "ESETB-920336",
+      "id": "ESETB-864105",
       "title": "Protecting education: How MDR can tip the balance in favor of schools",
       "link": "https://www.welivesecurity.com/en/business-security/protecting-education-how-mdr-can-tip-balance-favor-schools/",
       "desc": "The education sector is notoriously short on cash, but rich in assets for threat actors to target. How can managed detection and response (MDR) help learning institutions regain the initiative?",
@@ -3327,7 +3334,7 @@
       "ts": 0
     },
     {
-      "id": "ESETB-789112",
+      "id": "ESETB-882175",
       "title": "This month in security with Tony Anscombe – February 2026 edition",
       "link": "https://www.welivesecurity.com/en/videos/month-security-tony-anscombe-february-2026/",
       "desc": "In this roundup, Tony looks at how opportunistic threat actors are taking advantage of weak authentication, unmanaged exposure, and popular AI tools",
@@ -3346,7 +3353,7 @@
       "ts": 0
     },
     {
-      "id": "ESETB-758484",
+      "id": "ESETB-556741",
       "title": "Mobile app permissions (still) matter more than you may think",
       "link": "https://www.welivesecurity.com/en/mobile-security/mobile-app-permissions-still-matter-more-think/",
       "desc": "Start using a new app and you’ll often be asked to grant it permissions. But blindly accepting them could expose you to serious privacy and security risks.",
@@ -3365,7 +3372,7 @@
       "ts": 0
     },
     {
-      "id": "ESETB-313217",
+      "id": "ESETB-929062",
       "title": "Faking it on the phone: How to tell if a voice call is AI or not",
       "link": "https://www.welivesecurity.com/en/business-security/faking-it-phone-how-tell-voice-call-ai/",
       "desc": "Can you believe your ears? Increasingly, the answer is no. Here’s what’s at stake for your business, and how to beat the deepfakers.",
@@ -3384,7 +3391,7 @@
       "ts": 0
     },
     {
-      "id": "HaveIB-374436",
+      "id": "HaveIB-794880",
       "title": "BreachForums Version 5 - 339,778 breached accounts",
       "link": "https://haveibeenpwned.com/Breach/BreachForumsV5",
       "desc": "In March 2026, a breach of one of the many iterations of the BreachForums hacking forum known as \"Version 5\" was publicly disclosed. The incident exposed 340k unique email addresses along with usernames and argon2 password hashes.",
@@ -3403,7 +3410,7 @@
       "ts": 0
     },
     {
-      "id": "HaveIB-518182",
+      "id": "HaveIB-127472",
       "title": "Scuf Gaming - 128,683 breached accounts",
       "link": "https://haveibeenpwned.com/Breach/ScufGaming",
       "desc": "In June 2015, custom gaming controller maker Scuf Gaming suffered a data breach. The incident exposed 129k unique email addresses along with usernames, display names, IP addresses and password hashes.",
@@ -3422,7 +3429,7 @@
       "ts": 0
     },
     {
-      "id": "HaveIB-861754",
+      "id": "HaveIB-917607",
       "title": "Sound Radix - 292,993 breached accounts",
       "link": "https://haveibeenpwned.com/Breach/SoundRadix",
       "desc": "In March 2026, the audio production tools company Sound Radix disclosed a data breach that they subsequently self-submitted to HIBP. The incident impacted 293k unique email addresses and names. Sound Radix advised that it is possible that additional data including hashed passwords may have been exposed, and that no financial or credit card information was impacted.",
@@ -3441,7 +3448,7 @@
       "ts": 0
     },
     {
-      "id": "HaveIB-622498",
+      "id": "HaveIB-589238",
       "title": "RuneScape Boards - 222,762 breached accounts",
       "link": "https://haveibeenpwned.com/Breach/RSBoards",
       "desc": "In around 2011, the now defunct RuneScape Boards forum (also known as RSBoards) suffered a data breach that was later redistributed as part of a larger corpus of data. The vBulletin-based service exposed 223k unique email addresses along with usernames, IP addresses and salted MD5 password hashes.",
@@ -3460,7 +3467,7 @@
       "ts": 0
     },
     {
-      "id": "HaveIB-649773",
+      "id": "HaveIB-940651",
       "title": "Aura - 903,080 breached accounts",
       "link": "https://haveibeenpwned.com/Breach/Aura",
       "desc": "In March 2026, the online safety service Aura disclosed a data breach that exposed 900k unique email addresses. The data was primarily associated with a marketing tool from a previously acquired company, with fewer than 20k active Aura customers affected. Exposed data included names, phone numbers, physical and IP addresses, and customer service notes. Aura advised that no Social Security numbers,",
@@ -3479,7 +3486,7 @@
       "ts": 0
     },
     {
-      "id": "HaveIB-239247",
+      "id": "HaveIB-499174",
       "title": "Divine Skins - 105,814 breached accounts",
       "link": "https://haveibeenpwned.com/Breach/DivineSkins",
       "desc": "In March 2026, the League of Legends custom skins service Divine Skins suffered a data breach. The incident was disclosed via the service's Discord server, where Divine Skins stated that an unauthorised third party accessed part of its systems, deleted all skins from the database and exposed email addresses and usernames. The data also contained a history of purchases made by users.",
@@ -3498,7 +3505,7 @@
       "ts": 0
     },
     {
-      "id": "HaveIB-22501",
+      "id": "HaveIB-328443",
       "title": "Baydöner - 1,266,822 breached accounts",
       "link": "https://haveibeenpwned.com/Breach/Baydoner",
       "desc": "In March 2026, the Turkish restaurant chain Baydöner suffered a data breach which was subsequently published to a public hacking forum. The incident exposed over 1.2M unique email addresses along with names, phone numbers, cities of residence and plaintext passwords. A small number of records also included Turkish national ID number and date of birth. In their disclosure notice, Baydöner stated th",
@@ -3517,7 +3524,7 @@
       "ts": 0
     },
     {
-      "id": "HaveIB-292581",
+      "id": "HaveIB-882970",
       "title": "Provecho - 712,904 breached accounts",
       "link": "https://haveibeenpwned.com/Breach/Provecho",
       "desc": "In early 2026, data purportedly sourced from the recipe and meal planning service Provecho was alleged to have been obtained in a breach. The exposed data included 713k unique email address along with username and the creator account holders followed. Provecho has been notified and is aware of the claims surrounding the incident.",
@@ -3536,7 +3543,7 @@
       "ts": 0
     },
     {
-      "id": "HaveIB-978037",
+      "id": "HaveIB-327356",
       "title": "Lovora - 495,556 breached accounts",
       "link": "https://haveibeenpwned.com/Breach/Lovora",
       "desc": "In February 2026, the couples and relationship app Lovora allegedly suffered a data breach that exposed 496k unique email addresses. The data also included users’ display names and profile photos, along with other personal information collected through use of the app. The app’s maker, Plantake, did not respond to multiple attempts to contact them about the incident.",
@@ -3555,7 +3562,7 @@
       "ts": 0
     },
     {
-      "id": "HaveIB-663932",
+      "id": "HaveIB-29485",
       "title": "Quitbro - 22,874 breached accounts",
       "link": "https://haveibeenpwned.com/Breach/Quitbro",
       "desc": "In February 2026, the porn addiction app Quitbro allegedly suffered a data breach that exposed 23k unique email addresses. The data also included users’ years of birth, responses to questions within the app and their last recorded relapse time. The app’s maker, Plantake, did not respond to multiple attempts to contact them about the incident.",
@@ -3574,7 +3581,7 @@
       "ts": 0
     },
     {
-      "id": "HaveIB-150272",
+      "id": "HaveIB-287600",
       "title": "KomikoAI - 1,060,191 breached accounts",
       "link": "https://haveibeenpwned.com/Breach/KomikoAI",
       "desc": "In February, the AI-powered comic generation platform KomikoAI suffered a data breach. The incident exposed 1M unique email addresses along with names, user posts and the AI prompts used to generate content. The exposed data enables the mapping of individual AI prompts to specific email addresses.",
@@ -3593,7 +3600,7 @@
       "ts": 0
     },
     {
-      "id": "HaveIB-524258",
+      "id": "HaveIB-999058",
       "title": "Odido - 6,077,025 breached accounts",
       "link": "https://haveibeenpwned.com/Breach/Odido",
       "desc": "In February 2026, Dutch telco Odido was the victim of a data breach and subsequent extortion attempt. Shortly after, a total of 6M unique email addresses were published across four separate data releases over consecutive days. The exposed data includes names, physical addresses, phone numbers, bank account numbers, dates of birth, customer service notes and passport, driver’s licence and European ",
@@ -3612,7 +3619,7 @@
       "ts": 0
     },
     {
-      "id": "HaveIB-284866",
+      "id": "HaveIB-230767",
       "title": "Canadian Tire - 38,306,562 breached accounts",
       "link": "https://haveibeenpwned.com/Breach/CanadianTire",
       "desc": "In October 2025, retailer Canadian Tire was the victim of a data breach that exposed almost 42M records. The data contained 38M unique email addresses along with names, phone numbers and physical addresses. Passwords were stored as PBKDF2 hashes and for a subset of records, dates of birth and partial credit card data were also included (card type, expiry and masked card number). In its disclosure ",
@@ -3631,7 +3638,7 @@
       "ts": 0
     },
     {
-      "id": "HaveIB-449289",
+      "id": "HaveIB-452895",
       "title": "CarGurus - 12,461,887 breached accounts",
       "link": "https://haveibeenpwned.com/Breach/CarGurus",
       "desc": "In February 2026, the automotive marketplace CarGurus was the target of a data breach attributed to the threat actor ShinyHunters. Following an attempted extortion, the data was published publicly and contained more than 12M email addresses across multiple files including user account ID mappings, finance pre-qualification application data and dealer account and subscription information. Impacted ",
@@ -3650,7 +3657,7 @@
       "ts": 0
     },
     {
-      "id": "HaveIB-765133",
+      "id": "HaveIB-857644",
       "title": "CarMax - 431,371 breached accounts",
       "link": "https://haveibeenpwned.com/Breach/CarMax",
       "desc": "In January 2026, data allegedly sourced from US automotive retailer CarMax was published online following a failed extortion attempt. The data included 431k unique email addresses along with names, phone numbers and physical addresses.",
@@ -3669,7 +3676,7 @@
       "ts": 0
     },
     {
-      "id": "r/nets-945604",
+      "id": "r/nets-665230",
       "title": "/r/netsec's Q1 2026 Information Security Hiring Thread",
       "link": "https://www.reddit.com/r/netsec/comments/1qn22ig/rnetsecs_q1_2026_information_security_hiring/",
       "desc": "Overview If you have open positions at your company for information security professionals and would like to hire from the /r/netsec user base, please leave a comment detailing any open job listings at your company. We would also like to encourage you to post internship positions as well. Many of our readers are currently in school or are just finishing their education. Please reserve top level co",
@@ -3688,7 +3695,7 @@
       "ts": 0
     },
     {
-      "id": "r/nets-375527",
+      "id": "r/nets-65873",
       "title": "r/netsec monthly discussion & tool thread",
       "link": "https://www.reddit.com/r/netsec/comments/1rhyn04/rnetsec_monthly_discussion_tool_thread/",
       "desc": "Questions regarding netsec and discussion related directly to netsec are welcome here, as is sharing tool links. Rules &amp; Guidelines  Always maintain civil discourse. Be awesome to one another - moderator intervention will occur if necessary. Avoid NSFW content unless absolutely necessary. If used, mark it as being NSFW. If left unmarked, the comment will be removed entirely. If linking to clas",
@@ -3707,7 +3714,7 @@
       "ts": 0
     },
     {
-      "id": "r/nets-760945",
+      "id": "r/nets-787149",
       "title": "Telnyx package on PyPI compromised by TeamPCP. WAV steganography used for payload delivery",
       "link": "https://www.reddit.com/r/netsec/comments/1s5qot0/telnyx_package_on_pypi_compromised_by_teampcp_wav/",
       "desc": "Malicious versions of the telnyx Python SDK (4.87.1, 4.87.2) were uploaded to PyPI. Code executes directly on import. It works cross-platform. Delivery method is the interesting part. The package fetches a .wav file from C2, reads frame data, base64-decodes it, then XORs using the first few bytes as key to reconstruct the payload. File is valid audio, so it blends in and its pretty hard to detect ",
@@ -3726,7 +3733,7 @@
       "ts": 0
     },
     {
-      "id": "r/nets-560761",
+      "id": "r/nets-927459",
       "title": "TeamPCP strikes again - telnyx popular PyPI library compromised",
       "link": "https://www.reddit.com/r/netsec/comments/1s52kq7/teampcp_strikes_again_telnyx_popular_pypi_library/",
       "desc": "&#32; submitted by &#32;  /u/SRMish3   [link] &#32; [comments]",
@@ -3745,7 +3752,7 @@
       "ts": 0
     },
     {
-      "id": "r/nets-912062",
+      "id": "r/nets-412695",
       "title": "Title: Roast my resume– Security Analyst",
       "link": "https://www.reddit.com/r/netsec/comments/1s5u3u0/title_roast_my_resume_security_analyst/",
       "desc": "&#x200b; Hey all, I’m currently a Cybersecurity Analyst (banking) with ~1 year experience (intern → full-time), working on detection engineering, DLP (Netskope), and threat modeling. Highlight: - Discovered a DLP bypass using PNG + PPTX file nesting (recursion depth limitation) - Proposed detections across SentinelOne + Netskope, including metadata anomaly rules Also built a real-time network thre",
@@ -3764,7 +3771,7 @@
       "ts": 0
     },
     {
-      "id": "r/nets-434649",
+      "id": "r/nets-758963",
       "title": "Microsoft Entra OAuth Consent Grant Attack Simulation in the PhishU Framework",
       "link": "https://www.reddit.com/r/netsec/comments/1s5m4r4/microsoft_entra_oauth_consent_grant_attack/",
       "desc": "The PhishU Framework is doing something most phishing platforms are not: built-in Microsoft Entra OAuth Consent Grant phishing simulation. This is not just credential capture. It is delegated access abuse through a real Microsoft consent flow, which makes it a very different risk story. Passwords can be reset. OAuth grants can keep working until they are explicitly revoked. What stands out is how ",
@@ -3783,7 +3790,7 @@
       "ts": 0
     },
     {
-      "id": "r/nets-709549",
+      "id": "r/nets-934710",
       "title": "Transparent AiTM Proxying in the PhishU Framework",
       "link": "https://www.reddit.com/r/netsec/comments/1s5m3hb/transparent_aitm_proxying_in_the_phishu_framework/",
       "desc": "The PhishU Framework is the closest thing to a phishing kit while still being built for authorized, legal use. It is not just another awareness platform. It gives operators a web interface to launch realistic phishing workflows, including MiTM/AiTM transparent proxy campaigns, without the usual pain of standing up and managing everything manually. That is where it differs from something like Evilg",
@@ -3802,7 +3809,7 @@
       "ts": 0
     },
     {
-      "id": "r/nets-460485",
+      "id": "r/nets-660619",
       "title": "Abusing Modern Browser Features for Phishing",
       "link": "https://www.reddit.com/r/netsec/comments/1s4zk4v/abusing_modern_browser_features_for_phishing/",
       "desc": "&#32; submitted by &#32;  /u/s3curi1y_by_d3s1gn   [link] &#32; [comments]",
@@ -3821,7 +3828,7 @@
       "ts": 0
     },
     {
-      "id": "r/nets-757052",
+      "id": "r/nets-109125",
       "title": "Testing AprielGuard Against 1,500 Adversarial Attacks",
       "link": "https://www.reddit.com/r/netsec/comments/1s51ac8/testing_aprielguard_against_1500_adversarial/",
       "desc": "&#32; submitted by &#32;  /u/RasheedaDeals   [link] &#32; [comments]",
@@ -3840,7 +3847,7 @@
       "ts": 0
     },
     {
-      "id": "r/nets-787041",
+      "id": "r/nets-791896",
       "title": "DVRTC: intentionally vulnerable VoIP/WebRTC lab with SIP enumeration, RTP bleed, TURN abuse, and credential cracking exercises",
       "link": "https://www.reddit.com/r/netsec/comments/1s506og/dvrtc_intentionally_vulnerable_voipwebrtc_lab/",
       "desc": "Author here. DVRTC is our attempt to fill a gap that's been there for a while: web app security has DVWA and friends, but there's been nothing equivalent for VoIP and WebRTC attack techniques. The first scenario (pbx1) deploys a full stack — Kamailio as the SIP proxy, Asterisk as the back-end PBX, rtpengine for media, coturn for TURN/STUN — with each component configured to exhibit specific vulner",
@@ -3859,7 +3866,7 @@
       "ts": 0
     },
     {
-      "id": "r/nets-135311",
+      "id": "r/nets-464466",
       "title": "Disabling Security Features in a Locked BIOS",
       "link": "https://www.reddit.com/r/netsec/comments/1s4l9k8/disabling_security_features_in_a_locked_bios/",
       "desc": "&#32; submitted by &#32;  /u/AlmondOffSec   [link] &#32; [comments]",
@@ -3878,7 +3885,7 @@
       "ts": 0
     },
     {
-      "id": "r/nets-444766",
+      "id": "r/nets-76546",
       "title": "Making NTLM-Relaying Relevant Again by Attacking Web Servers with WebRelayX",
       "link": "https://www.reddit.com/r/netsec/comments/1s46mif/making_ntlmrelaying_relevant_again_by_attacking/",
       "desc": "NTLM-Relaying has been proclaimed dead a number of times, signing requirements for SMB and LDAP make it nearly impossible to use captured NTLM authentications anymore. However, it is still possible to relay to many webservers that do not enforce Extended Protection for Authentication (not just ADCS / ESC8).  &#32; submitted by &#32;  /u/seccore_gmbh   [link] &#32; [comments]",
@@ -3897,7 +3904,7 @@
       "ts": 0
     },
     {
-      "id": "r/nets-7551",
+      "id": "r/nets-614696",
       "title": "Magento PolyShell – Unauthenticated File Upload to RCE in Magento (APSB25-94)",
       "link": "https://www.reddit.com/r/netsec/comments/1s42kqx/magento_polyshell_unauthenticated_file_upload_to/",
       "desc": "&#32; submitted by &#32;  /u/Mempodipper   [link] &#32; [comments]",
@@ -3916,7 +3923,7 @@
       "ts": 0
     },
     {
-      "id": "r/nets-885952",
+      "id": "r/nets-792436",
       "title": "Dangerous by Default: What OpenClaw CVE Record Tells Us About Agentic AI",
       "link": "https://www.reddit.com/r/netsec/comments/1s3vnpm/dangerous_by_default_what_openclaw_cve_record/",
       "desc": "&#32; submitted by &#32;  /u/pi3ch   [link] &#32; [comments]",
@@ -3935,7 +3942,7 @@
       "ts": 0
     },
     {
-      "id": "r/nets-401152",
+      "id": "r/nets-441506",
       "title": "Common Entra ID Security Assessment Findings – Part 1: Foreign Enterprise Applications With Privileged API Permissions",
       "link": "https://www.reddit.com/r/netsec/comments/1s42dm4/common_entra_id_security_assessment_findings_part/",
       "desc": "&#32; submitted by &#32;  /u/GonzoZH   [link] &#32; [comments]",
@@ -3954,7 +3961,7 @@
       "ts": 0
     },
     {
-      "id": "r/Pent-229717",
+      "id": "r/Pent-387962",
       "title": "moderation update",
       "link": "https://www.reddit.com/r/Pentesting/comments/1r6rrpi/moderation_update/",
       "desc": "hello, the subreddit has been not properly moderated for a few months now, obviously this leads to people not adhering to the rules, and an unhealthy community and also a chance of our subreddit getting banned, which harms all of us. this is why, i request you all, to follow the rules. the moderation team has been regaining consciousness and would be moderating the subreddit more frequently. you c",
@@ -3973,7 +3980,7 @@
       "ts": 0
     },
     {
-      "id": "r/Pent-321900",
+      "id": "r/Pent-625626",
       "title": "Questions about a Junior Penetration Tester entry exam",
       "link": "https://www.reddit.com/r/Pentesting/comments/1s5uub8/questions_about_a_junior_penetration_tester_entry/",
       "desc": "I have applied for a few entry level Penetration Tester positions recently having never worked in the industry before. I have pretty good knowledge of ethical hacking and I’ve got some certifications too. However, this particular company wants to not only interview me but get me to sit an entry exam. All I know about the test is that it will be both ‘knowledge AND performance based’ questions. I a",
@@ -3992,7 +3999,7 @@
       "ts": 0
     },
     {
-      "id": "r/Pent-153689",
+      "id": "r/Pent-986026",
       "title": "First interview for Cybersecurity!!",
       "link": "https://www.reddit.com/r/Pentesting/comments/1s5a2uv/first_interview_for_cybersecurity/",
       "desc": "Hi everyone, I’ve got my first interview coming up for a Junior Cybersecurity Engineer role. It’s a 30-minute call, described as more of a “get to know you” session to learn about my background and experience. The role seems quite penetration-testing focused, working on finding vulnerabilities and testing security systems. Has anyone interviewed for a similar junior pen-test position? What kind of",
@@ -4011,7 +4018,7 @@
       "ts": 0
     },
     {
-      "id": "r/Pent-817553",
+      "id": "r/Pent-354305",
       "title": "M4 -M5 For Pentesting / RedTeaming + Compatibility",
       "link": "https://www.reddit.com/r/Pentesting/comments/1s5gjcq/m4_m5_for_pentesting_redteaming_compatibility/",
       "desc": "Hi all, hope everyone is doing well! I have a question that's been bugging me. I thought it would be straightforward, but the more I dig into it, the less certain I am, so I'd really appreciate some input. I currently use a Windows-based machine for work, but the battery life is poor. The work-provided laptops are even worse, but also with the performace. Honestly, not worth considering. So my pla",
@@ -4030,7 +4037,7 @@
       "ts": 0
     },
     {
-      "id": "r/Pent-133159",
+      "id": "r/Pent-504539",
       "title": "Reflecting on RSAC 2026 - Is Agentic Pentesting, just VA on steroids?",
       "link": "https://www.reddit.com/r/Pentesting/comments/1s4filz/reflecting_on_rsac_2026_is_agentic_pentesting/",
       "desc": "Just got back from RSA Conference 2026 and spent some time checking out the “agentic pentesting” vendors like XBOW. I asked their technical person a simple question. How does your platform handle broken access control vulnerabilities? In 10 plus years of pentesting, this is the most common issue we see across apps and APIs. Vertical and horizontal access control flaws are everywhere and usually ti",
@@ -4049,7 +4056,7 @@
       "ts": 0
     },
     {
-      "id": "r/Pent-306946",
+      "id": "r/Pent-728150",
       "title": "First Pentest contract. Also first Pentest. Advice?",
       "link": "https://www.reddit.com/r/Pentesting/comments/1s4hd42/first_pentest_contract_also_first_pentest_advice/",
       "desc": "Hi all. Seeking advice here: My career thus far has been blue team SecOps / Vulnerability Management —-&gt; Cyber Threat Intelligence. I work for a large MSSP providing CTI consultancy to some incredibly large orgs.  2 months ago I achieved my OSCP. That being the catalyst for present day, I recently was contacted by a past colleague to do some part time AppSec/DAST work for the mid size SaaS comp",
@@ -4068,7 +4075,7 @@
       "ts": 0
     },
     {
-      "id": "r/Pent-657805",
+      "id": "r/Pent-847234",
       "title": "Wordlists",
       "link": "https://www.reddit.com/r/Pentesting/comments/1s4jbhr/wordlists/",
       "desc": "what are your go to wordlists during pentests?  as real security assessments are quite different from CTF style. seclist rockyou etc are often not the most efficient fit.  &#32; submitted by &#32;  /u/Open-Papaya-2703   [link] &#32; [comments]",
@@ -4087,7 +4094,7 @@
       "ts": 0
     },
     {
-      "id": "r/Pent-417058",
+      "id": "r/Pent-89839",
       "title": "Social Engineering & OSINT Conference",
       "link": "https://www.reddit.com/r/Pentesting/comments/1s4ht0t/social_engineering_osint_conference/",
       "desc": "Have you heard about the Layer 8 Conference? It even has a podcast too! The topics covered are just social engineering and OSINT. So phishing, vishing, smishing, covert entry as well as investigations and tool talk and methodology. So it's all about different aspects of pentesting. This year will be the sixth edition of the Layer 8 Conference, happening June 5-6 in Boston, MA. https://layer8confer",
@@ -4106,7 +4113,7 @@
       "ts": 0
     },
     {
-      "id": "r/Pent-536696",
+      "id": "r/Pent-184529",
       "title": "Stuck on backbase SSL Pinning (android)",
       "link": "https://www.reddit.com/r/Pentesting/comments/1s4hlsy/stuck_on_backbase_ssl_pinning_android/",
       "desc": "Did anyone have any luck bypassing backbase SSL pinning on android? I tried multiple methods however the app has root, emulator, frida and debug detection, and doesn’t trust user CA, the app is heavily obfuscated and manually reversing and rebuilding wasted my time. Any suggestions?   &#32; submitted by &#32;  /u/Responsible_Set_4146   [link] &#32; [comments]",
@@ -4125,7 +4132,7 @@
       "ts": 0
     },
     {
-      "id": "r/Pent-555495",
+      "id": "r/Pent-416923",
       "title": "Anyone who's been in pentesting for a while starting to think about what the next few years actually look like for the role?",
       "link": "https://www.reddit.com/r/Pentesting/comments/1s48p2b/anyone_whos_been_in_pentesting_for_a_while/",
       "desc": "Been doing pentesting and red team work for about seven years. Enjoy the work, good at it, not looking to leave. But I've been paying closer attention to where the market is heading and some of the data is interesting enough that I think it's worth talking about honestly. The pentesting market itself is growing, global market projected from $2.74 billion in 2025 to $7.41 billion by 2034. That soun",
@@ -4144,7 +4151,7 @@
       "ts": 0
     },
     {
-      "id": "r/Pent-569567",
+      "id": "r/Pent-26627",
       "title": "Agentic AI vs Manual Pentesting - Ground Reality",
       "link": "https://www.reddit.com/r/Pentesting/comments/1s4aw51/agentic_ai_vs_manual_pentesting_ground_reality/",
       "desc": "Curious - are you seeing real impact from AI in pentesting, or just more noise?  &#32; submitted by &#32;  /u/Bugclliper   [link] &#32; [comments]",
@@ -4163,7 +4170,7 @@
       "ts": 0
     },
     {
-      "id": "r/Pent-590666",
+      "id": "r/Pent-136051",
       "title": "Is it possible for a fresher to get into infra security without knowing web at all?",
       "link": "https://www.reddit.com/r/Pentesting/comments/1s478e8/is_it_possible_for_a_fresher_to_get_into_infra/",
       "desc": "Hey, I'm a fresher, recently graduated (CS degree). For your context I'm having a decent knowledge about Administering systems, networks , cloud, AI. I can pentest networks, AD, cloud , AI. I have just started learning about exploit development. Certifications: eJPT, RHCSA, CCNA, AZ-800,801. I was just seeing the job market. Is it actually possible to get in as a infra security guy as a fresher wi",
@@ -4182,7 +4189,7 @@
       "ts": 0
     },
     {
-      "id": "r/Pent-808293",
+      "id": "r/Pent-662291",
       "title": "Thought about C2 redirector: hosting, costs, opsec...",
       "link": "https://www.reddit.com/r/Pentesting/comments/1s44dt9/thought_about_c2_redirector_hosting_costs_opsec/",
       "desc": "Hello there! So I am thinking about my C2 infra and how to improve it, and the redirector came into my mind as it is the most exposed and prone to be blacklisted component. Some context. In my previous missions, I had good experience with AWS lightsail. Basically I have an instance with a web server. This is the last configured redirector of the chain. I turn it off when not used. Let's talk about",
@@ -4201,7 +4208,7 @@
       "ts": 0
     },
     {
-      "id": "r/Pent-756914",
+      "id": "r/Pent-152770",
       "title": "Krb5RoastParser: extract AS-REQ / AS-REP / TGS-REP Kerberos hashes from PCAP for labs and AD practice",
       "link": "https://www.reddit.com/r/Pentesting/comments/1s2p6fi/krb5roastparser_extract_asreq_asrep_tgsrep/",
       "desc": "Hey, I built a small Python tool that parses Kerberos traffic from PCAP files and extracts AS-REQ, AS-REP and TGS-REP data into Hashcat-compatible hashes. It uses tshark underneath, so the idea is basically to make it easier to go from captured Kerberos traffic to something usable in AD labs or pentest workflows without having to manually pull fields out of Wireshark. I made it mainly for lab/rese",
@@ -4220,7 +4227,7 @@
       "ts": 0
     },
     {
-      "id": "r/Pent-596078",
+      "id": "r/Pent-551913",
       "title": "Resume review from some of the more senior pentesters please? On the lookout for remote jobs.",
       "link": "https://www.reddit.com/r/Pentesting/comments/1s1qb26/resume_review_from_some_of_the_more_senior/",
       "desc": "&#32; submitted by &#32;  /u/ApprehensiveSkirt910   [link] &#32; [comments]",
@@ -4239,7 +4246,7 @@
       "ts": 0
     },
     {
-      "id": "r/redt-203282",
+      "id": "r/redt-790332",
       "title": "/r/AskRedTeamSec",
       "link": "https://www.reddit.com/r/redteamsec/comments/aoey7f/raskredteamsec/",
       "desc": "We've recently had a few questions posted, so I've created a new subreddit /r/AskRedTeamSec where these can live. Feel free to ask any Red Team related questions there.  &#32; submitted by &#32;  /u/dmchell   [link] &#32; [comments]",
@@ -4258,7 +4265,7 @@
       "ts": 0
     },
     {
-      "id": "r/redt-297892",
+      "id": "r/redt-262445",
       "title": "KrakenHashes v2.0.0 Release!!!",
       "link": "https://www.reddit.com/r/redteamsec/comments/1s52e0r/krakenhashes_v200_release/",
       "desc": "KrakenHashes v2.0.0 Released After 6 months of development, 194 commits, and 18 intermediate releases, KrakenHashes v2.0.0 is officially here. What's new since v1.0.0: Multi-Team Support — Teams can now operate independently with their own agents, clients, hashlists, and jobs. Full access control ensures team isolation while admins maintain oversight. Enterprise Authentication — SSO via LDAP, SAML",
@@ -4277,7 +4284,7 @@
       "ts": 0
     },
     {
-      "id": "r/redt-398441",
+      "id": "r/redt-512522",
       "title": "Making NTLM-Relaying Relevant Again by Attacking Web Servers with WebRelayX",
       "link": "https://www.reddit.com/r/redteamsec/comments/1s46tt8/making_ntlmrelaying_relevant_again_by_attacking/",
       "desc": "&#32; submitted by &#32;  /u/seccore_gmbh   [link] &#32; [comments]",
@@ -4296,7 +4303,7 @@
       "ts": 0
     },
     {
-      "id": "r/redt-878445",
+      "id": "r/redt-126478",
       "title": "Standalone Method 59 (APPINFO) UAC Bypass Ported from UACME",
       "link": "https://www.reddit.com/r/redteamsec/comments/1s41ts6/standalone_method_59_appinfo_uac_bypass_ported/",
       "desc": "&#32; submitted by &#32;  /u/cybermepls   [link] &#32; [comments]",
@@ -4315,7 +4322,7 @@
       "ts": 0
     },
     {
-      "id": "r/redt-628867",
+      "id": "r/redt-552718",
       "title": "Weaponizing Windows Toast Notifications for Social Engineering",
       "link": "https://www.reddit.com/r/redteamsec/comments/1s3f6pe/weaponizing_windows_toast_notifications_for/",
       "desc": "&#32; submitted by &#32;  /u/netbiosX   [link] &#32; [comments]",
@@ -4334,7 +4341,7 @@
       "ts": 0
     },
     {
-      "id": "r/redt-770358",
+      "id": "r/redt-514654",
       "title": "Kamasers Analysis: A Multi-Vector DDoS Botnet",
       "link": "https://www.reddit.com/r/redteamsec/comments/1s37vvh/kamasers_analysis_a_multivector_ddos_botnet/",
       "desc": "Kamasers is a sophisticated DDoS botnet that supports both application-layer and transport-layer attacks, including HTTP, TLS, UDP, TCP, and GraphQL-based flooding.  The malware can also act as a loader, downloading and executing additional payloads, which raises the risk of further compromise, data theft, and ransomware deployment. Its C2 infrastructure is resilient, using a Dead Drop Resolver (D",
@@ -4353,7 +4360,7 @@
       "ts": 0
     },
     {
-      "id": "r/redt-647361",
+      "id": "r/redt-44615",
       "title": "Krb5RoastParser: open-source Python tool for parsing Kerberos traffic from PCAP files",
       "link": "https://www.reddit.com/r/redteamsec/comments/1s2p167/krb5roastparser_opensource_python_tool_for/",
       "desc": "Hi all, I built a small open-source Python tool that parses Kerberos authentication traffic from .pcap files and extracts useful data from:  AS-REQ AS-REP TGS-REP  The main idea is to reduce the amount of manual work needed when reviewing Kerberos captures in Wireshark or tshark during lab exercises, protocol analysis, and authorized security assessments. It’s a lightweight CLI tool, currently foc",
@@ -4372,7 +4379,7 @@
       "ts": 0
     },
     {
-      "id": "r/redt-567543",
+      "id": "r/redt-890389",
       "title": "Bypassing Windows EDR's with Telegram bot and Telegram itself as C2",
       "link": "https://www.reddit.com/r/redteamsec/comments/1s2fc0g/bypassing_windows_edrs_with_telegram_bot_and/",
       "desc": "Hi everyone, since the past 4 month i was working on ways to defeat windows EDR's using simple script and legitimate web trafic; so i endup with this tool lol !  &#32; submitted by &#32;  /u/Sensitive_Lawyer6040   [link] &#32; [comments]",
@@ -4391,7 +4398,7 @@
       "ts": 0
     },
     {
-      "id": "r/redt-37469",
+      "id": "r/redt-124370",
       "title": "Re-Engineering Pytune - Rogue devices in the age of conditional access",
       "link": "https://www.reddit.com/r/redteamsec/comments/1s2qotf/reengineering_pytune_rogue_devices_in_the_age_of/",
       "desc": "https://stra-x.github.io/Re-Engineering-Pytune-Rogue-devices-in-the-age-of-conditional-access https://stra-x.github.io/Re-Engineering-Pytune-Rogue-devices-in-the-age-of-conditional-access-pt-2 https://github.com/Stra-x/OutOfTune  &#32; submitted by &#32;  /u/blurry_face-   [link] &#32; [comments]",
@@ -4410,7 +4417,7 @@
       "ts": 0
     },
     {
-      "id": "r/redt-689706",
+      "id": "r/redt-256240",
       "title": "Every Sliver C2 Tutorial Was Outdated. So I Wrote My Own",
       "link": "https://www.reddit.com/r/redteamsec/comments/1s26vw2/every_sliver_c2_tutorial_was_outdated_so_i_wrote/",
       "desc": "i tried multiple Sliver C2 setups and every time something breaks and i don’t know why, then again back to google same issues again and again so this time i stopped following random guides and just built it myself and documented everything including the errors if you are still stuck setting up sliver C2 this might actually help you :)  &#32; submitted by &#32;  /u/Ok-Werewolf-2080   [link] &#32; [",
@@ -4429,7 +4436,7 @@
       "ts": 0
     },
     {
-      "id": "r/redt-384644",
+      "id": "r/redt-448937",
       "title": "I made a stealthy JITD shellcode loader that I want to share with you",
       "link": "https://www.reddit.com/r/redteamsec/comments/1s19ota/i_made_a_stealthy_jitd_shellcode_loader_that_i/",
       "desc": "I made a shellcode loader to have an interesting project to learn c and windows API. I noticed that the results werent that bad so maybe someone here gets some use out of my work and also can learn something. Some Features  JIT Decryption of the shellcode avoiding AV detection of the payload Obfuscation of suspicious strings Dynamic loading of suspicious libraries Shellcode execution using fibers ",
@@ -4448,7 +4455,7 @@
       "ts": 0
     },
     {
-      "id": "r/redt-723403",
+      "id": "r/redt-933619",
       "title": "I built a free subdomain enumeration tool with takeover detection, port scanning, and screenshots",
       "link": "https://www.reddit.com/r/redteamsec/comments/1s1bwr1/i_built_a_free_subdomain_enumeration_tool_with/",
       "desc": "I've tried a lot of subdomain enumeration tools over the years, both online and CLI based. Most of them rely on a single technique or just a handful of passive sources, and in my experience they miss a ton of subdomains. I wanted a tool that actually finds most of them, so I built SubAnalyzer. You can scan any domain for free without signing up. What a scan does: Instead of relying on one method, ",
@@ -4467,7 +4474,7 @@
       "ts": 0
     },
     {
-      "id": "r/redt-888092",
+      "id": "r/redt-317837",
       "title": "open sourced our security automation platform (temporal-backed, self-hosted, apache 2.0) + main platform is fully free",
       "link": "https://www.reddit.com/r/redteamsec/comments/1s1hq7b/open_sourced_our_security_automation_platform/",
       "desc": "two things: shipsec studio is open source now. visual workflow builder for security automation built on temporal.io. isolated container execution per run, real-time telemetry via SSE, pre-built components for subdomain discovery, vuln scanning, secrets detection. your data, your infra, docker compose in like 5 minutes. the main shipsec platform is also fully free. SAST, secrets detection, dep scan",
@@ -4486,7 +4493,7 @@
       "ts": 0
     },
     {
-      "id": "r/redt-8118",
+      "id": "r/redt-547530",
       "title": "They wanted to put AI to the test. They created agents of chaos.",
       "link": "https://www.reddit.com/r/redteamsec/comments/1s1hhnh/they_wanted_to_put_ai_to_the_test_they_created/",
       "desc": "Researchers at Northeastern University recently ran a two-week experiment where six autonomous AI agents were given control of virtual machines and email accounts. The bots quickly turned into agents of chaos. They leaked private info, taught each other how to bypass rules, and one even tried to delete an entire email server just to hide a single password.  &#32; submitted by &#32;  /u/EchoOfOppen",
@@ -4505,7 +4512,7 @@
       "ts": 0
     },
     {
-      "id": "r/redt-330995",
+      "id": "r/redt-649945",
       "title": "Free course covering WPA Enterprise rogue AP attack — hostapd-mana, EAP-PEAP, MSCHAPv2 cracking with asleap",
       "link": "https://www.reddit.com/r/redteamsec/comments/1s0m7ea/free_course_covering_wpa_enterprise_rogue_ap/",
       "desc": "Sharing this for the WPA Enterprise section specifically. Free OSWP course on YouTube that covers the full enterprise wireless attack chain — hostapd-mana rogue AP, capturing EAP-PEAP credentials, cracking MSCHAPv2 with asleap and john. Also covers WEP and WPA2 PMKID for completeness. Free Kali OVA included with target networks pre-built. Useful reference for wireless engagements even if you’re no",
@@ -4524,7 +4531,7 @@
       "ts": 0
     },
     {
-      "id": "r/cybe-9261",
+      "id": "r/cybe-891688",
       "title": "Mentorship Monday - Post All Career, Education and Job questions here!",
       "link": "https://www.reddit.com/r/cybersecurity/comments/1s11jhv/mentorship_monday_post_all_career_education_and/",
       "desc": "This is the weekly thread for career and education questions and advice. There are no stupid questions; so, what do you want to know about certs/degrees, job requirements, and any other general cybersecurity career questions? Ask away! Interested in what other people are asking, or think your question has been asked before? Have a look through prior weeks of content - though we're working on makin",
@@ -4543,7 +4550,7 @@
       "ts": 0
     },
     {
-      "id": "r/cybe-282927",
+      "id": "r/cybe-611802",
       "title": "I’m a cybersecurity and insider threat investigator focused on DPRK APTs and remote workers. AMA",
       "link": "https://www.reddit.com/r/cybersecurity/comments/1rq30hj/im_a_cybersecurity_and_insider_threat/",
       "desc": "I’m Michael Barnhart. I work in insider-threat investigations and spend most of my time tracking adversaries who operate from inside corporate networks using legitimate credentials. Over the last year, a big part of my work has focused on DPRK remote IT worker operations. This is where North Korean operators get hired into real engineering, IT, and DevOps roles using stolen or synthetic identities",
@@ -4562,7 +4569,7 @@
       "ts": 0
     },
     {
-      "id": "r/cybe-131518",
+      "id": "r/cybe-457827",
       "title": "Security leaders say the next two years are going to be 'insane'",
       "link": "https://www.reddit.com/r/cybersecurity/comments/1s5atlm/security_leaders_say_the_next_two_years_are_going/",
       "desc": "&#32; submitted by &#32;  /u/drewchainzz   [link] &#32; [comments]",
@@ -4581,26 +4588,7 @@
       "ts": 0
     },
     {
-      "id": "r/cybe-529747",
-      "title": "Iran-linked hackers breach FBI director's personal email, publish excerpts online",
-      "link": "https://www.reddit.com/r/cybersecurity/comments/1s56ow9/iranlinked_hackers_breach_fbi_directors_personal/",
-      "desc": "&#32; submitted by &#32;  /u/AsterPrivacy   [link] &#32; [comments]",
-      "pubDate": "2026-03-27T15:04:57+00:00",
-      "source": "r/cybersecurity",
-      "cat": "community",
-      "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "r/cybe-488737",
+      "id": "r/cybe-226154",
       "title": "Increased frequency of clickfix attacks in corporate environments",
       "link": "https://www.reddit.com/r/cybersecurity/comments/1s5s8dg/increased_frequency_of_clickfix_attacks_in/",
       "desc": "I work at a mid-size food company with a somewhat decent security stack that has some decent detection engineering foundations and a pretty well-set up EDR environment. lately, an observation I have seen is the increased presence of ClickFix attacks, specifically targeted against mac users. For confidentiality of business purposes, I cannot go into too much detail or name specific domains, but I c",
@@ -4619,7 +4607,26 @@
       "ts": 0
     },
     {
-      "id": "r/cybe-540783",
+      "id": "r/cybe-763111",
+      "title": "Iran-linked hackers breach FBI director's personal email, publish excerpts online",
+      "link": "https://www.reddit.com/r/cybersecurity/comments/1s56ow9/iranlinked_hackers_breach_fbi_directors_personal/",
+      "desc": "&#32; submitted by &#32;  /u/AsterPrivacy   [link] &#32; [comments]",
+      "pubDate": "2026-03-27T15:04:57+00:00",
+      "source": "r/cybersecurity",
+      "cat": "community",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "r/cybe-320348",
       "title": "Anthropic Claude Mythos - new model leak and implications",
       "link": "https://www.reddit.com/r/cybersecurity/comments/1s5by9i/anthropic_claude_mythos_new_model_leak_and/",
       "desc": "This news in my view is highly significant. The documents leaked from Anthropic's CMS state, &quot;Mythos presages an upcoming wave of models that can exploit vulnerabilities in ways that far exceed the efforts of defenders.&quot; That should pretty much sound the death knell for SAST companies, maybe even automated pen-test companies. Claude Opus was itself doing a very effective job at automatin",
@@ -4638,7 +4645,7 @@
       "ts": 0
     },
     {
-      "id": "r/cybe-554108",
+      "id": "r/cybe-632722",
       "title": "Anybody else struggling?",
       "link": "https://www.reddit.com/r/cybersecurity/comments/1s54mkm/anybody_else_struggling/",
       "desc": "My organization is letting us use Claude code now but we also use GitHub Copilot. Right now the threat from a security perspective is that while the agents and AI code increase speed of development they leave behind tons of security vulnerabilities.  Is anybody else seeing same problem when developing with AI and Agents? How are you guys solving it?  &#32; submitted by &#32;  /u/triangle-north   [",
@@ -4657,26 +4664,7 @@
       "ts": 0
     },
     {
-      "id": "r/cybe-649203",
-      "title": "MCP (Model Context Protocol) is moving fast — and so are the attackers.",
-      "link": "https://www.reddit.com/r/cybersecurity/comments/1s5vvhy/mcp_model_context_protocol_is_moving_fast_and_so/",
-      "desc": "Here is a deep-dive on what real MCP security looks like in 2026: not theory, but actual CVE patterns, exploit chains, and how to build policy-as-code defenses for AI tool infrastructure. What's inside: → Real CVEs targeting MCP servers and tool registries → How exploit chains move from prompt injection → tool abuse → lateral movement → Rego/OPA controls you can drop into your CSPM stack today → W",
-      "pubDate": "2026-03-28T09:32:03+00:00",
-      "source": "r/cybersecurity",
-      "cat": "community",
-      "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "r/cybe-740694",
+      "id": "r/cybe-847078",
       "title": "Enforce RBAC with PAM",
       "link": "https://www.reddit.com/r/cybersecurity/comments/1s5oy4j/enforce_rbac_with_pam/",
       "desc": "Hello all Hello All We are currently refining PAM strategy and I’m struggling with the best way to design and enforce RBAC for vaulted accounts. Currently, Delinea PAM solution is working great at rotating credentials and managing sessions. I’d love to hear you are handling this. Specifically:  How do you define roles in your PAM tool are they mapped 1:1 to job titles, business functions, or somet",
@@ -4695,14 +4683,14 @@
       "ts": 0
     },
     {
-      "id": "r/cybe-389116",
-      "title": "TeamPCP strikes again - telnyx 4.87.1 and 4.87.2 on PyPI are malicious",
-      "link": "https://www.reddit.com/r/cybersecurity/comments/1s4zpwi/teampcp_strikes_again_telnyx_4871_and_4872_on/",
-      "desc": "Same actor, same RSA key, same tpcp.tar.gz exfiltration header as the litellm compromise last week. This time they injected into telnyx/_client.py - triggers on import telnyx, no user interaction needed. New trick: payload is hidden inside WAV audio files using steganography to bypass network inspection. On Linux/macOS: steals credentials, encrypts with AES-256 + RSA-4096, exfiltrates to their C2.",
-      "pubDate": "2026-03-27T09:55:48+00:00",
+      "id": "r/cybe-704381",
+      "title": "MCP (Model Context Protocol) is moving fast — and so are the attackers.",
+      "link": "https://www.reddit.com/r/cybersecurity/comments/1s5vvhy/mcp_model_context_protocol_is_moving_fast_and_so/",
+      "desc": "Here is a deep-dive on what real MCP security looks like in 2026: not theory, but actual CVE patterns, exploit chains, and how to build policy-as-code defenses for AI tool infrastructure. What's inside: → Real CVEs targeting MCP servers and tool registries → How exploit chains move from prompt injection → tool abuse → lateral movement → Rego/OPA controls you can drop into your CSPM stack today → W",
+      "pubDate": "2026-03-28T09:32:03+00:00",
       "source": "r/cybersecurity",
       "cat": "community",
-      "sev": "medium",
+      "sev": "high",
       "tags": [],
       "iocs": {
         "cves": [],
@@ -4714,7 +4702,7 @@
       "ts": 0
     },
     {
-      "id": "r/cybe-508506",
+      "id": "r/cybe-422430",
       "title": "From SOC L1 to SOC L2 vs Cloud Security Engineering",
       "link": "https://www.reddit.com/r/cybersecurity/comments/1s5g9vn/from_soc_l1_to_soc_l2_vs_cloud_security/",
       "desc": "I am currently working as a SOC L1 Analyst in Poland (almost 6 months of experience) and I am already planning my next career step since I have a lot of free time to prepare for it.  I am thinking about two options: 1. Gaininging experience and move up to SOC L2 2. Switching into Cloud Security  What certifications would you recommend to make it easier to get into cloud security? Or would it be be",
@@ -4733,7 +4721,26 @@
       "ts": 0
     },
     {
-      "id": "r/cybe-974080",
+      "id": "r/cybe-719999",
+      "title": "TeamPCP strikes again - telnyx 4.87.1 and 4.87.2 on PyPI are malicious",
+      "link": "https://www.reddit.com/r/cybersecurity/comments/1s4zpwi/teampcp_strikes_again_telnyx_4871_and_4872_on/",
+      "desc": "Same actor, same RSA key, same tpcp.tar.gz exfiltration header as the litellm compromise last week. This time they injected into telnyx/_client.py - triggers on import telnyx, no user interaction needed. New trick: payload is hidden inside WAV audio files using steganography to bypass network inspection. On Linux/macOS: steals credentials, encrypts with AES-256 + RSA-4096, exfiltrates to their C2.",
+      "pubDate": "2026-03-27T09:55:48+00:00",
+      "source": "r/cybersecurity",
+      "cat": "community",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "r/cybe-452792",
       "title": "Are we over-focused on AI controls while shadow AI spreads everywhere?",
       "link": "https://www.reddit.com/r/cybersecurity/comments/1s55dw6/are_we_overfocused_on_ai_controls_while_shadow_ai/",
       "desc": "It feels like everyone is scrambling to secure AI systems that have gone through official procurement and security channels. Meanwhile, the bigger issues seems to be what's been adopted without any visibility. Sure, prompt injection, hallucinations and MCP security all matter. But those feel like needles in haystacks compared to unseen adoption. There's a ton of AI tooling getting connected direct",
@@ -4752,7 +4759,7 @@
       "ts": 0
     },
     {
-      "id": "r/cybe-199471",
+      "id": "r/cybe-38691",
       "title": "minfied js blocking pen testing?",
       "link": "https://www.reddit.com/r/cybersecurity/comments/1s5t765/minfied_js_blocking_pen_testing/",
       "desc": "I'm trying to find xss vulnerabilities on certain websites but the js is bundled and minified. without the .map does that make finding those vulns way more difficult?  &#32; submitted by &#32;  /u/Comprehensive_Cut548   [link] &#32; [comments]",
@@ -4771,26 +4778,7 @@
       "ts": 0
     },
     {
-      "id": "r/cybe-714521",
-      "title": "🧠 “I started using a SOC that doesn’t flood me with alerts… and it feels weird”",
-      "link": "https://www.reddit.com/r/cybersecurity/comments/1s5w9br/i_started_using_a_soc_that_doesnt_flood_me_with/",
-      "desc": "I’ve been working in a SOC environment recently, and something always bothered me. Why does every tool feel like this? • Endless alerts • Constant noise • Dashboards everywhere • And still… confusion about what actually matters At some point, it stops being “security monitoring” and starts feeling like alert management as a full-time job. But recently, I got to work on a SOC platform that approach",
-      "pubDate": "2026-03-28T09:56:09+00:00",
-      "source": "r/cybersecurity",
-      "cat": "community",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "r/cybe-859836",
+      "id": "r/cybe-199258",
       "title": "CTO at NCSC Summary: week ending March 29th",
       "link": "https://www.reddit.com/r/cybersecurity/comments/1s5vo7o/cto_at_ncsc_summary_week_ending_march_29th/",
       "desc": "&#32; submitted by &#32;  /u/digicat   [link] &#32; [comments]",
@@ -4809,7 +4797,26 @@
       "ts": 0
     },
     {
-      "id": "r/blue-933286",
+      "id": "r/cybe-626076",
+      "title": "My 2026 RSAC Short Recap in Bulletpoints",
+      "link": "https://www.reddit.com/r/cybersecurity/comments/1s53ana/my_2026_rsac_short_recap_in_bulletpoints/",
+      "desc": "San Francisco weather was great, 50’s in the morning, 75F+ most of the day Airport lines nearly non-existent Less homeless in the streets, less poop, seems the city did a clean-up (but still lots of crazy-yelling homeless people encountered every walk), but the city felt safer RSAC was put on magnificently, presided over by RSAC President Jen Easterly for the first time Lots of great talks, keynot",
+      "pubDate": "2026-03-27T12:55:09+00:00",
+      "source": "r/cybersecurity",
+      "cat": "community",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "r/blue-496612",
       "title": "CTO at NCSC Summary: week ending March 29th",
       "link": "https://www.reddit.com/r/blueteamsec/comments/1s5vnwm/cto_at_ncsc_summary_week_ending_march_29th/",
       "desc": "&#32; submitted by &#32;  /u/digicat   [link] &#32; [comments]",
@@ -4828,7 +4835,7 @@
       "ts": 0
     },
     {
-      "id": "r/blue-554088",
+      "id": "r/blue-590106",
       "title": "Daily BlueTeamSec Briefing Archive - daily AI generated podcast of the last 24hours of posts",
       "link": "https://www.reddit.com/r/blueteamsec/comments/1rowtkz/daily_blueteamsec_briefing_archive_daily_ai/",
       "desc": "&#32; submitted by &#32;  /u/digicat   [link] &#32; [comments]",
@@ -4847,7 +4854,242 @@
       "ts": 0
     },
     {
-      "id": "r/blue-583065",
+      "id": "r/blue-7261",
+      "title": "SQUID-2026:3 Out of Bounds Read in ICP message handling",
+      "link": "https://www.reddit.com/r/blueteamsec/comments/1s5xamq/squid20263_out_of_bounds_read_in_icp_message/",
+      "desc": "&#32; submitted by &#32;  /u/digicat   [link] &#32; [comments]",
+      "pubDate": "2026-03-28T10:57:41+00:00",
+      "source": "r/blueteamsec",
+      "cat": "community",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "r/blue-950995",
+      "title": "CVE-2026-33696 - n8n: Prototype Pollution in XML and GSuiteAdmin node parameters lead to RCE",
+      "link": "https://www.reddit.com/r/blueteamsec/comments/1s5xacu/cve202633696_n8n_prototype_pollution_in_xml_and/",
+      "desc": "&#32; submitted by &#32;  /u/digicat   [link] &#32; [comments]",
+      "pubDate": "2026-03-28T10:57:14+00:00",
+      "source": "r/blueteamsec",
+      "cat": "community",
+      "sev": "critical",
+      "tags": [
+        {
+          "t": "CVE-2026-33696",
+          "cls": "cve"
+        }
+      ],
+      "iocs": {
+        "cves": [
+          "CVE-2026-33696"
+        ],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "r/blue-915711",
+      "title": "Grafana security release: Critical and high severity security fixes for CVE-2026-27876 and CVE-2026-27880 | Grafana Labs",
+      "link": "https://www.reddit.com/r/blueteamsec/comments/1s5x8u9/grafana_security_release_critical_and_high/",
+      "desc": "&#32; submitted by &#32;  /u/digicat   [link] &#32; [comments]",
+      "pubDate": "2026-03-28T10:54:52+00:00",
+      "source": "r/blueteamsec",
+      "cat": "community",
+      "sev": "high",
+      "tags": [
+        {
+          "t": "CVE-2026-27880",
+          "cls": "cve"
+        },
+        {
+          "t": "CVE-2026-27876",
+          "cls": "cve"
+        }
+      ],
+      "iocs": {
+        "cves": [
+          "CVE-2026-27880",
+          "CVE-2026-27876"
+        ],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "r/blue-215831",
+      "title": "A cunning predator: How Silver Fox preys on Japanese firms this tax season",
+      "link": "https://www.reddit.com/r/blueteamsec/comments/1s5x7zc/a_cunning_predator_how_silver_fox_preys_on/",
+      "desc": "&#32; submitted by &#32;  /u/digicat   [link] &#32; [comments]",
+      "pubDate": "2026-03-28T10:53:33+00:00",
+      "source": "r/blueteamsec",
+      "cat": "community",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "r/blue-443995",
+      "title": "xtride: Source code for XTRIDE: \"Practical Type Inference: High-Throughput Recovery of Real-World Structures and Function Signatures\"",
+      "link": "https://www.reddit.com/r/blueteamsec/comments/1s5x5vn/xtride_source_code_for_xtride_practical_type/",
+      "desc": "&#32; submitted by &#32;  /u/digicat   [link] &#32; [comments]",
+      "pubDate": "2026-03-28T10:50:15+00:00",
+      "source": "r/blueteamsec",
+      "cat": "community",
+      "sev": "critical",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "r/blue-281202",
+      "title": "Under CTRL: Dissecting a Previously Undocumented Russian .Net Access Framework",
+      "link": "https://www.reddit.com/r/blueteamsec/comments/1s5x4ni/under_ctrl_dissecting_a_previously_undocumented/",
+      "desc": "&#32; submitted by &#32;  /u/digicat   [link] &#32; [comments]",
+      "pubDate": "2026-03-28T10:48:15+00:00",
+      "source": "r/blueteamsec",
+      "cat": "community",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "r/blue-903536",
+      "title": "IndoHaxSec: Inside the Expanding Network of a Pro-Palestinian Hacktivist Collective",
+      "link": "https://www.reddit.com/r/blueteamsec/comments/1s5x3c6/indohaxsec_inside_the_expanding_network_of_a/",
+      "desc": "&#32; submitted by &#32;  /u/digicat   [link] &#32; [comments]",
+      "pubDate": "2026-03-28T10:46:09+00:00",
+      "source": "r/blueteamsec",
+      "cat": "community",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "r/blue-569922",
+      "title": "Weaponizing Legitimate Low-Level Tools: How Ransomware Evades Antivirus Protections",
+      "link": "https://www.reddit.com/r/blueteamsec/comments/1s5x2m1/weaponizing_legitimate_lowlevel_tools_how/",
+      "desc": "&#32; submitted by &#32;  /u/digicat   [link] &#32; [comments]",
+      "pubDate": "2026-03-28T10:44:57+00:00",
+      "source": "r/blueteamsec",
+      "cat": "community",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "r/blue-293130",
+      "title": "Advancing Windows driver security: Removing trust for the cross-signed driver program",
+      "link": "https://www.reddit.com/r/blueteamsec/comments/1s5x1pa/advancing_windows_driver_security_removing_trust/",
+      "desc": "&#32; submitted by &#32;  /u/digicat   [link] &#32; [comments]",
+      "pubDate": "2026-03-28T10:43:29+00:00",
+      "source": "r/blueteamsec",
+      "cat": "community",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "r/blue-532198",
+      "title": "Reflecting on Your Tier Model: CVE-2025-33073 and the One-Hop Problem",
+      "link": "https://www.reddit.com/r/blueteamsec/comments/1s5wzzn/reflecting_on_your_tier_model_cve202533073_and/",
+      "desc": "&#32; submitted by &#32;  /u/digicat   [link] &#32; [comments]",
+      "pubDate": "2026-03-28T10:40:42+00:00",
+      "source": "r/blueteamsec",
+      "cat": "community",
+      "sev": "high",
+      "tags": [
+        {
+          "t": "CVE-2025-33073",
+          "cls": "cve"
+        }
+      ],
+      "iocs": {
+        "cves": [
+          "CVE-2025-33073"
+        ],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "r/blue-173812",
+      "title": "European Commission’s Data Stolen in Hack on AWS Account",
+      "link": "https://www.reddit.com/r/blueteamsec/comments/1s5wxk2/european_commissions_data_stolen_in_hack_on_aws/",
+      "desc": "&#32; submitted by &#32;  /u/digicat   [link] &#32; [comments]",
+      "pubDate": "2026-03-28T10:36:46+00:00",
+      "source": "r/blueteamsec",
+      "cat": "community",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "r/blue-262497",
       "title": "Silver Fox: The Only Tax Audit Where the Fine Print Installs Malware",
       "link": "https://www.reddit.com/r/blueteamsec/comments/1s5w7ya/silver_fox_the_only_tax_audit_where_the_fine/",
       "desc": "&#32; submitted by &#32;  /u/digicat   [link] &#32; [comments]",
@@ -4866,7 +5108,7 @@
       "ts": 0
     },
     {
-      "id": "r/blue-991309",
+      "id": "r/blue-621818",
       "title": "filterforge: Tool for solving BPF filters and crafting packets based on these.",
       "link": "https://www.reddit.com/r/blueteamsec/comments/1s5r36g/filterforge_tool_for_solving_bpf_filters_and/",
       "desc": "&#32; submitted by &#32;  /u/digicat   [link] &#32; [comments]",
@@ -4874,215 +5116,6 @@
       "source": "r/blueteamsec",
       "cat": "community",
       "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "r/blue-497324",
-      "title": "TeamPCP strikes again - telnyx 4.87.1 and 4.87.2 on PyPI are malicious",
-      "link": "https://www.reddit.com/r/blueteamsec/comments/1s4zsof/teampcp_strikes_again_telnyx_4871_and_4872_on/",
-      "desc": "Same actor, same RSA key, same tpcp.tar.gz exfiltration header as the litellm compromise last week. This time they injected into telnyx/_client.py - triggers on import telnyx, no user interaction needed. New trick: payload is hidden inside WAV audio files using steganography to bypass network inspection. On Linux/macOS: steals credentials, encrypts with AES-256 + RSA-4096, exfiltrates to their C2.",
-      "pubDate": "2026-03-27T10:00:21+00:00",
-      "source": "r/blueteamsec",
-      "cat": "community",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "r/blue-544808",
-      "title": "TamPCP scope is wider than the original Checkmarx report",
-      "link": "https://www.reddit.com/r/blueteamsec/comments/1s5e1g9/tampcp_scope_is_wider_than_the_original_checkmarx/",
-      "desc": "TeamPCP scope is wider than the original Checkmarx report - SANS ISC updated today with PyPI compromise via Telnyx and Vect ransomware mass affiliate program, first named victim confirmed. CISA KEV entry now exists, detection tools are published. Worth auditing your Python dependency chains and checking EDR telemetry against the IOCs. Full update: https://isc.sans.edu/diary/rss/32838 and earlier e",
-      "pubDate": "2026-03-27T19:27:51+00:00",
-      "source": "r/blueteamsec",
-      "cat": "community",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "r/blue-367041",
-      "title": "Dissection of a BEC: Investigation methodology from a real compromise",
-      "link": "https://www.reddit.com/r/blueteamsec/comments/1s572n2/dissection_of_a_bec_investigation_methodology/",
-      "desc": "Walkthrough of a BEC investigation from a couple months back. One compromised account at an accounting firm, two days of undetected access, payment diversion attempt followed by a mass phishing campaign. This first post covers data collection, orienting the dataset, and the inbox rules that dated the compromise. Includes the exact KQL queries run against ADX. All identifiers anonymized. More posts",
-      "pubDate": "2026-03-27T15:18:51+00:00",
-      "source": "r/blueteamsec",
-      "cat": "community",
-      "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "r/blue-46590",
-      "title": "Windows DoS 0‑Day in Kernel FastMutex",
-      "link": "https://www.reddit.com/r/blueteamsec/comments/1s4xgxc/windows_dos_0day_in_kernel_fastmutex/",
-      "desc": "&#32; submitted by &#32;  /u/CravateRouge   [link] &#32; [comments]",
-      "pubDate": "2026-03-27T07:33:49+00:00",
-      "source": "r/blueteamsec",
-      "cat": "community",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "r/blue-955309",
-      "title": "Malware on public sector devices was active for almost a month in Luxembourg via a hacked MDM",
-      "link": "https://www.reddit.com/r/blueteamsec/comments/1s4vc24/malware_on_public_sector_devices_was_active_for/",
-      "desc": "&#32; submitted by &#32;  /u/digicat   [link] &#32; [comments]",
-      "pubDate": "2026-03-27T05:26:29+00:00",
-      "source": "r/blueteamsec",
-      "cat": "community",
-      "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "r/blue-312383",
-      "title": "New scanner found - anyone heard of BarkScan?",
-      "link": "https://www.reddit.com/r/blueteamsec/comments/1s4nf53/new_scanner_found_anyone_heard_of_barkscan/",
-      "desc": "Picked this up today in my Cowrie SSH honeypot logs and couldn't find any prior documentation of it anywhere - posting here in case others have seen it. The finding: Among today's SSH client version strings I captured SSH-2.0-BarkScan_1.0. Running it through the usual sources turned up nothing - no ISC diary mentions, no honeypot community writeups, no threat intel hits. The source IP was 185.107.",
-      "pubDate": "2026-03-26T23:23:44+00:00",
-      "source": "r/blueteamsec",
-      "cat": "community",
-      "sev": "critical",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "r/blue-557365",
-      "title": "Apifox CDN 供应链投毒事件简单复盘 - A brief recap of the Apifox CDN supply chain poisoning incident",
-      "link": "https://www.reddit.com/r/blueteamsec/comments/1s4vvcu/apifox_cdn_供应链投毒事件简单复盘_a_brief_recap_of_the/",
-      "desc": "&#32; submitted by &#32;  /u/digicat   [link] &#32; [comments]",
-      "pubDate": "2026-03-27T05:56:24+00:00",
-      "source": "r/blueteamsec",
-      "cat": "community",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "r/blue-561159",
-      "title": "oss-sec: Xen Security Advisory 482 v2 - Linux privcmd driver can circumvent kernel lockdown",
-      "link": "https://www.reddit.com/r/blueteamsec/comments/1s4vxuj/osssec_xen_security_advisory_482_v2_linux_privcmd/",
-      "desc": "&#32; submitted by &#32;  /u/digicat   [link] &#32; [comments]",
-      "pubDate": "2026-03-27T06:00:22+00:00",
-      "source": "r/blueteamsec",
-      "cat": "community",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "r/blue-753305",
-      "title": "Voidstealer ABE Bypass: Chromium Application-Bound Encryption.",
-      "link": "https://www.reddit.com/r/blueteamsec/comments/1s4vtc5/voidstealer_abe_bypass_chromium_applicationbound/",
-      "desc": "&#32; submitted by &#32;  /u/digicat   [link] &#32; [comments]",
-      "pubDate": "2026-03-27T05:53:14+00:00",
-      "source": "r/blueteamsec",
-      "cat": "community",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "r/blue-523242",
-      "title": "Widespread GitHub Campaign Uses Fake VS Code Security Alerts...",
-      "link": "https://www.reddit.com/r/blueteamsec/comments/1s4vqm6/widespread_github_campaign_uses_fake_vs_code/",
-      "desc": "&#32; submitted by &#32;  /u/digicat   [link] &#32; [comments]",
-      "pubDate": "2026-03-27T05:49:02+00:00",
-      "source": "r/blueteamsec",
-      "cat": "community",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "r/blue-88637",
-      "title": "BPFDoor-controller-source: Source code to recent BPFDoor's controller variant",
-      "link": "https://www.reddit.com/r/blueteamsec/comments/1s4vpkn/bpfdoorcontrollersource_source_code_to_recent/",
-      "desc": "&#32; submitted by &#32;  /u/digicat   [link] &#32; [comments]",
-      "pubDate": "2026-03-27T05:47:22+00:00",
-      "source": "r/blueteamsec",
-      "cat": "community",
-      "sev": "critical",
       "tags": [],
       "iocs": {
         "cves": [],
