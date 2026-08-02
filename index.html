@@ -7,9 +7,14 @@
 <meta name="description" content="RedOps — Real-time cybersecurity intelligence platform for pentesters & red teamers">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<link rel="manifest" href="data:application/json,{%22name%22:%22RedOps%20Intel%22,%22short_name%22:%22RedOps%22,%22start_url%22:%22.%22,%22display%22:%22standalone%22,%22background_color%22:%22%23030407%22,%22theme_color%22:%22%23ff2d2d%22}">
+<link rel="manifest" href="data:application/json,{%22name%22:%22RedOps%20Intel%22,%22short_name%22:%22RedOps%22,%22start_url%22:%22.%22,%22display%22:%22standalone%22,%22background_color%22:%22%23030407%22,%22theme_color%2２:%２"%２3ff２d２d%２２}">
 <title>RedOps v3 — Cyber Intelligence Platform</title>
 <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Rajdhani:wght@300;400;500;600;700&family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
+<link rel="apple-touch-icon" sizes="180x180" href="image/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="image/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="image/favicon-16x16.png">
+<link rel="manifest" href="image/site.webmanifest">
 <style>
 :root{
   --void:#030407;--deep:#070a10;--panel:#0a0e18;--card:#0d1120;--hover:#121828;
@@ -25,8 +30,8 @@
   --sbw:230px;
 }
 *{margin:0;padding:0;box-sizing:border-box;}
-html{scroll-behavior:smooth;-webkit-tap-highlight-color:transparent;}
-body{background:var(--void);color:var(--tp);font-family:var(--ui);min-height:100vh;overflow-x:hidden;}
+html{scroll-behavior:smooth;-webkit-tap-highlight-color:transparent;font-size:17px;}
+body{background:var(--void);color:var(--tp);font-family:var(--ui);font-size:1rem;line-height:1.5;min-height:100vh;overflow-x:hidden;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;letter-spacing:.01em;}
 body::before{content:'';position:fixed;inset:0;background:repeating-linear-gradient(0deg,transparent,transparent 2px,rgba(0,0,0,.05) 2px,rgba(0,0,0,.05) 4px);pointer-events:none;z-index:9999;}
 .bg-ambient{position:fixed;inset:0;pointer-events:none;z-index:0;background:radial-gradient(ellipse 80% 40% at 10% 20%,rgba(255,45,45,.03) 0%,transparent 60%),radial-gradient(ellipse 60% 30% at 90% 80%,rgba(0,212,255,.02) 0%,transparent 60%);}
 
@@ -55,15 +60,15 @@ header{position:sticky;top:0;z-index:500;background:rgba(3,4,7,.97);backdrop-fil
 .tbadge.crit{color:var(--red);border-color:rgba(255,45,45,.4);background:rgba(255,45,45,.06);text-shadow:0 0 8px var(--red);display:block;}
 .tbadge.hi{color:var(--amb);border-color:rgba(255,170,0,.35);background:rgba(255,170,0,.06);display:block;}
 .tbadge.med{color:var(--cyn);border-color:rgba(0,212,255,.3);background:rgba(0,212,255,.05);display:block;}
-.ibtn{width:32px;height:32px;background:transparent;border:1px solid var(--border);color:var(--td);font-size:.8rem;display:flex;align-items:center;justify-content:center;cursor:pointer;transition:all .2s;position:relative;flex-shrink:0;}
-.ibtn:hover,.ibtn.on{border-color:var(--border2);color:var(--red);box-shadow:0 0 10px var(--redg);}
+.ibtn{width:34px;height:34px;background:rgba(255,255,255,.02);border:1px solid var(--border);color:var(--td);font-size:.8rem;display:flex;align-items:center;justify-content:center;cursor:pointer;transition:all .2s;position:relative;flex-shrink:0;border-radius:8px;}
+.ibtn:hover,.ibtn.on{border-color:var(--border2);color:var(--red);box-shadow:0 0 10px var(--redg);background:rgba(255,45,45,.05);}
 .ibtn.on{background:var(--redg);}
 .nbadge{position:absolute;top:-4px;right:-4px;width:14px;height:14px;background:var(--red);border-radius:50%;font-family:var(--mono);font-size:.45rem;color:#fff;display:none;align-items:center;justify-content:center;}
 .nbadge.show{display:flex;}
 .mbtn{display:none;} /* hamburger mobile */
 @media(max-width:768px){.mbtn{display:flex;}.hdr-mid{display:none;}.tbadge{display:none!important;}}
 
-.rbtn{font-family:var(--mono);font-size:.6rem;padding:5px 12px;background:transparent;border:1px solid var(--border2);color:var(--red);letter-spacing:.1em;text-transform:uppercase;cursor:pointer;transition:all .2s;white-space:nowrap;}
+.rbtn{font-family:var(--mono);font-size:.6rem;padding:6px 12px;background:transparent;border:1px solid var(--border2);color:var(--red);letter-spacing:.1em;text-transform:uppercase;cursor:pointer;transition:all .2s;white-space:nowrap;border-radius:8px;}
 .rbtn:hover{background:var(--redg);box-shadow:0 0 14px var(--redg);}
 .rbtn.spin{animation:sp .6s linear infinite;}
 @keyframes sp{0%{opacity:1;}50%{opacity:.3;}100%{opacity:1;}}
@@ -93,10 +98,13 @@ aside{width:var(--sbw);flex-shrink:0;background:var(--deep);border-right:1px sol
 .sb-sec{padding:.8rem 0;}
 .sblbl{font-family:var(--mono);font-size:.5rem;color:var(--td);letter-spacing:.22em;text-transform:uppercase;padding:0 .9rem;margin-bottom:.4rem;}
 .sbdiv{height:1px;background:var(--border);margin:.3rem .9rem .6rem;}
-.ni{display:flex;align-items:center;gap:8px;padding:8px .9rem;cursor:pointer;font-size:.75rem;font-weight:600;color:var(--ts);border-left:2px solid transparent;transition:all .15s;letter-spacing:.05em;text-transform:uppercase;user-select:none;}
+.ni{display:flex;align-items:center;gap:8px;padding:8px .9rem;cursor:pointer;font-size:.85rem;font-weight:600;color:var(--ts);border-left:2px solid transparent;transition:all .15s;letter-spacing:.05em;text-transform:uppercase;user-select:none;}
 .ni:hover{color:var(--tp);background:rgba(255,45,45,.03);border-left-color:rgba(255,45,45,.3);}
 .ni.on{color:var(--red);background:rgba(255,45,45,.07);border-left-color:var(--red);text-shadow:0 0 10px rgba(255,45,45,.4);}
-.nico{font-style:normal;width:15px;text-align:center;font-size:.75rem;}
+.nico{font-style:normal;width:15px;text-align:center;font-size:.75rem;display:inline-flex;align-items:center;justify-content:center;}
+.nico.fa-solid,.nico.fa-regular,.nico.fa-brands{font-size:.78rem;}
+.ibtn i,.mob-ni .ico,.rbtn i,.pclose i,.pclear i,.mcls i{font-size:.8rem;}
+.ico{display:inline-flex;align-items:center;justify-content:center;}
 .nc{margin-left:auto;font-family:var(--mono);font-size:.52rem;padding:1px 4px;border-radius:1px;min-width:20px;text-align:center;background:var(--redg);border:1px solid var(--border2);color:var(--red);}
 .nc.g{background:var(--grng);border-color:rgba(0,255,136,.25);color:var(--grn);}
 .nc.a{background:var(--ambg);border-color:rgba(255,170,0,.25);color:var(--amb);}
@@ -143,7 +151,7 @@ main{flex:1;min-width:0;display:flex;flex-direction:column;}
 .sc.c::before{background:linear-gradient(90deg,transparent,var(--cyn),transparent);}
 .sc.p::before{background:linear-gradient(90deg,transparent,var(--pur),transparent);}
 .slbl{font-family:var(--mono);font-size:.5rem;color:var(--td);letter-spacing:.14em;text-transform:uppercase;margin-bottom:.3rem;}
-.sval{font-family:var(--disp);font-size:1.7rem;font-weight:900;line-height:1;}
+.sval{font-family:var(--disp);font-size:2rem;font-weight:900;line-height:1;}
 .sc.r .sval{color:var(--red);text-shadow:0 0 16px rgba(255,45,45,.35);}
 .sc.a .sval{color:var(--amb);text-shadow:0 0 16px rgba(255,170,0,.3);}
 .sc.g .sval{color:var(--grn);text-shadow:0 0 16px rgba(0,255,136,.25);}
@@ -152,18 +160,18 @@ main{flex:1;min-width:0;display:flex;flex-direction:column;}
 .ssub{font-size:.58rem;color:var(--td);margin-top:.2rem;font-family:var(--mono);}
 
 /* ===SEARCH=== */
-.srchw{display:flex;gap:.4rem;margin-bottom:.8rem;}
-.srch{flex:1;background:var(--panel);border:1px solid var(--border);color:var(--tp);font-family:var(--mono);font-size:.7rem;padding:8px 12px;outline:none;transition:border-color .2s;}
+.srchw{display:flex;gap:.45rem;margin-bottom:.8rem;align-items:center;}
+.srch{flex:1;background:var(--panel);border:1px solid var(--border);color:var(--tp);font-family:var(--mono);font-size:.72rem;padding:9px 12px;outline:none;transition:border-color .2s;border-radius:10px;}
 .srch::placeholder{color:var(--td);}
 .srch:focus{border-color:var(--red2);box-shadow:0 0 0 1px var(--redg);}
-.sbtn{background:var(--red);border:none;color:#fff;font-family:var(--mono);font-size:.6rem;padding:8px 14px;cursor:pointer;letter-spacing:.1em;text-transform:uppercase;transition:all .2s;white-space:nowrap;}
+.sbtn{background:var(--red);border:none;color:#fff;font-family:var(--mono);font-size:.6rem;padding:9px 14px;cursor:pointer;letter-spacing:.1em;text-transform:uppercase;transition:all .2s;white-space:nowrap;border-radius:10px;}
 .sbtn:hover{background:var(--red2);}
-.cbtn{background:transparent;border:1px solid var(--border);color:var(--td);font-family:var(--mono);font-size:.6rem;padding:8px 10px;cursor:pointer;transition:all .2s;}
+.cbtn{background:transparent;border:1px solid var(--border);color:var(--td);font-family:var(--mono);font-size:.6rem;padding:9px 10px;cursor:pointer;transition:all .2s;border-radius:10px;}
 .cbtn:hover{border-color:var(--border2);color:var(--ts);}
 
 /* ===TOOLBAR=== */
 .tb{display:flex;gap:.4rem;margin-bottom:.8rem;flex-wrap:wrap;align-items:center;}
-.fb{font-family:var(--mono);font-size:.55rem;padding:4px 9px;background:transparent;border:1px solid var(--border);color:var(--td);cursor:pointer;letter-spacing:.1em;text-transform:uppercase;transition:all .15s;}
+.fb{font-family:var(--mono);font-size:.55rem;padding:5px 10px;background:transparent;border:1px solid var(--border);color:var(--td);cursor:pointer;letter-spacing:.1em;text-transform:uppercase;transition:all .15s;border-radius:999px;}
 .fb:hover{border-color:var(--border2);color:var(--ts);}
 .fb.on{background:var(--redg);border-color:var(--red);color:var(--red);}
 .fb.on.g{background:var(--grng);border-color:var(--grn);color:var(--grn);}
@@ -188,8 +196,8 @@ main{flex:1;min-width:0;display:flex;flex-direction:column;}
 @media(max-width:600px){.fgrid{grid-template-columns:1fr;}}
 
 /* ===CARD=== */
-.fc{background:var(--card);padding:.8rem .9rem;cursor:pointer;transition:background .15s;position:relative;overflow:hidden;}
-.fc:hover{background:var(--hover);}
+.fc{background:linear-gradient(180deg,rgba(13,17,32,.96),rgba(9,12,22,.96));padding:.85rem .95rem;cursor:pointer;transition:background .15s,transform .15s,border-color .15s;position:relative;overflow:hidden;border:1px solid rgba(255,255,255,.04);border-radius:12px;box-shadow:0 4px 16px rgba(0,0,0,.18);}
+.fc:hover{background:var(--hover);transform:translateY(-1px);border-color:rgba(255,45,45,.2);}
 .fc::after{content:'';position:absolute;left:0;top:0;bottom:0;width:2px;opacity:0;transition:opacity .2s;}
 .fc:hover::after{opacity:1;}
 .fc.critical::after{background:var(--red);}
@@ -203,7 +211,7 @@ main{flex:1;min-width:0;display:flex;flex-direction:column;}
 .fc .rdbtn{position:absolute;bottom:.5rem;right:.5rem;background:transparent;border:none;color:var(--td);font-size:.55rem;font-family:var(--mono);cursor:pointer;opacity:0;transition:all .2s;padding:2px 5px;border:1px solid transparent;}
 .fc:hover .rdbtn{opacity:1;}
 .fc .rdbtn.read{color:var(--grn);border-color:rgba(0,255,136,.2);opacity:1;}
-.cmeta{display:flex;align-items:center;gap:5px;margin-bottom:4px;}
+.cmeta{display:flex;align-items:center;gap:6px;margin-bottom:6px;flex-wrap:wrap;}
 .csrc{font-family:var(--mono);font-size:.53rem;color:var(--td);text-transform:uppercase;letter-spacing:.09em;}
 .ctime{font-family:var(--mono);font-size:.53rem;color:var(--td);margin-left:auto;padding-right:1rem;}
 .sb2{font-family:var(--mono);font-size:.46rem;padding:1px 5px;letter-spacing:.09em;border-radius:1px;font-weight:bold;}
@@ -211,8 +219,8 @@ main{flex:1;min-width:0;display:flex;flex-direction:column;}
 .sc2h{background:rgba(255,170,0,.13);color:var(--amb);border:1px solid rgba(255,170,0,.28);}
 .sc2m{background:rgba(0,212,255,.08);color:var(--cyn);border:1px solid rgba(0,212,255,.22);}
 .sc2l{background:rgba(0,255,136,.08);color:var(--grn);border:1px solid rgba(0,255,136,.18);}
-.ctit{font-size:.8rem;font-weight:600;color:var(--tp);line-height:1.35;margin-bottom:.3rem;}
-.cdesc{font-size:.68rem;color:var(--ts);line-height:1.45;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;}
+.ctit{font-size:.96rem;font-weight:650;color:var(--tp);line-height:1.45;margin-bottom:.35rem;}
+.cdesc{font-size:.78rem;color:var(--ts);line-height:1.55;display:-webkit-box;line-clamp:2;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;}
 .ctags{display:flex;flex-wrap:wrap;gap:3px;margin-top:5px;}
 .tag{font-family:var(--mono);font-size:.48rem;color:var(--td);border:1px solid var(--border);padding:1px 4px;transition:all .15s;}
 .tag:hover{border-color:var(--red2);color:var(--red);}
@@ -238,7 +246,7 @@ main{flex:1;min-width:0;display:flex;flex-direction:column;}
 .notes-wrap{background:var(--panel);border:1px solid var(--border);padding:.8rem;margin-bottom:1rem;}
 .notes-hdr{display:flex;align-items:center;justify-content:space-between;margin-bottom:.5rem;}
 .notes-title{font-family:var(--mono);font-size:.6rem;color:var(--cyn);letter-spacing:.15em;}
-.notes-ta{width:100%;background:var(--card);border:1px solid var(--border);color:var(--ts);font-family:var(--mono);font-size:.65rem;padding:8px;outline:none;resize:vertical;min-height:80px;transition:border-color .2s;}
+.notes-ta{width:100%;background:var(--card);border:1px solid var(--border);color:var(--ts);font-family:var(--mono);font-size:.75rem;padding:8px;outline:none;resize:vertical;min-height:80px;transition:border-color .2s;}
 .notes-ta:focus{border-color:var(--cyn);}
 .notes-ta::placeholder{color:var(--td);}
 .notes-save{font-family:var(--mono);font-size:.58rem;padding:5px 12px;background:var(--cyng);border:1px solid rgba(0,212,255,.3);color:var(--cyn);cursor:pointer;transition:all .2s;margin-top:.4rem;}
@@ -312,16 +320,18 @@ main{flex:1;min-width:0;display:flex;flex-direction:column;}
 canvas{width:100%!important;}
 
 /* ===WORLD MAP=== */
-#world-map{background:var(--panel);border:1px solid var(--border);width:100%;height:400px;position:relative;overflow:hidden;cursor:crosshair;}
-@media(max-width:600px){#world-map{height:260px;}}
-#world-svg{width:100%;height:100%;opacity:.4;}
-.attack-dot{position:absolute;width:6px;height:6px;border-radius:50%;transform:translate(-50%,-50%);animation:ping 2s ease-out forwards;}
-@keyframes ping{0%{opacity:1;transform:translate(-50%,-50%) scale(1);}50%{opacity:.8;transform:translate(-50%,-50%) scale(1.8);}100%{opacity:0;transform:translate(-50%,-50%) scale(3);}}
-.attack-line-svg{position:absolute;inset:0;pointer-events:none;}
-.map-legend{position:absolute;bottom:.7rem;left:.7rem;display:flex;flex-direction:column;gap:.3rem;}
+#world-map{background:linear-gradient(180deg,rgba(3,4,7,.82),rgba(3,4,7,.95)),url('https://upload.wikimedia.org/wikipedia/commons/8/80/World_map_-_low_resolution.svg') center center/cover no-repeat;border:1px solid var(--border);width:100%;height:460px;position:relative;overflow:hidden;cursor:crosshair;}
+@media(max-width:600px){#world-map{height:320px;}}
+#world-map::before{content:'';position:absolute;inset:0;background:radial-gradient(circle at center,rgba(255,45,45,.06),transparent 55%),linear-gradient(180deg,rgba(0,0,0,.04),rgba(0,0,0,.24));pointer-events:none;}
+#world-svg{width:100%;height:100%;position:absolute;inset:0;opacity:.22;pointer-events:none;}
+.attack-dot{position:absolute;width:7px;height:7px;border-radius:50%;transform:translate(-50%,-50%);animation:ping 2s ease-out forwards;z-index:3;}
+@keyframes ping{0%{opacity:1;transform:translate(-50%,-50%) scale(1);}50%{opacity:.75;transform:translate(-50%,-50%) scale(1.9);}100%{opacity:0;transform:translate(-50%,-50%) scale(3.3);}}
+.attack-line-svg{position:absolute;inset:0;pointer-events:none;z-index:2;}
+#attack-dots{position:absolute;inset:0;pointer-events:none;z-index:3;}
+.map-legend{position:absolute;bottom:.75rem;left:.75rem;display:flex;flex-direction:column;gap:.3rem;z-index:4;background:rgba(3,4,7,.7);padding:.45rem .55rem;border:1px solid var(--border);backdrop-filter:blur(6px);}
 .ml-item{display:flex;align-items:center;gap:5px;font-family:var(--mono);font-size:.52rem;color:var(--ts);}
 .ml-dot{width:6px;height:6px;border-radius:50%;}
-.map-counter{position:absolute;top:.7rem;right:.7rem;font-family:var(--mono);font-size:.65rem;color:var(--red);text-shadow:0 0 8px var(--red);}
+.map-counter{position:absolute;top:.75rem;right:.75rem;font-family:var(--mono);font-size:.68rem;color:var(--red);text-shadow:0 0 8px var(--red);z-index:4;background:rgba(3,4,7,.7);padding:.35rem .5rem;border:1px solid rgba(255,45,45,.35);}
 
 /* ===MODAL=== */
 .ov{position:fixed;inset:0;background:rgba(0,0,0,.88);z-index:2000;display:flex;align-items:center;justify-content:center;padding:1.5rem;backdrop-filter:blur(6px);opacity:0;pointer-events:none;transition:opacity .2s;}
@@ -427,10 +437,10 @@ canvas{width:100%!important;}
 .kbd-active .ni:focus{outline:1px solid var(--red);}
 
 /* ===MOBILE BOTTOM NAV=== */
-.mob-nav{display:none;position:fixed;bottom:22px;left:0;right:0;background:rgba(7,10,16,.97);border-top:1px solid var(--border);z-index:498;padding:.4rem 0;}
+.mob-nav{display:none;position:fixed;bottom:12px;left:12px;right:12px;background:rgba(7,10,16,.94);border:1px solid var(--border);z-index:498;padding:.35rem;border-radius:16px;backdrop-filter:blur(12px);box-shadow:0 10px 30px rgba(0,0,0,.35);}
 @media(max-width:768px){.mob-nav{display:flex;justify-content:space-around;}}
-.mob-ni{display:flex;flex-direction:column;align-items:center;gap:2px;cursor:pointer;padding:.3rem .5rem;color:var(--td);font-family:var(--mono);font-size:.45rem;letter-spacing:.05em;transition:color .2s;text-transform:uppercase;}
-.mob-ni:hover,.mob-ni.on{color:var(--red);}
+.mob-ni{display:flex;flex-direction:column;align-items:center;gap:2px;cursor:pointer;padding:.35rem .45rem;color:var(--td);font-family:var(--mono);font-size:.44rem;letter-spacing:.05em;transition:all .2s;text-transform:uppercase;border-radius:10px;flex:1;}
+.mob-ni:hover,.mob-ni.on{color:var(--red);background:rgba(255,45,45,.05);}
 .mob-ni .ico{font-size:1rem;}
 </style>
 </head>
@@ -460,11 +470,11 @@ canvas{width:100%!important;}
   </div>
 
   <div class="hdr-r">
-    <div class="tbadge med" id="tbadge">⚠ ELEVATED</div>
-    <div class="ibtn" id="nbtn" onclick="togglePanel('notif')" title="Alerts [N]">🔔<div class="nbadge" id="nbadge">0</div></div>
-    <div class="ibtn" id="sbtn" onclick="togglePanel('settings')" title="Settings [S]">⚙</div>
-    <button class="rbtn" id="rbtn" onclick="manualRefresh()">⟳ REFRESH</button>
-    <div class="ibtn mbtn" onclick="toggleMob()" title="Menu">☰</div>
+    <div class="tbadge med" id="tbadge"><i class="fa-solid fa-triangle-exclamation" style="margin-right:4px"></i>ELEVATED</div>
+    <div class="ibtn" id="nbtn" onclick="togglePanel('notif')" title="Alerts [N]"><i class="fa-solid fa-bell"></i><div class="nbadge" id="nbadge">0</div></div>
+    <div class="ibtn" id="sbtn" onclick="togglePanel('settings')" title="Settings [S]"><i class="fa-solid fa-gear"></i></div>
+    <button class="rbtn" id="rbtn" onclick="manualRefresh()"><i class="fa-solid fa-rotate-right" style="margin-right:5px"></i>REFRESH</button>
+    <div class="ibtn mbtn" onclick="toggleMob()" title="Menu"><i class="fa-solid fa-bars"></i></div>
   </div>
 </header>
 
@@ -488,29 +498,28 @@ canvas{width:100%!important;}
 <aside id="sidebar">
   <div class="sb-sec">
     <div class="sblbl">// Navigation</div>
-    <div class="ni on" onclick="go('all')" id="nav-all"><i class="nico">◈</i>All Feeds<span class="nc" id="c-all">0</span></div>
-    <div class="ni" onclick="go('vulns')" id="nav-vulns"><i class="nico">⚠</i>Vulnerabilities<span class="nc a" id="c-vulns">0</span></div>
-    <div class="ni" onclick="go('exploits')" id="nav-exploits"><i class="nico">⚔</i>Exploits/PoC<span class="nc" id="c-exploits">0</span></div>
-    <div class="ni" onclick="go('threats')" id="nav-threats"><i class="nico">☣</i>Threat Intel<span class="nc" id="c-threats">0</span></div>
-    <div class="ni" onclick="go('breaches')" id="nav-breaches"><i class="nico">⛔</i>Breaches<span class="nc a" id="c-breaches">0</span></div>
-    <div class="ni" onclick="go('malware')" id="nav-malware"><i class="nico">🦠</i>Malware<span class="nc" id="c-malware">0</span></div>
-    <div class="ni" onclick="go('redteam')" id="nav-redteam"><i class="nico">🎯</i>Red Team<span class="nc g" id="c-redteam">0</span></div>
-    <div class="ni" onclick="go('tools')" id="nav-tools"><i class="nico">🛠</i>Tools/Research<span class="nc c" id="c-tools">0</span></div>
-    <div class="ni" onclick="go('community')" id="nav-community"><i class="nico">◎</i>Community<span class="nc c" id="c-community">0</span></div>
+    <div class="ni on" onclick="go('all')" id="nav-all"><i class="nico fa-solid fa-rss"></i>All Feeds<span class="nc" id="c-all">0</span></div>
+    <div class="ni" onclick="go('vulns')" id="nav-vulns"><i class="nico fa-solid fa-shield-halved"></i>Vulnerabilities<span class="nc a" id="c-vulns">0</span></div>
+    <div class="ni" onclick="go('exploits')" id="nav-exploits"><i class="nico fa-solid fa-bolt"></i>Exploits/PoC<span class="nc" id="c-exploits">0</span></div>
+    <div class="ni" onclick="go('threats')" id="nav-threats"><i class="nico fa-solid fa-skull-crossbones"></i>Threat Intel<span class="nc" id="c-threats">0</span></div>
+    <div class="ni" onclick="go('breaches')" id="nav-breaches"><i class="nico fa-solid fa-ban"></i>Breaches<span class="nc a" id="c-breaches">0</span></div>
+    <div class="ni" onclick="go('malware')" id="nav-malware"><i class="nico fa-solid fa-virus"></i>Malware<span class="nc" id="c-malware">0</span></div>
+    <div class="ni" onclick="go('redteam')" id="nav-redteam"><i class="nico fa-solid fa-crosshairs"></i>Red Team<span class="nc g" id="c-redteam">0</span></div>
+    <div class="ni" onclick="go('tools')" id="nav-tools"><i class="nico fa-solid fa-screwdriver-wrench"></i>Tools/Research<span class="nc c" id="c-tools">0</span></div>
+    <div class="ni" onclick="go('community')" id="nav-community"><i class="nico fa-solid fa-users"></i>Community<span class="nc c" id="c-community">0</span></div>
     <div class="sbdiv"></div>
     <div class="sblbl">// Intelligence</div>
-    <div class="ni" onclick="go('cve')" id="nav-cve"><i class="nico">🔍</i>CVE Tracker<span class="nc a" id="c-cve">0</span></div>
-    <div class="ni" onclick="go('timeline')" id="nav-timeline"><i class="nico">📅</i>Timeline<span class="nc" id="c-timeline">0</span></div>
-    <div class="ni" onclick="go('map')" id="nav-map"><i class="nico">🌍</i>Attack Map</div>
-    <div class="ni" onclick="go('apt')" id="nav-apt"><i class="nico">🕸</i>APT Graph</div>
-    <div class="ni" onclick="go('mitre')" id="nav-mitre"><i class="nico">🎯</i>MITRE ATT&CK</div>
-    <div class="ni" onclick="go('actors')" id="nav-actors"><i class="nico">👤</i>Threat Actors</div>
-    <div class="ni" onclick="go('dashboard')" id="nav-dashboard"><i class="nico">📊</i>Dashboard</div>
+    <div class="ni" onclick="go('cve')" id="nav-cve"><i class="nico fa-solid fa-magnifying-glass"></i>CVE Tracker<span class="nc a" id="c-cve">0</span></div>
+    <div class="ni" onclick="go('timeline')" id="nav-timeline"><i class="nico fa-solid fa-calendar-days"></i>Timeline<span class="nc" id="c-timeline">0</span></div>
+    <div class="ni" onclick="go('apt')" id="nav-apt"><i class="nico fa-solid fa-network-wired"></i>APT Graph</div>
+    <div class="ni" onclick="go('mitre')" id="nav-mitre"><i class="nico fa-solid fa-bullseye"></i>MITRE ATT&CK</div>
+    <div class="ni" onclick="go('actors')" id="nav-actors"><i class="nico fa-solid fa-user-shield"></i>Threat Actors</div>
+    <div class="ni" onclick="go('dashboard')" id="nav-dashboard"><i class="nico fa-solid fa-chart-column"></i>Dashboard</div>
     <div class="sbdiv"></div>
     <div class="sblbl">// Personal</div>
-    <div class="ni" onclick="go('bookmarks')" id="nav-bookmarks"><i class="nico">★</i>Bookmarks<span class="nc p" id="c-bookmarks">0</span></div>
-    <div class="ni" onclick="go('readlater')" id="nav-readlater"><i class="nico">🕐</i>Read Later<span class="nc c" id="c-readlater">0</span></div>
-    <div class="ni" onclick="go('notes')" id="nav-notes"><i class="nico">📝</i>My Notes<span class="nc p" id="c-notes">0</span></div>
+    <div class="ni" onclick="go('bookmarks')" id="nav-bookmarks"><i class="nico fa-solid fa-bookmark"></i>Bookmarks<span class="nc p" id="c-bookmarks">0</span></div>
+    <div class="ni" onclick="go('readlater')" id="nav-readlater"><i class="nico fa-solid fa-clock"></i>Read Later<span class="nc c" id="c-readlater">0</span></div>
+    <div class="ni" onclick="go('notes')" id="nav-notes"><i class="nico fa-solid fa-pen-to-square"></i>My Notes<span class="nc p" id="c-notes">0</span></div>
   </div>
 
   <div class="sb-sec">
@@ -527,7 +536,7 @@ canvas{width:100%!important;}
         <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>@0dayninja
       </a>
     </div>
-    <div class="sbmade">Made with <span>♥</span> by <a href="https://www.linkedin.com/in/paul-elie-18a972333/" target="_blank">Paul-Elie</a></div>
+    <div class="sbmade">Made with <span><i class="fa-solid fa-heart"></i></span> by <a href="https://www.linkedin.com/in/paul-elie-18a972333/" target="_blank">Paul-Elie</a></div>
   </div>
 </aside>
 
@@ -547,8 +556,8 @@ canvas{width:100%!important;}
   </div>
   <div class="srchw">
     <input class="srch" id="srch" type="text" placeholder="// SEARCH CVE, APT, MALWARE, IOC, ACTOR... [/]" oninput="onSearch()">
-    <button class="sbtn" onclick="onSearch()">⌕</button>
-    <button class="cbtn" onclick="clearSrch()">✕</button>
+    <button class="sbtn" onclick="onSearch()"><i class="fa-solid fa-magnifying-glass"></i></button>
+    <button class="cbtn" onclick="clearSrch()"><i class="fa-solid fa-xmark"></i></button>
   </div>
   <div class="tb">
     <button class="fb on" onclick="setSev('all',this)">ALL</button>
@@ -585,7 +594,7 @@ canvas{width:100%!important;}
 
 <!-- CVE TRACKER -->
 <div class="pg" id="pg-cve">
-  <div class="sh"><div class="st a">🔍 CVE TRACKER</div><div class="sl"></div><div class="sct" id="fc-cve">0 CVEs detected</div></div>
+  <div class="sh"><div class="st a"><i class="fa-solid fa-magnifying-glass" style="margin-right:6px"></i>CVE TRACKER</div><div class="sl"></div><div class="sct" id="fc-cve">0 CVEs detected</div></div>
   <div class="srchw" style="margin-bottom:.8rem">
     <input class="srch" id="cve-srch" type="text" placeholder="// FILTER BY CVE ID, PRODUCT, DESCRIPTION..." oninput="filterCVE()">
   </div>
@@ -599,53 +608,14 @@ canvas{width:100%!important;}
 
 <!-- TIMELINE -->
 <div class="pg" id="pg-timeline">
-  <div class="sh"><div class="st c">📅 INCIDENT TIMELINE</div><div class="sl"></div><div class="sct" id="fc-tl">0 events</div></div>
+  <div class="sh"><div class="st c"><i class="fa-solid fa-calendar-days" style="margin-right:6px"></i>INCIDENT TIMELINE</div><div class="sl"></div><div class="sct" id="fc-tl">0 events</div></div>
   <div class="timeline" id="tl-container"></div>
 </div>
 
-<!-- ATTACK MAP -->
-<div class="pg" id="pg-map">
-  <div class="sh"><div class="st r">🌍 REAL-TIME ATTACK MAP</div><div class="sl"></div><div class="sct" id="map-counter-hdr">Simulating global attacks</div></div>
-  <div id="world-map">
-    <svg id="world-svg" viewBox="0 0 1000 500" preserveAspectRatio="xMidYMid meet">
-      <!-- Simplified world continents -->
-      <g fill="rgba(255,255,255,0.06)" stroke="rgba(255,45,45,0.15)" stroke-width="0.5">
-        <!-- North America -->
-        <path d="M 80 80 L 220 70 L 260 120 L 270 180 L 230 220 L 190 260 L 150 280 L 110 260 L 90 220 L 70 160 Z"/>
-        <!-- South America -->
-        <path d="M 190 280 L 230 270 L 260 300 L 270 360 L 250 420 L 220 450 L 190 440 L 170 400 L 165 340 L 175 300 Z"/>
-        <!-- Europe -->
-        <path d="M 440 70 L 520 65 L 540 90 L 530 130 L 500 150 L 460 145 L 440 120 L 435 95 Z"/>
-        <!-- Africa -->
-        <path d="M 450 160 L 530 150 L 560 180 L 570 260 L 550 340 L 510 380 L 470 370 L 440 320 L 430 240 L 440 190 Z"/>
-        <!-- Asia -->
-        <path d="M 540 60 L 750 55 L 820 80 L 840 130 L 820 170 L 760 190 L 700 200 L 640 185 L 580 160 L 540 130 L 530 90 Z"/>
-        <!-- Australia -->
-        <path d="M 750 300 L 840 290 L 870 320 L 860 370 L 820 390 L 770 380 L 745 350 L 740 320 Z"/>
-      </g>
-      <!-- Grid lines -->
-      <g stroke="rgba(255,45,45,0.05)" stroke-width="0.3">
-        <line x1="0" y1="125" x2="1000" y2="125"/><line x1="0" y1="250" x2="1000" y2="250"/>
-        <line x1="0" y1="375" x2="1000" y2="375"/>
-        <line x1="250" y1="0" x2="250" y2="500"/><line x1="500" y1="0" x2="500" y2="500"/>
-        <line x1="750" y1="0" x2="750" y2="500"/>
-      </g>
-    </svg>
-    <svg class="attack-line-svg" id="attack-lines" viewBox="0 0 1000 500" preserveAspectRatio="xMidYMid meet"></svg>
-    <div id="attack-dots"></div>
-    <div class="map-legend">
-      <div class="ml-item"><div class="ml-dot" style="background:var(--red)"></div>Critical Attack</div>
-      <div class="ml-item"><div class="ml-dot" style="background:var(--amb)"></div>Ransomware</div>
-      <div class="ml-item"><div class="ml-dot" style="background:var(--cyn)"></div>Probe/Scan</div>
-      <div class="ml-item"><div class="ml-dot" style="background:var(--grn)"></div>Phishing</div>
-    </div>
-    <div class="map-counter" id="map-hits">0 attacks detected</div>
-  </div>
-</div>
 
 <!-- APT GRAPH -->
 <div class="pg" id="pg-apt">
-  <div class="sh"><div class="st p">🕸 APT RELATION GRAPH</div><div class="sl"></div><div class="sct">Drag nodes to explore</div></div>
+  <div class="sh"><div class="st p"><i class="fa-solid fa-network-wired" style="margin-right:6px"></i>APT RELATION GRAPH</div><div class="sl"></div><div class="sct">Drag nodes to explore</div></div>
   <canvas id="apt-canvas" height="480"></canvas>
   <div class="apt-legend">
     <div class="apt-leg-item"><div class="apt-dot" style="background:var(--red)"></div>APT Group</div>
@@ -658,20 +628,20 @@ canvas{width:100%!important;}
 
 <!-- MITRE -->
 <div class="pg" id="pg-mitre">
-  <div class="sh"><div class="st p">🎯 MITRE ATT&CK COVERAGE</div><div class="sl"></div><div class="sct" id="mitre-count">0 techniques tagged</div></div>
+  <div class="sh"><div class="st p"><i class="fa-solid fa-bullseye" style="margin-right:6px"></i>MITRE ATT&CK COVERAGE</div><div class="sl"></div><div class="sct" id="mitre-count">0 techniques tagged</div></div>
   <div class="mitre-grid" id="mitre-grid"></div>
   <div style="margin-top:1rem" id="mitre-articles"><div class="sh" style="margin-bottom:.5rem"><div class="st p">ARTICLES FOR SELECTED TECHNIQUE</div><div class="sl"></div></div><div class="fgrid" id="mitre-art-grid"><div class="empty"><div class="emico">🎯</div>SELECT A TECHNIQUE ABOVE</div></div></div>
 </div>
 
 <!-- THREAT ACTORS -->
 <div class="pg" id="pg-actors">
-  <div class="sh"><div class="st r">👤 THREAT ACTOR DATABASE</div><div class="sl"></div><div class="sct">Known APT groups & cybercrime</div></div>
+  <div class="sh"><div class="st r"><i class="fa-solid fa-user-shield" style="margin-right:6px"></i>THREAT ACTOR DATABASE</div><div class="sl"></div><div class="sct">Known APT groups & cybercrime</div></div>
   <div class="actor-grid" id="actor-grid"></div>
 </div>
 
 <!-- DASHBOARD -->
 <div class="pg" id="pg-dashboard">
-  <div class="sh"><div class="st g">📊 ANALYTICS DASHBOARD</div><div class="sl"></div><div class="sct">Trends & statistics</div></div>
+  <div class="sh"><div class="st g"><i class="fa-solid fa-chart-column" style="margin-right:6px"></i>ANALYTICS DASHBOARD</div><div class="sl"></div><div class="sct">Trends & statistics</div></div>
   <div class="chart-grid">
     <div class="chart-card"><div class="chart-title">// ARTICLES BY CATEGORY</div><canvas id="ch-cat" height="220"></canvas></div>
     <div class="chart-card"><div class="chart-title">// SEVERITY DISTRIBUTION</div><canvas id="ch-sev" height="220"></canvas></div>
@@ -686,19 +656,19 @@ canvas{width:100%!important;}
 
 <!-- BOOKMARKS -->
 <div class="pg" id="pg-bookmarks">
-  <div class="sh"><div class="st p">★ BOOKMARKS</div><div class="sl"></div><div class="sct" id="fc-bm">0 saved</div></div>
+  <div class="sh"><div class="st p"><i class="fa-solid fa-bookmark" style="margin-right:6px"></i>BOOKMARKS</div><div class="sl"></div><div class="sct" id="fc-bm">0 saved</div></div>
   <div class="fgrid" id="grid-bookmarks"></div>
 </div>
 
 <!-- READ LATER -->
 <div class="pg" id="pg-readlater">
-  <div class="sh"><div class="st c">🕐 READ LATER</div><div class="sl"></div><div class="sct" id="fc-rl">0 queued</div></div>
+  <div class="sh"><div class="st c"><i class="fa-solid fa-clock" style="margin-right:6px"></i>READ LATER</div><div class="sl"></div><div class="sct" id="fc-rl">0 queued</div></div>
   <div class="fgrid" id="grid-readlater"></div>
 </div>
 
 <!-- NOTES -->
 <div class="pg" id="pg-notes">
-  <div class="sh"><div class="st p">📝 MY NOTES</div><div class="sl"></div><div class="sct" id="fc-notes">0 notes</div></div>
+  <div class="sh"><div class="st p"><i class="fa-solid fa-pen-to-square" style="margin-right:6px"></i>MY NOTES</div><div class="sl"></div><div class="sct" id="fc-notes">0 notes</div></div>
   <div class="notes-wrap">
     <div class="notes-hdr"><div class="notes-title">// GLOBAL NOTE PAD</div></div>
     <textarea class="notes-ta" id="global-note" placeholder="// Your notes, IOCs, paste bins, findings..." oninput="saveGlobalNote()"></textarea>
@@ -712,11 +682,10 @@ canvas{width:100%!important;}
 
 <!-- MOBILE BOTTOM NAV -->
 <div class="mob-nav">
-  <div class="mob-ni on" onclick="go('all')" id="mnav-all"><span class="ico">◈</span>Feed</div>
-  <div class="mob-ni" onclick="go('vulns')" id="mnav-vulns"><span class="ico">⚠</span>Vulns</div>
-  <div class="mob-ni" onclick="go('map')" id="mnav-map"><span class="ico">🌍</span>Map</div>
-  <div class="mob-ni" onclick="go('dashboard')" id="mnav-dashboard"><span class="ico">📊</span>Stats</div>
-  <div class="mob-ni" onclick="go('bookmarks')" id="mnav-bookmarks"><span class="ico">★</span>Saved</div>
+  <div class="mob-ni on" onclick="go('all')" id="mnav-all"><span class="ico"><i class="fa-solid fa-rss"></i></span>Feed</div>
+  <div class="mob-ni" onclick="go('vulns')" id="mnav-vulns"><span class="ico"><i class="fa-solid fa-shield-halved"></i></span>Vulns</div>
+  <div class="mob-ni" onclick="go('dashboard')" id="mnav-dashboard"><span class="ico"><i class="fa-solid fa-chart-column"></i></span>Stats</div>
+  <div class="mob-ni" onclick="go('bookmarks')" id="mnav-bookmarks"><span class="ico"><i class="fa-solid fa-bookmark"></i></span>Saved</div>
 </div>
 
 <!-- MOB OVERLAY -->
@@ -724,13 +693,13 @@ canvas{width:100%!important;}
 
 <!-- NOTIF PANEL -->
 <div class="panel" id="notif-panel">
-  <div class="phdr"><div class="phtit r">🔔 CRITICAL ALERTS</div><div style="display:flex;gap:.4rem"><button class="pclear" onclick="clearNotifs()">CLEAR</button><button class="pclose" onclick="closePanel('notif')">✕</button></div></div>
+  <div class="phdr"><div class="phtit r"><i class="fa-solid fa-bell" style="margin-right:6px"></i>CRITICAL ALERTS</div><div style="display:flex;gap:.4rem"><button class="pclear" onclick="clearNotifs()"><i class="fa-solid fa-trash"></i></button><button class="pclose" onclick="closePanel('notif')"><i class="fa-solid fa-xmark"></i></button></div></div>
   <div id="notif-list"><div style="padding:1.5rem;text-align:center;font-family:var(--mono);font-size:.62rem;color:var(--td);">No alerts yet</div></div>
 </div>
 
 <!-- SETTINGS PANEL -->
 <div class="panel" id="settings-panel">
-  <div class="phdr"><div class="phtit c">⚙ SETTINGS</div><button class="pclose" onclick="closePanel('settings')">✕</button></div>
+  <div class="phdr"><div class="phtit c"><i class="fa-solid fa-gear" style="margin-right:6px"></i>SETTINGS</div><button class="pclose" onclick="closePanel('settings')"><i class="fa-solid fa-xmark"></i></button></div>
   <div class="ssec"><div class="sstit">// Display</div>
     <div class="srow"><div><div class="slb">Compact Cards</div></div><label class="tgl"><input type="checkbox" id="tgl-compact" onchange="toggleCompact(this)"><div class="tgl-tr"></div><div class="tgl-th"></div></label></div>
     <div class="srow"><div><div class="slb">Ticker Speed</div></div>
@@ -770,7 +739,7 @@ canvas{width:100%!important;}
     <div class="sstit">// About</div>
     <div style="font-family:var(--mono);font-size:.58rem;color:var(--td);line-height:1.9">
       RedOps Intel Platform v3.0<br>
-      Made with ♥ by <a href="https://www.linkedin.com/in/paul-elie-18a972333/" target="_blank" style="color:var(--red);text-decoration:none">Paul-Elie</a><br>
+      Made with <i class="fa-solid fa-heart"></i> by <a href="https://www.linkedin.com/in/paul-elie-18a972333/" target="_blank" style="color:var(--red);text-decoration:none">Paul-Elie</a><br>
       <a href="https://www.instagram.com/0dayninja/" target="_blank" style="color:var(--ts);text-decoration:none">@0dayninja</a> on Instagram<br>
       For ethical use only • Free forever on GitHub Pages
     </div>
@@ -780,20 +749,20 @@ canvas{width:100%!important;}
 <!-- MODAL -->
 <div class="ov" id="ov" onclick="closeModal(event)">
   <div class="modal">
-    <div class="mhdr"><div class="mtit" id="m-tit"></div><button class="mcls" onclick="closeModal()">✕</button></div>
+    <div class="mhdr"><div class="mtit" id="m-tit"></div><button class="mcls" onclick="closeModal()"><i class="fa-solid fa-xmark"></i></button></div>
     <div class="mbody">
       <div class="mmeta" id="m-meta"></div>
       <div id="m-ioc"></div>
       <div class="mdesc" id="m-desc"></div>
       <div class="mnote" style="margin-bottom:.8rem">
-        <div style="font-family:var(--mono);font-size:.55rem;color:var(--cyn);margin-bottom:.3rem">📝 NOTE</div>
+        <div style="font-family:var(--mono);font-size:.55rem;color:var(--cyn);margin-bottom:.3rem"><i class="fa-solid fa-pen-to-square" style="margin-right:6px"></i>NOTE</div>
         <textarea class="mnote-ta" id="m-note-ta" placeholder="Add your notes, findings, context..."></textarea>
         <button class="mnote-save" onclick="saveArticleNote()">SAVE NOTE</button>
       </div>
       <div class="macts">
         <a href="#" id="m-link" class="mlink" target="_blank" rel="noopener">↗ OPEN SOURCE</a>
-        <button class="mbmbtn" id="m-bm" onclick="toggleBmModal()">★ BOOKMARK</button>
-        <button class="mbmbtn" id="m-rl" onclick="toggleRLModal()" style="color:var(--cyn);border-color:rgba(0,212,255,.3);">🕐 READ LATER</button>
+        <button class="mbmbtn" id="m-bm" onclick="toggleBmModal()"><i class="fa-solid fa-bookmark" style="margin-right:6px"></i>BOOKMARK</button>
+        <button class="mbmbtn" id="m-rl" onclick="toggleRLModal()" style="color:var(--cyn);border-color:rgba(0,212,255,.3);"><i class="fa-solid fa-clock" style="margin-right:6px"></i>READ LATER</button>
       </div>
     </div>
   </div>
@@ -819,7 +788,6 @@ const FEEDS=[
   {url:'http://feeds.feedburner.com/securityweek',name:'SecurityWeek',cat:'threats'},
   {url:'http://feeds.feedburner.com/gbhackers',name:'GBHackers',cat:'threats'},
   {url:'https://www.hackread.com/feed',name:'HackRead',cat:'threats'},
-  {url:'https://rss.packetstormsecurity.com/',name:'PacketStorm',cat:'exploits'},
   {url:'https://www.exploit-db.com/rss.xml',name:'Exploit-DB',cat:'exploits'},
   {url:'https://www.vulnhub.com/feeds/added/atom/',name:'VulnHub',cat:'vulns'},
   {url:'https://www.pentestpartners.com/feed',name:'PentestPartners',cat:'redteam'},
@@ -860,11 +828,11 @@ const THREAT_ACTORS=[
   {name:'APT29',aliases:'Cozy Bear, NOBELIUM',flag:'🇷🇺',origin:'Russia (SVR)',sectors:['Government','Energy','Defense'],ttps:['Phishing','Supply Chain','Watering Hole'],tools:['SUNBURST','WELLMESS','MagicWeb'],desc:'Russian state-sponsored group linked to SVR. Known for sophisticated, stealthy operations including SolarWinds compromise.'},
   {name:'APT41',aliases:'Double Dragon, Winnti',flag:'🇨🇳',origin:'China (MSS)',sectors:['Healthcare','Gaming','Telecom'],ttps:['Supply Chain','Spearphishing','Exploitation'],tools:['CROSSWALK','SPECULOOS','Cobalt Strike'],desc:'Chinese state-sponsored group conducting both espionage and financially motivated cybercrime.'},
   {name:'Lazarus Group',aliases:'Hidden Cobra, APT38',flag:'🇰🇵',origin:'North Korea',sectors:['Finance','Crypto','Defense'],ttps:['Spearphishing','Watering Hole','RCE'],tools:['AppleJeus','BlindingCan','ELECTRICFISH'],desc:'North Korean state actor targeting financial institutions, cryptocurrency exchanges, and defense contractors.'},
-  {name:'FIN7',aliases:'Carbanak, Navigator Group',flag:'🌐',origin:'Eastern Europe',sectors:['Retail','Hospitality','Finance'],ttps:['Phishing','POS Malware','Fileless'],tools:['Carbanak','POWERSOURCE','BABYMETAL'],desc:'Financially motivated criminal group that has stolen over $1B from financial institutions and retailers worldwide.'},
-  {name:'REvil',aliases:'Sodinokibi, GOLD SOUTHFIELD',flag:'🌐',origin:'Russia (suspected)',sectors:['Healthcare','Manufacturing','Legal'],ttps:['RaaS','Double Extortion','Supply Chain'],tools:['REvil Ransomware','PowerShell'],desc:'Ransomware-as-a-Service group responsible for Kaseya, JBS Foods, and Quanta Computer attacks.'},
-  {name:'Sandworm',aliases:'Voodoo Bear, TeleBots',flag:'🇷🇺',origin:'Russia (GRU)',sectors:['Energy','Government','Media'],ttps:['Destructive Malware','OT Attacks','Wiper'],tools:['NotPetya','Industroyer','BlackEnergy'],desc:'Russian GRU unit responsible for Ukraine power grid attacks and NotPetya global destructive campaign.'},
-  {name:'Charming Kitten',aliases:'APT35, Phosphorus',flag:'🇮🇷',origin:'Iran (IRGC)',sectors:['Government','NGO','Journalists'],ttps:['Spearphishing','Social Engineering','Clone Phishing'],tools:['HYPERSCRAPE','CharmPower'],desc:'Iranian state-sponsored group targeting dissidents, journalists, and government entities in social engineering campaigns.'},
-  {name:'LockBit',aliases:'ABCD Ransomware',flag:'🌐',origin:'Russia (suspected)',sectors:['Government','Healthcare','Finance'],ttps:['RaaS','Double Extortion','LFI'],tools:['LockBit 3.0','Cobalt Strike','Mimikatz'],desc:'Prolific RaaS operation offering affiliates a ransomware toolkit. Most active ransomware gang 2022-2024.'},
+  {name:'FIN7',aliases:'Carbanak, Navigator Group',flag:'GLOB',origin:'Eastern Europe',sectors:['Retail','Hospitality','Finance'],ttps:['Phishing','POS Malware','Fileless'],tools:['Carbanak','POWERSOURCE','BABYMETAL'],desc:'Financially motivated criminal group that has stolen over $1B from financial institutions and retailers worldwide.'},
+  {name:'REvil',aliases:'Sodinokibi, GOLD SOUTHFIELD',flag:'GLOB',origin:'Russia (suspected)',sectors:['Healthcare','Manufacturing','Legal'],ttps:['RaaS','Double Extortion','Supply Chain'],tools:['REvil Ransomware','PowerShell'],desc:'Ransomware-as-a-Service group responsible for Kaseya, JBS Foods, and Quanta Computer attacks.'},
+  {name:'Sandworm',aliases:'Voodoo Bear, TeleBots',flag:'RUS',origin:'Russia (GRU)',sectors:['Energy','Government','Media'],ttps:['Destructive Malware','OT Attacks','Wiper'],tools:['NotPetya','Industroyer','BlackEnergy'],desc:'Russian GRU unit responsible for Ukraine power grid attacks and NotPetya global destructive campaign.'},
+  {name:'Charming Kitten',aliases:'APT35, Phosphorus',flag:'IRN',origin:'Iran (IRGC)',sectors:['Government','NGO','Journalists'],ttps:['Spearphishing','Social Engineering','Clone Phishing'],tools:['HYPERSCRAPE','CharmPower'],desc:'Iranian state-sponsored group targeting dissidents, journalists, and government entities in social engineering campaigns.'},
+  {name:'LockBit',aliases:'ABCD Ransomware',flag:'GLOB',origin:'Russia (suspected)',sectors:['Government','Healthcare','Finance'],ttps:['RaaS','Double Extortion','LFI'],tools:['LockBit 3.0','Cobalt Strike','Mimikatz'],desc:'Prolific RaaS operation offering affiliates a ransomware toolkit. Most active ransomware gang 2022-2024.'},
 ];
 
 // ====== STATE ======
@@ -1044,7 +1012,7 @@ async function loadFeeds(){
   document.getElementById('hstatus').textContent=`${arts.length} ARTICLES — ${srcOnline}/${FEEDS.length} SOURCES`;
   document.getElementById('stit-art').innerHTML=`<span class="d g"></span>${arts.length} ARTICLES`;
   btn.textContent='⟳ REFRESH';btn.classList.remove('spin');
-  toast(`✓ ${srcOnline}/${FEEDS.length} sources — ${arts.length} articles`,'g');
+  toast(`${srcOnline}/${FEEDS.length} sources — ${arts.length} articles`,'g');
 }
 
 function manualRefresh(){proxyI=(proxyI+1)%PROXIES.length;loadFeeds();}
@@ -1066,9 +1034,9 @@ function updateStats(){
     document.getElementById(`c-${c}`).textContent=arts.filter(a=>a.cat===c).length;
   });
   const tb=document.getElementById('tbadge');
-  if(c>15){tb.textContent='☣ CRITICAL';tb.className='tbadge crit';}
-  else if(c>5){tb.textContent='⚠ HIGH';tb.className='tbadge hi';}
-  else{tb.textContent='⚠ ELEVATED';tb.className='tbadge med';}
+  if(c>15){tb.innerHTML='<i class="fa-solid fa-skull-crossbones" style="margin-right:4px"></i>CRITICAL';tb.className='tbadge crit';}
+  else if(c>5){tb.innerHTML='<i class="fa-solid fa-triangle-exclamation" style="margin-right:4px"></i>HIGH';tb.className='tbadge hi';}
+  else{tb.innerHTML='<i class="fa-solid fa-triangle-exclamation" style="margin-right:4px"></i>ELEVATED';tb.className='tbadge med';}
 }
 
 // ====== TICKER ======
@@ -1128,8 +1096,8 @@ function go(pg){
 function renderPage(){
   switch(curPage){
     case 'all':{const f=getFiltered(arts);renderGrid('grid-all',f);document.getElementById('fc-all').textContent=`${f.length} articles`;break;}
-    case 'bookmarks':renderSavedPage('grid-bookmarks','fc-bm',bookmarks,'★ No bookmarks yet');break;
-    case 'readlater':renderSavedPage('grid-readlater','fc-rl',readlater,'🕐 Read later queue is empty');break;
+    case 'bookmarks':renderSavedPage('grid-bookmarks','fc-bm',bookmarks,'No bookmarks yet');break;
+    case 'readlater':renderSavedPage('grid-readlater','fc-rl',readlater,'Read later queue is empty');break;
     case 'notes':renderNotesPage();break;
     case 'cve':renderCVE();break;
     case 'timeline':renderTimeline();break;
@@ -1166,16 +1134,16 @@ function card(a){
     const obj=typeof t==='object'?t:{t,cls:''};
     return`<span class="tag ${obj.cls}">${obj.t}</span>`;
   }).join('');
-  const readH=a.read?`<div class="read-overlay"></div><div class="read-label">✓ READ</div>`:'';
-  const rlH=isRL?`<button class="rdbtn read" onclick="toggleRL(event,'${a.id}')">🕐 READ LATER</button>`:`<button class="rdbtn" onclick="toggleRL(event,'${a.id}')">🕐</button>`;
+  const readH=a.read?`<div class="read-overlay"></div><div class="read-label"><i class="fa-solid fa-check"></i> READ</div>`:'';
+  const rlH=isRL?`<button class="rdbtn read" onclick="toggleRL(event,'${a.id}')"><i class="fa-solid fa-clock"></i> READ LATER</button>`:`<button class="rdbtn" onclick="toggleRL(event,'${a.id}')"><i class="fa-solid fa-clock"></i></button>`;
   return`<div class="fc ${a.sev}" onclick="openA(event,'${a.id}')" ${compact?'style="padding:.5rem .7rem"':''}>
     ${readH}
-    <button class="bstar ${isBm?'sv':''}" onclick="toggleBm(event,'${a.id}')">★</button>
+    <button class="bstar ${isBm?'sv':''}" onclick="toggleBm(event,'${a.id}')"><i class="fa-solid fa-star"></i></button>
     ${rlH}
     <div class="cmeta"><span class="csrc">${a.source}</span><span class="sb2 sc2${a.sev[0]}">${a.sev.toUpperCase()}</span><span class="ctime">${a.timeAgo}</span></div>
     <div class="ctit">${a.title.slice(0,120)}</div>
     ${!compact&&a.desc?`<div class="cdesc">${a.desc}</div>`:''}
-    ${tagH?`<div class="ctags">${tagH}${hasNote?'<span class="tag" style="color:var(--cyn)">📝</span>':''}</div>`:''}
+    ${tagH?`<div class="ctags">${tagH}${hasNote?'<span class="tag" style="color:var(--cyn)"><i class="fa-solid fa-pen-to-square"></i></span>':''}</div>`:''}
   </div>`;
 }
 
@@ -1186,7 +1154,7 @@ function toggleBm(e,id){
   if(!a)return;
   const i=bookmarks.findIndex(b=>b.id===id);
   if(i>-1){bookmarks.splice(i,1);toast('Bookmark removed');}
-  else{bookmarks.unshift(a);toast('★ Bookmarked!','a');}
+  else{bookmarks.unshift(a);toast('Bookmarked!','a');}
   save();updateStats();renderPage();
 }
 
@@ -1196,7 +1164,7 @@ function toggleRL(e,id){
   if(!a)return;
   const i=readlater.findIndex(b=>b.id===id);
   if(i>-1){readlater.splice(i,1);toast('Removed from Read Later');}
-  else{readlater.unshift(a);toast('🕐 Added to Read Later','c');}
+  else{readlater.unshift(a);toast('Added to Read Later','c');}
   save();updateStats();renderPage();
 }
 
@@ -1224,7 +1192,7 @@ function saveGlobalNote(){globalNote=document.getElementById('global-note').valu
 function saveArticleNote(){
   if(!modalArt)return;
   artNotes[modalArt.id]=document.getElementById('m-note-ta').value;
-  save();updateStats();toast('📝 Note saved','c');
+  save();updateStats();toast('Note saved','c');
 }
 
 // ====== CVE TRACKER ======
@@ -1279,33 +1247,33 @@ function initMap(){
 
 function spawnAttack(){
   mapCount++;
-  document.getElementById('map-hits').textContent=`${mapCount} attacks detected`;
-  document.getElementById('map-counter-hdr').textContent=`${mapCount} attacks tracked in real-time`;
+  const hits=document.getElementById('map-hits');
+  const hdr=document.getElementById('map-counter-hdr');
+  if(hits)hits.textContent=`${mapCount} attacks detected`;
+  if(hdr)hdr.textContent=`${mapCount} attacks tracked in real-time`;
+
   const src=CITIES[Math.floor(Math.random()*CITIES.length)];
   const dst=CITIES[Math.floor(Math.random()*CITIES.length)];
   if(src===dst)return;
+
   const type=ATYPES[Math.floor(Math.random()*ATYPES.length)];
   const map=document.getElementById('world-map');
   const bnd=map.getBoundingClientRect();
   const sx=src.x/1000*bnd.width, sy=src.y/500*bnd.height;
   const dx=dst.x/1000*bnd.width, dy=dst.y/500*bnd.height;
 
-  // Attack dot at source
   const dot=document.createElement('div');
   dot.className='attack-dot';
   dot.style.cssText=`left:${sx}px;top:${sy}px;background:${type.c};box-shadow:0 0 8px ${type.c};`;
   document.getElementById('attack-dots').appendChild(dot);
   setTimeout(()=>dot.remove(),2000);
 
-  // Attack line
   const svg=document.getElementById('attack-lines');
   const line=document.createElementNS('http://www.w3.org/2000/svg','line');
-  const svgBnd=svg.getBoundingClientRect();
-  const sxs=src.x, sys2=src.y, dxs=dst.x, dys=dst.y;
-  line.setAttribute('x1',sxs);line.setAttribute('y1',sys2);
-  line.setAttribute('x2',dxs);line.setAttribute('y2',dys);
-  line.setAttribute('stroke',type.c);line.setAttribute('stroke-width','0.5');
-  line.setAttribute('opacity','0.6');
+  line.setAttribute('x1',src.x);line.setAttribute('y1',src.y);
+  line.setAttribute('x2',dst.x);line.setAttribute('y2',dst.y);
+  line.setAttribute('stroke',type.c);line.setAttribute('stroke-width','0.6');
+  line.setAttribute('opacity','0.7');
   svg.appendChild(line);
   setTimeout(()=>line.remove(),2500);
 }
@@ -1399,7 +1367,7 @@ function selectMitre(id){
 function renderMitreArticles(id){
   const related=arts.filter(a=>a.mitreTags?.some(t=>t.id===id));
   const el=document.getElementById('mitre-art-grid');
-  el.innerHTML=related.length?related.map(a=>card(a)).join(''):`<div class="empty"><div class="emico">🎯</div>NO ARTICLES TAGGED WITH ${id}</div>`;
+  el.innerHTML=related.length?related.map(a=>card(a)).join(''):`<div class="empty"><div class="emico"><i class="fa-solid fa-bullseye"></i></div>NO ARTICLES TAGGED WITH ${id}</div>`;
 }
 
 // ====== ACTORS ======
@@ -1523,8 +1491,8 @@ function openModal(a){
 }
 
 function closeModal(e){if(!e||e.target===document.getElementById('ov')||!e.target){document.getElementById('ov').classList.remove('open');modalArt=null;}}
-function toggleBmModal(){if(modalArt)toggleBm({stopPropagation:()=>{}},modalArt.id);if(modalArt){const isBm=bookmarks.some(b=>b.id===modalArt.id);const btn=document.getElementById('m-bm');btn.textContent=isBm?'★ BOOKMARKED':'★ BOOKMARK';btn.classList.toggle('sv',isBm);}}
-function toggleRLModal(){if(modalArt)toggleRL({stopPropagation:()=>{}},modalArt.id);if(modalArt){const isRL=readlater.some(b=>b.id===modalArt.id);const btn=document.getElementById('m-rl');btn.textContent=isRL?'🕐 QUEUED':'🕐 READ LATER';btn.classList.toggle('sv',isRL);}}
+function toggleBmModal(){if(modalArt)toggleBm({stopPropagation:()=>{}},modalArt.id);if(modalArt){const isBm=bookmarks.some(b=>b.id===modalArt.id);const btn=document.getElementById('m-bm');btn.innerHTML=isBm?'<i class="fa-solid fa-bookmark" style="margin-right:6px"></i>BOOKMARKED':'<i class="fa-solid fa-bookmark" style="margin-right:6px"></i>BOOKMARK';btn.classList.toggle('sv',isBm);}}
+function toggleRLModal(){if(modalArt)toggleRL({stopPropagation:()=>{}},modalArt.id);if(modalArt){const isRL=readlater.some(b=>b.id===modalArt.id);const btn=document.getElementById('m-rl');btn.innerHTML=isRL?'<i class="fa-solid fa-clock" style="margin-right:6px"></i>QUEUED':'<i class="fa-solid fa-clock" style="margin-right:6px"></i>READ LATER';btn.classList.toggle('sv',isRL);}}
 
 function copyIOC(text){navigator.clipboard.writeText(text).then(()=>toast(`Copied: ${text}`,'a')).catch(()=>toast('Copy failed'));}
 
@@ -1562,7 +1530,7 @@ function closePanel(name){document.getElementById(`${name}-panel`).classList.rem
 // ====== SETTINGS ======
 function toggleCompact(cb){compact=cb.checked;renderPage();}
 function setTickerSpeed(v){document.getElementById('ticker').style.animationDuration=v;}
-function saveEmail(){const e=document.getElementById('alert-email').value;if(!e.includes('@')){toast('Invalid email');return;}localStorage.setItem('ro_email',e);document.getElementById('email-msg').textContent='✓ Saved locally';toast('Email saved','g');}
+function saveEmail(){const e=document.getElementById('alert-email').value;if(!e.includes('@')){toast('Invalid email');return;}localStorage.setItem('ro_email',e);document.getElementById('email-msg').textContent='Saved locally';toast('Email saved','g');}
 function clearAll(){if(confirm('Clear all local data?')){bookmarks=[];readlater=[];artNotes={};globalNote='';save();localStorage.removeItem('ro_gnote');updateStats();renderPage();toast('All data cleared');}}
 function exportBM(){const b=new Blob([JSON.stringify(bookmarks,null,2)],{type:'application/json'});const a=document.createElement('a');a.href=URL.createObjectURL(b);a.download='redops-bookmarks.json';a.click();toast('Bookmarks exported','g');}
 function exportJSON(){const b=new Blob([JSON.stringify({exported:new Date().toISOString(),articles:arts.slice(0,100)},null,2)],{type:'application/json'});const a=document.createElement('a');a.href=URL.createObjectURL(b);a.download='redops-feed.json';a.click();toast('Feed exported','g');}

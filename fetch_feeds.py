@@ -10,7 +10,6 @@ FEEDS = [
     {"url": "http://feeds.feedburner.com/securityweek", "name": "SecurityWeek", "cat": "threats"},
     {"url": "http://feeds.feedburner.com/gbhackers", "name": "GBHackers", "cat": "threats"},
     {"url": "https://www.hackread.com/feed", "name": "HackRead", "cat": "threats"},
-    {"url": "https://rss.packetstormsecurity.com/", "name": "PacketStorm", "cat": "exploits"},
     {"url": "https://www.exploit-db.com/rss.xml", "name": "Exploit-DB", "cat": "exploits"},
     {"url": "https://www.vulnhub.com/feeds/added/atom/", "name": "VulnHub", "cat": "vulns"},
     {"url": "https://www.pentestpartners.com/feed", "name": "PentestPartners", "cat": "redteam"},
