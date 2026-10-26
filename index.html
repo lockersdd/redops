@@ -483,10 +483,10 @@ canvas{width:100%!important;}
   <div class="tlbl">▶ HOT</div>
   <div class="ttrack"><div class="tinner" id="ticker">
     <span class="ti"><span class="sep">■</span>Loading threat intelligence feeds...</span>
-    <span class="ti"><span class="sep">■</span>Aggregating 21 security RSS sources...</span>
+    <span class="ti"><span class="sep">■</span>Aggregating 20 security RSS sources...</span>
     <span class="ti"><span class="sep">■</span>Scanning exploit & CVE databases...</span>
     <span class="ti"><span class="sep">■</span>Loading threat intelligence feeds...</span>
-    <span class="ti"><span class="sep">■</span>Aggregating 21 security RSS sources...</span>
+    <span class="ti"><span class="sep">■</span>Aggregating 20 security RSS sources...</span>
     <span class="ti"><span class="sep">■</span>Scanning exploit & CVE databases...</span>
   </div></div>
 </div>
@@ -781,7 +781,6 @@ canvas{width:100%!important;}
 <!-- ============ JS ============ -->
 <script>
 // ====== CONFIG ======
-const PROXIES=['https://corsproxy.io/?','https://api.allorigins.win/raw?url='];
 const FEEDS=[
   {url:'https://feeds.feedburner.com/TheHackersNews',name:'The Hacker News',cat:'threats'},
   {url:'https://krebsonsecurity.com/feed',name:'Krebs on Security',cat:'threats'},
@@ -838,7 +837,7 @@ const THREAT_ACTORS=[
 // ====== STATE ======
 let arts=[], bookmarks=[], readlater=[], artNotes={}, globalNote='';
 let sevF='all', dateF='all', searchQ='', curPage='all', modalArt=null;
-let srcOnline=0, proxyI=0, notifs=[], compact=false, cveList=[], selectedMitre=null;
+let srcOnline=0, notifs=[], compact=false, cveList=[], selectedMitre=null;
 let mapCount=0, mapTimer=null, aptAnimTimer=null;
 
 // Load from localStorage
@@ -943,34 +942,6 @@ function extractCVSS(title,desc){
   return null;
 }
 
-// ====== FETCH ======
-async function fetchFeed(feed,px=0){
-  const proxy=PROXIES[px%PROXIES.length];
-  const res=await fetch(proxy+encodeURIComponent(feed.url),{signal:AbortSignal.timeout(12000)});
-  if(!res.ok)throw new Error('HTTP '+res.status);
-  return parseRSS(await res.text(),feed);
-}
-
-function parseRSS(xml,feed){
-  const doc=new DOMParser().parseFromString(xml,'application/xml');
-  const max=parseInt(document.getElementById('max-art')?.value||'15');
-  return [...doc.querySelectorAll('item,entry')].slice(0,max).map(item=>{
-    const title=(item.querySelector('title')?.textContent||'').replace(/<!\[CDATA\[|\]\]>/g,'').trim()||'Untitled';
-    const link=(item.querySelector('link')?.textContent||item.querySelector('link')?.getAttribute('href')||'#').trim();
-    const raw=(item.querySelector('description,summary,content')?.textContent||'');
-    const desc=raw.replace(/<[^>]+>/g,'').replace(/\s+/g,' ').trim().slice(0,400);
-    const pubDate=(item.querySelector('pubDate,published,updated')?.textContent||'').trim();
-    const full=title+' '+desc;
-    const sev=getSev(full);
-    const cat=getCat(full,feed.cat);
-    const tags=getTags(full);
-    const cvss=extractCVSS(title,desc);
-    const iocs=extractIOCs(full);
-    const mitreTags=MITRE_TECHNIQUES.filter(m=>full.toLowerCase().includes(m.name.toLowerCase().split(' ')[0]));
-    return{id:Math.random().toString(36).slice(2)+Date.now().toString(36),title,link,desc,pubDate,source:feed.name,cat,sev,tags,cvss,iocs,mitreTags,timeAgo:timeAgo(pubDate),ts:new Date(pubDate).getTime()||0,read:false};
-  });
-}
-
 // ====== LOAD ======
 async function loadFeeds(){
   const btn=document.getElementById('rbtn');
@@ -978,44 +949,66 @@ async function loadFeeds(){
   document.getElementById('hstatus').textContent='FETCHING FEEDS...';
   prog(5);srcOnline=0;renderSources('loading');
 
-  const all=[];let done=0;
-  await Promise.allSettled(FEEDS.map(async feed=>{
-    try{const a=await fetchFeed(feed,proxyI);srcOnline++;all.push(...a);}
-    catch(e){try{const a=await fetchFeed(feed,1);srcOnline++;all.push(...a);}catch(e2){}}
-    done++;prog(Math.round(done/FEEDS.length*90));
-  }));
-  prog(100);
-  all.sort((a,b)=>b.ts-a.ts);
+  try{
+    const res=await fetch('./feeds.json',{cache:'no-store',signal:AbortSignal.timeout(12000)});
+    if(!res.ok)throw new Error(`HTTP ${res.status} while loading feeds.json`);
+    const data=await res.json();
+    if(!Array.isArray(data.articles))throw new Error('feeds.json has no articles array');
 
-  // Detect new criticals
-  if(arts.length>0&&document.getElementById('tgl-notif')?.checked){
-    const ex=new Set(arts.map(a=>a.id));
-    all.filter(a=>a.sev==='critical'&&!ex.has(a.id)).forEach(addNotif);
+    const all=data.articles.map(article=>{
+      if(!article||typeof article.title!=='string'||typeof article.source!=='string'||typeof article.desc!=='string'){
+        throw new Error('feeds.json contains an invalid article');
+      }
+      const pubDate=typeof article.pubDate==='string'?article.pubDate:'';
+      return{
+        ...article,
+        pubDate,
+        tags:Array.isArray(article.tags)?article.tags:[],
+        iocs:{
+          cves:Array.isArray(article.iocs?.cves)?article.iocs.cves:[],
+          ips:Array.isArray(article.iocs?.ips)?article.iocs.ips:[],
+          hashes:Array.isArray(article.iocs?.hashes)?article.iocs.hashes:[],
+        },
+        timeAgo:timeAgo(pubDate),
+        ts:Date.parse(pubDate)||Number(article.ts)||0,
+        read:false,
+      };
+    }).sort((a,b)=>b.ts-a.ts);
+    srcOnline=Number.isInteger(data.sources_ok)?data.sources_ok:new Set(all.map(a=>a.source)).size;
+
+    if(arts.length>0&&document.getElementById('tgl-notif')?.checked){
+      const ex=new Set(arts.map(a=>a.id));
+      all.filter(a=>a.sev==='critical'&&!ex.has(a.id)).forEach(addNotif);
+    }
+    arts=all;
+    cveList=arts.filter(a=>{
+      const cves=a.title.match(/CVE-\d{4}-\d+/gi)||a.desc.match(/CVE-\d{4}-\d+/gi)||[];
+      if(cves.length>0){a._cveId=cves[0];return true;}
+      return false;
+    });
+
+    updateStats();renderPage();updateTicker();renderSources('done');
+    if(curPage==='cve')renderCVE();
+    if(curPage==='timeline')renderTimeline();
+    if(curPage==='dashboard')renderDashboard();
+    if(curPage==='mitre')renderMitre();
+
+    const t=new Date().toLocaleTimeString('en',{hour:'2-digit',minute:'2-digit'});
+    document.getElementById('st-ref').textContent=t;
+    document.getElementById('hstatus').textContent=`${arts.length} ARTICLES — ${srcOnline}/${FEEDS.length} SOURCES`;
+    document.getElementById('stit-art').innerHTML=`<span class="d g"></span>${arts.length} ARTICLES`;
+    toast(`${srcOnline}/${FEEDS.length} sources — ${arts.length} articles`,'g');
+  }catch(e){
+    console.error('Unable to load feeds.json',e);
+    document.getElementById('hstatus').textContent='FEED LOAD FAILED';
+    toast(`Feed loading failed: ${e instanceof Error?e.message:String(e)}`);
+  }finally{
+    prog(100);
+    btn.textContent='⟳ REFRESH';btn.classList.remove('spin');
   }
-  arts=all;
-
-  // Build CVE list
-  cveList=arts.filter(a=>{
-    const cves=a.title.match(/CVE-\d{4}-\d+/gi)||a.desc.match(/CVE-\d{4}-\d+/gi)||[];
-    if(cves.length>0){a._cveId=cves[0];return true;}
-    return false;
-  });
-
-  updateStats();renderPage();updateTicker();renderSources('done');
-  if(curPage==='cve')renderCVE();
-  if(curPage==='timeline')renderTimeline();
-  if(curPage==='dashboard')renderDashboard();
-  if(curPage==='mitre')renderMitre();
-
-  const t=new Date().toLocaleTimeString('en',{hour:'2-digit',minute:'2-digit'});
-  document.getElementById('st-ref').textContent=t;
-  document.getElementById('hstatus').textContent=`${arts.length} ARTICLES — ${srcOnline}/${FEEDS.length} SOURCES`;
-  document.getElementById('stit-art').innerHTML=`<span class="d g"></span>${arts.length} ARTICLES`;
-  btn.textContent='⟳ REFRESH';btn.classList.remove('spin');
-  toast(`${srcOnline}/${FEEDS.length} sources — ${arts.length} articles`,'g');
 }
 
-function manualRefresh(){proxyI=(proxyI+1)%PROXIES.length;loadFeeds();}
+function manualRefresh(){loadFeeds();}
 
 // ====== STATS ======
 function updateStats(){
