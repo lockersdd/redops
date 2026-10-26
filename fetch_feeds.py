@@ -1,4 +1,5 @@
 import feedparser
+import hashlib
 import json
 import re
 from datetime import datetime, timezone
@@ -51,21 +52,27 @@ def extract_cves(text):
 
 articles   = []
 sources_ok = 0
+source_status = {}
 headers    = {"User-Agent": "RedOps-Intel-Bot/3.0"}
 
 for cfg in FEEDS:
     try:
         resp = requests.get(cfg["url"], timeout=15, headers=headers)
+        resp.raise_for_status()
         feed = feedparser.parse(resp.content)
-        for entry in feed.entries[:15]:
+        if feed.bozo and not feed.entries:
+            raise ValueError(f"Invalid feed: {feed.bozo_exception}")
+        entries = feed.entries[:15]
+        for entry in entries:
             title = entry.get("title", "Untitled").strip()
             link  = entry.get("link", "#")
             desc  = clean_html(entry.get("summary", entry.get("description", "")))
             pub   = entry.get("published", entry.get("updated", ""))
             full  = title + " " + desc
             cves  = extract_cves(full)
+            article_id = hashlib.sha256((title + "\0" + pub).encode("utf-8")).hexdigest()[:12]
             articles.append({
-                "id":        f"{cfg['name'][:6].replace(' ','')}-{abs(hash(title+pub)) % 999999}",
+                "id":        f"{cfg['name'][:6].replace(' ','')}-{article_id}",
                 "title":     title,
                 "link":      link,
                 "desc":      desc,
@@ -79,15 +86,18 @@ for cfg in FEEDS:
                 "cvss":      None,
                 "ts":        0,
             })
-        print(f"[OK]   {cfg['name']}: {len(feed.entries[:15])} articles")
+        source_status[cfg["name"]] = {"ok": True, "articles": len(entries)}
+        print(f"[OK]   {cfg['name']}: {len(entries)} articles")
         sources_ok += 1
     except Exception as e:
+        source_status[cfg["name"]] = {"ok": False, "articles": 0, "error": str(e)}
         print(f"[FAIL] {cfg['name']}: {e}")
 
 output = {
     "generated_at":  datetime.now(timezone.utc).isoformat(),
     "sources_ok":    sources_ok,
     "sources_total": len(FEEDS),
+    "source_status": source_status,
     "total":         len(articles),
     "articles":      articles,
 }

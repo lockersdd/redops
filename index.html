@@ -7,7 +7,6 @@
 <meta name="description" content="RedOps — Real-time cybersecurity intelligence platform for pentesters & red teamers">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<link rel="manifest" href="data:application/json,{%22name%22:%22RedOps%20Intel%22,%22short_name%22:%22RedOps%22,%22start_url%22:%22.%22,%22display%22:%22standalone%22,%22background_color%22:%22%23030407%22,%22theme_color%2２:%２"%２3ff２d２d%２２}">
 <title>RedOps v3 — Cyber Intelligence Platform</title>
 <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Rajdhani:wght@300;400;500;600;700&family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
@@ -837,7 +836,7 @@ const THREAT_ACTORS=[
 // ====== STATE ======
 let arts=[], bookmarks=[], readlater=[], artNotes={}, globalNote='';
 let sevF='all', dateF='all', searchQ='', curPage='all', modalArt=null;
-let srcOnline=0, notifs=[], compact=false, cveList=[], selectedMitre=null;
+let srcOnline=0, sourceStatus={}, notifs=[], compact=false, cveList=[], selectedMitre=null;
 let mapCount=0, mapTimer=null, aptAnimTimer=null;
 
 // Load from localStorage
@@ -950,6 +949,9 @@ async function loadFeeds(){
   prog(5);srcOnline=0;renderSources('loading');
 
   try{
+    if(location.protocol==='file:'){
+      throw new Error('Browsers block feeds.json when opening index.html directly. Run `python3 -m http.server` in the project folder, then open http://localhost:8000.');
+    }
     const res=await fetch('./feeds.json',{cache:'no-store',signal:AbortSignal.timeout(12000)});
     if(!res.ok)throw new Error(`HTTP ${res.status} while loading feeds.json`);
     const data=await res.json();
@@ -974,7 +976,15 @@ async function loadFeeds(){
         read:false,
       };
     }).sort((a,b)=>b.ts-a.ts);
-    srcOnline=Number.isInteger(data.sources_ok)?data.sources_ok:new Set(all.map(a=>a.source)).size;
+    const articleSources=new Set(all.map(a=>a.source));
+    const hasSourceStatus=data.source_status&&typeof data.source_status==='object'&&!Array.isArray(data.source_status);
+    sourceStatus=Object.fromEntries(FEEDS.map(feed=>[
+      feed.name,
+      hasSourceStatus&&data.source_status[feed.name]
+        ?data.source_status[feed.name]
+        :{ok:articleSources.has(feed.name)},
+    ]));
+    srcOnline=FEEDS.filter(feed=>sourceStatus[feed.name]?.ok===true).length;
 
     if(arts.length>0&&document.getElementById('tgl-notif')?.checked){
       const ex=new Set(arts.map(a=>a.id));
@@ -1045,7 +1055,7 @@ function updateTicker(){
 // ====== SOURCES ======
 function renderSources(state){
   document.getElementById('srcl').innerHTML=FEEDS.map(f=>{
-    const has=arts.some(a=>a.source===f.name);
+    const has=Object.hasOwn(sourceStatus,f.name)?sourceStatus[f.name]?.ok===true:arts.some(a=>a.source===f.name);
     const cls=state==='loading'?'ld':has?'ok':'err';
     return `<div class="sri"><div class="srd ${cls}"></div><span>${f.name}</span></div>`;
   }).join('');
