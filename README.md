@@ -1,2 +1,0 @@
-# redops
-Cyber Intelligence Platform 
