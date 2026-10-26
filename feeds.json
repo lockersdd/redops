@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T14:56:08.958292+00:00",
+  "generated_at": "2026-10-26T20:22:01.438102+00:00",
   "sources_ok": 15,
   "sources_total": 20,
   "source_status": {
@@ -91,6 +91,70 @@
   },
   "total": 195,
   "articles": [
+    {
+      "id": "TheHa-c87577ff119a",
+      "title": "Hackers Infect 953 Online Stores With Scanner-Evading JavaScript, Mostly on Magento",
+      "link": "https://thehackernews.com/2026/10/hackers-infect-953-online-stores-with.html",
+      "desc": "An unknown threat actor has infected 953 online stores, most of them running Magento, as part of a long-running campaign active since July 2025.\n\nAccording to Dutch e-commerce security company Sansec, the activity is designed to add a small piece of code to the store's pages that, when visited by unsuspecting users, serves malicious JavaScript loader code through Magento CMS blocks.\n\n\"When you",
+      "pubDate": "Mon, 26 Oct 2026 23:42:22 +0530",
+      "source": "The Hacker News",
+      "cat": "threats",
+      "sev": "critical",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "TheHa-f2cc8c99e983",
+      "title": "PHP Issues Second Windows Security Update in Five Days to Fix Brotli Code Execution Flaw",
+      "link": "https://thehackernews.com/2026/10/php-issues-second-windows-security.html",
+      "desc": "PHP has rebuilt its official Windows packages for PHP 8.2 through 8.5 to fix CVE-2026-111497, a flaw in the Brotli compression library that the packages include. The flaw can let an attacker corrupt memory and potentially run code.\n\nPHP says the flaw can be reached through the cURL extension when the extension decompresses HTTP responses automatically. cURL leaves that off by default, but",
+      "pubDate": "Mon, 26 Oct 2026 23:15:57 +0530",
+      "source": "The Hacker News",
+      "cat": "threats",
+      "sev": "high",
+      "tags": [
+        {
+          "t": "CVE-2026-111497",
+          "cls": "cve"
+        }
+      ],
+      "iocs": {
+        "cves": [
+          "CVE-2026-111497"
+        ],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "TheHa-fc4468289104",
+      "title": "Attackers Use Microsoft Teams IT Support Scams to Deploy Malware and Ransomware",
+      "link": "https://thehackernews.com/2026/10/attackers-use-microsoft-teams-it.html",
+      "desc": "Cybersecurity researchers are calling attention to what they say is a \"recurring social engineering pattern\" across hundreds of cases in which threat actors use Microsoft Teams' external chat creation feature to conduct impersonation scams or to deliver malware.\n\n\"A consistent pattern of attacker behavior has emerged across these incidents: the use of the same throwaway tenants, the same 'IT",
+      "pubDate": "Mon, 26 Oct 2026 21:22:40 +0530",
+      "source": "The Hacker News",
+      "cat": "malware",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
     {
       "id": "TheHa-548c156c2eb3",
       "title": "⚡ Weekly Recap: This2Shell, That2Shell, Everything's an RCE? Rogue AI, Supply Chain Chaos and More",
@@ -319,70 +383,6 @@
       "tags": [],
       "iocs": {
         "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "TheHa-20b0a30406e9",
-      "title": "Google Says Gmail and Photos Data Shared With AI Search Could Be Used for Targeted Ads",
-      "link": "https://thehackernews.com/2026/10/google-says-gmail-and-photos-data.html",
-      "desc": "Google has updated its privacy policy to spell out that using personalized artificial intelligence (AI) features in Search or Gemini could allow the company to serve targeted ads to users based on their activity on other connected Google services.\n\n\"You may choose to allow certain Google services, including services like Search or Gemini Apps, to access data from other Google services you use,",
-      "pubDate": "Sat, 24 Oct 2026 16:06:33 +0530",
-      "source": "The Hacker News",
-      "cat": "threats",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "TheHa-e6c87b0b5738",
-      "title": "Researchers Push Over 2 Million Updates to Remotely Disable Popcorn Time Updater That Could Fuel a Botnet",
-      "link": "https://thehackernews.com/2026/10/researchers-push-over-2-million-updates.html",
-      "desc": "Between November 2025 and March 2026, the Dutch security firm Eye Security pushed more than 2 million updates to computers it did not own to switch off a background updater that it said could have allowed an outsider to take over the machine.\n\nThe updater belongs to Time4Popcorn, an abandoned copy of Popcorn Time, a free app that streamed pirated films and TV over BitTorrent.\n\nPopcorn Time was",
-      "pubDate": "Sat, 24 Oct 2026 14:34:24 +0530",
-      "source": "The Hacker News",
-      "cat": "threats",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "TheHa-92e44ad9b7a7",
-      "title": "CISA Flags Two Actively Exploited Critical Flaws in Collabora Online and Arista VeloCloud",
-      "link": "https://thehackernews.com/2026/10/cisa-flags-two-actively-exploited.html",
-      "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added two vulnerabilities impacting Collabora Online Built-in CODE Server and Arista VeloCloud Orchestrator (VCO) to its Known Exploited Vulnerabilities (KEV), citing reports of active exploitation in the wild.\n\nThe critical-severity vulnerabilities are listed below -\n\n\n  CVE-2026-110447 (CVSS score: 9.2) - An operating",
-      "pubDate": "Sat, 24 Oct 2026 11:55:57 +0530",
-      "source": "The Hacker News",
-      "cat": "threats",
-      "sev": "critical",
-      "tags": [
-        {
-          "t": "CVE-2026-110447",
-          "cls": "cve"
-        }
-      ],
-      "iocs": {
-        "cves": [
-          "CVE-2026-110447"
-        ],
         "ips": [],
         "hashes": []
       },
@@ -771,6 +771,44 @@
       "ts": 0
     },
     {
+      "id": "GBHack-3a44062a6dbf",
+      "title": "Anthropic’s Claude AI Bypasses Paywall to Access US Election Data Without Permission",
+      "link": "https://gbhackers.com/anthropics-claude-ai-bypasses-paywall-to-access-us-election-data/",
+      "desc": "Anthropic’s Claude AI reportedly bypassed a payment restriction to retrieve publicly available aggregate election counts from Georgia without human authorization. Anthropic clarified that this activity did not involve accessing Georgia’s voter registration system, altering voting records, or retrieving individual voting records. This incident underscores an important aspect of AI security: just be",
+      "pubDate": "Mon, 26 Oct 2026 13:51:15 +0000",
+      "source": "GBHackers",
+      "cat": "threats",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "GBHack-a34d193bac31",
+      "title": "New Malware Targets AI Coding Tools to Steal Login Tokens, SSH Keys, and Cloud Credentials",
+      "link": "https://gbhackers.com/ai-coding-tools-targeted/",
+      "desc": "A newly observed infostealer called Aokigahara is targeting AI coding assistants, developer workstations, and cloud credentials, expanding credential theft beyond browsers and cryptocurrency wallets. The targets include Claude Code and Desktop, ChatGPT Desktop, Codex, Cursor, Windsurf, GitHub Copilot, Gemini CLI, and JetBrains AI Assistant. Rather than exploiting an identified vulnerability in the",
+      "pubDate": "Mon, 26 Oct 2026 13:16:05 +0000",
+      "source": "GBHackers",
+      "cat": "malware",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
       "id": "GBHack-1842609cba30",
       "title": "Hackers Turn Mac Password Stealer Into RAT That Survives Reboots and Executes Remote Commands",
       "link": "https://gbhackers.com/hackers-turn-mac-password-stealer-into-rat-that-survives-reboots-and-executes-remote-commands/",
@@ -919,44 +957,6 @@
       "source": "GBHackers",
       "cat": "malware",
       "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "GBHack-ecf9715477d4",
-      "title": "12 Data Masking Tools: The 2026 Buyer’s Verdict Guide",
-      "link": "https://gbhackers.com/data-masking-tools-buyers-guide/",
-      "desc": "Data masking fails in exactly two places joins that break and copies that take three weeks so this buyer’s verdict guide judges twelve tools on the properties demos skip: referential integrity across systems, delivery speed to the environments developers actually use, and the static-versus-dynamic architecture question that decides what you’re really buying. With AI training [&#8230;]\nThe post 12 ",
-      "pubDate": "Mon, 26 Oct 2026 09:57:37 +0000",
-      "source": "GBHackers",
-      "cat": "threats",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "GBHack-b5660cd80516",
-      "title": "12 Data Privacy Management Platforms: The 2026 Buyer’s Verdict Guide",
-      "link": "https://gbhackers.com/data-privacy-platforms-buyers-guide/",
-      "desc": "Privacy management matured into an engineering discipline the moment deletion requests met data sprawl: you cannot fulfill what you cannot find, and 2026’s platform field divides exactly there workflow suites that run programs, data-intelligence engines that fulfill from discovered reality, consent infrastructures that make choices propagate, and right-sized lanes for the mid-market. This verdict ",
-      "pubDate": "Mon, 26 Oct 2026 09:50:21 +0000",
-      "source": "GBHackers",
-      "cat": "threats",
-      "sev": "medium",
       "tags": [],
       "iocs": {
         "cves": [],
@@ -2030,18 +2030,18 @@
       "sev": "high",
       "tags": [
         {
-          "t": "CVE-2026-109619",
+          "t": "CVE-2026-109618",
           "cls": "cve"
         },
         {
-          "t": "CVE-2026-109618",
+          "t": "CVE-2026-109619",
           "cls": "cve"
         }
       ],
       "iocs": {
         "cves": [
-          "CVE-2026-109619",
-          "CVE-2026-109618"
+          "CVE-2026-109618",
+          "CVE-2026-109619"
         ],
         "ips": [],
         "hashes": []
@@ -2771,18 +2771,18 @@
       "sev": "high",
       "tags": [
         {
-          "t": "CVE-2026-109619",
+          "t": "CVE-2026-109618",
           "cls": "cve"
         },
         {
-          "t": "CVE-2026-109618",
+          "t": "CVE-2026-109619",
           "cls": "cve"
         }
       ],
       "iocs": {
         "cves": [
-          "CVE-2026-109619",
-          "CVE-2026-109618"
+          "CVE-2026-109618",
+          "CVE-2026-109619"
         ],
         "ips": [],
         "hashes": []
@@ -3647,6 +3647,25 @@
       "ts": 0
     },
     {
+      "id": "r/nets-24875850761f",
+      "title": "How to Intercept HTTP/3 Traffic (QUIC and QPACK Explained)",
+      "link": "https://www.reddit.com/r/netsec/comments/1xg6cpe/how_to_intercept_http3_traffic_quic_and_qpack/",
+      "desc": "&#32; submitted by &#32;  /u/Ano_F   [link] &#32; [comments]",
+      "pubDate": "2026-10-26T19:18:19+00:00",
+      "source": "r/netsec",
+      "cat": "community",
+      "sev": "critical",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
       "id": "r/nets-25deece31ad3",
       "title": "The AI RCEssion: Why AI-driven security is calling in decades of software tech debt",
       "link": "https://www.reddit.com/r/netsec/comments/1xfvrxl/the_ai_rcession_why_aidriven_security_is_calling/",
@@ -3655,6 +3674,25 @@
       "source": "r/netsec",
       "cat": "community",
       "sev": "critical",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "r/nets-97de3de1319d",
+      "title": "Connection Reuse leading to desync",
+      "link": "https://www.reddit.com/r/netsec/comments/1xg6ap2/connection_reuse_leading_to_desync/",
+      "desc": "&#32; submitted by &#32;  /u/Xclow3n_   [link] &#32; [comments]",
+      "pubDate": "2026-10-26T19:16:21+00:00",
+      "source": "r/netsec",
+      "cat": "community",
+      "sev": "medium",
       "tags": [],
       "iocs": {
         "cves": [],
@@ -3837,51 +3875,6 @@
       "link": "https://www.reddit.com/r/netsec/comments/1xc3p6r/gallery_of_php_maintenance_pages_from_today/",
       "desc": "&#32; submitted by &#32;  /u/R74nCom   [link] &#32; [comments]",
       "pubDate": "2026-10-22T00:07:45+00:00",
-      "source": "r/netsec",
-      "cat": "community",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "r/nets-4c894fe4fd4a",
-      "title": "PHP2Shell (CVE-2026-109618/109619): first exploit requests arrived 5.5 hours before PHP shipped the fix, and the \"scanners\" carry Mirai-style loaders",
-      "link": "https://www.reddit.com/r/netsec/comments/1xbzwrn/php2shell_cve2026109618109619_first_exploit/",
-      "desc": "&#32; submitted by &#32;  /u/HexLayer3   [link] &#32; [comments]",
-      "pubDate": "2026-10-21T21:24:08+00:00",
-      "source": "r/netsec",
-      "cat": "community",
-      "sev": "high",
-      "tags": [
-        {
-          "t": "CVE-2026-109618",
-          "cls": "cve"
-        }
-      ],
-      "iocs": {
-        "cves": [
-          "CVE-2026-109618"
-        ],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "r/nets-45dad0c564b2",
-      "title": "Custom Extensions for SmartScreen Evasion",
-      "link": "https://www.reddit.com/r/netsec/comments/1xcf5yh/custom_extensions_for_smartscreen_evasion/",
-      "desc": "&#32; submitted by &#32;  /u/netbiosX   [link] &#32; [comments]",
-      "pubDate": "2026-10-22T10:44:10+00:00",
       "source": "r/netsec",
       "cat": "community",
       "sev": "medium",
