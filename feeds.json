@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-26T13:03:06.731482+00:00",
-  "sources_ok": 16,
+  "generated_at": "2026-10-26T14:56:08.958292+00:00",
+  "sources_ok": 15,
   "sources_total": 20,
   "source_status": {
     "The Hacker News": {
@@ -20,8 +20,9 @@
       "articles": 10
     },
     "HackRead": {
-      "ok": true,
-      "articles": 10
+      "ok": false,
+      "articles": 0,
+      "error": "403 Client Error: Forbidden for url: https://www.hackread.com/feed"
     },
     "Exploit-DB": {
       "ok": true,
@@ -88,8 +89,46 @@
       "error": "429 Client Error: Too Many Requests for url: https://www.reddit.com/r/blueteamsec/.rss"
     }
   },
-  "total": 205,
+  "total": 195,
   "articles": [
+    {
+      "id": "TheHa-548c156c2eb3",
+      "title": "⚡ Weekly Recap: This2Shell, That2Shell, Everything's an RCE? Rogue AI, Supply Chain Chaos and More",
+      "link": "https://thehackernews.com/2026/10/weekly-recap-this2shell-that2shell.html",
+      "desc": "This2Shell, That2Shell, Everything2Shell. That's pretty much how the last week went. Critical bugs that let attackers run code remotely are showing up everywhere. Hackers are scanning for targets, some flaws are already being used in attacks, and security teams have more urgent patches than they can keep up with.\n\nAnd that's not even the full story. A leaked key led to a software supply-chain",
+      "pubDate": "Mon, 26 Oct 2026 19:36:13 +0530",
+      "source": "The Hacker News",
+      "cat": "breaches",
+      "sev": "critical",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "TheHa-814806481a97",
+      "title": "Two Critical Wasmtime Flaws Could Let Malicious WebAssembly Modules Escape Sandboxes",
+      "link": "https://thehackernews.com/2026/10/two-critical-wasmtime-flaws-could-let.html",
+      "desc": "Two critical flaws in&nbsp;Wasmtime, a WebAssembly runtime that can be built into other software, could allow a malicious WebAssembly module to escape the sandbox intended to contain it, the project's maintainers say.\n\nAn attacker would first need a vulnerable Wasmtime build to compile a module they control, and one of the flaws affects only ARM64 systems. Fixed versions were released on",
+      "pubDate": "Mon, 26 Oct 2026 17:22:41 +0530",
+      "source": "The Hacker News",
+      "cat": "threats",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
     {
       "id": "TheHa-30f7bf2b92a7",
       "title": "Between alerts: What Attackers Do in the Spaces Ordinary Detection Misses",
@@ -352,44 +391,6 @@
       "ts": 0
     },
     {
-      "id": "TheHa-0524643e0fbe",
-      "title": "BlackX UEFI Bootkit Bypasses Secure Boot on Patched Windows Systems Missing Revocations",
-      "link": "https://thehackernews.com/2026/10/blackx-uefi-bootkit-bypasses-secure.html",
-      "desc": "Diplomatic organizations in Central Asia have been targeted by a sophisticated new Unified Extensible Firmware Interface (UEFI) bootkit called BlackX.\n\nThe activity, which singled out diplomatic entities in Tajikistan, Uzbekistan, and Turkmenistan in early 2026, is suspected to be orchestrated by a China-linked state-sponsored hacking group known as APT41, Kaspersky said in a technical report",
-      "pubDate": "Sat, 24 Oct 2026 00:20:13 +0530",
-      "source": "The Hacker News",
-      "cat": "threats",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "TheHa-4a3487136173",
-      "title": "Ruby Fixes Three Regex Engine Bugs Responsible for Four Critical GitLab RCE Flaws",
-      "link": "https://thehackernews.com/2026/10/ruby-fixes-three-regex-engine-bugs.html",
-      "desc": "Ruby has released versions 4.0.9, 3.4.12, and 3.3.13 to fix three bugs in Onigmo, the regular expression engine built into the language. The bugs lie behind four critical security flaws that GitLab patched over the past month.\n\nGitLab found that a specially crafted pattern could corrupt memory while Ruby compiles it, potentially leading to code execution on its own servers.\n\nRuby says any",
-      "pubDate": "Fri, 23 Oct 2026 23:24:08 +0530",
-      "source": "The Hacker News",
-      "cat": "threats",
-      "sev": "critical",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
       "id": "Krebs-1573c1d6ecaa",
       "title": "Widespread PHP Flaw May Cause Many Site Outages Today",
       "link": "https://krebsonsecurity.com/2026/10/widespread-php-flaw-may-cause-many-site-outages-today/",
@@ -580,6 +581,82 @@
       "ts": 0
     },
     {
+      "id": "Securi-34c61b737e3a",
+      "title": "Industrial Vendors Check Products for PHP2Shell Vulnerabilities",
+      "link": "https://www.securityweek.com/industrial-vendors-check-products-for-php2shell-vulnerabilities/",
+      "desc": "Siemens, Schneider Electric, ABB and others have confirmed that some of their products are affected by the PHP2Shell vulnerabilities.\nThe post Industrial Vendors Check Products for PHP2Shell Vulnerabilities appeared first on SecurityWeek.",
+      "pubDate": "Mon, 26 Oct 2026 14:52:14 +0000",
+      "source": "SecurityWeek",
+      "cat": "threats",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "Securi-280709b554ab",
+      "title": "Genesys Hack Exposes Customer Data From Internal Systems",
+      "link": "https://www.securityweek.com/genesys-hack-exposes-customer-data-from-internal-systems/",
+      "desc": "The Genesys Cloud, Genesys Engage, and Genesys Engage Cloud platforms were not affected.\nThe post Genesys Hack Exposes Customer Data From Internal Systems appeared first on SecurityWeek.",
+      "pubDate": "Mon, 26 Oct 2026 14:40:48 +0000",
+      "source": "SecurityWeek",
+      "cat": "threats",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "Securi-7f79e76950e2",
+      "title": "Stolen AI Reasoning Could Help China Build Cheaper Rivals",
+      "link": "https://www.securityweek.com/stolen-ai-reasoning-could-help-china-build-cheaper-rivals/",
+      "desc": "Xint says a flaw in OpenAI’s compaction process let researchers move reasoning traces between models, potentially making it cheaper to distill a rival AI.\nThe post Stolen AI Reasoning Could Help China Build Cheaper Rivals appeared first on SecurityWeek.",
+      "pubDate": "Mon, 26 Oct 2026 14:30:09 +0000",
+      "source": "SecurityWeek",
+      "cat": "threats",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "Securi-cf353f785f61",
+      "title": "PHP2Shell Exploitation Moves From Probes to Working Shells",
+      "link": "https://www.securityweek.com/php2shell-exploitation-moves-from-probes-to-working-shells/",
+      "desc": "Attackers successfully exploited the PHP2Shell flaws against honeypots, launching 35 shells from two IP addresses on October 24.\nThe post PHP2Shell Exploitation Moves From Probes to Working Shells  appeared first on SecurityWeek.",
+      "pubDate": "Mon, 26 Oct 2026 13:30:10 +0000",
+      "source": "SecurityWeek",
+      "cat": "threats",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
       "id": "Securi-7be55d724801",
       "title": "953 Online Stores Infected in Long-Lasting Malware Campaign",
       "link": "https://www.securityweek.com/953-online-stores-infected-in-long-lasting-malware-campaign/",
@@ -694,17 +771,43 @@
       "ts": 0
     },
     {
-      "id": "Securi-bfac9a5cc086",
-      "title": "Mirai Botnet Operators Join PHP2Shell Attacks as ASLR Bypass Exploits Emerge",
-      "link": "https://www.securityweek.com/mirai-botnet-operators-join-php2shell-attacks-as-aslr-bypass-exploits-emerge/",
-      "desc": "Researchers tie PHP2Shell attempts to a Mirai botnet and show an ASLR bypass, but no successful compromise has been confirmed yet.\nThe post Mirai Botnet Operators Join PHP2Shell Attacks as ASLR Bypass Exploits Emerge appeared first on SecurityWeek.",
-      "pubDate": "Fri, 23 Oct 2026 12:45:52 +0000",
-      "source": "SecurityWeek",
+      "id": "GBHack-1842609cba30",
+      "title": "Hackers Turn Mac Password Stealer Into RAT That Survives Reboots and Executes Remote Commands",
+      "link": "https://gbhackers.com/hackers-turn-mac-password-stealer-into-rat-that-survives-reboots-and-executes-remote-commands/",
+      "desc": "The Icarus macOS stealer, marketed as ICMacOS, has moved beyond smash-and-grab theft. Its latest version installs persistence, keeps a live channel open to its operators, and executes commands sent from a remote server. SOCRadar identified ICMacOS in September 2026 and found two variants. Version 1 focuses on core theft, targeting browser credentials, password manager databases, [&#8230;]\nThe post",
+      "pubDate": "Mon, 26 Oct 2026 12:17:56 +0000",
+      "source": "GBHackers",
+      "cat": "threats",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "GBHack-41c0dceeacd1",
+      "title": "KeePassXC 2.8.0 Released to Fix Multiple Security Vulnerabilities Affecting Password Manager",
+      "link": "https://gbhackers.com/keepassxc-2-8-0-released/",
+      "desc": "KeePassXC has released version 2.8.0 to address multiple security vulnerabilities related to database imports, browser integration, SSH key handling, and the protection of sensitive information. Published on October 21, this update includes eight security fixes, platform improvements, and a migration to Qt 6. Notably, one vulnerability is identified as CVE-2026-69150, and four additional issues ar",
+      "pubDate": "Mon, 26 Oct 2026 11:53:48 +0000",
+      "source": "GBHackers",
       "cat": "threats",
       "sev": "high",
-      "tags": [],
+      "tags": [
+        {
+          "t": "CVE-2026-69150",
+          "cls": "cve"
+        }
+      ],
       "iocs": {
-        "cves": [],
+        "cves": [
+          "CVE-2026-69150"
+        ],
         "ips": [],
         "hashes": []
       },
@@ -713,52 +816,14 @@
       "ts": 0
     },
     {
-      "id": "Securi-c3a0cba9b09b",
-      "title": "China APT Uses AI Pentest Tool Artex in ConnectWise Attacks",
-      "link": "https://www.securityweek.com/china-apt-uses-ai-pentest-tool-artex-in-connectwise-attacks/",
-      "desc": "The state-sponsored hackers targeted hundreds of organizations and gained privileged access to some environments.\nThe post China APT Uses AI Pentest Tool Artex in ConnectWise Attacks appeared first on SecurityWeek.",
-      "pubDate": "Fri, 23 Oct 2026 10:31:16 +0000",
-      "source": "SecurityWeek",
-      "cat": "redteam",
-      "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "Securi-0a1156f39aa0",
-      "title": "Attackers Exploit Third Arista VCO Zero-Day in Four Months",
-      "link": "https://www.securityweek.com/attackers-exploit-third-velocloud-orchestrator-zero-day-in-four-months/",
-      "desc": "The critical-severity SQL injection flaw allows attackers to access privileged internal functionality and gain operator privileges.\nThe post Attackers Exploit Third Arista VCO Zero-Day in Four Months appeared first on SecurityWeek.",
-      "pubDate": "Fri, 23 Oct 2026 09:58:34 +0000",
-      "source": "SecurityWeek",
+      "id": "GBHack-63c1b5a63b7f",
+      "title": "Apache Camel Vulnerabilities Allow Remote Code Execution, Authentication Bypass, and Data Theft",
+      "link": "https://gbhackers.com/apache-camel-vulnerabilities/",
+      "desc": "Apache Camel’s security advisories document critical and high-severity vulnerabilities that could allow for remote code execution, authentication bypass, credential exposure, and unauthorized file access. These issues affect various integration components and Camel K, and their exploitability depends on the deployed components, route configurations, and an attacker’s access to messages or infrastr",
+      "pubDate": "Mon, 26 Oct 2026 11:30:01 +0000",
+      "source": "GBHackers",
       "cat": "threats",
       "sev": "critical",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "Securi-ae021ecd518f",
-      "title": "11 Million Impacted by Capcom Data Breach",
-      "link": "https://www.securityweek.com/11-million-impacted-by-capcom-data-breach/",
-      "desc": "The hackers stole 11 million email addresses from CAPCOM ID and changed the login passwords for 196 accounts.\nThe post 11 Million Impacted by Capcom Data Breach appeared first on SecurityWeek.",
-      "pubDate": "Fri, 23 Oct 2026 08:34:14 +0000",
-      "source": "SecurityWeek",
-      "cat": "breaches",
-      "sev": "high",
       "tags": [],
       "iocs": {
         "cves": [],
@@ -890,253 +955,6 @@
       "desc": "Privacy management matured into an engineering discipline the moment deletion requests met data sprawl: you cannot fulfill what you cannot find, and 2026’s platform field divides exactly there workflow suites that run programs, data-intelligence engines that fulfill from discovered reality, consent infrastructures that make choices propagate, and right-sized lanes for the mid-market. This verdict ",
       "pubDate": "Mon, 26 Oct 2026 09:50:21 +0000",
       "source": "GBHackers",
-      "cat": "threats",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "GBHack-859cee6ab032",
-      "title": "10 Database Security & Activity Monitoring Tools: The 2026 Buyer’s Verdict Guide",
-      "link": "https://gbhackers.com/database-security-tools-buyers-guide/",
-      "desc": "Databases are where breaches cash out, and database security tooling splits by philosophy: watch the door (classic DAM), govern the warehouse era (access layers), protect the values themselves (in-path encryption), and audit the posture (assessment lanes). Two roster notes first: our sheet’s twelve rows contain two single vendors double-listed IBM appears as Guardium and as [&#8230;]\nThe post 10 D",
-      "pubDate": "Mon, 26 Oct 2026 09:42:22 +0000",
-      "source": "GBHackers",
-      "cat": "breaches",
-      "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "GBHack-8375ca36b952",
-      "title": "New TRUST#GRAFT Attack Tricks WordPress Admin Browsers Into Installing Malicious Plugins",
-      "link": "https://gbhackers.com/trustgraft-attack/",
-      "desc": "TRUST#GRAFT, a JavaScript-to-WordPress attack chain that never breaks WordPress authentication. Instead, it borrows the trust placed in an already logged-in administrator&#8217;s browser and uses that session to install a persistent PHP backdoor. Many administrators stay signed in to wp-admin in the same profile they use for everyday browsing. That habit gives attackers a usable foothold. [&#8230;",
-      "pubDate": "Mon, 26 Oct 2026 09:38:03 +0000",
-      "source": "GBHackers",
-      "cat": "threats",
-      "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "GBHack-a224d9b710d5",
-      "title": "Hackers Can Hijack AI Agents Just by Planting Malicious Files in the Downloads Folder",
-      "link": "https://gbhackers.com/malicious-files-hijack-ai-agents/",
-      "desc": "AI coding assistants such as Claude Code and OpenAI Codex. These tools write, run, and modify code with little supervision. Each one automatically reads and obeys any instructions file it finds in the folder it opens. The investigation began with an alert. Forever stopped a coding agent mid-session from installing function-color, a malicious npm package. [&#8230;]\nThe post Hackers Can Hijack AI Ag",
-      "pubDate": "Mon, 26 Oct 2026 08:27:48 +0000",
-      "source": "GBHackers",
-      "cat": "threats",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "HackRe-265a8d0c149e",
-      "title": "Security Teams and AI Tools: Why Executives Won’t Adopt What They Can’t Control",
-      "link": "https://hackread.com/security-teams-ai-tools-executives-adopt-control/",
-      "desc": "Executives need visibility into workplace AI, clear data controls and limits on agent access before approving wider adoption. Here’s what businesses need in place.",
-      "pubDate": "Mon, 26 Oct 2026 11:45:58 +0000",
-      "source": "HackRead",
-      "cat": "threats",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "HackRe-6f1ff4f3ab8e",
-      "title": "StealC Malware Returns as Stadia RAT After Operation Endgame Takedown",
-      "link": "https://hackread.com/stealc-malware-stadia-rat-operation-endgame-takedown/",
-      "desc": "StealC&#8217;s seller has returned with Stadia RAT, combining credential theft, hidden desktop control, and remote command execution using&#8230;",
-      "pubDate": "Mon, 26 Oct 2026 11:18:00 +0000",
-      "source": "HackRead",
-      "cat": "malware",
-      "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "HackRe-4b765cf9107a",
-      "title": "SPECTER Attack Uses USB Power Signals to Leak Data From Air-Gapped PCs",
-      "link": "https://hackread.com/specter-usb-power-signals-air-gapped-pcs-leak-data/",
-      "desc": "Researchers demonstrated SPECTER, a technique that leaks data from compromised air-gapped PCs through USB power controls, phone charging changes and peripherals.",
-      "pubDate": "Sat, 24 Oct 2026 16:02:19 +0000",
-      "source": "HackRead",
-      "cat": "breaches",
-      "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "HackRe-241f006b9b25",
-      "title": "GoDaddy Revokes 404,607 SSL Certificates After Policy Errors",
-      "link": "https://hackread.com/godaddy-revokes-ssl-certificates-policy-errors/",
-      "desc": "GoDaddy revoked 404,607 SSL/TLS certificates after finding certificate-policy errors, with affected sites including some Gibraltar government websites.",
-      "pubDate": "Fri, 23 Oct 2026 19:09:16 +0000",
-      "source": "HackRead",
-      "cat": "threats",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "HackRe-06f78febe385",
-      "title": "Overlord RAT Uses Fake Legal Notices to Infect Windows PCs in New Campaign",
-      "link": "https://hackread.com/overlord-rat-fake-legal-notices-infect-windows-pcs/",
-      "desc": "WatchGuard details Overlord RAT attacks using fake Brazilian legal notices, plus Lampion malware and a separate remote access&#8230;",
-      "pubDate": "Fri, 23 Oct 2026 17:31:31 +0000",
-      "source": "HackRead",
-      "cat": "malware",
-      "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "HackRe-d4eb010a1887",
-      "title": "When It Makes Sense to Replace a Legacy Virtualization Stack",
-      "link": "https://hackread.com/sense-to-replace-legacy-virtualization-stack/",
-      "desc": "Virtualization platforms often remain in place long after their original purpose because migration carries operational risk. Yet aging&#8230;",
-      "pubDate": "Fri, 23 Oct 2026 14:08:35 +0000",
-      "source": "HackRead",
-      "cat": "threats",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "HackRe-2526c6fbe0dd",
-      "title": "426 Android and iOS Apps Linked to PHP2Shell Backend Risks",
-      "link": "https://hackread.com/426-android-ios-apps-linked-php2shell-backend-risks/",
-      "desc": "Research found 426 mobile apps connecting to servers advertising PHP versions potentially affected by PHP2Shell vulnerabilities, raising concerns&#8230;",
-      "pubDate": "Fri, 23 Oct 2026 12:41:06 +0000",
-      "source": "HackRead",
-      "cat": "threats",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "HackRe-c54dcd1b2d7e",
-      "title": "Paying in ADA: Cardano’s vision for the future of payroll",
-      "link": "https://hackread.com/paying-ada-cardano-vision-future-payroll/",
-      "desc": "Cardano payroll could support ADA salaries and automated payments, but employers must address price volatility, tax obligations, wallet security and compliance.",
-      "pubDate": "Thu, 22 Oct 2026 17:52:01 +0000",
-      "source": "HackRead",
-      "cat": "threats",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "HackRe-0026e2390f29",
-      "title": "Operation Serengeti III Nets 1,462 Arrests and $105M in Cybercrime Crackdown",
-      "link": "https://hackread.com/operation-serengeti-iii-arrests-cybercrime-crackdown/",
-      "desc": "INTERPOL’s Operation Serengeti III targeted cybercrime in 21 African countries, recovering over $105 million and identifying 65,929 victims&#8230;",
-      "pubDate": "Thu, 22 Oct 2026 15:48:40 +0000",
-      "source": "HackRead",
-      "cat": "threats",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "HackRe-5b8691d5698a",
-      "title": "Gcore Makes Enterprise Security Bundle Free for Public Agencies Until End of the Year",
-      "link": "https://hackread.com/gcore-makes-enterprise-security-bundle-free-for-public-agencies-until-end-of-the-year/",
-      "desc": "Contern, Luxembourg, 22nd October 2026, CyberNewswire",
-      "pubDate": "Thu, 22 Oct 2026 14:06:41 +0000",
-      "source": "HackRead",
       "cat": "threats",
       "sev": "medium",
       "tags": [],
@@ -2212,18 +2030,18 @@
       "sev": "high",
       "tags": [
         {
-          "t": "CVE-2026-109618",
+          "t": "CVE-2026-109619",
           "cls": "cve"
         },
         {
-          "t": "CVE-2026-109619",
+          "t": "CVE-2026-109618",
           "cls": "cve"
         }
       ],
       "iocs": {
         "cves": [
-          "CVE-2026-109618",
-          "CVE-2026-109619"
+          "CVE-2026-109619",
+          "CVE-2026-109618"
         ],
         "ips": [],
         "hashes": []
@@ -2525,6 +2343,25 @@
       "ts": 0
     },
     {
+      "id": "Malwar-78939e0762ba",
+      "title": "Popcorn Time’s forgotten updater left millions of devices exposed to hijacking",
+      "link": "https://www.malwarebytes.com/blog/news/2026/10/popcorn-times-forgotten-updater-left-millions-of-devices-exposed-to-hijacking",
+      "desc": "The update process for an abandoned streaming app could let attackers take over PCs. If you ever used Popcorn Time, check your devices.",
+      "pubDate": "Mon, 26 Oct 2026 13:48:08 GMT",
+      "source": "Malwarebytes",
+      "cat": "malware",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
       "id": "Malwar-ceeeeddefb7b",
       "title": "AI Halloween videos: Who’s getting your photos?",
       "link": "https://www.malwarebytes.com/blog/ai/2026/10/ai-halloween-videos-whos-getting-your-photos",
@@ -2791,25 +2628,6 @@
       "ts": 0
     },
     {
-      "id": "Malwar-c3d1e910d42f",
-      "title": "Meta glasses caught recording conversations without wake phrase",
-      "link": "https://www.malwarebytes.com/blog/news/2026/10/meta-says-it-fixed-smart-glasses-unprompted-eavesdropping",
-      "desc": "Owners reported unexpected recordings of private conversations, but Meta hasn’t explained what went wrong or what happened to the audio.",
-      "pubDate": "Tue, 20 Oct 2026 10:06:58 GMT",
-      "source": "Malwarebytes",
-      "cat": "malware",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
       "id": "SANSI-8ad529bd403c",
       "title": "Looking for a Language &#x5b;Guest Diary&#x5d;, (Wed, Oct 21st)",
       "link": "https://isc.sans.edu/diary/rss/33442",
@@ -2953,18 +2771,18 @@
       "sev": "high",
       "tags": [
         {
-          "t": "CVE-2026-109618",
+          "t": "CVE-2026-109619",
           "cls": "cve"
         },
         {
-          "t": "CVE-2026-109619",
+          "t": "CVE-2026-109618",
           "cls": "cve"
         }
       ],
       "iocs": {
         "cves": [
-          "CVE-2026-109618",
-          "CVE-2026-109619"
+          "CVE-2026-109619",
+          "CVE-2026-109618"
         ],
         "ips": [],
         "hashes": []
