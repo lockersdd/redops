@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T15:57:44.047851+00:00",
+  "generated_at": "2026-10-27T20:34:16.421545+00:00",
   "sources_ok": 15,
   "sources_total": 20,
   "source_status": {
@@ -91,6 +91,70 @@
   },
   "total": 195,
   "articles": [
+    {
+      "id": "TheHa-3a06938b1ab4",
+      "title": "CyberStrikeAI Uses 44 AI Agents to Automate Hacking Operations Against Japan Targets",
+      "link": "https://thehackernews.com/2026/10/cyberstrikeai-uses-44-ai-agents-to.html",
+      "desc": "Cybersecurity researchers have disclosed details of three cyber attacks targeting organizations in Japan in which artificial intelligence (AI) was a key element, either in the driving seat or to assist a human operator.\n\nTrendAI, which analyzed three exposed server environments used by threat actors to conduct the malicious cyber operations, described them as distinct from previously published",
+      "pubDate": "Tue, 27 Oct 2026 23:56:46 +0530",
+      "source": "The Hacker News",
+      "cat": "threats",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "TheHa-8787c92cf564",
+      "title": "GoAhead TLS Flaws Allow Revoked Client Certificates and Enable Session Decryption",
+      "link": "https://thehackernews.com/2026/10/goahead-tls-flaws-allow-revoked-client.html",
+      "desc": "The GoAhead embedded web server loaded a certificate revocation list into its default TLS backend but never turned revocation checking on, so a revoked client certificate could still pass login on affected setups.\n\nThe flaw is in builds that use the OpenSSL backend with mutual-TLS, where the server checks a client certificate and vice versa, and a revocation list is configured to block revoked",
+      "pubDate": "Tue, 27 Oct 2026 19:29:48 +0530",
+      "source": "The Hacker News",
+      "cat": "threats",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "TheHa-e159fa50852a",
+      "title": "Apple Backports Fix for Exploited CoreGraphics Flaw to Older iPhones and iPads",
+      "link": "https://thehackernews.com/2026/10/apple-backports-fix-for-exploited.html",
+      "desc": "Apple on Monday backported fixes for a high-severity security flaw that was exploited in real-world cyber attacks to older devices.\n\nThe vulnerability, tracked as CVE-2026-86950 (CVSS score: 8.8), is an out-of-bounds write affecting CoreGraphics that could result in arbitrary code execution when processing a maliciously crafted file.\n\nPatches for the flaw were released last month by Apple in",
+      "pubDate": "Tue, 27 Oct 2026 19:29:09 +0530",
+      "source": "The Hacker News",
+      "cat": "threats",
+      "sev": "high",
+      "tags": [
+        {
+          "t": "CVE-2026-86950",
+          "cls": "cve"
+        }
+      ],
+      "iocs": {
+        "cves": [
+          "CVE-2026-86950"
+        ],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
     {
       "id": "TheHa-7f78c9ca7f63",
       "title": "Microsoft Authenticator Flaw Let Permissionless Android Apps Steal Work Account Tokens",
@@ -330,63 +394,6 @@
       "source": "The Hacker News",
       "cat": "breaches",
       "sev": "critical",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "TheHa-814806481a97",
-      "title": "Two Critical Wasmtime Flaws Could Let Malicious WebAssembly Modules Escape Sandboxes",
-      "link": "https://thehackernews.com/2026/10/two-critical-wasmtime-flaws-could-let.html",
-      "desc": "Two critical flaws in&nbsp;Wasmtime, a WebAssembly runtime that can be built into other software, could allow a malicious WebAssembly module to escape the sandbox intended to contain it, the project's maintainers say.\n\nAn attacker would first need a vulnerable Wasmtime build to compile a module they control, and one of the flaws affects only ARM64 systems. Fixed versions were released on",
-      "pubDate": "Mon, 26 Oct 2026 17:22:41 +0530",
-      "source": "The Hacker News",
-      "cat": "threats",
-      "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "TheHa-30f7bf2b92a7",
-      "title": "Between alerts: What Attackers Do in the Spaces Ordinary Detection Misses",
-      "link": "https://thehackernews.com/2026/10/between-alerts-what-attackers-do-in.html",
-      "desc": "Every SOC struggles with a pile of alerts. Very few of those alerts explain how an attack started or how it progressed. Network data, like that from a network detection and response (NDR) platform, connects individual alerts into one timeline, and it feeds the defensive systems that can tie all events together into one coordinated view.\n\nSOC teams often first see the shape of an intrusion",
-      "pubDate": "Mon, 26 Oct 2026 16:53:56 +0530",
-      "source": "The Hacker News",
-      "cat": "threats",
-      "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "TheHa-3423c3a9e5a4",
-      "title": "uCreator Android Spyware Can Steal Telegram 2FA Passwords and Clone WeChat Accounts",
-      "link": "https://thehackernews.com/2026/10/ucreator-android-spyware-can-steal.html",
-      "desc": "A rentable Android spyware kit called uCreator takes over Telegram and WeChat accounts by hiding its code inside working copies of the two apps, researcher Ovi found. It only reaches people who install one of these tampered copies, spread outside the official app stores, or who run WeChat inside the kit makers' own container app.\n\nThe kit's Telegram part matches Baohuo, a backdoor that Doctor",
-      "pubDate": "Mon, 26 Oct 2026 15:24:02 +0530",
-      "source": "The Hacker News",
-      "cat": "threats",
-      "sev": "high",
       "tags": [],
       "iocs": {
         "cves": [],
@@ -778,6 +785,44 @@
       "ts": 0
     },
     {
+      "id": "GBHack-3e02f48266bb",
+      "title": "Criminal IP Joins INTERPOL’s Gateway Initiative to Support Global Cybercrime Efforts",
+      "link": "https://gbhackers.com/criminal-ip-joins-interpols-gateway-initiative-to-support-global-cybercrime-efforts/",
+      "desc": "Torrance, United States / California, October 27th, 2026, CyberNewswire AI SPERA, the company behind the cyber threat intelligence and attack surface management platform Criminal IP, has signed a cooperation agreement with the International Criminal Police Organization (INTERPOL) under its Gateway initiative. The agreement establishes a framework for sharing information and technical expertise rel",
+      "pubDate": "Tue, 27 Oct 2026 17:45:49 +0000",
+      "source": "GBHackers",
+      "cat": "threats",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "GBHack-223040047bf4",
+      "title": "New Sirius Backdoor Hides Inside Windows Processes to Steal Passwords and Evade Detection",
+      "link": "https://gbhackers.com/sirius-backdoor-variant/",
+      "desc": "A previously undocumented Sirius backdoor variant during a priority customer investigation, revealing a multistage campaign that hides malicious code inside legitimate Windows processes. The supplied analysis details stealthy remote access and persistence, although it does not establish specific password extraction capabilities. The financial urgency and regional tailoring reflect established phis",
+      "pubDate": "Tue, 27 Oct 2026 13:35:24 +0000",
+      "source": "GBHackers",
+      "cat": "threats",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
       "id": "GBHack-14daa1399a5c",
       "title": "Hackers Compromise 17 Exposed AI Pentesting Panels to Deploy Malware and Steal Credentials",
       "link": "https://gbhackers.com/ai-pentesting-panels/",
@@ -926,44 +971,6 @@
       "source": "GBHackers",
       "cat": "threats",
       "sev": "critical",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "GBHack-4288e4a30709",
-      "title": "9 Managed File Transfer (MFT) Solutions: The 2026 Buyer’s Verdict Guide",
-      "link": "https://gbhackers.com/mft-solutions-buyers-guide/",
-      "desc": "MFT buying is posture-first now the category’s mass-exploitation years made exposure architecture and patch velocity selection criteria ahead of any scheduler. Roster honesty first: our sheet’s twelve rows resolve to nine vendors and eleven products Progress owns both MOVEit and WS_FTP, Fortra owns both GoAnywhere and Globalscape EFT, and ExaVault was acquired by Files.com years [&#8230;]\nThe post",
-      "pubDate": "Tue, 27 Oct 2026 08:17:16 +0000",
-      "source": "GBHackers",
-      "cat": "threats",
-      "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "GBHack-85e1bbc5f331",
-      "title": "12 Secure File Sharing Solutions: The 2026 Buyer’s Verdict Guide",
-      "link": "https://gbhackers.com/secure-file-sharing-buyers-guide/",
-      "desc": "Users share files the easiest way available, so secure file sharing succeeds only when the governed path is the easy path. This verdict guide spans the full 2026 architecture menu governed clouds, suite-native floors, self-hosted sovereignty, zero-knowledge encryption, client-portal workflows, and transfer-grade lanes judging twelve solutions on external-sharing governance, encryption honesty, and",
-      "pubDate": "Tue, 27 Oct 2026 08:15:54 +0000",
-      "source": "GBHackers",
-      "cat": "threats",
-      "sev": "medium",
       "tags": [],
       "iocs": {
         "cves": [],
@@ -3666,14 +3673,14 @@
       "ts": 0
     },
     {
-      "id": "r/nets-7b5cac328f91",
-      "title": "A community translation can run attacker-chosen code in an exported Godot game",
-      "link": "https://www.reddit.com/r/netsec/comments/1xgn2l1/a_community_translation_can_run_attackerchosen/",
-      "desc": "&#32; submitted by &#32;  /u/bitbutter   [link] &#32; [comments]",
-      "pubDate": "2026-10-27T08:37:28+00:00",
+      "id": "r/nets-902979608283",
+      "title": "The Gentlemen: A closer look at a not-so-gentle ransomware-as-a-service operation",
+      "link": "https://www.reddit.com/r/netsec/comments/1xgxdk8/the_gentlemen_a_closer_look_at_a_notsogentle/",
+      "desc": "Our Threat Research Unit published a breakdown of “The Gentlemen” - a Russian-speaking ransomware-as-a-service group that emerged in mid-2025, reportedly after affiliates split off from established groups like LockBit and Qilin. A few things that stood out from the research:  They’re offering affiliates up to 90% of ransom revenue - aggressive even by RaaS standards Claimed 800+ victims across the",
+      "pubDate": "2026-10-27T16:33:17+00:00",
       "source": "r/netsec",
       "cat": "community",
-      "sev": "high",
+      "sev": "medium",
       "tags": [],
       "iocs": {
         "cves": [],
@@ -3693,6 +3700,44 @@
       "source": "r/netsec",
       "cat": "community",
       "sev": "critical",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "r/nets-7b5cac328f91",
+      "title": "A community translation can run attacker-chosen code in an exported Godot game",
+      "link": "https://www.reddit.com/r/netsec/comments/1xgn2l1/a_community_translation_can_run_attackerchosen/",
+      "desc": "&#32; submitted by &#32;  /u/bitbutter   [link] &#32; [comments]",
+      "pubDate": "2026-10-27T08:37:28+00:00",
+      "source": "r/netsec",
+      "cat": "community",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "r/nets-668530e8bbe4",
+      "title": "GhostAction Crosses Paths With PolinRider",
+      "link": "https://www.reddit.com/r/netsec/comments/1xh04rd/ghostaction_crosses_paths_with_polinrider/",
+      "desc": "&#32; submitted by &#32;  /u/mabote   [link] &#32; [comments]",
+      "pubDate": "2026-10-27T18:12:53+00:00",
+      "source": "r/netsec",
+      "cat": "community",
+      "sev": "medium",
       "tags": [],
       "iocs": {
         "cves": [],
@@ -3848,51 +3893,6 @@
       "tags": [],
       "iocs": {
         "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "r/nets-38ae54abe100",
-      "title": "We used RCE on 3 million PCs to prevent a botnet",
-      "link": "https://www.reddit.com/r/netsec/comments/1xe25f5/we_used_rce_on_3_million_pcs_to_prevent_a_botnet/",
-      "desc": "&#32; submitted by &#32;  /u/vaizor   [link] &#32; [comments]",
-      "pubDate": "2026-10-24T07:18:36+00:00",
-      "source": "r/netsec",
-      "cat": "community",
-      "sev": "critical",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "r/nets-408bff6cf9da",
-      "title": "Imperia CMS SiteActive TEMPLATE Unauthenticated SSTI Remote Code Execution (CVE-2026-110355)",
-      "link": "https://www.reddit.com/r/netsec/comments/1xdfues/imperia_cms_siteactive_template_unauthenticated/",
-      "desc": "&#32; submitted by &#32;  /u/MrTuxracer   [link] &#32; [comments]",
-      "pubDate": "2026-10-23T14:37:35+00:00",
-      "source": "r/netsec",
-      "cat": "community",
-      "sev": "critical",
-      "tags": [
-        {
-          "t": "CVE-2026-110355",
-          "cls": "cve"
-        }
-      ],
-      "iocs": {
-        "cves": [
-          "CVE-2026-110355"
-        ],
         "ips": [],
         "hashes": []
       },
