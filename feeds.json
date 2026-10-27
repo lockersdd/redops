@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T04:50:53.538642+00:00",
+  "generated_at": "2026-10-27T10:15:10.067233+00:00",
   "sources_ok": 15,
   "sources_total": 20,
   "source_status": {
@@ -91,6 +91,89 @@
   },
   "total": 195,
   "articles": [
+    {
+      "id": "TheHa-073fcef65d4d",
+      "title": "Australia Gets Into Amadey Malware Backend, Cuts Off Access to 180,000 Infected Computers",
+      "link": "https://thehackernews.com/2026/10/australia-gets-into-amadey-malware.html",
+      "desc": "A criminal using the Amadey malware can no longer access or steal data from 180,000 infected computers around the world, including some in Australia, the Australian Signals Directorate (ASD) says. The agency's operators gained access to the criminal's operation's backend and cut it off from those computers.\n\n\"The next steps that we took were to disconnect that Amadey controller from all those",
+      "pubDate": "Tue, 27 Oct 2026 15:03:06 +0530",
+      "source": "The Hacker News",
+      "cat": "malware",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "TheHa-f5bce81c52fd",
+      "title": "OpenAI Compaction Flaw Let Researchers Bypass Hidden Reasoning Protections",
+      "link": "https://thehackernews.com/2026/10/openai-compaction-flaw-let-researchers.html",
+      "desc": "OpenAI's compaction feature, which shrinks a long conversation to save space, could be turned into a way to copy a model's hidden reasoning out in plain text,&nbsp;security firm Xint&nbsp;has shown.\n\nOpenAI's reasoning models work through a problem before answering, and the service normally returns only the raw reasoning as&nbsp;an encrypted item&nbsp;the user cannot read. The method got past",
+      "pubDate": "Tue, 27 Oct 2026 13:52:43 +0530",
+      "source": "The Hacker News",
+      "cat": "threats",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "TheHa-24d405ca382c",
+      "title": "Attackers Hijack Dahua IP Cameras in Ukraine Using P2P Access and Auth Weaknesses",
+      "link": "https://thehackernews.com/2026/10/attackers-hijack-dahua-ip-cameras-in.html",
+      "desc": "The Computer Emergency Response Team of Ukraine (CERT-UA) has issued an alert warning of unauthorized remote access to video surveillance systems manufactured by Dahua.\n\n\"Cases of compromising IP cameras and DVRs with access to the video stream, changing the device configuration and creating third-party accounts have been recorded,\" the State Special Communications Service of Ukraine (SSSCIP)",
+      "pubDate": "Tue, 27 Oct 2026 12:04:47 +0530",
+      "source": "The Hacker News",
+      "cat": "threats",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "TheHa-b24f53c10d32",
+      "title": "CISA Confirms Active Exploitation of Two PHP2Shell Flaws Enabling Remote Code Execution",
+      "link": "https://thehackernews.com/2026/10/cisa-confirms-active-exploitation-of.html",
+      "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday confirmed active exploitation of the recently patched PHP2Shell flaws by adding them to its Known Exploited Vulnerabilities (KEV) catalog.\n\nThe PHP vulnerabilities, both rated 9.2 on the CVSS scoring system, facilitate unauthenticated remote code execution on affected deployments -\n\n\n  CVE-2026-109618 - An out-of-memory",
+      "pubDate": "Tue, 27 Oct 2026 10:07:59 +0530",
+      "source": "The Hacker News",
+      "cat": "threats",
+      "sev": "critical",
+      "tags": [
+        {
+          "t": "CVE-2026-109618",
+          "cls": "cve"
+        }
+      ],
+      "iocs": {
+        "cves": [
+          "CVE-2026-109618"
+        ],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
     {
       "id": "TheHa-c87577ff119a",
       "title": "Hackers Infect 953 Online Stores With Scanner-Evading JavaScript, Mostly on Magento",
@@ -308,89 +391,6 @@
       "ts": 0
     },
     {
-      "id": "TheHa-ca64c0cdd49e",
-      "title": "PHP2Shell Exploitation Attempts Continue Amid Suspected N. Korea Global Scanning Activity",
-      "link": "https://thehackernews.com/2026/10/php2shell-exploitation-hits-government.html",
-      "desc": "In an update, Palo Alto Networks Unit 42 said it's retracting its earlier assessment that the post-compromise activity targeting the European government agency involved the exploitation of the PHP2Shell flaws.\n\n\"What researchers saw was an attack against a European government agency executed in the context of a vulnerable PHP application,\" a spokesperson for the company told The Hacker News via",
-      "pubDate": "Sun, 25 Oct 2026 22:49:46 +0530",
-      "source": "The Hacker News",
-      "cat": "threats",
-      "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "TheHa-e65db39047e5",
-      "title": "OpenAI AI Agents Demonstrate VM Escapes and Secret Cross-Sandbox Communication",
-      "link": "https://thehackernews.com/2026/10/openai-ai-agents-demonstrate-vm-escapes.html",
-      "desc": "OpenAI has announced plans to conduct frontier model training with no live internet access, as it resumes reinforcement learning (RL) training and internal inference of its most advanced AI models.\n\n\"Based on the current state of alignment research, monitoring systems, and the security of internet infrastructure, we believe the responsible approach is to conduct frontier model training with no",
-      "pubDate": "Sun, 25 Oct 2026 12:24:29 +0530",
-      "source": "The Hacker News",
-      "cat": "threats",
-      "sev": "critical",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "TheHa-0d1d55e7417b",
-      "title": "Brotli Decoder Flaw Behind Node.js RCE Also Affects Bun, Python and Other Widely Used Software",
-      "link": "https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html",
-      "desc": "A memory-corruption flaw in Google's Brotli decoder sits in many programs that unpack Brotli-compressed data, among them Bun, Microsoft's .NET, the Python&nbsp;Brotli&nbsp;and&nbsp;brotlicffi&nbsp;packages, and Envoy proxies set up to decompress Brotli.\n\nTracked as&nbsp;CVE-2026-111497, the flaw allows crafted compressed data to overwrite past the end of a buffer and corrupt a program's memory,",
-      "pubDate": "Sat, 24 Oct 2026 16:39:29 +0530",
-      "source": "The Hacker News",
-      "cat": "threats",
-      "sev": "critical",
-      "tags": [
-        {
-          "t": "CVE-2026-111497",
-          "cls": "cve"
-        }
-      ],
-      "iocs": {
-        "cves": [
-          "CVE-2026-111497"
-        ],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "TheHa-ac79e9da878d",
-      "title": "Leaked LiteLLM Master Key Let Attackers Steal GitHub Tokens and Hijack Release Pipeline",
-      "link": "https://thehackernews.com/2026/10/leaked-litellm-master-key-let-attackers.html",
-      "desc": "LiteLLM on Friday revealed that an Agent Platform master key accidentally published to a public GitHub repository in late May 2026 ultimately allowed the threat actor to push a malicious version of the popular Python package.\n\n\"On May 27, 2026, a configuration file was committed to the public LiteLLM-Labs/lite-harness repository which inadvertently contained the master key to a deployment of",
-      "pubDate": "Sat, 24 Oct 2026 16:33:33 +0530",
-      "source": "The Hacker News",
-      "cat": "breaches",
-      "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
       "id": "Krebs-1573c1d6ecaa",
       "title": "Widespread PHP Flaw May Cause Many Site Outages Today",
       "link": "https://krebsonsecurity.com/2026/10/widespread-php-flaw-may-cause-many-site-outages-today/",
@@ -581,6 +581,63 @@
       "ts": 0
     },
     {
+      "id": "Securi-2da0bb2c1823",
+      "title": "This is Fine: What NetScaler Zero-Days Tell Us about the New Normal",
+      "link": "https://www.securityweek.com/this-is-fine-what-netscaler-zero-days-tell-us-about-the-new-normal/",
+      "desc": "Keep your patch management pipelines primed in case another round of Citrix NetScaler patches get released soon.\nThe post This is Fine: What NetScaler Zero-Days Tell Us about the New Normal appeared first on SecurityWeek.",
+      "pubDate": "Tue, 27 Oct 2026 10:02:24 +0000",
+      "source": "SecurityWeek",
+      "cat": "threats",
+      "sev": "critical",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "Securi-e50df00487c8",
+      "title": "Dead Popcorn Time Updater Put Millions of Computers at Risk of Takeover",
+      "link": "https://www.securityweek.com/dead-popcorn-time-updater-put-millions-of-computers-at-risk-of-takeover/",
+      "desc": "Running at system boot, it periodically polled the update domain to execute any code served, with full privileges.\nThe post Dead Popcorn Time Updater Put Millions of Computers at Risk of Takeover appeared first on SecurityWeek.",
+      "pubDate": "Tue, 27 Oct 2026 09:44:50 +0000",
+      "source": "SecurityWeek",
+      "cat": "threats",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "Securi-7e2e2074693e",
+      "title": "Maritime Coalition Launches Free Vulnerability Database for Ship and Port Systems",
+      "link": "https://www.securityweek.com/maritime-coalition-launches-free-vulnerability-database-for-ship-and-port-systems/",
+      "desc": "Blue Initiative indexes nearly 30,000 IT and OT vulnerabilities relevant to ships and ports, 37 of them in maritime-specific products.\nThe post Maritime Coalition Launches Free Vulnerability Database for Ship and Port Systems appeared first on SecurityWeek.",
+      "pubDate": "Tue, 27 Oct 2026 07:14:27 +0000",
+      "source": "SecurityWeek",
+      "cat": "threats",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
       "id": "Securi-47158fb5c7fe",
       "title": "Cybersecurity Issue Forces a Major New Mexico Hospital to Divert Patients and Close Clinics",
       "link": "https://www.securityweek.com/cybersecurity-issue-forces-a-major-new-mexico-hospital-to-divert-patients-and-close-clinics/",
@@ -714,12 +771,12 @@
       "ts": 0
     },
     {
-      "id": "Securi-6efade1901c4",
-      "title": "Dutch Police Arrest Two Over NFC Relay Attacks That Drained $400,000+ From Bank Accounts",
-      "link": "https://www.securityweek.com/dutch-police-arrest-two-over-nfc-relay-attacks-that-drained-400000/",
-      "desc": "The individuals called victims and persuaded them to install an app and scan their credit cards to loot their bank accounts.\nThe post Dutch Police Arrest Two Over NFC Relay Attacks That Drained $400,000+ From Bank Accounts appeared first on SecurityWeek.",
-      "pubDate": "Mon, 26 Oct 2026 11:47:52 +0000",
-      "source": "SecurityWeek",
+      "id": "GBHack-4288e4a30709",
+      "title": "9 Managed File Transfer (MFT) Solutions: The 2026 Buyer’s Verdict Guide",
+      "link": "https://gbhackers.com/mft-solutions-buyers-guide/",
+      "desc": "MFT buying is posture-first now the category’s mass-exploitation years made exposure architecture and patch velocity selection criteria ahead of any scheduler. Roster honesty first: our sheet’s twelve rows resolve to nine vendors and eleven products Progress owns both MOVEit and WS_FTP, Fortra owns both GoAnywhere and Globalscape EFT, and ExaVault was acquired by Files.com years [&#8230;]\nThe post",
+      "pubDate": "Tue, 27 Oct 2026 08:17:16 +0000",
+      "source": "GBHackers",
       "cat": "threats",
       "sev": "high",
       "tags": [],
@@ -733,49 +790,11 @@
       "ts": 0
     },
     {
-      "id": "Securi-40ea0d3b5a5f",
-      "title": "Node2Shell: Brotli Flaw Triggers Patching Across Microsoft, Node.js, Python Packages",
-      "link": "https://www.securityweek.com/node2shell-brotli-flaw-triggers-patching-across-microsoft-node-js-python-packages/",
-      "desc": "An out-of-bounds write in Google’s Brotli decoder affects Node.js, .NET, PowerShell, and Python packages, and can lead to code execution.\nThe post Node2Shell: Brotli Flaw Triggers Patching Across Microsoft, Node.js, Python Packages appeared first on SecurityWeek.",
-      "pubDate": "Mon, 26 Oct 2026 10:21:57 +0000",
-      "source": "SecurityWeek",
-      "cat": "threats",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "Securi-eadc35d8b3ad",
-      "title": "Mythos 5 Ignored Real-World Harm in July Attack",
-      "link": "https://www.securityweek.com/mythos-5-ignored-real-world-harm-in-july-attack/",
-      "desc": "The model engaged in severe overreach and dishonesty, creating fake identities and submitting malicious code on GitHub.\nThe post Mythos 5 Ignored Real-World Harm in July Attack appeared first on SecurityWeek.",
-      "pubDate": "Mon, 26 Oct 2026 09:10:03 +0000",
-      "source": "SecurityWeek",
-      "cat": "threats",
-      "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "GBHack-3a44062a6dbf",
-      "title": "Anthropic’s Claude AI Bypasses Paywall to Access US Election Data Without Permission",
-      "link": "https://gbhackers.com/anthropics-claude-ai-bypasses-paywall-to-access-us-election-data/",
-      "desc": "Anthropic’s Claude AI reportedly bypassed a payment restriction to retrieve publicly available aggregate election counts from Georgia without human authorization. Anthropic clarified that this activity did not involve accessing Georgia’s voter registration system, altering voting records, or retrieving individual voting records. This incident underscores an important aspect of AI security: just be",
-      "pubDate": "Mon, 26 Oct 2026 13:51:15 +0000",
+      "id": "GBHack-85e1bbc5f331",
+      "title": "12 Secure File Sharing Solutions: The 2026 Buyer’s Verdict Guide",
+      "link": "https://gbhackers.com/secure-file-sharing-buyers-guide/",
+      "desc": "Users share files the easiest way available, so secure file sharing succeeds only when the governed path is the easy path. This verdict guide spans the full 2026 architecture menu governed clouds, suite-native floors, self-hosted sovereignty, zero-knowledge encryption, client-portal workflows, and transfer-grade lanes judging twelve solutions on external-sharing governance, encryption honesty, and",
+      "pubDate": "Tue, 27 Oct 2026 08:15:54 +0000",
       "source": "GBHackers",
       "cat": "threats",
       "sev": "medium",
@@ -790,30 +809,11 @@
       "ts": 0
     },
     {
-      "id": "GBHack-a34d193bac31",
-      "title": "New Malware Targets AI Coding Tools to Steal Login Tokens, SSH Keys, and Cloud Credentials",
-      "link": "https://gbhackers.com/ai-coding-tools-targeted/",
-      "desc": "A newly observed infostealer called Aokigahara is targeting AI coding assistants, developer workstations, and cloud credentials, expanding credential theft beyond browsers and cryptocurrency wallets. The targets include Claude Code and Desktop, ChatGPT Desktop, Codex, Cursor, Windsurf, GitHub Copilot, Gemini CLI, and JetBrains AI Assistant. Rather than exploiting an identified vulnerability in the",
-      "pubDate": "Mon, 26 Oct 2026 13:16:05 +0000",
-      "source": "GBHackers",
-      "cat": "malware",
-      "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "GBHack-1842609cba30",
-      "title": "Hackers Turn Mac Password Stealer Into RAT That Survives Reboots and Executes Remote Commands",
-      "link": "https://gbhackers.com/hackers-turn-mac-password-stealer-into-rat-that-survives-reboots-and-executes-remote-commands/",
-      "desc": "The Icarus macOS stealer, marketed as ICMacOS, has moved beyond smash-and-grab theft. Its latest version installs persistence, keeps a live channel open to its operators, and executes commands sent from a remote server. SOCRadar identified ICMacOS in September 2026 and found two variants. Version 1 focuses on core theft, targeting browser credentials, password manager databases, [&#8230;]\nThe post",
-      "pubDate": "Mon, 26 Oct 2026 12:17:56 +0000",
+      "id": "GBHack-b63be9aaf653",
+      "title": "12 Digital Rights Management (DRM/IRM) Solutions: The 2026 Buyer’s Verdict Guide",
+      "link": "https://gbhackers.com/drm-irm-buyers-guide/",
+      "desc": "Rights management is three different purchases sharing an acronym enterprise IRM keeping policy attached to internal documents, hard-shell DRM protecting content you sell, and the governance platforms wrapping both and it lives or dies at the recipient’s second click. This verdict guide judges twelve options on persistence, revocation, control depth, and the external-counterparty friction that [&#",
+      "pubDate": "Tue, 27 Oct 2026 08:13:04 +0000",
       "source": "GBHackers",
       "cat": "threats",
       "sev": "medium",
@@ -828,56 +828,11 @@
       "ts": 0
     },
     {
-      "id": "GBHack-41c0dceeacd1",
-      "title": "KeePassXC 2.8.0 Released to Fix Multiple Security Vulnerabilities Affecting Password Manager",
-      "link": "https://gbhackers.com/keepassxc-2-8-0-released/",
-      "desc": "KeePassXC has released version 2.8.0 to address multiple security vulnerabilities related to database imports, browser integration, SSH key handling, and the protection of sensitive information. Published on October 21, this update includes eight security fixes, platform improvements, and a migration to Qt 6. Notably, one vulnerability is identified as CVE-2026-69150, and four additional issues ar",
-      "pubDate": "Mon, 26 Oct 2026 11:53:48 +0000",
-      "source": "GBHackers",
-      "cat": "threats",
-      "sev": "high",
-      "tags": [
-        {
-          "t": "CVE-2026-69150",
-          "cls": "cve"
-        }
-      ],
-      "iocs": {
-        "cves": [
-          "CVE-2026-69150"
-        ],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "GBHack-63c1b5a63b7f",
-      "title": "Apache Camel Vulnerabilities Allow Remote Code Execution, Authentication Bypass, and Data Theft",
-      "link": "https://gbhackers.com/apache-camel-vulnerabilities/",
-      "desc": "Apache Camel’s security advisories document critical and high-severity vulnerabilities that could allow for remote code execution, authentication bypass, credential exposure, and unauthorized file access. These issues affect various integration components and Camel K, and their exploitability depends on the deployed components, route configurations, and an attacker’s access to messages or infrastr",
-      "pubDate": "Mon, 26 Oct 2026 11:30:01 +0000",
-      "source": "GBHackers",
-      "cat": "threats",
-      "sev": "critical",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "GBHack-5b1d97a83adb",
-      "title": "Kali Linux 2026.3 Released With 6 New Penetration Testing Tools and Major Updates",
-      "link": "https://gbhackers.com/kali-linux-2026-3-released-2/",
-      "desc": "Kali Linux 2026.3 has been officially released, bringing six new security tools, updated image-building scripts, KDE Plasma 6.7, and major NetHunter improvements. Announced on October 26, 2026, this third release of the year includes 126 package updates and upgrades the Linux kernel from version 6.19 to 7.1.5.kali. This release focuses on customization, making it easier [&#8230;]\nThe post Kali Lin",
-      "pubDate": "Mon, 26 Oct 2026 11:10:39 +0000",
+      "id": "GBHack-3837d1df63e8",
+      "title": "12 File Integrity Monitoring (FIM) Tools: The 2026 Buyer’s Verdict Guide",
+      "link": "https://gbhackers.com/fim-tools-buyers-guide/",
+      "desc": "File integrity monitoring succeeds by what it ignores: PCI DSS mandates the control, but a tool that pages on every patch Tuesday trains the SOC to delete the folder. This verdict guide judges twelve FIM options on the property demos hide reconciling detected changes against authorized ones plus who-data, platform reach, and the agent-consolidation math [&#8230;]\nThe post 12 File Integrity Monitor",
+      "pubDate": "Tue, 27 Oct 2026 08:07:44 +0000",
       "source": "GBHackers",
       "cat": "threats",
       "sev": "medium",
@@ -892,14 +847,52 @@
       "ts": 0
     },
     {
-      "id": "GBHack-8fc8e84f1ab2",
-      "title": "OpenBSD 8.0 Released With Enhanced Firewall Security and Critical Vulnerability Fixes",
-      "link": "https://gbhackers.com/openbsd-8-0-released/",
-      "desc": "OpenBSD 8.0 was released on October 20, 2026, marking the project&#8217;s 61st release. This update includes significant improvements, including enhanced firewall security, memory-safety fixes, stronger validation for network daemons, and security updates to core components. Key updates include enhancements to PF, OpenBSD’s packet filtering firewall, as well as fixes for vulnerabilities related to",
-      "pubDate": "Mon, 26 Oct 2026 11:01:54 +0000",
+      "id": "GBHack-5dc516f17df3",
+      "title": "University of Copenhagen Confirms Data Breach Affecting 525,000 People",
+      "link": "https://gbhackers.com/university-of-copenhagen-confirms-data-breach/",
+      "desc": "The University of Copenhagen has confirmed a data breach affecting about 525,000 individuals after hackers accessed a test environment that contained personal information. The intrusion was detected on October 20 and publicly disclosed on October 23. Investigators are working to determine the full extent of the exposure. The compromised database included full names, Danish national [&#8230;]\nThe p",
+      "pubDate": "Tue, 27 Oct 2026 07:44:30 +0000",
+      "source": "GBHackers",
+      "cat": "breaches",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "GBHack-183857f37784",
+      "title": "Fake Microsoft Teams IT Support Messages Lead to Remote Access and Malware Infections",
+      "link": "https://gbhackers.com/fake-it-support-scams/",
+      "desc": "More than 400 incidents in which attackers abused Microsoft Teams external chats to impersonate IT support, obtain remote access, and deliver malware. Researchers identified recurring tenant names, deceptive display names, remote administration tools, and payload infrastructure across incidents. Teams federation, enabled by default, allows communication between organizations when both tenants perm",
+      "pubDate": "Tue, 27 Oct 2026 07:36:39 +0000",
+      "source": "GBHackers",
+      "cat": "malware",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "GBHack-368573795b0a",
+      "title": "OpenAI Releases GPT-6.1 Terra With Advanced Computer Use and AI Agent Capabilities",
+      "link": "https://gbhackers.com/openai-releases-gpt-6-1-terra/",
+      "desc": "OpenAI has introduced GPT-6.1 Terra, an AI model that combines visual reasoning, desktop interaction, and software engineering capabilities to automate professional workflows. The company positions Terra as a faster, more cost-effective alternative to larger models. It classifies its cybersecurity capabilities as Critical under its Preparedness Framework. The model can handle various tasks such as",
+      "pubDate": "Tue, 27 Oct 2026 07:24:56 +0000",
       "source": "GBHackers",
       "cat": "threats",
-      "sev": "critical",
+      "sev": "medium",
       "tags": [],
       "iocs": {
         "cves": [],
@@ -911,13 +904,13 @@
       "ts": 0
     },
     {
-      "id": "GBHack-00585fdf2b51",
-      "title": "12 Ransomware Recovery Solutions: The 2026 Buyer’s Verdict Guide",
-      "link": "https://gbhackers.com/ransomware-recovery-buyers-guide/",
-      "desc": "Ransomware recovery is measured on the worst Tuesday: how fast you find the clean point, prove it’s clean, and rebuild at scale without reinfecting yourself. The twelve solutions in this verdict guide attack those minutes differently intelligence platforms, journal-rewind engines, SaaS-protected coverage, vaulted copies, array-speed restores, and the hardening appliances underneath and buying well",
-      "pubDate": "Mon, 26 Oct 2026 10:09:24 +0000",
+      "id": "GBHack-430730e2d54c",
+      "title": "Hacker Uses Generative AI to Breach 90 Companies and Steal 8.2 Million Records",
+      "link": "https://gbhackers.com/hacker-uses-generative-ai-to-breach-90-companies-and-steal-8-2-million-records/",
+      "desc": "South Korean police have arrested a 32-year-old suspect, identified only as A, accused of leading a massive data breach that stole 8.2 million personal information records and internal documents from about 90 organizations. The victims included private academies, hospitals, golf courses, universities, and an affiliate of a major corporation, Yonhap News Agency reported. On October [&#8230;]\nThe po",
+      "pubDate": "Tue, 27 Oct 2026 07:11:25 +0000",
       "source": "GBHackers",
-      "cat": "malware",
+      "cat": "breaches",
       "sev": "high",
       "tags": [],
       "iocs": {
@@ -930,13 +923,13 @@
       "ts": 0
     },
     {
-      "id": "GBHack-7d72715f8785",
-      "title": "Hackers Can Use DarkCore RAT to Hijack Gmail and WhatsApp Sessions Without Passwords",
-      "link": "https://gbhackers.com/darkcore-rat-sessions/",
-      "desc": "DarkCore, a remote access trojan marketed with a dedicated browser for reusing stolen sessions, potentially letting attackers access Gmail, WhatsApp, and MediaFire without entering passwords. Its advertised reverse proxy routes traffic through the infected device’s IP address, making unauthorized activity resemble legitimate access from the victim. The findings combine a cybercrime marketplace adv",
-      "pubDate": "Mon, 26 Oct 2026 10:05:34 +0000",
+      "id": "GBHack-d5e7bc5a5eb2",
+      "title": "Microsoft 365 Token Replay Attacks Let Hackers Access Business Emails Without Passwords",
+      "link": "https://gbhackers.com/microsoft-365-token-replay-attacks/",
+      "desc": "Hackers accessed Microsoft 365 environments at 79 organizations by replaying stolen sign-in sessions, letting them enter business accounts without victims’ passwords. Huntress recorded 497 successful sign-ins and more than 200,000 failed attempts during the ten-week campaign, which ran from July 14 through September 22, 2026. Use of the provider’s network does not establish its involvement [&#8230",
+      "pubDate": "Tue, 27 Oct 2026 06:47:42 +0000",
       "source": "GBHackers",
-      "cat": "malware",
+      "cat": "threats",
       "sev": "high",
       "tags": [],
       "iocs": {
@@ -949,13 +942,13 @@
       "ts": 0
     },
     {
-      "id": "GBHack-3fbe0bb8eed3",
-      "title": "11 Backup & Recovery Solutions: The 2026 Buyer’s Verdict Guide",
-      "link": "https://gbhackers.com/backup-recovery-buyers-guide/",
-      "desc": "Ransomware rewrote backup’s job description attackers delete recovery points before encrypting production so 2026’s buying criteria are security properties: immutability stolen credentials can’t untick, isolation from your blast radius, and restores proven by stopwatch rather than dashboard. One roster note: our sheet listed Cohesity and Veritas separately, but their completed merger makes them on",
-      "pubDate": "Mon, 26 Oct 2026 10:04:45 +0000",
+      "id": "GBHack-8bf5f092c269",
+      "title": "Hackers Use Instagram Ads to Deploy Coruna and DarkSword Spyware on iPhones",
+      "link": "https://gbhackers.com/coruna-and-darksword-target-ios/",
+      "desc": "Cybercriminal groups are using malicious Instagram advertisements, abandoned analytics tags, and compromised websites to deliver Coruna and DarkSword exploit kits to vulnerable iPhones. The investigation exposes a scalable spyware distribution model in which attackers exploit advertising infrastructure to reach victims during ordinary browsing. Researchers describe these as “half-click” attacks: u",
+      "pubDate": "Tue, 27 Oct 2026 06:10:45 +0000",
       "source": "GBHackers",
-      "cat": "malware",
+      "cat": "threats",
       "sev": "high",
       "tags": [],
       "iocs": {
@@ -3305,6 +3298,25 @@
       "ts": 0
     },
     {
+      "id": "HaveIB-0909510d9c5a",
+      "title": "AfD - 345,439 breached accounts",
+      "link": "https://haveibeenpwned.com/Breach/AfD",
+      "desc": "In September 2026, the German political party Alternative für Deutschland (AfD) suffered a data breach which exposed 345k unique email addresses. The following month, hundreds of gigabytes of data containing hundreds of thousands of emails and attachments was published online, with searchable AI-generated summaries and downloadable original files. An analysis of the incident reported that the brea",
+      "pubDate": "Tue, 27 Oct 2026 07:01:06 Z",
+      "source": "HaveIBeenPwned",
+      "cat": "breaches",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
       "id": "HaveIB-6af560ece467",
       "title": "Assurance Retraite - 70,372 breached accounts",
       "link": "https://haveibeenpwned.com/Breach/AssuranceRetraite",
@@ -3571,25 +3583,6 @@
       "ts": 0
     },
     {
-      "id": "HaveIB-ec9fa27ef917",
-      "title": "Questel - 1,226,209 breached accounts",
-      "link": "https://haveibeenpwned.com/Breach/Questel",
-      "desc": "In August 2026, the French intellectual property software and services company Questel was the target of a ShinyHunters \"pay or leak\" extortion campaign. The group subsequently published an extensive corpus of data they alleged was obtained from the company, largely comprising corporate contact information associated with sales leads, support cases and marketing activities, with 1.2M unique email ",
-      "pubDate": "Tue, 01 Sep 2026 04:49:35 Z",
-      "source": "HaveIBeenPwned",
-      "cat": "breaches",
-      "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
       "id": "r/nets-11c590e2ee0b",
       "title": "/r/netsec's Q3 2026 Information Security Hiring Thread",
       "link": "https://www.reddit.com/r/netsec/comments/1ulbf96/rnetsecs_q3_2026_information_security_hiring/",
@@ -3628,6 +3621,25 @@
       "ts": 0
     },
     {
+      "id": "r/nets-7b5cac328f91",
+      "title": "A community translation can run attacker-chosen code in an exported Godot game",
+      "link": "https://www.reddit.com/r/netsec/comments/1xgn2l1/a_community_translation_can_run_attackerchosen/",
+      "desc": "&#32; submitted by &#32;  /u/bitbutter   [link] &#32; [comments]",
+      "pubDate": "2026-10-27T08:37:28+00:00",
+      "source": "r/netsec",
+      "cat": "community",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
       "id": "r/nets-24875850761f",
       "title": "How to Intercept HTTP/3 Traffic (QUIC and QPACK Explained)",
       "link": "https://www.reddit.com/r/netsec/comments/1xg6cpe/how_to_intercept_http3_traffic_quic_and_qpack/",
@@ -3636,6 +3648,25 @@
       "source": "r/netsec",
       "cat": "community",
       "sev": "critical",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "r/nets-3b28e323a1eb",
+      "title": "Choose Your Backend: Three TLS Bugs in GoAhead",
+      "link": "https://www.reddit.com/r/netsec/comments/1xgjs4s/choose_your_backend_three_tls_bugs_in_goahead/",
+      "desc": "&#32; submitted by &#32;  /u/LordAlfredo   [link] &#32; [comments]",
+      "pubDate": "2026-10-27T05:07:28+00:00",
+      "source": "r/netsec",
+      "cat": "community",
+      "sev": "medium",
       "tags": [],
       "iocs": {
         "cves": [],
@@ -3843,44 +3874,6 @@
         "cves": [
           "CVE-2026-94300"
         ],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "r/nets-854b4f66712b",
-      "title": "The PHP Foundation: Today's PHP Security Release, and How We're Strengthening PHP Security",
-      "link": "https://www.reddit.com/r/netsec/comments/1xcegee/the_php_foundation_todays_php_security_release/",
-      "desc": "&#32; submitted by &#32;  /u/si9int   [link] &#32; [comments]",
-      "pubDate": "2026-10-22T10:03:39+00:00",
-      "source": "r/netsec",
-      "cat": "community",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "r/nets-35ef3fa1befb",
-      "title": "Gallery of PHP maintenance pages from today",
-      "link": "https://www.reddit.com/r/netsec/comments/1xc3p6r/gallery_of_php_maintenance_pages_from_today/",
-      "desc": "&#32; submitted by &#32;  /u/R74nCom   [link] &#32; [comments]",
-      "pubDate": "2026-10-22T00:07:45+00:00",
-      "source": "r/netsec",
-      "cat": "community",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
         "ips": [],
         "hashes": []
       },
