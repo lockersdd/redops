@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T13:22:26.062998+00:00",
+  "generated_at": "2026-10-28T18:59:27.088631+00:00",
   "sources_ok": 15,
   "sources_total": 20,
   "source_status": {
@@ -91,6 +91,146 @@
   },
   "total": 195,
   "articles": [
+    {
+      "id": "TheHa-3fa534d69aee",
+      "title": "Volt Typhoon Used Covert Silent Train Network in Four Zero-Day Exploitation Campaigns",
+      "link": "https://thehackernews.com/2026/10/volt-typhoon-used-covert-silent-train.html",
+      "desc": "The China-nexus cyber espionage group known as Volt Typhoon has been attributed to a now-disrupted covert access network dubbed Silent Train that has been put to use for zero-day exploitation and strategic access.\n\n\"First identified in late 2023, Silent Train uses rotating chains of compromised SOHO, IoT, and enterprise infrastructure,\" Lumen Technologies Black Lotus Labs said in a report shared",
+      "pubDate": "Wed, 28 Oct 2026 23:38:33 +0530",
+      "source": "The Hacker News",
+      "cat": "threats",
+      "sev": "critical",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "TheHa-00b6712826d5",
+      "title": "Google to Allow One-Tap Android App Installs From Approved Third-Party Stores Outside U.S.",
+      "link": "https://thehackernews.com/2026/10/google-to-allow-one-tap-android-app.html",
+      "desc": "Third-party Android app stores can now apply to Google for permission to install apps with one tap, without Android's usual confirmation screens, and to update them in the background.\n\nTo qualify, a store must pass identity checks and send Google&nbsp;its full catalog, along with every new app and update, for ongoing malware scanning. Approved stores get the features from December 1, but only on",
+      "pubDate": "Wed, 28 Oct 2026 22:38:09 +0530",
+      "source": "The Hacker News",
+      "cat": "malware",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "TheHa-23621e4d65ad",
+      "title": "Researcher Reveals How Logic Bugs Alone Cracked Microsoft Edge in $175,000 Pwn2Own Win",
+      "link": "https://thehackernews.com/2026/10/researcher-reveals-how-logic-bugs-alone.html",
+      "desc": "A chain of logic flaws, with no memory corruption, can turn a malicious web page into code running on a Windows computer outside Microsoft Edge's sandbox, a security researcher has shown.\n\nOrange Tsai of DEVCORE published the full method on October 28, five months after the chain won $175,000 at the&nbsp;Pwn2Own Berlin contest&nbsp;in May. Microsoft fixed the Edge bugs the day after the contest,",
+      "pubDate": "Wed, 28 Oct 2026 21:53:34 +0530",
+      "source": "The Hacker News",
+      "cat": "threats",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "TheHa-42ab32647d76",
+      "title": "PHP2Shell Attack Roots 25 Servers, Breaches U.S. Government-Affiliated Network",
+      "link": "https://thehackernews.com/2026/10/php2shell-attack-roots-25-servers.html",
+      "desc": "Cybersecurity researchers have disclosed details of what appears to be an artificial intelligence (AI)-assisted attack orchestrated by a suspected China-nexus threat actor that has leveraged the PHP2Shell vulnerabilities to breach exposed systems.\n\nThe activity, which was observed on October 25, 2026, involved an attacker combining PHP2Shell with a kernel privilege escalation exploit to root",
+      "pubDate": "Wed, 28 Oct 2026 21:32:45 +0530",
+      "source": "The Hacker News",
+      "cat": "breaches",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "TheHa-352dace3014c",
+      "title": "Hackers Target Critical Oracle E-Business Suite RCE Flaw Days After Security Patch",
+      "link": "https://thehackernews.com/2026/10/hackers-target-critical-oracle-e.html",
+      "desc": "Threat actors are beginning to probe for a newly patched critical vulnerability in Oracle E-Business Suite (EBS), according to threat intelligence firm Defused Cyber.\n\nThe vulnerability in question is CVE-2026-101767 (CVSS score: 9.8) , a case of improper authentication in the Oracle Application Object Library of Oracle E-Business Suite. It was patched by Oracle last week as part of its Critical",
+      "pubDate": "Wed, 28 Oct 2026 18:18:03 +0530",
+      "source": "The Hacker News",
+      "cat": "threats",
+      "sev": "critical",
+      "tags": [
+        {
+          "t": "CVE-2026-101767",
+          "cls": "cve"
+        }
+      ],
+      "iocs": {
+        "cves": [
+          "CVE-2026-101767"
+        ],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "TheHa-f6e56bc9e760",
+      "title": "Critical 16-Year-Old UEFI Flaw Can Run Code Before Secure Boot on Network-Booting Servers",
+      "link": "https://thehackernews.com/2026/10/critical-16-year-old-uefi-flaw-can-run.html",
+      "desc": "A critical 16-year-old flaw in EDK II, the open-source code that most hardware makers use to build UEFI firmware, can allow an attacker to run code on a machine before its operating system loads, but only while the machine is booting over the network.\n\nUEFI firmware is the software that runs first when a computer is switched on, before the operating system. An attacker who can reach the machine",
+      "pubDate": "Wed, 28 Oct 2026 17:20:00 +0530",
+      "source": "The Hacker News",
+      "cat": "threats",
+      "sev": "critical",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "TheHa-8799ce953dec",
+      "title": "Wazuh and AI for Enhanced SOC Workflows",
+      "link": "https://thehackernews.com/2026/10/wazuh-and-ai-for-enhanced-soc-workflows.html",
+      "desc": "Artificial Intelligence (AI) has become one of this decade's defining technologies. From healthcare and finance to manufacturing and education, organizations increasingly rely on AI to automate repetitive tasks, uncover patterns hidden within large datasets, and support faster decision-making. Cybersecurity has experienced a similar transformation. While attackers employ AI to automate",
+      "pubDate": "Wed, 28 Oct 2026 17:00:00 +0530",
+      "source": "The Hacker News",
+      "cat": "threats",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
     {
       "id": "TheHa-50b2b5950add",
       "title": "Adobe Fixes 8 Critical Campaign Classic Flaws Allowing Code Execution and Security Bypass",
@@ -257,153 +397,6 @@
         "cves": [
           "CVE-2026-111497"
         ],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "TheHa-3a06938b1ab4",
-      "title": "CyberStrikeAI Uses 44 AI Agents to Automate Hacking Operations Against Japan Targets",
-      "link": "https://thehackernews.com/2026/10/cyberstrikeai-uses-44-ai-agents-to.html",
-      "desc": "Cybersecurity researchers have disclosed details of three cyber attacks targeting organizations in Japan in which artificial intelligence (AI) was a key element, either in the driving seat or to assist a human operator.\n\nTrendAI, which analyzed three exposed server environments used by threat actors to conduct the malicious cyber operations, described them as distinct from previously published",
-      "pubDate": "Tue, 27 Oct 2026 23:56:46 +0530",
-      "source": "The Hacker News",
-      "cat": "threats",
-      "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "TheHa-8787c92cf564",
-      "title": "GoAhead TLS Flaws Allow Revoked Client Certificates and Enable Session Decryption",
-      "link": "https://thehackernews.com/2026/10/goahead-tls-flaws-allow-revoked-client.html",
-      "desc": "The GoAhead embedded web server loaded a certificate revocation list into its default TLS backend but never turned revocation checking on, so a revoked client certificate could still pass login on affected setups.\n\nThe flaw is in builds that use the OpenSSL backend with mutual-TLS, where the server checks a client certificate and vice versa, and a revocation list is configured to block revoked",
-      "pubDate": "Tue, 27 Oct 2026 19:29:48 +0530",
-      "source": "The Hacker News",
-      "cat": "threats",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "TheHa-e159fa50852a",
-      "title": "Apple Backports Fix for Exploited CoreGraphics Flaw to Older iPhones and iPads",
-      "link": "https://thehackernews.com/2026/10/apple-backports-fix-for-exploited.html",
-      "desc": "Apple on Monday backported fixes for a high-severity security flaw that was exploited in real-world cyber attacks to older devices.\n\nThe vulnerability, tracked as CVE-2026-86950 (CVSS score: 8.8), is an out-of-bounds write affecting CoreGraphics that could result in arbitrary code execution when processing a maliciously crafted file.\n\nPatches for the flaw were released last month by Apple in",
-      "pubDate": "Tue, 27 Oct 2026 19:29:09 +0530",
-      "source": "The Hacker News",
-      "cat": "threats",
-      "sev": "high",
-      "tags": [
-        {
-          "t": "CVE-2026-86950",
-          "cls": "cve"
-        }
-      ],
-      "iocs": {
-        "cves": [
-          "CVE-2026-86950"
-        ],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "TheHa-7f78c9ca7f63",
-      "title": "Microsoft Authenticator Flaw Let Permissionless Android Apps Steal Work Account Tokens",
-      "link": "https://thehackernews.com/2026/10/microsoft-authenticator-flaw-let.html",
-      "desc": "Microsoft has fixed a flaw in its Authenticator app for Android that let a malicious app with no permissions pose as a trusted Microsoft app, such as Teams, and collect sign-in tokens for a victim's work account.\n\nMicrosoft tracks the flaw as&nbsp;CVE-2026-80097&nbsp;and fixed it in Authenticator for Android version 6.2606.4246, so anyone using the app should update.\n\nIn the researchers' tests,",
-      "pubDate": "Tue, 27 Oct 2026 17:39:50 +0530",
-      "source": "The Hacker News",
-      "cat": "threats",
-      "sev": "high",
-      "tags": [
-        {
-          "t": "CVE-2026-80097",
-          "cls": "cve"
-        }
-      ],
-      "iocs": {
-        "cves": [
-          "CVE-2026-80097"
-        ],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "TheHa-abf15f3db94b",
-      "title": "Keystone to Destroy 18,835 Hardware Wallets After Hackers Steal Device Verification Key",
-      "link": "https://thehackernews.com/2026/10/keystone-to-destroy-18835-hardware.html",
-      "desc": "An attacker who gained access to Keystone's website obtained the key that its hardware wallets use to prove they are genuine, the company said in a&nbsp;statement&nbsp;on October 26.\n\nSomeone with that key could build counterfeit devices that pass the online check owners use to verify a Keystone. A buyer who trusted a counterfeit could have their crypto stolen, but the incident did not involve",
-      "pubDate": "Tue, 27 Oct 2026 17:16:00 +0530",
-      "source": "The Hacker News",
-      "cat": "threats",
-      "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "TheHa-ac3a414faf8a",
-      "title": "AI-Generated Fake Login Pages Are Making Account Takeovers Easier",
-      "link": "https://thehackernews.com/2026/10/ai-generated-fake-login-pages-are.html",
-      "desc": "Fake login pages are nothing new, but generative AI is making them easier to build and more convincing. Attackers can recreate familiar login screens, impersonate trusted brands and tailor phishing attempts to specific employees or organizations.&nbsp;\n\nSome fake login pages go beyond stealing passwords. They can also capture MFA codes or hijack authenticated sessions, allowing attackers to gain",
-      "pubDate": "Tue, 27 Oct 2026 17:02:46 +0530",
-      "source": "The Hacker News",
-      "cat": "threats",
-      "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "TheHa-3180f52354bd",
-      "title": "Lazarus Abuses South Korean Security Software to Deploy Malware Using Post-Quantum Encryption",
-      "link": "https://thehackernews.com/2026/10/lazarus-abuses-south-korean-security.html",
-      "desc": "The North Korea-linked Lazarus Group has been attributed to a cyber espionage campaign dubbed Operation FlashHole targeting at least three organizations in South Korea spanning the construction, software, and wire-communication equipment manufacturing sectors.\n\nAccording to Russian cybersecurity company Kaspersky, the campaign has been active since at least July 2025. It's assessed to pick up",
-      "pubDate": "Tue, 27 Oct 2026 17:02:31 +0530",
-      "source": "The Hacker News",
-      "cat": "malware",
-      "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
         "ips": [],
         "hashes": []
       },
@@ -602,6 +595,63 @@
       "ts": 0
     },
     {
+      "id": "Securi-2a363a897edd",
+      "title": "Ukrainian Hive and Nefilim Ransomware Affiliate Gets 70 Months in US Prison",
+      "link": "https://www.securityweek.com/ukrainian-hive-and-nefilim-ransomware-affiliate-gets-70-months-in-us-prison/",
+      "desc": "Artem Stryzhak was sentenced to 70 months in prison after pleading guilty to using Nefilim ransomware in attacks.\nThe post Ukrainian Hive and Nefilim Ransomware Affiliate Gets 70 Months in US Prison appeared first on SecurityWeek.",
+      "pubDate": "Wed, 28 Oct 2026 15:05:06 +0000",
+      "source": "SecurityWeek",
+      "cat": "malware",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "Securi-bd37e486354a",
+      "title": "Upwind Security Raises $400 Million at $3.8 Billion Valuation",
+      "link": "https://www.securityweek.com/upwind-security-raises-400-million-at-3-8-billion-valuation/",
+      "desc": "The massive funding round comes just days after reports emerged that Upwind had attracted acquisition interest from several companies, including Datadog\nThe post Upwind Security Raises $400 Million at $3.8 Billion Valuation appeared first on SecurityWeek.",
+      "pubDate": "Wed, 28 Oct 2026 13:56:50 +0000",
+      "source": "SecurityWeek",
+      "cat": "threats",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "Securi-8a9e88068150",
+      "title": "Chrome and Firefox Updates Patch Over 200 Vulnerabilities",
+      "link": "https://www.securityweek.com/chrome-and-firefox-updates-patch-over-200-vulnerabilities/",
+      "desc": "The Chrome 156 update fixes 52 bugs, while Firefox 159 was rolled out with 167 security patches.\nThe post Chrome and Firefox Updates Patch Over 200 Vulnerabilities appeared first on SecurityWeek.",
+      "pubDate": "Wed, 28 Oct 2026 13:39:35 +0000",
+      "source": "SecurityWeek",
+      "cat": "threats",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
       "id": "Securi-2fc7f2b0b0db",
       "title": "TLS Flaws Found in GoAhead Web Server Used in Hundreds of Millions of Devices",
       "link": "https://www.securityweek.com/tls-flaws-found-in-goahead-web-server-used-in-hundreds-of-millions-of-devices/",
@@ -742,12 +792,31 @@
       "ts": 0
     },
     {
-      "id": "Securi-ac26b6d6da6c",
-      "title": "Tailscale Rushes Patches After Uncoordinated Disclosure of ‘Tailworm’ Flaws",
-      "link": "https://www.securityweek.com/tailscale-rushes-patches-after-uncoordinated-disclosure-of-tailworm-flaws/",
-      "desc": "Tailscale is preparing a patch for Tailscale SSH flaws whose details went public over the weekend, before any fixes had been released.\nThe post Tailscale Rushes Patches After Uncoordinated Disclosure of &#8216;Tailworm&#8217; Flaws appeared first on SecurityWeek.",
-      "pubDate": "Tue, 27 Oct 2026 15:26:12 +0000",
-      "source": "SecurityWeek",
+      "id": "GBHack-7bf76b9367e7",
+      "title": "OffSec Launches Free PHP2Shell Lab Following Critical Vulnerability Discovery",
+      "link": "https://gbhackers.com/offsec-launches-free-php2shell-lab-following-critical-vulnerability-discovery/",
+      "desc": "New York, United States, October 28th, 2026, CyberNewswire New hands-on lab lets security practitioners explore PHP2Shell exploitation firsthand as AI-assisted research reshapes vulnerability discovery. OffSec today announced the release of a free, interactive hands-on lab in Proving Grounds Play (PG Play) to help security practitioners examine and defend against the critical &#8220;PHP2Shell&#822",
+      "pubDate": "Wed, 28 Oct 2026 17:56:42 +0000",
+      "source": "GBHackers",
+      "cat": "threats",
+      "sev": "critical",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "GBHack-0f924ae47cbc",
+      "title": "Hackers Use Fake Phantom, Jupiter, and Bitget Firefox Extensions to Target Cryptocurrency Wallets",
+      "link": "https://gbhackers.com/cryptocurrency-wallets-targeted/",
+      "desc": "Three malicious Firefox extensions impersonating Phantom, Jupiter, and Bitget to steal cryptocurrency wallet recovery phrases and private keys. The campaign combines deceptive branding, bundled credential stealers, and remotely delivered JavaScript, with stolen information routed through infrastructure under bonto[.]io. All three listings were removed before Socket published its findings on Octobe",
+      "pubDate": "Wed, 28 Oct 2026 13:14:13 +0000",
+      "source": "GBHackers",
       "cat": "threats",
       "sev": "medium",
       "tags": [],
@@ -761,51 +830,108 @@
       "ts": 0
     },
     {
-      "id": "Securi-21f71bc120ce",
-      "title": "Vendor Key Leak Puts Data of 238,000 Denver Health Plan Members at Risk",
-      "link": "https://www.securityweek.com/vendor-key-leak-puts-data-of-238000-denver-health-plan-members-at-risk/",
-      "desc": "A leaked SquareML access key could have been used to access a database containing personal and health information.\nThe post Vendor Key Leak Puts Data of 238,000 Denver Health Plan Members at Risk appeared first on SecurityWeek.",
-      "pubDate": "Tue, 27 Oct 2026 13:30:28 +0000",
-      "source": "SecurityWeek",
+      "id": "GBHack-b6293b2a71fb",
+      "title": "Hackers Reuse XWorm Malware Loader Across Phishing Campaigns Targeting Colombia and the UK",
+      "link": "https://gbhackers.com/xworm-malware-loader/",
+      "desc": "A judicial-themed phishing campaign targeting Colombian organizations that delivers XWorm through obfuscated scripts, encrypted PowerShell, and a reusable .NET loader. The recovered loader is binary-identical to one documented in a September 10, 2026, UK-linked case, connecting otherwise differently packaged delivery chains. The overlap establishes loader reuse, not common attribution. Different p",
+      "pubDate": "Wed, 28 Oct 2026 12:51:55 +0000",
+      "source": "GBHackers",
+      "cat": "malware",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "GBHack-a815b612591c",
+      "title": "Anthropic’s Claude Chains One-Click and Zero-Click Exploits to Bypass Chrome, Android and Linux Security",
+      "link": "https://gbhackers.com/anthropics-claude-chains-one-click-and-zero-click-exploits/",
+      "desc": "Anthropic announced that an unreleased research model called Claude successfully developed working exploit chains for Chrome, Safari, Android, Windows, and Linux. The company’s Frontier Red Team shared these findings on October 27, 2026. Many exploit chains required minimal or no user interaction, and the team reported every identified flaw to the respective vendor before publication. [&#8230;]\nTh",
+      "pubDate": "Wed, 28 Oct 2026 12:51:03 +0000",
+      "source": "GBHackers",
+      "cat": "redteam",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "GBHack-560375627d73",
+      "title": "OWASP Warns AI Agents Are Making Cyberattacks Easier for Less-Skilled Hackers",
+      "link": "https://gbhackers.com/owasp-warns-ai-agents-are-making-cyberattacks-easier/",
+      "desc": "OWASP has issued a warning that AI agents and chatbots are reducing the skills required for certain aspects of cyberattacks, particularly in areas like target discovery and vulnerability research. Their latest research indicates that beginners can advance by utilizing AI guidance; however, human expertise remains essential when tools fail or when dealing with complex attacks. [&#8230;]\nThe post OW",
+      "pubDate": "Wed, 28 Oct 2026 12:38:49 +0000",
+      "source": "GBHackers",
+      "cat": "threats",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "GBHack-5825d50a9cf0",
+      "title": "Microsoft Releases Emergency Windows Updates to Revoke Trust in Compromised eMudhra Certificates",
+      "link": "https://gbhackers.com/windows-updates-to-revoke-trust-in-compromised-emudhra-certificates/",
+      "desc": "Microsoft has released an emergency Windows update to remove trust in certificates associated with compromised eMudhra certificate authority keys. The out-of-band update, issued on October 26, 2026, eliminates seven certificates from the Windows trust list. Following this, the same removals were applied to Microsoft Edge on October 27, as stated by the Microsoft Security Response [&#8230;]\nThe pos",
+      "pubDate": "Wed, 28 Oct 2026 12:29:17 +0000",
+      "source": "GBHackers",
+      "cat": "threats",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "GBHack-711fab713269",
+      "title": "FortiBleed 2.0 Exposes 40,573 FortiGate Secrets Across 975 Previously Unlisted Domains",
+      "link": "https://gbhackers.com/fortibleed-2-0-exposes-40573-fortigate-secrets/",
+      "desc": "Hudson Rock’s FortiBleed 2.0 investigation found 40,573 records with cleartext secrets in FortiGate configuration reports, exposing passwords and service credentials that could help attackers move beyond the firewall. Published on October 27, 2026, the research also identifies 975 domain labels missing from the earlier FortiBleed dataset. These labels do not represent 975 newly confirmed company [",
+      "pubDate": "Wed, 28 Oct 2026 12:19:24 +0000",
+      "source": "GBHackers",
+      "cat": "threats",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "GBHack-b5afad0948c1",
+      "title": "Sony Data Breach Exposes 2.58 Million Customer Records and 54,401 Email Credentials",
+      "link": "https://gbhackers.com/sony-data-breach-exposes-2-58-million-customer-records/",
+      "desc": "Sony Network Communications disclosed a data breach that exposed 2,585,481 customer records linked to its So-net and Plala (S Course) internet services. The breach, announced on October 27, 2026, compromised passwords for 54,401 email addresses. However, it did not affect primary membership passwords or credit card information. The compromised database contained 2,141,986 records from So-net [&#82",
+      "pubDate": "Wed, 28 Oct 2026 11:56:34 +0000",
+      "source": "GBHackers",
       "cat": "breaches",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "Securi-77ff007883fb",
-      "title": "HPE Patches Dozens of Critical Flaws in Networking Products",
-      "link": "https://www.securityweek.com/hpe-patches-dozens-of-critical-flaws-in-networking-products/",
-      "desc": "Eight max-severity security defects could lead to remote code execution and authentication bypass.\nThe post HPE Patches Dozens of Critical Flaws in Networking Products appeared first on SecurityWeek.",
-      "pubDate": "Tue, 27 Oct 2026 13:13:58 +0000",
-      "source": "SecurityWeek",
-      "cat": "threats",
-      "sev": "critical",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "GBHack-3538d14d58dc",
-      "title": "Japan’s GMO Internet Warns Customers to Unplug PCs as Hackers Threaten Ransomware",
-      "link": "https://gbhackers.com/gmo-internet-faces-ransomware/",
-      "desc": "Japan’s GMO Internet Group urged Onamae.com Desktop Cloud customers to back up their data, disconnect computers from networks, shut them down, and unplug connected cables after suspected attackers threatened to publish customer information and launch ransomware at noon on October 27. The emergency instructions followed unauthorized access to the company’s cloud desktop service and an [&#8230;]\nThe",
-      "pubDate": "Wed, 28 Oct 2026 09:50:58 +0000",
-      "source": "GBHackers",
-      "cat": "malware",
       "sev": "high",
       "tags": [],
       "iocs": {
@@ -818,42 +944,23 @@
       "ts": 0
     },
     {
-      "id": "GBHack-dbc95455973e",
-      "title": "Hackers Hijack Camera Management Software to Deploy Reverse Shells and Hidden Windows Malware",
-      "link": "https://gbhackers.com/camera-software-hijacking/",
-      "desc": "Attackers are compromising camera management software to gain remote access, run malicious DLLs through a legitimate Windows component, and maintain persistent footholds in enterprise environments. The incidents show how overlooked surveillance applications can become entry points into broader corporate networks. Huntress observed several intrusions during September and October involving CMS.exe, ",
-      "pubDate": "Wed, 28 Oct 2026 09:28:32 +0000",
-      "source": "GBHackers",
-      "cat": "malware",
-      "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "GBHack-d4271a4cf055",
-      "title": "Critical UEFI Firmware Flaw Allows Attackers to Execute Malicious Code Before OS Boots",
-      "link": "https://gbhackers.com/critical-uefi-firmware-flaw-allows-attackers-to-execute-malicious-code-before-os-boots/",
-      "desc": "A critical vulnerability in EDK II&#8217;s PXE network boot driver could allow unauthenticated attackers to execute malicious code before the operating system loads. This vulnerability, tracked as CVE-2026-97631, affects ICMP error processing during both IPv4 and IPv6 network boot, which exposes the firmware memory to potential writes by attackers. The advisory identifies the EDK II [&#8230;]\nThe ",
-      "pubDate": "Wed, 28 Oct 2026 08:46:52 +0000",
+      "id": "GBHack-8676f6874886",
+      "title": "Critical Veeam Backup & Replication Flaw Allows Unauthenticated Attackers to Bypass Authorization",
+      "link": "https://gbhackers.com/critical-veeam-backup-replication-flaw-2/",
+      "desc": "Veeam has released security updates to address a critical authorization bypass vulnerability in Backup &#38; Replication. This flaw, tracked as CVE-2026-108142, allows an unauthenticated attacker to bypass authorization on the CDP Coordinator Service. The vulnerability has a CVSS v4.0 score of 9.1 and affects both Windows deployments and the Veeam Software Appliance. The company disclosed [&#8230;",
+      "pubDate": "Wed, 28 Oct 2026 11:23:39 +0000",
       "source": "GBHackers",
       "cat": "threats",
-      "sev": "critical",
+      "sev": "high",
       "tags": [
         {
-          "t": "CVE-2026-97631",
+          "t": "CVE-2026-108142",
           "cls": "cve"
         }
       ],
       "iocs": {
         "cves": [
-          "CVE-2026-97631"
+          "CVE-2026-108142"
         ],
         "ips": [],
         "hashes": []
@@ -863,125 +970,11 @@
       "ts": 0
     },
     {
-      "id": "GBHack-44ac9ff7bd5c",
-      "title": "Discord to Make Public Server Messages Searchable on Google",
-      "link": "https://gbhackers.com/discord-to-make-public-server-messages-searchable-on-google/",
-      "desc": "Discord will make eligible messages from public channels in Discoverable Servers accessible through Google and other search engines, expanding conversations beyond its application. This rollout introduces privacy considerations, messages from members are automatically enabled for web publication by default in most regions. If members choose to turn off sharing later, it does not automatically remo",
-      "pubDate": "Wed, 28 Oct 2026 08:24:12 +0000",
-      "source": "GBHackers",
-      "cat": "threats",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "GBHack-fd1eaf9a9eba",
-      "title": "12 Confidential Computing Solutions: The 2026 Buyer’s Verdict Guide",
-      "link": "https://gbhackers.com/confidential-computing-buyers-guide/",
-      "desc": "Confidential computing closes encryption’s last gap data exposed during computation with hardware-enforced TEEs that prove their state via attestation, and 2026’s buying question is one sentence: who must be unable to see this data, provably? This verdict guide judges twelve options across the real menu: hyperscaler families, the two silicon lanes everything rides, independent enablement [&#8230;]",
-      "pubDate": "Wed, 28 Oct 2026 08:22:41 +0000",
-      "source": "GBHackers",
-      "cat": "threats",
-      "sev": "critical",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "GBHack-f9b3b96e9ed9",
-      "title": "AI-Powered Hackers Target Japanese Companies With Automated Attacks and Credential Theft",
-      "link": "https://gbhackers.com/japanese-companies-targeted/",
-      "desc": "Threat actors targeting Japanese organizations are using artificial intelligence to automate intrusion workflows, speed up attack planning, and develop credential-theft tools, according to an investigation of three exposed attack infrastructures. The findings show distinct levels of AI involvement, from autonomous agents conducting attacks to experienced operators using generated scripts. The rese",
-      "pubDate": "Wed, 28 Oct 2026 08:20:36 +0000",
-      "source": "GBHackers",
-      "cat": "threats",
-      "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "GBHack-e32b730bf8a8",
-      "title": "12 Data Access Governance Tools: The 2026 Buyer’s Verdict Guide",
-      "link": "https://gbhackers.com/data-access-governance-buyers-guide/",
-      "desc": "“Who can read the M&#38;A folder?” still silences rooms, and Copilot-era AI assistants turned that silence into a deadline they surface everything anyone technically can touch. This verdict guide judges twelve data access governance options across the field’s real architectures: effective-access graphs, warehouse-native policy engines, proxy-light governors, database-level enforcers, and the suite",
-      "pubDate": "Wed, 28 Oct 2026 08:20:17 +0000",
-      "source": "GBHackers",
-      "cat": "threats",
-      "sev": "critical",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "GBHack-12aec9df3d1c",
-      "title": "12 Data Discovery Tools: The 2026 Buyer’s Verdict Guide",
-      "link": "https://gbhackers.com/data-discovery-buyers-guide/",
-      "desc": "Every downstream control inherits the inventory discovery builds DLP, access reviews, DSARs, AI governance and the 2026 field answers the “where is it?” question from different vantage points: correlation graphs, agentless cloud sweeps, semantic engines, access-context fusions, and the operational-store specialists DSPM marketing skips. This verdict guide judges twelve tools on accuracy honesty, e",
-      "pubDate": "Wed, 28 Oct 2026 08:17:24 +0000",
-      "source": "GBHackers",
-      "cat": "threats",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "GBHack-5c9873b2ab3d",
-      "title": "12 Hardware Security Modules (HSM): The 2026 Buyer’s Verdict Guide",
-      "link": "https://gbhackers.com/hsm-buyers-guide/",
-      "desc": "An HSM is a decade-long marriage to a root of trust, and 2026’s vows are specific: FIPS 140-3 trajectories (140-2 certificates are sunsetting), post-quantum firmware with dates attached, and delivery models spanning racked appliances to hourly cloud instances. This verdict guide judges twelve options including the sovereign-lane specialists US-centric lists skip and one hyperscaler service [&#8230",
-      "pubDate": "Wed, 28 Oct 2026 08:12:30 +0000",
-      "source": "GBHackers",
-      "cat": "threats",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "GBHack-251fd8fd8b23",
-      "title": "12 Email Encryption Solutions: The 2026 Buyer’s Verdict Guide",
-      "link": "https://gbhackers.com/email-encryption-buyers-guide/",
-      "desc": "Email encryption fails at the recipient or not at all: the strongest cryptography loses to the counterparty who abandons the portal login. This verdict guide judges twelve solutions on the click count that decides adoption, the automation that removes user memory from the loop, and the lanes the market actually splits into bundle floors, usability-first [&#8230;]\nThe post 12 Email Encryption Solut",
-      "pubDate": "Wed, 28 Oct 2026 08:04:00 +0000",
+      "id": "GBHack-cb30c7b52b1a",
+      "title": "Microsoft Whistleblower Claims Foreign Engineers Can Access Sensitive U.S. Government Cloud Systems",
+      "link": "https://gbhackers.com/microsoft-whistleblower-claims-foreign-engineers/",
+      "desc": "An alleged Microsoft whistleblower has raised concerns regarding overseas engineers accessing U.S. government cloud information through the company’s &#8220;escort&#8221; support process. Screenshots mentioned in an October 28 post by the X account Conspiracookie allegedly show approval for an engineer based in India to view logs associated with Microsoft’s Government Community Cloud (GCC). Howeve",
+      "pubDate": "Wed, 28 Oct 2026 11:12:02 +0000",
       "source": "GBHackers",
       "cat": "threats",
       "sev": "medium",
@@ -2048,6 +2041,32 @@
       "ts": 0
     },
     {
+      "id": "Sophos-980e6faa499a",
+      "title": "Node2Shell (CVE-2026-111497) in active exploitation",
+      "link": "https://www.sophos.com/en-us/blog/node2shell-cve-2026-111497-in-active-exploitation",
+      "desc": "Categories: Threat ResearchTags: advisory, vulnerability, Node2Shell, Brotli",
+      "pubDate": "Wed, 28 Oct 2026 00:00:00 GMT",
+      "source": "Sophos Research",
+      "cat": "malware",
+      "sev": "high",
+      "tags": [
+        {
+          "t": "CVE-2026-111497",
+          "cls": "cve"
+        }
+      ],
+      "iocs": {
+        "cves": [
+          "CVE-2026-111497"
+        ],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
       "id": "Sophos-0e84226d028f",
       "title": "Proof-of-concept exploit released for PHP vulnerabilities (CVE-2026-109618, CVE-2026-109619)",
       "link": "https://www.sophos.com/en-us/blog/proof-of-concept-exploit-released-for-php-vulnerabilities-109618-109619",
@@ -2210,18 +2229,18 @@
       "sev": "high",
       "tags": [
         {
-          "t": "CVE-2026-88771",
+          "t": "CVE-2026-88772",
           "cls": "cve"
         },
         {
-          "t": "CVE-2026-88772",
+          "t": "CVE-2026-88771",
           "cls": "cve"
         }
       ],
       "iocs": {
         "cves": [
-          "CVE-2026-88771",
-          "CVE-2026-88772"
+          "CVE-2026-88772",
+          "CVE-2026-88771"
         ],
         "ips": [],
         "hashes": []
@@ -2352,14 +2371,14 @@
       "ts": 0
     },
     {
-      "id": "Sophos-705ffe457411",
-      "title": "Dissecting a PHP web server rootkit",
-      "link": "https://www.sophos.com/en-us/blog/dissecting-a-php-web-server-rootkit",
-      "desc": "&lt;p&gt;Sophos X-Ops takes a deep dive into an insidious piece of malware&lt;/p&gt;Categories: Threat ResearchTags: rootkit, php, webshell",
-      "pubDate": "Mon, 07 Sep 2026 00:00:00 GMT",
-      "source": "Sophos Research",
+      "id": "Malwar-ee45cff64b38",
+      "title": "Banks are blocking AI agents from customer accounts",
+      "link": "https://www.malwarebytes.com/blog/ai/2026/10/banks-are-blocking-ai-agents-from-customer-accounts",
+      "desc": "Banks say third-party AI agents put customer accounts at risk. Is security the only concern?",
+      "pubDate": "Wed, 28 Oct 2026 13:38:59 GMT",
+      "source": "Malwarebytes",
       "cat": "malware",
-      "sev": "high",
+      "sev": "medium",
       "tags": [],
       "iocs": {
         "cves": [],
@@ -2637,13 +2656,13 @@
       "ts": 0
     },
     {
-      "id": "Malwar-fa199fd6569a",
-      "title": "Delivery bots accused of illegally scanning customers",
-      "link": "https://www.malwarebytes.com/blog/privacy/2026/10/delivery-bots-accused-of-illegally-scanning-customers",
-      "desc": "Two lawsuits allege delivery robots scanned customers’ faces without consent, linked scans to names and addresses, and used them to train AI.",
-      "pubDate": "Thu, 22 Oct 2026 09:39:23 GMT",
-      "source": "Malwarebytes",
-      "cat": "malware",
+      "id": "SANSI-c74ec1fff5bf",
+      "title": "Yet Another ClickFix Campaign, (Wed, Oct 28th)",
+      "link": "https://isc.sans.edu/diary/rss/33466",
+      "desc": "Introduction&#xd;",
+      "pubDate": "Wed, 28 Oct 2026 16:07:03 GMT",
+      "source": "SANS ISC",
+      "cat": "vulns",
       "sev": "medium",
       "tags": [],
       "iocs": {
@@ -2813,25 +2832,6 @@
       "link": "https://isc.sans.edu/diary/rss/33448",
       "desc": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
       "pubDate": "Fri, 23 Oct 2026 10:25:11 GMT",
-      "source": "SANS ISC",
-      "cat": "vulns",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "SANSI-59f29ac7dab6",
-      "title": "ISC Stormcast For Thursday, October 22nd, 2026 https://isc.sans.edu/podcastdetail/10146, (Thu, Oct 22nd)",
-      "link": "https://isc.sans.edu/diary/rss/33446",
-      "desc": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
-      "pubDate": "Thu, 22 Oct 2026 02:00:02 GMT",
       "source": "SANS ISC",
       "cat": "vulns",
       "sev": "medium",
@@ -3656,30 +3656,11 @@
       "ts": 0
     },
     {
-      "id": "r/nets-fbf08fae025a",
-      "title": "ElectroNG is now open source. ElectronJS Security Scanner.",
-      "link": "https://www.reddit.com/r/netsec/comments/1xhhv2k/electrong_is_now_open_source_electronjs_security/",
-      "desc": "ElectroNG is now free and open source.   &#32; submitted by &#32;  /u/nibblesec   [link] &#32; [comments]",
-      "pubDate": "2026-10-28T07:50:06+00:00",
-      "source": "r/netsec",
-      "cat": "community",
-      "sev": "critical",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "r/nets-cb9f5b78fcc3",
-      "title": "New Kerberos Abuse Path Discovery - Constrained Delegation without Protocol Transition against SPN-less accounts",
-      "link": "https://www.reddit.com/r/netsec/comments/1xh7v6y/new_kerberos_abuse_path_discovery_constrained/",
-      "desc": "I've recently released a blog covering how I discovered a new Kerberos delegation abuse path! By combining Elad Shamir's Reflective RBCD with James Forshaw's U2U sacrificial user technique, Constrained Delegation without Protocol Transition can now be abused against SPN-less accounts. I also had to add S4U2Proxy + U2U support to Impacket to get this working. :) Blog: https://hunio.org/security/abu",
-      "pubDate": "2026-10-27T23:09:33+00:00",
+      "id": "r/nets-ea8636165c67",
+      "title": "Scanning 7.25 Million Public Repositories on China's Largest Git Platform for Secrets",
+      "link": "https://www.reddit.com/r/netsec/comments/1xhrfhu/scanning_725_million_public_repositories_on/",
+      "desc": "&#32; submitted by &#32;  /u/Grand_Fan_9804   [link] &#32; [comments]",
+      "pubDate": "2026-10-28T15:36:25+00:00",
       "source": "r/netsec",
       "cat": "community",
       "sev": "medium",
@@ -3713,14 +3694,14 @@
       "ts": 0
     },
     {
-      "id": "r/nets-e9717130d3b5",
-      "title": "I've proven that you don't need quotes or parentheses in JavaScript",
-      "link": "https://www.reddit.com/r/netsec/comments/1xgvi3m/ive_proven_that_you_dont_need_quotes_or/",
-      "desc": "You can overwrite the prepareStackTrace property of the Error object by String prototype's functions and invoke them without parentheses. Then by overwriting the Error and Array prototype it is possible to control the arguments. Combining this behavior, together with some JSFuck-inspired tricks, it is possible to generate arbitrary JavaScript strings and run arbitrary JavaScript with only letters ",
-      "pubDate": "2026-10-27T15:24:45+00:00",
+      "id": "r/nets-fbf08fae025a",
+      "title": "ElectroNG is now open source. ElectronJS Security Scanner.",
+      "link": "https://www.reddit.com/r/netsec/comments/1xhhv2k/electrong_is_now_open_source_electronjs_security/",
+      "desc": "ElectroNG is now free and open source.   &#32; submitted by &#32;  /u/nibblesec   [link] &#32; [comments]",
+      "pubDate": "2026-10-28T07:50:06+00:00",
       "source": "r/netsec",
       "cat": "community",
-      "sev": "medium",
+      "sev": "critical",
       "tags": [],
       "iocs": {
         "cves": [],
@@ -3751,14 +3732,52 @@
       "ts": 0
     },
     {
-      "id": "r/nets-902979608283",
-      "title": "The Gentlemen: A closer look at a not-so-gentle ransomware-as-a-service operation",
-      "link": "https://www.reddit.com/r/netsec/comments/1xgxdk8/the_gentlemen_a_closer_look_at_a_notsogentle/",
-      "desc": "Our Threat Research Unit published a breakdown of “The Gentlemen” - a Russian-speaking ransomware-as-a-service group that emerged in mid-2025, reportedly after affiliates split off from established groups like LockBit and Qilin. A few things that stood out from the research:  They’re offering affiliates up to 90% of ransom revenue - aggressive even by RaaS standards Claimed 800+ victims across the",
-      "pubDate": "2026-10-27T16:33:17+00:00",
+      "id": "r/nets-8af4eb233823",
+      "title": "Cache Me If You Can: XSS in Cloudflare's /cdn-cgi/image/",
+      "link": "https://www.reddit.com/r/netsec/comments/1xhqdx6/cache_me_if_you_can_xss_in_cloudflares_cdncgiimage/",
+      "desc": "&#32; submitted by &#32;  /u/albinowax   [link] &#32; [comments]",
+      "pubDate": "2026-10-28T14:58:48+00:00",
       "source": "r/netsec",
       "cat": "community",
       "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "r/nets-d68678ed364c",
+      "title": "I got RCE on the sandboxes of Instinct and Muse!",
+      "link": "https://www.reddit.com/r/netsec/comments/1xhpdn3/i_got_rce_on_the_sandboxes_of_instinct_and_muse/",
+      "desc": "&#32; submitted by &#32;  /u/azl33t   [link] &#32; [comments]",
+      "pubDate": "2026-10-28T14:20:14+00:00",
+      "source": "r/netsec",
+      "cat": "community",
+      "sev": "critical",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "r/nets-bdb2bcd6a33a",
+      "title": "SEO Poisoning Campaign Targets DeepSeek Users: Chinese Threat Actor Deploys Kong RAT via Multi-Stage Attacks",
+      "link": "https://www.reddit.com/r/netsec/comments/1xhqj0w/seo_poisoning_campaign_targets_deepseek_users/",
+      "desc": "&#32; submitted by &#32;  /u/CyberMasterV   [link] &#32; [comments]",
+      "pubDate": "2026-10-28T15:03:44+00:00",
+      "source": "r/netsec",
+      "cat": "community",
+      "sev": "high",
       "tags": [],
       "iocs": {
         "cves": [],
@@ -3789,6 +3808,89 @@
       "ts": 0
     },
     {
+      "id": "r/nets-003b1d2c9a4a",
+      "title": "EDK2 PXE Flaw (CVE-2026-97631): Find What You Run",
+      "link": "https://www.reddit.com/r/netsec/comments/1xhrkjy/edk2_pxe_flaw_cve202697631_find_what_you_run/",
+      "desc": "&#32; submitted by &#32;  /u/Traditional-Heat-749   [link] &#32; [comments]",
+      "pubDate": "2026-10-28T15:41:41+00:00",
+      "source": "r/netsec",
+      "cat": "community",
+      "sev": "high",
+      "tags": [
+        {
+          "t": "CVE-2026-97631",
+          "cls": "cve"
+        }
+      ],
+      "iocs": {
+        "cves": [
+          "CVE-2026-97631"
+        ],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "r/nets-cb9f5b78fcc3",
+      "title": "New Kerberos Abuse Path Discovery - Constrained Delegation without Protocol Transition against SPN-less accounts",
+      "link": "https://www.reddit.com/r/netsec/comments/1xh7v6y/new_kerberos_abuse_path_discovery_constrained/",
+      "desc": "I've recently released a blog covering how I discovered a new Kerberos delegation abuse path! By combining Elad Shamir's Reflective RBCD with James Forshaw's U2U sacrificial user technique, Constrained Delegation without Protocol Transition can now be abused against SPN-less accounts. I also had to add S4U2Proxy + U2U support to Impacket to get this working. :) Blog: https://hunio.org/security/abu",
+      "pubDate": "2026-10-27T23:09:33+00:00",
+      "source": "r/netsec",
+      "cat": "community",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "r/nets-e9717130d3b5",
+      "title": "I've proven that you don't need quotes or parentheses in JavaScript",
+      "link": "https://www.reddit.com/r/netsec/comments/1xgvi3m/ive_proven_that_you_dont_need_quotes_or/",
+      "desc": "You can overwrite the prepareStackTrace property of the Error object by String prototype's functions and invoke them without parentheses. Then by overwriting the Error and Array prototype it is possible to control the arguments. Combining this behavior, together with some JSFuck-inspired tricks, it is possible to generate arbitrary JavaScript strings and run arbitrary JavaScript with only letters ",
+      "pubDate": "2026-10-27T15:24:45+00:00",
+      "source": "r/netsec",
+      "cat": "community",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "r/nets-902979608283",
+      "title": "The Gentlemen: A closer look at a not-so-gentle ransomware-as-a-service operation",
+      "link": "https://www.reddit.com/r/netsec/comments/1xgxdk8/the_gentlemen_a_closer_look_at_a_notsogentle/",
+      "desc": "Our Threat Research Unit published a breakdown of “The Gentlemen” - a Russian-speaking ransomware-as-a-service group that emerged in mid-2025, reportedly after affiliates split off from established groups like LockBit and Qilin. A few things that stood out from the research:  They’re offering affiliates up to 90% of ransom revenue - aggressive even by RaaS standards Claimed 800+ victims across the",
+      "pubDate": "2026-10-27T16:33:17+00:00",
+      "source": "r/netsec",
+      "cat": "community",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
       "id": "r/nets-6d58695d41b6",
       "title": "From Arbitrary File Read to Shell: Yet Another RCE in Telerik",
       "link": "https://www.reddit.com/r/netsec/comments/1xgpz1q/from_arbitrary_file_read_to_shell_yet_another_rce/",
@@ -3797,101 +3899,6 @@
       "source": "r/netsec",
       "cat": "community",
       "sev": "critical",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "r/nets-7b5cac328f91",
-      "title": "A community translation can run attacker-chosen code in an exported Godot game",
-      "link": "https://www.reddit.com/r/netsec/comments/1xgn2l1/a_community_translation_can_run_attackerchosen/",
-      "desc": "&#32; submitted by &#32;  /u/bitbutter   [link] &#32; [comments]",
-      "pubDate": "2026-10-27T08:37:28+00:00",
-      "source": "r/netsec",
-      "cat": "community",
-      "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "r/nets-668530e8bbe4",
-      "title": "GhostAction Crosses Paths With PolinRider",
-      "link": "https://www.reddit.com/r/netsec/comments/1xh04rd/ghostaction_crosses_paths_with_polinrider/",
-      "desc": "&#32; submitted by &#32;  /u/mabote   [link] &#32; [comments]",
-      "pubDate": "2026-10-27T18:12:53+00:00",
-      "source": "r/netsec",
-      "cat": "community",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "r/nets-3b28e323a1eb",
-      "title": "Choose Your Backend: Three TLS Bugs in GoAhead",
-      "link": "https://www.reddit.com/r/netsec/comments/1xgjs4s/choose_your_backend_three_tls_bugs_in_goahead/",
-      "desc": "&#32; submitted by &#32;  /u/LordAlfredo   [link] &#32; [comments]",
-      "pubDate": "2026-10-27T05:07:28+00:00",
-      "source": "r/netsec",
-      "cat": "community",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "r/nets-24875850761f",
-      "title": "How to Intercept HTTP/3 Traffic (QUIC and QPACK Explained)",
-      "link": "https://www.reddit.com/r/netsec/comments/1xg6cpe/how_to_intercept_http3_traffic_quic_and_qpack/",
-      "desc": "&#32; submitted by &#32;  /u/Ano_F   [link] &#32; [comments]",
-      "pubDate": "2026-10-26T19:18:19+00:00",
-      "source": "r/netsec",
-      "cat": "community",
-      "sev": "critical",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "r/nets-997f599828a1",
-      "title": "Reviving GLPI Agent Abuse with ESC17",
-      "link": "https://www.reddit.com/r/netsec/comments/1xgtexh/reviving_glpi_agent_abuse_with_esc17/",
-      "desc": "&#32; submitted by &#32;  /u/SzLam__   [link] &#32; [comments]",
-      "pubDate": "2026-10-27T14:03:34+00:00",
-      "source": "r/netsec",
-      "cat": "community",
-      "sev": "medium",
       "tags": [],
       "iocs": {
         "cves": [],
