@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T00:17:55.736315+00:00",
+  "generated_at": "2026-10-28T06:04:16.618604+00:00",
   "sources_ok": 15,
   "sources_total": 20,
   "source_status": {
@@ -2642,6 +2642,25 @@
       "ts": 0
     },
     {
+      "id": "SANSI-80946a2d01a2",
+      "title": "ISC Stormcast For Wednesday, October 28th, 2026 https://isc.sans.edu/podcastdetail/10154, (Wed, Oct 28th)",
+      "link": "https://isc.sans.edu/diary/rss/33464",
+      "desc": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
+      "pubDate": "Wed, 28 Oct 2026 02:30:11 GMT",
+      "source": "SANS ISC",
+      "cat": "vulns",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
       "id": "SANSI-9168e93ea1a1",
       "title": "ISC Stormcast For Tuesday, October 27th, 2026 https://isc.sans.edu/podcastdetail/10152, (Tue, Oct 27th)",
       "link": "https://isc.sans.edu/diary/rss/33462",
@@ -2805,37 +2824,6 @@
       "tags": [],
       "iocs": {
         "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "SANSI-64c38d43a717",
-      "title": "Critical PHP Vulnerability (CVE-2026-109618, CVE-2026-109619) &#x5b;infocon yellow&#x5d;, (Wed, Oct 21st)",
-      "link": "https://isc.sans.edu/diary/rss/33440",
-      "desc": "PHP.net announced that it will release a critical update today. We decided to change the infoCon to YELLOW due to the widespread use of PHP, the expected severity of the flaw (CVSS 9.4), and the availability of early PoC exploits before the patch became available. &#xd;",
-      "pubDate": "Wed, 21 Oct 2026 21:02:43 GMT",
-      "source": "SANS ISC",
-      "cat": "vulns",
-      "sev": "high",
-      "tags": [
-        {
-          "t": "CVE-2026-109619",
-          "cls": "cve"
-        },
-        {
-          "t": "CVE-2026-109618",
-          "cls": "cve"
-        }
-      ],
-      "iocs": {
-        "cves": [
-          "CVE-2026-109619",
-          "CVE-2026-109618"
-        ],
         "ips": [],
         "hashes": []
       },
@@ -3654,6 +3642,25 @@
       "ts": 0
     },
     {
+      "id": "r/nets-cb9f5b78fcc3",
+      "title": "New Kerberos Abuse Path Discovery - Constrained Delegation without Protocol Transition against SPN-less accounts",
+      "link": "https://www.reddit.com/r/netsec/comments/1xh7v6y/new_kerberos_abuse_path_discovery_constrained/",
+      "desc": "I've recently released a blog covering how I discovered a new Kerberos delegation abuse path! By combining Elad Shamir's Reflective RBCD with James Forshaw's U2U sacrificial user technique, Constrained Delegation without Protocol Transition can now be abused against SPN-less accounts. I also had to add S4U2Proxy + U2U support to Impacket to get this working. :) Blog: https://hunio.org/security/abu",
+      "pubDate": "2026-10-27T23:09:33+00:00",
+      "source": "r/netsec",
+      "cat": "community",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
       "id": "r/nets-e9717130d3b5",
       "title": "I've proven that you don't need quotes or parentheses in JavaScript",
       "link": "https://www.reddit.com/r/netsec/comments/1xgvi3m/ive_proven_that_you_dont_need_quotes_or/",
@@ -3711,25 +3718,6 @@
       "ts": 0
     },
     {
-      "id": "r/nets-cb9f5b78fcc3",
-      "title": "New Kerberos Abuse Path Discovery - Constrained Delegation without Protocol Transition against SPN-less accounts",
-      "link": "https://www.reddit.com/r/netsec/comments/1xh7v6y/new_kerberos_abuse_path_discovery_constrained/",
-      "desc": "I've recently released a blog covering how I discovered a new Kerberos delegation abuse path! By combining Elad Shamir's Reflective RBCD with James Forshaw's U2U sacrificial user technique, Constrained Delegation without Protocol Transition can now be abused against SPN-less accounts. I also had to add S4U2Proxy + U2U support to Impacket to get this working. :) Blog: https://hunio.org/security/abu",
-      "pubDate": "2026-10-27T23:09:33+00:00",
-      "source": "r/netsec",
-      "cat": "community",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
       "id": "r/nets-7b5cac328f91",
       "title": "A community translation can run attacker-chosen code in an exported Godot game",
       "link": "https://www.reddit.com/r/netsec/comments/1xgn2l1/a_community_translation_can_run_attackerchosen/",
@@ -3749,11 +3737,11 @@
       "ts": 0
     },
     {
-      "id": "r/nets-668530e8bbe4",
-      "title": "GhostAction Crosses Paths With PolinRider",
-      "link": "https://www.reddit.com/r/netsec/comments/1xh04rd/ghostaction_crosses_paths_with_polinrider/",
-      "desc": "&#32; submitted by &#32;  /u/mabote   [link] &#32; [comments]",
-      "pubDate": "2026-10-27T18:12:53+00:00",
+      "id": "r/nets-3b28e323a1eb",
+      "title": "Choose Your Backend: Three TLS Bugs in GoAhead",
+      "link": "https://www.reddit.com/r/netsec/comments/1xgjs4s/choose_your_backend_three_tls_bugs_in_goahead/",
+      "desc": "&#32; submitted by &#32;  /u/LordAlfredo   [link] &#32; [comments]",
+      "pubDate": "2026-10-27T05:07:28+00:00",
       "source": "r/netsec",
       "cat": "community",
       "sev": "medium",
@@ -3768,11 +3756,11 @@
       "ts": 0
     },
     {
-      "id": "r/nets-3b28e323a1eb",
-      "title": "Choose Your Backend: Three TLS Bugs in GoAhead",
-      "link": "https://www.reddit.com/r/netsec/comments/1xgjs4s/choose_your_backend_three_tls_bugs_in_goahead/",
-      "desc": "&#32; submitted by &#32;  /u/LordAlfredo   [link] &#32; [comments]",
-      "pubDate": "2026-10-27T05:07:28+00:00",
+      "id": "r/nets-668530e8bbe4",
+      "title": "GhostAction Crosses Paths With PolinRider",
+      "link": "https://www.reddit.com/r/netsec/comments/1xh04rd/ghostaction_crosses_paths_with_polinrider/",
+      "desc": "&#32; submitted by &#32;  /u/mabote   [link] &#32; [comments]",
+      "pubDate": "2026-10-27T18:12:53+00:00",
       "source": "r/netsec",
       "cat": "community",
       "sev": "medium",
