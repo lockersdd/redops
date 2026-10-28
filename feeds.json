@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T18:59:27.088631+00:00",
+  "generated_at": "2026-10-28T23:06:18.329834+00:00",
   "sources_ok": 15,
   "sources_total": 20,
   "source_status": {
@@ -2229,18 +2229,18 @@
       "sev": "high",
       "tags": [
         {
-          "t": "CVE-2026-88772",
+          "t": "CVE-2026-88771",
           "cls": "cve"
         },
         {
-          "t": "CVE-2026-88771",
+          "t": "CVE-2026-88772",
           "cls": "cve"
         }
       ],
       "iocs": {
         "cves": [
-          "CVE-2026-88772",
-          "CVE-2026-88771"
+          "CVE-2026-88771",
+          "CVE-2026-88772"
         ],
         "ips": [],
         "hashes": []
@@ -3656,14 +3656,14 @@
       "ts": 0
     },
     {
-      "id": "r/nets-ea8636165c67",
-      "title": "Scanning 7.25 Million Public Repositories on China's Largest Git Platform for Secrets",
-      "link": "https://www.reddit.com/r/netsec/comments/1xhrfhu/scanning_725_million_public_repositories_on/",
-      "desc": "&#32; submitted by &#32;  /u/Grand_Fan_9804   [link] &#32; [comments]",
-      "pubDate": "2026-10-28T15:36:25+00:00",
+      "id": "r/nets-8942586f83ed",
+      "title": "Turning the Valve - Exploiting RCE and LPE in the Steam Platform",
+      "link": "https://www.reddit.com/r/netsec/comments/1xi11fq/turning_the_valve_exploiting_rce_and_lpe_in_the/",
+      "desc": "&#32; submitted by &#32;  /u/FILLABUSTA   [link] &#32; [comments]",
+      "pubDate": "2026-10-28T21:24:39+00:00",
       "source": "r/netsec",
       "cat": "community",
-      "sev": "medium",
+      "sev": "critical",
       "tags": [],
       "iocs": {
         "cves": [],
@@ -3675,11 +3675,11 @@
       "ts": 0
     },
     {
-      "id": "r/nets-785725863a2e",
-      "title": "A malicious game server can crash the Godot clients that join it",
-      "link": "https://www.reddit.com/r/netsec/comments/1xhju55/a_malicious_game_server_can_crash_the_godot/",
-      "desc": "In Godot 4.0 and later, in games using the engine's standard spawning setup, a peer with authority over the relevant spawner - by default the server the client joins - can crash that client with one crafted packet.  &#32; submitted by &#32;  /u/bitbutter   [link] &#32; [comments]",
-      "pubDate": "2026-10-28T09:57:22+00:00",
+      "id": "r/nets-ea8636165c67",
+      "title": "Scanning 7.25 Million Public Repositories on China's Largest Git Platform for Secrets",
+      "link": "https://www.reddit.com/r/netsec/comments/1xhrfhu/scanning_725_million_public_repositories_on/",
+      "desc": "&#32; submitted by &#32;  /u/Grand_Fan_9804   [link] &#32; [comments]",
+      "pubDate": "2026-10-28T15:36:25+00:00",
       "source": "r/netsec",
       "cat": "community",
       "sev": "medium",
@@ -3713,11 +3713,30 @@
       "ts": 0
     },
     {
-      "id": "r/nets-0cad5dab4b45",
-      "title": "Where a million-request-a-second HTTP/2 flood goes: XDP drop counters from two real attacks",
-      "link": "https://www.reddit.com/r/netsec/comments/1xhnqhh/where_a_millionrequestasecond_http2_flood_goes/",
-      "desc": "&#32; submitted by &#32;  /u/MeGunes0   [link] &#32; [comments]",
-      "pubDate": "2026-10-28T13:14:05+00:00",
+      "id": "r/nets-785725863a2e",
+      "title": "A malicious game server can crash the Godot clients that join it",
+      "link": "https://www.reddit.com/r/netsec/comments/1xhju55/a_malicious_game_server_can_crash_the_godot/",
+      "desc": "In Godot 4.0 and later, in games using the engine's standard spawning setup, a peer with authority over the relevant spawner - by default the server the client joins - can crash that client with one crafted packet.  &#32; submitted by &#32;  /u/bitbutter   [link] &#32; [comments]",
+      "pubDate": "2026-10-28T09:57:22+00:00",
+      "source": "r/netsec",
+      "cat": "community",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "r/nets-bdb2bcd6a33a",
+      "title": "SEO Poisoning Campaign Targets DeepSeek Users: Chinese Threat Actor Deploys Kong RAT via Multi-Stage Attacks",
+      "link": "https://www.reddit.com/r/netsec/comments/1xhqj0w/seo_poisoning_campaign_targets_deepseek_users/",
+      "desc": "&#32; submitted by &#32;  /u/CyberMasterV   [link] &#32; [comments]",
+      "pubDate": "2026-10-28T15:03:44+00:00",
       "source": "r/netsec",
       "cat": "community",
       "sev": "high",
@@ -3751,6 +3770,25 @@
       "ts": 0
     },
     {
+      "id": "r/nets-0cad5dab4b45",
+      "title": "Where a million-request-a-second HTTP/2 flood goes: XDP drop counters from two real attacks",
+      "link": "https://www.reddit.com/r/netsec/comments/1xhnqhh/where_a_millionrequestasecond_http2_flood_goes/",
+      "desc": "&#32; submitted by &#32;  /u/MeGunes0   [link] &#32; [comments]",
+      "pubDate": "2026-10-28T13:14:05+00:00",
+      "source": "r/netsec",
+      "cat": "community",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
       "id": "r/nets-d68678ed364c",
       "title": "I got RCE on the sandboxes of Instinct and Muse!",
       "link": "https://www.reddit.com/r/netsec/comments/1xhpdn3/i_got_rce_on_the_sandboxes_of_instinct_and_muse/",
@@ -3770,11 +3808,11 @@
       "ts": 0
     },
     {
-      "id": "r/nets-bdb2bcd6a33a",
-      "title": "SEO Poisoning Campaign Targets DeepSeek Users: Chinese Threat Actor Deploys Kong RAT via Multi-Stage Attacks",
-      "link": "https://www.reddit.com/r/netsec/comments/1xhqj0w/seo_poisoning_campaign_targets_deepseek_users/",
-      "desc": "&#32; submitted by &#32;  /u/CyberMasterV   [link] &#32; [comments]",
-      "pubDate": "2026-10-28T15:03:44+00:00",
+      "id": "r/nets-284625bcbab6",
+      "title": "An attacker can crash a Godot game server using DTLS with an unauthenticated UDP datagram",
+      "link": "https://www.reddit.com/r/netsec/comments/1xhxfh0/an_attacker_can_crash_a_godot_game_server_using/",
+      "desc": "&#32; submitted by &#32;  /u/bitbutter   [link] &#32; [comments]",
+      "pubDate": "2026-10-28T19:09:42+00:00",
       "source": "r/netsec",
       "cat": "community",
       "sev": "high",
@@ -3861,44 +3899,6 @@
       "source": "r/netsec",
       "cat": "community",
       "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "r/nets-902979608283",
-      "title": "The Gentlemen: A closer look at a not-so-gentle ransomware-as-a-service operation",
-      "link": "https://www.reddit.com/r/netsec/comments/1xgxdk8/the_gentlemen_a_closer_look_at_a_notsogentle/",
-      "desc": "Our Threat Research Unit published a breakdown of “The Gentlemen” - a Russian-speaking ransomware-as-a-service group that emerged in mid-2025, reportedly after affiliates split off from established groups like LockBit and Qilin. A few things that stood out from the research:  They’re offering affiliates up to 90% of ransom revenue - aggressive even by RaaS standards Claimed 800+ victims across the",
-      "pubDate": "2026-10-27T16:33:17+00:00",
-      "source": "r/netsec",
-      "cat": "community",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "r/nets-6d58695d41b6",
-      "title": "From Arbitrary File Read to Shell: Yet Another RCE in Telerik",
-      "link": "https://www.reddit.com/r/netsec/comments/1xgpz1q/from_arbitrary_file_read_to_shell_yet_another_rce/",
-      "desc": "&#32; submitted by &#32;  /u/Gallus   [link] &#32; [comments]",
-      "pubDate": "2026-10-27T11:28:12+00:00",
-      "source": "r/netsec",
-      "cat": "community",
-      "sev": "critical",
       "tags": [],
       "iocs": {
         "cves": [],
