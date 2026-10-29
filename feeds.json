@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T02:40:50.298302+00:00",
+  "generated_at": "2026-10-29T09:34:20.194679+00:00",
   "sources_ok": 15,
   "sources_total": 20,
   "source_status": {
@@ -91,6 +91,70 @@
   },
   "total": 195,
   "articles": [
+    {
+      "id": "TheHa-36c8b7d947d3",
+      "title": "Hackers Exploited Cisco SD-WAN Flaw to Plant Malware Built to Steal Encryption Keys",
+      "link": "https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html",
+      "desc": "Hackers exploited a critical Cisco Catalyst SD-WAN flaw, fixed in February, to plant custom malware inside the systems that control an organization's SD-WAN network.\n\nThe malware, called KeyDrift, is designed to copy the keys that encrypt traffic between sites and store them for later use,&nbsp;Cisco Talos said&nbsp;on October 28. Talos calls the attacks historical but does not specify when they",
+      "pubDate": "Thu, 29 Oct 2026 13:54:22 +0530",
+      "source": "The Hacker News",
+      "cat": "malware",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "TheHa-1d9b6dc23260",
+      "title": "China-Linked Hackers Exploited VMware ESX Zero-Day to Reduce Audit Trail Visibility",
+      "link": "https://thehackernews.com/2026/10/china-linked-hackers-exploited-vmware.html",
+      "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a security flaw impacting Broadcom VMware ESX to its Known Exploited Vulnerabilities (KEV) catalog, after CrowdStrike revealed that it had been weaponized by a China-nexus threat actor known as Warp Panda in attacks targeting the U.S. legal sector.\n\nThe vulnerability in question is CVE-2026-41709 (CVSS score:",
+      "pubDate": "Thu, 29 Oct 2026 11:52:33 +0530",
+      "source": "The Hacker News",
+      "cat": "threats",
+      "sev": "critical",
+      "tags": [
+        {
+          "t": "CVE-2026-41709",
+          "cls": "cve"
+        }
+      ],
+      "iocs": {
+        "cves": [
+          "CVE-2026-41709"
+        ],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "TheHa-7735ee4ccec1",
+      "title": "Attackers Exploit PHP2Shell Flaws in Internet-Exposed Palo Alto Networks Management Interfaces",
+      "link": "https://thehackernews.com/2026/10/attackers-exploit-php2shell-flaws-in.html",
+      "desc": "Palo Alto Networks on Wednesday warned that threat actors are exploiting the recently patched PHP2Shell vulnerabilities against publicly-accessible management interfaces.\n\n\"Active exploitation has been observed targeting the Palo Alto Networks management interface exposed to the internet,\" the network security company said in an update to its advisory.\n\nThe vulnerabilities, tracked as",
+      "pubDate": "Thu, 29 Oct 2026 11:20:17 +0530",
+      "source": "The Hacker News",
+      "cat": "threats",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
     {
       "id": "TheHa-3fa534d69aee",
       "title": "Volt Typhoon Used Covert Silent Train Network in Four Zero-Day Exploitation Campaigns",
@@ -334,77 +398,6 @@
       "ts": 0
     },
     {
-      "id": "TheHa-ad35e8c4d2a7",
-      "title": "Tailscale Patches SSH Flaws That Could Let Hacked Devices Gain Root Access on Other Servers",
-      "link": "https://thehackernews.com/2026/10/tailscale-patches-ssh-flaws-that-could.html",
-      "desc": "Tailscale has released&nbsp;version 1.104.4&nbsp;to fix flaws in its built-in SSH server that could let an attacker reach services and files on other servers that only the&nbsp;root&nbsp;user should be able to touch.\n\nThe flaws are in how&nbsp;Tailscale SSH&nbsp;forwards network connections, a job the Tailscale background process carries out with root privileges. To use them, an attacker must",
-      "pubDate": "Wed, 28 Oct 2026 11:50:37 +0530",
-      "source": "The Hacker News",
-      "cat": "threats",
-      "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "TheHa-3c3f81686572",
-      "title": "ShinyHunters-Exploited Oracle PeopleSoft Zero-Day Turns Out to Be Three Chained Flaws",
-      "link": "https://thehackernews.com/2026/10/shinyhunters-exploited-oracle.html",
-      "desc": "The critical Oracle PeopleSoft bug that ShinyHunters has exploited since May is not one flaw but three chained together, the researchers who reported it said this week.\n\nOracle patched all three under a single identifier,&nbsp;CVE-2026-35273, in June. Its root is a server-side request forgery (SSRF) that reaches an internal management interface because PeopleSoft trusts its own loopback address",
-      "pubDate": "Wed, 28 Oct 2026 11:34:58 +0530",
-      "source": "The Hacker News",
-      "cat": "threats",
-      "sev": "critical",
-      "tags": [
-        {
-          "t": "CVE-2026-35273",
-          "cls": "cve"
-        }
-      ],
-      "iocs": {
-        "cves": [
-          "CVE-2026-35273"
-        ],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "TheHa-903ad8e128a7",
-      "title": "Adobe Commerce PolyShell Attacks Breach Hundreds of Stores as Brotli Exploit Traffic Emerges",
-      "link": "https://thehackernews.com/2026/10/adobe-commerce-polyshell-attacks-breach.html",
-      "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added two vulnerabilities impacting Adobe Commerce and Magento, and Google's Brotli decoder library to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation.\n\nThe vulnerabilities are listed below -\n\n\n  CVE-2026-111497 (CVSS score: 9.2) - An unchecked return value vulnerability in",
-      "pubDate": "Wed, 28 Oct 2026 11:12:26 +0530",
-      "source": "The Hacker News",
-      "cat": "breaches",
-      "sev": "critical",
-      "tags": [
-        {
-          "t": "CVE-2026-111497",
-          "cls": "cve"
-        }
-      ],
-      "iocs": {
-        "cves": [
-          "CVE-2026-111497"
-        ],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
       "id": "Krebs-1573c1d6ecaa",
       "title": "Widespread PHP Flaw May Cause Many Site Outages Today",
       "link": "https://krebsonsecurity.com/2026/10/widespread-php-flaw-may-cause-many-site-outages-today/",
@@ -595,6 +588,51 @@
       "ts": 0
     },
     {
+      "id": "Securi-20103a3ded4b",
+      "title": "HHS Filing Puts iRhythm Data Breach Toll at 8.2 Million",
+      "link": "https://www.securityweek.com/hhs-filing-puts-irhythm-data-breach-toll-at-8-2-million/",
+      "desc": "Hackers stole personal information and iRhythm account and device data from third-party-hosted business applications.\nThe post HHS Filing Puts iRhythm Data Breach Toll at 8.2 Million appeared first on SecurityWeek.",
+      "pubDate": "Thu, 29 Oct 2026 08:27:16 +0000",
+      "source": "SecurityWeek",
+      "cat": "breaches",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "Securi-7e34d7e3eadd",
+      "title": "Chinese Hackers Quietly Used Low-Severity ESXi Logging Flaw as Zero-Day",
+      "link": "https://www.securityweek.com/chinese-hackers-quietly-used-low-severity-esxi-logging-flaw-as-zero-day/",
+      "desc": "CVE-2026-41709 allows attackers with administrative privileges to perform operations without being logged.\nThe post Chinese Hackers Quietly Used Low-Severity ESXi Logging Flaw as Zero-Day appeared first on SecurityWeek.",
+      "pubDate": "Thu, 29 Oct 2026 08:01:05 +0000",
+      "source": "SecurityWeek",
+      "cat": "threats",
+      "sev": "critical",
+      "tags": [
+        {
+          "t": "CVE-2026-41709",
+          "cls": "cve"
+        }
+      ],
+      "iocs": {
+        "cves": [
+          "CVE-2026-41709"
+        ],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
       "id": "Securi-2a363a897edd",
       "title": "Ukrainian Hive and Nefilim Ransomware Affiliate Gets 70 Months in US Prison",
       "link": "https://www.securityweek.com/ukrainian-hive-and-nefilim-ransomware-affiliate-gets-70-months-in-us-prison/",
@@ -736,51 +774,6 @@
       "source": "SecurityWeek",
       "cat": "threats",
       "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "Securi-51bb19c3755e",
-      "title": "Hackers Start Probing Fresh Oracle EBS Vulnerability",
-      "link": "https://www.securityweek.com/hackers-start-probing-fresh-oracle-ebs-vulnerability/",
-      "desc": "CVE-2026-101767 is an unauthenticated SQL injection that can be exploited for remote code execution.\nThe post Hackers Start Probing Fresh Oracle EBS Vulnerability appeared first on SecurityWeek.",
-      "pubDate": "Wed, 28 Oct 2026 09:14:23 +0000",
-      "source": "SecurityWeek",
-      "cat": "threats",
-      "sev": "critical",
-      "tags": [
-        {
-          "t": "CVE-2026-101767",
-          "cls": "cve"
-        }
-      ],
-      "iocs": {
-        "cves": [
-          "CVE-2026-101767"
-        ],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "Securi-552a0bb4e233",
-      "title": "CISA Warns of Node2Shell Exploitation as Honeypots Log Attack Attempts",
-      "link": "https://www.securityweek.com/cisa-warns-of-node2shell-exploitation-as-honeypots-log-attack-attempts/",
-      "desc": "CISA added the Brotli flaw to its KEV catalog, and two honeypot operators logged attempts, including one that used a broken exploit.\nThe post CISA Warns of Node2Shell Exploitation as Honeypots Log Attack Attempts appeared first on SecurityWeek.",
-      "pubDate": "Wed, 28 Oct 2026 08:37:24 +0000",
-      "source": "SecurityWeek",
-      "cat": "threats",
-      "sev": "high",
       "tags": [],
       "iocs": {
         "cves": [],
@@ -2077,18 +2070,18 @@
       "sev": "high",
       "tags": [
         {
-          "t": "CVE-2026-109618",
+          "t": "CVE-2026-109619",
           "cls": "cve"
         },
         {
-          "t": "CVE-2026-109619",
+          "t": "CVE-2026-109618",
           "cls": "cve"
         }
       ],
       "iocs": {
         "cves": [
-          "CVE-2026-109618",
-          "CVE-2026-109619"
+          "CVE-2026-109619",
+          "CVE-2026-109618"
         ],
         "ips": [],
         "hashes": []
@@ -2229,18 +2222,18 @@
       "sev": "high",
       "tags": [
         {
-          "t": "CVE-2026-88771",
+          "t": "CVE-2026-88772",
           "cls": "cve"
         },
         {
-          "t": "CVE-2026-88772",
+          "t": "CVE-2026-88771",
           "cls": "cve"
         }
       ],
       "iocs": {
         "cves": [
-          "CVE-2026-88771",
-          "CVE-2026-88772"
+          "CVE-2026-88772",
+          "CVE-2026-88771"
         ],
         "ips": [],
         "hashes": []
@@ -2656,6 +2649,44 @@
       "ts": 0
     },
     {
+      "id": "SANSI-387efff60706",
+      "title": "Deploying a Local Ghidra Server for Your Malware Analysis Lab, (Thu, Oct 29th)",
+      "link": "https://isc.sans.edu/diary/rss/33470",
+      "desc": "Building your malware analysis lab is a key point before playing with malware. Today, thanks to virtualization, it&&#x23&#x3b;x26&#x3b;&#x23&#x3b;39&#x3b;s convenient to play with snapshots in your lab. Start a new investigation from a clean snapshot and take some more when you reached a critical step. But, if you need to revert to a previous snapshot, all changes applied to the VM are... lost&#x2",
+      "pubDate": "Thu, 29 Oct 2026 06:17:41 GMT",
+      "source": "SANS ISC",
+      "cat": "vulns",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "SANSI-2fcd17249bbc",
+      "title": "ISC Stormcast For Thursday, October 29th, 2026 https://isc.sans.edu/podcastdetail/10156, (Thu, Oct 29th)",
+      "link": "https://isc.sans.edu/diary/rss/33468",
+      "desc": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
+      "pubDate": "Thu, 29 Oct 2026 03:10:12 GMT",
+      "source": "SANS ISC",
+      "cat": "vulns",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
       "id": "SANSI-2e72acadb87f",
       "title": "Yet Another ClickFix Campaign, (Wed, Oct 28th)",
       "link": "https://isc.sans.edu/diary/rss/33466",
@@ -2797,44 +2828,6 @@
       "source": "SANS ISC",
       "cat": "vulns",
       "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "SANSI-ed22afd153a9",
-      "title": "PHP Vulnerability Wrap-Up, (Fri, Oct 23rd)",
-      "link": "https://isc.sans.edu/diary/rss/33450",
-      "desc": "This morning, we returned to Infocon Green. As usual, we are raising the Infocon to alert you to emerging situations requiring immediate attention. PHP fit that description. By now, you either know about it, or you probably never will, so it is time to go back to \"business as usual\".&#xd;",
-      "pubDate": "Fri, 23 Oct 2026 13:43:20 GMT",
-      "source": "SANS ISC",
-      "cat": "vulns",
-      "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "SANSI-e0ddfaa074ed",
-      "title": "ISC Stormcast For Friday, October 23rd, 2026 https://isc.sans.edu/podcastdetail/10148, (Fri, Oct 23rd)",
-      "link": "https://isc.sans.edu/diary/rss/33448",
-      "desc": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
-      "pubDate": "Fri, 23 Oct 2026 10:25:11 GMT",
-      "source": "SANS ISC",
-      "cat": "vulns",
-      "sev": "medium",
       "tags": [],
       "iocs": {
         "cves": [],
@@ -3036,6 +3029,44 @@
       "ts": 0
     },
     {
+      "id": "ESETB-ebaa40e6713c",
+      "title": "Lessons from Cybersecurity Black Week",
+      "link": "https://www.welivesecurity.com/en/business-security/lessons-cybersecurity-black-week/",
+      "desc": "A critical PHP flaw, leaked Linux kernel reports, a poisoned LiteLLM release, and more, all in seven days. Which threats called for immediate action, and which generated more noise than real danger?",
+      "pubDate": "Wed, 28 Oct 2026 10:33:51 +0000",
+      "source": "ESET Blog",
+      "cat": "malware",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "ESETB-996df0d3f269",
+      "title": "ESET APT Activity Report Q2 2026–Q3 2026",
+      "link": "https://www.welivesecurity.com/en/eset-research/eset-apt-activity-report-q2-2026-q3-2026/",
+      "desc": "An overview of the activities of selected APT groups investigated and analyzed by ESET Research in Q2 2026 and Q3 2026",
+      "pubDate": "Wed, 28 Oct 2026 09:45:00 +0000",
+      "source": "ESET Blog",
+      "cat": "malware",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
       "id": "ESETB-10b5a60ec183",
       "title": "PHP2Shell: What to know about two critical PHP flaws",
       "link": "https://www.welivesecurity.com/en/videos/php2shell-what-know-two-critical-php-flaws/",
@@ -3046,18 +3077,18 @@
       "sev": "high",
       "tags": [
         {
-          "t": "CVE-2026-109618",
+          "t": "CVE-2026-109619",
           "cls": "cve"
         },
         {
-          "t": "CVE-2026-109619",
+          "t": "CVE-2026-109618",
           "cls": "cve"
         }
       ],
       "iocs": {
         "cves": [
-          "CVE-2026-109618",
-          "CVE-2026-109619"
+          "CVE-2026-109619",
+          "CVE-2026-109618"
         ],
         "ips": [],
         "hashes": []
@@ -3281,44 +3312,6 @@
       "link": "https://www.welivesecurity.com/en/mobile-security/is-new-vibe-coded-app-safe-5-questions-ask-first/",
       "desc": "As AI lets anyone build software, here’s how to vet that shiny new app before it exposes your data",
       "pubDate": "Fri, 25 Sep 2026 09:00:00 +0000",
-      "source": "ESET Blog",
-      "cat": "malware",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "ESETB-c4a8f732e413",
-      "title": "Been told to pay at a Bitcoin ATM? Read this first",
-      "link": "https://www.welivesecurity.com/en/scams/been-told-pay-bitcoin-atm-read-first/",
-      "desc": "Crypto ATM scams often follow a predictable script – here’s how to recognize it and what to do if you’ve already been caught out",
-      "pubDate": "Thu, 24 Sep 2026 09:00:00 +0000",
-      "source": "ESET Blog",
-      "cat": "malware",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "ESETB-e2fd5d831aa5",
-      "title": "Looking for free Robux? Here’s what’s real, and what’s a scam",
-      "link": "https://www.welivesecurity.com/en/kids-online/looking-for-free-robux-heres-whats-real-whats-scam/",
-      "desc": "Fake giveaways, free Robux generators and lookalike login pages all target the same thing – your Roblox account",
-      "pubDate": "Tue, 22 Sep 2026 09:00:00 +0000",
       "source": "ESET Blog",
       "cat": "malware",
       "sev": "medium",
@@ -3675,11 +3668,61 @@
       "ts": 0
     },
     {
-      "id": "r/nets-df8f5cf43b55",
-      "title": "XML Signature Wrapping authentication bypass in Moldova's MPass SAML NuGet library, fixed in 10.0.4 (CVE requested, CAN-2026-2041077)",
-      "link": "https://www.reddit.com/r/netsec/comments/1xi65vs/xml_signature_wrapping_authentication_bypass_in/",
-      "desc": "Egov.Integrations.MPass.Saml, the ASP.NET Core handler that relying parties use to verify MPass SAML 2.0 responses, verified signatures like this in every version before 10.0.4:  signedXml.LoadXml(signatureElement); return signedXml.CheckSignature(publicCertificate, verifySignatureOnly: true);  CheckSignature confirms that the references in SignedInfo are validly signed. Nothing tied a signed refe",
-      "pubDate": "2026-10-29T01:00:22+00:00",
+      "id": "r/nets-acf63589190e",
+      "title": "Axis Camera Station Deep-Dive: Unauth RCE to Decrypting Every Camera Credential (CVE-2025-30026/30023 + CVE-2026-63286)",
+      "link": "https://www.reddit.com/r/netsec/comments/1xiekai/axis_camera_station_deepdive_unauth_rce_to/",
+      "desc": "&#32; submitted by &#32;  /u/Rare_Bicycle_5705   [link] &#32; [comments]",
+      "pubDate": "2026-10-29T08:45:46+00:00",
+      "source": "r/netsec",
+      "cat": "community",
+      "sev": "critical",
+      "tags": [
+        {
+          "t": "CVE-2026-63286",
+          "cls": "cve"
+        },
+        {
+          "t": "CVE-2025-30026",
+          "cls": "cve"
+        }
+      ],
+      "iocs": {
+        "cves": [
+          "CVE-2026-63286",
+          "CVE-2025-30026"
+        ],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "r/nets-816205572d33",
+      "title": "The Last Proof of Human Craft: Forging a Microsoft Edge Full Chain with Logic Bugs Only!",
+      "link": "https://www.reddit.com/r/netsec/comments/1xif160/the_last_proof_of_human_craft_forging_a_microsoft/",
+      "desc": "&#32; submitted by &#32;  /u/albinowax   [link] &#32; [comments]",
+      "pubDate": "2026-10-29T09:15:54+00:00",
+      "source": "r/netsec",
+      "cat": "community",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "r/nets-7de2223f345c",
+      "title": "Linux Kernel TIPC DoS: named_distribute() NULL Dereference, Race Analysis, and Remote Triggering",
+      "link": "https://www.reddit.com/r/netsec/comments/1xienwv/linux_kernel_tipc_dos_named_distribute_null/",
+      "desc": "I've spent the last four days investigating and fine-tuning a remote DoS against the Linux kernel's TIPC implementation. A remote peer-state transition can trigger a NULL pointer dereference in TIPC's name-distribution path, causing a kernel panic and taking down the host. I've really enjoyed digging into this, and I'm pretty happy with how the research turned out.  &#32; submitted by &#32;  /u/lo",
+      "pubDate": "2026-10-29T08:52:27+00:00",
       "source": "r/netsec",
       "cat": "community",
       "sev": "medium",
@@ -3713,6 +3756,44 @@
       "ts": 0
     },
     {
+      "id": "r/nets-df8f5cf43b55",
+      "title": "XML Signature Wrapping authentication bypass in Moldova's MPass SAML NuGet library, fixed in 10.0.4 (CVE requested, CAN-2026-2041077)",
+      "link": "https://www.reddit.com/r/netsec/comments/1xi65vs/xml_signature_wrapping_authentication_bypass_in/",
+      "desc": "Egov.Integrations.MPass.Saml, the ASP.NET Core handler that relying parties use to verify MPass SAML 2.0 responses, verified signatures like this in every version before 10.0.4:  signedXml.LoadXml(signatureElement); return signedXml.CheckSignature(publicCertificate, verifySignatureOnly: true);  CheckSignature confirms that the references in SignedInfo are validly signed. Nothing tied a signed refe",
+      "pubDate": "2026-10-29T01:00:22+00:00",
+      "source": "r/netsec",
+      "cat": "community",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "r/nets-785725863a2e",
+      "title": "A malicious game server can crash the Godot clients that join it",
+      "link": "https://www.reddit.com/r/netsec/comments/1xhju55/a_malicious_game_server_can_crash_the_godot/",
+      "desc": "In Godot 4.0 and later, in games using the engine's standard spawning setup, a peer with authority over the relevant spawner - by default the server the client joins - can crash that client with one crafted packet.  &#32; submitted by &#32;  /u/bitbutter   [link] &#32; [comments]",
+      "pubDate": "2026-10-28T09:57:22+00:00",
+      "source": "r/netsec",
+      "cat": "community",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
       "id": "r/nets-fbf08fae025a",
       "title": "ElectroNG is now open source. ElectronJS Security Scanner.",
       "link": "https://www.reddit.com/r/netsec/comments/1xhhv2k/electrong_is_now_open_source_electronjs_security/",
@@ -3732,11 +3813,11 @@
       "ts": 0
     },
     {
-      "id": "r/nets-785725863a2e",
-      "title": "A malicious game server can crash the Godot clients that join it",
-      "link": "https://www.reddit.com/r/netsec/comments/1xhju55/a_malicious_game_server_can_crash_the_godot/",
-      "desc": "In Godot 4.0 and later, in games using the engine's standard spawning setup, a peer with authority over the relevant spawner - by default the server the client joins - can crash that client with one crafted packet.  &#32; submitted by &#32;  /u/bitbutter   [link] &#32; [comments]",
-      "pubDate": "2026-10-28T09:57:22+00:00",
+      "id": "r/nets-8af4eb233823",
+      "title": "Cache Me If You Can: XSS in Cloudflare's /cdn-cgi/image/",
+      "link": "https://www.reddit.com/r/netsec/comments/1xhqdx6/cache_me_if_you_can_xss_in_cloudflares_cdncgiimage/",
+      "desc": "&#32; submitted by &#32;  /u/albinowax   [link] &#32; [comments]",
+      "pubDate": "2026-10-28T14:58:48+00:00",
       "source": "r/netsec",
       "cat": "community",
       "sev": "medium",
@@ -3770,25 +3851,6 @@
       "ts": 0
     },
     {
-      "id": "r/nets-8af4eb233823",
-      "title": "Cache Me If You Can: XSS in Cloudflare's /cdn-cgi/image/",
-      "link": "https://www.reddit.com/r/netsec/comments/1xhqdx6/cache_me_if_you_can_xss_in_cloudflares_cdncgiimage/",
-      "desc": "&#32; submitted by &#32;  /u/albinowax   [link] &#32; [comments]",
-      "pubDate": "2026-10-28T14:58:48+00:00",
-      "source": "r/netsec",
-      "cat": "community",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
       "id": "r/nets-0cad5dab4b45",
       "title": "Where a million-request-a-second HTTP/2 flood goes: XDP drop counters from two real attacks",
       "link": "https://www.reddit.com/r/netsec/comments/1xhnqhh/where_a_millionrequestasecond_http2_flood_goes/",
@@ -3797,25 +3859,6 @@
       "source": "r/netsec",
       "cat": "community",
       "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "r/nets-d68678ed364c",
-      "title": "I got RCE on the sandboxes of Instinct and Muse!",
-      "link": "https://www.reddit.com/r/netsec/comments/1xhpdn3/i_got_rce_on_the_sandboxes_of_instinct_and_muse/",
-      "desc": "&#32; submitted by &#32;  /u/azl33t   [link] &#32; [comments]",
-      "pubDate": "2026-10-28T14:20:14+00:00",
-      "source": "r/netsec",
-      "cat": "community",
-      "sev": "critical",
       "tags": [],
       "iocs": {
         "cves": [],
@@ -3846,59 +3889,14 @@
       "ts": 0
     },
     {
-      "id": "r/nets-003b1d2c9a4a",
-      "title": "EDK2 PXE Flaw (CVE-2026-97631): Find What You Run",
-      "link": "https://www.reddit.com/r/netsec/comments/1xhrkjy/edk2_pxe_flaw_cve202697631_find_what_you_run/",
-      "desc": "&#32; submitted by &#32;  /u/Traditional-Heat-749   [link] &#32; [comments]",
-      "pubDate": "2026-10-28T15:41:41+00:00",
+      "id": "r/nets-d68678ed364c",
+      "title": "I got RCE on the sandboxes of Instinct and Muse!",
+      "link": "https://www.reddit.com/r/netsec/comments/1xhpdn3/i_got_rce_on_the_sandboxes_of_instinct_and_muse/",
+      "desc": "&#32; submitted by &#32;  /u/azl33t   [link] &#32; [comments]",
+      "pubDate": "2026-10-28T14:20:14+00:00",
       "source": "r/netsec",
       "cat": "community",
-      "sev": "high",
-      "tags": [
-        {
-          "t": "CVE-2026-97631",
-          "cls": "cve"
-        }
-      ],
-      "iocs": {
-        "cves": [
-          "CVE-2026-97631"
-        ],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "r/nets-cb9f5b78fcc3",
-      "title": "New Kerberos Abuse Path Discovery - Constrained Delegation without Protocol Transition against SPN-less accounts",
-      "link": "https://www.reddit.com/r/netsec/comments/1xh7v6y/new_kerberos_abuse_path_discovery_constrained/",
-      "desc": "I've recently released a blog covering how I discovered a new Kerberos delegation abuse path! By combining Elad Shamir's Reflective RBCD with James Forshaw's U2U sacrificial user technique, Constrained Delegation without Protocol Transition can now be abused against SPN-less accounts. I also had to add S4U2Proxy + U2U support to Impacket to get this working. :) Blog: https://hunio.org/security/abu",
-      "pubDate": "2026-10-27T23:09:33+00:00",
-      "source": "r/netsec",
-      "cat": "community",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "r/nets-63f42fb497ba",
-      "title": "Passing a TPU Through to a Paravirtualized Guest",
-      "link": "https://www.reddit.com/r/netsec/comments/1xhjawg/passing_a_tpu_through_to_a_paravirtualized_guest/",
-      "desc": "&#32; submitted by &#32;  /u/One_Paint8721   [link] &#32; [comments]",
-      "pubDate": "2026-10-28T09:23:22+00:00",
-      "source": "r/netsec",
-      "cat": "community",
-      "sev": "medium",
+      "sev": "critical",
       "tags": [],
       "iocs": {
         "cves": [],
