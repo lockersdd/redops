@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T23:06:18.329834+00:00",
+  "generated_at": "2026-10-29T02:40:50.298302+00:00",
   "sources_ok": 15,
   "sources_total": 20,
   "source_status": {
@@ -2656,11 +2656,11 @@
       "ts": 0
     },
     {
-      "id": "SANSI-c74ec1fff5bf",
+      "id": "SANSI-2e72acadb87f",
       "title": "Yet Another ClickFix Campaign, (Wed, Oct 28th)",
       "link": "https://isc.sans.edu/diary/rss/33466",
       "desc": "Introduction&#xd;",
-      "pubDate": "Wed, 28 Oct 2026 16:07:03 GMT",
+      "pubDate": "Thu, 29 Oct 2026 00:42:15 GMT",
       "source": "SANS ISC",
       "cat": "vulns",
       "sev": "medium",
@@ -3675,6 +3675,25 @@
       "ts": 0
     },
     {
+      "id": "r/nets-df8f5cf43b55",
+      "title": "XML Signature Wrapping authentication bypass in Moldova's MPass SAML NuGet library, fixed in 10.0.4 (CVE requested, CAN-2026-2041077)",
+      "link": "https://www.reddit.com/r/netsec/comments/1xi65vs/xml_signature_wrapping_authentication_bypass_in/",
+      "desc": "Egov.Integrations.MPass.Saml, the ASP.NET Core handler that relying parties use to verify MPass SAML 2.0 responses, verified signatures like this in every version before 10.0.4:  signedXml.LoadXml(signatureElement); return signedXml.CheckSignature(publicCertificate, verifySignatureOnly: true);  CheckSignature confirms that the references in SignedInfo are validly signed. Nothing tied a signed refe",
+      "pubDate": "2026-10-29T01:00:22+00:00",
+      "source": "r/netsec",
+      "cat": "community",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
       "id": "r/nets-ea8636165c67",
       "title": "Scanning 7.25 Million Public Repositories on China's Largest Git Platform for Secrets",
       "link": "https://www.reddit.com/r/netsec/comments/1xhrfhu/scanning_725_million_public_repositories_on/",
@@ -3827,25 +3846,6 @@
       "ts": 0
     },
     {
-      "id": "r/nets-63f42fb497ba",
-      "title": "Passing a TPU Through to a Paravirtualized Guest",
-      "link": "https://www.reddit.com/r/netsec/comments/1xhjawg/passing_a_tpu_through_to_a_paravirtualized_guest/",
-      "desc": "&#32; submitted by &#32;  /u/One_Paint8721   [link] &#32; [comments]",
-      "pubDate": "2026-10-28T09:23:22+00:00",
-      "source": "r/netsec",
-      "cat": "community",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
       "id": "r/nets-003b1d2c9a4a",
       "title": "EDK2 PXE Flaw (CVE-2026-97631): Find What You Run",
       "link": "https://www.reddit.com/r/netsec/comments/1xhrkjy/edk2_pxe_flaw_cve202697631_find_what_you_run/",
@@ -3891,11 +3891,11 @@
       "ts": 0
     },
     {
-      "id": "r/nets-e9717130d3b5",
-      "title": "I've proven that you don't need quotes or parentheses in JavaScript",
-      "link": "https://www.reddit.com/r/netsec/comments/1xgvi3m/ive_proven_that_you_dont_need_quotes_or/",
-      "desc": "You can overwrite the prepareStackTrace property of the Error object by String prototype's functions and invoke them without parentheses. Then by overwriting the Error and Array prototype it is possible to control the arguments. Combining this behavior, together with some JSFuck-inspired tricks, it is possible to generate arbitrary JavaScript strings and run arbitrary JavaScript with only letters ",
-      "pubDate": "2026-10-27T15:24:45+00:00",
+      "id": "r/nets-63f42fb497ba",
+      "title": "Passing a TPU Through to a Paravirtualized Guest",
+      "link": "https://www.reddit.com/r/netsec/comments/1xhjawg/passing_a_tpu_through_to_a_paravirtualized_guest/",
+      "desc": "&#32; submitted by &#32;  /u/One_Paint8721   [link] &#32; [comments]",
+      "pubDate": "2026-10-28T09:23:22+00:00",
       "source": "r/netsec",
       "cat": "community",
       "sev": "medium",
