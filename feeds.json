@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T16:43:16.385256+00:00",
+  "generated_at": "2026-10-29T21:37:46.246470+00:00",
   "sources_ok": 15,
   "sources_total": 20,
   "source_status": {
@@ -92,6 +92,51 @@
   "total": 195,
   "articles": [
     {
+      "id": "TheHa-e44670480576",
+      "title": "ThreatsDay: Critical Firewall Flaws, Banking Trojans Rented, Weaponized PDF, Token Theft + 26 More Stories",
+      "link": "https://thehackernews.com/2026/10/threatsday-critical-firewall-flaws.html",
+      "desc": "Some attacks take real skill. Others just need someone to leave a door open. This week has both. Exposed passwords, old bugs still getting exploited, and trusted software doing things it shouldn't.\n\nThere's a strange mix of clever tricks and careless mistakes. Hackers are borrowing trust from familiar apps, websites, and AI tools. Some are using AI to speed things up. Others are leaving their",
+      "pubDate": "Fri, 30 Oct 2026 00:41:58 +0530",
+      "source": "The Hacker News",
+      "cat": "malware",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "TheHa-ef8989bf1a21",
+      "title": "Linux Kernel TCP Flaw With 9.8 CVSS Score Affects Ubuntu, Red Hat and Other Distributions",
+      "link": "https://thehackernews.com/2026/10/linux-kernel-tcp-flaw-with-98-cvss.html",
+      "desc": "A flaw in the Linux kernel's TCP code, tracked as&nbsp;CVE-2026-98432, affects Ubuntu, Red Hat Enterprise Linux (RHEL), and other Linux distributions. The kernel's own CVE team rates it 9.8 out of 10 on the CVSS scale.\n\nAnthropic said&nbsp;on October 27 that its AI model wrote an exploit that uses the flaw to let a remote attacker with no credentials run commands as root on Linux servers with a",
+      "pubDate": "Thu, 29 Oct 2026 21:27:05 +0530",
+      "source": "The Hacker News",
+      "cat": "threats",
+      "sev": "high",
+      "tags": [
+        {
+          "t": "CVE-2026-98432",
+          "cls": "cve"
+        }
+      ],
+      "iocs": {
+        "cves": [
+          "CVE-2026-98432"
+        ],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
       "id": "TheHa-51fd8db0121c",
       "title": "Fake ChatGPT and Claude Apps Abuse Signed Executables to Deploy Crypto Miners",
       "link": "https://thehackernews.com/2026/10/fake-chatgpt-and-claude-apps-abuse.html",
@@ -152,7 +197,7 @@
       "id": "TheHa-eed85d3cbb5e",
       "title": "Telegram Android Flaw Lets Attackers Run Code When Users Answer Voice Calls",
       "link": "https://thehackernews.com/2026/10/telegram-android-flaw-lets-attackers.html",
-      "desc": "A flaw in Telegram for Android allowed an attacker to run code on a victim's phone via a voice call once the victim answered, according to security startup NebuSec.\n\nThe attacker needed only an ordinary Telegram account. Telegram fixed the flaw in version 12.10.4 of the app, released in late September, and NebuSec&nbsp;disclosed it on October 29.\n\nThe flaw can be triggered in every version from",
+      "desc": "A flaw in Telegram for Android could be chained with two other bugs to take full control of a victim's phone through a voice call, once the victim answered, according to security startup NebuSec.\n\nThe attacker needed only an ordinary Telegram account. Telegram fixed the flaw in version 12.10.4 of the app, released in late September, and NebuSec&nbsp;disclosed it on October 29.\n\nCombined with an",
       "pubDate": "Thu, 29 Oct 2026 17:09:18 +0530",
       "source": "The Hacker News",
       "cat": "threats",
@@ -360,44 +405,6 @@
       "ts": 0
     },
     {
-      "id": "TheHa-00b6712826d5",
-      "title": "Google to Allow One-Tap Android App Installs From Approved Third-Party Stores Outside U.S.",
-      "link": "https://thehackernews.com/2026/10/google-to-allow-one-tap-android-app.html",
-      "desc": "Third-party Android app stores can now apply to Google for permission to install apps with one tap, without Android's usual confirmation screens, and to update them in the background.\n\nTo qualify, a store must pass identity checks and send Google&nbsp;its full catalog, along with every new app and update, for ongoing malware scanning. Approved stores get the features from December 1, but only on",
-      "pubDate": "Wed, 28 Oct 2026 22:38:09 +0530",
-      "source": "The Hacker News",
-      "cat": "malware",
-      "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "TheHa-23621e4d65ad",
-      "title": "Researcher Reveals How Logic Bugs Alone Cracked Microsoft Edge in $175,000 Pwn2Own Win",
-      "link": "https://thehackernews.com/2026/10/researcher-reveals-how-logic-bugs-alone.html",
-      "desc": "A chain of logic flaws, with no memory corruption, can turn a malicious web page into code running on a Windows computer outside Microsoft Edge's sandbox, a security researcher has shown.\n\nOrange Tsai of DEVCORE published the full method on October 28, five months after the chain won $175,000 at the&nbsp;Pwn2Own Berlin contest&nbsp;in May. Microsoft fixed the Edge bugs the day after the contest,",
-      "pubDate": "Wed, 28 Oct 2026 21:53:34 +0530",
-      "source": "The Hacker News",
-      "cat": "threats",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
       "id": "Krebs-1573c1d6ecaa",
       "title": "Widespread PHP Flaw May Cause Many Site Outages Today",
       "link": "https://krebsonsecurity.com/2026/10/widespread-php-flaw-may-cause-many-site-outages-today/",
@@ -588,6 +595,25 @@
       "ts": 0
     },
     {
+      "id": "Securi-a1cd53112151",
+      "title": "When Risk Becomes Personal: What Security Leaders Can Learn From a Cancer Diagnosis",
+      "link": "https://www.securityweek.com/when-risk-becomes-personal-what-security-leaders-can-learn-from-a-cancer-diagnosis/",
+      "desc": "Risk managers are trained to spot weak signals, plan for disruption and make hard decisions under uncertainty. But the discipline looks different when the risk is not a system or an enterprise, but you.\nThe post When Risk Becomes Personal: What Security Leaders Can Learn From a Cancer Diagnosis appeared first on SecurityWeek.",
+      "pubDate": "Thu, 29 Oct 2026 16:30:00 +0000",
+      "source": "SecurityWeek",
+      "cat": "threats",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
       "id": "Securi-a6f87e7cb388",
       "title": "Google Touts Powerful Cybersecurity Capabilities in Gemini 4 Carbon Model",
       "link": "https://www.securityweek.com/google-says-gemini-4-carbon-leads-in-finding-exploiting-and-fixing-vulnerabilities/",
@@ -759,13 +785,13 @@
       "ts": 0
     },
     {
-      "id": "Securi-20103a3ded4b",
-      "title": "HHS Filing Puts iRhythm Data Breach Toll at 8.2 Million",
-      "link": "https://www.securityweek.com/hhs-filing-puts-irhythm-data-breach-toll-at-8-2-million/",
-      "desc": "Hackers stole personal information and iRhythm account and device data from third-party-hosted business applications.\nThe post HHS Filing Puts iRhythm Data Breach Toll at 8.2 Million appeared first on SecurityWeek.",
-      "pubDate": "Thu, 29 Oct 2026 08:27:16 +0000",
-      "source": "SecurityWeek",
-      "cat": "breaches",
+      "id": "GBHack-218476b176f0",
+      "title": "Coruna iOS Exploit Kit Hidden Behind Malicious Ads Targets Crypto Seed Phrases, ADEX Reports",
+      "link": "https://gbhackers.com/coruna-ios-exploit-kit-hidden-behind-malicious-ads-targets-crypto-seed-phrases-adex-reports/",
+      "desc": "Malicious iOS scripts have become a leading cause of ad platform suspensions. They accounted for about one in five suspensions in Q3 2026, according to the State of Ad Fraud 2026: ADEX Trust &#38; Safety Report from anti-fraud firm ADEX. The report examines one scheme in detail. It was built on the Coruna exploit kit [&#8230;]\nThe post Coruna iOS Exploit Kit Hidden Behind Malicious Ads Targets Cry",
+      "pubDate": "Thu, 29 Oct 2026 15:09:14 +0000",
+      "source": "GBHackers",
+      "cat": "threats",
       "sev": "high",
       "tags": [],
       "iocs": {
@@ -938,25 +964,6 @@
       "source": "GBHackers",
       "cat": "breaches",
       "sev": "critical",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "GBHack-5e8d3054ff20",
-      "title": "Alleged Wagyu Leak Contains 4,580 Completed Crypto Swaps Linking Monero Wallets to IP Addresses",
-      "link": "https://gbhackers.com/alleged-wagyu-data-breach/",
-      "desc": "An alleged leak from cryptocurrency swap service Wagyu.xyz contains 4,580 completed cross-chain swaps linking incoming transaction hashes, Monero receiving addresses, and client IP addresses. The dataset reportedly includes 38,628 order records from July 18–October 26, 2026, plus an activity index covering 10,139 distinct IP addresses. Hudson Rock has not independently authenticated the files’ all",
-      "pubDate": "Thu, 29 Oct 2026 08:47:44 +0000",
-      "source": "GBHackers",
-      "cat": "breaches",
-      "sev": "medium",
       "tags": [],
       "iocs": {
         "cves": [],
@@ -2075,18 +2082,18 @@
       "sev": "high",
       "tags": [
         {
-          "t": "CVE-2026-109618",
+          "t": "CVE-2026-109619",
           "cls": "cve"
         },
         {
-          "t": "CVE-2026-109619",
+          "t": "CVE-2026-109618",
           "cls": "cve"
         }
       ],
       "iocs": {
         "cves": [
-          "CVE-2026-109618",
-          "CVE-2026-109619"
+          "CVE-2026-109619",
+          "CVE-2026-109618"
         ],
         "ips": [],
         "hashes": []
@@ -3063,18 +3070,18 @@
       "sev": "high",
       "tags": [
         {
-          "t": "CVE-2026-109618",
+          "t": "CVE-2026-109619",
           "cls": "cve"
         },
         {
-          "t": "CVE-2026-109619",
+          "t": "CVE-2026-109618",
           "cls": "cve"
         }
       ],
       "iocs": {
         "cves": [
-          "CVE-2026-109618",
-          "CVE-2026-109619"
+          "CVE-2026-109619",
+          "CVE-2026-109618"
         ],
         "ips": [],
         "hashes": []
@@ -3692,6 +3699,25 @@
       "ts": 0
     },
     {
+      "id": "r/nets-40a052e1a5fb",
+      "title": "TightVNC Viewer Pre-auth RCE",
+      "link": "https://www.reddit.com/r/netsec/comments/1xil17j/tightvnc_viewer_preauth_rce/",
+      "desc": "What if a VNC server could make your viewer believe it had a ~4 GB framebuffer… while actually allocating only 128 KB? That’s the core of this TightVNC vulnerability. A malicious server can announce a crafted 32768 × 32769 screen at 32bpp, causing the framebuffer size calculation to overflow. The allocation wraps down to 128 KB, but the viewer continues using the original, much larger dimensions w",
+      "pubDate": "2026-10-29T14:09:08+00:00",
+      "source": "r/netsec",
+      "cat": "community",
+      "sev": "critical",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
       "id": "r/nets-cc7076287d1a",
       "title": "EMBRACE: How We Hacked the Browsers Embedded in Top Five Desktop AI Assistants · Forever Secur",
       "link": "https://www.reddit.com/r/netsec/comments/1xilm92/embrace_how_we_hacked_the_browsers_embedded_in/",
@@ -3767,25 +3793,6 @@
         "cves": [
           "CVE-2026-115995"
         ],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "r/nets-40a052e1a5fb",
-      "title": "TightVNC Viewer Pre-auth RCE",
-      "link": "https://www.reddit.com/r/netsec/comments/1xil17j/tightvnc_viewer_preauth_rce/",
-      "desc": "What if a VNC server could make your viewer believe it had a ~4 GB framebuffer… while actually allocating only 128 KB? That’s the core of this TightVNC vulnerability. A malicious server can announce a crafted 32768 × 32769 screen at 32bpp, causing the framebuffer size calculation to overflow. The allocation wraps down to 128 KB, but the viewer continues using the original, much larger dimensions w",
-      "pubDate": "2026-10-29T14:09:08+00:00",
-      "source": "r/netsec",
-      "cat": "community",
-      "sev": "critical",
-      "tags": [],
-      "iocs": {
-        "cves": [],
         "ips": [],
         "hashes": []
       },
