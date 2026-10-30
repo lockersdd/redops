@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T21:37:46.246470+00:00",
+  "generated_at": "2026-10-30T01:40:25.544461+00:00",
   "sources_ok": 15,
   "sources_total": 20,
   "source_status": {
@@ -2234,18 +2234,18 @@
       "sev": "high",
       "tags": [
         {
-          "t": "CVE-2026-88772",
+          "t": "CVE-2026-88771",
           "cls": "cve"
         },
         {
-          "t": "CVE-2026-88771",
+          "t": "CVE-2026-88772",
           "cls": "cve"
         }
       ],
       "iocs": {
         "cves": [
-          "CVE-2026-88772",
-          "CVE-2026-88771"
+          "CVE-2026-88771",
+          "CVE-2026-88772"
         ],
         "ips": [],
         "hashes": []
@@ -3668,37 +3668,6 @@
       "ts": 0
     },
     {
-      "id": "r/nets-acf63589190e",
-      "title": "Axis Camera Station Deep-Dive: Unauth RCE to Decrypting Every Camera Credential (CVE-2025-30026/30023 + CVE-2026-63286)",
-      "link": "https://www.reddit.com/r/netsec/comments/1xiekai/axis_camera_station_deepdive_unauth_rce_to/",
-      "desc": "&#32; submitted by &#32;  /u/Rare_Bicycle_5705   [link] &#32; [comments]",
-      "pubDate": "2026-10-29T08:45:46+00:00",
-      "source": "r/netsec",
-      "cat": "community",
-      "sev": "critical",
-      "tags": [
-        {
-          "t": "CVE-2026-63286",
-          "cls": "cve"
-        },
-        {
-          "t": "CVE-2025-30026",
-          "cls": "cve"
-        }
-      ],
-      "iocs": {
-        "cves": [
-          "CVE-2026-63286",
-          "CVE-2025-30026"
-        ],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
       "id": "r/nets-40a052e1a5fb",
       "title": "TightVNC Viewer Pre-auth RCE",
       "link": "https://www.reddit.com/r/netsec/comments/1xil17j/tightvnc_viewer_preauth_rce/",
@@ -3718,11 +3687,61 @@
       "ts": 0
     },
     {
+      "id": "r/nets-acf63589190e",
+      "title": "Axis Camera Station Deep-Dive: Unauth RCE to Decrypting Every Camera Credential (CVE-2025-30026/30023 + CVE-2026-63286)",
+      "link": "https://www.reddit.com/r/netsec/comments/1xiekai/axis_camera_station_deepdive_unauth_rce_to/",
+      "desc": "&#32; submitted by &#32;  /u/Rare_Bicycle_5705   [link] &#32; [comments]",
+      "pubDate": "2026-10-29T08:45:46+00:00",
+      "source": "r/netsec",
+      "cat": "community",
+      "sev": "critical",
+      "tags": [
+        {
+          "t": "CVE-2025-30026",
+          "cls": "cve"
+        },
+        {
+          "t": "CVE-2026-63286",
+          "cls": "cve"
+        }
+      ],
+      "iocs": {
+        "cves": [
+          "CVE-2025-30026",
+          "CVE-2026-63286"
+        ],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
       "id": "r/nets-cc7076287d1a",
       "title": "EMBRACE: How We Hacked the Browsers Embedded in Top Five Desktop AI Assistants · Forever Secur",
       "link": "https://www.reddit.com/r/netsec/comments/1xilm92/embrace_how_we_hacked_the_browsers_embedded_in/",
       "desc": "&#32; submitted by &#32;  /u/Content-Winter5328   [link] &#32; [comments]",
       "pubDate": "2026-10-29T14:31:39+00:00",
+      "source": "r/netsec",
+      "cat": "community",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "r/nets-78de5e88460f",
+      "title": "Every false positive we have shipped had the same cause",
+      "link": "https://www.reddit.com/r/netsec/comments/1xiyhgr/every_false_positive_we_have_shipped_had_the_same/",
+      "desc": "&#32; submitted by &#32;  /u/magixer   [link] &#32; [comments]",
+      "pubDate": "2026-10-29T22:36:12+00:00",
       "source": "r/netsec",
       "cat": "community",
       "sev": "medium",
@@ -3858,11 +3877,11 @@
       "ts": 0
     },
     {
-      "id": "r/nets-fe0f9dfb3b77",
-      "title": "PHP2Shell Activity Across Previdian Network",
-      "link": "https://www.reddit.com/r/netsec/comments/1xigwsr/php2shell_activity_across_previdian_network/",
-      "desc": "&#32; submitted by &#32;  /u/ethicalhack3r   [link] &#32; [comments]",
-      "pubDate": "2026-10-29T11:03:26+00:00",
+      "id": "r/nets-8af4eb233823",
+      "title": "Cache Me If You Can: XSS in Cloudflare's /cdn-cgi/image/",
+      "link": "https://www.reddit.com/r/netsec/comments/1xhqdx6/cache_me_if_you_can_xss_in_cloudflares_cdncgiimage/",
+      "desc": "&#32; submitted by &#32;  /u/albinowax   [link] &#32; [comments]",
+      "pubDate": "2026-10-28T14:58:48+00:00",
       "source": "r/netsec",
       "cat": "community",
       "sev": "medium",
@@ -3882,25 +3901,6 @@
       "link": "https://www.reddit.com/r/netsec/comments/1xhju55/a_malicious_game_server_can_crash_the_godot/",
       "desc": "In Godot 4.0 and later, in games using the engine's standard spawning setup, a peer with authority over the relevant spawner - by default the server the client joins - can crash that client with one crafted packet.  &#32; submitted by &#32;  /u/bitbutter   [link] &#32; [comments]",
       "pubDate": "2026-10-28T09:57:22+00:00",
-      "source": "r/netsec",
-      "cat": "community",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "r/nets-8af4eb233823",
-      "title": "Cache Me If You Can: XSS in Cloudflare's /cdn-cgi/image/",
-      "link": "https://www.reddit.com/r/netsec/comments/1xhqdx6/cache_me_if_you_can_xss_in_cloudflares_cdncgiimage/",
-      "desc": "&#32; submitted by &#32;  /u/albinowax   [link] &#32; [comments]",
-      "pubDate": "2026-10-28T14:58:48+00:00",
       "source": "r/netsec",
       "cat": "community",
       "sev": "medium",
