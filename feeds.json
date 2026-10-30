@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T08:15:42.128190+00:00",
+  "generated_at": "2026-10-30T15:11:32.576377+00:00",
   "sources_ok": 15,
   "sources_total": 20,
   "source_status": {
@@ -92,6 +92,108 @@
   "total": 195,
   "articles": [
     {
+      "id": "TheHa-2219aeb69d4d",
+      "title": "Trezor Warns of Suspected Hardware Implant in One of Its Wallets Sold by CryptoBilis",
+      "link": "https://thehackernews.com/2026/10/trezor-warns-of-suspected-hardware.html",
+      "desc": "A Trezor Safe 5 hardware wallet bought from the reseller CryptoBilis has an extra circuit board that sends out the recovery phrase over a mobile network, a customer has reported.\n\nTrezor has not yet examined the device. It is telling everyone who bought a Trezor from CryptoBilis since March 2026 to move their funds to a new wallet with a new recovery phrase.\n\nTrezor said in a&nbsp;blog post&nbsp",
+      "pubDate": "Fri, 30 Oct 2026 17:51:56 +0530",
+      "source": "The Hacker News",
+      "cat": "threats",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "TheHa-e683aa540178",
+      "title": "Why Urgent Security Fixes Aren't Fixed. Observe, Prove, Act, Confirm Gets Them Moving",
+      "link": "https://thehackernews.com/2026/10/why-urgent-security-fixes-arent-fixed.html",
+      "desc": "The alert is critical. The fix is known. And the ticket sits in a queue for days. Security teams understand the risk, but the people who keep applications available need proof that the change won’t break anything.&nbsp;\n\nTheir concerns are practical. An IPS protection could block legitimate traffic. A configuration change could interrupt a service. An endpoint policy could affect an application",
+      "pubDate": "Fri, 30 Oct 2026 17:28:53 +0530",
+      "source": "The Hacker News",
+      "cat": "threats",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "TheHa-e0845a5b94a5",
+      "title": "Syrian Hacker Behind Fake Tweet That Triggered $136 Billion Market Drop Gets 42 Months in Prison",
+      "link": "https://thehackernews.com/2026/10/syrian-hacker-behind-fake-tweet-that.html",
+      "desc": "Ahmad Umar Agha, a Syrian Electronic Army hacker known online as \"Th3Pr0,\" has been&nbsp;sentenced by a U.S. federal court&nbsp;to 42 months in prison for his role in a hacking conspiracy that targeted Western news outlets.\n\nThe conspiracy was organized and led by members of former Syrian President Bashar al-Assad's inner circle, including the commander of Syria's General Intelligence",
+      "pubDate": "Fri, 30 Oct 2026 16:10:45 +0530",
+      "source": "The Hacker News",
+      "cat": "threats",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "TheHa-112462115c9b",
+      "title": "Official Claude Code Extension on Cursor Marketplace Trojanized with Persistent SSH Backdoor",
+      "link": "https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html",
+      "desc": "Cybersecurity researchers have disclosed that a trojanized version of Anthropic's official Claude Code extension was distributed through the Cursor Marketplace as a legitimate update, attempting to install a persistent SSH backdoor on affected systems.\n\nThe malicious update, version 2.1.313, was distributed under the extension's legitimate publisher identity, prompting Cursor to temporarily shut",
+      "pubDate": "Fri, 30 Oct 2026 14:25:47 +0530",
+      "source": "The Hacker News",
+      "cat": "malware",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "TheHa-af556e74e433",
+      "title": "Hackers Actively Exploit Highly Critical Drupal Commerce Core Authorization Bypass Flaw",
+      "link": "https://thehackernews.com/2026/10/hackers-actively-exploit-highly.html",
+      "desc": "Drupal has warned that threat actors are exploiting a \"highly critical\" security flaw in its Commerce Core component.\n\nThe vulnerability, tracked as CVE-2026-118539 (CVSS score: N/A), is a case of missing authorization affecting Commerce Core versions from 0.0.0 to 2.41 and from 3.0.0 to 3.3.13.\n\n\"This module enables you to sell goods and services to customers through an included shopping cart",
+      "pubDate": "Fri, 30 Oct 2026 13:15:30 +0530",
+      "source": "The Hacker News",
+      "cat": "threats",
+      "sev": "critical",
+      "tags": [
+        {
+          "t": "CVE-2026-118539",
+          "cls": "cve"
+        }
+      ],
+      "iocs": {
+        "cves": [
+          "CVE-2026-118539"
+        ],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
       "id": "TheHa-7e7b2067eb59",
       "title": "CISA Adds Actively Exploited GitLab RCE and Cisco Firewall DoS Flaws to KEV",
       "link": "https://thehackernews.com/2026/10/cisa-adds-actively-exploited-gitlab-rce.html",
@@ -121,7 +223,7 @@
       "id": "TheHa-2c1d00c9b200",
       "title": "Binance Suffers Security Breach Affecting $6.3 Billion in Assets, Nearly $3 Billion Frozen",
       "link": "https://thehackernews.com/2026/10/binance-suffers-security-breach.html",
-      "desc": "Cryptocurrency giant Binance said on Thursday that a \"security incident\" on its platform has impacted about $6.3 billion worth of assets.\n\nThe world's biggest cryptocurrency exchange said nearly $3 billion of those assets have been frozen on-chain so far.&nbsp;\n\nTether and Circle said they have frozen more than 1.567 billion USDT and 800 million USDT related to the incident, respectively. The",
+      "desc": "Cryptocurrency giant Binance said on Thursday that a \"security incident\" on its platform has impacted about $6.3 billion worth of assets.\n\nThe world's biggest cryptocurrency exchange said nearly $3 billion of those assets have been frozen on-chain so far.&nbsp;\n\nTether and Circle said they have frozen more than 1.567 billion USDT and 800 million USDC related to the incident, respectively. The",
       "pubDate": "Fri, 30 Oct 2026 09:44:59 +0530",
       "source": "The Hacker News",
       "cat": "breaches",
@@ -288,122 +390,6 @@
       "tags": [],
       "iocs": {
         "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "TheHa-8e9bbfcb695f",
-      "title": "Cisco Patches Actively Exploited ASA and FTD VPN Flaw That Can Crash Firewalls",
-      "link": "https://thehackernews.com/2026/10/cisco-patches-actively-exploited-asa.html",
-      "desc": "Cisco has released patches to address a high-severity security flaw in Secure Firewall Adaptive Security Appliance (ASA) Software and Secure Firewall Threat Defense (FTD) Software that it said has been exploited in the wild.\n\nThe vulnerability, tracked as CVE-2026-76418, is rated 8.6 on the CVSS scoring system. Successful exploitation could allow an unauthenticated, remote attacker to cause the",
-      "pubDate": "Thu, 29 Oct 2026 16:14:46 +0530",
-      "source": "The Hacker News",
-      "cat": "threats",
-      "sev": "critical",
-      "tags": [
-        {
-          "t": "CVE-2026-76418",
-          "cls": "cve"
-        }
-      ],
-      "iocs": {
-        "cves": [
-          "CVE-2026-76418"
-        ],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "TheHa-48c09b319a62",
-      "title": "GitHub Launches npm Firewall to Block Malicious Packages Before Installation",
-      "link": "https://thehackernews.com/2026/10/github-launches-npm-firewall-to-block.html",
-      "desc": "GitHub has announced that it's introducing a new package firewall as a preview to block installation of suspicious npm packages during installation time.\n\n\"The firewall inspects both metadata requests and package downloads for signs of malicious activity, acting as an install-time policy gate,\" GitHub said.\n\nThe feature, which currently supports only npm packages, is available in public preview",
-      "pubDate": "Thu, 29 Oct 2026 15:56:33 +0530",
-      "source": "The Hacker News",
-      "cat": "threats",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "TheHa-87648892f910",
-      "title": "Attacker Tried to Exploit Alpine Linux’s GitLab via CVSS 10.0 Flaw Its Ruby Left Open",
-      "link": "https://thehackernews.com/2026/10/attacker-tried-to-exploit-alpine-linuxs.html",
-      "desc": "An attacker tried to exploit a critical GitLab vulnerability on the Alpine Linux project's own GitLab server a week after GitLab&nbsp;released a fix, Alpine Linux&nbsp;said&nbsp;on 28 October.\n\nThe flaw, CVE-2026-97229 (CVSS score: 10.0), can let an attacker run code on a GitLab server through a crafted regular expression in a CI configuration. Alpine found no evidence that the attack worked but",
-      "pubDate": "Thu, 29 Oct 2026 14:35:39 +0530",
-      "source": "The Hacker News",
-      "cat": "threats",
-      "sev": "high",
-      "tags": [
-        {
-          "t": "CVE-2026-97229",
-          "cls": "cve"
-        }
-      ],
-      "iocs": {
-        "cves": [
-          "CVE-2026-97229"
-        ],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "TheHa-36c8b7d947d3",
-      "title": "Hackers Exploited Cisco SD-WAN Flaw to Plant Malware Built to Steal Encryption Keys",
-      "link": "https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html",
-      "desc": "Hackers exploited a critical Cisco Catalyst SD-WAN flaw, fixed in February, to plant custom malware inside the systems that control an organization's SD-WAN network.\n\nThe malware, called KeyDrift, is designed to copy the keys that encrypt traffic between sites and store them for later use,&nbsp;Cisco Talos said&nbsp;on October 28. Talos calls the attacks historical but does not specify when they",
-      "pubDate": "Thu, 29 Oct 2026 13:54:22 +0530",
-      "source": "The Hacker News",
-      "cat": "malware",
-      "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "TheHa-1d9b6dc23260",
-      "title": "China-Linked Hackers Exploited VMware ESX Zero-Day to Reduce Audit Trail Visibility",
-      "link": "https://thehackernews.com/2026/10/china-linked-hackers-exploited-vmware.html",
-      "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a security flaw impacting Broadcom VMware ESX to its Known Exploited Vulnerabilities (KEV) catalog, after CrowdStrike revealed that it had been weaponized by a China-nexus threat actor known as Warp Panda in attacks targeting the U.S. legal sector.\n\nThe vulnerability in question is CVE-2026-41709 (CVSS score:",
-      "pubDate": "Thu, 29 Oct 2026 11:52:33 +0530",
-      "source": "The Hacker News",
-      "cat": "threats",
-      "sev": "critical",
-      "tags": [
-        {
-          "t": "CVE-2026-41709",
-          "cls": "cve"
-        }
-      ],
-      "iocs": {
-        "cves": [
-          "CVE-2026-41709"
-        ],
         "ips": [],
         "hashes": []
       },
@@ -602,6 +588,191 @@
       "ts": 0
     },
     {
+      "id": "Securi-0ac963834ed7",
+      "title": "In Other News: Anthropic Breach Dispute, UEFI Flaw Hits Most Servers, Cloudflare AI Data Leak",
+      "link": "https://www.securityweek.com/in-other-news-anthropic-breach-dispute-uefi-flaw-hits-most-servers-cloudflare-ai-data-leak/",
+      "desc": "Noteworthy stories that might have slipped under the radar: Iran eyed in military freezer hacks, Copenhagen University breach, AI-powered malware.\nThe post In Other News: Anthropic Breach Dispute, UEFI Flaw Hits Most Servers, Cloudflare AI Data Leak appeared first on SecurityWeek.",
+      "pubDate": "Fri, 30 Oct 2026 14:41:35 +0000",
+      "source": "SecurityWeek",
+      "cat": "breaches",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "Securi-b7ec42975549",
+      "title": "Passkeys Are Better Than Passwords. But They Are Not Enough.",
+      "link": "https://www.securityweek.com/passkeys-are-better-than-passwords-but-they-are-not-enough/",
+      "desc": "As organizations eliminate passwords, attackers will adapt. Instead of attacking the authenticator directly, they will look for opportunities around it.\nThe post Passkeys Are Better Than Passwords. But They Are Not Enough. appeared first on SecurityWeek.",
+      "pubDate": "Fri, 30 Oct 2026 14:00:00 +0000",
+      "source": "SecurityWeek",
+      "cat": "threats",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "Securi-c310564d5c9d",
+      "title": "Bulletproof Host Virtualine Loses Its Domain to FBI Seizure",
+      "link": "https://www.securityweek.com/bulletproof-host-virtualine-loses-its-domain-to-fbi-seizure/",
+      "desc": "It allowed customers to host hack-for-hire services, supported ransomware and infostealer operators, and accepted crypto payments.\nThe post Bulletproof Host Virtualine Loses Its Domain to FBI Seizure appeared first on SecurityWeek.",
+      "pubDate": "Fri, 30 Oct 2026 13:36:12 +0000",
+      "source": "SecurityWeek",
+      "cat": "malware",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "Securi-9f7b7f6bbc14",
+      "title": "Fresh WordPress Vulnerability in Attackers’ Crosshairs",
+      "link": "https://www.securityweek.com/fresh-wordpress-vulnerability-in-attackers-crosshairs/",
+      "desc": "Threat actors are attempting to exploit a high-severity unauthenticated race condition leading to remote code execution.\nThe post Fresh WordPress Vulnerability in Attackers&#8217; Crosshairs appeared first on SecurityWeek.",
+      "pubDate": "Fri, 30 Oct 2026 12:04:13 +0000",
+      "source": "SecurityWeek",
+      "cat": "threats",
+      "sev": "critical",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "Securi-3024fb1ee685",
+      "title": "Drupal Commerce Core Vulnerability Exploited Against Online Stores",
+      "link": "https://www.securityweek.com/drupal-commerce-core-vulnerability-exploited-against-online-stores/",
+      "desc": "Drupal says a highly critical Commerce Core access bypass is exploited in the wild and urges store owners to audit their orders.\nThe post Drupal Commerce Core Vulnerability Exploited Against Online Stores  appeared first on SecurityWeek.",
+      "pubDate": "Fri, 30 Oct 2026 11:07:11 +0000",
+      "source": "SecurityWeek",
+      "cat": "threats",
+      "sev": "critical",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "Securi-14b6cbfeeb3d",
+      "title": "$2 Million+ Drained From Polymarket Traders in New Supply Chain Attack",
+      "link": "https://www.securityweek.com/2-million-drained-from-polymarket-traders-in-new-supply-chain-attack/",
+      "desc": "Malicious code linked to a website monitoring tool was designed to hijack logged-in Polymarket sessions and siphon user funds.\nThe post $2 Million+ Drained From Polymarket Traders in New Supply Chain Attack appeared first on SecurityWeek.",
+      "pubDate": "Fri, 30 Oct 2026 09:41:36 +0000",
+      "source": "SecurityWeek",
+      "cat": "threats",
+      "sev": "critical",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "Securi-5e679b5afd89",
+      "title": "Max-Severity GitLab Vulnerability Exploited Against Alpine Linux",
+      "link": "https://www.securityweek.com/max-severity-gitlab-vulnerability-exploited-against-alpine-linux/",
+      "desc": "Tracked as CVE-2026-97229, the bug allows unauthenticated attackers to execute arbitrary code on the server.\nThe post Max-Severity GitLab Vulnerability Exploited Against Alpine Linux appeared first on SecurityWeek.",
+      "pubDate": "Fri, 30 Oct 2026 09:32:27 +0000",
+      "source": "SecurityWeek",
+      "cat": "threats",
+      "sev": "high",
+      "tags": [
+        {
+          "t": "CVE-2026-97229",
+          "cls": "cve"
+        }
+      ],
+      "iocs": {
+        "cves": [
+          "CVE-2026-97229"
+        ],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "Securi-fafcad766729",
+      "title": "TeamViewer Flaw Could Let Malicious Hosts Take Over Support Technicians’ Machines",
+      "link": "https://www.securityweek.com/teamviewer-flaw-could-let-malicious-hosts-take-over-support-technicians-machines/",
+      "desc": "An integer overflow tracked as CVE-2026-111585 could be used to execute arbitrary code on the viewer’s system.\nThe post TeamViewer Flaw Could Let Malicious Hosts Take Over Support Technicians&#8217; Machines appeared first on SecurityWeek.",
+      "pubDate": "Fri, 30 Oct 2026 08:44:49 +0000",
+      "source": "SecurityWeek",
+      "cat": "threats",
+      "sev": "high",
+      "tags": [
+        {
+          "t": "CVE-2026-111585",
+          "cls": "cve"
+        }
+      ],
+      "iocs": {
+        "cves": [
+          "CVE-2026-111585"
+        ],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "Securi-77196d856e40",
+      "title": "$6 Billion Binance Hack Bears Hallmarks of North Korea’s TraderTraitor",
+      "link": "https://www.securityweek.com/6-billion-binance-hack-bears-hallmarks-of-north-koreas-tradertraitor/",
+      "desc": "Blockchain analysts link the record crypto theft to North Korean hackers, as Binance probes a possibly compromised engineer laptop.\nThe post $6 Billion Binance Hack Bears Hallmarks of North Korea&#8217;s TraderTraitor appeared first on SecurityWeek.",
+      "pubDate": "Fri, 30 Oct 2026 08:16:26 +0000",
+      "source": "SecurityWeek",
+      "cat": "threats",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
       "id": "Securi-a1cd53112151",
       "title": "When Risk Becomes Personal: What Security Leaders Can Learn From a Cancer Diagnosis",
       "link": "https://www.securityweek.com/when-risk-becomes-personal-what-security-leaders-can-learn-from-a-cancer-diagnosis/",
@@ -621,12 +792,12 @@
       "ts": 0
     },
     {
-      "id": "Securi-a6f87e7cb388",
-      "title": "Google Touts Powerful Cybersecurity Capabilities in Gemini 4 Carbon Model",
-      "link": "https://www.securityweek.com/google-says-gemini-4-carbon-leads-in-finding-exploiting-and-fixing-vulnerabilities/",
-      "desc": "Google’s new frontier model scored 88.2% on SEC-bench Pro and is rolling out first to vetted cyber defenders via its Fairwind Program.\nThe post Google Touts Powerful Cybersecurity Capabilities in Gemini 4 Carbon Model appeared first on SecurityWeek.",
-      "pubDate": "Thu, 29 Oct 2026 15:01:00 +0000",
-      "source": "SecurityWeek",
+      "id": "GBHack-460a495bacc2",
+      "title": "Trezor Warns of Suspected Spy Implant That Could Steal Crypto Wallet Recovery Phrases",
+      "link": "https://gbhackers.com/trezor-warns-of-suspected-spy-implant/",
+      "desc": "Trezor has issued an urgent warning after receiving a credible report of a suspected hardware implant in a Safe 5 cryptocurrency wallet purchased from the former reseller CryptoBilis. The company has not independently verified the device, and so far, no CryptoBilis customers have reported losing funds to Trezor. According to Trezor’s security advisory, the wallet [&#8230;]\nThe post Trezor Warns of",
+      "pubDate": "Fri, 30 Oct 2026 12:35:20 +0000",
+      "source": "GBHackers",
       "cat": "threats",
       "sev": "medium",
       "tags": [],
@@ -640,175 +811,23 @@
       "ts": 0
     },
     {
-      "id": "Securi-d1563e088aa4",
-      "title": "How Secure Are US Elections? Voting Machine Risks and the Growing Threat of AI",
-      "link": "https://www.securityweek.com/how-secure-are-us-elections-voting-machine-risks-and-the-growing-threat-of-ai/",
-      "desc": "Unpatched voting machines, unverifiable QR-coded ballots, and AI-driven influence campaigns leave US elections short of secure.\nThe post How Secure Are US Elections? Voting Machine Risks and the Growing Threat of AI appeared first on SecurityWeek.",
-      "pubDate": "Thu, 29 Oct 2026 15:00:00 +0000",
-      "source": "SecurityWeek",
-      "cat": "threats",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "Securi-6c4e7a4bd972",
-      "title": "Cisco Open Sources Quarry to Catch AI Agent Attacks Hidden in Harmless Steps",
-      "link": "https://www.securityweek.com/cisco-open-sources-quarry-to-catch-ai-agent-attacks-hidden-in-harmless-steps/",
-      "desc": "Cisco open sourced Project Quarry, a rule language for detecting AI agent attacks that only emerge across sequences of benign actions.\nThe post Cisco Open Sources Quarry to Catch AI Agent Attacks Hidden in Harmless Steps appeared first on SecurityWeek.",
-      "pubDate": "Thu, 29 Oct 2026 14:18:03 +0000",
-      "source": "SecurityWeek",
-      "cat": "threats",
-      "sev": "critical",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "Securi-a80ea9236b7d",
-      "title": "Adobe, Veeam, Juniper Networks Patch Critical Vulnerabilities",
-      "link": "https://www.securityweek.com/adobe-veeam-juniper-networks-patch-critical-vulnerabilities/",
-      "desc": "The flaws could lead to arbitrary code execution, authorization bypasses, and privilege escalation.\nThe post Adobe, Veeam, Juniper Networks Patch Critical Vulnerabilities appeared first on SecurityWeek.",
-      "pubDate": "Thu, 29 Oct 2026 13:42:52 +0000",
-      "source": "SecurityWeek",
-      "cat": "threats",
-      "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "Securi-c34dfc3788d7",
-      "title": "BAE Says No Data Extracted in Incident Hitting Bankruptcy Courts",
-      "link": "https://www.securityweek.com/bae-says-no-data-extracted-in-incident-hitting-bankruptcy-courts/",
-      "desc": "BAE Systems says no data was extracted and no PII was breached in the incident that disrupted US bankruptcy court notices for weeks.\nThe post BAE Says No Data Extracted in Incident Hitting Bankruptcy Courts appeared first on SecurityWeek.",
-      "pubDate": "Thu, 29 Oct 2026 13:26:49 +0000",
-      "source": "SecurityWeek",
-      "cat": "breaches",
-      "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "Securi-85cc638c8670",
-      "title": "Over 41,000 DHS Employee Records Leaked Online",
-      "link": "https://www.securityweek.com/over-41000-dhs-employee-records-leaked-online/",
-      "desc": "The personal and work information was allegedly stolen from an Okta single sign-on system earlier this year.\nThe post Over 41,000 DHS Employee Records Leaked Online appeared first on SecurityWeek.",
-      "pubDate": "Thu, 29 Oct 2026 12:54:14 +0000",
-      "source": "SecurityWeek",
-      "cat": "breaches",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "Securi-e36d805b83d1",
-      "title": "Hackers Steal 2.6 Million Records From Sony’s Japanese ISP So-net",
-      "link": "https://www.securityweek.com/hackers-steal-2-6-million-records-from-sonys-japanese-isp-so-net/",
-      "desc": "The data of So-net and Plala customers in Japan was exposed, along with 54,401 email account passwords and 16 bank account records.\nThe post Hackers Steal 2.6 Million Records From Sony&#8217;s Japanese ISP So-net appeared first on SecurityWeek.",
-      "pubDate": "Thu, 29 Oct 2026 11:00:00 +0000",
-      "source": "SecurityWeek",
-      "cat": "threats",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "Securi-9ceee42a2752",
-      "title": "Cisco SD-WAN Zero-Day Exploitation Tied to Volt Typhoon’s ‘Silent Train’ Network",
-      "link": "https://www.securityweek.com/cisco-sd-wan-zero-day-exploitation-tied-to-volt-typhoons-silent-train-network/",
-      "desc": "Cisco Talos linked SD-WAN key-stealing malware to infrastructure overlapping Volt Typhoon’s Silent Train network, which Lumen detailed.\nThe post Cisco SD-WAN Zero-Day Exploitation Tied to Volt Typhoon&#8217;s &#8216;Silent Train&#8217; Network appeared first on SecurityWeek.",
-      "pubDate": "Thu, 29 Oct 2026 10:29:25 +0000",
-      "source": "SecurityWeek",
-      "cat": "malware",
-      "sev": "critical",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "Securi-63c54d11839f",
-      "title": "Attackers Exploit Second Cisco Firewall VPN Zero-Day Since August",
-      "link": "https://www.securityweek.com/attackers-exploit-second-cisco-firewall-vpn-zero-day-since-august/",
-      "desc": "An exploited flaw in the Remote Access SSL VPN service lets unauthenticated attackers remotely force ASA and FTD firewalls to reload.\nThe post Attackers Exploit Second Cisco Firewall VPN Zero-Day Since August appeared first on SecurityWeek.",
-      "pubDate": "Thu, 29 Oct 2026 09:47:10 +0000",
-      "source": "SecurityWeek",
-      "cat": "threats",
-      "sev": "critical",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "GBHack-940233f05237",
-      "title": "Critical Linux Kernel Vulnerability Lets Remote Attackers Crash Ubuntu Systems",
-      "link": "https://gbhackers.com/critical-linux-kernel-vulnerability-2/",
-      "desc": "A critical vulnerability in the Linux kernel, identified as CVE-2026-98432, threatens Ubuntu systems through a networking memory flaw that could cause crashes and service disruptions. Ubuntu released an advisory on October 15, 2026, and provided an update on October 29. The vulnerability has been assigned a CVSS severity score of 9.8, indicating a high priority [&#8230;]\nThe post Critical Linux Ke",
-      "pubDate": "Fri, 30 Oct 2026 06:59:52 +0000",
+      "id": "GBHack-85a2fa53d34d",
+      "title": "CISA Confirms Active Exploitation of GitLab Vulnerability CVE-2026-97229",
+      "link": "https://gbhackers.com/cisa-gitlab-vulnerability-cve-2026-97229/",
+      "desc": "The Cybersecurity and Infrastructure Security Agency (CISA) has confirmed that CVE-2026-97229, a critical vulnerability affecting both GitLab Community Edition and Enterprise Edition, is actively being exploited. On October 29, 2026, CISA added this flaw to its Known Exploited Vulnerabilities catalog, increasing the urgency for organizations running affected servers to take action. This vulnerabil",
+      "pubDate": "Fri, 30 Oct 2026 12:21:27 +0000",
       "source": "GBHackers",
       "cat": "threats",
       "sev": "critical",
       "tags": [
         {
-          "t": "CVE-2026-98432",
+          "t": "CVE-2026-97229",
           "cls": "cve"
         }
       ],
       "iocs": {
         "cves": [
-          "CVE-2026-98432"
+          "CVE-2026-97229"
         ],
         "ips": [],
         "hashes": []
@@ -818,49 +837,11 @@
       "ts": 0
     },
     {
-      "id": "GBHack-25767eb705d4",
-      "title": "Hackers Launch Over 18 Million DDoS Attacks in Three Months, Cloudflare Reports",
-      "link": "https://gbhackers.com/hackers-launch-over-18-million-ddos-attacks-in-three-months/",
-      "desc": "In the third quarter of 2026, Cloudflare successfully mitigated 18.2 million network-layer distributed denial-of-service (DDoS) attacks. This increase indicates a trend among attackers who now favor short, frequent disruptions over large traffic floods. Compared to the same quarter in 2025, this represents a significant 208% rise in the frequency of attacks across Cloudflare&#8217;s network. Publi",
-      "pubDate": "Fri, 30 Oct 2026 06:46:34 +0000",
-      "source": "GBHackers",
-      "cat": "threats",
-      "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "GBHack-4cafaea1db48",
-      "title": "Binance Reportedly Hacked as Attackers Steal Up to $5.7 Billion in Cryptocurrency",
-      "link": "https://gbhackers.com/binance-reportedly-hacked/",
-      "desc": "Binance has suspended deposits and withdrawals due to a security incident. Early estimates from blockchain tracking indicated that attackers may have drained as much as $5.7 billion in cryptocurrency. The exchange has committed to covering all losses while investigators work to trace the transactions and coordinate asset freezes throughout the cryptocurrency ecosystem. In its official [&#8230;]\nTh",
-      "pubDate": "Fri, 30 Oct 2026 06:18:42 +0000",
-      "source": "GBHackers",
-      "cat": "threats",
-      "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "GBHack-4fdfe42c8215",
-      "title": "Polymarket Reportedly Hacked as Users Report Funds Stolen From Crypto Wallets",
-      "link": "https://gbhackers.com/polymarket-reportedly-hacked-as-users-report-funds-stolen/",
-      "desc": "Polymarket&#8217;s international platform temporarily suspended trading after a third-party provider was compromised, leading to reports of unauthorized withdrawals and missing account balances. The Polymarket Traders account later announced that trading had resumed and promised to reimburse affected traders fully. In its public incident statement, the account said it had identified and fixed the ",
-      "pubDate": "Fri, 30 Oct 2026 06:06:13 +0000",
+      "id": "GBHack-f328833ff40a",
+      "title": "Microsoft Releases Emergency Fix for Windows 11 Remote Desktop Connection Failures",
+      "link": "https://gbhackers.com/windows-11-remote-desktop-connection-failures/",
+      "desc": "Microsoft has resolved an issue in Windows 11 that prevented non-administrator users from connecting to devices with Administrator protection enabled. This fix was included in KB5127936, released on October 28, 2026, and is part of subsequent updates. While this issue is urgent for affected organizations, Microsoft has categorized the release as a preview update rather [&#8230;]\nThe post Microsoft",
+      "pubDate": "Fri, 30 Oct 2026 11:54:04 +0000",
       "source": "GBHackers",
       "cat": "threats",
       "sev": "medium",
@@ -875,11 +856,30 @@
       "ts": 0
     },
     {
-      "id": "GBHack-dca311e76398",
-      "title": "Accenture Employee Allegedly Gave Claude Code AI Agent Administrative Access to Pentagon Systems",
-      "link": "https://gbhackers.com/accenture-employee-allegedly-gave-claude-code-ai-agent-administrative-access/",
-      "desc": "An Accenture employee reportedly linked a personal Claude Code account to a secure Department of Defense production environment, granting the AI coding agent administrative access and potentially exposing credentials and sensitive network information to an external service. According to WIRED’s investigation, published October 29, the agent operated on the Pentagon network for approximately two mo",
-      "pubDate": "Fri, 30 Oct 2026 05:47:29 +0000",
+      "id": "GBHack-2d95dd9a4845",
+      "title": "Hackers Exploit Ivanti Connect Secure Zero-Day Vulnerabilities to Gain Root Access and Steal Credentials",
+      "link": "https://gbhackers.com/hackers-exploit-ivanti-connect-secure-zero-day-vulnerabilities/",
+      "desc": "Hackers exploited a chain of zero-day vulnerabilities in Ivanti Connect Secure (ICS) VPN appliances, allowing them to execute commands with root access, steal credentials, and probe internal networks. Volexity has identified the unknown attacker as UTA0576 and traced the exploitation back to October 3, 2026, targeting an appliance that was fully patched at the time. [&#8230;]\nThe post Hackers Expl",
+      "pubDate": "Fri, 30 Oct 2026 11:46:41 +0000",
+      "source": "GBHackers",
+      "cat": "threats",
+      "sev": "critical",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "GBHack-7640a1cdc930",
+      "title": "Fake Polymarket Scam Network Claims Nearly $11 Million in Cryptocurrency Deposits",
+      "link": "https://gbhackers.com/fake-polymarket-scam/",
+      "desc": "Russian-language &#8220;traffer&#8221; teams are selling ready-made fake prediction-market platforms to affiliates. One of them, AtlasCore, claims about $10.97 million in victim deposits. Recorded Future&#8217;s Insikt Group tracked the campaigns, which impersonate sites like Polymarket and Kalshi. The deposit figures come from the threat actors themselves and are unverified. Fake Polymarket scam ",
+      "pubDate": "Fri, 30 Oct 2026 11:46:35 +0000",
       "source": "GBHackers",
       "cat": "threats",
       "sev": "medium",
@@ -894,11 +894,11 @@
       "ts": 0
     },
     {
-      "id": "GBHack-ff96c12aad7b",
-      "title": "New Zero-Click Android Vulnerability Lets Attackers Crash Phones With a Single SMS",
-      "link": "https://gbhackers.com/new-zero-click-android-vulnerability/",
-      "desc": "A recently discovered Android vulnerability, referred to as SMS of Death, allows attackers to crash a phone&#8217;s telephony process with just one malformed SMS, without any interaction from the victim. Researcher Mark B reports that this flaw can disconnect active calls, including emergency calls, and leads to persistent service disruptions when malicious messages remain in [&#8230;]\nThe post Ne",
-      "pubDate": "Fri, 30 Oct 2026 05:08:38 +0000",
+      "id": "GBHack-a29cc495cf59",
+      "title": "New Kairos DDoS Botnet Hijacks Linux Devices to Overwhelm Servers With Thousands of TCP Connections",
+      "link": "https://gbhackers.com/kairos-ddos-botnet/",
+      "desc": "Nozomi Networks Labs has documented Kairos, a previously undocumented Go-based DDoS bot for Linux. It turns compromised Linux devices into attack nodes that exhaust a victim&#8217;s connection capacity with thousands of idle TCP sessions. Kairos DDoS botnet Honeypot telemetry captured three Kairos builds. They differ only in the hard-coded C2 address and the Go compiler [&#8230;]\nThe post New Kair",
+      "pubDate": "Fri, 30 Oct 2026 10:49:33 +0000",
       "source": "GBHackers",
       "cat": "threats",
       "sev": "high",
@@ -913,11 +913,11 @@
       "ts": 0
     },
     {
-      "id": "GBHack-218476b176f0",
-      "title": "Coruna iOS Exploit Kit Hidden Behind Malicious Ads Targets Crypto Seed Phrases, ADEX Reports",
-      "link": "https://gbhackers.com/coruna-ios-exploit-kit-hidden-behind-malicious-ads-targets-crypto-seed-phrases-adex-reports/",
-      "desc": "Malicious iOS scripts have become a leading cause of ad platform suspensions. They accounted for about one in five suspensions in Q3 2026, according to the State of Ad Fraud 2026: ADEX Trust &#38; Safety Report from anti-fraud firm ADEX. The report examines one scheme in detail. It was built on the Coruna exploit kit [&#8230;]\nThe post Coruna iOS Exploit Kit Hidden Behind Malicious Ads Targets Cry",
-      "pubDate": "Thu, 29 Oct 2026 15:09:14 +0000",
+      "id": "GBHack-f152a7382c24",
+      "title": "DarkSword iOS Exploit Chain Bypasses Safari Sandbox and Steals Apple Notes Data",
+      "link": "https://gbhackers.com/darksword-ios-exploit-chain/",
+      "desc": "Zimperium zLabs has found that the Coruna iOS exploit campaign now serves two iOS exploit chains, picked by the victim&#8217;s iOS version. A DarkSword-derived chain escapes Safari&#8217;s sandbox on newer iPhones and has stolen Apple Notes data. Recent coverage of Coruna and DarkSword spreading through Instagram ads and abandoned tags shows the kits are still [&#8230;]\nThe post DarkSword iOS Expl",
+      "pubDate": "Fri, 30 Oct 2026 10:23:27 +0000",
       "source": "GBHackers",
       "cat": "threats",
       "sev": "high",
@@ -932,14 +932,14 @@
       "ts": 0
     },
     {
-      "id": "GBHack-80433e191aff",
-      "title": "Cisco Talos Uncovers KeyDrift Malware Targeting SD-WAN Controllers to Steal Network Encryption Keys",
-      "link": "https://gbhackers.com/sd-wan-controllers-targeted/",
-      "desc": "UAT-11473, an advanced persistent threat actor deploying KeyDrift, a custom malware framework targeting Cisco Catalyst SD-WAN controllers. The framework embeds inside legitimate control-plane processes to maintain access, intercept decrypted communications, and extract sensitive network encryption material. Observed targets span space and satellite services, defense and aerospace technology, and p",
-      "pubDate": "Thu, 29 Oct 2026 13:27:51 +0000",
+      "id": "GBHack-60a8dfa72742",
+      "title": "New AI-Powered NIK C2 Malware Uses OpenAI API to Help Hackers Steal Data and Control Windows PCs",
+      "link": "https://gbhackers.com/nik-c2-malware/",
+      "desc": "Cisco Talos has uncovered NIK C2, a Go-based, 64-bit Windows remote access tool that embeds a working OpenAI client. Operators can send prompts through an infected machine and read the model&#8217;s replies in their C2 panel. NIK C2 malware According to technical research published by Cisco Talos, the implant talks to its server over TLS-secured [&#8230;]\nThe post New AI-Powered NIK C2 Malware Use",
+      "pubDate": "Fri, 30 Oct 2026 09:45:09 +0000",
       "source": "GBHackers",
       "cat": "malware",
-      "sev": "critical",
+      "sev": "high",
       "tags": [],
       "iocs": {
         "cves": [],
@@ -951,32 +951,32 @@
       "ts": 0
     },
     {
-      "id": "GBHack-5090b09c7e14",
-      "title": "Chinese Hackers Exploit VMware ESXi Zero-Day to Target Law Firms in Cyber Espionage Attacks",
-      "link": "https://gbhackers.com/chinese-hackers-exploit-vmware-esxi-zero-day/",
-      "desc": "Chinese state-linked hackers have exploited a zero-day vulnerability in VMware ESXi during espionage operations aimed at U.S. law firms, according to CrowdStrike&#8217;s latest assessment of threats affecting the legal sector. The activity is attributed to WARP PANDA, a China-nexus adversary that deployed malware in victims&#8217; VMware vCenter environments. This series of intrusions, which conti",
-      "pubDate": "Thu, 29 Oct 2026 12:30:51 +0000",
-      "source": "GBHackers",
-      "cat": "malware",
-      "sev": "critical",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "GBHack-9ce3d25fa7a6",
-      "title": "NIST Releases New Guidelines to Protect Encryption Against Future Quantum Computer Attacks",
-      "link": "https://gbhackers.com/nist-guidelines-to-protect-encryption-against-future-quantum-computer-attacks/",
-      "desc": "The National Institute of Standards and Technology (NIST) has released finalized guidance to assist organizations in replacing cryptography that is vulnerable to quantum computing before future quantum computers pose a threat to sensitive information. Published on October 27, 2026, the report establishes a framework for migration that includes cryptographic standards, federal deadlines, and implem",
-      "pubDate": "Thu, 29 Oct 2026 12:20:40 +0000",
+      "id": "GBHack-508f0c3d9869",
+      "title": "Claude AI Exposes Internal Sandbox Details That Help Researcher Bypass Local Connection Restrictions",
+      "link": "https://gbhackers.com/claude-ai-sandbox-restrictions/",
+      "desc": "A Bishop Fox researcher investigating Claude’s sandbox obtained an internal control binary, recovered authorization tokens from process memory, and bypassed a local connection restriction to reach a sandbox control service. Anthropic said the sandbox observations did not qualify as security issues because its security boundaries sit outside the untrusted sandbox. According to technical research pu",
+      "pubDate": "Fri, 30 Oct 2026 08:21:53 +0000",
       "source": "GBHackers",
       "cat": "threats",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "GBHack-7865f5edc7c8",
+      "title": "Malicious Claude Code VS Code Extension Installs Persistent SSH Backdoor to Give Attackers Remote Access",
+      "link": "https://gbhackers.com/malicious-claude-code-vs-code-extension/",
+      "desc": "A trojanized version of the Claude Code extension, identified as anthropic.claude-code version 2.1.313, contains a malicious loader that enables persistent SSH access to developer systems. Researchers analyzed an artifact obtained from Open VSX and discovered 66 lines of JavaScript added to the legitimate extension bundle. This additional code lets the attacker&#8217;s script run before the [&#823",
+      "pubDate": "Fri, 30 Oct 2026 08:07:53 +0000",
+      "source": "GBHackers",
+      "cat": "malware",
       "sev": "high",
       "tags": [],
       "iocs": {
@@ -2041,6 +2041,25 @@
       "ts": 0
     },
     {
+      "id": "Sophos-25a69246e083",
+      "title": "Malicious Claude Code extension distributed through Cursor marketplace",
+      "link": "https://www.sophos.com/en-us/blog/malicious-claude-code-extension-distributed-through-cursor-marketplace",
+      "desc": "Categories: Threat ResearchTags: advisory, Cursor",
+      "pubDate": "Fri, 30 Oct 2026 00:00:00 GMT",
+      "source": "Sophos Research",
+      "cat": "malware",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
       "id": "Sophos-156b695fae75",
       "title": "AI used in Aur0ra ransomware testing and execution",
       "link": "https://www.sophos.com/en-us/blog/ai-used-in-aur0ra-ransomware-testing-and-execution",
@@ -2096,18 +2115,18 @@
       "sev": "high",
       "tags": [
         {
-          "t": "CVE-2026-109619",
+          "t": "CVE-2026-109618",
           "cls": "cve"
         },
         {
-          "t": "CVE-2026-109618",
+          "t": "CVE-2026-109619",
           "cls": "cve"
         }
       ],
       "iocs": {
         "cves": [
-          "CVE-2026-109619",
-          "CVE-2026-109618"
+          "CVE-2026-109618",
+          "CVE-2026-109619"
         ],
         "ips": [],
         "hashes": []
@@ -2248,18 +2267,18 @@
       "sev": "high",
       "tags": [
         {
-          "t": "CVE-2026-88772",
+          "t": "CVE-2026-88771",
           "cls": "cve"
         },
         {
-          "t": "CVE-2026-88771",
+          "t": "CVE-2026-88772",
           "cls": "cve"
         }
       ],
       "iocs": {
         "cves": [
-          "CVE-2026-88772",
-          "CVE-2026-88771"
+          "CVE-2026-88771",
+          "CVE-2026-88772"
         ],
         "ips": [],
         "hashes": []
@@ -2352,12 +2371,50 @@
       "ts": 0
     },
     {
-      "id": "Sophos-cb160a06b692",
-      "title": "Devil’s advocate? Uncensored Luciferus AI service advertised underground",
-      "link": "https://www.sophos.com/en-us/blog/uncensored-luciferus-ai-service-advertised-underground",
-      "desc": "Uncensored refers to a lack of typical guardrails or ethical restrictions, lowering the technical barrier of entry into cybercrimeCategories: Threat ResearchTags: AI, Luciferus, underground",
-      "pubDate": "Mon, 14 Sep 2026 00:00:00 GMT",
-      "source": "Sophos Research",
+      "id": "Malwar-fdb1a8e80a94",
+      "title": "Photo ID, bank checks, face scan? The UK’s age-check options",
+      "link": "https://www.malwarebytes.com/blog/news/2026/10/photo-id-bank-checks-face-scan-the-uks-age-check-options",
+      "desc": "Ofcom has set out four possible age-verification methods for UK’s under-16 social media ban.",
+      "pubDate": "Fri, 30 Oct 2026 13:00:02 GMT",
+      "source": "Malwarebytes",
+      "cat": "malware",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "Malwar-965343e594dc",
+      "title": "Binance hit by largest-ever crypto theft, with $6.3 billion stolen",
+      "link": "https://www.malwarebytes.com/blog/news/2026/10/binance-hit-by-largest-ever-crypto-theft-with-6-3-billion-stolen",
+      "desc": "Attackers stole about $6.3 billion in cryptocurrency from Binance in what analysts say is the largest crypto theft on record.",
+      "pubDate": "Fri, 30 Oct 2026 12:24:19 GMT",
+      "source": "Malwarebytes",
+      "cat": "malware",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "Malwar-122245bce81f",
+      "title": "Hackers steal and publish data on 41,000 Homeland Security workers",
+      "link": "https://www.malwarebytes.com/blog/data-breaches/2026/10/hackers-steal-and-publish-data-on-41000-homeland-security-workers",
+      "desc": "A hacker group claims it stole data on 41,000 DHS employees, exposing work contact details and internal group memberships.",
+      "pubDate": "Fri, 30 Oct 2026 11:33:12 GMT",
+      "source": "Malwarebytes",
       "cat": "malware",
       "sev": "medium",
       "tags": [],
@@ -2428,8 +2485,8 @@
       "ts": 0
     },
     {
-      "id": "Malwar-7df44275e827",
-      "title": "Chrome and Firefox updates fix serious security flaws. Install them now",
+      "id": "Malwar-4c18b5569bfb",
+      "title": "Chrome and Firefox updates fix serious security flaws. Install now",
       "link": "https://www.malwarebytes.com/blog/ai/2026/10/chrome-and-firefox-updates-fix-serious-security-flaws-install-them-now",
       "desc": "Google and Mozilla released security updates for Chrome and Firefox on October 27. Update your browser as soon as you can.",
       "pubDate": "Wed, 28 Oct 2026 11:13:06 GMT",
@@ -2585,63 +2642,6 @@
       "link": "https://www.malwarebytes.com/blog/news/2026/10/a-week-in-security-october-19-october-25",
       "desc": "A list of topics we covered in the week of October 19 to October 25 of 2026",
       "pubDate": "Mon, 26 Oct 2026 07:00:00 GMT",
-      "source": "Malwarebytes",
-      "cat": "malware",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "Malwar-6a131d6efba6",
-      "title": "Resident Evil maker Capcom warns of phishing after 11.7 million records exposed",
-      "link": "https://www.malwarebytes.com/blog/data-breaches/2026/10/resident-evil-maker-capcom-warns-of-phishing-after-11-7-million-records-exposed",
-      "desc": "Exposed email addresses could put CAPCOM ID users at risk of phishing. Passwords were also changed without permission on 196 accounts.",
-      "pubDate": "Fri, 23 Oct 2026 13:07:52 GMT",
-      "source": "Malwarebytes",
-      "cat": "malware",
-      "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "Malwar-387f30fca33a",
-      "title": "Crime Stoppers chapter freezes tips after breach breaks anonymity promise",
-      "link": "https://www.malwarebytes.com/blog/data-breaches/2026/10/crime-stoppers-chapter-freezes-tips-after-breach-breaks-anonymity-promise",
-      "desc": "A Crime Stoppers chapter has stopped accepting tips after a breach exposed information about anonymous tipsters.",
-      "pubDate": "Fri, 23 Oct 2026 09:57:48 GMT",
-      "source": "Malwarebytes",
-      "cat": "malware",
-      "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "Malwar-d91d79865425",
-      "title": "Facebook’s misleading privacy claims land Meta a $25 billion penalty",
-      "link": "https://www.malwarebytes.com/blog/news/2026/10/facebooks-misleading-privacy-claims-land-meta-a-25-billion-penalty",
-      "desc": "Users were misled about who could access their personal information on Facebook. Now Meta has been ordered to pay $25 billion.",
-      "pubDate": "Thu, 22 Oct 2026 16:59:22 GMT",
       "source": "Malwarebytes",
       "cat": "malware",
       "sev": "medium",
@@ -3103,18 +3103,18 @@
       "sev": "high",
       "tags": [
         {
-          "t": "CVE-2026-109619",
+          "t": "CVE-2026-109618",
           "cls": "cve"
         },
         {
-          "t": "CVE-2026-109618",
+          "t": "CVE-2026-109619",
           "cls": "cve"
         }
       ],
       "iocs": {
         "cves": [
-          "CVE-2026-109619",
-          "CVE-2026-109618"
+          "CVE-2026-109618",
+          "CVE-2026-109619"
         ],
         "ips": [],
         "hashes": []
@@ -3656,6 +3656,25 @@
       "ts": 0
     },
     {
+      "id": "r/nets-5bf824034e16",
+      "title": "Claude vs Code Extension compromised",
+      "link": "https://www.reddit.com/r/netsec/comments/1xjeb39/claude_vs_code_extension_compromised/",
+      "desc": "Please be aware of this.  &#32; submitted by &#32;  /u/Alfrede81   [link] &#32; [comments]",
+      "pubDate": "2026-10-30T12:41:26+00:00",
+      "source": "r/netsec",
+      "cat": "community",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
       "id": "r/nets-24890b831066",
       "title": "TeamViewer RCE Vulnerability (CVE-2026-11585)",
       "link": "https://www.reddit.com/r/netsec/comments/1xikzuw/teamviewer_rce_vulnerability_cve202611585/",
@@ -3674,6 +3693,44 @@
         "cves": [
           "CVE-2026-11585"
         ],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "r/nets-daed20d2b2f1",
+      "title": "How Linux Trusted Bytes That IPsec Never Authenticated",
+      "link": "https://www.reddit.com/r/netsec/comments/1xjfbn1/how_linux_trusted_bytes_that_ipsec_never/",
+      "desc": "&#32; submitted by &#32;  /u/louis703   [link] &#32; [comments]",
+      "pubDate": "2026-10-30T13:25:32+00:00",
+      "source": "r/netsec",
+      "cat": "community",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "r/nets-8ead70ce6eac",
+      "title": "Supermicro BMC ipmi cves",
+      "link": "https://www.reddit.com/r/netsec/comments/1xjeg2c/supermicro_bmc_ipmi_cves/",
+      "desc": "&#32; submitted by &#32;  /u/Alfrede81   [link] &#32; [comments]",
+      "pubDate": "2026-10-30T12:47:51+00:00",
+      "source": "r/netsec",
+      "cat": "community",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
         "ips": [],
         "hashes": []
       },
@@ -3789,25 +3846,6 @@
       "ts": 0
     },
     {
-      "id": "r/nets-670aaee96537",
-      "title": "php2bitcoin x brotli2coin: live hacking stream",
-      "link": "https://www.reddit.com/r/netsec/comments/1xj4co1/php2bitcoin_x_brotli2coin_live_hacking_stream/",
-      "desc": "I wanted to figure out just how exploitable php2shell and http2shell were in practice, so I've created two purposely vulnerable web apps: https://brotli2bitcoin.com &amp; https://php2bitcoin.com with a standard production config -- pop an RCE and find the flag to claim the $1K BTC. And to make it interesting, I setup a live stream showing every single attack attempt happening live https://www.yout",
-      "pubDate": "2026-10-30T03:06:20+00:00",
-      "source": "r/netsec",
-      "cat": "community",
-      "sev": "critical",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
       "id": "r/nets-6c562f096165",
       "title": "Stopping Remote Code Execution with Sandboxes, CVE-2026-115995: Rust Zip",
       "link": "https://www.reddit.com/r/netsec/comments/1xiohqc/stopping_remote_code_execution_with_sandboxes/",
@@ -3826,6 +3864,25 @@
         "cves": [
           "CVE-2026-115995"
         ],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "r/nets-670aaee96537",
+      "title": "php2bitcoin x brotli2coin: live hacking stream",
+      "link": "https://www.reddit.com/r/netsec/comments/1xj4co1/php2bitcoin_x_brotli2coin_live_hacking_stream/",
+      "desc": "I wanted to figure out just how exploitable php2shell and http2shell were in practice, so I've created two purposely vulnerable web apps: https://brotli2bitcoin.com &amp; https://php2bitcoin.com with a standard production config -- pop an RCE and find the flag to claim the $1K BTC. And to make it interesting, I setup a live stream showing every single attack attempt happening live https://www.yout",
+      "pubDate": "2026-10-30T03:06:20+00:00",
+      "source": "r/netsec",
+      "cat": "community",
+      "sev": "critical",
+      "tags": [],
+      "iocs": {
+        "cves": [],
         "ips": [],
         "hashes": []
       },
@@ -3858,63 +3915,6 @@
       "link": "https://www.reddit.com/r/netsec/comments/1xi65vs/xml_signature_wrapping_authentication_bypass_in/",
       "desc": "Egov.Integrations.MPass.Saml, the ASP.NET Core handler that relying parties use to verify MPass SAML 2.0 responses, verified signatures like this in every version before 10.0.4:  signedXml.LoadXml(signatureElement); return signedXml.CheckSignature(publicCertificate, verifySignatureOnly: true);  CheckSignature confirms that the references in SignedInfo are validly signed. Nothing tied a signed refe",
       "pubDate": "2026-10-29T01:00:22+00:00",
-      "source": "r/netsec",
-      "cat": "community",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "r/nets-7de2223f345c",
-      "title": "Linux Kernel TIPC DoS: named_distribute() NULL Dereference, Race Analysis, and Remote Triggering",
-      "link": "https://www.reddit.com/r/netsec/comments/1xienwv/linux_kernel_tipc_dos_named_distribute_null/",
-      "desc": "I've spent the last four days investigating and fine-tuning a remote DoS against the Linux kernel's TIPC implementation. A remote peer-state transition can trigger a NULL pointer dereference in TIPC's name-distribution path, causing a kernel panic and taking down the host. I've really enjoyed digging into this, and I'm pretty happy with how the research turned out.  &#32; submitted by &#32;  /u/lo",
-      "pubDate": "2026-10-29T08:52:27+00:00",
-      "source": "r/netsec",
-      "cat": "community",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "r/nets-ea8636165c67",
-      "title": "Scanning 7.25 Million Public Repositories on China's Largest Git Platform for Secrets",
-      "link": "https://www.reddit.com/r/netsec/comments/1xhrfhu/scanning_725_million_public_repositories_on/",
-      "desc": "&#32; submitted by &#32;  /u/Grand_Fan_9804   [link] &#32; [comments]",
-      "pubDate": "2026-10-28T15:36:25+00:00",
-      "source": "r/netsec",
-      "cat": "community",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "r/nets-8af4eb233823",
-      "title": "Cache Me If You Can: XSS in Cloudflare's /cdn-cgi/image/",
-      "link": "https://www.reddit.com/r/netsec/comments/1xhqdx6/cache_me_if_you_can_xss_in_cloudflares_cdncgiimage/",
-      "desc": "&#32; submitted by &#32;  /u/albinowax   [link] &#32; [comments]",
-      "pubDate": "2026-10-28T14:58:48+00:00",
       "source": "r/netsec",
       "cat": "community",
       "sev": "medium",
