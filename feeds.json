@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T15:11:32.576377+00:00",
+  "generated_at": "2026-10-30T19:59:43.791500+00:00",
   "sources_ok": 15,
   "sources_total": 20,
   "source_status": {
@@ -91,6 +91,63 @@
   },
   "total": 195,
   "articles": [
+    {
+      "id": "TheHa-288494241cb3",
+      "title": "Chinese Hackers Use AI-Powered ARTEX to Target Over 200 Organizations Worldwide",
+      "link": "https://thehackernews.com/2026/10/chinese-hackers-use-ai-powered-artex-to.html",
+      "desc": "Chinese state-sponsored threat actors have been observed using a Go-based artificial intelligence (AI)-powered penetration testing framework called ARTEX in attacks aimed at high-value targets simultaneously.\n\nThe activity has been attributed by CrowdStrike to a China-based \"targeted intrusion adversary\" it tracks under the moniker Vapor Panda (previously VexatiousTemper). First identified in",
+      "pubDate": "Fri, 30 Oct 2026 22:28:44 +0530",
+      "source": "The Hacker News",
+      "cat": "threats",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "TheHa-879c8baafb1d",
+      "title": "TeamViewer Flaw Lets Remote Computers Attack Users Who Connect to Control Them",
+      "link": "https://thehackernews.com/2026/10/teamviewer-flaw-lets-remote-computers.html",
+      "desc": "TeamViewer has fixed a flaw that lets the machine being controlled in a remote session attack the computer that connected to control it. In a TeamViewer session, the computer that connects and takes control is the viewer, and the machine it controls is the host.\n\nA malicious or compromised host can exploit the flaw to crash the viewer's TeamViewer and, depending on the platform, may also run",
+      "pubDate": "Fri, 30 Oct 2026 20:47:28 +0530",
+      "source": "The Hacker News",
+      "cat": "threats",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "TheHa-18846f6cf361",
+      "title": "WordPress RCE Flaw Draws Nearly 63,000 Attack Attempts in Just 24 Hours",
+      "link": "https://thehackernews.com/2026/10/wordpress-rce-flaw-draws-nearly-63000.html",
+      "desc": "Threat actors have been observed attempting to exploit a high-severity security flaw in WordPress Core shortly after patches were released.\n\nThe vulnerability, which does not have a CVE identifier, relates to a case of remote code execution impacting WordPress Core versions 4.7 through 7.1.3. It carries a CVSS score of 8.1 on the CVSS scoring system. Patches for the flaw were released on October",
+      "pubDate": "Fri, 30 Oct 2026 19:38:14 +0530",
+      "source": "The Hacker News",
+      "cat": "threats",
+      "sev": "critical",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
     {
       "id": "TheHa-2219aeb69d4d",
       "title": "Trezor Warns of Suspected Hardware Implant in One of Its Wallets Sold by CryptoBilis",
@@ -341,63 +398,6 @@
       "ts": 0
     },
     {
-      "id": "TheHa-eed85d3cbb5e",
-      "title": "Telegram Android Flaw Lets Attackers Run Code When Users Answer Voice Calls",
-      "link": "https://thehackernews.com/2026/10/telegram-android-flaw-lets-attackers.html",
-      "desc": "A flaw in Telegram for Android could be chained with two other bugs to take full control of a victim's phone through a voice call, once the victim answered, according to security startup NebuSec.\n\nThe attacker needed only an ordinary Telegram account. Telegram fixed the flaw in version 12.10.4 of the app, released in late September, and NebuSec&nbsp;disclosed it on October 29.\n\nCombined with an",
-      "pubDate": "Thu, 29 Oct 2026 17:09:18 +0530",
-      "source": "The Hacker News",
-      "cat": "threats",
-      "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "TheHa-a5b445ea658b",
-      "title": "The Rise of the Threat Operator: How AI Will Redefine Security Operations and Careers",
-      "link": "https://thehackernews.com/2026/10/the-rise-of-threat-operator-how-ai-will.html",
-      "desc": "AI is beginning to take over much of the work that has traditionally defined the security analyst's job. Investigating alerts, collecting evidence, correlating activity across tools, and executing response actions are becoming tasks that AI systems can perform on their own. As these capabilities mature, security operations centers (SOCs) will see major changes in how work is organized, how",
-      "pubDate": "Thu, 29 Oct 2026 17:03:41 +0530",
-      "source": "The Hacker News",
-      "cat": "threats",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "TheHa-b2a4336d12ba",
-      "title": "26,400 Valid Cloud and AI Credentials Found Exposed in Public Gitee Repositories",
-      "link": "https://thehackernews.com/2026/10/26400-valid-cloud-and-ai-credentials.html",
-      "desc": "26,400 credentials that developers left in public code on Gitee, a Chinese code-hosting service, still worked when a researcher tested them. Anyone who copied one from that code could have used it.\n\nIndependent researcher Ben Zimmermann found them by scanning 7.25 million public Gitee repositories and&nbsp;reported the results&nbsp;on October 28. Most were keys for cloud and AI services, led by",
-      "pubDate": "Thu, 29 Oct 2026 17:03:15 +0530",
-      "source": "The Hacker News",
-      "cat": "threats",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
       "id": "Krebs-1573c1d6ecaa",
       "title": "Widespread PHP Flaw May Cause Many Site Outages Today",
       "link": "https://krebsonsecurity.com/2026/10/widespread-php-flaw-may-cause-many-site-outages-today/",
@@ -577,6 +577,25 @@
       "source": "Krebs on Security",
       "cat": "threats",
       "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "Securi-2828aadf4689",
+      "title": "PHP2Shell Attacks Root Palo Alto Firewalls but Fail Against WordPress",
+      "link": "https://www.securityweek.com/php2shell-attacks-root-palo-alto-firewalls-but-fail-against-wordpress/",
+      "desc": "Over 22.6 million exposed instances are potentially affected by the critical PHP flaws that have been targeted for over a week.\nThe post PHP2Shell Attacks Root Palo Alto Firewalls but Fail Against WordPress appeared first on SecurityWeek.",
+      "pubDate": "Fri, 30 Oct 2026 15:09:25 +0000",
+      "source": "SecurityWeek",
+      "cat": "threats",
+      "sev": "high",
       "tags": [],
       "iocs": {
         "cves": [],
@@ -773,14 +792,90 @@
       "ts": 0
     },
     {
-      "id": "Securi-a1cd53112151",
-      "title": "When Risk Becomes Personal: What Security Leaders Can Learn From a Cancer Diagnosis",
-      "link": "https://www.securityweek.com/when-risk-becomes-personal-what-security-leaders-can-learn-from-a-cancer-diagnosis/",
-      "desc": "Risk managers are trained to spot weak signals, plan for disruption and make hard decisions under uncertainty. But the discipline looks different when the risk is not a system or an enterprise, but you.\nThe post When Risk Becomes Personal: What Security Leaders Can Learn From a Cancer Diagnosis appeared first on SecurityWeek.",
-      "pubDate": "Thu, 29 Oct 2026 16:30:00 +0000",
-      "source": "SecurityWeek",
+      "id": "GBHack-602fbb2c181a",
+      "title": "North Korean Hackers Steal $6.36 Billion From Binance in Largest Crypto Hack Ever",
+      "link": "https://gbhackers.com/north-korean-hackers-binance-theft/",
+      "desc": "North Korea&#8217;s TraderTraitor group drained about $6.36 billion from Binance wallets across ten blockchains on October 29, 2026. TRM Labs, which published the findings, calls it the largest crypto theft on record. TRM Labs says the total is about four times the $1.5 billion Bybit heist of February 2025. North Korean hackers Binance theft According [&#8230;]\nThe post North Korean Hackers Steal ",
+      "pubDate": "Fri, 30 Oct 2026 16:57:47 +0000",
+      "source": "GBHackers",
       "cat": "threats",
       "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "GBHack-eef362d1ae51",
+      "title": "Unauthorized Codex and Claude Code Relays Disable Security Protections at 12 Organizations",
+      "link": "https://gbhackers.com/codex-claude-code-relays/",
+      "desc": "Symantec&#8217;s Threat Hunter Team has found an unauthorized relay service that installs the genuine OpenAI Codex and Anthropic Claude Code CLIs, then rewrites their settings to turn off sandboxing. It has affected 12 organizations since early 2026, mostly in mainland China. Codex Claude Code relays AI coding agents read files, write code, and run commands [&#8230;]\nThe post Unauthorized Codex an",
+      "pubDate": "Fri, 30 Oct 2026 15:23:20 +0000",
+      "source": "GBHackers",
+      "cat": "threats",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "GBHack-fd61387c87a4",
+      "title": "Japan Faces Growing Cyberattack Crisis as AI Tools Help Hackers Target Businesses and Government",
+      "link": "https://gbhackers.com/japan-ai-cyberattacks/",
+      "desc": "Japan is dealing with an intense wave of AI-assisted intrusions that has exposed weaknesses in its corporate and public-sector defenses. Dozens of incidents, from brokerages to delivery firms, have made data leaks routine. Japan AI cyberattacks According to reporting published by Bloomberg, on October 28, Japan&#8217;s Ministry of Economy, Trade and Industry (METI) disclosed unauthorized [&#8230;]",
+      "pubDate": "Fri, 30 Oct 2026 15:13:24 +0000",
+      "source": "GBHackers",
+      "cat": "breaches",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "GBHack-1ba5ee8637ae",
+      "title": "Hackers Target Asian Governments With New NetamLoader Malware Hidden in Windows Update Files",
+      "link": "https://gbhackers.com/netamloader-malware/",
+      "desc": "Kaspersky researchers have uncovered NetamLoader, a .NET loading framework built on XAML markup. It appears to be a supply-chain attack on a customized Windows build used only by Asian government bodies. No known APT group has been linked to it. NetamLoader malware Kaspersky Security Network flagged a .config file that used AppDomainManager injection to load [&#8230;]\nThe post Hackers Target Asian",
+      "pubDate": "Fri, 30 Oct 2026 15:02:50 +0000",
+      "source": "GBHackers",
+      "cat": "malware",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "GBHack-90ebe4f49247",
+      "title": "Hackers Use Cursor and Claude AI to Automate Attacks in Aur0ra Ransomware Operations",
+      "link": "https://gbhackers.com/aur0ra-ransomware-ai-attacks/",
+      "desc": "The GOLD OGRE cybercrime group is using AI coding agents, including Cursor and Anthropic&#8217;s Claude, to automate intrusions for Aur0ra ransomware (Aurora). Sophos researchers say the agents moved from credential access to domain administrator with little human involvement. Aur0ra ransomware AI attacks In May 2026, Sophos Counter Threat Unit (CTU) researchers reported an AI-assisted post-exploi",
+      "pubDate": "Fri, 30 Oct 2026 14:35:49 +0000",
+      "source": "GBHackers",
+      "cat": "malware",
+      "sev": "high",
       "tags": [],
       "iocs": {
         "cves": [],
@@ -883,101 +978,6 @@
       "source": "GBHackers",
       "cat": "threats",
       "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "GBHack-a29cc495cf59",
-      "title": "New Kairos DDoS Botnet Hijacks Linux Devices to Overwhelm Servers With Thousands of TCP Connections",
-      "link": "https://gbhackers.com/kairos-ddos-botnet/",
-      "desc": "Nozomi Networks Labs has documented Kairos, a previously undocumented Go-based DDoS bot for Linux. It turns compromised Linux devices into attack nodes that exhaust a victim&#8217;s connection capacity with thousands of idle TCP sessions. Kairos DDoS botnet Honeypot telemetry captured three Kairos builds. They differ only in the hard-coded C2 address and the Go compiler [&#8230;]\nThe post New Kair",
-      "pubDate": "Fri, 30 Oct 2026 10:49:33 +0000",
-      "source": "GBHackers",
-      "cat": "threats",
-      "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "GBHack-f152a7382c24",
-      "title": "DarkSword iOS Exploit Chain Bypasses Safari Sandbox and Steals Apple Notes Data",
-      "link": "https://gbhackers.com/darksword-ios-exploit-chain/",
-      "desc": "Zimperium zLabs has found that the Coruna iOS exploit campaign now serves two iOS exploit chains, picked by the victim&#8217;s iOS version. A DarkSword-derived chain escapes Safari&#8217;s sandbox on newer iPhones and has stolen Apple Notes data. Recent coverage of Coruna and DarkSword spreading through Instagram ads and abandoned tags shows the kits are still [&#8230;]\nThe post DarkSword iOS Expl",
-      "pubDate": "Fri, 30 Oct 2026 10:23:27 +0000",
-      "source": "GBHackers",
-      "cat": "threats",
-      "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "GBHack-60a8dfa72742",
-      "title": "New AI-Powered NIK C2 Malware Uses OpenAI API to Help Hackers Steal Data and Control Windows PCs",
-      "link": "https://gbhackers.com/nik-c2-malware/",
-      "desc": "Cisco Talos has uncovered NIK C2, a Go-based, 64-bit Windows remote access tool that embeds a working OpenAI client. Operators can send prompts through an infected machine and read the model&#8217;s replies in their C2 panel. NIK C2 malware According to technical research published by Cisco Talos, the implant talks to its server over TLS-secured [&#8230;]\nThe post New AI-Powered NIK C2 Malware Use",
-      "pubDate": "Fri, 30 Oct 2026 09:45:09 +0000",
-      "source": "GBHackers",
-      "cat": "malware",
-      "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "GBHack-508f0c3d9869",
-      "title": "Claude AI Exposes Internal Sandbox Details That Help Researcher Bypass Local Connection Restrictions",
-      "link": "https://gbhackers.com/claude-ai-sandbox-restrictions/",
-      "desc": "A Bishop Fox researcher investigating Claude’s sandbox obtained an internal control binary, recovered authorization tokens from process memory, and bypassed a local connection restriction to reach a sandbox control service. Anthropic said the sandbox observations did not qualify as security issues because its security boundaries sit outside the untrusted sandbox. According to technical research pu",
-      "pubDate": "Fri, 30 Oct 2026 08:21:53 +0000",
-      "source": "GBHackers",
-      "cat": "threats",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "GBHack-7865f5edc7c8",
-      "title": "Malicious Claude Code VS Code Extension Installs Persistent SSH Backdoor to Give Attackers Remote Access",
-      "link": "https://gbhackers.com/malicious-claude-code-vs-code-extension/",
-      "desc": "A trojanized version of the Claude Code extension, identified as anthropic.claude-code version 2.1.313, contains a malicious loader that enables persistent SSH access to developer systems. Researchers analyzed an artifact obtained from Open VSX and discovered 66 lines of JavaScript added to the legitimate extension bundle. This additional code lets the attacker&#8217;s script run before the [&#823",
-      "pubDate": "Fri, 30 Oct 2026 08:07:53 +0000",
-      "source": "GBHackers",
-      "cat": "malware",
-      "sev": "high",
       "tags": [],
       "iocs": {
         "cves": [],
@@ -2371,6 +2371,25 @@
       "ts": 0
     },
     {
+      "id": "Malwar-3f4f58056bb9",
+      "title": "Fake PDF and search tools hijacked searches for 13.4 million Chrome users",
+      "link": "https://www.malwarebytes.com/blog/news/2026/10/fake-pdf-and-search-tools-hijacked-searches-for-13-4-million-chrome-users",
+      "desc": "319 Chrome extensions sent search queries through servers controlled by their operators, allowing them to see what users searched for.",
+      "pubDate": "Fri, 30 Oct 2026 15:25:41 GMT",
+      "source": "Malwarebytes",
+      "cat": "malware",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
       "id": "Malwar-fdb1a8e80a94",
       "title": "Photo ID, bank checks, face scan? The UK’s age-check options",
       "link": "https://www.malwarebytes.com/blog/news/2026/10/photo-id-bank-checks-face-scan-the-uks-age-check-options",
@@ -2450,7 +2469,7 @@
       "id": "Malwar-bc2c027a360d",
       "title": "Have an older iPhone or iPad? Apple has a security update for you",
       "link": "https://www.malwarebytes.com/blog/bugs/2026/10/have-an-older-iphone-or-ipad-apple-has-a-security-update-for-you",
-      "desc": "Apple has backported a fix for a CoreGraphics flaw reportedly exploited in targeted attacks to the iPhone XS, XS Max and XR, and seventh-generation iPad.",
+      "desc": "Apple has fixed a flaw exploited in targeted attacks to the iPhone XS, XS Max and XR, and seventh-generation iPad.",
       "pubDate": "Thu, 29 Oct 2026 11:03:18 GMT",
       "source": "Malwarebytes",
       "cat": "malware",
@@ -2564,7 +2583,7 @@
       "id": "Malwar-6797349e6752",
       "title": "Samsung TVs without mics may listen through soundbars, researcher says",
       "link": "https://www.malwarebytes.com/blog/privacy/2026/10/samsung-tvs-without-mics-may-listen-through-soundbars-researcher-says",
-      "desc": "The most startling claim is that a Samsung TV without a built-in microphone may use a connected soundbar or Bluetooth microphone to listen to the room.",
+      "desc": "TVs without a built-in microphone may use a connected soundbar or Bluetooth microphone to listen to the room.",
       "pubDate": "Tue, 27 Oct 2026 10:44:40 GMT",
       "source": "Malwarebytes",
       "cat": "malware",
@@ -2626,25 +2645,6 @@
       "source": "Malwarebytes",
       "cat": "malware",
       "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "Malwar-77459fcad2d3",
-      "title": "A week in security (October 19 – October 25)",
-      "link": "https://www.malwarebytes.com/blog/news/2026/10/a-week-in-security-october-19-october-25",
-      "desc": "A list of topics we covered in the week of October 19 to October 25 of 2026",
-      "pubDate": "Mon, 26 Oct 2026 07:00:00 GMT",
-      "source": "Malwarebytes",
-      "cat": "malware",
-      "sev": "medium",
       "tags": [],
       "iocs": {
         "cves": [],
@@ -2846,6 +2846,25 @@
       "ts": 0
     },
     {
+      "id": "Schnei-fc040dd5ce77",
+      "title": "Bloatware in Aftermarket Auto Parts",
+      "link": "https://www.schneier.com/blog/archives/2026/10/bloatware-in-aftermarket-auto-parts.html",
+      "desc": "This story is interesting:\nOne Civic owner purchased a cheap aftermarket head unit off Amazon, and decided to have Claude work its magic on it, like it would a smart TV. What was reportedly discovered isn’t surprising, but is worth knowing about.\nAmong the pre-installed bloatware&#8212;­or spyware, if you’re being less charitable­&#8212;was a voice assistant equipped with WebView, an Android syste",
+      "pubDate": "2026-10-30T15:20:02Z",
+      "source": "Schneier",
+      "cat": "tools",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
       "id": "Schnei-47ecbdfabbe0",
       "title": "Studying Fraudulent North Korean IT Workers",
       "link": "https://www.schneier.com/blog/archives/2026/10/studying-fraudulent-north-korean-it-workers.html",
@@ -3003,25 +3022,6 @@
       "link": "https://www.schneier.com/blog/archives/2026/10/training-ais-to-solve-captchas.html",
       "desc": "Interesting research:\nAbstract: Vision-language models (VLMs) can solve visual CAPTCHAs without task-specific training, but the agents built on them approach every challenge from scratch. For such an agent, the hundredth instance of a familiar puzzle costs as much time and compute as the first. Specialized detectors invert the trade-off, answering in milliseconds but only for categories they were ",
       "pubDate": "2026-10-19T11:07:43Z",
-      "source": "Schneier",
-      "cat": "tools",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "Schnei-d2459acabd46",
-      "title": "Friday Squid Blogging: Squid Before the Chicxulub Meteor Impact",
-      "link": "https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-squid-before-the-chicxulub-meteor-impact.html",
-      "desc": "New research shows that squid lived all around the globe even before the Cretaceous-Paleogene mass extinction event.\nAs usual, you can also use this squid post to talk about the security stories in the news that I haven&#8217;t covered.\nBlog moderation policy.",
-      "pubDate": "2026-10-16T21:06:47Z",
       "source": "Schneier",
       "cat": "tools",
       "sev": "medium",
@@ -3701,25 +3701,6 @@
       "ts": 0
     },
     {
-      "id": "r/nets-daed20d2b2f1",
-      "title": "How Linux Trusted Bytes That IPsec Never Authenticated",
-      "link": "https://www.reddit.com/r/netsec/comments/1xjfbn1/how_linux_trusted_bytes_that_ipsec_never/",
-      "desc": "&#32; submitted by &#32;  /u/louis703   [link] &#32; [comments]",
-      "pubDate": "2026-10-30T13:25:32+00:00",
-      "source": "r/netsec",
-      "cat": "community",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
       "id": "r/nets-8ead70ce6eac",
       "title": "Supermicro BMC ipmi cves",
       "link": "https://www.reddit.com/r/netsec/comments/1xjeg2c/supermicro_bmc_ipmi_cves/",
@@ -3846,6 +3827,25 @@
       "ts": 0
     },
     {
+      "id": "r/nets-670aaee96537",
+      "title": "php2bitcoin x brotli2coin: live hacking stream",
+      "link": "https://www.reddit.com/r/netsec/comments/1xj4co1/php2bitcoin_x_brotli2coin_live_hacking_stream/",
+      "desc": "I wanted to figure out just how exploitable php2shell and http2shell were in practice, so I've created two purposely vulnerable web apps: https://brotli2bitcoin.com &amp; https://php2bitcoin.com with a standard production config -- pop an RCE and find the flag to claim the $1K BTC. And to make it interesting, I setup a live stream showing every single attack attempt happening live https://www.yout",
+      "pubDate": "2026-10-30T03:06:20+00:00",
+      "source": "r/netsec",
+      "cat": "community",
+      "sev": "critical",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
       "id": "r/nets-6c562f096165",
       "title": "Stopping Remote Code Execution with Sandboxes, CVE-2026-115995: Rust Zip",
       "link": "https://www.reddit.com/r/netsec/comments/1xiohqc/stopping_remote_code_execution_with_sandboxes/",
@@ -3864,25 +3864,6 @@
         "cves": [
           "CVE-2026-115995"
         ],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "r/nets-670aaee96537",
-      "title": "php2bitcoin x brotli2coin: live hacking stream",
-      "link": "https://www.reddit.com/r/netsec/comments/1xj4co1/php2bitcoin_x_brotli2coin_live_hacking_stream/",
-      "desc": "I wanted to figure out just how exploitable php2shell and http2shell were in practice, so I've created two purposely vulnerable web apps: https://brotli2bitcoin.com &amp; https://php2bitcoin.com with a standard production config -- pop an RCE and find the flag to claim the $1K BTC. And to make it interesting, I setup a live stream showing every single attack attempt happening live https://www.yout",
-      "pubDate": "2026-10-30T03:06:20+00:00",
-      "source": "r/netsec",
-      "cat": "community",
-      "sev": "critical",
-      "tags": [],
-      "iocs": {
-        "cves": [],
         "ips": [],
         "hashes": []
       },
@@ -3915,6 +3896,25 @@
       "link": "https://www.reddit.com/r/netsec/comments/1xi65vs/xml_signature_wrapping_authentication_bypass_in/",
       "desc": "Egov.Integrations.MPass.Saml, the ASP.NET Core handler that relying parties use to verify MPass SAML 2.0 responses, verified signatures like this in every version before 10.0.4:  signedXml.LoadXml(signatureElement); return signedXml.CheckSignature(publicCertificate, verifySignatureOnly: true);  CheckSignature confirms that the references in SignedInfo are validly signed. Nothing tied a signed refe",
       "pubDate": "2026-10-29T01:00:22+00:00",
+      "source": "r/netsec",
+      "cat": "community",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "r/nets-ea8636165c67",
+      "title": "Scanning 7.25 Million Public Repositories on China's Largest Git Platform for Secrets",
+      "link": "https://www.reddit.com/r/netsec/comments/1xhrfhu/scanning_725_million_public_repositories_on/",
+      "desc": "&#32; submitted by &#32;  /u/Grand_Fan_9804   [link] &#32; [comments]",
+      "pubDate": "2026-10-28T15:36:25+00:00",
       "source": "r/netsec",
       "cat": "community",
       "sev": "medium",
