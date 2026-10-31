@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T10:45:35.410544+00:00",
+  "generated_at": "2026-10-31T15:58:04.035128+00:00",
   "sources_ok": 15,
   "sources_total": 20,
   "source_status": {
@@ -91,6 +91,25 @@
   },
   "total": 195,
   "articles": [
+    {
+      "id": "TheHa-cc1e8d132b76",
+      "title": "Chainalysis Confirms Intrusion Into Internal Tools and Exposure of Customer Identity Data",
+      "link": "https://thehackernews.com/2026/10/chainalysis-confirms-intrusion-into.html",
+      "desc": "American blockchain analysis firm Chainalysis said it was the target of a cybersecurity incident in which an external actor accessed non-sensitive customer data.\n\nHowever, the company noted that the breach did not result in unauthorized access to its investigation content, authentication credentials, or session tokens.\n\n\"This month, Chainalysis detected an external actor using offensive agentic",
+      "pubDate": "Sat, 31 Oct 2026 17:31:56 +0530",
+      "source": "The Hacker News",
+      "cat": "breaches",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
     {
       "id": "TheHa-d7e38253da70",
       "title": "Attackers Chain Three Ivanti Connect Secure Flaws to Gain Unauthenticated Root Access",
@@ -379,32 +398,6 @@
       "ts": 0
     },
     {
-      "id": "TheHa-ef8989bf1a21",
-      "title": "Linux Kernel TCP Flaw With 9.8 CVSS Score Affects Ubuntu, Red Hat and Other Distributions",
-      "link": "https://thehackernews.com/2026/10/linux-kernel-tcp-flaw-with-98-cvss.html",
-      "desc": "A flaw in the Linux kernel's TCP code, tracked as&nbsp;CVE-2026-98432, affects Ubuntu, Red Hat Enterprise Linux (RHEL), and other Linux distributions. The kernel's own CVE team rates it 9.8 out of 10 on the CVSS scale.\n\nAnthropic said&nbsp;on October 27 that its AI model wrote an exploit that uses the flaw to let a remote attacker with no credentials run commands as root on Linux servers with a",
-      "pubDate": "Thu, 29 Oct 2026 21:27:05 +0530",
-      "source": "The Hacker News",
-      "cat": "threats",
-      "sev": "high",
-      "tags": [
-        {
-          "t": "CVE-2026-98432",
-          "cls": "cve"
-        }
-      ],
-      "iocs": {
-        "cves": [
-          "CVE-2026-98432"
-        ],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
       "id": "Krebs-1573c1d6ecaa",
       "title": "Widespread PHP Flaw May Cause Many Site Outages Today",
       "link": "https://krebsonsecurity.com/2026/10/widespread-php-flaw-may-cause-many-site-outages-today/",
@@ -595,6 +588,25 @@
       "ts": 0
     },
     {
+      "id": "Securi-a7bc41e1bdf5",
+      "title": "Syrian Hacker Gets Prison Time in US After Over a Decade on the Run",
+      "link": "https://www.securityweek.com/syrian-hacker-gets-prison-time-in-us-after-over-a-decade-on-the-run/",
+      "desc": "A US court sentenced Syrian hacker Ahmad Umar Agha to 42 months for pro-Assad attacks on media, businesses, and government entities.\nThe post Syrian Hacker Gets Prison Time in US After Over a Decade on the Run appeared first on SecurityWeek.",
+      "pubDate": "Sat, 31 Oct 2026 11:00:00 +0000",
+      "source": "SecurityWeek",
+      "cat": "threats",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
       "id": "Securi-2828aadf4689",
       "title": "PHP2Shell Attacks Root Palo Alto Firewalls but Fail Against WordPress",
       "link": "https://www.securityweek.com/php2shell-attacks-root-palo-alto-firewalls-but-fail-against-wordpress/",
@@ -772,25 +784,6 @@
         "cves": [
           "CVE-2026-111585"
         ],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "Securi-77196d856e40",
-      "title": "$6 Billion Binance Hack Bears Hallmarks of North Korea’s TraderTraitor",
-      "link": "https://www.securityweek.com/6-billion-binance-hack-bears-hallmarks-of-north-koreas-tradertraitor/",
-      "desc": "Blockchain analysts link the record crypto theft to North Korean hackers, as Binance probes a possibly compromised engineer laptop.\nThe post $6 Billion Binance Hack Bears Hallmarks of North Korea&#8217;s TraderTraitor appeared first on SecurityWeek.",
-      "pubDate": "Fri, 30 Oct 2026 08:16:26 +0000",
-      "source": "SecurityWeek",
-      "cat": "threats",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
         "ips": [],
         "hashes": []
       },
@@ -2656,11 +2649,49 @@
       "ts": 0
     },
     {
-      "id": "SANSI-b36f75c9f856",
-      "title": "YARA-X 1.22.1 Release, (Sun, Oct 25th)",
-      "link": "https://isc.sans.edu/diary/rss/33454",
+      "id": "SANSI-7a4cdc48c9e4",
+      "title": "Wireshark 5.0.0rc1 Release, (Sat, Oct 31st)",
+      "link": "https://isc.sans.edu/diary/rss/33476",
+      "desc": "Wireshark Release Candidate 5.0.0 was published: soon we can expect a new major version of Wireshark.&#xd;",
+      "pubDate": "Sat, 31 Oct 2026 10:52:53 GMT",
+      "source": "SANS ISC",
+      "cat": "vulns",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "SANSI-522e02f83ec5",
+      "title": "YARA-X 1.22.1 Release, (Sat, Oct 31st)",
+      "link": "https://isc.sans.edu/diary/rss/33474",
       "desc": "YARA-X&&#x23&#x3b;x26&#x3b;&#x23&#x3b;39&#x3b;s 1.22.1 is a bugfix version, it brings 2 bugfixes.&#xd;",
-      "pubDate": "Sat, 31 Oct 2026 10:43:40 GMT",
+      "pubDate": "Sat, 31 Oct 2026 10:48:17 GMT",
+      "source": "SANS ISC",
+      "cat": "vulns",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "SANSI-89e7b6f1dd9b",
+      "title": "YARA-X 1.22.0 Release, (Sun, Oct 25th)",
+      "link": "https://isc.sans.edu/diary/rss/33454",
+      "desc": "YARA-X&&#x23;x26;&#x23;39&&#x23;x26;&#x23;x3b;s 1.22.0 release brings 11 improvements and 9 bugfixes.&#xd;",
+      "pubDate": "Sat, 31 Oct 2026 10:45:40 GMT",
       "source": "SANS ISC",
       "cat": "vulns",
       "sev": "medium",
@@ -2794,44 +2825,6 @@
       "link": "https://isc.sans.edu/diary/rss/33458",
       "desc": "Apple today released patches for 304 vulnerabilties. This number is still in line with prior Apple updates, and comes just about a month after the last apple update.&#xd;",
       "pubDate": "Tue, 27 Oct 2026 02:09:55 GMT",
-      "source": "SANS ISC",
-      "cat": "vulns",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "SANSI-8ad529bd403c",
-      "title": "Looking for a Language &#x5b;Guest Diary&#x5d;, (Wed, Oct 21st)",
-      "link": "https://isc.sans.edu/diary/rss/33442",
-      "desc": "&#x5b;This is a Guest Diary by Jeffray Spence, an ISC intern as part of the SANS.edu BACS program&#x5d;&#xd;",
-      "pubDate": "Mon, 26 Oct 2026 09:38:03 GMT",
-      "source": "SANS ISC",
-      "cat": "vulns",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "SANSI-3e4240d9aeb3",
-      "title": "ISC Stormcast For Monday, October 26th, 2026 https://isc.sans.edu/podcastdetail/10150, (Mon, Oct 26th)",
-      "link": "https://isc.sans.edu/diary/rss/33456",
-      "desc": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
-      "pubDate": "Mon, 26 Oct 2026 03:30:12 GMT",
       "source": "SANS ISC",
       "cat": "vulns",
       "sev": "medium",
@@ -3025,6 +3018,25 @@
       "source": "Schneier",
       "cat": "tools",
       "sev": "critical",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "ESETB-fec591c56d4d",
+      "title": "This month in security with Tony Anscombe – October 2026 edition",
+      "link": "https://www.welivesecurity.com/en/videos/month-security-tony-anscombe-october-2026/",
+      "desc": "The PHP2Shell disclosure and other major cybersecurity news this month brought into relief the need for well-thought-out cyber-readiness plans",
+      "pubDate": "Fri, 30 Oct 2026 15:03:14 +0000",
+      "source": "ESET Blog",
+      "cat": "malware",
+      "sev": "medium",
       "tags": [],
       "iocs": {
         "cves": [],
@@ -3303,25 +3315,6 @@
       "source": "ESET Blog",
       "cat": "malware",
       "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "ESETB-d1206041876f",
-      "title": "The devil is still in the email – but wears a new mask",
-      "link": "https://www.welivesecurity.com/en/business-security/devil-email-wearing-new-mask/",
-      "desc": "When phishing can increasingly pass familiar checks, avoiding or limiting the damage depends on how quickly your company can detect and contain the attack",
-      "pubDate": "Mon, 28 Sep 2026 09:00:00 +0000",
-      "source": "ESET Blog",
-      "cat": "malware",
-      "sev": "high",
       "tags": [],
       "iocs": {
         "cves": [],
@@ -3656,6 +3649,25 @@
       "ts": 0
     },
     {
+      "id": "r/nets-41466f9bf471",
+      "title": "Cloud Exposure Index 2026: 484,142 open buckets mapped",
+      "link": "https://www.reddit.com/r/netsec/comments/1xkbgw0/cloud_exposure_index_2026_484142_open_buckets/",
+      "desc": "484,142 publicly listable cloud buckets, 18 billion files, 80,495 .env files and two thirds of them written this year: we indexed open S3, Azure, GCS, Spaces and OSS storage without opening a single file  &#32; submitted by &#32;  /u/lexcor   [link] &#32; [comments]",
+      "pubDate": "2026-10-31T14:20:54+00:00",
+      "source": "r/netsec",
+      "cat": "community",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
       "id": "r/nets-5bf824034e16",
       "title": "Claude vs Code Extension compromised",
       "link": "https://www.reddit.com/r/netsec/comments/1xjeb39/claude_vs_code_extension_compromised/",
@@ -3896,25 +3908,6 @@
       "link": "https://www.reddit.com/r/netsec/comments/1xi65vs/xml_signature_wrapping_authentication_bypass_in/",
       "desc": "Egov.Integrations.MPass.Saml, the ASP.NET Core handler that relying parties use to verify MPass SAML 2.0 responses, verified signatures like this in every version before 10.0.4:  signedXml.LoadXml(signatureElement); return signedXml.CheckSignature(publicCertificate, verifySignatureOnly: true);  CheckSignature confirms that the references in SignedInfo are validly signed. Nothing tied a signed refe",
       "pubDate": "2026-10-29T01:00:22+00:00",
-      "source": "r/netsec",
-      "cat": "community",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "r/nets-ea8636165c67",
-      "title": "Scanning 7.25 Million Public Repositories on China's Largest Git Platform for Secrets",
-      "link": "https://www.reddit.com/r/netsec/comments/1xhrfhu/scanning_725_million_public_repositories_on/",
-      "desc": "&#32; submitted by &#32;  /u/Grand_Fan_9804   [link] &#32; [comments]",
-      "pubDate": "2026-10-28T15:36:25+00:00",
       "source": "r/netsec",
       "cat": "community",
       "sev": "medium",
