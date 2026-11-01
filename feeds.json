@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-01T09:36:47.119861+00:00",
-  "sources_ok": 15,
+  "generated_at": "2026-11-01T16:38:01.003982+00:00",
+  "sources_ok": 16,
   "sources_total": 20,
   "source_status": {
     "The Hacker News": {
@@ -69,9 +69,8 @@
       "articles": 15
     },
     "r/Pentesting": {
-      "ok": false,
-      "articles": 0,
-      "error": "429 Client Error: Too Many Requests for url: https://www.reddit.com/r/Pentesting/.rss"
+      "ok": true,
+      "articles": 15
     },
     "r/redteamsec": {
       "ok": false,
@@ -89,7 +88,7 @@
       "error": "429 Client Error: Too Many Requests for url: https://www.reddit.com/r/blueteamsec/.rss"
     }
   },
-  "total": 195,
+  "total": 210,
   "articles": [
     {
       "id": "TheHa-122fa790e1ea",
@@ -574,6 +573,25 @@
       "ts": 0
     },
     {
+      "id": "Securi-179ca48ee59d",
+      "title": "Northstar Security Exits Stealth With $7M to Expose Toxic Risk Combinations",
+      "link": "https://www.securityweek.com/northstar-security-exits-stealth-with-7m-to-expose-toxic-risk-combinations/",
+      "desc": "The startup maps how identities, assets and vulnerabilities connect, and uses AI agents to find and fix risky combinations of issues.\nThe post Northstar Security Exits Stealth With $7M to Expose Toxic Risk Combinations appeared first on SecurityWeek.",
+      "pubDate": "Sun, 01 Nov 2026 11:15:00 +0000",
+      "source": "SecurityWeek",
+      "cat": "threats",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
       "id": "Securi-a7bc41e1bdf5",
       "title": "Syrian Hacker Gets Prison Time in US After Over a Decade on the Run",
       "link": "https://www.securityweek.com/syrian-hacker-gets-prison-time-in-us-after-over-a-decade-on-the-run/",
@@ -743,32 +761,6 @@
       "iocs": {
         "cves": [
           "CVE-2026-97229"
-        ],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "Securi-fafcad766729",
-      "title": "TeamViewer Flaw Could Let Malicious Hosts Take Over Support Technicians’ Machines",
-      "link": "https://www.securityweek.com/teamviewer-flaw-could-let-malicious-hosts-take-over-support-technicians-machines/",
-      "desc": "An integer overflow tracked as CVE-2026-111585 could be used to execute arbitrary code on the viewer’s system.\nThe post TeamViewer Flaw Could Let Malicious Hosts Take Over Support Technicians&#8217; Machines appeared first on SecurityWeek.",
-      "pubDate": "Fri, 30 Oct 2026 08:44:49 +0000",
-      "source": "SecurityWeek",
-      "cat": "threats",
-      "sev": "high",
-      "tags": [
-        {
-          "t": "CVE-2026-111585",
-          "cls": "cve"
-        }
-      ],
-      "iocs": {
-        "cves": [
-          "CVE-2026-111585"
         ],
         "ips": [],
         "hashes": []
@@ -2246,18 +2238,18 @@
       "sev": "high",
       "tags": [
         {
-          "t": "CVE-2026-88772",
+          "t": "CVE-2026-88771",
           "cls": "cve"
         },
         {
-          "t": "CVE-2026-88771",
+          "t": "CVE-2026-88772",
           "cls": "cve"
         }
       ],
       "iocs": {
         "cves": [
-          "CVE-2026-88772",
-          "CVE-2026-88771"
+          "CVE-2026-88771",
+          "CVE-2026-88772"
         ],
         "ips": [],
         "hashes": []
@@ -3616,17 +3608,43 @@
       "ts": 0
     },
     {
-      "id": "r/nets-b1e256700e0e",
+      "id": "r/nets-67719a2b5cc9",
       "title": "r/netsec monthly discussion & tool thread",
-      "link": "https://www.reddit.com/r/netsec/comments/1wuzgqr/rnetsec_monthly_discussion_tool_thread/",
+      "link": "https://www.reddit.com/r/netsec/comments/1xl4ghe/rnetsec_monthly_discussion_tool_thread/",
       "desc": "Questions regarding netsec and discussion related directly to netsec are welcome here, as is sharing tool links. Rules &amp; Guidelines  Always maintain civil discourse. Be awesome to one another - moderator intervention will occur if necessary. Avoid NSFW content unless absolutely necessary. If used, mark it as being NSFW. If left unmarked, the comment will be removed entirely. If linking to clas",
-      "pubDate": "2026-10-01T13:29:06+00:00",
+      "pubDate": "2026-11-01T14:29:24+00:00",
       "source": "r/netsec",
       "cat": "community",
       "sev": "medium",
       "tags": [],
       "iocs": {
         "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "r/nets-a7b83deeb668",
+      "title": "Mirage2FA stole 4,561 M365 session cookies despite MFA via AiTM proxy (CVE-2026-69836 CVSS 10.0) : detection rules and WHfB/Cloud Kerberos Trust hardening guide",
+      "link": "https://www.reddit.com/r/netsec/comments/1xkzjb0/mirage2fa_stole_4561_m365_session_cookies_despite/",
+      "desc": "&#32; submitted by &#32;  /u/doit4everyone   [link] &#32; [comments]",
+      "pubDate": "2026-11-01T10:15:16+00:00",
+      "source": "r/netsec",
+      "cat": "community",
+      "sev": "high",
+      "tags": [
+        {
+          "t": "CVE-2026-69836",
+          "cls": "cve"
+        }
+      ],
+      "iocs": {
+        "cves": [
+          "CVE-2026-69836"
+        ],
         "ips": [],
         "hashes": []
       },
@@ -3889,14 +3907,280 @@
       "ts": 0
     },
     {
-      "id": "r/nets-ea8636165c67",
-      "title": "Scanning 7.25 Million Public Repositories on China's Largest Git Platform for Secrets",
-      "link": "https://www.reddit.com/r/netsec/comments/1xhrfhu/scanning_725_million_public_repositories_on/",
-      "desc": "&#32; submitted by &#32;  /u/Grand_Fan_9804   [link] &#32; [comments]",
-      "pubDate": "2026-10-28T15:36:25+00:00",
-      "source": "r/netsec",
-      "cat": "community",
+      "id": "r/Pent-a028c3db3169",
+      "title": "moderation update",
+      "link": "https://www.reddit.com/r/Pentesting/comments/1r6rrpi/moderation_update/",
+      "desc": "hello, the subreddit has been not properly moderated for a few months now, obviously this leads to people not adhering to the rules, and an unhealthy community and also a chance of our subreddit getting banned, which harms all of us. this is why, i request you all, to follow the rules. the moderation team has been regaining consciousness and would be moderating the subreddit more frequently. you c",
+      "pubDate": "2026-02-17T00:59:00+00:00",
+      "source": "r/Pentesting",
+      "cat": "redteam",
       "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "r/Pent-477988f5a403",
+      "title": "Rustproxy alternative for burp in performance",
+      "link": "https://www.reddit.com/r/Pentesting/comments/1xkw23a/rustproxy_alternative_for_burp_in_performance/",
+      "desc": "I've been working on something I've wanted to build for a while — RustProxy, a web traffic analysis and debugging tool built with Rust. It currently has HTTP/HTTPS interception, request and response editing, HTTP history, Repeater, sitemap, passive security checks, Decoder, and Comparer. I've spent quite a bit of time building the core engine and desktop UI, and just reached the v1.0.0 milestone. ",
+      "pubDate": "2026-11-01T06:31:59+00:00",
+      "source": "r/Pentesting",
+      "cat": "redteam",
+      "sev": "critical",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "r/Pent-d965edb3e78c",
+      "title": "I built a menu-driven Wi-Fi auditing toolkit in pure Python — with an adapter watchdog that airgeddon doesn't have",
+      "link": "https://www.reddit.com/r/Pentesting/comments/1xl0cbn/i_built_a_menudriven_wifi_auditing_toolkit_in/",
+      "desc": "I’ve been learning Wi-Fi security and wrote my own toolkit in pure Python to understand how handshake capture, hashcat cracking and Evil Twin attacks actually work under the hood. It ended up being genuinely usable, so I’m sharing it. What it does: handshake capture (airodump+deauth or hcxdumptool with hashcat-valid output), resumable hashcat cracking sessions, and an airgeddon-style Evil Twin (ro",
+      "pubDate": "2026-11-01T11:04:06+00:00",
+      "source": "r/Pentesting",
+      "cat": "redteam",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "r/Pent-9bb6b14dd0d3",
+      "title": "whats after the ejpt",
+      "link": "https://www.reddit.com/r/Pentesting/comments/1xl08ij/whats_after_the_ejpt/",
+      "desc": "hello guys im 18 i just passed ejpt yesterday and wanna move next whats do you recommend next   &#32; submitted by &#32;  /u/Capital-Rub269   [link] &#32; [comments]",
+      "pubDate": "2026-11-01T10:58:11+00:00",
+      "source": "r/Pentesting",
+      "cat": "redteam",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "r/Pent-c819944ee7d6",
+      "title": "THM or HTB",
+      "link": "https://www.reddit.com/r/Pentesting/comments/1xkx9su/thm_or_htb/",
+      "desc": "I`m wanted to be better in cybersec, what i need to do? I`m not bad know networking, know how to work with linux. I want practise in pwn, where is better thm or htb? I`m already practise in htb, but in my opinion it`s overwhelming. Recomend pls  &#32; submitted by &#32;  /u/23VAGE   [link] &#32; [comments]",
+      "pubDate": "2026-11-01T07:49:48+00:00",
+      "source": "r/Pentesting",
+      "cat": "redteam",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "r/Pent-8f70c513c08c",
+      "title": "Thoughts on TCM Security certs?",
+      "link": "https://www.reddit.com/r/Pentesting/comments/1xks7c0/thoughts_on_tcm_security_certs/",
+      "desc": "Older posts I've found seem to recommend TCM Security certifications, but also noticed some negative feedback recently. https://www.reddit.com/r/Pentesting/comments/1xiyya7/pwpa_exam_question/ https://www.reddit.com/r/offensive_security/comments/1wcp3tz/avoid_tcm_security_certifications_broken_lab/ Are they still worth it for the knowledge / building up skill before more advanced certs?  &#32; sub",
+      "pubDate": "2026-11-01T02:44:31+00:00",
+      "source": "r/Pentesting",
+      "cat": "redteam",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "r/Pent-848025714a16",
+      "title": "( HELP )Path order after fundamentals: HTB Web Pentester path vs PortSwigger Academy (and HTB vs THM)",
+      "link": "https://www.reddit.com/r/Pentesting/comments/1xklpx6/help_path_order_after_fundamentals_htb_web/",
+      "desc": "Hey everyone, Background on where I'm at, so the advice can actually be targeted: I've completed Networking Fundamentals, Linux Fundamentals and the Nmap module on HTB Academy, and I'm currently finishing Web Requests. Goal is bug bounty, web-focused. Three concrete questions I haven't found a clear answer to:  Should I go through the full HTB &quot;Web Penetration Tester&quot; path (Intro to Web ",
+      "pubDate": "2026-10-31T21:20:36+00:00",
+      "source": "r/Pentesting",
+      "cat": "redteam",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "r/Pent-64f1effc845f",
+      "title": "How would you start over?",
+      "link": "https://www.reddit.com/r/Pentesting/comments/1xkhc36/how_would_you_start_over/",
+      "desc": "Hi All, Thank you for taking the time to read this. I’m so fascinated by computers, especially pentesting. It’s so interesting how you can break into computers. I know some IT stuff. As a hobby I’m learning computers. Doing stuff with Linux, set up Arch or anything. I have done some C++, C programming and many more. Even in Assembly I have written a function like atoi() for example. I really want ",
+      "pubDate": "2026-10-31T18:17:13+00:00",
+      "source": "r/Pentesting",
+      "cat": "redteam",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "r/Pent-67246ec1f046",
+      "title": "New to Pentesting",
+      "link": "https://www.reddit.com/r/Pentesting/comments/1xkol0o/new_to_pentesting/",
+      "desc": "Hi, I am new to pentesting.. I have installed Artex, connected it to a local Ollama LLM. I want to learn more about how i can use hermes and Artex for pentesting, are there any learning resources for it?  &#32; submitted by &#32;  /u/Riqraz   [link] &#32; [comments]",
+      "pubDate": "2026-10-31T23:35:48+00:00",
+      "source": "r/Pentesting",
+      "cat": "redteam",
+      "sev": "critical",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "r/Pent-2ed7e620dbeb",
+      "title": "wafmeow: a Go alternative to wafw00f for concurrent recon pipelines",
+      "link": "https://www.reddit.com/r/Pentesting/comments/1xkb3ku/wafmeow_a_go_alternative_to_wafw00f_for/",
+      "desc": "I maintain wafmeow, an open-source WAF fingerprinting CLI and Go library built on wafw00f’s fingerprint work. The main use case is adding WAF detection to a recon pipeline that already produces a list of URLs. It supports concurrent targets, streaming JSONL, and explicit reporting of incomplete or failed collection. It can even be stacked with httpx urls via stdin For a target list: wafmeow --targ",
+      "pubDate": "2026-10-31T14:05:13+00:00",
+      "source": "r/Pentesting",
+      "cat": "redteam",
+      "sev": "critical",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "r/Pent-13e2fe6f70c4",
+      "title": "For people working in Web, API, Mobile & Infrastructure VAPT: What should candidates actually prepare for interviews?",
+      "link": "https://www.reddit.com/r/Pentesting/comments/1xkejks/for_people_working_in_web_api_mobile/",
+      "desc": "Hey everyone! I'm currently preparing for cybersecurity/VAPT interviews and looking for practical guidance from people already working in penetration testing, application security, or security engineering. I'm focusing on four major areas: \\- Web Application Security: OWASP Top 10, manual testing, SQLi, XSS, SSRF, IDOR/BOLA, authentication, authorization, and business logic vulnerabilities. \\- API",
+      "pubDate": "2026-10-31T16:26:03+00:00",
+      "source": "r/Pentesting",
+      "cat": "redteam",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "r/Pent-fe4b143bffed",
+      "title": "Our Reporting Tool is Now Free and Open Source",
+      "link": "https://www.reddit.com/r/Pentesting/comments/1xjd4k1/our_reporting_tool_is_now_free_and_open_source/",
+      "desc": "I’m a pentester, and like most people here I’ve lost too many evenings to formatting reports. So I’ve open-sourced the reporting side of the platform I’ve been building: Pental Report. It’s free (AGPL-3.0) and runs on your own server with Docker, beside its own PostgreSQL. Your findings stay on your server and in your database. What it does: Engagements and findings  Engagements with phases (exter",
+      "pubDate": "2026-10-30T11:45:36+00:00",
+      "source": "r/Pentesting",
+      "cat": "redteam",
+      "sev": "critical",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "r/Pent-766035ea3d9c",
+      "title": "Abliterated Models in Appsec Pentesting",
+      "link": "https://www.reddit.com/r/Pentesting/comments/1xiod02/abliterated_models_in_appsec_pentesting/",
+      "desc": "Hi all, check out our recent blog post where we discuss the pros and cons of AI model abliteration and why it might be relevant to your security testing!  &#32; submitted by &#32;  /u/IncludeSec   [link] &#32; [comments]",
+      "pubDate": "2026-10-29T16:14:23+00:00",
+      "source": "r/Pentesting",
+      "cat": "redteam",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "r/Pent-4a4a3e4c85d6",
+      "title": "PWPA Exam question",
+      "link": "https://www.reddit.com/r/Pentesting/comments/1xiyya7/pwpa_exam_question/",
+      "desc": "Hello everyone, I was wondering how is the PWPA certificate exam? It is my first ever pentesting exam, so how is the exam conducted and how to know if I am well prepared for it or no? Finally, is the report writing section hard?  &#32; submitted by &#32;  /u/Truu_-   [link] &#32; [comments]",
+      "pubDate": "2026-10-29T22:56:15+00:00",
+      "source": "r/Pentesting",
+      "cat": "redteam",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "r/Pent-025bdfaede68",
+      "title": "What is next move",
+      "link": "https://www.reddit.com/r/Pentesting/comments/1xilhaf/what_is_next_move/",
+      "desc": "i have SC200 but i interesting to pentest , Malware things .. I did the SC200 coz i got the free voucher .. But i need to know how can i move to next .. Witch one is best .. CPTS or CRTP or CRTO or CEH or EJPT or any other one.. Plz help ke guys i have hand on experience also i have 4CVE related to linux lib.. I have 2y experience in servers admin  &#32; submitted by &#32;  /u/shalithaweber   [lin",
+      "pubDate": "2026-10-29T14:26:24+00:00",
+      "source": "r/Pentesting",
+      "cat": "redteam",
+      "sev": "high",
       "tags": [],
       "iocs": {
         "cves": [],
