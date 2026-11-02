@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T17:21:03.070700+00:00",
+  "generated_at": "2026-11-02T23:59:22.948965+00:00",
   "sources_ok": 15,
   "sources_total": 20,
   "source_status": {
@@ -91,6 +91,25 @@
   },
   "total": 195,
   "articles": [
+    {
+      "id": "TheHa-a6180a3c53fc",
+      "title": "⚡ Weekly Recap: Critical CVEs, Linux DDoS Botnet, Device-Code Phishing, Android Spyware and More",
+      "link": "https://thehackernews.com/2026/11/weekly-recap-critical-cves-linux-ddos.html",
+      "desc": "Some attacks this week didn't need much of a trick. A fake support call, a trusted extension, a shared link, or a device with no password. Small things that people barely think about. Yet each was enough to cause serious trouble.\n\nThen there were the bigger messes. Billions stolen, hidden networks of hacked devices, poisoned software, and attackers finding new ways to turn normal tools against",
+      "pubDate": "Mon, 02 Nov 2026 22:27:56 +0530",
+      "source": "The Hacker News",
+      "cat": "threats",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
     {
       "id": "TheHa-bc58e11547ad",
       "title": "Google Disrupts 1.3 Million-Device Android Botnet, Says TV Box Maker Sold Criminal Access",
@@ -351,25 +370,6 @@
       "link": "https://thehackernews.com/2026/10/a-shared-chatgpt-link-could-run.html",
       "desc": "A malicious ChatGPT share link could run an attacker's code in the logged-in session of anyone who opened it, allowing them to read their private conversations, researchers at&nbsp;the security firm Parameter&nbsp;showed.\n\nThe researchers reported the flaw through&nbsp;OpenAI's bug bounty program&nbsp;on October 18, and OpenAI fixed it eight days later and rated it P1, its most serious category.",
       "pubDate": "Sat, 31 Oct 2026 11:03:41 +0530",
-      "source": "The Hacker News",
-      "cat": "threats",
-      "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "TheHa-2ae62856d9f2",
-      "title": "Cloudflare Reports 18.2 Million Network-Layer DDoS Attacks in Q3, Up 38%",
-      "link": "https://thehackernews.com/2026/10/cloudflare-reports-182-million-network.html",
-      "desc": "Threat actors are launching about 8,226 network-layer distributed denial-of-service (DDoS) attacks per hour, Cloudflare revealed Thursday.\n\nThe web infrastructure and security company said it autonomously mitigated 18.2 million network-layer (L3) DDoS attacks and 14.4 trillion HTTP DDoS requests in the third quarter of 2026. That amounts to 197,400 attacks per day, or one attack every 0.44",
-      "pubDate": "Sat, 31 Oct 2026 10:26:12 +0530",
       "source": "The Hacker News",
       "cat": "threats",
       "sev": "high",
@@ -736,18 +736,18 @@
       "sev": "critical",
       "tags": [
         {
-          "t": "CVE-2026-118527",
+          "t": "CVE-2026-111357",
           "cls": "cve"
         },
         {
-          "t": "CVE-2026-111357",
+          "t": "CVE-2026-118527",
           "cls": "cve"
         }
       ],
       "iocs": {
         "cves": [
-          "CVE-2026-118527",
-          "CVE-2026-111357"
+          "CVE-2026-111357",
+          "CVE-2026-118527"
         ],
         "ips": [],
         "hashes": []
@@ -2092,18 +2092,18 @@
       "sev": "high",
       "tags": [
         {
-          "t": "CVE-2026-109618",
+          "t": "CVE-2026-109619",
           "cls": "cve"
         },
         {
-          "t": "CVE-2026-109619",
+          "t": "CVE-2026-109618",
           "cls": "cve"
         }
       ],
       "iocs": {
         "cves": [
-          "CVE-2026-109618",
-          "CVE-2026-109619"
+          "CVE-2026-109619",
+          "CVE-2026-109618"
         ],
         "ips": [],
         "hashes": []
@@ -2244,18 +2244,18 @@
       "sev": "high",
       "tags": [
         {
-          "t": "CVE-2026-88771",
+          "t": "CVE-2026-88772",
           "cls": "cve"
         },
         {
-          "t": "CVE-2026-88772",
+          "t": "CVE-2026-88771",
           "cls": "cve"
         }
       ],
       "iocs": {
         "cves": [
-          "CVE-2026-88771",
-          "CVE-2026-88772"
+          "CVE-2026-88772",
+          "CVE-2026-88771"
         ],
         "ips": [],
         "hashes": []
@@ -3099,18 +3099,18 @@
       "sev": "high",
       "tags": [
         {
-          "t": "CVE-2026-109618",
+          "t": "CVE-2026-109619",
           "cls": "cve"
         },
         {
-          "t": "CVE-2026-109619",
+          "t": "CVE-2026-109618",
           "cls": "cve"
         }
       ],
       "iocs": {
         "cves": [
-          "CVE-2026-109618",
-          "CVE-2026-109619"
+          "CVE-2026-109619",
+          "CVE-2026-109618"
         ],
         "ips": [],
         "hashes": []
@@ -3633,14 +3633,14 @@
       "ts": 0
     },
     {
-      "id": "r/nets-3cd5c872f571",
-      "title": "Securing Internet-Critical Software: How We Could Have Backdoored Bash",
-      "link": "https://www.reddit.com/r/netsec/comments/1xlsxqk/securing_internetcritical_software_how_we_could/",
-      "desc": "(May 2026) TL;DR:  an email address like atouch${IFS}/tmp/savane-rce-proof@attacker.example gave any registered user code execution on its backend. From there, we made our account a superuser, impersonated Bash’s maintainer, and confirmed we could add an SSH key with push access to the upstream Bash repository. An unpatched kernel gave us root access and access to a GNU backup server. We reported ",
-      "pubDate": "2026-11-02T09:43:15+00:00",
+      "id": "r/nets-21f9b6a3aa9a",
+      "title": "Jailbreaking my car's navigation system just so I can change the time",
+      "link": "https://www.reddit.com/r/netsec/comments/1xm6ks2/jailbreaking_my_cars_navigation_system_just_so_i/",
+      "desc": "&#32; submitted by &#32;  /u/nns_ee   [link] &#32; [comments]",
+      "pubDate": "2026-11-02T19:16:42+00:00",
       "source": "r/netsec",
       "cat": "community",
-      "sev": "critical",
+      "sev": "medium",
       "tags": [],
       "iocs": {
         "cves": [],
@@ -3671,6 +3671,25 @@
       "ts": 0
     },
     {
+      "id": "r/nets-3cd5c872f571",
+      "title": "Securing Internet-Critical Software: How We Could Have Backdoored Bash",
+      "link": "https://www.reddit.com/r/netsec/comments/1xlsxqk/securing_internetcritical_software_how_we_could/",
+      "desc": "(May 2026) TL;DR:  an email address like atouch${IFS}/tmp/savane-rce-proof@attacker.example gave any registered user code execution on its backend. From there, we made our account a superuser, impersonated Bash’s maintainer, and confirmed we could add an SSH key with push access to the upstream Bash repository. An unpatched kernel gave us root access and access to a GNU backup server. We reported ",
+      "pubDate": "2026-11-02T09:43:15+00:00",
+      "source": "r/netsec",
+      "cat": "community",
+      "sev": "critical",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
       "id": "r/nets-0bb90099f23f",
       "title": "WordPress pingback and Brotli RCE",
       "link": "https://www.reddit.com/r/netsec/comments/1xlsgc8/wordpress_pingback_and_brotli_rce/",
@@ -3679,6 +3698,25 @@
       "source": "r/netsec",
       "cat": "community",
       "sev": "critical",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "r/nets-7718836e2ab8",
+      "title": "CPGuard / OPSSHIELD LLP Breach",
+      "link": "https://www.reddit.com/r/netsec/comments/1xmcr4e/cpguard_opsshield_llp_breach/",
+      "desc": "Had a subscription in the past with them and received the following e-mail: Doesn't look like many sites have have picked up on this:  Dear cPGuard customers and partners, An unidentified attacker targeted OPSSHIELD, gained unauthorized access to our licensing and update systems, and distributed a malicious script through the cPGuard update channel. **We have stopped further distribution of the sc",
+      "pubDate": "2026-11-02T23:15:36+00:00",
+      "source": "r/netsec",
+      "cat": "community",
+      "sev": "high",
       "tags": [],
       "iocs": {
         "cves": [],
@@ -3847,57 +3885,19 @@
       "sev": "critical",
       "tags": [
         {
-          "t": "CVE-2026-63286",
+          "t": "CVE-2025-30026",
           "cls": "cve"
         },
         {
-          "t": "CVE-2025-30026",
+          "t": "CVE-2026-63286",
           "cls": "cve"
         }
       ],
       "iocs": {
         "cves": [
-          "CVE-2026-63286",
-          "CVE-2025-30026"
+          "CVE-2025-30026",
+          "CVE-2026-63286"
         ],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "r/nets-cc7076287d1a",
-      "title": "EMBRACE: How We Hacked the Browsers Embedded in Top Five Desktop AI Assistants · Forever Secur",
-      "link": "https://www.reddit.com/r/netsec/comments/1xilm92/embrace_how_we_hacked_the_browsers_embedded_in/",
-      "desc": "&#32; submitted by &#32;  /u/Content-Winter5328   [link] &#32; [comments]",
-      "pubDate": "2026-10-29T14:31:39+00:00",
-      "source": "r/netsec",
-      "cat": "community",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "r/nets-8942586f83ed",
-      "title": "Turning the Valve - Exploiting RCE and LPE in the Steam Platform",
-      "link": "https://www.reddit.com/r/netsec/comments/1xi11fq/turning_the_valve_exploiting_rce_and_lpe_in_the/",
-      "desc": "&#32; submitted by &#32;  /u/FILLABUSTA   [link] &#32; [comments]",
-      "pubDate": "2026-10-28T21:24:39+00:00",
-      "source": "r/netsec",
-      "cat": "community",
-      "sev": "critical",
-      "tags": [],
-      "iocs": {
-        "cves": [],
         "ips": [],
         "hashes": []
       },
