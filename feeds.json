@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T14:54:00.953912+00:00",
+  "generated_at": "2026-11-03T20:49:08.320900+00:00",
   "sources_ok": 15,
   "sources_total": 20,
   "source_status": {
@@ -25,9 +25,8 @@
       "error": "403 Client Error: Forbidden for url: https://www.hackread.com/feed"
     },
     "Exploit-DB": {
-      "ok": false,
-      "articles": 0,
-      "error": "HTTPSConnectionPool(host='www.exploit-db.com', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.exploit-db.com', port=443) at 0x7f7266d2b950>, 'Connection to www.exploit-db.com timed out. (connect timeout=15)'))"
+      "ok": true,
+      "articles": 15
     },
     "VulnHub": {
       "ok": true,
@@ -70,8 +69,9 @@
       "articles": 15
     },
     "r/Pentesting": {
-      "ok": true,
-      "articles": 15
+      "ok": false,
+      "articles": 0,
+      "error": "429 Client Error: Too Many Requests for url: https://www.reddit.com/r/Pentesting/.rss"
     },
     "r/redteamsec": {
       "ok": false,
@@ -91,6 +91,127 @@
   },
   "total": 195,
   "articles": [
+    {
+      "id": "TheHa-6f0fd2a5f9c9",
+      "title": "mSecure Warns Users to Change Passwords, Reset 2FA and Passkeys After Suspicious Activity",
+      "link": "https://thehackernews.com/2026/11/msecure-warns-users-to-change-passwords.html",
+      "desc": "Customers of the mSecure password manager are being urged to act now to protect the confidential information they store in it, possibly by changing passwords, resetting two-factor authentication (2FA), and removing passkeys.\n\nThe warning came in an email sent on November 3 in the name of developer mSeven Software. It says the company recently learned of suspicious activity linked to the app but",
+      "pubDate": "Wed, 04 Nov 2026 00:16:38 +0530",
+      "source": "The Hacker News",
+      "cat": "threats",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "TheHa-aba9b048b8d7",
+      "title": "Chainstack Reports Production Systems Breach Exposing Customer Data and Password Hashes",
+      "link": "https://thehackernews.com/2026/11/chainstack-reports-production-systems.html",
+      "desc": "Blockchain infrastructure provider Chainstack on Tuesday disclosed that it was targeted in a cyber attack that allowed an unauthorized party to gain access to some parts of its infrastructure.\n\nThe incident is assessed to be part of a large-scale, artificial intelligence (AI)-powered attack campaign that came to light last week.\n\n\"An external attacker gained unauthorized access to part of",
+      "pubDate": "Tue, 03 Nov 2026 23:46:19 +0530",
+      "source": "The Hacker News",
+      "cat": "breaches",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "TheHa-a37380b42a4a",
+      "title": "Binance Reveals How Fake Job Interviews and AI Tool Abuse Led to $6.43 Billion Theft",
+      "link": "https://thehackernews.com/2026/11/binance-reveals-how-fake-job-interviews.html",
+      "desc": "Binance on Tuesday said the record-setting theft of $6.43 billion in assets from the world's largest cryptocurrency exchange was the culmination of a \"sophisticated, multi-stage campaign\" that involved the use of a tampered Homebrew installation and recruitment-themed social engineering attack targeting two of its engineers.\n\n\"It was not a single isolated breach or a simple phishing incident,\"",
+      "pubDate": "Tue, 03 Nov 2026 22:25:58 +0530",
+      "source": "The Hacker News",
+      "cat": "breaches",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "TheHa-431e56a56585",
+      "title": "Barracuda Flaws Could Be Chained to Bypass Authorization and Gain Root Access",
+      "link": "https://thehackernews.com/2026/11/barracuda-flaws-could-be-chained-to.html",
+      "desc": "Barracuda has disclosed details of two vulnerabilities affecting its products that, if chained together, could allow an attacker to bypass authorization controls and gain root access to a susceptible device.\n\nThe vulnerabilities, a pre-authentication authorization bypass vulnerability and a command injection vulnerability, have been assigned the CVE identifiers CVE-2026-116606 (CVSS score: 9.3)",
+      "pubDate": "Tue, 03 Nov 2026 21:29:19 +0530",
+      "source": "The Hacker News",
+      "cat": "threats",
+      "sev": "high",
+      "tags": [
+        {
+          "t": "CVE-2026-116606",
+          "cls": "cve"
+        }
+      ],
+      "iocs": {
+        "cves": [
+          "CVE-2026-116606"
+        ],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "TheHa-4799b9d215a0",
+      "title": "Google Warns LLMjacking Attacks Are Costing Some Enterprises Up to $1 Million in Cloud Charges",
+      "link": "https://thehackernews.com/2026/11/google-warns-llmjacking-attacks-are.html",
+      "desc": "Google on Monday warned that threat actors are hijacking enterprise access to Large Language Models (LLMs) to fraudulently leverage expensive computing resources and AI services.\n\nThe tactic is called LLMjacking, a form of resource hijacking adapted for the LLM era, where an attacker obtains an API key through phishing, source code leaks, misconfigured environments, or exposed client-side code",
+      "pubDate": "Tue, 03 Nov 2026 21:11:53 +0530",
+      "source": "The Hacker News",
+      "cat": "breaches",
+      "sev": "critical",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "TheHa-4de04685184f",
+      "title": "cPGuard Update Channel Hijacked to Backdoor Linux Servers and Collect Password Hashes",
+      "link": "https://thehackernews.com/2026/11/cpguard-update-channel-hijacked-to.html",
+      "desc": "An attacker broke into the update system of the cPGuard security tool on November 2 and used it to send a malicious script to customers' Linux servers.\n\nThe script installed a backdoor and collected password hashes and other sensitive files from servers that ran it, cPGuard maker OPSSHIELD said in an advisory. The attacker has since taken some of that data.\n\ncPGuard 5.88.25 and later versions",
+      "pubDate": "Tue, 03 Nov 2026 20:46:32 +0530",
+      "source": "The Hacker News",
+      "cat": "threats",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
     {
       "id": "TheHa-4beccc565550",
       "title": "Red Hat Patches 9.8-Rated Linux TCP RCE Flaw While Ubuntu Releases Fixes for Testing",
@@ -273,120 +394,6 @@
       "source": "The Hacker News",
       "cat": "threats",
       "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "TheHa-bc58e11547ad",
-      "title": "Google Disrupts 1.3 Million-Device Android Botnet, Says TV Box Maker Sold Criminal Access",
-      "link": "https://thehackernews.com/2026/11/google-disrupts-13-million-device.html",
-      "desc": "A botnet of more than 1.3 million Android devices, mostly TV set-top boxes, lost control of its servers in late October in a takedown led by Google.\n\nGoogle says&nbsp;it is highly confident that device maker Videostrong intentionally put a backdoor in the boxes and sold access to criminals.\n\nThey used the boxes for ad fraud and to pass other people's internet traffic through owners' home",
-      "pubDate": "Mon, 02 Nov 2026 21:20:26 +0530",
-      "source": "The Hacker News",
-      "cat": "threats",
-      "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "TheHa-647ed889e797",
-      "title": "DarkBlinders Compromises Israeli Target and Iraqi Kurdish Government Cloud Environment",
-      "link": "https://thehackernews.com/2026/11/darkblinders-compromises-israeli-target.html",
-      "desc": "Cybersecurity researchers have disclosed details of a cyber espionage campaign targeting Israel and the Kurdistan Region of Iraq by an Iran state-aligned threat actor between August and October 2026.\n\nAccording to a report published by Dream Research Labs, the campaign has led to the compromise of a high-profile individual in Israel, along with additional compromises affecting a government cloud",
-      "pubDate": "Mon, 02 Nov 2026 20:16:05 +0530",
-      "source": "The Hacker News",
-      "cat": "threats",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "TheHa-ede18ba1b121",
-      "title": "Critical Langflow Flaws Could Let Unauthenticated Attackers Run Code on Servers",
-      "link": "https://thehackernews.com/2026/11/critical-langflow-flaws-could-let.html",
-      "desc": "Two critical flaws in Langflow could let a remote attacker with no account bypass authentication or run arbitrary code,&nbsp;IBM said last week.\n\nLangflow is an open-source tool for building AI agents and workflows, and&nbsp;its vulnerability reports go to IBM. Every release from 1.0.0 through 1.12.8 has the flaws, and the only fix is version 1.13.0.\n\nNeither flaw is in CISA's&nbsp;Known",
-      "pubDate": "Mon, 02 Nov 2026 17:20:00 +0530",
-      "source": "The Hacker News",
-      "cat": "threats",
-      "sev": "critical",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "TheHa-80c420f54808",
-      "title": "Is Your SOC Ready for AI Agents? A Maturity Check Before You Deploy",
-      "link": "https://thehackernews.com/2026/11/is-your-soc-ready-for-ai-agents.html",
-      "desc": "Forty percent of security teams now use AI every day, and another 56% are testing it. Only 4% have no plans to adopt it, according to Prophet Security's State of AI in Security Operations 2026 survey of more than 250 CISOs, SOC leaders and practitioners. For the teams still testing, the next decision is whether their own SOC is ready.\n\nAI SOC readiness has two parts: whether a SOC has the",
-      "pubDate": "Mon, 02 Nov 2026 17:00:00 +0530",
-      "source": "The Hacker News",
-      "cat": "threats",
-      "sev": "critical",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "TheHa-6188605951eb",
-      "title": "Attackers Pose as IT Support on Microsoft Teams, Abuse AD CS to Steal Company Data",
-      "link": "https://thehackernews.com/2026/11/attackers-pose-as-it-support-on.html",
-      "desc": "Attackers posing as IT support on Microsoft Teams talked employees into giving them remote control of their PCs. They then used insecure Active Directory Certificate Services (AD CS) settings to obtain login certificates for privileged accounts, including one for a domain controller.\n\nMicrosoft said in&nbsp;a report&nbsp;that it investigated two such intrusions, one of which resulted in company",
-      "pubDate": "Mon, 02 Nov 2026 16:38:45 +0530",
-      "source": "The Hacker News",
-      "cat": "threats",
-      "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "TheHa-b989ce823647",
-      "title": "Government Linux Servers Targeted With SysGoRAT and Suspected AI-Generated Scripts",
-      "link": "https://thehackernews.com/2026/11/government-linux-servers-targeted-with.html",
-      "desc": "Cybersecurity researchers have disclosed details of a cyber espionage campaign specifically targeting Linux infrastructure associated with government entities and state-affiliated infrastructure.\n\nThe activity, observed by Palo Alto Networks Unit 42 between October 2025 and April 2026, has been tracked under the moniker CL-UNK-1211, where \"CL\" refers to cluster and \"UNK\" stands for unknown",
-      "pubDate": "Mon, 02 Nov 2026 16:19:59 +0530",
-      "source": "The Hacker News",
-      "cat": "threats",
-      "sev": "medium",
       "tags": [],
       "iocs": {
         "cves": [],
@@ -778,6 +785,25 @@
       "ts": 0
     },
     {
+      "id": "GBHack-c9168a18fdd2",
+      "title": "Researcher Discovers Path Traversal Flaw in Renault Navigation System That Enables Root Code Execution",
+      "link": "https://gbhackers.com/renault-navigation-system/",
+      "desc": "A malicious SD card can give an attacker root-level code execution on the TomTom Carminat LIVE navigation unit used in some Renault cars. Security researcher Rasmus Moorats published the findings on November 2, 2026. It uses a Samsung S5P6440 chip and runs TomTom&#8217;s custom operating system, which is based on Linux 2.6.28.10. That kernel is [&#8230;]\nThe post Researcher Discovers Path Traversa",
+      "pubDate": "Tue, 03 Nov 2026 13:15:23 +0000",
+      "source": "GBHackers",
+      "cat": "threats",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
       "id": "GBHack-3f36c242a26f",
       "title": "Microsoft Analyzes 383,000 Security Vulnerabilities and Reveals Which Flaws Hackers Exploit Most",
       "link": "https://gbhackers.com/383000-vulnerabilities-analyzed/",
@@ -914,7 +940,7 @@
       "id": "GBHack-0dde0f7aa220",
       "title": "Ubuntu Releases Security Fixes for Critical Linux Kernel Vulnerability Allowing Remote Code Execution",
       "link": "https://gbhackers.com/ubuntu-releases-security-fixes-for-critical-linux-kernel-vulnerability/",
-      "desc": "Ubuntu has published fixes for CVE-2026-98432, a critical Linux kernel flaw in IPv4 TCP connection handling. It carries a CVSS 3.1 score of 9.8 and can lead to remote code execution. The fixes for Ubuntu 22.04 LTS and newer are in the -proposed pocket, so they are not yet in the default updates channel. Critical [&#8230;]\nThe post Ubuntu Releases Security Fixes for Critical Linux Kernel Vulnerabil",
+      "desc": "Ubuntu has made fixes available for CVE-2026-98432, a critical Linux kernel vulnerability allowing remote code execution through IPv4 TCP connection handling. The flaw carries a CVSS 3.1 score of 9.8, while Ubuntu assigns it High priority. Fixes for Ubuntu 22.04 LTS and newer are undergoing qualification in the -proposed pocket. The patching push now coincides [&#8230;]\nThe post Ubuntu Releases Se",
       "pubDate": "Tue, 03 Nov 2026 09:33:48 +0000",
       "source": "GBHackers",
       "cat": "threats",
@@ -956,14 +982,287 @@
       "ts": 0
     },
     {
-      "id": "GBHack-c11bc211e17e",
-      "title": "Hackers Exploit Critical Magento StyleSmuggler Vulnerability to Deploy PSK Agent RAT and Hijack Servers",
-      "link": "https://gbhackers.com/magento-stylesmuggler-vulnerability/",
-      "desc": "Attackers exploited the critical StyleSmuggler vulnerability in Magento and Adobe Commerce to deploy PSK Agent, a remote access trojan enabling command execution, traffic proxying, and persistent server access. The campaign ran September 9–13, 2026, targeting stores across Western Europe, North America, and Asia-Pacific. Imperva’s earlier analysis reports a CVSS score of 10.0 and exploitation prec",
-      "pubDate": "Tue, 03 Nov 2026 08:42:16 +0000",
-      "source": "GBHackers",
-      "cat": "malware",
+      "id": "Exploi-1bb00e9cc860",
+      "title": "[remote] PHP2Shell (CVE-2026-109618) - PHP core versions after v5.4 - RCE",
+      "link": "https://www.exploit-db.com/exploits/52704",
+      "desc": "PHP2Shell (CVE-2026-109618) - PHP core versions after v5.4 - RCE",
+      "pubDate": "Thu, 22 Oct 2026 00:00:00 +0000",
+      "source": "Exploit-DB",
+      "cat": "exploits",
       "sev": "critical",
+      "tags": [
+        {
+          "t": "CVE-2026-109618",
+          "cls": "cve"
+        }
+      ],
+      "iocs": {
+        "cves": [
+          "CVE-2026-109618"
+        ],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "Exploi-12a0b384461b",
+      "title": "[webapps] pizzafy-1.0 - SQLi",
+      "link": "https://www.exploit-db.com/exploits/52703",
+      "desc": "pizzafy-1.0 - SQLi",
+      "pubDate": "Wed, 21 Oct 2026 00:00:00 +0000",
+      "source": "Exploit-DB",
+      "cat": "exploits",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "Exploi-8a2b51e56d72",
+      "title": "[remote] South River Technologies Titan MFT Server 26.0.0 - code execution",
+      "link": "https://www.exploit-db.com/exploits/52701",
+      "desc": "South River Technologies Titan MFT Server 26.0.0 - code execution",
+      "pubDate": "Wed, 21 Oct 2026 00:00:00 +0000",
+      "source": "Exploit-DB",
+      "cat": "exploits",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "Exploi-8eb04e6a124a",
+      "title": "[remote] Synametrics Syncrify 6.2 - command execution",
+      "link": "https://www.exploit-db.com/exploits/52700",
+      "desc": "Synametrics Syncrify 6.2 - command execution",
+      "pubDate": "Wed, 21 Oct 2026 00:00:00 +0000",
+      "source": "Exploit-DB",
+      "cat": "exploits",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "Exploi-bea0f7f00668",
+      "title": "[webapps] Keycloak  26.7.2 - Unauthenticated Account Takeover",
+      "link": "https://www.exploit-db.com/exploits/52699",
+      "desc": "Keycloak  26.7.2 - Unauthenticated Account Takeover",
+      "pubDate": "Wed, 21 Oct 2026 00:00:00 +0000",
+      "source": "Exploit-DB",
+      "cat": "exploits",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "Exploi-2e12328298a1",
+      "title": "[webapps] Open eClass 3.15 - RCE",
+      "link": "https://www.exploit-db.com/exploits/52698",
+      "desc": "Open eClass 3.15 - RCE",
+      "pubDate": "Wed, 21 Oct 2026 00:00:00 +0000",
+      "source": "Exploit-DB",
+      "cat": "exploits",
+      "sev": "critical",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "Exploi-1eea97863759",
+      "title": "[webapps] Automotive Shop Management System 1.0 - SQLi",
+      "link": "https://www.exploit-db.com/exploits/52697",
+      "desc": "Automotive Shop Management System 1.0 - SQLi",
+      "pubDate": "Wed, 21 Oct 2026 00:00:00 +0000",
+      "source": "Exploit-DB",
+      "cat": "exploits",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "Exploi-ee5e4cfc912a",
+      "title": "[remote] Edimax BR-6478AC firmware v2.20 - authenticated command injection",
+      "link": "https://www.exploit-db.com/exploits/52696",
+      "desc": "Edimax BR-6478AC firmware v2.20 - authenticated command injection",
+      "pubDate": "Wed, 21 Oct 2026 00:00:00 +0000",
+      "source": "Exploit-DB",
+      "cat": "exploits",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "Exploi-eb8ccadba78b",
+      "title": "[remote] Exasol Database 7.1.30 - command execution",
+      "link": "https://www.exploit-db.com/exploits/52695",
+      "desc": "Exasol Database 7.1.30 - command execution",
+      "pubDate": "Wed, 21 Oct 2026 00:00:00 +0000",
+      "source": "Exploit-DB",
+      "cat": "exploits",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "Exploi-b8ce8b7c34aa",
+      "title": "[remote] Parasoft Continuous Testing Platform 10.7.5 - JSP command execution",
+      "link": "https://www.exploit-db.com/exploits/52694",
+      "desc": "Parasoft Continuous Testing Platform 10.7.5 - JSP command execution",
+      "pubDate": "Wed, 21 Oct 2026 00:00:00 +0000",
+      "source": "Exploit-DB",
+      "cat": "exploits",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "Exploi-e715fca639d9",
+      "title": "[remote] ProSoft RLX-IFH24E v2.2.44 - Unsigned Firmware Upgrade Package Executed as Root",
+      "link": "https://www.exploit-db.com/exploits/52693",
+      "desc": "ProSoft RLX-IFH24E v2.2.44 - Unsigned Firmware Upgrade Package Executed as Root",
+      "pubDate": "Wed, 21 Oct 2026 00:00:00 +0000",
+      "source": "Exploit-DB",
+      "cat": "exploits",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "Exploi-e58fb2bd739c",
+      "title": "[remote] Teltonika_RutOS 00.07.06.21 - command injection",
+      "link": "https://www.exploit-db.com/exploits/52692",
+      "desc": "Teltonika_RutOS 00.07.06.21 - command injection",
+      "pubDate": "Thu, 01 Oct 2026 00:00:00 +0000",
+      "source": "Exploit-DB",
+      "cat": "exploits",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "Exploi-d8a202870dda",
+      "title": "[webapps] TigerGraph_Community_Edition 4.2.4  - arbitrary file write",
+      "link": "https://www.exploit-db.com/exploits/52691",
+      "desc": "TigerGraph_Community_Edition 4.2.4  - arbitrary file write",
+      "pubDate": "Thu, 01 Oct 2026 00:00:00 +0000",
+      "source": "Exploit-DB",
+      "cat": "exploits",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "Exploi-1ba7ee86c11c",
+      "title": "[webapps] WordPress 7.0.2 - Path Travesal",
+      "link": "https://www.exploit-db.com/exploits/52690",
+      "desc": "WordPress 7.0.2 - Path Travesal",
+      "pubDate": "Thu, 01 Oct 2026 00:00:00 +0000",
+      "source": "Exploit-DB",
+      "cat": "exploits",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "Exploi-6db9fc3fd5bf",
+      "title": "[webapps] Food-Ordering 1.0  -  LFI",
+      "link": "https://www.exploit-db.com/exploits/52689",
+      "desc": "Food-Ordering 1.0  -  LFI",
+      "pubDate": "Thu, 01 Oct 2026 00:00:00 +0000",
+      "source": "Exploit-DB",
+      "cat": "exploits",
+      "sev": "medium",
       "tags": [],
       "iocs": {
         "cves": [],
@@ -1809,18 +2108,18 @@
       "sev": "high",
       "tags": [
         {
-          "t": "CVE-2026-109618",
+          "t": "CVE-2026-109619",
           "cls": "cve"
         },
         {
-          "t": "CVE-2026-109619",
+          "t": "CVE-2026-109618",
           "cls": "cve"
         }
       ],
       "iocs": {
         "cves": [
-          "CVE-2026-109618",
-          "CVE-2026-109619"
+          "CVE-2026-109619",
+          "CVE-2026-109618"
         ],
         "ips": [],
         "hashes": []
@@ -2835,18 +3134,18 @@
       "sev": "high",
       "tags": [
         {
-          "t": "CVE-2026-109618",
+          "t": "CVE-2026-109619",
           "cls": "cve"
         },
         {
-          "t": "CVE-2026-109619",
+          "t": "CVE-2026-109618",
           "cls": "cve"
         }
       ],
       "iocs": {
         "cves": [
-          "CVE-2026-109618",
-          "CVE-2026-109619"
+          "CVE-2026-109619",
+          "CVE-2026-109618"
         ],
         "ips": [],
         "hashes": []
@@ -3350,6 +3649,25 @@
       "ts": 0
     },
     {
+      "id": "r/nets-36456ae770c4",
+      "title": "We found 4,972 \"hello\" messages hiding thousands of malicious commands targeting Flowise",
+      "link": "https://www.reddit.com/r/netsec/comments/1xmviny/we_found_4972_hello_messages_hiding_thousands_of/",
+      "desc": "TL;DR: Our research team at Era uncovered Greeter, an attack framework targeting Flowise, an AI development platform with 55,000+ GitHub stars. We deployed seven honeypots and captured 4,972 &quot;hello&quot; messages, each carrying malicious JavaScript through Flowise's overrideConfig parameter. The interesting part? The malicious code never appeared in the saved workflow. We reconstructed 4,000+",
+      "pubDate": "2026-11-03T15:11:53+00:00",
+      "source": "r/netsec",
+      "cat": "community",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
       "id": "r/nets-21f9b6a3aa9a",
       "title": "Jailbreaking my car's navigation system just so I can change the time",
       "link": "https://www.reddit.com/r/netsec/comments/1xm6ks2/jailbreaking_my_cars_navigation_system_just_so_i/",
@@ -3388,11 +3706,11 @@
       "ts": 0
     },
     {
-      "id": "r/nets-9adb0b241864",
-      "title": "Fake Nuclear Alert Sent Through Russian Emergencies Ministry App After Hack",
-      "link": "https://www.reddit.com/r/netsec/comments/1xm1rrf/fake_nuclear_alert_sent_through_russian/",
-      "desc": "&#32; submitted by &#32;  /u/Much-Television-9449   [link] &#32; [comments]",
-      "pubDate": "2026-11-02T16:25:38+00:00",
+      "id": "r/nets-817fbc930913",
+      "title": "A primer on TETRA mission-critical radio network authentication flaws",
+      "link": "https://www.reddit.com/r/netsec/comments/1xmpbzm/a_primer_on_tetra_missioncritical_radio_network/",
+      "desc": "tl:dr;  Contrary to popular belief among vendors, system integrators, and asset owners: network authentication in TETRA mission-critical radio networks does not provide authenticity &amp; integrity guarantees at the individual message level. To make matters worse: base stations don't require a re-authentication whenever a radio is roaming from one cell tower to the next. This allows for traffic in",
+      "pubDate": "2026-11-03T10:19:12+00:00",
       "source": "r/netsec",
       "cat": "community",
       "sev": "medium",
@@ -3407,11 +3725,11 @@
       "ts": 0
     },
     {
-      "id": "r/nets-817fbc930913",
-      "title": "A primer on TETRA mission-critical radio network authentication flaws",
-      "link": "https://www.reddit.com/r/netsec/comments/1xmpbzm/a_primer_on_tetra_missioncritical_radio_network/",
-      "desc": "tl:dr;  Contrary to popular belief among vendors, system integrators, and asset owners: network authentication in TETRA mission-critical radio networks does not provide authenticity &amp; integrity guarantees at the individual message level. To make matters worse: base stations don't require a re-authentication whenever a radio is roaming from one cell tower to the next. This allows for traffic in",
-      "pubDate": "2026-11-03T10:19:12+00:00",
+      "id": "r/nets-9adb0b241864",
+      "title": "Fake Nuclear Alert Sent Through Russian Emergencies Ministry App After Hack",
+      "link": "https://www.reddit.com/r/netsec/comments/1xm1rrf/fake_nuclear_alert_sent_through_russian/",
+      "desc": "&#32; submitted by &#32;  /u/Much-Television-9449   [link] &#32; [comments]",
+      "pubDate": "2026-11-02T16:25:38+00:00",
       "source": "r/netsec",
       "cat": "community",
       "sev": "medium",
@@ -3584,310 +3902,6 @@
         "cves": [
           "CVE-2026-11585"
         ],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "r/nets-40a052e1a5fb",
-      "title": "TightVNC Viewer Pre-auth RCE",
-      "link": "https://www.reddit.com/r/netsec/comments/1xil17j/tightvnc_viewer_preauth_rce/",
-      "desc": "What if a VNC server could make your viewer believe it had a ~4 GB framebuffer… while actually allocating only 128 KB? That’s the core of this TightVNC vulnerability. A malicious server can announce a crafted 32768 × 32769 screen at 32bpp, causing the framebuffer size calculation to overflow. The allocation wraps down to 128 KB, but the viewer continues using the original, much larger dimensions w",
-      "pubDate": "2026-10-29T14:09:08+00:00",
-      "source": "r/netsec",
-      "cat": "community",
-      "sev": "critical",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "r/Pent-a028c3db3169",
-      "title": "moderation update",
-      "link": "https://www.reddit.com/r/Pentesting/comments/1r6rrpi/moderation_update/",
-      "desc": "hello, the subreddit has been not properly moderated for a few months now, obviously this leads to people not adhering to the rules, and an unhealthy community and also a chance of our subreddit getting banned, which harms all of us. this is why, i request you all, to follow the rules. the moderation team has been regaining consciousness and would be moderating the subreddit more frequently. you c",
-      "pubDate": "2026-02-17T00:59:00+00:00",
-      "source": "r/Pentesting",
-      "cat": "redteam",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "r/Pent-7213df81b87e",
-      "title": "moneypilot tries to pr spin a disclosed payment bypass as a false alarm 2 months later",
-      "link": "https://www.reddit.com/r/Pentesting/comments/1xlw8xx/moneypilot_tries_to_pr_spin_a_disclosed_payment/",
-      "desc": "so 2 months ago i publicly disclosed a critical server side payment bypass in moneypilot after i reported it their rep negotiated safe harbor with me asked for a few hours to discuss a bounty and then went ghost while ignoring me they manually deleted my test account to hide the evidence and silently patched it now today their official account digs up my original pre disclosure reddit post just to",
-      "pubDate": "2026-11-02T12:47:15+00:00",
-      "source": "r/Pentesting",
-      "cat": "redteam",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "r/Pent-f172a104de14",
-      "title": "Just released OGMA v0.3.4!",
-      "link": "https://www.reddit.com/r/Pentesting/comments/1xmddkb/just_released_ogma_v034/",
-      "desc": "https://ogmabox.com/  &#32; submitted by &#32;  /u/deadbeef0-0   [link] &#32; [comments]",
-      "pubDate": "2026-11-02T23:41:57+00:00",
-      "source": "r/Pentesting",
-      "cat": "redteam",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "r/Pent-64689249a4c0",
-      "title": "Built a hands-on SQLi lab to show why ' OR '1'='1 still dumps DBs in 2026 — vulnerable vs parameterized query in Python",
-      "link": "https://www.reddit.com/r/Pentesting/comments/1xm8vqd/built_a_handson_sqli_lab_to_show_why_or_11_still/",
-      "desc": "I was tired of just reading about SQL injection, so I built a tiny lab on Parrot OS with Python + SQLite to see it happen live. Setup: • In-memory SQLite DB with 3 users: alice, bob, admin • Same query tested two ways Vulnerable (string concatenation): query = f&quot;SELECT * FROM users WHERE username = '{user_input}'&quot; cur.execute(query) Secure (parameterized): query = &quot;SELECT * FROM use",
-      "pubDate": "2026-11-02T20:41:49+00:00",
-      "source": "r/Pentesting",
-      "cat": "redteam",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "r/Pent-9bb6b14dd0d3",
-      "title": "whats after the ejpt",
-      "link": "https://www.reddit.com/r/Pentesting/comments/1xl08ij/whats_after_the_ejpt/",
-      "desc": "hello guys im 18 i just passed ejpt yesterday and wanna move next whats do you recommend next   &#32; submitted by &#32;  /u/Capital-Rub269   [link] &#32; [comments]",
-      "pubDate": "2026-11-01T10:58:11+00:00",
-      "source": "r/Pentesting",
-      "cat": "redteam",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "r/Pent-477988f5a403",
-      "title": "Rustproxy alternative for burp in performance",
-      "link": "https://www.reddit.com/r/Pentesting/comments/1xkw23a/rustproxy_alternative_for_burp_in_performance/",
-      "desc": "I've been working on something I've wanted to build for a while — RustProxy, a web traffic analysis and debugging tool built with Rust. It currently has HTTP/HTTPS interception, request and response editing, HTTP history, Repeater, sitemap, passive security checks, Decoder, and Comparer. I've spent quite a bit of time building the core engine and desktop UI, and just reached the v1.0.0 milestone. ",
-      "pubDate": "2026-11-01T06:31:59+00:00",
-      "source": "r/Pentesting",
-      "cat": "redteam",
-      "sev": "critical",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "r/Pent-d965edb3e78c",
-      "title": "I built a menu-driven Wi-Fi auditing toolkit in pure Python — with an adapter watchdog that airgeddon doesn't have",
-      "link": "https://www.reddit.com/r/Pentesting/comments/1xl0cbn/i_built_a_menudriven_wifi_auditing_toolkit_in/",
-      "desc": "I’ve been learning Wi-Fi security and wrote my own toolkit in pure Python to understand how handshake capture, hashcat cracking and Evil Twin attacks actually work under the hood. It ended up being genuinely usable, so I’m sharing it. What it does: handshake capture (airodump+deauth or hcxdumptool with hashcat-valid output), resumable hashcat cracking sessions, and an airgeddon-style Evil Twin (ro",
-      "pubDate": "2026-11-01T11:04:06+00:00",
-      "source": "r/Pentesting",
-      "cat": "redteam",
-      "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "r/Pent-c819944ee7d6",
-      "title": "THM or HTB",
-      "link": "https://www.reddit.com/r/Pentesting/comments/1xkx9su/thm_or_htb/",
-      "desc": "I`m wanted to be better in cybersec, what i need to do? I`m not bad know networking, know how to work with linux. I want practise in pwn, where is better thm or htb? I`m already practise in htb, but in my opinion it`s overwhelming. Recomend pls  &#32; submitted by &#32;  /u/23VAGE   [link] &#32; [comments]",
-      "pubDate": "2026-11-01T07:49:48+00:00",
-      "source": "r/Pentesting",
-      "cat": "redteam",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "r/Pent-848025714a16",
-      "title": "( HELP )Path order after fundamentals: HTB Web Pentester path vs PortSwigger Academy (and HTB vs THM)",
-      "link": "https://www.reddit.com/r/Pentesting/comments/1xklpx6/help_path_order_after_fundamentals_htb_web/",
-      "desc": "Hey everyone, Background on where I'm at, so the advice can actually be targeted: I've completed Networking Fundamentals, Linux Fundamentals and the Nmap module on HTB Academy, and I'm currently finishing Web Requests. Goal is bug bounty, web-focused. Three concrete questions I haven't found a clear answer to:  Should I go through the full HTB &quot;Web Penetration Tester&quot; path (Intro to Web ",
-      "pubDate": "2026-10-31T21:20:36+00:00",
-      "source": "r/Pentesting",
-      "cat": "redteam",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "r/Pent-2ed7e620dbeb",
-      "title": "wafmeow: a Go alternative to wafw00f for concurrent recon pipelines",
-      "link": "https://www.reddit.com/r/Pentesting/comments/1xkb3ku/wafmeow_a_go_alternative_to_wafw00f_for/",
-      "desc": "I maintain wafmeow, an open-source WAF fingerprinting CLI and Go library built on wafw00f’s fingerprint work. The main use case is adding WAF detection to a recon pipeline that already produces a list of URLs. It supports concurrent targets, streaming JSONL, and explicit reporting of incomplete or failed collection. It can even be stacked with httpx urls via stdin For a target list: wafmeow --targ",
-      "pubDate": "2026-10-31T14:05:13+00:00",
-      "source": "r/Pentesting",
-      "cat": "redteam",
-      "sev": "critical",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "r/Pent-64f1effc845f",
-      "title": "How would you start over?",
-      "link": "https://www.reddit.com/r/Pentesting/comments/1xkhc36/how_would_you_start_over/",
-      "desc": "Hi All, Thank you for taking the time to read this. I’m so fascinated by computers, especially pentesting. It’s so interesting how you can break into computers. I know some IT stuff. As a hobby I’m learning computers. Doing stuff with Linux, set up Arch or anything. I have done some C++, C programming and many more. Even in Assembly I have written a function like atoi() for example. I really want ",
-      "pubDate": "2026-10-31T18:17:13+00:00",
-      "source": "r/Pentesting",
-      "cat": "redteam",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "r/Pent-13e2fe6f70c4",
-      "title": "For people working in Web, API, Mobile & Infrastructure VAPT: What should candidates actually prepare for interviews?",
-      "link": "https://www.reddit.com/r/Pentesting/comments/1xkejks/for_people_working_in_web_api_mobile/",
-      "desc": "Hey everyone! I'm currently preparing for cybersecurity/VAPT interviews and looking for practical guidance from people already working in penetration testing, application security, or security engineering. I'm focusing on four major areas: \\- Web Application Security: OWASP Top 10, manual testing, SQLi, XSS, SSRF, IDOR/BOLA, authentication, authorization, and business logic vulnerabilities. \\- API",
-      "pubDate": "2026-10-31T16:26:03+00:00",
-      "source": "r/Pentesting",
-      "cat": "redteam",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "r/Pent-67246ec1f046",
-      "title": "New to Pentesting",
-      "link": "https://www.reddit.com/r/Pentesting/comments/1xkol0o/new_to_pentesting/",
-      "desc": "Hi, I am new to pentesting.. I have installed Artex, connected it to a local Ollama LLM. I want to learn more about how i can use hermes and Artex for pentesting, are there any learning resources for it?  &#32; submitted by &#32;  /u/Riqraz   [link] &#32; [comments]",
-      "pubDate": "2026-10-31T23:35:48+00:00",
-      "source": "r/Pentesting",
-      "cat": "redteam",
-      "sev": "critical",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "r/Pent-fe4b143bffed",
-      "title": "Our Reporting Tool is Now Free and Open Source",
-      "link": "https://www.reddit.com/r/Pentesting/comments/1xjd4k1/our_reporting_tool_is_now_free_and_open_source/",
-      "desc": "I’m a pentester, and like most people here I’ve lost too many evenings to formatting reports. So I’ve open-sourced the reporting side of the platform I’ve been building: Pental Report. It’s free (AGPL-3.0) and runs on your own server with Docker, beside its own PostgreSQL. Your findings stay on your server and in your database. What it does: Engagements and findings  Engagements with phases (exter",
-      "pubDate": "2026-10-30T11:45:36+00:00",
-      "source": "r/Pentesting",
-      "cat": "redteam",
-      "sev": "critical",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "r/Pent-766035ea3d9c",
-      "title": "Abliterated Models in Appsec Pentesting",
-      "link": "https://www.reddit.com/r/Pentesting/comments/1xiod02/abliterated_models_in_appsec_pentesting/",
-      "desc": "Hi all, check out our recent blog post where we discuss the pros and cons of AI model abliteration and why it might be relevant to your security testing!  &#32; submitted by &#32;  /u/IncludeSec   [link] &#32; [comments]",
-      "pubDate": "2026-10-29T16:14:23+00:00",
-      "source": "r/Pentesting",
-      "cat": "redteam",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
         "ips": [],
         "hashes": []
       },
