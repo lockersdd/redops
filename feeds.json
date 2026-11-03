@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T23:59:22.948965+00:00",
+  "generated_at": "2026-11-03T06:31:02.913950+00:00",
   "sources_ok": 15,
   "sources_total": 20,
   "source_status": {
@@ -91,6 +91,58 @@
   },
   "total": 195,
   "articles": [
+    {
+      "id": "TheHa-a5350a9acfec",
+      "title": "Attackers Exploit Critical Siemens IoT2050 Flaw to Plant Remote Command Backdoors",
+      "link": "https://thehackernews.com/2026/11/attackers-exploit-critical-siemens.html",
+      "desc": "A maximum-severity security flaw impacting Siemens SIMATIC IoT2050 Advanced devices has come under active exploitation, VulnCheck has revealed.\n\nThe vulnerability, tracked as CVE-2026-58115 (CVSS score: 10.0), is a case of missing authentication for a critical function that could be exploited by an unauthenticated remote attacker to run arbitrary code.\n\n\"SIMATIC IoT2050 Advanced devices running",
+      "pubDate": "Tue, 03 Nov 2026 11:04:41 +0530",
+      "source": "The Hacker News",
+      "cat": "threats",
+      "sev": "high",
+      "tags": [
+        {
+          "t": "CVE-2026-58115",
+          "cls": "cve"
+        }
+      ],
+      "iocs": {
+        "cves": [
+          "CVE-2026-58115"
+        ],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "TheHa-4e0253665cad",
+      "title": "Attackers Target Unpatched CryptoPayment Gateway Flaw That Can Expose Wallet Credentials",
+      "link": "https://thehackernews.com/2026/11/attackers-target-unpatched.html",
+      "desc": "Threat actors are attempting to exploit an unpatched maximum-severity security vulnerability in the CryptoPayment Gateway WordPress plugin, according to findings from Defused Cyber.\n\nThe vulnerability in question is CVE-2026-81648, which carries a CVSS score of 10.0. Successful exploitation of the flaw could permit unauthenticated users to delete arbitrary files on the server and extract",
+      "pubDate": "Tue, 03 Nov 2026 11:04:37 +0530",
+      "source": "The Hacker News",
+      "cat": "threats",
+      "sev": "high",
+      "tags": [
+        {
+          "t": "CVE-2026-81648",
+          "cls": "cve"
+        }
+      ],
+      "iocs": {
+        "cves": [
+          "CVE-2026-81648"
+        ],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
     {
       "id": "TheHa-a6180a3c53fc",
       "title": "⚡ Weekly Recap: Critical CVEs, Linux DDoS Botnet, Device-Code Phishing, Android Spyware and More",
@@ -339,40 +391,14 @@
       "ts": 0
     },
     {
-      "id": "TheHa-d7e38253da70",
-      "title": "Attackers Chain Three Ivanti Connect Secure Flaws to Gain Unauthenticated Root Access",
-      "link": "https://thehackernews.com/2026/10/attackers-chain-three-ivanti-connect.html",
-      "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added two security flaws impacting Ivanti Connect Secure (ICS) to its Known Exploited Vulnerabilities (KEV) catalog, following active exploitation in the wild.\n\nThe vulnerabilities are listed below -\n\n\n  CVE-2026-111357 (CVSS score: 8.8) - A missing authentication for a critical function vulnerability that could allow a",
-      "pubDate": "Sat, 31 Oct 2026 13:57:43 +0530",
-      "source": "The Hacker News",
+      "id": "Krebs-1ef41f69d3e8",
+      "title": "Tech Firms Dismantle Botnet That Turned 1.3M TV Boxes Into Proxies",
+      "link": "https://krebsonsecurity.com/2026/11/tech-firms-dismantle-botnet-that-turned-1-3m-tv-boxes-into-proxies/",
+      "desc": "Google said today it worked with industry partners to dismantle a botnet made up of more than 1.3 million Android TV set-top boxes that ship with malicious software which secretly rents the user's Internet connection out to strangers and conducts advertising fraud. Experts involved in the takedown say the action is likely to sever the botnet's access to more than 10 million additional compromised ",
+      "pubDate": "Tue, 03 Nov 2026 02:24:31 +0000",
+      "source": "Krebs on Security",
       "cat": "threats",
-      "sev": "high",
-      "tags": [
-        {
-          "t": "CVE-2026-111357",
-          "cls": "cve"
-        }
-      ],
-      "iocs": {
-        "cves": [
-          "CVE-2026-111357"
-        ],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "TheHa-654a72b12758",
-      "title": "A Shared ChatGPT Link Could Run Attacker Code in Your Session and Read Private Chats",
-      "link": "https://thehackernews.com/2026/10/a-shared-chatgpt-link-could-run.html",
-      "desc": "A malicious ChatGPT share link could run an attacker's code in the logged-in session of anyone who opened it, allowing them to read their private conversations, researchers at&nbsp;the security firm Parameter&nbsp;showed.\n\nThe researchers reported the flaw through&nbsp;OpenAI's bug bounty program&nbsp;on October 18, and OpenAI fixed it eight days later and rated it P1, its most serious category.",
-      "pubDate": "Sat, 31 Oct 2026 11:03:41 +0530",
-      "source": "The Hacker News",
-      "cat": "threats",
-      "sev": "high",
+      "sev": "medium",
       "tags": [],
       "iocs": {
         "cves": [],
@@ -555,25 +581,6 @@
       "ts": 0
     },
     {
-      "id": "Krebs-b8ed0ee28d43",
-      "title": "Microsoft Plugs Nearly 1,000 Security Holes",
-      "link": "https://krebsonsecurity.com/2026/09/microsoft-plugs-nearly-1000-security-holes/",
-      "desc": "Microsoft Corp. today issued updates to plug at least 974 security holes in its Windows operating systems and other software, by far its biggest single patch batch ever. Microsoft says artificial intelligence is helping to speed the discovery of vulnerabilities, but security experts warn that many organizations already are struggling to prioritize the more human-intensive endeavor of testing and d",
-      "pubDate": "Tue, 08 Sep 2026 21:44:22 +0000",
-      "source": "Krebs on Security",
-      "cat": "threats",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
       "id": "Securi-05e66ddc0bfb",
       "title": "Cybersecurity M&A Roundup: 37 Deals Announced in October 2026",
       "link": "https://www.securityweek.com/cybersecurity-ma-roundup-37-deals-announced-in-october-2026/",
@@ -612,10 +619,10 @@
       "ts": 0
     },
     {
-      "id": "Securi-6dcd223599ae",
-      "title": "Revolve Data Breach Impacts at Least 180,000 People",
+      "id": "Securi-2d1d489c0792",
+      "title": "Revolve Data Breach Impacts at Least 200,000 People",
       "link": "https://www.securityweek.com/revolve-data-breach-impacts-at-least-180000-people/",
-      "desc": "Hackers accessed its online shopping platform and stole customers’ personal and payment card information.\nThe post Revolve Data Breach Impacts at Least 180,000 People appeared first on SecurityWeek.",
+      "desc": "Hackers accessed its online shopping platform and stole customers’ personal and payment card information.\nThe post Revolve Data Breach Impacts at Least 200,000 People appeared first on SecurityWeek.",
       "pubDate": "Mon, 02 Nov 2026 13:35:21 +0000",
       "source": "SecurityWeek",
       "cat": "breaches",
@@ -736,18 +743,18 @@
       "sev": "critical",
       "tags": [
         {
-          "t": "CVE-2026-111357",
+          "t": "CVE-2026-118527",
           "cls": "cve"
         },
         {
-          "t": "CVE-2026-118527",
+          "t": "CVE-2026-111357",
           "cls": "cve"
         }
       ],
       "iocs": {
         "cves": [
-          "CVE-2026-111357",
-          "CVE-2026-118527"
+          "CVE-2026-118527",
+          "CVE-2026-111357"
         ],
         "ips": [],
         "hashes": []
@@ -2633,6 +2640,25 @@
       "ts": 0
     },
     {
+      "id": "SANSI-8beee6a67fa1",
+      "title": "ISC Stormcast For Tuesday, November 3rd, 2026 https://isc.sans.edu/podcastdetail/10162, (Tue, Nov 3rd)",
+      "link": "https://isc.sans.edu/diary/rss/33484",
+      "desc": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
+      "pubDate": "Tue, 03 Nov 2026 02:00:02 GMT",
+      "source": "SANS ISC",
+      "cat": "vulns",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
       "id": "SANSI-66e3a43f487b",
       "title": "Mutipath TCP: Use and Detection, (Mon, Nov 2nd)",
       "link": "https://isc.sans.edu/diary/rss/33482",
@@ -2790,25 +2816,6 @@
       "link": "https://isc.sans.edu/diary/rss/33468",
       "desc": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
       "pubDate": "Thu, 29 Oct 2026 03:10:12 GMT",
-      "source": "SANS ISC",
-      "cat": "vulns",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "SANSI-2e72acadb87f",
-      "title": "Yet Another ClickFix Campaign, (Wed, Oct 28th)",
-      "link": "https://isc.sans.edu/diary/rss/33466",
-      "desc": "Introduction&#xd;",
-      "pubDate": "Thu, 29 Oct 2026 00:42:15 GMT",
       "source": "SANS ISC",
       "cat": "vulns",
       "sev": "medium",
@@ -3002,6 +3009,25 @@
       "source": "Schneier",
       "cat": "tools",
       "sev": "critical",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "ESETB-e582e5023fc3",
+      "title": "When confusion reigns, trusted vendors must guide their SMB customers",
+      "link": "https://www.welivesecurity.com/en/business-security/when-confusion-reigns-trusted-vendors-guide-smb-customers/",
+      "desc": "SMBs need guided onboarding and supervised protection to optimize their investments",
+      "pubDate": "Mon, 02 Nov 2026 09:55:00 +0000",
+      "source": "ESET Blog",
+      "cat": "malware",
+      "sev": "medium",
       "tags": [],
       "iocs": {
         "cves": [],
@@ -3277,25 +3303,6 @@
       "link": "https://www.welivesecurity.com/en/videos/month-security-tony-anscombe-september-2026/",
       "desc": "Autonomous AI agents go on a hacking spree, and Microsoft ships what used to be a year's worth of security patches in one go – here's how to keep pace",
       "pubDate": "Wed, 30 Sep 2026 08:00:00 +0000",
-      "source": "ESET Blog",
-      "cat": "malware",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "ESETB-dd7df33a0e09",
-      "title": "Timeshare exit scams: From fake buyers to recovery fraud",
-      "link": "https://www.welivesecurity.com/en/scams/timeshare-exit-scams-fake-buyers-recovery-scams/",
-      "desc": "Con artists are targeting timeshare owners who want out – and some victims are hit twice",
-      "pubDate": "Tue, 29 Sep 2026 09:00:00 +0000",
       "source": "ESET Blog",
       "cat": "malware",
       "sev": "medium",
@@ -3792,25 +3799,6 @@
       "ts": 0
     },
     {
-      "id": "r/nets-41466f9bf471",
-      "title": "Cloud Exposure Index 2026: 484,142 open buckets mapped",
-      "link": "https://www.reddit.com/r/netsec/comments/1xkbgw0/cloud_exposure_index_2026_484142_open_buckets/",
-      "desc": "484,142 publicly listable cloud buckets, 18 billion files, 80,495 .env files and two thirds of them written this year: we indexed open S3, Azure, GCS, Spaces and OSS storage without opening a single file  &#32; submitted by &#32;  /u/lexcor   [link] &#32; [comments]",
-      "pubDate": "2026-10-31T14:20:54+00:00",
-      "source": "r/netsec",
-      "cat": "community",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
       "id": "r/nets-8ead70ce6eac",
       "title": "Supermicro BMC ipmi cves",
       "link": "https://www.reddit.com/r/netsec/comments/1xjeg2c/supermicro_bmc_ipmi_cves/",
@@ -3898,6 +3886,25 @@
           "CVE-2025-30026",
           "CVE-2026-63286"
         ],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "r/nets-cc7076287d1a",
+      "title": "EMBRACE: How We Hacked the Browsers Embedded in Top Five Desktop AI Assistants · Forever Secur",
+      "link": "https://www.reddit.com/r/netsec/comments/1xilm92/embrace_how_we_hacked_the_browsers_embedded_in/",
+      "desc": "&#32; submitted by &#32;  /u/Content-Winter5328   [link] &#32; [comments]",
+      "pubDate": "2026-10-29T14:31:39+00:00",
+      "source": "r/netsec",
+      "cat": "community",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
         "ips": [],
         "hashes": []
       },
