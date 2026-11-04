@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T01:05:14.987916+00:00",
+  "generated_at": "2026-11-04T07:51:35.879393+00:00",
   "sources_ok": 15,
   "sources_total": 20,
   "source_status": {
@@ -91,6 +91,32 @@
   },
   "total": 195,
   "articles": [
+    {
+      "id": "TheHa-8e23bed1212e",
+      "title": "CISA Confirms Hackers Exploiting WordPress Core Flaw During Software Upgrades",
+      "link": "https://thehackernews.com/2026/11/cisa-confirms-hackers-exploiting.html",
+      "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a security flaw in WordPress Core to the Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation.\n\nThe high-severity vulnerability, tracked as CVE-2026-119977 (CVSS score: 8.1), is a case of Time-of-check Time-of-use (TOCTOU) race condition that could be exploited to achieve arbitrary code",
+      "pubDate": "Wed, 04 Nov 2026 11:13:11 +0530",
+      "source": "The Hacker News",
+      "cat": "threats",
+      "sev": "high",
+      "tags": [
+        {
+          "t": "CVE-2026-119977",
+          "cls": "cve"
+        }
+      ],
+      "iocs": {
+        "cves": [
+          "CVE-2026-119977"
+        ],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
     {
       "id": "TheHa-6f0fd2a5f9c9",
       "title": "mSecure Warns Users to Change Passwords, Reset 2FA and Passkeys After Suspicious Activity",
@@ -378,25 +404,6 @@
         "cves": [
           "CVE-2026-81648"
         ],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "TheHa-a6180a3c53fc",
-      "title": "⚡ Weekly Recap: Critical CVEs, Linux DDoS Botnet, Device-Code Phishing, Android Spyware and More",
-      "link": "https://thehackernews.com/2026/11/weekly-recap-critical-cves-linux-ddos.html",
-      "desc": "Some attacks this week didn't need much of a trick. A fake support call, a trusted extension, a shared link, or a device with no password. Small things that people barely think about. Yet each was enough to cause serious trouble.\n\nThen there were the bigger messes. Billions stolen, hidden networks of hacked devices, poisoned software, and attackers finding new ways to turn normal tools against",
-      "pubDate": "Mon, 02 Nov 2026 22:27:56 +0530",
-      "source": "The Hacker News",
-      "cat": "threats",
-      "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
         "ips": [],
         "hashes": []
       },
@@ -785,6 +792,158 @@
       "ts": 0
     },
     {
+      "id": "GBHack-2b2f6422c061",
+      "title": "Binance Reveals How Hackers Pulled Off $6.3 Billion Crypto Heist Using Fake Job Interviews",
+      "link": "https://gbhackers.com/binance-reveals-how-hackers-pulled-off-6-3-billion-crypto-heist/",
+      "desc": "Binance has revealed that attackers carried out a sophisticated scheme involving fake recruitment interviews, compromised developer endpoints, and malicious blockchain authorizations to steal approximately $6.34 billion in digital assets on October 29, 2026. The exchange&#8217;s initial findings indicate a coordinated intrusion that reached its internal wallet signing service, enabling unauthorize",
+      "pubDate": "Wed, 04 Nov 2026 06:18:39 +0000",
+      "source": "GBHackers",
+      "cat": "threats",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "GBHack-f5d830f7264e",
+      "title": "OpenAI Builds New Git Backend ‘Pando’ After Codex AI Agents Overwhelm Existing Infrastructure",
+      "link": "https://gbhackers.com/openai-builds-new-git-backend-pando-after-codex-ai-agents/",
+      "desc": "OpenAI has built a new Git backend called Pando after Codex-driven development overwhelmed the systems behind its internal monorepo. OpenAI&#8217;s engineering post, published November 2, 2026, says Pando now powers all monorepo development. It cut median push latency by nearly 5x and delivers nearly a petabyte of Git data per day. Codex lets engineers run [&#8230;]\nThe post OpenAI Builds New Git ",
+      "pubDate": "Wed, 04 Nov 2026 06:07:01 +0000",
+      "source": "GBHackers",
+      "cat": "threats",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "GBHack-913e0d8c99ca",
+      "title": "Hackers Disguise Malware as Popular Games and Software to Hijack Windows PCs",
+      "link": "https://gbhackers.com/windows-users-hijacked/",
+      "desc": "An evolving fake-download campaign that disguises trojanized installers as popular games, cracked software, and utilities to monetize Windows computers. Rather than delivering one payload, the operation distributes multiple software “offers” during a single installation session, converting victims’ bandwidth and computing resources into revenue streams. Microsoft’s November 3 investigation identif",
+      "pubDate": "Wed, 04 Nov 2026 05:56:36 +0000",
+      "source": "GBHackers",
+      "cat": "malware",
+      "sev": "critical",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "GBHack-342a3cf70d1e",
+      "title": "Hackers Turn to AI Jailbreak Bundles as Researchers Uncover New Prompt Adware Technique",
+      "link": "https://gbhackers.com/ai-jailbreak-bundles/",
+      "desc": "An AI jailbreak package that repeatedly modifies OpenAI Codex instructions to promote its author’s commercial service, showing how guardrail-bypass tools can double as advertising infrastructure. The Chinese language bundle, Haiou, was discovered on a cybercrime actor’s misconfigured web server alongside Cobalt Strike and penetration testing utilities. Published November 3, the investigation ident",
+      "pubDate": "Wed, 04 Nov 2026 05:21:31 +0000",
+      "source": "GBHackers",
+      "cat": "threats",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "GBHack-773c7ab956e3",
+      "title": "Barracuda Email Security Gateway Flaws Expose Devices to Potential Root-Level Compromise",
+      "link": "https://gbhackers.com/barracuda-email-security-gateway-flaws/",
+      "desc": "Barracuda has released security patches for two vulnerabilities that could be exploited to bypass authorization controls and gain root access to affected Email Security Gateway (ESG) appliances. These vulnerabilities, identified as CVE-2026-116606 and CVE-2026-111560, require attackers to access the device’s administrative interface. Therefore, the exposure of the management interface is a crucial",
+      "pubDate": "Wed, 04 Nov 2026 05:17:55 +0000",
+      "source": "GBHackers",
+      "cat": "threats",
+      "sev": "high",
+      "tags": [
+        {
+          "t": "CVE-2026-111560",
+          "cls": "cve"
+        },
+        {
+          "t": "CVE-2026-116606",
+          "cls": "cve"
+        }
+      ],
+      "iocs": {
+        "cves": [
+          "CVE-2026-111560",
+          "CVE-2026-116606"
+        ],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "GBHack-b13a10f227e2",
+      "title": "Critical SolarWinds Dameware Vulnerability Enables Attackers to Take Control of Remote Systems",
+      "link": "https://gbhackers.com/critical-solarwinds-dameware-vulnerability/",
+      "desc": "SolarWinds has announced a critical command injection vulnerability in its Dameware software that could let authenticated attackers remotely compromise controlled hosts. This vulnerability, identified as CVE-2026-28336, has a CVSS score of 9.9 and affects Dameware version 2026.3 and all earlier versions. To address this issue, SolarWinds has released version 2026.3.1, which organizations using the",
+      "pubDate": "Wed, 04 Nov 2026 05:06:45 +0000",
+      "source": "GBHackers",
+      "cat": "threats",
+      "sev": "high",
+      "tags": [
+        {
+          "t": "CVE-2026-28336",
+          "cls": "cve"
+        }
+      ],
+      "iocs": {
+        "cves": [
+          "CVE-2026-28336"
+        ],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "GBHack-3c5eeb599411",
+      "title": "Hackers Target French Blood Service, Reprogram Plasma Storage Freezers From -30°C to 110°C",
+      "link": "https://gbhackers.com/hackers-target-french-blood-service/",
+      "desc": "Hackers reportedly targeted refrigeration equipment operated by Coolworld, a service provider for France&#8217;s Établissement Français du Sang (EFS), compromising the safety of blood products intended for medical use. This attack was detected overnight between November 1 and 2, 2026, and allegedly altered freezer settings from approximately -30°C to 110°C. According to reports, France’s Health Mi",
+      "pubDate": "Wed, 04 Nov 2026 04:59:45 +0000",
+      "source": "GBHackers",
+      "cat": "threats",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
       "id": "GBHack-c9168a18fdd2",
       "title": "Researcher Discovers Path Traversal Flaw in Renault Navigation System That Enables Root Code Execution",
       "link": "https://gbhackers.com/renault-navigation-system/",
@@ -831,146 +990,6 @@
       "source": "GBHackers",
       "cat": "malware",
       "sev": "critical",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "GBHack-99f6c07c75e5",
-      "title": "11 GenAI SOC Copilots: The 2026 Buyer’s Verdict Guide",
-      "link": "https://gbhackers.com/genai-soc-copilots-buyers-guide/",
-      "desc": "The AI SOC market now sells two different employees: assistants that make your analysts faster inside consoles they already use, and agents that work tier-1 queues end-to-end under policy guardrails. Pricing them with the same yardstick is the buying mistake. This verdict guide judges eleven options suite copilots with estate gravity and pure-play AI analysts [&#8230;]\nThe post 11 GenAI SOC Copilo",
-      "pubDate": "Tue, 03 Nov 2026 11:02:18 +0000",
-      "source": "GBHackers",
-      "cat": "threats",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "GBHack-41943b14c620",
-      "title": "11Detection Engineering Tools: The 2026 Buyer’s Verdict Guide",
-      "link": "https://gbhackers.com/detection-engineering-buyers-guide/",
-      "desc": "Detection engineering treats rules like software versioned, tested, reviewed, deployed through pipelines and the tooling market now covers every stage: authoring platforms, coverage auditors, content marketplaces, translation engines, and validation loops. This verdict guide judges eleven options on as-code rigor, coverage mathematics, and backend freedom, because detections locked in one vendor’s",
-      "pubDate": "Tue, 03 Nov 2026 11:00:44 +0000",
-      "source": "GBHackers",
-      "cat": "threats",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "GBHack-4b794737bd68",
-      "title": "11 Deception Technology Solutions: The 2026 Buyer’s Verdict Guide",
-      "link": "https://gbhackers.com/deception-technology-buyers-guide/",
-      "desc": "Deception technology sells the cleanest alert in security legitimate users never touch a decoy, so nearly every trip is real and the 2026 buying question is mostly an acquisitions map: four of this roster’s pioneers now ship inside larger portfolios (Attivo→SentinelOne, TrapX→Commvault, Smokescreen→Zscaler, Illusive→Proofpoint). This verdict guide judges eleven options on signal-per-effort, decoy ",
-      "pubDate": "Tue, 03 Nov 2026 10:59:08 +0000",
-      "source": "GBHackers",
-      "cat": "threats",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "GBHack-cae40e0a17ef",
-      "title": "CrowdStrike and Deloitte Spain Expand Cybersecurity Alliance With AI-Powered Threat Detection",
-      "link": "https://gbhackers.com/crowdstrike-and-deloitte-spain-expand-cybersecurity-alliance/",
-      "desc": "CrowdStrike and Deloitte Spain announced an expanded cybersecurity alliance. This new phase of their collaboration focuses on AI-powered risk advisory. The partnership integrates executive security strategy with the implementation and day-to-day operations of the Security Operations Center (SOC), using Falcon IQ to turn exploitable risks into prioritized actions. This expansion combines CrowdStrik",
-      "pubDate": "Tue, 03 Nov 2026 10:30:56 +0000",
-      "source": "GBHackers",
-      "cat": "threats",
-      "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "GBHack-26e543c78d28",
-      "title": "Cogent Security Makes the Fortune Cyber 60 for a Second Year, With a Plan to Run Cyber Defense Like a Factory",
-      "link": "https://gbhackers.com/cogent-security-makes-the-fortune-cyber-60-for-a-second-year-with-a-plan-to-run-cyber-defense-like-a-factory/",
-      "desc": "San Francisco, CA, November 3rd, 2026, CyberNewswire Cogent Security, an applied AI cybersecurity company, reported that the PHP2Shell vulnerability exposed significant gaps in enterprise vulnerability response. Disclosed on October 21, PHP2Shell involved two critical flaws that had remained in PHP for more than a decade. AI-assisted research helped identify the vulnerabilities and develop working",
-      "pubDate": "Tue, 03 Nov 2026 10:07:56 +0000",
-      "source": "GBHackers",
-      "cat": "threats",
-      "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "GBHack-0dde0f7aa220",
-      "title": "Ubuntu Releases Security Fixes for Critical Linux Kernel Vulnerability Allowing Remote Code Execution",
-      "link": "https://gbhackers.com/ubuntu-releases-security-fixes-for-critical-linux-kernel-vulnerability/",
-      "desc": "Ubuntu has made fixes available for CVE-2026-98432, a critical Linux kernel vulnerability allowing remote code execution through IPv4 TCP connection handling. The flaw carries a CVSS 3.1 score of 9.8, while Ubuntu assigns it High priority. Fixes for Ubuntu 22.04 LTS and newer are undergoing qualification in the -proposed pocket. The patching push now coincides [&#8230;]\nThe post Ubuntu Releases Se",
-      "pubDate": "Tue, 03 Nov 2026 09:33:48 +0000",
-      "source": "GBHackers",
-      "cat": "threats",
-      "sev": "critical",
-      "tags": [
-        {
-          "t": "CVE-2026-98432",
-          "cls": "cve"
-        }
-      ],
-      "iocs": {
-        "cves": [
-          "CVE-2026-98432"
-        ],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "GBHack-2b1e31e14905",
-      "title": "Hackers Exploit DLL Sideloading in Signed OpenAI and Anthropic Binaries to Deploy YobaLoader Malware",
-      "link": "https://gbhackers.com/yobaloader-malware/",
-      "desc": "A campaign tracked as Yoba abuses interest in generative AI to push cryptocurrency-mining malware through fake GitHub projects. Check Point Research published its findings on October 27, 2026, after about two months of tracking. The operators pair legitimate, signed OpenAI and Anthropic executables with a malicious winmm.dll, so the payload loads through DLL sideloading. The [&#8230;]\nThe post Hac",
-      "pubDate": "Tue, 03 Nov 2026 09:14:24 +0000",
-      "source": "GBHackers",
-      "cat": "malware",
-      "sev": "high",
       "tags": [],
       "iocs": {
         "cves": [],
@@ -2649,6 +2668,25 @@
       "ts": 0
     },
     {
+      "id": "SANSI-a59fb700ff7f",
+      "title": "ISC Stormcast For Wednesday, November 4th, 2026 https://isc.sans.edu/podcastdetail/10164, (Wed, Nov 4th)",
+      "link": "https://isc.sans.edu/diary/rss/33486",
+      "desc": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
+      "pubDate": "Wed, 04 Nov 2026 02:10:02 GMT",
+      "source": "SANS ISC",
+      "cat": "vulns",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
       "id": "SANSI-8beee6a67fa1",
       "title": "ISC Stormcast For Tuesday, November 3rd, 2026 https://isc.sans.edu/podcastdetail/10162, (Tue, Nov 3rd)",
       "link": "https://isc.sans.edu/diary/rss/33484",
@@ -2809,25 +2847,6 @@
       "source": "SANS ISC",
       "cat": "vulns",
       "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "SANSI-2fcd17249bbc",
-      "title": "ISC Stormcast For Thursday, October 29th, 2026 https://isc.sans.edu/podcastdetail/10156, (Thu, Oct 29th)",
-      "link": "https://isc.sans.edu/diary/rss/33468",
-      "desc": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
-      "pubDate": "Thu, 29 Oct 2026 03:10:12 GMT",
-      "source": "SANS ISC",
-      "cat": "vulns",
-      "sev": "medium",
       "tags": [],
       "iocs": {
         "cves": [],
@@ -3649,6 +3668,25 @@
       "ts": 0
     },
     {
+      "id": "r/nets-1c9a9dfc14c1",
+      "title": "Finding 40+ Vulnerabilities in Healthcare Software Serving More Than 100 Million Patients",
+      "link": "https://www.reddit.com/r/netsec/comments/1xng15c/finding_40_vulnerabilities_in_healthcare_software/",
+      "desc": "&#32; submitted by &#32;  /u/idnsec   [link] &#32; [comments]",
+      "pubDate": "2026-11-04T05:28:24+00:00",
+      "source": "r/netsec",
+      "cat": "community",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
       "id": "r/nets-36456ae770c4",
       "title": "We found 4,972 \"hello\" messages hiding thousands of malicious commands targeting Flowise",
       "link": "https://www.reddit.com/r/netsec/comments/1xmviny/we_found_4972_hello_messages_hiding_thousands_of/",
@@ -3876,32 +3914,6 @@
       "tags": [],
       "iocs": {
         "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "r/nets-24890b831066",
-      "title": "TeamViewer RCE Vulnerability (CVE-2026-11585)",
-      "link": "https://www.reddit.com/r/netsec/comments/1xikzuw/teamviewer_rce_vulnerability_cve202611585/",
-      "desc": "&#32; submitted by &#32;  /u/NewResearch1337   [link] &#32; [comments]",
-      "pubDate": "2026-10-29T14:07:38+00:00",
-      "source": "r/netsec",
-      "cat": "community",
-      "sev": "critical",
-      "tags": [
-        {
-          "t": "CVE-2026-11585",
-          "cls": "cve"
-        }
-      ],
-      "iocs": {
-        "cves": [
-          "CVE-2026-11585"
-        ],
         "ips": [],
         "hashes": []
       },
