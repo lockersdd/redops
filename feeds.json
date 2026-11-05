@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-04T22:03:31.956920+00:00",
-  "sources_ok": 15,
+  "generated_at": "2026-11-05T02:40:41.986755+00:00",
+  "sources_ok": 14,
   "sources_total": 20,
   "source_status": {
     "The Hacker News": {
@@ -25,8 +25,9 @@
       "error": "403 Client Error: Forbidden for url: https://www.hackread.com/feed"
     },
     "Exploit-DB": {
-      "ok": true,
-      "articles": 15
+      "ok": false,
+      "articles": 0,
+      "error": "502 Server Error: Bad Gateway for url: https://www.exploit-db.com/rss.xml"
     },
     "VulnHub": {
       "ok": true,
@@ -89,7 +90,7 @@
       "error": "429 Client Error: Too Many Requests for url: https://www.reddit.com/r/blueteamsec/.rss"
     }
   },
-  "total": 195,
+  "total": 180,
   "articles": [
     {
       "id": "TheHa-6c49cc2a6c2d",
@@ -978,298 +979,6 @@
       "source": "GBHackers",
       "cat": "malware",
       "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "Exploi-1bb00e9cc860",
-      "title": "[remote] PHP2Shell (CVE-2026-109618) - PHP core versions after v5.4 - RCE",
-      "link": "https://www.exploit-db.com/exploits/52704",
-      "desc": "PHP2Shell (CVE-2026-109618) - PHP core versions after v5.4 - RCE",
-      "pubDate": "Thu, 22 Oct 2026 00:00:00 +0000",
-      "source": "Exploit-DB",
-      "cat": "exploits",
-      "sev": "critical",
-      "tags": [
-        {
-          "t": "CVE-2026-109618",
-          "cls": "cve"
-        }
-      ],
-      "iocs": {
-        "cves": [
-          "CVE-2026-109618"
-        ],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "Exploi-12a0b384461b",
-      "title": "[webapps] pizzafy-1.0 - SQLi",
-      "link": "https://www.exploit-db.com/exploits/52703",
-      "desc": "pizzafy-1.0 - SQLi",
-      "pubDate": "Wed, 21 Oct 2026 00:00:00 +0000",
-      "source": "Exploit-DB",
-      "cat": "exploits",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "Exploi-8a2b51e56d72",
-      "title": "[remote] South River Technologies Titan MFT Server 26.0.0 - code execution",
-      "link": "https://www.exploit-db.com/exploits/52701",
-      "desc": "South River Technologies Titan MFT Server 26.0.0 - code execution",
-      "pubDate": "Wed, 21 Oct 2026 00:00:00 +0000",
-      "source": "Exploit-DB",
-      "cat": "exploits",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "Exploi-8eb04e6a124a",
-      "title": "[remote] Synametrics Syncrify 6.2 - command execution",
-      "link": "https://www.exploit-db.com/exploits/52700",
-      "desc": "Synametrics Syncrify 6.2 - command execution",
-      "pubDate": "Wed, 21 Oct 2026 00:00:00 +0000",
-      "source": "Exploit-DB",
-      "cat": "exploits",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "Exploi-bea0f7f00668",
-      "title": "[webapps] Keycloak  26.7.2 - Unauthenticated Account Takeover",
-      "link": "https://www.exploit-db.com/exploits/52699",
-      "desc": "Keycloak  26.7.2 - Unauthenticated Account Takeover",
-      "pubDate": "Wed, 21 Oct 2026 00:00:00 +0000",
-      "source": "Exploit-DB",
-      "cat": "exploits",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "Exploi-2e12328298a1",
-      "title": "[webapps] Open eClass 3.15 - RCE",
-      "link": "https://www.exploit-db.com/exploits/52698",
-      "desc": "Open eClass 3.15 - RCE",
-      "pubDate": "Wed, 21 Oct 2026 00:00:00 +0000",
-      "source": "Exploit-DB",
-      "cat": "exploits",
-      "sev": "critical",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "Exploi-1eea97863759",
-      "title": "[webapps] Automotive Shop Management System 1.0 - SQLi",
-      "link": "https://www.exploit-db.com/exploits/52697",
-      "desc": "Automotive Shop Management System 1.0 - SQLi",
-      "pubDate": "Wed, 21 Oct 2026 00:00:00 +0000",
-      "source": "Exploit-DB",
-      "cat": "exploits",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "Exploi-ee5e4cfc912a",
-      "title": "[remote] Edimax BR-6478AC firmware v2.20 - authenticated command injection",
-      "link": "https://www.exploit-db.com/exploits/52696",
-      "desc": "Edimax BR-6478AC firmware v2.20 - authenticated command injection",
-      "pubDate": "Wed, 21 Oct 2026 00:00:00 +0000",
-      "source": "Exploit-DB",
-      "cat": "exploits",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "Exploi-eb8ccadba78b",
-      "title": "[remote] Exasol Database 7.1.30 - command execution",
-      "link": "https://www.exploit-db.com/exploits/52695",
-      "desc": "Exasol Database 7.1.30 - command execution",
-      "pubDate": "Wed, 21 Oct 2026 00:00:00 +0000",
-      "source": "Exploit-DB",
-      "cat": "exploits",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "Exploi-b8ce8b7c34aa",
-      "title": "[remote] Parasoft Continuous Testing Platform 10.7.5 - JSP command execution",
-      "link": "https://www.exploit-db.com/exploits/52694",
-      "desc": "Parasoft Continuous Testing Platform 10.7.5 - JSP command execution",
-      "pubDate": "Wed, 21 Oct 2026 00:00:00 +0000",
-      "source": "Exploit-DB",
-      "cat": "exploits",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "Exploi-e715fca639d9",
-      "title": "[remote] ProSoft RLX-IFH24E v2.2.44 - Unsigned Firmware Upgrade Package Executed as Root",
-      "link": "https://www.exploit-db.com/exploits/52693",
-      "desc": "ProSoft RLX-IFH24E v2.2.44 - Unsigned Firmware Upgrade Package Executed as Root",
-      "pubDate": "Wed, 21 Oct 2026 00:00:00 +0000",
-      "source": "Exploit-DB",
-      "cat": "exploits",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "Exploi-e58fb2bd739c",
-      "title": "[remote] Teltonika_RutOS 00.07.06.21 - command injection",
-      "link": "https://www.exploit-db.com/exploits/52692",
-      "desc": "Teltonika_RutOS 00.07.06.21 - command injection",
-      "pubDate": "Thu, 01 Oct 2026 00:00:00 +0000",
-      "source": "Exploit-DB",
-      "cat": "exploits",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "Exploi-d8a202870dda",
-      "title": "[webapps] TigerGraph_Community_Edition 4.2.4  - arbitrary file write",
-      "link": "https://www.exploit-db.com/exploits/52691",
-      "desc": "TigerGraph_Community_Edition 4.2.4  - arbitrary file write",
-      "pubDate": "Thu, 01 Oct 2026 00:00:00 +0000",
-      "source": "Exploit-DB",
-      "cat": "exploits",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "Exploi-1ba7ee86c11c",
-      "title": "[webapps] WordPress 7.0.2 - Path Travesal",
-      "link": "https://www.exploit-db.com/exploits/52690",
-      "desc": "WordPress 7.0.2 - Path Travesal",
-      "pubDate": "Thu, 01 Oct 2026 00:00:00 +0000",
-      "source": "Exploit-DB",
-      "cat": "exploits",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "Exploi-6db9fc3fd5bf",
-      "title": "[webapps] Food-Ordering 1.0  -  LFI",
-      "link": "https://www.exploit-db.com/exploits/52689",
-      "desc": "Food-Ordering 1.0  -  LFI",
-      "pubDate": "Thu, 01 Oct 2026 00:00:00 +0000",
-      "source": "Exploit-DB",
-      "cat": "exploits",
-      "sev": "medium",
       "tags": [],
       "iocs": {
         "cves": [],
@@ -2267,18 +1976,18 @@
       "sev": "high",
       "tags": [
         {
-          "t": "CVE-2026-88771",
+          "t": "CVE-2026-88772",
           "cls": "cve"
         },
         {
-          "t": "CVE-2026-88772",
+          "t": "CVE-2026-88771",
           "cls": "cve"
         }
       ],
       "iocs": {
         "cves": [
-          "CVE-2026-88771",
-          "CVE-2026-88772"
+          "CVE-2026-88772",
+          "CVE-2026-88771"
         ],
         "ips": [],
         "hashes": []
@@ -3043,6 +2752,25 @@
       "ts": 0
     },
     {
+      "id": "ESETB-69cf4ed5951b",
+      "title": "SlippyNunchucks hijacks Sogou Input Method’s brand promotion mechanism to distribute malware",
+      "link": "https://www.welivesecurity.com/en/eset-research/slippynunchucks-hijacks-sogou-input-methods-brand-promotion-mechanism-to-distribute-malware/",
+      "desc": "ESET Research analyzes a DNS hijacking operation abusing insecure HTTP communications in Windows versions of Sogou Input Method",
+      "pubDate": "Wed, 04 Nov 2026 09:55:00 +0000",
+      "source": "ESET Blog",
+      "cat": "malware",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
       "id": "ESETB-bec8431bef3c",
       "title": "Gorbag: Orcs at the border harvesting intelligence from Ukraine",
       "link": "https://www.welivesecurity.com/en/eset-research/gorbag-orcs-border-harvesting-intelligence-ukraine/",
@@ -3307,25 +3035,6 @@
       "link": "https://www.welivesecurity.com/en/social-media/brand-deal-scam-targeting-youtube-creators/",
       "desc": "A plausible-sounding sponsorship offer could mask an attempt to compromise your Google account",
       "pubDate": "Wed, 07 Oct 2026 09:00:00 +0000",
-      "source": "ESET Blog",
-      "cat": "malware",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "ESETB-196208b38a91",
-      "title": "The quest for simplicity: Why SMBs want advanced protection without the complexity",
-      "link": "https://www.welivesecurity.com/en/business-security/quest-simplicity-why-smbs-want-advanced-protection-without-complexity/",
-      "desc": "The cybersecurity market is often making it tougher for SMBs to keep threats at bay",
-      "pubDate": "Tue, 06 Oct 2026 09:00:00 +0000",
       "source": "ESET Blog",
       "cat": "malware",
       "sev": "medium",
@@ -3663,25 +3372,6 @@
       "ts": 0
     },
     {
-      "id": "r/nets-1c9a9dfc14c1",
-      "title": "Finding 40+ Vulnerabilities in Healthcare Software Serving More Than 100 Million Patients",
-      "link": "https://www.reddit.com/r/netsec/comments/1xng15c/finding_40_vulnerabilities_in_healthcare_software/",
-      "desc": "&#32; submitted by &#32;  /u/idnsec   [link] &#32; [comments]",
-      "pubDate": "2026-11-04T05:28:24+00:00",
-      "source": "r/netsec",
-      "cat": "community",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
       "id": "r/nets-a9a6bbc94fb8",
       "title": "Escaping AWS Firecracker from guest userspace: VMM memory corruption (CVE-2026-122192)",
       "link": "https://www.reddit.com/r/netsec/comments/1xo0yov/escaping_aws_firecracker_from_guest_userspace_vmm/",
@@ -3700,6 +3390,25 @@
         "cves": [
           "CVE-2026-122192"
         ],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "r/nets-1c9a9dfc14c1",
+      "title": "Finding 40+ Vulnerabilities in Healthcare Software Serving More Than 100 Million Patients",
+      "link": "https://www.reddit.com/r/netsec/comments/1xng15c/finding_40_vulnerabilities_in_healthcare_software/",
+      "desc": "&#32; submitted by &#32;  /u/idnsec   [link] &#32; [comments]",
+      "pubDate": "2026-11-04T05:28:24+00:00",
+      "source": "r/netsec",
+      "cat": "community",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
         "ips": [],
         "hashes": []
       },
