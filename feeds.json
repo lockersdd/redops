@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T18:13:45.765510+00:00",
+  "generated_at": "2026-11-05T23:46:32.844509+00:00",
   "sources_ok": 15,
   "sources_total": 20,
   "source_status": {
@@ -91,6 +91,44 @@
   },
   "total": 195,
   "articles": [
+    {
+      "id": "TheHa-ac2522fc46c7",
+      "title": "OpenSSH Issues Emergency Fix for Flaw Letting Long Passwords Bypass SSH Auth on Alpine Linux",
+      "link": "https://thehackernews.com/2026/11/openssh-issues-emergency-fix-for-flaw.html",
+      "desc": "Attackers can log in to accounts that have no password, such as SSH key-only accounts, on some Alpine Linux servers running the standard openssh-server package. They need network access to the server, an account name, and a password between 257 and 1,024 bytes long.\n\nOpenSSH, which rates the flaw critical, released version 10.6p2 today to block it. Alpine has published fixed packages for every",
+      "pubDate": "Thu, 05 Nov 2026 22:12:46 +0530",
+      "source": "The Hacker News",
+      "cat": "threats",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "TheHa-c082971dd55a",
+      "title": "Researchers Bypass ChatGPT Lockdown Mode to Exfiltrate Chats Without User Interaction",
+      "link": "https://thehackernews.com/2026/11/researchers-bypass-chatgpt-lockdown.html",
+      "desc": "Cybersecurity researchers have disclosed details of a now-patched vulnerability that could be exploited to bypass Lockdown Mode protections in OpenAI ChatGPT.\n\nLockdown Mode was introduced by the artificial intelligence (AI) company in June 2026 as an optional setting to minimize data exfiltration risks arising from prompt injections.\n\n\"The flaw could enable silent chat data theft, phishing,",
+      "pubDate": "Thu, 05 Nov 2026 22:12:32 +0530",
+      "source": "The Hacker News",
+      "cat": "threats",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
     {
       "id": "TheHa-08a1911300d5",
       "title": "ThreatsDay: Apache OFBiz RCE, DreamHost Breach, DeFi Site Hijacks + 17 More Stories",
@@ -342,44 +380,6 @@
       "source": "The Hacker News",
       "cat": "threats",
       "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "TheHa-07e1402c97b4",
-      "title": "Xen Hypervisor Flaws Let One Malicious VM Read and Write Any Other VM's Memory",
-      "link": "https://thehackernews.com/2026/11/xen-hypervisor-flaws-let-one-malicious.html",
-      "desc": "Two flaws in the Xen hypervisor allow a malicious guest virtual machine (VM) to read and write the memory of other VMs on the same host, including dom0.\n\nDom0 is the VM that, by default, has full permissions and manages the others. Patches are out, and there is no known mitigation, the Xen Project said in an&nbsp;advisory&nbsp;on November 3.\n\nAll Xen versions from 4.6 onward are vulnerable,",
-      "pubDate": "Wed, 04 Nov 2026 17:16:27 +0530",
-      "source": "The Hacker News",
-      "cat": "threats",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "TheHa-cbe395e0de02",
-      "title": "Radio With No Radar: Why Agent Runtime Security Fails Without the Layers Beneath It",
-      "link": "https://thehackernews.com/2026/11/radio-with-no-radar-why-agent-runtime.html",
-      "desc": "Nearly every agent security pitch now ends on the same promise: the product stops the bad action in real time. The promise holds for one kind of agent, the kind whose traffic passes through a gateway the enterprise owns. Most agents never touch one.\n\nOne recent case shows what that gap looks like in practice. An employee asked an AI assistant to trigger a mass-email automation. The automation",
-      "pubDate": "Wed, 04 Nov 2026 17:04:20 +0530",
-      "source": "The Hacker News",
-      "cat": "threats",
-      "sev": "medium",
       "tags": [],
       "iocs": {
         "cves": [],
@@ -778,6 +778,25 @@
       "ts": 0
     },
     {
+      "id": "GBHack-919e58068769",
+      "title": "OpenMatter Network Positions Decentralized Computing as an Alternative to Data Centers for AI",
+      "link": "https://gbhackers.com/openmatter-network-positions-decentralized-computing-as-an-alternative-to-data-centers-for-ai/",
+      "desc": "Melbourne, Florida, November 5th, 2026, CyberNewswire OpenMatter Network, a pioneer in decentralized infrastructure for agentic artificial intelligence, is positioning its decentralized computing platform as an alternative to massive, centralized data center development amid growing public opposition to new facilities. The company says its approach can support continued AI adoption by enabling com",
+      "pubDate": "Thu, 05 Nov 2026 16:57:32 +0000",
+      "source": "GBHackers",
+      "cat": "threats",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
       "id": "GBHack-23de61c67a5d",
       "title": "China-Aligned Hackers Hijack Popular Sogou Keyboard Software to Secretly Install DarkVigil Malware",
       "link": "https://gbhackers.com/darkvigil-malware-campaign/",
@@ -937,25 +956,6 @@
       "pubDate": "Thu, 05 Nov 2026 07:25:30 +0000",
       "source": "GBHackers",
       "cat": "threats",
-      "sev": "critical",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "GBHack-db0a9d9fc6f8",
-      "title": "AI-Powered BOSSAI Attacks Expose Patient Records and Emergency Dispatch Data in Taiwan",
-      "link": "https://gbhackers.com/ai-powered-bossai-attacks/",
-      "desc": "BOSSAI, an agentic attack platform run by one operator that exposed emergency medical and dispatch data in Taipei. The campaign targeted hundreds of organizations in eleven countries, including emergency services, banks, universities, military systems and e-commerce sites. Confirmed breaches hit universities and emergency providers, with medical data and PII exfiltrated. A Taipei fire department p",
-      "pubDate": "Thu, 05 Nov 2026 07:22:55 +0000",
-      "source": "GBHackers",
-      "cat": "breaches",
       "sev": "critical",
       "tags": [],
       "iocs": {
@@ -2094,18 +2094,18 @@
       "sev": "high",
       "tags": [
         {
-          "t": "CVE-2026-109619",
+          "t": "CVE-2026-109618",
           "cls": "cve"
         },
         {
-          "t": "CVE-2026-109618",
+          "t": "CVE-2026-109619",
           "cls": "cve"
         }
       ],
       "iocs": {
         "cves": [
-          "CVE-2026-109619",
-          "CVE-2026-109618"
+          "CVE-2026-109618",
+          "CVE-2026-109619"
         ],
         "ips": [],
         "hashes": []
@@ -2350,6 +2350,63 @@
       "ts": 0
     },
     {
+      "id": "Malwar-b664f3c8c14a",
+      "title": "Phone return scams: where a real delivery and a fake return end up in a bill for you",
+      "link": "https://www.malwarebytes.com/blog/threat-intel/2026/11/phone-return-scams-where-a-real-delivery-and-a-fake-return-end-up-in-a-bill-for-you",
+      "desc": "Phone return scams are part of a very convincing social engineering method where the criminals gets a phone and you get billed.",
+      "pubDate": "Thu, 05 Nov 2026 22:18:22 GMT",
+      "source": "Malwarebytes",
+      "cat": "malware",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "Malwar-6839dd27c4f5",
+      "title": "NIKKE PC launcher compromise put players’ passwords and personal files at risk",
+      "link": "https://www.malwarebytes.com/blog/news/2026/11/nikke-pc-launcher-compromise-put-players-passwords-and-personal-files-at-risk",
+      "desc": "Players of Goddess of Victory: NIKKE are being urged to check their PCs after attackers tampered with files used by the game’s Windows launcher.",
+      "pubDate": "Thu, 05 Nov 2026 22:06:59 GMT",
+      "source": "Malwarebytes",
+      "cat": "malware",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "Malwar-371112047c3b",
+      "title": "Scammers use AI-generated images of missing pets to extort owners",
+      "link": "https://www.malwarebytes.com/blog/ai/2026/11/scammers-use-ai-generated-images-of-missing-pets-to-extort-owners",
+      "desc": "Scammers are using AI images to enhance their \"I've found your missing pet and want money to return it to you\" schemes.",
+      "pubDate": "Thu, 05 Nov 2026 21:34:14 GMT",
+      "source": "Malwarebytes",
+      "cat": "malware",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
       "id": "Malwar-bc8420fae40a",
       "title": "Vizio, Samsung smart TVs seem to ignore tracking opt outs",
       "link": "https://www.malwarebytes.com/blog/news/2026/11/vizio-samsung-smart-tvs-seem-to-ignore-tracking-opt-outs",
@@ -2564,63 +2621,6 @@
       "link": "https://www.malwarebytes.com/blog/news/2026/10/photo-id-bank-checks-face-scan-the-uks-age-check-options",
       "desc": "Ofcom has set out four possible age-verification methods for UK’s under-16 social media ban.",
       "pubDate": "Fri, 30 Oct 2026 13:00:02 GMT",
-      "source": "Malwarebytes",
-      "cat": "malware",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "Malwar-965343e594dc",
-      "title": "Binance hit by largest-ever crypto theft, with $6.3 billion stolen",
-      "link": "https://www.malwarebytes.com/blog/news/2026/10/binance-hit-by-largest-ever-crypto-theft-with-6-3-billion-stolen",
-      "desc": "Attackers stole about $6.3 billion in cryptocurrency from Binance in what analysts say is the largest crypto theft on record.",
-      "pubDate": "Fri, 30 Oct 2026 12:24:19 GMT",
-      "source": "Malwarebytes",
-      "cat": "malware",
-      "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "Malwar-122245bce81f",
-      "title": "Hackers steal and publish data on 41,000 Homeland Security workers",
-      "link": "https://www.malwarebytes.com/blog/data-breaches/2026/10/hackers-steal-and-publish-data-on-41000-homeland-security-workers",
-      "desc": "A hacker group claims it stole data on 41,000 DHS employees, exposing work contact details and internal group memberships.",
-      "pubDate": "Fri, 30 Oct 2026 11:33:12 GMT",
-      "source": "Malwarebytes",
-      "cat": "malware",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "Malwar-b175667591aa",
-      "title": "Malicious Firefox extensions impersonate popular crypto wallets",
-      "link": "https://www.malwarebytes.com/blog/news/2026/10/malicious-firefox-extensions-impersonate-popular-crypto-wallets",
-      "desc": "Fake Firefox extensions posing as Phantom, Jupiter, and Bitget targeted users to steal crypto wallet recovery phrases and private keys.",
-      "pubDate": "Thu, 29 Oct 2026 14:06:54 GMT",
       "source": "Malwarebytes",
       "cat": "malware",
       "sev": "medium",
@@ -3172,18 +3172,18 @@
       "sev": "high",
       "tags": [
         {
-          "t": "CVE-2026-109619",
+          "t": "CVE-2026-109618",
           "cls": "cve"
         },
         {
-          "t": "CVE-2026-109618",
+          "t": "CVE-2026-109619",
           "cls": "cve"
         }
       ],
       "iocs": {
         "cves": [
-          "CVE-2026-109619",
-          "CVE-2026-109618"
+          "CVE-2026-109618",
+          "CVE-2026-109619"
         ],
         "ips": [],
         "hashes": []
@@ -3668,23 +3668,54 @@
       "ts": 0
     },
     {
-      "id": "r/nets-a9a6bbc94fb8",
-      "title": "Escaping AWS Firecracker from guest userspace: VMM memory corruption (CVE-2026-122192)",
-      "link": "https://www.reddit.com/r/netsec/comments/1xo0yov/escaping_aws_firecracker_from_guest_userspace_vmm/",
-      "desc": "We just published our research on escaping Firecracker microVMs, coordinated with AWS. The interesting part is how a guest can end up accessing memory belonging to the Firecracker process running outside the VM. The vulnerability: When a microVM is restored from a snapshot using the File memory backend, a failed memory remapping operation can leave KVM referencing a stale host virtual address rang",
-      "pubDate": "2026-11-04T21:47:44+00:00",
+      "id": "r/nets-25ed2e350666",
+      "title": "Barracuda Networks is your new best friend (Barracuda Email Security Gateway Pre-Auth Remote Root RCE CVE-2026-116606 / CVE-2026-111560) - watchTowr Labs",
+      "link": "https://www.reddit.com/r/netsec/comments/1xouqpj/barracuda_networks_is_your_new_best_friend/",
+      "desc": "&#32; submitted by &#32;  /u/dx7r__   [link] &#32; [comments]",
+      "pubDate": "2026-11-05T21:24:03+00:00",
       "source": "r/netsec",
       "cat": "community",
-      "sev": "high",
+      "sev": "critical",
       "tags": [
         {
-          "t": "CVE-2026-122192",
+          "t": "CVE-2026-116606",
+          "cls": "cve"
+        },
+        {
+          "t": "CVE-2026-111560",
           "cls": "cve"
         }
       ],
       "iocs": {
         "cves": [
-          "CVE-2026-122192"
+          "CVE-2026-116606",
+          "CVE-2026-111560"
+        ],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "r/nets-17be6d3b6f1c",
+      "title": "Sogou Input Method update hijack installs DarkVigil backdoor; update to 16.10 (CVE-2026-120422)",
+      "link": "https://www.reddit.com/r/netsec/comments/1xoq81f/sogou_input_method_update_hijack_installs/",
+      "desc": "&#32; submitted by &#32;  /u/glatisantbeast   [link] &#32; [comments]",
+      "pubDate": "2026-11-05T18:26:37+00:00",
+      "source": "r/netsec",
+      "cat": "community",
+      "sev": "high",
+      "tags": [
+        {
+          "t": "CVE-2026-120422",
+          "cls": "cve"
+        }
+      ],
+      "iocs": {
+        "cves": [
+          "CVE-2026-120422"
         ],
         "ips": [],
         "hashes": []
@@ -3705,6 +3736,32 @@
       "tags": [],
       "iocs": {
         "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "r/nets-a9a6bbc94fb8",
+      "title": "Escaping AWS Firecracker from guest userspace: VMM memory corruption (CVE-2026-122192)",
+      "link": "https://www.reddit.com/r/netsec/comments/1xo0yov/escaping_aws_firecracker_from_guest_userspace_vmm/",
+      "desc": "We just published our research on escaping Firecracker microVMs, coordinated with AWS. The interesting part is how a guest can end up accessing memory belonging to the Firecracker process running outside the VM. The vulnerability: When a microVM is restored from a snapshot using the File memory backend, a failed memory remapping operation can leave KVM referencing a stale host virtual address rang",
+      "pubDate": "2026-11-04T21:47:44+00:00",
+      "source": "r/netsec",
+      "cat": "community",
+      "sev": "high",
+      "tags": [
+        {
+          "t": "CVE-2026-122192",
+          "cls": "cve"
+        }
+      ],
+      "iocs": {
+        "cves": [
+          "CVE-2026-122192"
+        ],
         "ips": [],
         "hashes": []
       },
@@ -3854,44 +3911,6 @@
       "source": "r/netsec",
       "cat": "community",
       "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "r/nets-9adb0b241864",
-      "title": "Fake Nuclear Alert Sent Through Russian Emergencies Ministry App After Hack",
-      "link": "https://www.reddit.com/r/netsec/comments/1xm1rrf/fake_nuclear_alert_sent_through_russian/",
-      "desc": "&#32; submitted by &#32;  /u/Much-Television-9449   [link] &#32; [comments]",
-      "pubDate": "2026-11-02T16:25:38+00:00",
-      "source": "r/netsec",
-      "cat": "community",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "r/nets-3cd5c872f571",
-      "title": "Securing Internet-Critical Software: How We Could Have Backdoored Bash",
-      "link": "https://www.reddit.com/r/netsec/comments/1xlsxqk/securing_internetcritical_software_how_we_could/",
-      "desc": "(May 2026) TL;DR:  an email address like atouch${IFS}/tmp/savane-rce-proof@attacker.example gave any registered user code execution on its backend. From there, we made our account a superuser, impersonated Bash’s maintainer, and confirmed we could add an SSH key with push access to the upstream Bash repository. An unpatched kernel gave us root access and access to a GNU backup server. We reported ",
-      "pubDate": "2026-11-02T09:43:15+00:00",
-      "source": "r/netsec",
-      "cat": "community",
-      "sev": "critical",
       "tags": [],
       "iocs": {
         "cves": [],
