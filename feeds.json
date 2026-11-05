@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-05T02:40:41.986755+00:00",
-  "sources_ok": 14,
+  "generated_at": "2026-11-05T10:29:21.862570+00:00",
+  "sources_ok": 15,
   "sources_total": 20,
   "source_status": {
     "The Hacker News": {
@@ -25,9 +25,8 @@
       "error": "403 Client Error: Forbidden for url: https://www.hackread.com/feed"
     },
     "Exploit-DB": {
-      "ok": false,
-      "articles": 0,
-      "error": "502 Server Error: Bad Gateway for url: https://www.exploit-db.com/rss.xml"
+      "ok": true,
+      "articles": 15
     },
     "VulnHub": {
       "ok": true,
@@ -90,8 +89,110 @@
       "error": "429 Client Error: Too Many Requests for url: https://www.reddit.com/r/blueteamsec/.rss"
     }
   },
-  "total": 180,
+  "total": 195,
   "articles": [
+    {
+      "id": "TheHa-1d5afb638e07",
+      "title": "Apple to Start Scanning Publicly Shared iCloud Photos and Files for Harmful Content",
+      "link": "https://thehackernews.com/2026/11/apple-to-start-scanning-publicly-shared.html",
+      "desc": "Apple has revealed that it plans to start checking public iCloud links for harmful content starting with iOS 27.3, iPadOS 27.3, macOS 27.3, and visionOS 27.3.\n\nThe change specifically applies to scenarios where users share iCloud content, such as photos in iCloud Photos or files in iCloud Drive, by sharing a link and making it accessible to \"Anyone with the link.\"\n\nWhen users choose this option,",
+      "pubDate": "Thu, 05 Nov 2026 14:43:28 +0530",
+      "source": "The Hacker News",
+      "cat": "threats",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "TheHa-26f2427e1d75",
+      "title": "CERT-In Flags AI-Driven Attacks as Backdoored ARTEX Exposes 62 Consoles to Root Access",
+      "link": "https://thehackernews.com/2026/11/backdoored-docker-image-for-artex-ai.html",
+      "desc": "The Indian Computer Emergency Response Team (CERT-In) has disclosed that an artificial intelligence (AI)-assisted threat actor it tracks as Crafty Falcon is targeting organizations in the Banking, Financial Services, and Insurance (BFSI) sectors in the country.\n\nDescribing the threat as active and ongoing, the activity involves the use of publicly-available AI-driven offensive security tools",
+      "pubDate": "Thu, 05 Nov 2026 14:12:03 +0530",
+      "source": "The Hacker News",
+      "cat": "threats",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "TheHa-2b4dafc9b98e",
+      "title": "Zyxel GS1900 Patch Fails to Block Zero-Day Exploit Allowing Root Command Execution",
+      "link": "https://thehackernews.com/2026/11/zyxel-gs1900-patch-fails-to-block-zero.html",
+      "desc": "Zyxel GS1900 network switches that received the vendor's earlier fix for an actively exploited flaw are still open to the exploit attackers used, researchers at Binarly found.\n\nThe exploit lets anyone who can reach a switch's web management interface run commands on it without logging in. Zyxel has released new firmware for 10 GS1900 models that closes the hole.\n\nThe earlier fix is the 2.90",
+      "pubDate": "Thu, 05 Nov 2026 12:36:33 +0530",
+      "source": "The Hacker News",
+      "cat": "threats",
+      "sev": "critical",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "TheHa-aea2bba8c0a7",
+      "title": "Hackers Exploit Patched Apple Flaw to Deliver Info-Stealing Malware, CISA Says",
+      "link": "https://thehackernews.com/2026/11/hackers-exploit-patched-apple-flaw-to.html",
+      "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a medium-severity security flaw impacting multiple Apple operating systems to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation.\n\nThe vulnerability in question is CVE-2024-27834 (CVSS score: 5.5), a case of improper authentication that could allow an attacker with",
+      "pubDate": "Thu, 05 Nov 2026 10:47:04 +0530",
+      "source": "The Hacker News",
+      "cat": "malware",
+      "sev": "high",
+      "tags": [
+        {
+          "t": "CVE-2024-27834",
+          "cls": "cve"
+        }
+      ],
+      "iocs": {
+        "cves": [
+          "CVE-2024-27834"
+        ],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "TheHa-02abc5797d37",
+      "title": "OpenAI AI Pipeline Generates 948 Linux Root Escalation Exploits in 30-Hour Run",
+      "link": "https://thehackernews.com/2026/11/openai-ai-pipeline-generates-948-linux.html",
+      "desc": "OpenAI on Wednesday detailed a pipeline that employed an upcoming cyber-focused artificial intelligence (AI) model to validate and patch 948 local privilege escalation vulnerabilities in Linux for $1.2 million in API costs.\n\n\"Our prototype identified and analyzed 2,308 candidate Linux kernel findings, dynamically reproduced 1,724 vulnerabilities, and produced 948 local privilege escalation (LPE)",
+      "pubDate": "Thu, 05 Nov 2026 10:01:16 +0530",
+      "source": "The Hacker News",
+      "cat": "threats",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
     {
       "id": "TheHa-6c49cc2a6c2d",
       "title": "Debian and Ubuntu APT Flaw Lets MitM Attackers Swap Verified Packages and Run Code as Root",
@@ -160,7 +261,7 @@
       "id": "TheHa-b7918cc33fb4",
       "title": "APT29-Linked Hackers Hijack Web Analytics Script to Deliver iOS and Android Exploits",
       "link": "https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html",
-      "desc": "The Russia-linked threat actor known as APT29 is said to be behind a large-scale watering hole campaign targeting iOS and Android users through compromised websites, fake domains, and a supply chain attack involving a Ukrainian web analytics service called Plerdy SEO Tracker.\n\n\"The injected JavaScript code collects browser and device attributes,\" Sekoia researchers Amaury-Jacques Garçon and",
+      "desc": "The Russia-linked threat actor known as APT29 is presumed to be behind a large-scale watering hole campaign targeting iOS and Android users through compromised websites, fake domains, and a supply chain attack involving a Ukrainian web analytics service called Plerdy SEO Tracker.\n\n\"The injected JavaScript code collects browser and device attributes,\" Sekoia researchers Amaury-Jacques Garçon and",
       "pubDate": "Wed, 04 Nov 2026 19:57:52 +0530",
       "source": "The Hacker News",
       "cat": "threats",
@@ -297,107 +398,17 @@
       "ts": 0
     },
     {
-      "id": "TheHa-8e23bed1212e",
-      "title": "CISA Confirms Hackers Exploiting WordPress Core Flaw During Software Upgrades",
-      "link": "https://thehackernews.com/2026/11/cisa-confirms-hackers-exploiting.html",
-      "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a security flaw in WordPress Core to the Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation.\n\nThe high-severity vulnerability, tracked as CVE-2026-119977 (CVSS score: 8.1), is a case of Time-of-check Time-of-use (TOCTOU) race condition that could be exploited to achieve arbitrary code",
-      "pubDate": "Wed, 04 Nov 2026 11:13:11 +0530",
-      "source": "The Hacker News",
+      "id": "Krebs-31451a083382",
+      "title": "Want to Rent an Internet Address at the White House?",
+      "link": "https://krebsonsecurity.com/2026/11/want-to-rent-an-internet-address-at-the-white-house/",
+      "desc": "Several staffers at the White House are using computers or mobile devices equipped with residential proxy services that render their internet address available for others to rent, security experts warned today. One of the proxy services is a Russian company whose founder's web hosting business was ground zero for cyberattacks against election systems in Arizona and Illinois in 2016.",
+      "pubDate": "Thu, 05 Nov 2026 04:36:17 +0000",
+      "source": "Krebs on Security",
       "cat": "threats",
-      "sev": "high",
-      "tags": [
-        {
-          "t": "CVE-2026-119977",
-          "cls": "cve"
-        }
-      ],
-      "iocs": {
-        "cves": [
-          "CVE-2026-119977"
-        ],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "TheHa-6f0fd2a5f9c9",
-      "title": "mSecure Warns Users to Change Passwords, Reset 2FA and Passkeys After Suspicious Activity",
-      "link": "https://thehackernews.com/2026/11/msecure-warns-users-to-change-passwords.html",
-      "desc": "Customers of the mSecure password manager are being urged to act now to protect the confidential information they store in it, possibly by changing passwords, resetting two-factor authentication (2FA), and removing passkeys.\n\nThe warning came in an email sent on November 3 in the name of developer mSeven Software. It says the company recently learned of suspicious activity linked to the app but",
-      "pubDate": "Wed, 04 Nov 2026 00:16:38 +0530",
-      "source": "The Hacker News",
-      "cat": "threats",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "TheHa-aba9b048b8d7",
-      "title": "Chainstack Reports Production Systems Breach Exposing Customer Data and Password Hashes",
-      "link": "https://thehackernews.com/2026/11/chainstack-reports-production-systems.html",
-      "desc": "Blockchain infrastructure provider Chainstack on Tuesday disclosed that it was targeted in a cyber attack that allowed an unauthorized party to gain access to some parts of its infrastructure.\n\nThe incident is assessed to be part of a large-scale, artificial intelligence (AI)-powered attack campaign that came to light last week.\n\n\"An external attacker gained unauthorized access to part of",
-      "pubDate": "Tue, 03 Nov 2026 23:46:19 +0530",
-      "source": "The Hacker News",
-      "cat": "breaches",
       "sev": "high",
       "tags": [],
       "iocs": {
         "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "TheHa-a37380b42a4a",
-      "title": "Binance Reveals How Fake Job Interviews and AI Tool Abuse Led to $6.43 Billion Theft",
-      "link": "https://thehackernews.com/2026/11/binance-reveals-how-fake-job-interviews.html",
-      "desc": "Binance on Tuesday said the record-setting theft of $6.43 billion in assets from the world's largest cryptocurrency exchange was the culmination of a \"sophisticated, multi-stage campaign\" that involved the use of a tampered Homebrew installation and recruitment-themed social engineering attack targeting two of its engineers.\n\n\"It was not a single isolated breach or a simple phishing incident,\"",
-      "pubDate": "Tue, 03 Nov 2026 22:25:58 +0530",
-      "source": "The Hacker News",
-      "cat": "breaches",
-      "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "TheHa-431e56a56585",
-      "title": "Barracuda Flaws Could Be Chained to Bypass Authorization and Gain Root Access",
-      "link": "https://thehackernews.com/2026/11/barracuda-flaws-could-be-chained-to.html",
-      "desc": "Barracuda has disclosed details of two vulnerabilities affecting its products that, if chained together, could allow an attacker to bypass authorization controls and gain root access to a susceptible device.\n\nThe vulnerabilities, a pre-authentication authorization bypass vulnerability and a command injection vulnerability, have been assigned the CVE identifiers CVE-2026-116606 (CVSS score: 9.3)",
-      "pubDate": "Tue, 03 Nov 2026 21:29:19 +0530",
-      "source": "The Hacker News",
-      "cat": "threats",
-      "sev": "high",
-      "tags": [
-        {
-          "t": "CVE-2026-116606",
-          "cls": "cve"
-        }
-      ],
-      "iocs": {
-        "cves": [
-          "CVE-2026-116606"
-        ],
         "ips": [],
         "hashes": []
       },
@@ -577,14 +588,14 @@
       "ts": 0
     },
     {
-      "id": "Krebs-d9b8423e3baf",
-      "title": "Data Broker Radaris Loses Domains in Privacy Fight",
-      "link": "https://krebsonsecurity.com/2026/09/data-broker-radaris-loses-domains-in-privacy-fight/",
-      "desc": "The consumer data broker Radaris.com has long had a reputation for ignoring requests to remove personal information from its vast empire of people-search services online. That reputation caught up with the company recently in a lawsuit alleging Radaris violated a New Jersey privacy law that provides for hefty fines against data brokers that publish personal information on state law enforcement off",
-      "pubDate": "Wed, 16 Sep 2026 18:14:22 +0000",
-      "source": "Krebs on Security",
+      "id": "Securi-566ecf528323",
+      "title": "OpenAI Finds GPT-6 Astra Quietly Holding Back on Internal Red-Teaming, Exploit Tasks",
+      "link": "https://www.securityweek.com/openai-finds-gpt-6-astra-quietly-holding-back-on-internal-red-teaming-exploit-tasks/",
+      "desc": "OpenAI says its Critical-rated cyber model met fewer hidden task goals when work was framed as AI safety research, often silently.\nThe post OpenAI Finds GPT-6 Astra Quietly Holding Back on Internal Red-Teaming, Exploit Tasks appeared first on SecurityWeek.",
+      "pubDate": "Thu, 05 Nov 2026 10:02:00 +0000",
+      "source": "SecurityWeek",
       "cat": "threats",
-      "sev": "critical",
+      "sev": "high",
       "tags": [],
       "iocs": {
         "cves": [],
@@ -767,94 +778,11 @@
       "ts": 0
     },
     {
-      "id": "Securi-fc9fb5664d7c",
-      "title": "Meta Shares Top Muse Bug Bounty Findings as Payouts Reach $1.2 Million",
-      "link": "https://www.securityweek.com/meta-shares-top-muse-bug-bounty-findings-as-payouts-reach-1-2-million/",
-      "desc": "A $300,000 award went to a pre-launch flaw that exposed conversations and tokens on internal Muse test VMs used by Meta staff.\nThe post Meta Shares Top Muse Bug Bounty Findings as Payouts Reach $1.2 Million appeared first on SecurityWeek.",
-      "pubDate": "Wed, 04 Nov 2026 08:27:05 +0000",
-      "source": "SecurityWeek",
-      "cat": "threats",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "GBHack-ae7bdbbd1381",
-      "title": "The Sandbox Fights Back: Joe Security Launches Adaptive Detonation",
-      "link": "https://gbhackers.com/the-sandbox-fights-back-joe-security-launches-adaptive-detonation/",
-      "desc": "Reinach, Switzerland, November 4th, 2026, CyberNewswire AI agents help Joe Sandbox uncover malicious behavior concealed by evasion techniques and unmet execution conditions. Joe Security&#8216;s Adaptive Detonation brings active intervention to malware analysis, helping security teams investigate threats that may conceal their behavior during an initial sandbox run. Adaptive Detonation uses AI age",
-      "pubDate": "Wed, 04 Nov 2026 13:57:34 +0000",
-      "source": "GBHackers",
-      "cat": "malware",
-      "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "GBHack-20521efc531d",
-      "title": "Russia-Aligned Gorbag APT Exploits WinRAR CVE-2025-8088 to Deploy BeautyStealer Infostealer",
-      "link": "https://gbhackers.com/gorbag-apt-campaign/",
-      "desc": "A targeted cyberespionage campaign by Gorbag, a Russia-aligned threat actor exploiting WinRAR vulnerability CVE-2025-8088 to deploy BeautyStealer against Ukrainian organizations. Active since at least February 2025, the group prioritizes law enforcement, justice institutions, frontline local administrations, and defense organizations, using compact malware designed for rapid intelligence collectio",
-      "pubDate": "Wed, 04 Nov 2026 13:08:20 +0000",
-      "source": "GBHackers",
-      "cat": "malware",
-      "sev": "critical",
-      "tags": [
-        {
-          "t": "CVE-2025-8088",
-          "cls": "cve"
-        }
-      ],
-      "iocs": {
-        "cves": [
-          "CVE-2025-8088"
-        ],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "GBHack-a8bdc210c7c7",
-      "title": "Russian Hackers Create Fake US and UK Websites to Target Visitors With Mobile Exploits",
-      "link": "https://gbhackers.com/fake-us-and-uk-websites/",
-      "desc": "A large-scale watering hole campaign that it assesses, with moderate to high confidence, is the work of APT29. APT29 is also tracked as Midnight Blizzard, Cozy Bear and The Dukes, and is widely linked to Russia&#8217;s SVR foreign intelligence service. The operation hit iOS and Android users through compromised sites, cloned domains, and a poisoned [&#8230;]\nThe post Russian Hackers Create Fake US",
-      "pubDate": "Wed, 04 Nov 2026 12:45:22 +0000",
-      "source": "GBHackers",
-      "cat": "threats",
-      "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "GBHack-8a2279e6a201",
-      "title": "Google Patches Critical Android RCE Flaws That Let Attackers Execute Code Without User Interaction",
-      "link": "https://gbhackers.com/google-patches-critical-android-rce-flaws/",
-      "desc": "Google released its November 2026 Android Security Bulletin, which addresses critical vulnerabilities that could allow remote code execution without user interaction or additional execution privileges. Published on November 2, the bulletin highlights a framework vulnerability as the most severe issue and also documents other critical remote code execution flaws in Android&#8217;s system components",
-      "pubDate": "Wed, 04 Nov 2026 12:14:47 +0000",
+      "id": "GBHack-a966451e0b5d",
+      "title": "Critical Citrix XenServer Flaw Allows Unauthenticated Attackers to Take Control of Virtualization Hosts",
+      "link": "https://gbhackers.com/critical-citrix-xenserver-flaw/",
+      "desc": "Citrix has released security updates for XenServer versions 8.4 and 9 to address a critical vulnerability. This flaw could allow an unauthenticated attacker on the management network to compromise virtualization hosts. The Cloud Software Group published a bulletin (CTX697256) on November 3, 2026, classifying the issue as Critical. The bulletin covers nine CVEs. Citrix XenServer [&#8230;]\nThe post ",
+      "pubDate": "Thu, 05 Nov 2026 08:46:14 +0000",
       "source": "GBHackers",
       "cat": "threats",
       "sev": "critical",
@@ -869,40 +797,14 @@
       "ts": 0
     },
     {
-      "id": "GBHack-fd27337e7fe0",
-      "title": "CISA Warns of Active Attacks Exploiting WordPress Core Code Execution Vulnerability",
-      "link": "https://gbhackers.com/cisa-warns-of-wordpress-core-code-execution-vulnerability/",
-      "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has included a WordPress Core vulnerability in its Known Exploited Vulnerabilities catalog due to evidence of active exploitation. This vulnerability, identified as CVE-2026-119977, allows unauthenticated attackers to execute server-side code during a specific software upgrade window. CISA added this vulnerability to the catalog on N",
-      "pubDate": "Wed, 04 Nov 2026 11:58:47 +0000",
+      "id": "GBHack-663c8970da42",
+      "title": "10 Third-Party / Vendor Risk Management (TPRM) Tools: The 2026 Buyer’s Verdict Guide",
+      "link": "https://gbhackers.com/tprm-tools-buyers-guide/",
+      "desc": "Third-party risk management is where questionnaires go to die or get automated: the modern platforms fuse assessment workflow, outside-in ratings, and continuous monitoring so vendor risk stops being an annual PDF exchange. One honest count note up front: our source roster listed CyberGRX and ProcessUnity separately, but ProcessUnity acquired CyberGRX so this guide judges ten [&#8230;]\nThe post 10",
+      "pubDate": "Thu, 05 Nov 2026 07:27:22 +0000",
       "source": "GBHackers",
       "cat": "threats",
-      "sev": "high",
-      "tags": [
-        {
-          "t": "CVE-2026-119977",
-          "cls": "cve"
-        }
-      ],
-      "iocs": {
-        "cves": [
-          "CVE-2026-119977"
-        ],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "GBHack-af1b60b81d2d",
-      "title": "Hackers Use Stolen Microsoft Entra ID App Credentials to Breach 27 Organizations and Steal Sensitive Data",
-      "link": "https://gbhackers.com/hackers-use-stolen-microsoft-entra-id-app-credentials/",
-      "desc": "Hackers are exploiting stolen Microsoft Entra ID application credentials to infiltrate Microsoft 365 and Azure environments, impacting 27 organizations via managed service providers (MSPs) and their downstream clients. Todyl’s MXDR team is monitoring this ongoing campaign, referred to as Key Eater. Since November 1, 2026, the attackers have targeted approximately 45 app registrations across about ",
-      "pubDate": "Wed, 04 Nov 2026 11:49:41 +0000",
-      "source": "GBHackers",
-      "cat": "breaches",
-      "sev": "high",
+      "sev": "critical",
       "tags": [],
       "iocs": {
         "cves": [],
@@ -914,14 +816,14 @@
       "ts": 0
     },
     {
-      "id": "GBHack-5797266555af",
-      "title": "Cloudflare Launches Zero Wire to Track Critical Vulnerabilities and Active Exploitation Across the Internet",
-      "link": "https://gbhackers.com/cloudflare-launches-zero-wire-to-track-critical-vulnerabilities/",
-      "desc": "Cloudflare launched Zero Wire, a public vulnerability intelligence hub that helps security teams investigate critical internet threats, assess exploitation evidence, and prioritize remediation efforts. Available through Cloudflare Radar, the service combines technical research, vendor guidance, and network observations into concise briefings. Cloudflare’s launch announcement positions the platform",
-      "pubDate": "Wed, 04 Nov 2026 11:37:15 +0000",
+      "id": "GBHack-4288de37ebed",
+      "title": "11 Compliance Automation Software (SOC 2 / ISO 27001): The 2026 Buyer’s Verdict Guide",
+      "link": "https://gbhackers.com/compliance-automation-buyers-guide/",
+      "desc": "Compliance automation collapsed the SOC 2 timeline from consulting-year to integration-quarter: connectors pull evidence from your cloud, HR, and device stacks continuously, and the audit becomes a review of live data rather than a screenshot hunt. The 2026 differentiators are framework breadth after the first cert, evidence-automation depth (what percentage needs no human), and auditor-network [&",
+      "pubDate": "Thu, 05 Nov 2026 07:25:30 +0000",
       "source": "GBHackers",
       "cat": "threats",
-      "sev": "high",
+      "sev": "critical",
       "tags": [],
       "iocs": {
         "cves": [],
@@ -933,14 +835,14 @@
       "ts": 0
     },
     {
-      "id": "GBHack-0c3b51c01ff8",
-      "title": "3AM Ransomware Hackers Use AI-Assisted Attacks to Breach UK Schools and Spread Across Windows Domains",
-      "link": "https://gbhackers.com/3am-ransomware-hackers-use-ai-assisted-attacks-to-breach-uk-schools/",
-      "desc": "A ransomware affiliate known as 3AM compromised a UK school network using a mix of traditional intrusion techniques and patterns suggesting the involvement of artificial intelligence. According to Bitdefender&#8217;s investigation on November 3, this operation appears to follow a suspected hybrid workflow: a human operator selects the targets while a language model may handle repetitive [&#8230;]\n",
-      "pubDate": "Wed, 04 Nov 2026 11:28:31 +0000",
+      "id": "GBHack-db0a9d9fc6f8",
+      "title": "AI-Powered BOSSAI Attacks Expose Patient Records and Emergency Dispatch Data in Taiwan",
+      "link": "https://gbhackers.com/ai-powered-bossai-attacks/",
+      "desc": "BOSSAI, an agentic attack platform run by one operator that exposed emergency medical and dispatch data in Taipei. The campaign targeted hundreds of organizations in eleven countries, including emergency services, banks, universities, military systems and e-commerce sites. Confirmed breaches hit universities and emergency providers, with medical data and PII exfiltrated. A Taipei fire department p",
+      "pubDate": "Thu, 05 Nov 2026 07:22:55 +0000",
       "source": "GBHackers",
       "cat": "breaches",
-      "sev": "high",
+      "sev": "critical",
       "tags": [],
       "iocs": {
         "cves": [],
@@ -952,11 +854,11 @@
       "ts": 0
     },
     {
-      "id": "GBHack-00d2f48c1e3f",
-      "title": "Fake Microsoft Support Scams Spread Through Online Ads as Researchers Uncover Organized Fraud Network",
-      "link": "https://gbhackers.com/fake-microsoft-support-scams/",
-      "desc": "An organized fraud operation using paid advertisements, Microsoft Azure hosting, and centrally managed telephone numbers to distribute counterfeit Microsoft support pages. The investigation links one backend serving the kit to Mandarin-speaking developers and registration details referencing Hubei, China. Those findings suggest operational connections, not definitive attribution. Crucially, the id",
-      "pubDate": "Wed, 04 Nov 2026 10:57:44 +0000",
+      "id": "GBHack-f16049eb4d83",
+      "title": "11 Cyber Risk Quantification Tools: The 2026 Buyer’s Verdict Guide",
+      "link": "https://gbhackers.com/crq-tools-buyers-guide/",
+      "desc": "Cyber risk quantification turns posture into currency expected annual loss with a confidence interval and its credibility lives entirely in the assumptions. This verdict guide judges eleven options on model honesty (can they decompose a scenario under questioning?), data grounding (live signals versus annual questionnaires), and decision fit, from boardroom steering to insurance limits. CRQ [&#823",
+      "pubDate": "Thu, 05 Nov 2026 07:22:48 +0000",
       "source": "GBHackers",
       "cat": "threats",
       "sev": "medium",
@@ -971,14 +873,382 @@
       "ts": 0
     },
     {
-      "id": "GBHack-56fa0fd49396",
-      "title": "Hackers Abuse LuaJIT and Windows Process Injection to Hide XLoader Credential-Stealing Malware",
-      "link": "https://gbhackers.com/xloader-malware-attack/",
-      "desc": "A new XLoader infection chain. It hides the credential stealer inside an embedded LuaJIT interpreter. It moves it into another Windows process through shared-section injection. The campaign uses business-themed email lures. It also delivered Agent Tesla, Remcos and XWorm . The chain starts with order and payment emails. One Greek-language message has a subject starting [&#8230;]\nThe post Hackers A",
-      "pubDate": "Wed, 04 Nov 2026 10:28:16 +0000",
+      "id": "GBHack-fec01a8c6311",
+      "title": "11 GRC Platforms: The 2026 Buyer’s Verdict Guide",
+      "link": "https://gbhackers.com/grc-platforms-buyers-guide/",
+      "desc": "GRC platforms fail one way above all: bought heavier than the team that must feed them, until the risk register quietly stops reflecting reality. This verdict guide therefore classes eleven platforms by the staffing they genuinely require workflow giants, configurable heavyweights, adoption-speed challengers, and no-code builders because in governance tooling, the platform your control owners [&#8",
+      "pubDate": "Thu, 05 Nov 2026 07:16:45 +0000",
+      "source": "GBHackers",
+      "cat": "threats",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "GBHack-e372d8d7ce6d",
+      "title": "11 Digital Forensics Tools: The 2026 Buyer’s Verdict Guide",
+      "link": "https://gbhackers.com/digital-forensics-tools-buyers-guide/",
+      "desc": "Forensic tooling is bought under two pressures that pull apart: caseload arithmetic (mostly mobile, always backlogged) and courtroom survival (every finding must outlive cross-examination). This verdict guide judges eleven tools commercial suites, frontline kiosks, and the open-source pillars every lab quietly depends on by lane, because “best” in forensics means best for the evidence type [&#8230",
+      "pubDate": "Thu, 05 Nov 2026 07:10:17 +0000",
+      "source": "GBHackers",
+      "cat": "threats",
+      "sev": "critical",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "GBHack-b33c65667b7e",
+      "title": "DreamHost Confirms Data Breach After Hackers Steal FTP/SFTP Credentials and Access Customer Emails",
+      "link": "https://gbhackers.com/dreamhost-confirms-data-breach/",
+      "desc": "DreamHost has confirmed a security breach involving its browser-based File Manager, which exposed FTP/SFTP usernames and passwords, as well as the credentials of a limited number of webmail users. The company discovered unauthorized access on October 23, 2026, and it believes that attackers may have viewed the contents of some mailboxes. Affected customers are being [&#8230;]\nThe post DreamHost Co",
+      "pubDate": "Thu, 05 Nov 2026 06:26:24 +0000",
+      "source": "GBHackers",
+      "cat": "breaches",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "GBHack-999853d539a3",
+      "title": "OpenAI’s New Cyber AI Model Finds 948 Linux Privilege Escalation Vulnerabilities in Just 10 Days",
+      "link": "https://gbhackers.com/openais-new-cyber-ai-model-finds-948-linux-privilege-escalation-vulnerabilities/",
+      "desc": "OpenAI has developed an autonomous pipeline that discovers, validates, exploits, and patches flaws in the Linux kernel. In a single run in mid-October 2026, an upcoming cybersecurity model generated 948 working local privilege escalation (LPE) exploits for a widely used Linux distribution. The total cost for this process was $1,213,430, which breaks down to approximately [&#8230;]\nThe post OpenAI&",
+      "pubDate": "Thu, 05 Nov 2026 06:14:57 +0000",
+      "source": "GBHackers",
+      "cat": "threats",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "GBHack-cd3efb2a3981",
+      "title": "Hackers Use ClickFix Tricks to Infect Macs With Phexia Malware That Hides Through Blockchain Infrastructure",
+      "link": "https://gbhackers.com/phexia-malware-attack/",
+      "desc": "Phexia, a modular macOS backdoor and infostealer sold to multiple threat actors. Operators deliver it through ClickFix lures. Since May 2026, newer builds have taken their command-and-control (C2) address from a Polygon smart contract, a technique known as EtherHiding. Victims reach fake verification pages through typosquatted domains and shopping listings. The page copies a command [&#8230;]\nThe ",
+      "pubDate": "Thu, 05 Nov 2026 06:06:48 +0000",
       "source": "GBHackers",
       "cat": "malware",
       "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "Exploi-1bb00e9cc860",
+      "title": "[remote] PHP2Shell (CVE-2026-109618) - PHP core versions after v5.4 - RCE",
+      "link": "https://www.exploit-db.com/exploits/52704",
+      "desc": "PHP2Shell (CVE-2026-109618) - PHP core versions after v5.4 - RCE",
+      "pubDate": "Thu, 22 Oct 2026 00:00:00 +0000",
+      "source": "Exploit-DB",
+      "cat": "exploits",
+      "sev": "critical",
+      "tags": [
+        {
+          "t": "CVE-2026-109618",
+          "cls": "cve"
+        }
+      ],
+      "iocs": {
+        "cves": [
+          "CVE-2026-109618"
+        ],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "Exploi-12a0b384461b",
+      "title": "[webapps] pizzafy-1.0 - SQLi",
+      "link": "https://www.exploit-db.com/exploits/52703",
+      "desc": "pizzafy-1.0 - SQLi",
+      "pubDate": "Wed, 21 Oct 2026 00:00:00 +0000",
+      "source": "Exploit-DB",
+      "cat": "exploits",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "Exploi-8a2b51e56d72",
+      "title": "[remote] South River Technologies Titan MFT Server 26.0.0 - code execution",
+      "link": "https://www.exploit-db.com/exploits/52701",
+      "desc": "South River Technologies Titan MFT Server 26.0.0 - code execution",
+      "pubDate": "Wed, 21 Oct 2026 00:00:00 +0000",
+      "source": "Exploit-DB",
+      "cat": "exploits",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "Exploi-8eb04e6a124a",
+      "title": "[remote] Synametrics Syncrify 6.2 - command execution",
+      "link": "https://www.exploit-db.com/exploits/52700",
+      "desc": "Synametrics Syncrify 6.2 - command execution",
+      "pubDate": "Wed, 21 Oct 2026 00:00:00 +0000",
+      "source": "Exploit-DB",
+      "cat": "exploits",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "Exploi-bea0f7f00668",
+      "title": "[webapps] Keycloak  26.7.2 - Unauthenticated Account Takeover",
+      "link": "https://www.exploit-db.com/exploits/52699",
+      "desc": "Keycloak  26.7.2 - Unauthenticated Account Takeover",
+      "pubDate": "Wed, 21 Oct 2026 00:00:00 +0000",
+      "source": "Exploit-DB",
+      "cat": "exploits",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "Exploi-2e12328298a1",
+      "title": "[webapps] Open eClass 3.15 - RCE",
+      "link": "https://www.exploit-db.com/exploits/52698",
+      "desc": "Open eClass 3.15 - RCE",
+      "pubDate": "Wed, 21 Oct 2026 00:00:00 +0000",
+      "source": "Exploit-DB",
+      "cat": "exploits",
+      "sev": "critical",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "Exploi-1eea97863759",
+      "title": "[webapps] Automotive Shop Management System 1.0 - SQLi",
+      "link": "https://www.exploit-db.com/exploits/52697",
+      "desc": "Automotive Shop Management System 1.0 - SQLi",
+      "pubDate": "Wed, 21 Oct 2026 00:00:00 +0000",
+      "source": "Exploit-DB",
+      "cat": "exploits",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "Exploi-ee5e4cfc912a",
+      "title": "[remote] Edimax BR-6478AC firmware v2.20 - authenticated command injection",
+      "link": "https://www.exploit-db.com/exploits/52696",
+      "desc": "Edimax BR-6478AC firmware v2.20 - authenticated command injection",
+      "pubDate": "Wed, 21 Oct 2026 00:00:00 +0000",
+      "source": "Exploit-DB",
+      "cat": "exploits",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "Exploi-eb8ccadba78b",
+      "title": "[remote] Exasol Database 7.1.30 - command execution",
+      "link": "https://www.exploit-db.com/exploits/52695",
+      "desc": "Exasol Database 7.1.30 - command execution",
+      "pubDate": "Wed, 21 Oct 2026 00:00:00 +0000",
+      "source": "Exploit-DB",
+      "cat": "exploits",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "Exploi-b8ce8b7c34aa",
+      "title": "[remote] Parasoft Continuous Testing Platform 10.7.5 - JSP command execution",
+      "link": "https://www.exploit-db.com/exploits/52694",
+      "desc": "Parasoft Continuous Testing Platform 10.7.5 - JSP command execution",
+      "pubDate": "Wed, 21 Oct 2026 00:00:00 +0000",
+      "source": "Exploit-DB",
+      "cat": "exploits",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "Exploi-e715fca639d9",
+      "title": "[remote] ProSoft RLX-IFH24E v2.2.44 - Unsigned Firmware Upgrade Package Executed as Root",
+      "link": "https://www.exploit-db.com/exploits/52693",
+      "desc": "ProSoft RLX-IFH24E v2.2.44 - Unsigned Firmware Upgrade Package Executed as Root",
+      "pubDate": "Wed, 21 Oct 2026 00:00:00 +0000",
+      "source": "Exploit-DB",
+      "cat": "exploits",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "Exploi-e58fb2bd739c",
+      "title": "[remote] Teltonika_RutOS 00.07.06.21 - command injection",
+      "link": "https://www.exploit-db.com/exploits/52692",
+      "desc": "Teltonika_RutOS 00.07.06.21 - command injection",
+      "pubDate": "Thu, 01 Oct 2026 00:00:00 +0000",
+      "source": "Exploit-DB",
+      "cat": "exploits",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "Exploi-d8a202870dda",
+      "title": "[webapps] TigerGraph_Community_Edition 4.2.4  - arbitrary file write",
+      "link": "https://www.exploit-db.com/exploits/52691",
+      "desc": "TigerGraph_Community_Edition 4.2.4  - arbitrary file write",
+      "pubDate": "Thu, 01 Oct 2026 00:00:00 +0000",
+      "source": "Exploit-DB",
+      "cat": "exploits",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "Exploi-1ba7ee86c11c",
+      "title": "[webapps] WordPress 7.0.2 - Path Travesal",
+      "link": "https://www.exploit-db.com/exploits/52690",
+      "desc": "WordPress 7.0.2 - Path Travesal",
+      "pubDate": "Thu, 01 Oct 2026 00:00:00 +0000",
+      "source": "Exploit-DB",
+      "cat": "exploits",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "Exploi-6db9fc3fd5bf",
+      "title": "[webapps] Food-Ordering 1.0  -  LFI",
+      "link": "https://www.exploit-db.com/exploits/52689",
+      "desc": "Food-Ordering 1.0  -  LFI",
+      "pubDate": "Thu, 01 Oct 2026 00:00:00 +0000",
+      "source": "Exploit-DB",
+      "cat": "exploits",
+      "sev": "medium",
       "tags": [],
       "iocs": {
         "cves": [],
@@ -1824,18 +2094,18 @@
       "sev": "high",
       "tags": [
         {
-          "t": "CVE-2026-109618",
+          "t": "CVE-2026-109619",
           "cls": "cve"
         },
         {
-          "t": "CVE-2026-109619",
+          "t": "CVE-2026-109618",
           "cls": "cve"
         }
       ],
       "iocs": {
         "cves": [
-          "CVE-2026-109618",
-          "CVE-2026-109619"
+          "CVE-2026-109619",
+          "CVE-2026-109618"
         ],
         "ips": [],
         "hashes": []
@@ -2895,18 +3165,18 @@
       "sev": "high",
       "tags": [
         {
-          "t": "CVE-2026-109618",
+          "t": "CVE-2026-109619",
           "cls": "cve"
         },
         {
-          "t": "CVE-2026-109619",
+          "t": "CVE-2026-109618",
           "cls": "cve"
         }
       ],
       "iocs": {
         "cves": [
-          "CVE-2026-109618",
-          "CVE-2026-109619"
+          "CVE-2026-109619",
+          "CVE-2026-109618"
         ],
         "ips": [],
         "hashes": []
