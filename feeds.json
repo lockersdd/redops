@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T05:40:55.890340+00:00",
+  "generated_at": "2026-11-06T13:54:55.682352+00:00",
   "sources_ok": 15,
   "sources_total": 20,
   "source_status": {
@@ -91,6 +91,134 @@
   },
   "total": 195,
   "articles": [
+    {
+      "id": "TheHa-756199735ab2",
+      "title": "Microsoft Paint RCE Fix Now Available, but Windows Update Won't Deliver It",
+      "link": "https://thehackernews.com/2026/11/microsoft-paint-rce-fix-now-available.html",
+      "desc": "A fix for CVE-2026-83844, a remote code execution flaw in Windows Paint, is now in the Microsoft Store. Paint gets this fix only through a Store update, not through Windows updates.\n\nThe fixed build, 11.2609.401.0, was the newest Paint build in all ten countries The Hacker News checked today.\n\nThe flaw is an out-of-bounds read that could let an attacker run code over a network. Microsoft rates",
+      "pubDate": "Fri, 06 Nov 2026 17:36:43 +0530",
+      "source": "The Hacker News",
+      "cat": "threats",
+      "sev": "critical",
+      "tags": [
+        {
+          "t": "CVE-2026-83844",
+          "cls": "cve"
+        }
+      ],
+      "iocs": {
+        "cves": [
+          "CVE-2026-83844"
+        ],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "TheHa-0ce17c50468c",
+      "title": "Malicious Browser Extensions Could Use Claude Dispatch to Run Code on Users' Computers",
+      "link": "https://thehackernews.com/2026/11/malicious-browser-extensions-could-use.html",
+      "desc": "A browser extension that can run scripts on claude.ai could make Claude Desktop run code on a person's computer, researchers at Forever Security, an endpoint security company, showed in a test.\n\nThe attack needs Dispatch, a Claude feature that lets people send tasks from their phone to Claude Desktop. The flaw that makes this possible can still be exploited, the researchers said earlier this",
+      "pubDate": "Fri, 06 Nov 2026 17:36:35 +0530",
+      "source": "The Hacker News",
+      "cat": "threats",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "TheHa-2c3459e1f448",
+      "title": "The Flood is Coming And The Pipes Were Already Full",
+      "link": "https://thehackernews.com/2026/11/the-flood-is-coming-and-pipes-were.html",
+      "desc": "An update on Athena, and some unsolicited predictions on what's coming next\n\nOn Saturday, Dario Amodei published We Must Pace the Frontier. I agree with him. Go read it if you haven't. I've spent the summer looking at what these models find, and the gap he describes between what they can do and what the rest of us are ready for is the one I've been staring at since May.\n\nThe hardest piece of his",
+      "pubDate": "Fri, 06 Nov 2026 17:00:00 +0530",
+      "source": "The Hacker News",
+      "cat": "threats",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "TheHa-d0f66a727a0a",
+      "title": "Chainalysis Breach Exposes All Users' Credentials, Forces Shutdown of Key Services",
+      "link": "https://thehackernews.com/2026/11/chainalysis-breach-exposes-all-users.html",
+      "desc": "Blockchain analysis firm Chainalysis has revealed that its ongoing investigation into the agentic cyber attack targeting its systems also exposed names, usernames, password hashes and live tokens for all users.\n\n\"While we investigated, we removed access to Reactor and Data Solutions,\" the company said. \"At this time we continue to have no evidence that any investigations data has been accessed",
+      "pubDate": "Fri, 06 Nov 2026 13:34:49 +0530",
+      "source": "The Hacker News",
+      "cat": "breaches",
+      "sev": "critical",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "TheHa-a50ef021455a",
+      "title": "Hackers Hide Linux Backdoor in Control Web Panel Server to Execute Commands Without Logs",
+      "link": "https://thehackernews.com/2026/11/hackers-hide-linux-backdoor-in-control.html",
+      "desc": "A backdoor has been found hiding in the web server that runs Control Web Panel (CWP), a free panel for managing Linux hosting servers, researchers at QiAnXin's XLab said this week.\n\nThe backdoored web server executes commands that attackers send via web requests, and those requests never appear in its access logs. Installing it takes root access, so the attackers must already control the server.",
+      "pubDate": "Fri, 06 Nov 2026 11:28:54 +0530",
+      "source": "The Hacker News",
+      "cat": "threats",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "TheHa-e11257ec4bef",
+      "title": "Experts Demonstrate Barracuda Email Security Gateway Chain Enabling Root Access Without Login",
+      "link": "https://thehackernews.com/2026/11/experts-demonstrate-barracuda-email.html",
+      "desc": "Two flaws in Barracuda's Email Security Gateway, an email-filtering appliance, can be chained to run commands on it as root, its highest level of access, with no login required.\n\nThe company released patches on Monday, and the security firm watchTowr detailed the attack chain on Thursday.\n\nOne flaw, CVE-2026-116606, is an authorization bypass. An unauthenticated attacker can use it to restore a",
+      "pubDate": "Fri, 06 Nov 2026 11:09:10 +0530",
+      "source": "The Hacker News",
+      "cat": "threats",
+      "sev": "high",
+      "tags": [
+        {
+          "t": "CVE-2026-116606",
+          "cls": "cve"
+        }
+      ],
+      "iocs": {
+        "cves": [
+          "CVE-2026-116606"
+        ],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
     {
       "id": "TheHa-ac2522fc46c7",
       "title": "OpenSSH Issues Emergency Fix for Flaw Letting Long Passwords Bypass SSH Auth on Alpine Linux",
@@ -252,134 +380,6 @@
       "source": "The Hacker News",
       "cat": "threats",
       "sev": "critical",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "TheHa-aea2bba8c0a7",
-      "title": "Hackers Exploit Patched Apple Flaw to Deliver Info-Stealing Malware, CISA Says",
-      "link": "https://thehackernews.com/2026/11/hackers-exploit-patched-apple-flaw-to.html",
-      "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a medium-severity security flaw impacting multiple Apple operating systems to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation.\n\nThe vulnerability in question is CVE-2024-27834 (CVSS score: 5.5), a case of improper authentication that could allow an attacker with",
-      "pubDate": "Thu, 05 Nov 2026 10:47:04 +0530",
-      "source": "The Hacker News",
-      "cat": "malware",
-      "sev": "high",
-      "tags": [
-        {
-          "t": "CVE-2024-27834",
-          "cls": "cve"
-        }
-      ],
-      "iocs": {
-        "cves": [
-          "CVE-2024-27834"
-        ],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "TheHa-6c49cc2a6c2d",
-      "title": "Debian and Ubuntu APT Flaw Lets MitM Attackers Swap Verified Packages and Run Code as Root",
-      "link": "https://thehackernews.com/2026/11/debian-and-ubuntu-apt-flaw-lets-mitm.html",
-      "desc": "A flaw in APT, the package manager for Debian and Ubuntu, allows an attacker who can modify package downloads to swap a checked package for their own.\n\nThe attacker's code then runs as root, according to advisories that&nbsp;Debian,&nbsp;Ubuntu, and&nbsp;APT's developers&nbsp;published on November 4. The attack needs APT to retry failed downloads, which it does by default from Debian 12 and",
-      "pubDate": "Wed, 04 Nov 2026 22:30:46 +0530",
-      "source": "The Hacker News",
-      "cat": "threats",
-      "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "TheHa-eb5276a28f65",
-      "title": "SonicWall Won't Patch EoL GMS Flaws That Could Expose Files, Alter Database Records",
-      "link": "https://thehackernews.com/2026/11/sonicwall-wont-patch-eol-gms-flaws-that.html",
-      "desc": "SonicWall has warned of two vulnerabilities impacting end-of-life Global Management System (GMS) systems that it said will not be patched.\n\nDetails of the security flaws, which affect SonicWall GMS 9.5.2 and earlier versions, are below -\n\n\n  CVE-2026-109593 (CVSS score: 9.1) - An unauthenticated file read vulnerability that could allow an attacker with network access to read internal GMS files,",
-      "pubDate": "Wed, 04 Nov 2026 22:30:38 +0530",
-      "source": "The Hacker News",
-      "cat": "threats",
-      "sev": "high",
-      "tags": [
-        {
-          "t": "CVE-2026-109593",
-          "cls": "cve"
-        }
-      ],
-      "iocs": {
-        "cves": [
-          "CVE-2026-109593"
-        ],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "TheHa-73b89644fd8f",
-      "title": "Researchers Uncover Prompt Adware Hidden in OpenAI Codex Jailbreak Toolkit",
-      "link": "https://thehackernews.com/2026/11/researchers-uncover-prompt-adware.html",
-      "desc": "Cybersecurity researchers have disclosed details of an OpenAI Codex jailbreak bundle that's designed to modify an artificial intelligence (AI) agent's trusted instructions to insert advertisements for a third-party AI gateway.\n\nThe phenomenon has been codenamed prompt adware by Check Point Research.\n\nCalled Haiou (meaning Seagull in Chinese), the jailbreak modifies OpenAI Codex's configuration",
-      "pubDate": "Wed, 04 Nov 2026 21:36:43 +0530",
-      "source": "The Hacker News",
-      "cat": "threats",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "TheHa-b7918cc33fb4",
-      "title": "APT29-Linked Hackers Hijack Web Analytics Script to Deliver iOS and Android Exploits",
-      "link": "https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html",
-      "desc": "The Russia-linked threat actor known as APT29 is presumed to be behind a large-scale watering hole campaign targeting iOS and Android users through compromised websites, fake domains, and a supply chain attack involving a Ukrainian web analytics service called Plerdy SEO Tracker.\n\n\"The injected JavaScript code collects browser and device attributes,\" Sekoia researchers Amaury-Jacques Garçon and",
-      "pubDate": "Wed, 04 Nov 2026 19:57:52 +0530",
-      "source": "The Hacker News",
-      "cat": "threats",
-      "sev": "critical",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "TheHa-50f1d193937d",
-      "title": "Critical Rails Flaw Lets Attackers Write Server Files via Crafted ImageMagick Uploads",
-      "link": "https://thehackernews.com/2026/11/critical-rails-flaw-lets-attackers.html",
-      "desc": "A critical flaw in Ruby on Rails could allow an unauthenticated attacker to write arbitrary files on an app's server by uploading a crafted file if the app processes uploads using ImageMagick. The Rails project disclosed the flaw in&nbsp;an advisory&nbsp;and fixed it in versions 8.1.4.1 and 8.0.5.2.\n\nThe flaw is in Active Storage, the part of Rails that handles file uploads. Some apps store",
-      "pubDate": "Wed, 04 Nov 2026 17:37:04 +0530",
-      "source": "The Hacker News",
-      "cat": "threats",
-      "sev": "high",
       "tags": [],
       "iocs": {
         "cves": [],
@@ -581,6 +581,120 @@
       "ts": 0
     },
     {
+      "id": "Securi-f838d92e50e4",
+      "title": "OpenAI Says New GPT-6 Cyber Model Hunts Flaws Without Crossing the Line",
+      "link": "https://www.securityweek.com/openai-says-new-gpt-6-cyber-model-hunts-flaws-without-crossing-the-line/",
+      "desc": "Rated Critical for cybersecurity, OpenAI’s new model beats GPT-5.6 Cyber at exploitation while staying in scope more reliably.\nThe post OpenAI Says New GPT-6 Cyber Model Hunts Flaws Without Crossing the Line appeared first on SecurityWeek.",
+      "pubDate": "Fri, 06 Nov 2026 13:19:52 +0000",
+      "source": "SecurityWeek",
+      "cat": "threats",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "Securi-371e8dcf802c",
+      "title": "US Agencies Urge Organizations to Harden Refrigeration Controllers",
+      "link": "https://www.securityweek.com/us-agencies-urge-organizations-to-harden-refrigeration-controllers/",
+      "desc": "The recommendations come amid attacks targeting fridges and freezers in supermarkets and blood banks in Europe.\nThe post US Agencies Urge Organizations to Harden Refrigeration Controllers appeared first on SecurityWeek.",
+      "pubDate": "Fri, 06 Nov 2026 13:02:26 +0000",
+      "source": "SecurityWeek",
+      "cat": "threats",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "Securi-17e219960403",
+      "title": "Grocery Giant Ahold Delhaize Estimates Financial Toll of October Cyberattack",
+      "link": "https://www.securityweek.com/grocery-giant-ahold-delhaize-estimates-financial-toll-of-october-cyberattack/",
+      "desc": "The October incident will cut fourth-quarter sales by up to €250 million and has led Ahold Delhaize to lower its 2026 outlook.\nThe post Grocery Giant Ahold Delhaize Estimates Financial Toll of October Cyberattack appeared first on SecurityWeek.",
+      "pubDate": "Fri, 06 Nov 2026 12:47:55 +0000",
+      "source": "SecurityWeek",
+      "cat": "threats",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "Securi-4a6e4eec232b",
+      "title": "Researchers Find Residential Proxies on White House Network",
+      "link": "https://www.securityweek.com/researchers-find-residential-proxies-on-white-house-network/",
+      "desc": "In a month, 28 residential proxy services used 6 addresses, mainly between 5 p.m. and midnight, Eastern Time.\nThe post Researchers Find Residential Proxies on White House Network appeared first on SecurityWeek.",
+      "pubDate": "Fri, 06 Nov 2026 12:16:13 +0000",
+      "source": "SecurityWeek",
+      "cat": "threats",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "Securi-2720cc615da0",
+      "title": "OpenSSH Rushes Patches for ‘SSHole’ Authentication Bypass",
+      "link": "https://www.securityweek.com/openssh-rushes-patches-for-sshole-authentication-bypass/",
+      "desc": "On Linux distributions using musl libc without PAM, some accounts accept any password between 257 and 1024 characters.\nThe post OpenSSH Rushes Patches for &#8216;SSHole&#8217; Authentication Bypass appeared first on SecurityWeek.",
+      "pubDate": "Fri, 06 Nov 2026 12:07:42 +0000",
+      "source": "SecurityWeek",
+      "cat": "threats",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "Securi-46d058b81886",
+      "title": "OpenAI Model Wrote Its Own Network Code to Get Around Sandbox Restrictions",
+      "link": "https://www.securityweek.com/openai-model-wrote-its-own-network-code-to-get-around-sandbox-restrictions/",
+      "desc": "After its sandbox proxy failed, an internal OpenAI model crafted raw packets and probed AWS services trying to reach the internet.\nThe post OpenAI Model Wrote Its Own Network Code to Get Around Sandbox Restrictions appeared first on SecurityWeek.",
+      "pubDate": "Fri, 06 Nov 2026 09:33:51 +0000",
+      "source": "SecurityWeek",
+      "cat": "threats",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
       "id": "Securi-2dfb7b735b7d",
       "title": "3 Charged in Scheme to Use AI to Impersonate CEOs and Attorneys to Steal $129 Million",
       "link": "https://www.securityweek.com/3-charged-in-scheme-to-use-ai-to-impersonate-ceos-and-attorneys-to-steal-129-million/",
@@ -657,12 +771,50 @@
       "ts": 0
     },
     {
-      "id": "Securi-01325fe19b29",
-      "title": "Cisco, WatchGuard Release Patches; SonicWall Won’t Fix GMS Flaws",
-      "link": "https://www.securityweek.com/cisco-watchguard-release-patches-sonicwall-wont-fix-gms-flaws/",
-      "desc": "Cisco patched an RCE in UCS Central Software; WatchGuard fixed authentication and MitM flaws.\nThe post Cisco, WatchGuard Release Patches; SonicWall Won’t Fix GMS Flaws appeared first on SecurityWeek.",
-      "pubDate": "Thu, 05 Nov 2026 12:33:49 +0000",
-      "source": "SecurityWeek",
+      "id": "GBHack-94c0e2f568c9",
+      "title": "Dark Project Ransomware Gang Claims 38 Victims Across 8 Countries, Targeting Healthcare and Manufacturing",
+      "link": "https://gbhackers.com/dark-project-ransomware/",
+      "desc": "Dark Project, an emerging financially motivated ransomware operation, has claimed 38 victims across eight countries in the supplied threat intelligence snapshot, with manufacturing and healthcare bearing the heaviest exposure. The group combines data theft, system encryption, and public disclosure threats with an affiliate program designed to scale intrusions. The figures represent allegations pub",
+      "pubDate": "Fri, 06 Nov 2026 11:32:36 +0000",
+      "source": "GBHackers",
+      "cat": "malware",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "GBHack-4cb45847d5b7",
+      "title": "Hackers Use Fake Streaming Apps to Spread Mirax Android Malware and Steal Bank Accounts",
+      "link": "https://gbhackers.com/mirax-android-malware/",
+      "desc": "Hackers are using streaming app lures to distribute Mirax. This Android banking trojan lets operators remotely control victims’ phones and initiate fraudulent transfers. Estimated losses reach millions of dollars, although confirmed cases capture only part of the campaign’s impact. The operation remained active when Group-IB published its November 5 investigation. Researchers linked the infections",
+      "pubDate": "Fri, 06 Nov 2026 10:13:22 +0000",
+      "source": "GBHackers",
+      "cat": "malware",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "GBHack-68d9d87ff3d8",
+      "title": "Hackers Put AI Agents on Autopilot to Steal Gaming Accounts and Apple Signing Certificates",
+      "link": "https://gbhackers.com/gaming-accounts-targeted/",
+      "desc": "ARTEX, a Chinese open-source agentic penetration-testing platform, to run autonomous attacks. The operators set a goal and then mostly check progress. Researchers identified 2,557 systems that host or hosted ARTEX panels, and 1,608 were live and public. Ten misconfigured instances exposed their full databases. Those databases show the models, prompts and actions behind the campaigns. [&#8230;]\nThe",
+      "pubDate": "Fri, 06 Nov 2026 09:47:27 +0000",
+      "source": "GBHackers",
       "cat": "threats",
       "sev": "critical",
       "tags": [],
@@ -676,76 +828,12 @@
       "ts": 0
     },
     {
-      "id": "Securi-b33c5d42ca5c",
-      "title": "The Agent Smith Dilemma: Governing Agentic Identities",
-      "link": "https://www.securityweek.com/the-agent-smith-dilemma-governing-agentic-identities/",
-      "desc": "Every autonomous AI agent deployed across your enterprise today is a new proxy identity operating inside your perimeter.\nThe post The Agent Smith Dilemma: Governing Agentic Identities appeared first on SecurityWeek.",
-      "pubDate": "Thu, 05 Nov 2026 11:15:00 +0000",
-      "source": "SecurityWeek",
-      "cat": "threats",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "Securi-b8f5123bbd63",
-      "title": "CISO Conversations: Ryan Davis – The Unknown Is Where Security Meets Reality",
-      "link": "https://www.securityweek.com/ciso-conversations-ryan-davis-the-unknown-is-where-security-meets-reality/",
-      "desc": "Ryan Davis went from hacking his school’s network to running security at New Charter Technologies. What worries him now is shadow AI.\nThe post CISO Conversations: Ryan Davis – The Unknown Is Where Security Meets Reality appeared first on SecurityWeek.",
-      "pubDate": "Thu, 05 Nov 2026 11:00:00 +0000",
-      "source": "SecurityWeek",
-      "cat": "threats",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "Securi-fb1a35e49af5",
-      "title": "Zyxel Switch Hacks Blamed on Patched Flaw Actually Exploited a Zero-Day",
-      "link": "https://www.securityweek.com/zyxel-switch-hacks-blamed-on-patched-flaw-actually-exploited-a-zero-day/",
-      "desc": "Tracked as CVE-2026-107441, the out-of-bounds write flaw could allow attackers to execute OS commands via crafted HTTP requests.\nThe post Zyxel Switch Hacks Blamed on Patched Flaw Actually Exploited a Zero-Day appeared first on SecurityWeek.",
-      "pubDate": "Thu, 05 Nov 2026 10:56:41 +0000",
-      "source": "SecurityWeek",
-      "cat": "threats",
-      "sev": "critical",
-      "tags": [
-        {
-          "t": "CVE-2026-107441",
-          "cls": "cve"
-        }
-      ],
-      "iocs": {
-        "cves": [
-          "CVE-2026-107441"
-        ],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "Securi-e802ca939c02",
-      "title": "Russia-Linked Hackers Hit iOS, Android Devices With Exploit Chains via Watering Holes",
-      "link": "https://www.securityweek.com/russia-linked-hackers-hit-ios-android-devices-with-exploit-chains-via-watering-holes/",
-      "desc": "The large-scale watering hole campaign has been targeting entities in the US and Europe, mainly in Ukraine.\nThe post Russia-Linked Hackers Hit iOS, Android Devices With Exploit Chains via Watering Holes appeared first on SecurityWeek.",
-      "pubDate": "Thu, 05 Nov 2026 10:37:13 +0000",
-      "source": "SecurityWeek",
+      "id": "GBHack-623c55eb0ca9",
+      "title": "Claude AI Flaw Lets Malicious Browser Extensions Execute Commands on Remote Computers",
+      "link": "https://gbhackers.com/claude-ai-flaw/",
+      "desc": "A design flaw in Anthropic&#8217;s Claude Dispatch feature let a malicious browser extension run commands on the operating system, even on a different computer. Researchers at Forever Security named the attack ThisBash. They found that Claude Dispatch accepted instructions from an ordinary logged-in claude.ai session. An extension that could control that site could therefore send [&#8230;]\nThe pos",
+      "pubDate": "Fri, 06 Nov 2026 09:18:04 +0000",
+      "source": "GBHackers",
       "cat": "threats",
       "sev": "high",
       "tags": [],
@@ -759,30 +847,11 @@
       "ts": 0
     },
     {
-      "id": "Securi-566ecf528323",
-      "title": "OpenAI Finds GPT-6 Astra Quietly Holding Back on Internal Red-Teaming, Exploit Tasks",
-      "link": "https://www.securityweek.com/openai-finds-gpt-6-astra-quietly-holding-back-on-internal-red-teaming-exploit-tasks/",
-      "desc": "OpenAI says its Critical-rated cyber model met fewer hidden task goals when work was framed as AI safety research, often silently.\nThe post OpenAI Finds GPT-6 Astra Quietly Holding Back on Internal Red-Teaming, Exploit Tasks appeared first on SecurityWeek.",
-      "pubDate": "Thu, 05 Nov 2026 10:02:00 +0000",
-      "source": "SecurityWeek",
-      "cat": "threats",
-      "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "GBHack-6238051a26d7",
-      "title": "ARTEX AI Framework Linked to Bank Breaches and Cloud Attacks Found Exposed Across Hundreds of Servers",
-      "link": "https://gbhackers.com/artex-ai-framework/",
-      "desc": "An autonomous penetration-testing framework linked to South Korean banking breaches and cloud supply-chain attacks is publicly exposed across 1,465 hosts. The findings show that ARTEX, an LLM-driven offensive security platform released in July 2026, appears alongside conventional attack infrastructure while leaking sensitive operational files. Censys observed the exposed consoles as of November 4,",
-      "pubDate": "Fri, 06 Nov 2026 05:02:53 +0000",
+      "id": "GBHack-95fdef68b9a6",
+      "title": "ChatGPT Lockdown Mode Bypass Allowed Hackers to Steal Private Chats Without User Interaction",
+      "link": "https://gbhackers.com/chatgpt-lockdown-mode-bypass/",
+      "desc": "Research found a flaw that bypassed ChatGPT&#8217;s Lockdown Mode. It let attackers silently exfiltrate full chat histories, deliver malware, and phish credentials from inside a trusted interface. Researcher Alexey Bukhteyev published the findings on November 5, 2026. In the ChatGPT Classic desktop app, simply having a conversation triggered the leak. OpenAI built Lockdown Mode as [&#8230;]\nThe po",
+      "pubDate": "Fri, 06 Nov 2026 08:56:59 +0000",
       "source": "GBHackers",
       "cat": "breaches",
       "sev": "high",
@@ -797,49 +866,11 @@
       "ts": 0
     },
     {
-      "id": "GBHack-83dcb3f636b3",
-      "title": "Shopify Makes IP Allowlisting Mandatory for All Public Apps to Prevent Stolen API Token Abuse",
-      "link": "https://gbhackers.com/shopify-makes-ip-allowlisting-mandatory-for-all-public-apps/",
-      "desc": "Shopify is making IP allowlisting mandatory for all public apps to limit abuse of stolen API access tokens. Shopify announced this requirement on November 5, 2026, and set enforcement deadlines right before merchants&#8217; busiest shopping weeks, with restrictions starting on November 12 for applications using bulk operations. Developers must now specify which public IP addresses, [&#8230;]\nThe p",
-      "pubDate": "Fri, 06 Nov 2026 04:53:28 +0000",
-      "source": "GBHackers",
-      "cat": "threats",
-      "sev": "critical",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "GBHack-c55f4c05b26d",
-      "title": "OpenAI’s New GPT-6 Cyber Finds 81 High-Severity Firefox Vulnerabilities and 948 Linux Kernel Exploits",
-      "link": "https://gbhackers.com/openais-new-gpt-6-cyber-finds-81-high-severity-firefox-vulnerabilities/",
-      "desc": "OpenAI has introduced GPT-6 Cyber, a security-focused model built to find and validate exploitable vulnerabilities while staying within the scope researchers set. The company says the model has already uncovered 81 previously unknown high-severity Firefox flaws and produced working exploits for 948 Linux kernel vulnerabilities. OpenAI&#8217;s New GPT-6 Cyber GPT-6 Cyber is a specialized variant [&",
-      "pubDate": "Fri, 06 Nov 2026 04:38:38 +0000",
-      "source": "GBHackers",
-      "cat": "threats",
-      "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "GBHack-919e58068769",
-      "title": "OpenMatter Network Positions Decentralized Computing as an Alternative to Data Centers for AI",
-      "link": "https://gbhackers.com/openmatter-network-positions-decentralized-computing-as-an-alternative-to-data-centers-for-ai/",
-      "desc": "Melbourne, Florida, November 5th, 2026, CyberNewswire OpenMatter Network, a pioneer in decentralized infrastructure for agentic artificial intelligence, is positioning its decentralized computing platform as an alternative to massive, centralized data center development amid growing public opposition to new facilities. The company says its approach can support continued AI adoption by enabling com",
-      "pubDate": "Thu, 05 Nov 2026 16:57:32 +0000",
+      "id": "GBHack-c8971f11e71d",
+      "title": "11 Security Policy Management Tools: The 2026 Buyer’s Verdict Guide",
+      "link": "https://gbhackers.com/security-policy-management-buyers-guide/",
+      "desc": "“Security policy management” names two different markets wearing one label, and this roster contains both: network security policy management (NSPM) firewall rulebases, segmentation intent, change automation across hybrid estates and written-policy lifecycle the documents people must read, sign, and prove to auditors. Buying across the confusion wastes budget, so this verdict guide judges eleven t",
+      "pubDate": "Fri, 06 Nov 2026 06:50:31 +0000",
       "source": "GBHackers",
       "cat": "threats",
       "sev": "medium",
@@ -854,30 +885,11 @@
       "ts": 0
     },
     {
-      "id": "GBHack-23de61c67a5d",
-      "title": "China-Aligned Hackers Hijack Popular Sogou Keyboard Software to Secretly Install DarkVigil Malware",
-      "link": "https://gbhackers.com/darkvigil-malware-campaign/",
-      "desc": "A China-aligned espionage group abused the update traffic of Sogou Input Method, one of China&#8217;s most widely used keyboard apps, to quietly install the DarkVigil implant on victims&#8217; machines. ESET Research, which tracks the actor as SlippyNunchucks, published its findings on November 4, 2026. Tencent, which owns Sogou, has patched the flaw in version 16.10. [&#8230;]\nThe post China-Alig",
-      "pubDate": "Thu, 05 Nov 2026 12:03:49 +0000",
-      "source": "GBHackers",
-      "cat": "malware",
-      "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "GBHack-c215a8545f4a",
-      "title": "Apple to Scan Publicly Shared iCloud Photos and Files for Harmful Content Starting With iOS 27.3",
-      "link": "https://gbhackers.com/apple-to-scan-publicly-shared-icloud-photos-and-files/",
-      "desc": "Apple will start checking iCloud photos and files shared through &#8220;Anyone with the Link&#8221; for harmful content beginning with iOS 17.3. This policy also applies to iPadOS, macOS, and visionOS version 17.3 or later. It distinguishes between publicly accessible sharing links and content that is restricted to specifically invited recipients. The change appears in an [&#8230;]\nThe post Apple ",
-      "pubDate": "Thu, 05 Nov 2026 11:42:48 +0000",
+      "id": "GBHack-e51e57774111",
+      "title": "11 IT & Cyber Risk Management Tools: The 2026 Buyer’s Verdict Guide",
+      "link": "https://gbhackers.com/it-cyber-risk-buyers-guide/",
+      "desc": "IT and cyber risk management tooling is the register discipline underneath GRC’s broader umbrella: risks captured with owners and treatments, controls linked, exceptions tracked, and reporting that survives committee scrutiny. Where our GRC platforms guide judges the whole estate, this guide narrows to the risk-register workflow itself how honestly eleven platforms capture, score, treat, and [&#82",
+      "pubDate": "Fri, 06 Nov 2026 06:48:44 +0000",
       "source": "GBHackers",
       "cat": "threats",
       "sev": "medium",
@@ -892,13 +904,13 @@
       "ts": 0
     },
     {
-      "id": "GBHack-ee827b1b218b",
-      "title": "Hackers Develop New HYFLOCK Ransomware That Encrypts Files and Attempts to Block Recovery",
-      "link": "https://gbhackers.com/hyflock-ransomware/",
-      "desc": "HYFLOCK ransomware operators have developed successive Windows encryptors that lock files, access network shares, and attempt to obstruct recovery, while implementation flaws create sharply different outcomes for victims. The investigation distinguishes demonstrated functionality from promotional claims. Although researchers confirmed encryption and scheduled-task registration, they did not establ",
-      "pubDate": "Thu, 05 Nov 2026 11:35:38 +0000",
+      "id": "GBHack-8c4f9c3e5fc7",
+      "title": "11 Audit Management Software: The 2026 Buyer’s Verdict Guide",
+      "link": "https://gbhackers.com/audit-management-buyers-guide/",
+      "desc": "Audit management software succeeds on a simple test: do auditors live in it, or do they live in spreadsheets and paste into it before committee meetings? This verdict guide judges eleven platforms audit-born specialists, GRC suites with audit modules, and the reporting-grade heavyweights on fieldwork ergonomics, evidence automation, and the committee-pack mile. The wider risk [&#8230;]\nThe post 11",
+      "pubDate": "Fri, 06 Nov 2026 06:47:09 +0000",
       "source": "GBHackers",
-      "cat": "malware",
+      "cat": "threats",
       "sev": "medium",
       "tags": [],
       "iocs": {
@@ -911,52 +923,33 @@
       "ts": 0
     },
     {
-      "id": "GBHack-17e0fb1ccfce",
-      "title": "ARTEX Hackers Used Claude Code, DeepSeek, and Grok in Attacks Targeting South Korean Banks",
-      "link": "https://gbhackers.com/ai-powered-banking/",
-      "desc": "A financially motivated threat actor used ARTEX, Claude Code, and multiple large language models in a campaign targeting South Korean financial organizations. Exposed attacker directories revealed session histories, configurations, and operational scripts, showing how AI tooling supported intrusions that resulted in data theft between late September and early October 2026. CrowdStrike’s October 7 ",
-      "pubDate": "Thu, 05 Nov 2026 11:14:06 +0000",
-      "source": "GBHackers",
-      "cat": "threats",
-      "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "GBHack-48a8c252713e",
-      "title": "Hackers Spread Marsalek Infostealer Through Fake Game Downloads to Steal Browser Passwords and Cookies",
-      "link": "https://gbhackers.com/marsalek-infostealer/",
-      "desc": "Marsalek, a free malware-as-a-service (MaaS) platform that disguised infostealers as game cheats and utilities for Roblox, Fortnite, Counter-Strike 2, Minecraft, and Grim Dawn. It was active from mid-December 2025 to late May 2026. Researchers counted more than 1,560 registered accounts, over 400 malicious files and more than 29 distribution URLs. Its dashboard let users build [&#8230;]\nThe post H",
-      "pubDate": "Thu, 05 Nov 2026 10:05:29 +0000",
-      "source": "GBHackers",
-      "cat": "malware",
-      "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "GBHack-eaae9815f658",
-      "title": "DigiCert Confirms Data Breach After Security Misconfiguration Exposes Customer Personal Information",
-      "link": "https://gbhackers.com/digicert-confirms-data-breach/",
-      "desc": "DigiCert confirmed unauthorized access to an internal business system containing archived customer information due to a security misconfiguration that exposed the application to the internet. This incident affected business contact details and, in some cases, identity documents. However, DigiCert said its certificate authority services, including CertCentral, DigiCert ONE, customer login credentia",
-      "pubDate": "Thu, 05 Nov 2026 09:00:38 +0000",
+      "id": "GBHack-f8b288ea2f97",
+      "title": "10 Security Ratings Services: The 2026 Buyer’s Verdict Guide",
+      "link": "https://gbhackers.com/security-ratings-buyers-guide/",
+      "desc": "Security ratings grade organizations from the outside exposed services, patch cadence, breach signals and the scores now move real money: insurance pricing, vendor tiers, board dashboards. The buyer’s duty is knowing what a score can and can’t see, and this roster needs two honesty notes up front: NormShield is Black Kite’s former name (one company, [&#8230;]\nThe post 10 Security Ratings Services:",
+      "pubDate": "Fri, 06 Nov 2026 06:44:14 +0000",
       "source": "GBHackers",
       "cat": "breaches",
       "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "GBHack-22f1dd1bc207",
+      "title": "Hackers Use ARTEX AI to Steal Azure Key Vault Secrets Just 5 Minutes After Finding Exposed GitHub Credentials",
+      "link": "https://gbhackers.com/azure-key-vault-secrets/",
+      "desc": "Attackers using the ARTEX agentic AI framework to discover exposed GitHub credentials and rapidly compromise cloud environments. In one intrusion, an AI agent progressed from searching GitHub for application secrets to exfiltrating Azure Key Vault data in just five minutes. The activity compresses a familiar attack chain: finding leaked credentials, validating access, mapping resources, and [&#823",
+      "pubDate": "Fri, 06 Nov 2026 06:43:37 +0000",
+      "source": "GBHackers",
+      "cat": "breaches",
+      "sev": "critical",
       "tags": [],
       "iocs": {
         "cves": [],
@@ -2094,18 +2087,18 @@
       "sev": "high",
       "tags": [
         {
-          "t": "CVE-2026-109618",
+          "t": "CVE-2026-109619",
           "cls": "cve"
         },
         {
-          "t": "CVE-2026-109619",
+          "t": "CVE-2026-109618",
           "cls": "cve"
         }
       ],
       "iocs": {
         "cves": [
-          "CVE-2026-109618",
-          "CVE-2026-109619"
+          "CVE-2026-109619",
+          "CVE-2026-109618"
         ],
         "ips": [],
         "hashes": []
@@ -2246,18 +2239,18 @@
       "sev": "high",
       "tags": [
         {
-          "t": "CVE-2026-88772",
+          "t": "CVE-2026-88771",
           "cls": "cve"
         },
         {
-          "t": "CVE-2026-88771",
+          "t": "CVE-2026-88772",
           "cls": "cve"
         }
       ],
       "iocs": {
         "cves": [
-          "CVE-2026-88772",
-          "CVE-2026-88771"
+          "CVE-2026-88771",
+          "CVE-2026-88772"
         ],
         "ips": [],
         "hashes": []
@@ -2350,10 +2343,29 @@
       "ts": 0
     },
     {
+      "id": "Malwar-d5d58dd40e7a",
+      "title": "Attacks on supermarket and blood storage systems prompt US warning",
+      "link": "https://www.malwarebytes.com/blog/news/2026/11/attacks-on-supermarket-and-blood-storage-systems-prompt-us-warning",
+      "desc": "US agencies have issued a warning about remote access to industrial refrigeration and cold-chain monitoring systems.",
+      "pubDate": "Fri, 06 Nov 2026 12:02:17 GMT",
+      "source": "Malwarebytes",
+      "cat": "malware",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
       "id": "Malwar-b664f3c8c14a",
       "title": "Phone return scams: where a real delivery and a fake return end up in a bill for you",
       "link": "https://www.malwarebytes.com/blog/threat-intel/2026/11/phone-return-scams-where-a-real-delivery-and-a-fake-return-end-up-in-a-bill-for-you",
-      "desc": "Phone return scams are part of a very convincing social engineering method where the criminals gets a phone and you get billed.",
+      "desc": "Phone return scams are part of a very convincing social engineering method where the criminals get a phone and you get billed.",
       "pubDate": "Thu, 05 Nov 2026 22:18:22 GMT",
       "source": "Malwarebytes",
       "cat": "malware",
@@ -2445,8 +2457,8 @@
       "ts": 0
     },
     {
-      "id": "Malwar-01e74844a4dc",
-      "title": "mSecure tells users to change passwords but won’t say why",
+      "id": "Malwar-8069f4a96163",
+      "title": "mSecure tells users to change passwords but won’t say why [updated]",
       "link": "https://www.malwarebytes.com/blog/data-breaches/2026/11/msecure-tells-users-to-change-passwords-but-wont-say-why",
       "desc": "mSecure has urged users to protect information stored in its app, but hasn’t explained what happened or whether anyone’s data was exposed.",
       "pubDate": "Wed, 04 Nov 2026 17:02:25 GMT",
@@ -2602,25 +2614,6 @@
       "link": "https://www.malwarebytes.com/blog/news/2026/10/fake-pdf-and-search-tools-hijacked-searches-for-13-4-million-chrome-users",
       "desc": "319 Chrome extensions sent search queries through servers controlled by their operators, allowing them to see what users searched for.",
       "pubDate": "Fri, 30 Oct 2026 15:25:41 GMT",
-      "source": "Malwarebytes",
-      "cat": "malware",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "Malwar-fdb1a8e80a94",
-      "title": "Photo ID, bank checks, face scan? The UK’s age-check options",
-      "link": "https://www.malwarebytes.com/blog/news/2026/10/photo-id-bank-checks-face-scan-the-uks-age-check-options",
-      "desc": "Ofcom has set out four possible age-verification methods for UK’s under-16 social media ban.",
-      "pubDate": "Fri, 30 Oct 2026 13:00:02 GMT",
       "source": "Malwarebytes",
       "cat": "malware",
       "sev": "medium",
@@ -3124,8 +3117,8 @@
       "ts": 0
     },
     {
-      "id": "ESETB-ebaa40e6713c",
-      "title": "Lessons from Cybersecurity Black Week",
+      "id": "ESETB-d95ff6a5af69",
+      "title": "Lessons from cybersecurity Black Week",
       "link": "https://www.welivesecurity.com/en/business-security/lessons-cybersecurity-black-week/",
       "desc": "A critical PHP flaw, leaked Linux kernel reports, a poisoned LiteLLM release, and more, all in seven days. Which threats called for immediate action, and which generated more noise than real danger?",
       "pubDate": "Wed, 28 Oct 2026 10:33:51 +0000",
@@ -3172,18 +3165,18 @@
       "sev": "high",
       "tags": [
         {
-          "t": "CVE-2026-109618",
+          "t": "CVE-2026-109619",
           "cls": "cve"
         },
         {
-          "t": "CVE-2026-109619",
+          "t": "CVE-2026-109618",
           "cls": "cve"
         }
       ],
       "iocs": {
         "cves": [
-          "CVE-2026-109618",
-          "CVE-2026-109619"
+          "CVE-2026-109619",
+          "CVE-2026-109618"
         ],
         "ips": [],
         "hashes": []
@@ -3649,11 +3642,11 @@
       "ts": 0
     },
     {
-      "id": "r/nets-f167caa9b2a8",
-      "title": "The Confessions of an AI Fraud Kingpin",
-      "link": "https://www.reddit.com/r/netsec/comments/1xok9lh/the_confessions_of_an_ai_fraud_kingpin/",
-      "desc": "&#32; submitted by &#32;  /u/404mediaco   [link] &#32; [comments]",
-      "pubDate": "2026-11-05T14:38:18+00:00",
+      "id": "r/nets-c95d2d753957",
+      "title": "Forwarded Without Question: How Web Frameworks Overtrust the Forwarded Header",
+      "link": "https://www.reddit.com/r/netsec/comments/1xp9n79/forwarded_without_question_how_web_frameworks/",
+      "desc": "Many common web frameworks like Spring and Ruby on Rails trust the Forwarded header by default, even though most proxies don't actually have any support for it. This makes apps vulnerable to request hostname or client IP address spoofing in the default configurations. I've been researching how the Forwarded header is supported across frameworks and proxies. Rails and Spring recently shipped fixes ",
+      "pubDate": "2026-11-06T10:34:37+00:00",
       "source": "r/netsec",
       "cat": "community",
       "sev": "medium",
@@ -3699,56 +3692,11 @@
       "ts": 0
     },
     {
-      "id": "r/nets-17be6d3b6f1c",
-      "title": "Sogou Input Method update hijack installs DarkVigil backdoor; update to 16.10 (CVE-2026-120422)",
-      "link": "https://www.reddit.com/r/netsec/comments/1xoq81f/sogou_input_method_update_hijack_installs/",
-      "desc": "&#32; submitted by &#32;  /u/glatisantbeast   [link] &#32; [comments]",
-      "pubDate": "2026-11-05T18:26:37+00:00",
-      "source": "r/netsec",
-      "cat": "community",
-      "sev": "high",
-      "tags": [
-        {
-          "t": "CVE-2026-120422",
-          "cls": "cve"
-        }
-      ],
-      "iocs": {
-        "cves": [
-          "CVE-2026-120422"
-        ],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "r/nets-9c3d724b5829",
-      "title": "ThisBash Escape: Claude Dispatch Flaw Enables Browser Extensions RCE on the OS · Forever Security",
-      "link": "https://www.reddit.com/r/netsec/comments/1xokbbo/thisbash_escape_claude_dispatch_flaw_enables/",
-      "desc": "&#32; submitted by &#32;  /u/Content-Winter5328   [link] &#32; [comments]",
-      "pubDate": "2026-11-05T14:40:21+00:00",
-      "source": "r/netsec",
-      "cat": "community",
-      "sev": "critical",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "r/nets-2bf19e919177",
-      "title": "Broken access control in Facer (10M+ installs): premium watch faces downloadable from a public CDN with zero authentication",
-      "link": "https://www.reddit.com/r/netsec/comments/1xp11p7/broken_access_control_in_facer_10m_installs/",
-      "desc": "&#32; submitted by &#32;  /u/FrozenCocomo   [link] &#32; [comments]",
-      "pubDate": "2026-11-06T02:08:12+00:00",
+      "id": "r/nets-f167caa9b2a8",
+      "title": "The Confessions of an AI Fraud Kingpin",
+      "link": "https://www.reddit.com/r/netsec/comments/1xok9lh/the_confessions_of_an_ai_fraud_kingpin/",
+      "desc": "&#32; submitted by &#32;  /u/404mediaco   [link] &#32; [comments]",
+      "pubDate": "2026-11-05T14:38:18+00:00",
       "source": "r/netsec",
       "cat": "community",
       "sev": "medium",
@@ -3827,44 +3775,6 @@
       "ts": 0
     },
     {
-      "id": "r/nets-4bd3a55d5a23",
-      "title": "Who Polices the Blockchain? The Binance Heist and the New Gatekeepers",
-      "link": "https://www.reddit.com/r/netsec/comments/1xnrmz7/who_polices_the_blockchain_the_binance_heist_and/",
-      "desc": "Governments may retain the authority to police international finance, but the practical capability to identify, trace and interrupt illicit financial flows increasingly rests with privately held technology and financial sector companies. The latest RUSI Commentary examines the Binance heist, the role of private sector gatekeepers and whether the FATF is keeping up.   &#32; submitted by &#32;  /u/R",
-      "pubDate": "2026-11-04T15:49:48+00:00",
-      "source": "r/netsec",
-      "cat": "community",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "r/nets-188c486855b7",
-      "title": "Chinese Botnet (XCPE on Android) Broken",
-      "link": "https://www.reddit.com/r/netsec/comments/1xnr2o5/chinese_botnet_xcpe_on_android_broken/",
-      "desc": "&#32; submitted by &#32;  /u/Doug_Vitale   [link] &#32; [comments]",
-      "pubDate": "2026-11-04T15:27:32+00:00",
-      "source": "r/netsec",
-      "cat": "community",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
       "id": "r/nets-36456ae770c4",
       "title": "We found 4,972 \"hello\" messages hiding thousands of malicious commands targeting Flowise",
       "link": "https://www.reddit.com/r/netsec/comments/1xmviny/we_found_4972_hello_messages_hiding_thousands_of/",
@@ -3911,6 +3821,82 @@
       "source": "r/netsec",
       "cat": "community",
       "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "r/nets-817fbc930913",
+      "title": "A primer on TETRA mission-critical radio network authentication flaws",
+      "link": "https://www.reddit.com/r/netsec/comments/1xmpbzm/a_primer_on_tetra_missioncritical_radio_network/",
+      "desc": "tl:dr;  Contrary to popular belief among vendors, system integrators, and asset owners: network authentication in TETRA mission-critical radio networks does not provide authenticity &amp; integrity guarantees at the individual message level. To make matters worse: base stations don't require a re-authentication whenever a radio is roaming from one cell tower to the next. This allows for traffic in",
+      "pubDate": "2026-11-03T10:19:12+00:00",
+      "source": "r/netsec",
+      "cat": "community",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "r/nets-3cd5c872f571",
+      "title": "Securing Internet-Critical Software: How We Could Have Backdoored Bash",
+      "link": "https://www.reddit.com/r/netsec/comments/1xlsxqk/securing_internetcritical_software_how_we_could/",
+      "desc": "(May 2026) TL;DR:  an email address like atouch${IFS}/tmp/savane-rce-proof@attacker.example gave any registered user code execution on its backend. From there, we made our account a superuser, impersonated Bash’s maintainer, and confirmed we could add an SSH key with push access to the upstream Bash repository. An unpatched kernel gave us root access and access to a GNU backup server. We reported ",
+      "pubDate": "2026-11-02T09:43:15+00:00",
+      "source": "r/netsec",
+      "cat": "community",
+      "sev": "critical",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "r/nets-0bb90099f23f",
+      "title": "WordPress pingback and Brotli RCE",
+      "link": "https://www.reddit.com/r/netsec/comments/1xlsgc8/wordpress_pingback_and_brotli_rce/",
+      "desc": "&#32; submitted by &#32;  /u/adrian_rt   [link] &#32; [comments]",
+      "pubDate": "2026-11-02T09:11:50+00:00",
+      "source": "r/netsec",
+      "cat": "community",
+      "sev": "critical",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "r/nets-4db1334ddda4",
+      "title": "Remote code execution on Linux systems with multipath TCP",
+      "link": "https://www.reddit.com/r/netsec/comments/1xlsqor/remote_code_execution_on_linux_systems_with/",
+      "desc": "&#32; submitted by &#32;  /u/lucidsparrow982   [link] &#32; [comments]",
+      "pubDate": "2026-11-02T09:30:42+00:00",
+      "source": "r/netsec",
+      "cat": "community",
+      "sev": "critical",
       "tags": [],
       "iocs": {
         "cves": [],
