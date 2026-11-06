@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T23:46:32.844509+00:00",
+  "generated_at": "2026-11-06T05:40:55.890340+00:00",
   "sources_ok": 15,
   "sources_total": 20,
   "source_status": {
@@ -581,6 +581,25 @@
       "ts": 0
     },
     {
+      "id": "Securi-2dfb7b735b7d",
+      "title": "3 Charged in Scheme to Use AI to Impersonate CEOs and Attorneys to Steal $129 Million",
+      "link": "https://www.securityweek.com/3-charged-in-scheme-to-use-ai-to-impersonate-ceos-and-attorneys-to-steal-129-million/",
+      "desc": "The trio, who have nicknames that include “Rocky Balboa,” “Superman Cash” and “Fat Boy,” often targeted the companies’ accounting departments. \nThe post 3 Charged in Scheme to Use AI to Impersonate CEOs and Attorneys to Steal $129 Million appeared first on SecurityWeek.",
+      "pubDate": "Fri, 06 Nov 2026 03:03:29 +0000",
+      "source": "SecurityWeek",
+      "cat": "threats",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
       "id": "Securi-639536040b09",
       "title": "AI Agents Got Root on Linux via 948 Kernel Flaws in OpenAI Research",
       "link": "https://www.securityweek.com/ai-agents-got-root-on-linux-via-948-kernel-flaws-in-openai-research/",
@@ -759,14 +778,52 @@
       "ts": 0
     },
     {
-      "id": "Securi-37b0f12cd21b",
-      "title": "Sysdig Adds Runtime Security and Governance for AI Agents",
-      "link": "https://www.securityweek.com/sysdig-adds-runtime-security-and-governance-for-ai-agents/",
-      "desc": "Sysdig’s platform uses runtime visibility to track AI agent actions and block risky behavior before it reaches production systems.\nThe post Sysdig Adds Runtime Security and Governance for AI Agents appeared first on SecurityWeek.",
-      "pubDate": "Wed, 04 Nov 2026 14:34:44 +0000",
-      "source": "SecurityWeek",
+      "id": "GBHack-6238051a26d7",
+      "title": "ARTEX AI Framework Linked to Bank Breaches and Cloud Attacks Found Exposed Across Hundreds of Servers",
+      "link": "https://gbhackers.com/artex-ai-framework/",
+      "desc": "An autonomous penetration-testing framework linked to South Korean banking breaches and cloud supply-chain attacks is publicly exposed across 1,465 hosts. The findings show that ARTEX, an LLM-driven offensive security platform released in July 2026, appears alongside conventional attack infrastructure while leaking sensitive operational files. Censys observed the exposed consoles as of November 4,",
+      "pubDate": "Fri, 06 Nov 2026 05:02:53 +0000",
+      "source": "GBHackers",
+      "cat": "breaches",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "GBHack-83dcb3f636b3",
+      "title": "Shopify Makes IP Allowlisting Mandatory for All Public Apps to Prevent Stolen API Token Abuse",
+      "link": "https://gbhackers.com/shopify-makes-ip-allowlisting-mandatory-for-all-public-apps/",
+      "desc": "Shopify is making IP allowlisting mandatory for all public apps to limit abuse of stolen API access tokens. Shopify announced this requirement on November 5, 2026, and set enforcement deadlines right before merchants&#8217; busiest shopping weeks, with restrictions starting on November 12 for applications using bulk operations. Developers must now specify which public IP addresses, [&#8230;]\nThe p",
+      "pubDate": "Fri, 06 Nov 2026 04:53:28 +0000",
+      "source": "GBHackers",
       "cat": "threats",
-      "sev": "medium",
+      "sev": "critical",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "GBHack-c55f4c05b26d",
+      "title": "OpenAI’s New GPT-6 Cyber Finds 81 High-Severity Firefox Vulnerabilities and 948 Linux Kernel Exploits",
+      "link": "https://gbhackers.com/openais-new-gpt-6-cyber-finds-81-high-severity-firefox-vulnerabilities/",
+      "desc": "OpenAI has introduced GPT-6 Cyber, a security-focused model built to find and validate exploitable vulnerabilities while staying within the scope researchers set. The company says the model has already uncovered 81 previously unknown high-severity Firefox flaws and produced working exploits for 948 Linux kernel vulnerabilities. OpenAI&#8217;s New GPT-6 Cyber GPT-6 Cyber is a specialized variant [&",
+      "pubDate": "Fri, 06 Nov 2026 04:38:38 +0000",
+      "source": "GBHackers",
+      "cat": "threats",
+      "sev": "high",
       "tags": [],
       "iocs": {
         "cves": [],
@@ -900,63 +957,6 @@
       "source": "GBHackers",
       "cat": "breaches",
       "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "GBHack-a966451e0b5d",
-      "title": "Critical Citrix XenServer Flaw Allows Unauthenticated Attackers to Take Control of Virtualization Hosts",
-      "link": "https://gbhackers.com/critical-citrix-xenserver-flaw/",
-      "desc": "Citrix has released security updates for XenServer versions 8.4 and 9 to address a critical vulnerability. This flaw could allow an unauthenticated attacker on the management network to compromise virtualization hosts. The Cloud Software Group published a bulletin (CTX697256) on November 3, 2026, classifying the issue as Critical. The bulletin covers nine CVEs. Citrix XenServer [&#8230;]\nThe post ",
-      "pubDate": "Thu, 05 Nov 2026 08:46:14 +0000",
-      "source": "GBHackers",
-      "cat": "threats",
-      "sev": "critical",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "GBHack-663c8970da42",
-      "title": "10 Third-Party / Vendor Risk Management (TPRM) Tools: The 2026 Buyer’s Verdict Guide",
-      "link": "https://gbhackers.com/tprm-tools-buyers-guide/",
-      "desc": "Third-party risk management is where questionnaires go to die or get automated: the modern platforms fuse assessment workflow, outside-in ratings, and continuous monitoring so vendor risk stops being an annual PDF exchange. One honest count note up front: our source roster listed CyberGRX and ProcessUnity separately, but ProcessUnity acquired CyberGRX so this guide judges ten [&#8230;]\nThe post 10",
-      "pubDate": "Thu, 05 Nov 2026 07:27:22 +0000",
-      "source": "GBHackers",
-      "cat": "threats",
-      "sev": "critical",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "GBHack-4288de37ebed",
-      "title": "11 Compliance Automation Software (SOC 2 / ISO 27001): The 2026 Buyer’s Verdict Guide",
-      "link": "https://gbhackers.com/compliance-automation-buyers-guide/",
-      "desc": "Compliance automation collapsed the SOC 2 timeline from consulting-year to integration-quarter: connectors pull evidence from your cloud, HR, and device stacks continuously, and the audit becomes a review of live data rather than a screenshot hunt. The 2026 differentiators are framework breadth after the first cert, evidence-automation depth (what percentage needs no human), and auditor-network [&",
-      "pubDate": "Thu, 05 Nov 2026 07:25:30 +0000",
-      "source": "GBHackers",
-      "cat": "threats",
-      "sev": "critical",
       "tags": [],
       "iocs": {
         "cves": [],
@@ -2246,18 +2246,18 @@
       "sev": "high",
       "tags": [
         {
-          "t": "CVE-2026-88771",
+          "t": "CVE-2026-88772",
           "cls": "cve"
         },
         {
-          "t": "CVE-2026-88772",
+          "t": "CVE-2026-88771",
           "cls": "cve"
         }
       ],
       "iocs": {
         "cves": [
-          "CVE-2026-88771",
-          "CVE-2026-88772"
+          "CVE-2026-88772",
+          "CVE-2026-88771"
         ],
         "ips": [],
         "hashes": []
@@ -2635,6 +2635,25 @@
       "ts": 0
     },
     {
+      "id": "SANSI-60f78c08bef5",
+      "title": "ISC Stormcast For Friday, November 6th, 2026 https://isc.sans.edu/podcastdetail/10168, (Fri, Nov 6th)",
+      "link": "https://isc.sans.edu/diary/rss/33494",
+      "desc": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
+      "pubDate": "Fri, 06 Nov 2026 02:00:02 GMT",
+      "source": "SANS ISC",
+      "cat": "vulns",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
       "id": "SANSI-dc04e35bb40a",
       "title": "Vulnerability Scans for Older Cisco IOS Vulnerability / Opt-Out Headers, (Thu, Nov 5th)",
       "link": "https://isc.sans.edu/diary/rss/33492",
@@ -2806,25 +2825,6 @@
       "link": "https://isc.sans.edu/diary/rss/33476",
       "desc": "Wireshark Release Candidate 5.0.0 was published: soon we can expect a new major version of Wireshark.&#xd;",
       "pubDate": "Sat, 31 Oct 2026 10:52:53 GMT",
-      "source": "SANS ISC",
-      "cat": "vulns",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "SANSI-522e02f83ec5",
-      "title": "YARA-X 1.22.1 Release, (Sat, Oct 31st)",
-      "link": "https://isc.sans.edu/diary/rss/33474",
-      "desc": "YARA-X&&#x23&#x3b;x26&#x3b;&#x23&#x3b;39&#x3b;s 1.22.1 is a bugfix version, it brings 2 bugfixes.&#xd;",
-      "pubDate": "Sat, 31 Oct 2026 10:48:17 GMT",
       "source": "SANS ISC",
       "cat": "vulns",
       "sev": "medium",
@@ -3744,6 +3744,25 @@
       "ts": 0
     },
     {
+      "id": "r/nets-2bf19e919177",
+      "title": "Broken access control in Facer (10M+ installs): premium watch faces downloadable from a public CDN with zero authentication",
+      "link": "https://www.reddit.com/r/netsec/comments/1xp11p7/broken_access_control_in_facer_10m_installs/",
+      "desc": "&#32; submitted by &#32;  /u/FrozenCocomo   [link] &#32; [comments]",
+      "pubDate": "2026-11-06T02:08:12+00:00",
+      "source": "r/netsec",
+      "cat": "community",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
       "id": "r/nets-a9a6bbc94fb8",
       "title": "Escaping AWS Firecracker from guest userspace: VMM memory corruption (CVE-2026-122192)",
       "link": "https://www.reddit.com/r/netsec/comments/1xo0yov/escaping_aws_firecracker_from_guest_userspace_vmm/",
@@ -3892,25 +3911,6 @@
       "source": "r/netsec",
       "cat": "community",
       "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "r/nets-817fbc930913",
-      "title": "A primer on TETRA mission-critical radio network authentication flaws",
-      "link": "https://www.reddit.com/r/netsec/comments/1xmpbzm/a_primer_on_tetra_missioncritical_radio_network/",
-      "desc": "tl:dr;  Contrary to popular belief among vendors, system integrators, and asset owners: network authentication in TETRA mission-critical radio networks does not provide authenticity &amp; integrity guarantees at the individual message level. To make matters worse: base stations don't require a re-authentication whenever a radio is roaming from one cell tower to the next. This allows for traffic in",
-      "pubDate": "2026-11-03T10:19:12+00:00",
-      "source": "r/netsec",
-      "cat": "community",
-      "sev": "medium",
       "tags": [],
       "iocs": {
         "cves": [],
