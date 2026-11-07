@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T13:26:01.091150+00:00",
+  "generated_at": "2026-11-07T18:12:17.431738+00:00",
   "sources_ok": 15,
   "sources_total": 20,
   "source_status": {
@@ -3708,14 +3708,14 @@
       "ts": 0
     },
     {
-      "id": "r/nets-c95d2d753957",
-      "title": "Forwarded Without Question: How Web Frameworks Overtrust the Forwarded Header",
-      "link": "https://www.reddit.com/r/netsec/comments/1xp9n79/forwarded_without_question_how_web_frameworks/",
-      "desc": "Many common web frameworks like Spring and Ruby on Rails trust the RFC 7239 Forwarded header by default, even though most proxies don't actually have any support for it. This makes apps vulnerable to request hostname or client IP address spoofing in the default configurations. I've been researching how the Forwarded header is supported across frameworks and proxies. Rails and Spring recently shipp",
-      "pubDate": "2026-11-06T10:34:37+00:00",
+      "id": "r/nets-14668b9aa142",
+      "title": "The Exploit Was the Bottleneck",
+      "link": "https://www.reddit.com/r/netsec/comments/1xq2ix1/the_exploit_was_the_bottleneck/",
+      "desc": "&#32; submitted by &#32;  /u/kygyty   [link] &#32; [comments]",
+      "pubDate": "2026-11-07T09:38:30+00:00",
       "source": "r/netsec",
       "cat": "community",
-      "sev": "medium",
+      "sev": "high",
       "tags": [],
       "iocs": {
         "cves": [],
@@ -3727,14 +3727,14 @@
       "ts": 0
     },
     {
-      "id": "r/nets-14668b9aa142",
-      "title": "The Exploit Was the Bottleneck",
-      "link": "https://www.reddit.com/r/netsec/comments/1xq2ix1/the_exploit_was_the_bottleneck/",
-      "desc": "&#32; submitted by &#32;  /u/kygyty   [link] &#32; [comments]",
-      "pubDate": "2026-11-07T09:38:30+00:00",
+      "id": "r/nets-c95d2d753957",
+      "title": "Forwarded Without Question: How Web Frameworks Overtrust the Forwarded Header",
+      "link": "https://www.reddit.com/r/netsec/comments/1xp9n79/forwarded_without_question_how_web_frameworks/",
+      "desc": "Many common web frameworks like Spring and Ruby on Rails trust the RFC 7239 Forwarded header by default, even though most proxies don't actually have any support for it. This makes apps vulnerable to request hostname or client IP address spoofing in the default configurations. I've been researching how the Forwarded header is supported across frameworks and proxies. Rails and Spring recently shipp",
+      "pubDate": "2026-11-06T10:34:37+00:00",
       "source": "r/netsec",
       "cat": "community",
-      "sev": "high",
+      "sev": "medium",
       "tags": [],
       "iocs": {
         "cves": [],
@@ -3756,18 +3756,18 @@
       "sev": "critical",
       "tags": [
         {
-          "t": "CVE-2026-116606",
+          "t": "CVE-2026-111560",
           "cls": "cve"
         },
         {
-          "t": "CVE-2026-111560",
+          "t": "CVE-2026-116606",
           "cls": "cve"
         }
       ],
       "iocs": {
         "cves": [
-          "CVE-2026-116606",
-          "CVE-2026-111560"
+          "CVE-2026-111560",
+          "CVE-2026-116606"
         ],
         "ips": [],
         "hashes": []
