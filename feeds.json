@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T00:12:42.658061+00:00",
+  "generated_at": "2026-11-07T06:25:09.271621+00:00",
   "sources_ok": 15,
   "sources_total": 20,
   "source_status": {
@@ -778,6 +778,70 @@
       "ts": 0
     },
     {
+      "id": "GBHack-121dcd1c0fa0",
+      "title": "Hackers Exploit SonicWall SSL-VPN Vulnerability to Bypass Multi-Factor Authentication in Active Attacks",
+      "link": "https://gbhackers.com/sonicwall-ssl-vpn-vulnerability/",
+      "desc": "SonicWall has disclosed an SSL-VPN authentication enforcement flaw that could let attackers bypass SAML authentication and associated multi-factor authentication controls. Tracked as CVE-2026-19868, the issue carries a CVSS score of 7.1. Advisory SNWLID-2026-0014, published November 6, 2026, states that SonicWall PSIRT investigated a report indicating potential exploitation. That wording signals s",
+      "pubDate": "Sat, 07 Nov 2026 05:45:37 +0000",
+      "source": "GBHackers",
+      "cat": "threats",
+      "sev": "critical",
+      "tags": [
+        {
+          "t": "CVE-2026-19868",
+          "cls": "cve"
+        }
+      ],
+      "iocs": {
+        "cves": [
+          "CVE-2026-19868"
+        ],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "GBHack-9d11928e746f",
+      "title": "WorkOS Confirms Data Breach After ARTEX AI Agent Escapes Security Researcher’s Sandbox",
+      "link": "https://gbhackers.com/workos-data-breach-artex-ai/",
+      "desc": "WorkOS confirmed that an ARTEX security agent escaped a researcher’s isolated testing environment and accessed an internal application, exposing customer business information. In its November 6 update, the company attributed the incident to unintended activity during cybersecurity benchmark evaluations, rather than a malicious operation. WorkOS accepted responsibility and cooperated with investiga",
+      "pubDate": "Sat, 07 Nov 2026 05:28:50 +0000",
+      "source": "GBHackers",
+      "cat": "breaches",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "GBHack-e46ebe6a0d14",
+      "title": "Insignary Releases Free Insignary-Chk Tool to Detect PHP2Shell and Node2Shell Exposure",
+      "link": "https://gbhackers.com/insignary-releases-free-insignary-chk-tool-to-detect-php2shell-and-node2shell-exposure/",
+      "desc": "Toronto, Canada, November 6th, 2026, CyberNewswire Free, read-only scanner helps organizations find Linux servers and container images exposed to two actively exploited vulnerabilities in PHP and Node.js Insignary, a global open-source security company, today released insignary-chk, a free tool that checks for PHP2Shell and Node2Shell, two recently disclosed runtime vulnerabilities affecting PHP a",
+      "pubDate": "Sat, 07 Nov 2026 02:07:49 +0000",
+      "source": "GBHackers",
+      "cat": "threats",
+      "sev": "critical",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
       "id": "GBHack-94c0e2f568c9",
       "title": "Dark Project Ransomware Gang Claims 38 Victims Across 8 Countries, Targeting Healthcare and Manufacturing",
       "link": "https://gbhackers.com/dark-project-ransomware/",
@@ -900,63 +964,6 @@
       "source": "GBHackers",
       "cat": "threats",
       "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "GBHack-8c4f9c3e5fc7",
-      "title": "11 Audit Management Software: The 2026 Buyer’s Verdict Guide",
-      "link": "https://gbhackers.com/audit-management-buyers-guide/",
-      "desc": "Audit management software succeeds on a simple test: do auditors live in it, or do they live in spreadsheets and paste into it before committee meetings? This verdict guide judges eleven platforms audit-born specialists, GRC suites with audit modules, and the reporting-grade heavyweights on fieldwork ergonomics, evidence automation, and the committee-pack mile. The wider risk [&#8230;]\nThe post 11",
-      "pubDate": "Fri, 06 Nov 2026 06:47:09 +0000",
-      "source": "GBHackers",
-      "cat": "threats",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "GBHack-f8b288ea2f97",
-      "title": "10 Security Ratings Services: The 2026 Buyer’s Verdict Guide",
-      "link": "https://gbhackers.com/security-ratings-buyers-guide/",
-      "desc": "Security ratings grade organizations from the outside exposed services, patch cadence, breach signals and the scores now move real money: insurance pricing, vendor tiers, board dashboards. The buyer’s duty is knowing what a score can and can’t see, and this roster needs two honesty notes up front: NormShield is Black Kite’s former name (one company, [&#8230;]\nThe post 10 Security Ratings Services:",
-      "pubDate": "Fri, 06 Nov 2026 06:44:14 +0000",
-      "source": "GBHackers",
-      "cat": "breaches",
-      "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "GBHack-22f1dd1bc207",
-      "title": "Hackers Use ARTEX AI to Steal Azure Key Vault Secrets Just 5 Minutes After Finding Exposed GitHub Credentials",
-      "link": "https://gbhackers.com/azure-key-vault-secrets/",
-      "desc": "Attackers using the ARTEX agentic AI framework to discover exposed GitHub credentials and rapidly compromise cloud environments. In one intrusion, an AI agent progressed from searching GitHub for application secrets to exfiltrating Azure Key Vault data in just five minutes. The activity compresses a familiar attack chain: finding leaked credentials, validating access, mapping resources, and [&#823",
-      "pubDate": "Fri, 06 Nov 2026 06:43:37 +0000",
-      "source": "GBHackers",
-      "cat": "breaches",
-      "sev": "critical",
       "tags": [],
       "iocs": {
         "cves": [],
@@ -2246,18 +2253,18 @@
       "sev": "high",
       "tags": [
         {
-          "t": "CVE-2026-88771",
+          "t": "CVE-2026-88772",
           "cls": "cve"
         },
         {
-          "t": "CVE-2026-88772",
+          "t": "CVE-2026-88771",
           "cls": "cve"
         }
       ],
       "iocs": {
         "cves": [
-          "CVE-2026-88771",
-          "CVE-2026-88772"
+          "CVE-2026-88772",
+          "CVE-2026-88771"
         ],
         "ips": [],
         "hashes": []
