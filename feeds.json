@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T08:42:58.429638+00:00",
+  "generated_at": "2026-11-08T15:50:29.104037+00:00",
   "sources_ok": 15,
   "sources_total": 20,
   "source_status": {
@@ -588,6 +588,25 @@
       "ts": 0
     },
     {
+      "id": "Securi-1db8ceb0fd7f",
+      "title": "Brava Security Emerges From Stealth With $15 Million in Funding",
+      "link": "https://www.securityweek.com/brava-security-emerges-from-stealth-with-15-million-in-funding/",
+      "desc": "Its multi-agent AI platform generates the telemetry an attack would produce to fix gaps in enterprise defenses.\nThe post Brava Security Emerges From Stealth With $15 Million in Funding appeared first on SecurityWeek.",
+      "pubDate": "Sun, 08 Nov 2026 12:14:00 +0000",
+      "source": "SecurityWeek",
+      "cat": "threats",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
       "id": "Securi-c68bf068c6a0",
       "title": "SonicWall Patches Exploited SonicOS Vulnerability That Weakens VPN Logins",
       "link": "https://www.securityweek.com/sonicwall-patches-exploited-sonicos-bug-that-weakens-vpn-logins/",
@@ -752,25 +771,6 @@
       "link": "https://www.securityweek.com/openssh-rushes-patches-for-sshole-authentication-bypass/",
       "desc": "On Linux distributions using musl libc without PAM, some accounts accept any password between 257 and 1024 characters.\nThe post OpenSSH Rushes Patches for &#8216;SSHole&#8217; Authentication Bypass appeared first on SecurityWeek.",
       "pubDate": "Fri, 06 Nov 2026 12:07:42 +0000",
-      "source": "SecurityWeek",
-      "cat": "threats",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "Securi-46d058b81886",
-      "title": "OpenAI Model Wrote Its Own Network Code to Get Around Sandbox Restrictions",
-      "link": "https://www.securityweek.com/openai-model-wrote-its-own-network-code-to-get-around-sandbox-restrictions/",
-      "desc": "After its sandbox proxy failed, an internal OpenAI model crafted raw packets and probed AWS services trying to reach the internet.\nThe post OpenAI Model Wrote Its Own Network Code to Get Around Sandbox Restrictions appeared first on SecurityWeek.",
-      "pubDate": "Fri, 06 Nov 2026 09:33:51 +0000",
       "source": "SecurityWeek",
       "cat": "threats",
       "sev": "medium",
@@ -2267,18 +2267,18 @@
       "sev": "high",
       "tags": [
         {
-          "t": "CVE-2026-88771",
+          "t": "CVE-2026-88772",
           "cls": "cve"
         },
         {
-          "t": "CVE-2026-88772",
+          "t": "CVE-2026-88771",
           "cls": "cve"
         }
       ],
       "iocs": {
         "cves": [
-          "CVE-2026-88771",
-          "CVE-2026-88772"
+          "CVE-2026-88772",
+          "CVE-2026-88771"
         ],
         "ips": [],
         "hashes": []
@@ -2656,6 +2656,32 @@
       "ts": 0
     },
     {
+      "id": "SANSI-a08c95549209",
+      "title": "Scans for Sshole Vulnerability (CVE-2026-123158), (Sun, Nov 8th)",
+      "link": "https://isc.sans.edu/diary/rss/33498",
+      "desc": "Our honeypots use \"Cowrie\" to collect SSH data. With the emergence of the \"sshole\" vulnerability last week, we are now seeing an increase in attempts to exploit the vulnerability. Our data is a bit limited in this respect. Our honeypots collect only the first 255 characters of SSH passwords. Longer passwords are highly unusual and not used for the usual password brute-forcing we observe.&#xd;",
+      "pubDate": "Sun, 08 Nov 2026 15:44:33 GMT",
+      "source": "SANS ISC",
+      "cat": "vulns",
+      "sev": "high",
+      "tags": [
+        {
+          "t": "CVE-2026-123158",
+          "cls": "cve"
+        }
+      ],
+      "iocs": {
+        "cves": [
+          "CVE-2026-123158"
+        ],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
       "id": "SANSI-60f78c08bef5",
       "title": "ISC Stormcast For Friday, November 6th, 2026 https://isc.sans.edu/podcastdetail/10168, (Fri, Nov 6th)",
       "link": "https://isc.sans.edu/diary/rss/33494",
@@ -2827,25 +2853,6 @@
       "link": "https://isc.sans.edu/diary/rss/33478",
       "desc": "Recently, I had to extract embedded files from a set of OneNote files (extension .one).&#xd;",
       "pubDate": "Sun, 01 Nov 2026 09:12:23 GMT",
-      "source": "SANS ISC",
-      "cat": "vulns",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "SANSI-7a4cdc48c9e4",
-      "title": "Wireshark 5.0.0rc1 Release, (Sat, Oct 31st)",
-      "link": "https://isc.sans.edu/diary/rss/33476",
-      "desc": "Wireshark Release Candidate 5.0.0 was published: soon we can expect a new major version of Wireshark.&#xd;",
-      "pubDate": "Sat, 31 Oct 2026 10:52:53 GMT",
       "source": "SANS ISC",
       "cat": "vulns",
       "sev": "medium",
@@ -3794,18 +3801,18 @@
       "sev": "critical",
       "tags": [
         {
-          "t": "CVE-2026-111560",
+          "t": "CVE-2026-116606",
           "cls": "cve"
         },
         {
-          "t": "CVE-2026-116606",
+          "t": "CVE-2026-111560",
           "cls": "cve"
         }
       ],
       "iocs": {
         "cves": [
-          "CVE-2026-111560",
-          "CVE-2026-116606"
+          "CVE-2026-116606",
+          "CVE-2026-111560"
         ],
         "ips": [],
         "hashes": []
