@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T15:50:29.104037+00:00",
+  "generated_at": "2026-11-08T20:15:57.492678+00:00",
   "sources_ok": 15,
   "sources_total": 20,
   "source_status": {
@@ -2267,18 +2267,18 @@
       "sev": "high",
       "tags": [
         {
-          "t": "CVE-2026-88772",
+          "t": "CVE-2026-88771",
           "cls": "cve"
         },
         {
-          "t": "CVE-2026-88771",
+          "t": "CVE-2026-88772",
           "cls": "cve"
         }
       ],
       "iocs": {
         "cves": [
-          "CVE-2026-88772",
-          "CVE-2026-88771"
+          "CVE-2026-88771",
+          "CVE-2026-88772"
         ],
         "ips": [],
         "hashes": []
@@ -3677,6 +3677,25 @@
       "ts": 0
     },
     {
+      "id": "r/nets-0a1c2453bae8",
+      "title": "Tricking Deepseek Into Not Hacking Your Website",
+      "link": "https://www.reddit.com/r/netsec/comments/1xr332o/tricking_deepseek_into_not_hacking_your_website/",
+      "desc": "&#32; submitted by &#32;  /u/utku1337   [link] &#32; [comments]",
+      "pubDate": "2026-11-08T16:57:11+00:00",
+      "source": "r/netsec",
+      "cat": "community",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
       "id": "r/nets-f55968c7ece5",
       "title": "I spent countless nights digging into PHP2Shell. Here's a deep dive into how it actually works, from memory to PHP internals to a real exploit.",
       "link": "https://www.reddit.com/r/netsec/comments/1xqlw37/i_spent_countless_nights_digging_into_php2shell/",
@@ -3685,6 +3704,44 @@
       "source": "r/netsec",
       "cat": "community",
       "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "r/nets-889e639f3fc6",
+      "title": "Pwning Home Assistant Green: Pre-Auth RCE in Eclipse Mosquitto",
+      "link": "https://www.reddit.com/r/netsec/comments/1xr33yo/pwning_home_assistant_green_preauth_rce_in/",
+      "desc": "&#32; submitted by &#32;  /u/parzel   [link] &#32; [comments]",
+      "pubDate": "2026-11-08T16:58:09+00:00",
+      "source": "r/netsec",
+      "cat": "community",
+      "sev": "critical",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "r/nets-1cbef4bee929",
+      "title": "email encryption",
+      "link": "https://www.reddit.com/r/netsec/comments/1xr1qpe/email_encryption/",
+      "desc": "&#32; submitted by &#32;  /u/fagnerbrack   [link] &#32; [comments]",
+      "pubDate": "2026-11-08T16:00:58+00:00",
+      "source": "r/netsec",
+      "cat": "community",
+      "sev": "medium",
       "tags": [],
       "iocs": {
         "cves": [],
@@ -3753,14 +3810,14 @@
       "ts": 0
     },
     {
-      "id": "r/nets-c95d2d753957",
-      "title": "Forwarded Without Question: How Web Frameworks Overtrust the Forwarded Header",
-      "link": "https://www.reddit.com/r/netsec/comments/1xp9n79/forwarded_without_question_how_web_frameworks/",
-      "desc": "Many common web frameworks like Spring and Ruby on Rails trust the RFC 7239 Forwarded header by default, even though most proxies don't actually have any support for it. This makes apps vulnerable to request hostname or client IP address spoofing in the default configurations. I've been researching how the Forwarded header is supported across frameworks and proxies. Rails and Spring recently shipp",
-      "pubDate": "2026-11-06T10:34:37+00:00",
+      "id": "r/nets-14668b9aa142",
+      "title": "The Exploit Was the Bottleneck",
+      "link": "https://www.reddit.com/r/netsec/comments/1xq2ix1/the_exploit_was_the_bottleneck/",
+      "desc": "&#32; submitted by &#32;  /u/kygyty   [link] &#32; [comments]",
+      "pubDate": "2026-11-07T09:38:30+00:00",
       "source": "r/netsec",
       "cat": "community",
-      "sev": "medium",
+      "sev": "high",
       "tags": [],
       "iocs": {
         "cves": [],
@@ -3772,14 +3829,14 @@
       "ts": 0
     },
     {
-      "id": "r/nets-14668b9aa142",
-      "title": "The Exploit Was the Bottleneck",
-      "link": "https://www.reddit.com/r/netsec/comments/1xq2ix1/the_exploit_was_the_bottleneck/",
-      "desc": "&#32; submitted by &#32;  /u/kygyty   [link] &#32; [comments]",
-      "pubDate": "2026-11-07T09:38:30+00:00",
+      "id": "r/nets-c95d2d753957",
+      "title": "Forwarded Without Question: How Web Frameworks Overtrust the Forwarded Header",
+      "link": "https://www.reddit.com/r/netsec/comments/1xp9n79/forwarded_without_question_how_web_frameworks/",
+      "desc": "Many common web frameworks like Spring and Ruby on Rails trust the RFC 7239 Forwarded header by default, even though most proxies don't actually have any support for it. This makes apps vulnerable to request hostname or client IP address spoofing in the default configurations. I've been researching how the Forwarded header is supported across frameworks and proxies. Rails and Spring recently shipp",
+      "pubDate": "2026-11-06T10:34:37+00:00",
       "source": "r/netsec",
       "cat": "community",
-      "sev": "high",
+      "sev": "medium",
       "tags": [],
       "iocs": {
         "cves": [],
@@ -3878,63 +3935,6 @@
         "cves": [
           "CVE-2026-122192"
         ],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "r/nets-1c9a9dfc14c1",
-      "title": "Finding 40+ Vulnerabilities in Healthcare Software Serving More Than 100 Million Patients",
-      "link": "https://www.reddit.com/r/netsec/comments/1xng15c/finding_40_vulnerabilities_in_healthcare_software/",
-      "desc": "&#32; submitted by &#32;  /u/idnsec   [link] &#32; [comments]",
-      "pubDate": "2026-11-04T05:28:24+00:00",
-      "source": "r/netsec",
-      "cat": "community",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "r/nets-36456ae770c4",
-      "title": "We found 4,972 \"hello\" messages hiding thousands of malicious commands targeting Flowise",
-      "link": "https://www.reddit.com/r/netsec/comments/1xmviny/we_found_4972_hello_messages_hiding_thousands_of/",
-      "desc": "TL;DR: Our research team at Era uncovered Greeter, an attack framework targeting Flowise, an AI development platform with 55,000+ GitHub stars. We deployed seven honeypots and captured 4,972 &quot;hello&quot; messages, each carrying malicious JavaScript through Flowise's overrideConfig parameter. The interesting part? The malicious code never appeared in the saved workflow. We reconstructed 4,000+",
-      "pubDate": "2026-11-03T15:11:53+00:00",
-      "source": "r/netsec",
-      "cat": "community",
-      "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "r/nets-21f9b6a3aa9a",
-      "title": "Jailbreaking my car's navigation system just so I can change the time",
-      "link": "https://www.reddit.com/r/netsec/comments/1xm6ks2/jailbreaking_my_cars_navigation_system_just_so_i/",
-      "desc": "&#32; submitted by &#32;  /u/nns_ee   [link] &#32; [comments]",
-      "pubDate": "2026-11-02T19:16:42+00:00",
-      "source": "r/netsec",
-      "cat": "community",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
         "ips": [],
         "hashes": []
       },
