@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T14:12:03.116748+00:00",
+  "generated_at": "2026-11-09T23:30:32.612898+00:00",
   "sources_ok": 15,
   "sources_total": 20,
   "source_status": {
@@ -91,6 +91,82 @@
   },
   "total": 195,
   "articles": [
+    {
+      "id": "TheHa-e07247fce63e",
+      "title": "Hackers Exploit Qubole's Trusted AWS Access to Breach Customer Accounts and Steal Data",
+      "link": "https://thehackernews.com/2026/11/hackers-exploit-quboles-trusted-aws.html",
+      "desc": "An attacker broke into AWS accounts belonging to multiple Qubole customers between October 14 and October 26 and stole stored secrets and data, cloud security company Wiz said today.\n\nThe attacker used credentials for an AWS account that Qubole's platform uses to reach those customers. How the attacker got those credentials has not been disclosed.\n\nQubole, a data lake platform owned by Idera,",
+      "pubDate": "Mon, 09 Nov 2026 23:21:21 +0530",
+      "source": "The Hacker News",
+      "cat": "breaches",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "TheHa-bb9a4e0e8bb6",
+      "title": "Hackers Compromise Ethersphere's bee-js and Swarm Desktop to Deliver Wallet-Stealing Malware",
+      "link": "https://thehackernews.com/2026/11/hackers-compromise-etherspheres-bee-js.html",
+      "desc": "Attackers used the Ethersphere project's own release automation to publish malicious versions of two of its tools for the Swarm decentralized storage network: bee-js 13.3.0 and Swarm Desktop 0.56.2.\n\nBoth releases download and run code built to steal the wallet key that Swarm Desktop keeps for its node, along with the stored password that unlocks it. The code is also built to install a backdoor",
+      "pubDate": "Mon, 09 Nov 2026 23:06:28 +0530",
+      "source": "The Hacker News",
+      "cat": "malware",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "TheHa-f16dce680cea",
+      "title": "Bitter Hackers Deploy New PapRAT Backdoor in Cyberespionage Campaign Targeting South Asia",
+      "link": "https://thehackernews.com/2026/11/bitter-hackers-deploy-new-paprat.html",
+      "desc": "The South Asian cyber espionage group known as Bitter (aka APT-C-08, APT-Q-37, Hazy Tiger, Orange Yali, T-APT-17, and TA397) has been observed targeting South Asian organizations with a previously unreported remote access trojan called PapRAT.\n\n\"PapRAT has both C++ and Rust implementations,\" Fortinet FortiGuard Labs researcher Cara Lin said. \"Its capabilities include command execution, file",
+      "pubDate": "Mon, 09 Nov 2026 20:01:29 +0530",
+      "source": "The Hacker News",
+      "cat": "malware",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "TheHa-00a335a17a86",
+      "title": "⚡ Weekly Recap: SSHole Exploited, APT Root RCE, Robot Takeovers, 15K Hacked Sites, and More",
+      "link": "https://thehackernews.com/2026/11/weekly-recap-sshole-exploited-apt-root.html",
+      "desc": "A system doesn't always need a complicated bug to let someone in. Sometimes, a blank password is enough. That's one of the bigger stories this week. And it gets worse when the tools meant to keep systems updated or running safely become part of the attack.\n\nElsewhere, attackers are hiding inside normal web traffic, stealing credentials from network devices, and finding new uses for exposed",
+      "pubDate": "Mon, 09 Nov 2026 18:58:25 +0530",
+      "source": "The Hacker News",
+      "cat": "threats",
+      "sev": "critical",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
     {
       "id": "TheHa-09be45707786",
       "title": "Default 'admin:admin' Server Password Helps Researchers Hack Two Automakers, Unlock and Start Cars",
@@ -315,89 +391,6 @@
       "ts": 0
     },
     {
-      "id": "TheHa-756199735ab2",
-      "title": "Microsoft Paint RCE Fix Now Available, but Windows Update Won't Deliver It",
-      "link": "https://thehackernews.com/2026/11/microsoft-paint-rce-fix-now-available.html",
-      "desc": "A fix for CVE-2026-83844, a remote code execution flaw in Windows Paint, is now in the Microsoft Store. Paint gets this fix only through a Store update, not through Windows updates.\n\nThe fixed build, 11.2609.401.0, was the newest Paint build in all ten countries The Hacker News checked today.\n\nThe flaw is an out-of-bounds read that could let an attacker run code over a network. Microsoft rates",
-      "pubDate": "Fri, 06 Nov 2026 17:36:43 +0530",
-      "source": "The Hacker News",
-      "cat": "threats",
-      "sev": "critical",
-      "tags": [
-        {
-          "t": "CVE-2026-83844",
-          "cls": "cve"
-        }
-      ],
-      "iocs": {
-        "cves": [
-          "CVE-2026-83844"
-        ],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "TheHa-0ce17c50468c",
-      "title": "Malicious Browser Extensions Could Use Claude Dispatch to Run Code on Users' Computers",
-      "link": "https://thehackernews.com/2026/11/malicious-browser-extensions-could-use.html",
-      "desc": "A browser extension that can run scripts on claude.ai could make Claude Desktop run code on a person's computer, researchers at Forever Security, an endpoint security company, showed in a test.\n\nThe attack needs Dispatch, a Claude feature that lets people send tasks from their phone to Claude Desktop. The flaw that makes this possible can still be exploited, the researchers said earlier this",
-      "pubDate": "Fri, 06 Nov 2026 17:36:35 +0530",
-      "source": "The Hacker News",
-      "cat": "threats",
-      "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "TheHa-2c3459e1f448",
-      "title": "The Flood is Coming And The Pipes Were Already Full",
-      "link": "https://thehackernews.com/2026/11/the-flood-is-coming-and-pipes-were.html",
-      "desc": "An update on Athena, and some unsolicited predictions on what's coming next\n\nOn Saturday, Dario Amodei published We Must Pace the Frontier. I agree with him. Go read it if you haven't. I've spent the summer looking at what these models find, and the gap he describes between what they can do and what the rest of us are ready for is the one I've been staring at since May.\n\nThe hardest piece of his",
-      "pubDate": "Fri, 06 Nov 2026 17:00:00 +0530",
-      "source": "The Hacker News",
-      "cat": "threats",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "TheHa-d0f66a727a0a",
-      "title": "Chainalysis Breach Exposes All Users' Credentials, Forces Shutdown of Key Services",
-      "link": "https://thehackernews.com/2026/11/chainalysis-breach-exposes-all-users.html",
-      "desc": "Blockchain analysis firm Chainalysis has revealed that its ongoing investigation into the agentic cyber attack targeting its systems also exposed names, usernames, password hashes and live tokens for all users.\n\n\"While we investigated, we removed access to Reactor and Data Solutions,\" the company said. \"At this time we continue to have no evidence that any investigations data has been accessed",
-      "pubDate": "Fri, 06 Nov 2026 13:34:49 +0530",
-      "source": "The Hacker News",
-      "cat": "breaches",
-      "sev": "critical",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
       "id": "Krebs-31451a083382",
       "title": "Want to Rent an Internet Address at the White House?",
       "link": "https://krebsonsecurity.com/2026/11/want-to-rent-an-internet-address-at-the-white-house/",
@@ -588,6 +581,25 @@
       "ts": 0
     },
     {
+      "id": "Securi-d7008f524899",
+      "title": "Revolve Puts Data Breach Victim Count at 1.5 Million",
+      "link": "https://www.securityweek.com/revolve-puts-data-breach-victim-count-at-1-5-million/",
+      "desc": "Online fashion retailer Revolve has told regulators that the September cyberattack affected more than 1.5 million individuals.\nThe post Revolve Puts Data Breach Victim Count at 1.5 Million appeared first on SecurityWeek.",
+      "pubDate": "Mon, 09 Nov 2026 14:08:08 +0000",
+      "source": "SecurityWeek",
+      "cat": "breaches",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
       "id": "Securi-706d27ab9696",
       "title": "Plex2Shell Exploited Against QNAP NAS Users",
       "link": "https://www.securityweek.com/plex2shell-exploited-against-qnap-nas-users/",
@@ -758,25 +770,6 @@
         "cves": [
           "CVE-2026-19868"
         ],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "Securi-26d4789c7a0c",
-      "title": "Japan Announces Emergency Cybersecurity Package Following a Wave of Attacks",
-      "link": "https://www.securityweek.com/japan-announces-emergency-cybersecurity-package-following-a-wave-of-attacks/",
-      "desc": "The emergency package comes after dozens of companies and government agencies were hit by unauthorized access to their systems and leaks of client data, prompting uneasiness across Japan.\nThe post Japan Announces Emergency Cybersecurity Package Following a Wave of Attacks appeared first on SecurityWeek.",
-      "pubDate": "Fri, 06 Nov 2026 18:28:41 +0000",
-      "source": "SecurityWeek",
-      "cat": "breaches",
-      "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
         "ips": [],
         "hashes": []
       },
@@ -2108,18 +2101,18 @@
       "sev": "high",
       "tags": [
         {
-          "t": "CVE-2026-109619",
+          "t": "CVE-2026-109618",
           "cls": "cve"
         },
         {
-          "t": "CVE-2026-109618",
+          "t": "CVE-2026-109619",
           "cls": "cve"
         }
       ],
       "iocs": {
         "cves": [
-          "CVE-2026-109619",
-          "CVE-2026-109618"
+          "CVE-2026-109618",
+          "CVE-2026-109619"
         ],
         "ips": [],
         "hashes": []
@@ -2148,10 +2141,10 @@
       "ts": 0
     },
     {
-      "id": "Sophos-dfbaf00903eb",
-      "title": "Graph reconnaissance and ServiceNow user enumeration in a modern identity intrusion",
-      "link": "https://www.sophos.com/en-us/blog/graph-reconnaissance-and-servicenow-user-enumeration-in-a-modern-identity-intrusion",
-      "desc": "No novelty required to be effectiveCategories: Threat Research, X-ops, Sophos SecOpsTags: incident response",
+      "id": "Sophos-ebddb7ff2136",
+      "title": "ConnectWise Cloud Backup application abused in cross-tenant token sweep",
+      "link": "https://www.sophos.com/en-us/blog/connectwise-cloud-backup-application-abused-in-token-sweep",
+      "desc": "&lt;p&gt;Automated sign-ins used the vendor&apos;s Entra application identity to request Microsoft Graph tokens across consenting tenants&lt;/p&gt;Categories: Threat ResearchTags: connectwise",
       "pubDate": "Mon, 19 Oct 2026 00:00:00 GMT",
       "source": "Sophos Research",
       "cat": "malware",
@@ -2167,10 +2160,10 @@
       "ts": 0
     },
     {
-      "id": "Sophos-ebddb7ff2136",
-      "title": "ConnectWise Cloud Backup application abused in cross-tenant token sweep",
-      "link": "https://www.sophos.com/en-us/blog/connectwise-cloud-backup-application-abused-in-token-sweep",
-      "desc": "&lt;p&gt;Automated sign-ins used the vendor&apos;s Entra application identity to request Microsoft Graph tokens across consenting tenants&lt;/p&gt;Categories: Threat ResearchTags: connectwise",
+      "id": "Sophos-dfbaf00903eb",
+      "title": "Graph reconnaissance and ServiceNow user enumeration in a modern identity intrusion",
+      "link": "https://www.sophos.com/en-us/blog/graph-reconnaissance-and-servicenow-user-enumeration-in-a-modern-identity-intrusion",
+      "desc": "No novelty required to be effectiveCategories: Threat Research, X-ops, Sophos SecOpsTags: incident response",
       "pubDate": "Mon, 19 Oct 2026 00:00:00 GMT",
       "source": "Sophos Research",
       "cat": "malware",
@@ -2260,18 +2253,18 @@
       "sev": "high",
       "tags": [
         {
-          "t": "CVE-2026-88771",
+          "t": "CVE-2026-88772",
           "cls": "cve"
         },
         {
-          "t": "CVE-2026-88772",
+          "t": "CVE-2026-88771",
           "cls": "cve"
         }
       ],
       "iocs": {
         "cves": [
-          "CVE-2026-88771",
-          "CVE-2026-88772"
+          "CVE-2026-88772",
+          "CVE-2026-88771"
         ],
         "ips": [],
         "hashes": []
@@ -2649,6 +2642,25 @@
       "ts": 0
     },
     {
+      "id": "SANSI-c7860142297a",
+      "title": "Attackers Searching for SAP Netweaver Webshells, (Mon, Nov 9th)",
+      "link": "https://isc.sans.edu/diary/rss/33502",
+      "desc": "Just saw a new (to me) URL in our honeypot data today:&#xd;",
+      "pubDate": "Mon, 09 Nov 2026 18:18:15 GMT",
+      "source": "SANS ISC",
+      "cat": "vulns",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
       "id": "SANSI-bc3f054d7584",
       "title": "ISC Stormcast For Monday, November 9th, 2026 https://isc.sans.edu/podcastdetail/10170, (Mon, Nov 9th)",
       "link": "https://isc.sans.edu/diary/rss/33500",
@@ -2830,25 +2842,6 @@
       "source": "SANS ISC",
       "cat": "vulns",
       "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "SANSI-a9073bf18dc5",
-      "title": "ISC Stormcast For Monday, November 2nd, 2026 https://isc.sans.edu/podcastdetail/10160, (Mon, Nov 2nd)",
-      "link": "https://isc.sans.edu/diary/rss/33480",
-      "desc": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
-      "pubDate": "Mon, 02 Nov 2026 02:00:03 GMT",
-      "source": "SANS ISC",
-      "cat": "vulns",
-      "sev": "medium",
       "tags": [],
       "iocs": {
         "cves": [],
@@ -3193,18 +3186,18 @@
       "sev": "high",
       "tags": [
         {
-          "t": "CVE-2026-109619",
+          "t": "CVE-2026-109618",
           "cls": "cve"
         },
         {
-          "t": "CVE-2026-109618",
+          "t": "CVE-2026-109619",
           "cls": "cve"
         }
       ],
       "iocs": {
         "cves": [
-          "CVE-2026-109619",
-          "CVE-2026-109618"
+          "CVE-2026-109618",
+          "CVE-2026-109619"
         ],
         "ips": [],
         "hashes": []
@@ -3670,6 +3663,44 @@
       "ts": 0
     },
     {
+      "id": "r/nets-5ee33df56c59",
+      "title": "IP snowshoeing under US .gov email via a whitelisted AmazonSES typo in SPF",
+      "link": "https://www.reddit.com/r/netsec/comments/1xry7z3/ip_snowshoeing_under_us_gov_email_via_a/",
+      "desc": "I run a small email security consultancy and this is our research.  A typo of AmazonSES in US government DNS whitelisted 32,066 IPs to pass DMARC p=quarantine as milivcounty[.]gov, with the IP set rotating every 3-8 days.  Attackers are snowshoeing the IPs, and once they get listed by Abusix and Spamhaus, they rotate the SPF include chain.  Other AmazonSES typos in gov SPF are amasonses[.]com unde",
+      "pubDate": "2026-11-09T17:41:19+00:00",
+      "source": "r/netsec",
+      "cat": "community",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "r/nets-2f136ff4ff88",
+      "title": "Certificate authority list: every CA's incident record since 2017",
+      "link": "https://www.reddit.com/r/netsec/comments/1xrsyyg/certificate_authority_list_every_cas_incident/",
+      "desc": "CAs found 17% of their own incidents in 2026 so far, down from 29% last year and 59% in 2022. Researchers, root programs, and other outsiders found the rest. That's from a dataset we built of every TLS incident in Mozilla's CA program since 2017 (1,581 as of November 7). 2026 is already the busiest year, with 338. Only 11 incidents in the whole set are critical, and eMudhra's computable keys are t",
+      "pubDate": "2026-11-09T14:24:35+00:00",
+      "source": "r/netsec",
+      "cat": "community",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
       "id": "r/nets-0a1c2453bae8",
       "title": "Tricking Deepseek Into Not Hacking Your Website",
       "link": "https://www.reddit.com/r/netsec/comments/1xr332o/tricking_deepseek_into_not_hacking_your_website/",
@@ -3689,14 +3720,14 @@
       "ts": 0
     },
     {
-      "id": "r/nets-3a4c296504e9",
-      "title": "A Boolean PII Flag Is Not Enough",
-      "link": "https://www.reddit.com/r/netsec/comments/1xrht5t/a_boolean_pii_flag_is_not_enough/",
-      "desc": "&#32; submitted by &#32;  /u/fagnerbrack   [link] &#32; [comments]",
-      "pubDate": "2026-11-09T04:00:51+00:00",
+      "id": "r/nets-889e639f3fc6",
+      "title": "Pwning Home Assistant Green: Pre-Auth RCE in Eclipse Mosquitto",
+      "link": "https://www.reddit.com/r/netsec/comments/1xr33yo/pwning_home_assistant_green_preauth_rce_in/",
+      "desc": "&#32; submitted by &#32;  /u/parzel   [link] &#32; [comments]",
+      "pubDate": "2026-11-08T16:58:09+00:00",
       "source": "r/netsec",
       "cat": "community",
-      "sev": "medium",
+      "sev": "critical",
       "tags": [],
       "iocs": {
         "cves": [],
@@ -3716,25 +3747,6 @@
       "source": "r/netsec",
       "cat": "community",
       "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "r/nets-889e639f3fc6",
-      "title": "Pwning Home Assistant Green: Pre-Auth RCE in Eclipse Mosquitto",
-      "link": "https://www.reddit.com/r/netsec/comments/1xr33yo/pwning_home_assistant_green_preauth_rce_in/",
-      "desc": "&#32; submitted by &#32;  /u/parzel   [link] &#32; [comments]",
-      "pubDate": "2026-11-08T16:58:09+00:00",
-      "source": "r/netsec",
-      "cat": "community",
-      "sev": "critical",
       "tags": [],
       "iocs": {
         "cves": [],
@@ -3792,44 +3804,6 @@
       "source": "r/netsec",
       "cat": "community",
       "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "r/nets-53e4e377c0a5",
-      "title": "Reproducing the GhostMap APK crash loop on Android 16/17, plus an offline check for the ZIP parser mismatch",
-      "link": "https://www.reddit.com/r/netsec/comments/1xq1jwj/reproducing_the_ghostmap_apk_crash_loop_on/",
-      "desc": "&#32; submitted by &#32;  /u/ImL1s   [link] &#32; [comments]",
-      "pubDate": "2026-11-07T08:34:20+00:00",
-      "source": "r/netsec",
-      "cat": "community",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "r/nets-14668b9aa142",
-      "title": "The Exploit Was the Bottleneck",
-      "link": "https://www.reddit.com/r/netsec/comments/1xq2ix1/the_exploit_was_the_bottleneck/",
-      "desc": "&#32; submitted by &#32;  /u/kygyty   [link] &#32; [comments]",
-      "pubDate": "2026-11-07T09:38:30+00:00",
-      "source": "r/netsec",
-      "cat": "community",
-      "sev": "high",
       "tags": [],
       "iocs": {
         "cves": [],
@@ -3921,6 +3895,32 @@
       "tags": [],
       "iocs": {
         "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "r/nets-a9a6bbc94fb8",
+      "title": "Escaping AWS Firecracker from guest userspace: VMM memory corruption (CVE-2026-122192)",
+      "link": "https://www.reddit.com/r/netsec/comments/1xo0yov/escaping_aws_firecracker_from_guest_userspace_vmm/",
+      "desc": "We just published our research on escaping Firecracker microVMs, coordinated with AWS. The interesting part is how a guest can end up accessing memory belonging to the Firecracker process running outside the VM. The vulnerability: When a microVM is restored from a snapshot using the File memory backend, a failed memory remapping operation can leave KVM referencing a stale host virtual address rang",
+      "pubDate": "2026-11-04T21:47:44+00:00",
+      "source": "r/netsec",
+      "cat": "community",
+      "sev": "high",
+      "tags": [
+        {
+          "t": "CVE-2026-122192",
+          "cls": "cve"
+        }
+      ],
+      "iocs": {
+        "cves": [
+          "CVE-2026-122192"
+        ],
         "ips": [],
         "hashes": []
       },
