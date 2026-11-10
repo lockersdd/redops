@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-09T23:30:32.612898+00:00",
-  "sources_ok": 15,
+  "generated_at": "2026-11-10T06:29:50.089293+00:00",
+  "sources_ok": 16,
   "sources_total": 20,
   "source_status": {
     "The Hacker News": {
@@ -20,9 +20,8 @@
       "articles": 10
     },
     "HackRead": {
-      "ok": false,
-      "articles": 0,
-      "error": "403 Client Error: Forbidden for url: https://www.hackread.com/feed"
+      "ok": true,
+      "articles": 10
     },
     "Exploit-DB": {
       "ok": true,
@@ -89,7 +88,7 @@
       "error": "429 Client Error: Too Many Requests for url: https://www.reddit.com/r/blueteamsec/.rss"
     }
   },
-  "total": 195,
+  "total": 205,
   "articles": [
     {
       "id": "TheHa-e07247fce63e",
@@ -581,6 +580,25 @@
       "ts": 0
     },
     {
+      "id": "Securi-3a8e9e3918a5",
+      "title": "Chrome Update Patches Exploited XML Zero-Day, Eighth This Year",
+      "link": "https://www.securityweek.com/chrome-update-patches-exploited-xml-zero-day-eighth-this-year/",
+      "desc": "The high-severity use-after-free in Chrome’s XML component was reported anonymously on November 6 and is already exploited in attacks.\nThe post Chrome Update Patches Exploited XML Zero-Day, Eighth This Year appeared first on SecurityWeek.",
+      "pubDate": "Tue, 10 Nov 2026 06:12:24 +0000",
+      "source": "SecurityWeek",
+      "cat": "threats",
+      "sev": "critical",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
       "id": "Securi-d7008f524899",
       "title": "Revolve Puts Data Breach Victim Count at 1.5 Million",
       "link": "https://www.securityweek.com/revolve-puts-data-breach-victim-count-at-1-5-million/",
@@ -752,24 +770,74 @@
       "ts": 0
     },
     {
-      "id": "Securi-c68bf068c6a0",
-      "title": "SonicWall Patches Exploited SonicOS Vulnerability That Weakens VPN Logins",
-      "link": "https://www.securityweek.com/sonicwall-patches-exploited-sonicos-bug-that-weakens-vpn-logins/",
-      "desc": "CVE-2026-19868 can let attackers holding credentials for a different login method get past SAML checks, including SAML-enforced MFA.\nThe post SonicWall Patches Exploited SonicOS Vulnerability That Weakens VPN Logins appeared first on SecurityWeek.",
-      "pubDate": "Sat, 07 Nov 2026 10:16:23 +0000",
-      "source": "SecurityWeek",
+      "id": "GBHack-b6ecb971e955",
+      "title": "N-able Takes N-central Servers Offline Following Disclosure of 33 Critical Security Vulnerabilities",
+      "link": "https://gbhackers.com/n-able-takes-n-central-servers-offline/",
+      "desc": "N-able has pulled its hosted N-central environments offline after an independent researcher publicly disclosed critical flaws in the remote monitoring and management (RMM) platform. The company opened Incident 202561 on November 9, 2026, at 15:15 UTC. It rated the event a &#8220;Major Outage&#8221; and listed the status as &#8220;Investigating.&#8221; N-able said the disclosure was &#8220;non-resp",
+      "pubDate": "Tue, 10 Nov 2026 05:15:52 +0000",
+      "source": "GBHackers",
       "cat": "threats",
-      "sev": "critical",
-      "tags": [
-        {
-          "t": "CVE-2026-19868",
-          "cls": "cve"
-        }
-      ],
+      "sev": "medium",
+      "tags": [],
       "iocs": {
-        "cves": [
-          "CVE-2026-19868"
-        ],
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "GBHack-3c459a91d0af",
+      "title": "RevStealer Bypasses Security Monitoring With 14 Indirect Syscalls to Steal Browser and Wallet Credentials",
+      "link": "https://gbhackers.com/revstealer-malware-attack/",
+      "desc": "A fast-moving Windows infostealer called RevStealer is abusing gaming-cheat and fake AI tool lures to steal browser, wallet, and gaming credentials. It uses 14 indirect syscall wrappers to evade endpoint monitoring. Elastic Security Labs tracks the cluster as REF2859. Morphisec and Gen Threat Labs documented its tradecraft earlier. Operators lean on social engineering. Elastic found [&#8230;]\nThe ",
+      "pubDate": "Tue, 10 Nov 2026 05:09:11 +0000",
+      "source": "GBHackers",
+      "cat": "threats",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "GBHack-c841b724e14a",
+      "title": "Notepad++ 8.9.9 Released to Fix 6 Security Vulnerabilities Allowing Privilege Escalation and Command Execution",
+      "link": "https://gbhackers.com/notepad-8-9-9-released-to-fix-6-security-vulnerabilities/",
+      "desc": "Notepad++ released version 8.9.9 on November 6, 2026, addressing six security vulnerabilities involving interprocess messaging, elevated file saves, clipboard handling, command dispatch, and MIME Tools decoding. The release announcement lists all six as fixed, with CVE identifiers not yet assigned. Several issues affect version 8.9.8 or earlier and expose local attack paths rather than unrestricte",
+      "pubDate": "Tue, 10 Nov 2026 04:48:56 +0000",
+      "source": "GBHackers",
+      "cat": "threats",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "GBHack-faba29707e4b",
+      "title": "As Hacks Near $9 Billion in 2026, Crypto Has A Hole in Its Pocket",
+      "link": "https://gbhackers.com/as-hacks-near-9-billion-in-2026-crypto-has-a-hole-in-its-pocket/",
+      "desc": "Another year, another wave of cryptocurrency hacks, and the losses are harder and harder to ignore. With billions of dollars stolen, exchanges breached, and sophisticated attackers finding routes around security systems, crypto is once again facing questions about how safely people can store their digital assets. $8.78 billion has been stolen by crypto hacks and [&#8230;]\nThe post As Hacks Near $9",
+      "pubDate": "Mon, 09 Nov 2026 14:39:17 +0000",
+      "source": "GBHackers",
+      "cat": "breaches",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
         "ips": [],
         "hashes": []
       },
@@ -892,12 +960,50 @@
       "ts": 0
     },
     {
-      "id": "GBHack-60db8e1b83e1",
-      "title": "Operation Snowball Exposes AI Hacking Campaign Targeting European Telecom and 13 Hosted Organizations",
-      "link": "https://gbhackers.com/operation-snowball-campaign/",
-      "desc": "An exposed open directory revealed an autonomous AI intrusion harness that spent more than two weeks attacking a European telecom provider and 13 organizations hosted in its data centers and cloud. The report, published on November 8, 2026, calls the campaign Operation Snowball. The researchers withheld the directory&#8217;s IP address to protect the victims. A [&#8230;]\nThe post Operation Snowbal",
-      "pubDate": "Mon, 09 Nov 2026 10:26:44 +0000",
-      "source": "GBHackers",
+      "id": "HackRe-baf3b6d1f1ad",
+      "title": "Inside New Zealand’s Telco Data Breaches",
+      "link": "https://hackread.com/inside-new-zealands-telco-data-breaches/",
+      "desc": "An Auckland ransomware case and three years of Spark disclosures reveal how little the headline numbers can tell&#8230;",
+      "pubDate": "Mon, 09 Nov 2026 11:02:02 +0000",
+      "source": "HackRead",
+      "cat": "breaches",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "HackRe-f5a127fee852",
+      "title": "Hackers Steal Around €100 Million From Crédit Mutuel Arkéa Through Supplier Platform",
+      "link": "https://hackread.com/hackers-steal-e100m-credit-mutuel-arkea-supplier-platform/",
+      "desc": "Hackers stole around €100 million from Crédit Mutuel Arkéa through a supplier platform. Customer funds were unaffected, and&#8230;",
+      "pubDate": "Mon, 09 Nov 2026 10:49:57 +0000",
+      "source": "HackRead",
+      "cat": "threats",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "HackRe-928ac4c861d6",
+      "title": "7 Best Vulnerability Scanning Tools for Security Teams in 2026",
+      "link": "https://hackread.com/best-vulnerability-scanning-tools-security-teams-2026/",
+      "desc": "Compare 7 vulnerability scanning tools for small teams, covering setup, network and app testing, prioritisation, rescans and remediation tracking.",
+      "pubDate": "Fri, 06 Nov 2026 17:18:42 +0000",
+      "source": "HackRead",
       "cat": "threats",
       "sev": "high",
       "tags": [],
@@ -911,14 +1017,14 @@
       "ts": 0
     },
     {
-      "id": "GBHack-4ad6facfa822",
-      "title": "PolinRider Malware Returns in 10 Hijacked npm Packages Using Ethereum Blockchain to Deliver Malicious Code",
-      "link": "https://gbhackers.com/polinrider-malware-attack/",
-      "desc": "A concealed JavaScript loaders in 12 releases across 10 hijacked npm packages, linking the compromise to previously documented PolinRider activity. Investigated on November 4, 2026, the releases use Ethereum transactions to discover remote payload servers and execute downloaded code inside developer environments, build systems, or applications. Sonatype tracks the finding as sonatype-2026-010515.g",
-      "pubDate": "Mon, 09 Nov 2026 07:17:43 +0000",
-      "source": "GBHackers",
-      "cat": "malware",
-      "sev": "high",
+      "id": "HackRe-46f19cf36d77",
+      "title": "Railway Engineer Admits Running AI Agents Against Rival Cloud Platform",
+      "link": "https://hackread.com/railway-engineer-run-ai-agents-rival-cloud-platform/",
+      "desc": "A Railway engineer admitted testing AI agents on Primcloud, whose founder says they sought customer secrets and scanned&#8230;",
+      "pubDate": "Fri, 06 Nov 2026 15:12:22 +0000",
+      "source": "HackRead",
+      "cat": "threats",
+      "sev": "medium",
       "tags": [],
       "iocs": {
         "cves": [],
@@ -930,23 +1036,42 @@
       "ts": 0
     },
     {
-      "id": "GBHack-64d7b681e78e",
-      "title": "SonicWall Warns of Actively Exploited SSL-VPN Vulnerability That Bypasses SAML and MFA Protection",
-      "link": "https://gbhackers.com/sonicwall-warns-of-actively-exploited-ssl-vpn-vulnerability/",
-      "desc": "SonicWall has urged customers to address an SSL-VPN authentication vulnerability that can bypass SAML controls, including associated multifactor authentication measures. This issue is tracked as CVE-2026-19868 and affects SonicOS deployments that utilize SAML for SSL-VPN logins. The company has investigated reports suggesting potential exploitation but has not confirmed a widespread attack campaig",
-      "pubDate": "Mon, 09 Nov 2026 06:20:55 +0000",
-      "source": "GBHackers",
+      "id": "HackRe-dcd75be3fb58",
+      "title": "Insignary Releases Free Insignary-Chk Tool to Detect PHP2Shell and Node2Shell Exposure",
+      "link": "https://hackread.com/insignary-releases-free-insignary-chk-tool-to-detect-php2shell-and-node2shell-exposure/",
+      "desc": "Toronto, Canada, 6th November 2026, CyberNewswire",
+      "pubDate": "Fri, 06 Nov 2026 12:50:05 +0000",
+      "source": "HackRead",
       "cat": "threats",
-      "sev": "critical",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "HackRe-a3b26bccc99f",
+      "title": "CISA Warns Hackers Are Exploiting 18-Year-Old WordPress Core Vulnerability",
+      "link": "https://hackread.com/cisa-hackers-exploiting-wordpress-core-vulnerability/",
+      "desc": "CVE-2026-119977 lets hackers hijack WordPress sites during core updates. CISA confirms exploitation as users are told to patch&#8230;",
+      "pubDate": "Fri, 06 Nov 2026 11:24:45 +0000",
+      "source": "HackRead",
+      "cat": "threats",
+      "sev": "high",
       "tags": [
         {
-          "t": "CVE-2026-19868",
+          "t": "CVE-2026-119977",
           "cls": "cve"
         }
       ],
       "iocs": {
         "cves": [
-          "CVE-2026-19868"
+          "CVE-2026-119977"
         ],
         "ips": [],
         "hashes": []
@@ -956,14 +1081,71 @@
       "ts": 0
     },
     {
-      "id": "GBHack-c8bef24a238b",
-      "title": "Critical React Server Components Vulnerability Allows Unauthenticated Attackers to Execute Malicious Code on Servers",
-      "link": "https://gbhackers.com/critical-react-server-components-vulnerability/",
-      "desc": "A serious vulnerability in React Server Components may enable unauthenticated attackers to execute malicious code on affected servers. The advisory, released on October 14, 2026, assigns the issue a CVSS v4.0 score of 9.5. React maintainers advise that users update their systems immediately, though they emphasize that the conditions necessary for exploitation are extremely rare. [&#8230;]\nThe post",
-      "pubDate": "Mon, 09 Nov 2026 06:11:56 +0000",
-      "source": "GBHackers",
+      "id": "HackRe-d5062913fd9f",
+      "title": "How Governments Detect VPN Traffic, and Why Encryption Alone Doesn’t Hide It",
+      "link": "https://hackread.com/how-governments-detect-vpn-traffic-encryption/",
+      "desc": "Learn how governments detect VPN traffic using IP addresses, protocol fingerprints and active probing, and why encryption alone cannot prevent blocking.",
+      "pubDate": "Thu, 05 Nov 2026 22:50:58 +0000",
+      "source": "HackRead",
       "cat": "threats",
-      "sev": "high",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "HackRe-a3fba721e19d",
+      "title": "Hackers Tamper With Refrigeration Controls at France’s National Blood Service",
+      "link": "https://hackread.com/hackers-tamper-refrigeration-controls-france-blood-service/",
+      "desc": "Hackers altered refrigeration controls at three French blood service sites, but staff protected plasma supplies and prevented damage to blood products.",
+      "pubDate": "Thu, 05 Nov 2026 17:06:58 +0000",
+      "source": "HackRead",
+      "cat": "threats",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "HackRe-2854ded7865f",
+      "title": "OpenMatter Network Positions Decentralized Computing as an Alternative to Data Centers for AI",
+      "link": "https://hackread.com/openmatter-network-positions-decentralized-computing-as-an-alternative-to-data-centers-for-ai/",
+      "desc": "Melbourne, Florida, 5th November 2026, CyberNewswire",
+      "pubDate": "Thu, 05 Nov 2026 14:54:14 +0000",
+      "source": "HackRead",
+      "cat": "threats",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "HackRe-00f8e727487f",
+      "title": "Beyond Cold Storage: Why Hardware Wallets Need Open Source and Clear Signing",
+      "link": "https://hackread.com/hardware-wallets-need-open-source-clear-signing/",
+      "desc": "Hardware wallets protect private keys, but clear signing, open-source firmware and on-device verification let users see malicious crypto transactions.",
+      "pubDate": "Thu, 05 Nov 2026 11:37:09 +0000",
+      "source": "HackRead",
+      "cat": "threats",
+      "sev": "critical",
       "tags": [],
       "iocs": {
         "cves": [],
@@ -2101,18 +2283,18 @@
       "sev": "high",
       "tags": [
         {
-          "t": "CVE-2026-109618",
+          "t": "CVE-2026-109619",
           "cls": "cve"
         },
         {
-          "t": "CVE-2026-109619",
+          "t": "CVE-2026-109618",
           "cls": "cve"
         }
       ],
       "iocs": {
         "cves": [
-          "CVE-2026-109618",
-          "CVE-2026-109619"
+          "CVE-2026-109619",
+          "CVE-2026-109618"
         ],
         "ips": [],
         "hashes": []
@@ -2642,6 +2824,25 @@
       "ts": 0
     },
     {
+      "id": "SANSI-55d8a98a6f25",
+      "title": "ISC Stormcast For Tuesday, November 10th, 2026 https://isc.sans.edu/podcastdetail/10172, (Tue, Nov 10th)",
+      "link": "https://isc.sans.edu/diary/rss/33504",
+      "desc": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
+      "pubDate": "Tue, 10 Nov 2026 02:00:02 GMT",
+      "source": "SANS ISC",
+      "cat": "vulns",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
       "id": "SANSI-c7860142297a",
       "title": "Attackers Searching for SAP Netweaver Webshells, (Mon, Nov 9th)",
       "link": "https://isc.sans.edu/diary/rss/33502",
@@ -2823,25 +3024,6 @@
       "source": "SANS ISC",
       "cat": "vulns",
       "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "SANSI-66e3a43f487b",
-      "title": "Mutipath TCP: Use and Detection, (Mon, Nov 2nd)",
-      "link": "https://isc.sans.edu/diary/rss/33482",
-      "desc": "Last week, an often-ignored&&#x23&#x3b;x26&#x3b;&#x23&#x3b;xc2&#x3b;&&#x23&#x3b;x26&#x3b;&#x23&#x3b;xa0&#x3b;TCP option, introduced in 2020, made the news due to a new vulnerability in Linux&&#x23&#x3b;x26&#x3b;&#x23&#x3b;39&#x3b;s implementation (RFC&&#x23&#x3b;x26&#x3b;&#x23&#x3b;xc2&#x3b;&&#x23&#x3b;x26&#x3b;&#x23&#x3b;xa0&#x3b;8684, &&#x23&#x3b;x26&#x3b;&#x23&#x3b;xc2&#x3b;&&#x23&#x3b;x26&#x3b",
-      "pubDate": "Mon, 02 Nov 2026 14:52:05 GMT",
-      "source": "SANS ISC",
-      "cat": "vulns",
-      "sev": "high",
       "tags": [],
       "iocs": {
         "cves": [],
@@ -3186,18 +3368,18 @@
       "sev": "high",
       "tags": [
         {
-          "t": "CVE-2026-109618",
+          "t": "CVE-2026-109619",
           "cls": "cve"
         },
         {
-          "t": "CVE-2026-109619",
+          "t": "CVE-2026-109618",
           "cls": "cve"
         }
       ],
       "iocs": {
         "cves": [
-          "CVE-2026-109618",
-          "CVE-2026-109619"
+          "CVE-2026-109619",
+          "CVE-2026-109618"
         ],
         "ips": [],
         "hashes": []
@@ -3844,38 +4026,19 @@
       "sev": "critical",
       "tags": [
         {
-          "t": "CVE-2026-116606",
+          "t": "CVE-2026-111560",
           "cls": "cve"
         },
         {
-          "t": "CVE-2026-111560",
+          "t": "CVE-2026-116606",
           "cls": "cve"
         }
       ],
       "iocs": {
         "cves": [
-          "CVE-2026-116606",
-          "CVE-2026-111560"
+          "CVE-2026-111560",
+          "CVE-2026-116606"
         ],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "r/nets-f167caa9b2a8",
-      "title": "The Confessions of an AI Fraud Kingpin",
-      "link": "https://www.reddit.com/r/netsec/comments/1xok9lh/the_confessions_of_an_ai_fraud_kingpin/",
-      "desc": "&#32; submitted by &#32;  /u/404mediaco   [link] &#32; [comments]",
-      "pubDate": "2026-11-05T14:38:18+00:00",
-      "source": "r/netsec",
-      "cat": "community",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
         "ips": [],
         "hashes": []
       },
@@ -3921,6 +4084,25 @@
         "cves": [
           "CVE-2026-122192"
         ],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "r/nets-1c9a9dfc14c1",
+      "title": "Finding 40+ Vulnerabilities in Healthcare Software Serving More Than 100 Million Patients",
+      "link": "https://www.reddit.com/r/netsec/comments/1xng15c/finding_40_vulnerabilities_in_healthcare_software/",
+      "desc": "&#32; submitted by &#32;  /u/idnsec   [link] &#32; [comments]",
+      "pubDate": "2026-11-04T05:28:24+00:00",
+      "source": "r/netsec",
+      "cat": "community",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
         "ips": [],
         "hashes": []
       },
