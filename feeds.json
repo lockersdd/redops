@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T01:23:29.147670+00:00",
+  "generated_at": "2026-11-11T08:07:25.494343+00:00",
   "sources_ok": 16,
   "sources_total": 20,
   "source_status": {
@@ -90,6 +90,32 @@
   },
   "total": 205,
   "articles": [
+    {
+      "id": "TheHa-471fff1e148e",
+      "title": "Cisco BroadWorks and Openwave Flaws Actively Exploited Despite Available Patches",
+      "link": "https://thehackernews.com/2026/11/cisco-broadworks-and-openwave-flaws.html",
+      "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) Tuesday added two security flaws impacting Cisco BroadWorks and Openwave Messaging Webtop Media Transcoder to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation.\n\nDetails of the vulnerabilities are below -\n\n\n  CVE-2026-20320 (CVSS score: 7.5) - An improper restriction of XML external entity",
+      "pubDate": "Wed, 11 Nov 2026 11:34:02 +0530",
+      "source": "The Hacker News",
+      "cat": "threats",
+      "sev": "critical",
+      "tags": [
+        {
+          "t": "CVE-2026-20320",
+          "cls": "cve"
+        }
+      ],
+      "iocs": {
+        "cves": [
+          "CVE-2026-20320"
+        ],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
     {
       "id": "TheHa-2a2812311759",
       "title": "Git Patches Flaw That Lets Malicious Repositories Execute Code During Recursive Clones",
@@ -376,32 +402,6 @@
       "ts": 0
     },
     {
-      "id": "TheHa-c44b8fe17060",
-      "title": "Google Issues Chrome Security Update for Eighth Actively Exploited Zero-Day of 2026",
-      "link": "https://thehackernews.com/2026/11/google-issues-chrome-security-update.html",
-      "desc": "Google on Monday released updates to patch nine security vulnerabilities, including one that has come under active exploitation in the wild.\n\nThe high-severity vulnerability, assigned the CVE identifier CVE-2026-125350 (CVSS score: N/A), has been described as a use-after-free bug in the XML component.\n\nUse-after-free bugs typically occur when a program attempts to access a memory location after",
-      "pubDate": "Tue, 10 Nov 2026 12:22:54 +0530",
-      "source": "The Hacker News",
-      "cat": "threats",
-      "sev": "critical",
-      "tags": [
-        {
-          "t": "CVE-2026-125350",
-          "cls": "cve"
-        }
-      ],
-      "iocs": {
-        "cves": [
-          "CVE-2026-125350"
-        ],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
       "id": "Krebs-3c5ac9b9246e",
       "title": "Microsoft Fixes Nearly 1,100 Security Vulnerabilities",
       "link": "https://krebsonsecurity.com/2026/11/microsoft-fixes-nearly-1100-security-vulnerabilities/",
@@ -592,6 +592,44 @@
       "ts": 0
     },
     {
+      "id": "Securi-046e09c9d5df",
+      "title": "Recently Patched Barracuda Vulnerabilities Exploited in Attacks",
+      "link": "https://www.securityweek.com/recently-patched-barracuda-vulnerabilities-exploited-in-attacks/",
+      "desc": "The security defects could allow attackers to bypass authorization and gain root access to devices.\nThe post Recently Patched Barracuda Vulnerabilities Exploited in Attacks appeared first on SecurityWeek.",
+      "pubDate": "Wed, 11 Nov 2026 07:53:51 +0000",
+      "source": "SecurityWeek",
+      "cat": "threats",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "Securi-b5ec3a253719",
+      "title": "Bluetooth, AirPlay Pairing Vulnerabilities Patched Across Apple Platforms",
+      "link": "https://www.securityweek.com/bluetooth-airplay-pairing-vulnerabilities-patched-across-apple-platforms/",
+      "desc": "Apple has patched Bluetooth and AirPlay pairing flaws, iMessage vulnerabilities, and an exploited Brotli bug across its platforms.\nThe post Bluetooth, AirPlay Pairing Vulnerabilities Patched Across Apple Platforms appeared first on SecurityWeek.",
+      "pubDate": "Wed, 11 Nov 2026 07:00:17 +0000",
+      "source": "SecurityWeek",
+      "cat": "threats",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
       "id": "Securi-8b297b2a1ed0",
       "title": "Exploited Outlook Zero-Day Among 1,094 Flaws Patched by Microsoft",
       "link": "https://www.securityweek.com/exploited-outlook-zero-day-among-1094-flaws-patched-by-microsoft/",
@@ -751,12 +789,57 @@
       "ts": 0
     },
     {
-      "id": "Securi-08cbce63483d",
-      "title": "Anthropic Rolls Out Mythos 5.2 With Improved Bug Hunting, Fewer Sandbox Escapes",
-      "link": "https://www.securityweek.com/anthropic-rolls-out-mythos-5-2-with-improved-bug-hunting-fewer-sandbox-escapes/",
-      "desc": "Anthropic says Mythos 5.2 improves vulnerability discovery while showing a lower tendency to escape sandboxes in controlled tests.\nThe post Anthropic Rolls Out Mythos 5.2 With Improved Bug Hunting, Fewer Sandbox Escapes appeared first on SecurityWeek.",
-      "pubDate": "Tue, 10 Nov 2026 12:17:13 +0000",
-      "source": "SecurityWeek",
+      "id": "GBHack-067d9ccf777b",
+      "title": "Microsoft November 2026 Patch Tuesday Addresses Critical RCE Flaws and Outlook Zero-Day Attacks",
+      "link": "https://gbhackers.com/microsoft-november-2026-patch-tuesday/",
+      "desc": "Microsoft released its November 2026 Patch Tuesday updates, addressing 1,093 newly disclosed vulnerabilities across Windows, Office, SQL Server, SharePoint, Exchange Server, Azure services, and developer tools. The release includes 63 Critical flaws, 1,029 Important issues, and one Moderate vulnerability, including an actively exploited Outlook zero-day that exposes authentication information. The",
+      "pubDate": "Wed, 11 Nov 2026 06:33:13 +0000",
+      "source": "GBHackers",
+      "cat": "threats",
+      "sev": "critical",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "GBHack-51756d734ab7",
+      "title": "Microsoft Outlook Zero-Day Vulnerability Actively Exploited to Steal NTLM Authentication Hashes",
+      "link": "https://gbhackers.com/microsoft-outlook-zero-day-vulnerability/",
+      "desc": "Microsoft has patched an actively exploited Outlook zero-day that lets attackers steal Windows authentication information through a malicious message file. Tracked as CVE-2026-124194, the spoofing vulnerability was released on November 10, 2026. Microsoft, the assigning CNA, rates its maximum severity as Moderate, despite confirmed attacks targeting the flaw. The issue continues a pattern of Outlo",
+      "pubDate": "Wed, 11 Nov 2026 06:15:01 +0000",
+      "source": "GBHackers",
+      "cat": "threats",
+      "sev": "critical",
+      "tags": [
+        {
+          "t": "CVE-2026-124194",
+          "cls": "cve"
+        }
+      ],
+      "iocs": {
+        "cves": [
+          "CVE-2026-124194"
+        ],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "GBHack-5e2712c04c8c",
+      "title": "AhsayCBS Hackers Plant Multiple Webshells and Secret Crypto Miners That Survive Security Patching",
+      "link": "https://gbhackers.com/ahsaycbs-server-exploitation/",
+      "desc": "Attackers exploiting AhsayCBS backup servers deployed five webshell families, persistent cryptocurrency miners, tunneling utilities, and a custom Python implant across three servers in one organization. Huntress’s follow-up investigation covers intrusions between October 8 and October 11, 2026, revealing a broader operation than the cryptomining activity initially reported. The findings underscore",
+      "pubDate": "Wed, 11 Nov 2026 06:11:04 +0000",
+      "source": "GBHackers",
       "cat": "threats",
       "sev": "high",
       "tags": [],
@@ -770,14 +853,71 @@
       "ts": 0
     },
     {
-      "id": "Securi-9b83ca5d673e",
-      "title": "N-able Takes N-central Offline as Researcher Drops Over 30 Zero-Days",
-      "link": "https://www.securityweek.com/n-able-takes-n-central-offline-as-researcher-drops-over-30-zero-days/",
-      "desc": "Attackers could exploit the flaws for remote code execution, credential theft, and administrator account creation.\nThe post N-able Takes N-central Offline as Researcher Drops Over 30 Zero-Days appeared first on SecurityWeek.",
-      "pubDate": "Tue, 10 Nov 2026 09:56:28 +0000",
-      "source": "SecurityWeek",
+      "id": "GBHack-b62b01d96ca4",
+      "title": "Critical Fortinet Vulnerabilities Allow Unauthenticated Attackers to Execute Remote Code on FortiManager and FortiAnalyzer",
+      "link": "https://gbhackers.com/critical-fortinet-vulnerabilities/",
+      "desc": "Fortinet disclosed critical vulnerabilities in FortiManager, FortiAnalyzer, and FortiOS on November 10, 2026, including flaws that could let attackers execute code without logging in. The disclosures cover management APIs, device communication, routing, and specific high availability configurations. Exposure depends on enabled services, network access, and deployment settings. Fortinet Vulnerabili",
+      "pubDate": "Wed, 11 Nov 2026 06:07:33 +0000",
+      "source": "GBHackers",
       "cat": "threats",
-      "sev": "critical",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "GBHack-ed848a4432da",
+      "title": "New GhostFrame Malware Targets VMware ESXi Servers to Steal Credentials and Hijack Virtual Machines",
+      "link": "https://gbhackers.com/new-ghostframe-malware-targets-vmware-esxi-servers/",
+      "desc": "Researchers have uncovered GhostFrame, a previously undocumented command-and-control (C2) and post-exploitation framework that turns compromised VMware ESXi hosts into platforms for credential theft, virtual machine control, and network intrusion. Insikt Group’s November 10 report links its use to TAG-218, whose activity overlaps with Settra ransomware. The framework requires existing root access;",
+      "pubDate": "Wed, 11 Nov 2026 05:58:33 +0000",
+      "source": "GBHackers",
+      "cat": "malware",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "GBHack-b68525e0f968",
+      "title": "Hackers Use Fake Cloudflare CAPTCHA Checks to Deploy Malware Hidden Inside PNG Images",
+      "link": "https://gbhackers.com/fake-cloudflare-captcha-2/",
+      "desc": "Threat actors are pushing ClickFix well beyond its usual role as a delivery mechanism for scripts and infostealers. ClickFix lures typically begin with a counterfeit Cloudflare &#8220;Verify that you are human&#8221; turnstile. Victims arrive through Bing malvertising, SEO poisoning or compromised websites. One victim searched for &#8220;Westlaw,&#8221; clicked a paid ad and landed on a [&#8230;]\n",
+      "pubDate": "Wed, 11 Nov 2026 05:39:05 +0000",
+      "source": "GBHackers",
+      "cat": "malware",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "GBHack-1d4cfcf45d92",
+      "title": "China-Linked CopperDragon Malware Framework Targets Critical Infrastructure Across Europe, Asia, and Latin America",
+      "link": "https://gbhackers.com/copperdragon-malware-framework/",
+      "desc": "Research has tied three seemingly unrelated espionage campaigns to a single supplier of Chinese-nexus tooling, which it tracks as CopperDragon. It may act as a &#8220;digital quartermaster,&#8221; supplying tools to several China-nexus actors, including FamousSparrow, Earth Estries, TropicTrooper and UAT-9244. The clusters, named SilentDelivery, OceanGate and DarkWire, hit telecommunications provi",
+      "pubDate": "Wed, 11 Nov 2026 05:04:48 +0000",
+      "source": "GBHackers",
+      "cat": "malware",
+      "sev": "high",
       "tags": [],
       "iocs": {
         "cves": [],
@@ -846,135 +986,14 @@
       "ts": 0
     },
     {
-      "id": "GBHack-781727d9ce49",
-      "title": "One Identity Unveils Identity Manager 10.0 LTS with AI and Modern UX",
-      "link": "https://gbhackers.com/one-identity-unveils-identity-manager-10-0-lts-with-ai-and-modern-ux/",
-      "desc": "Alisa Viejo, California, November 10th, 2026, CyberNewswire One Identity today unveiled Identity Manager 10.0 LTS, modernizing the identity governance experience with browser-based administration, AI-assisted insights and streamlined automation for everyday identity operations. Of the three products, Identity Manager 10.0 LTS provides the clearest UI modernization story. Its new browser-based expe",
-      "pubDate": "Tue, 10 Nov 2026 15:48:40 +0000",
-      "source": "GBHackers",
+      "id": "HackRe-f7d298f34f77",
+      "title": "Hackers Exploit Decade-Old OpenSSH Flaw to Bypass Linux Logins",
+      "link": "https://hackread.com/hackers-exploit-old-openssh-bypass-linux-logins/",
+      "desc": "Hackers exploit SSHole OpenSSH flaw to bypass Linux logins and install a Python backdoor. CISA confirms exploits as patched packages become available.",
+      "pubDate": "Wed, 11 Nov 2026 07:28:12 +0000",
+      "source": "HackRead",
       "cat": "threats",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "GBHack-7bd4725247e1",
-      "title": "OffSec Celebrates 20 Years of Practitioner-Built Training From the Creators of Kali Linux and OSCP",
-      "link": "https://gbhackers.com/offsec-celebrates-20-years-of-practitioner-built-training-from-the-creators-of-kali-linux-and-oscp/",
-      "desc": "New York, USA, November 10th, 2026, CyberNewswire Meet the rest of OffSec as the company brings its hands-on approach to entire cyber teams. Kali Linux. OSCP. Try Harder. For 20 years, OffSec has set the standard for the tools security practitioners use, the skills they prove, and the mindset they bring to the work. This [&#8230;]\nThe post OffSec Celebrates 20 Years of Practitioner-Built Training ",
-      "pubDate": "Tue, 10 Nov 2026 13:27:26 +0000",
-      "source": "GBHackers",
-      "cat": "threats",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "GBHack-1f4c6f39c1f0",
-      "title": "Finite State Raises $27 Million to Help Device Makers Fight ‘Vulnpocalypse’ with AI-Powered Product Security",
-      "link": "https://gbhackers.com/finite-state-raises-27-million-to-help-device-makers-fight-vulnpocalypse-with-ai-powered-product-security/",
-      "desc": "Columbus, Ohio, United States, November 10th, 2026, CyberNewswire Funding Will Scale Finite State’s Autonomous Platform and International Expansion as Manufacturers Face a Surge of AI-Discovered Flaws and New Global Security Mandates Finite State, a leader in product security and software supply chain risk management, today announced a $27 million Series C funding round led by [&#8230;]\nThe post F",
-      "pubDate": "Tue, 10 Nov 2026 13:21:50 +0000",
-      "source": "GBHackers",
-      "cat": "threats",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "GBHack-a2bfde2a3129",
-      "title": "Hackers Abuse Qubole’s Trusted AWS Access to Breach Multiple Cloud Accounts and Steal Sensitive Data",
-      "link": "https://gbhackers.com/quboles-trusted-aws-access/",
-      "desc": "Hackers abused AWS credentials associated with Qubole to breach multiple customer cloud environments, harvest secrets, and steal sensitive S3 data between October 14 and October 26, 2026. Sentra reported that more than a dozen organizations were hacked, describing the broader impact as involving dozens of Qubole customers. Some compromised integration roles had remained dormant for [&#8230;]\nThe p",
-      "pubDate": "Tue, 10 Nov 2026 12:51:56 +0000",
-      "source": "GBHackers",
-      "cat": "breaches",
       "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "GBHack-1ec4b1c5138b",
-      "title": "SAP November 2026 Patch Day Fixes Four Maximum-Severity Security Vulnerabilities",
-      "link": "https://gbhackers.com/sap-november-2026-patch-day/",
-      "desc": "SAP released 35 new security notes and four GitHub security advisories on November 10, 2026, alongside three updates to earlier notes. Four vulnerabilities carry the maximum CVSS score of 10.0 and affect NetWeaver Internet Communication Manager, Web Dispatcher, SAP Gateway, and the SAML2 Service Provider. The release covers memory corruption, missing authentication, access control failures, [&#823",
-      "pubDate": "Tue, 10 Nov 2026 12:01:55 +0000",
-      "source": "GBHackers",
-      "cat": "threats",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "GBHack-48ec89c9de82",
-      "title": "Critical Apache Airflow Flaw CVE-2026-68982 Enables Unauthenticated Remote Code Execution",
-      "link": "https://gbhackers.com/critical-apache-airflow-flaw-cve-2026-68982-enables-unauthenticated-remote-code-execution/",
-      "desc": "A critical missing-authentication flaw in Apache Airflow lets attackers run code on Celery workers without any Airflow credentials. Tracked as CVE-2026-68982, the bug is classified as CWE-306 and affects Airflow versions before 3.4.0 that use CeleryExecutor. Anyone who can write to the Celery broker can make a worker run any Python function it can import, [&#8230;]\nThe post Critical Apache Airflow",
-      "pubDate": "Tue, 10 Nov 2026 11:49:08 +0000",
-      "source": "GBHackers",
-      "cat": "threats",
-      "sev": "critical",
-      "tags": [
-        {
-          "t": "CVE-2026-68982",
-          "cls": "cve"
-        }
-      ],
-      "iocs": {
-        "cves": [
-          "CVE-2026-68982"
-        ],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "GBHack-37de024b41f7",
-      "title": "Russian-Linked Turla Hackers Abuse Microsoft Exchange Infrastructure to Target Sensitive Communications",
-      "link": "https://gbhackers.com/microsoft-exchange-abuse/",
-      "desc": "Russian-linked espionage group Turla has deployed a previously undocumented .NET malware toolkit that turns compromised Microsoft Exchange servers into surveillance platforms and command infrastructure. Named Cereal, the modular toolset intercepts selected emails while allowing legitimate messages to continue through the transport pipeline, concealing intelligence collection inside routine governm",
-      "pubDate": "Tue, 10 Nov 2026 11:30:34 +0000",
-      "source": "GBHackers",
-      "cat": "malware",
-      "sev": "critical",
       "tags": [],
       "iocs": {
         "cves": [],
@@ -1157,14 +1176,14 @@
       "ts": 0
     },
     {
-      "id": "HackRe-46f19cf36d77",
-      "title": "Railway Engineer Admits Running AI Agents Against Rival Cloud Platform",
-      "link": "https://hackread.com/railway-engineer-run-ai-agents-rival-cloud-platform/",
-      "desc": "A Railway engineer admitted testing AI agents on Primcloud, whose founder says they sought customer secrets and scanned&#8230;",
-      "pubDate": "Fri, 06 Nov 2026 15:12:22 +0000",
-      "source": "HackRead",
-      "cat": "threats",
-      "sev": "medium",
+      "id": "Exploi-7f1e35a55fbe",
+      "title": "[remote] Ruflo MCP Bridge  3.16.2 - Remote Code Execution",
+      "link": "https://www.exploit-db.com/exploits/52705",
+      "desc": "Ruflo MCP Bridge  3.16.2 - Remote Code Execution",
+      "pubDate": "Wed, 11 Nov 2026 00:00:00 +0000",
+      "source": "Exploit-DB",
+      "cat": "exploits",
+      "sev": "critical",
       "tags": [],
       "iocs": {
         "cves": [],
@@ -1434,25 +1453,6 @@
       "title": "[webapps] WordPress 7.0.2 - Path Travesal",
       "link": "https://www.exploit-db.com/exploits/52690",
       "desc": "WordPress 7.0.2 - Path Travesal",
-      "pubDate": "Thu, 01 Oct 2026 00:00:00 +0000",
-      "source": "Exploit-DB",
-      "cat": "exploits",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "Exploi-6db9fc3fd5bf",
-      "title": "[webapps] Food-Ordering 1.0  -  LFI",
-      "link": "https://www.exploit-db.com/exploits/52689",
-      "desc": "Food-Ordering 1.0  -  LFI",
       "pubDate": "Thu, 01 Oct 2026 00:00:00 +0000",
       "source": "Exploit-DB",
       "cat": "exploits",
@@ -2340,18 +2340,18 @@
       "sev": "high",
       "tags": [
         {
-          "t": "CVE-2026-109619",
+          "t": "CVE-2026-109618",
           "cls": "cve"
         },
         {
-          "t": "CVE-2026-109618",
+          "t": "CVE-2026-109619",
           "cls": "cve"
         }
       ],
       "iocs": {
         "cves": [
-          "CVE-2026-109619",
-          "CVE-2026-109618"
+          "CVE-2026-109618",
+          "CVE-2026-109619"
         ],
         "ips": [],
         "hashes": []
@@ -2836,6 +2836,25 @@
       "ts": 0
     },
     {
+      "id": "SANSI-fc7c90d91854",
+      "title": "ISC Stormcast For Wednesday, November 11th, 2026 https://isc.sans.edu/podcastdetail/10174, (Wed, Nov 11th)",
+      "link": "https://isc.sans.edu/diary/rss/33510",
+      "desc": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
+      "pubDate": "Wed, 11 Nov 2026 02:00:03 GMT",
+      "source": "SANS ISC",
+      "cat": "vulns",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
       "id": "SANSI-bb524b614447",
       "title": "Microsoft Patch Tuesday November 2027 , (Tue, Nov 10th)",
       "link": "https://isc.sans.edu/diary/rss/33508",
@@ -3013,32 +3032,6 @@
       "tags": [],
       "iocs": {
         "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "SANSI-f617787e93e7",
-      "title": "The Classics Return: Vulnerable E-Mail Scripts, (Wed, Nov 4th)",
-      "link": "https://isc.sans.edu/diary/rss/33488",
-      "desc": "One of the early web application vulnerabilities I remember was CVE-2000-0411 &#x5b;CVE&#x5d;. This was a simple vulnerability in a CGI-bin script used to send e-mail. The vulnerability was pretty straightforward: Adding additional parameters to the URL leaked environment variables. Other vulnerabilities allowed setting the \"To\" address and were heavily abused by spammers. And if parameters were p",
-      "pubDate": "Wed, 04 Nov 2026 13:24:13 GMT",
-      "source": "SANS ISC",
-      "cat": "vulns",
-      "sev": "high",
-      "tags": [
-        {
-          "t": "CVE-2000-0411",
-          "cls": "cve"
-        }
-      ],
-      "iocs": {
-        "cves": [
-          "CVE-2000-0411"
-        ],
         "ips": [],
         "hashes": []
       },
@@ -3380,18 +3373,18 @@
       "sev": "high",
       "tags": [
         {
-          "t": "CVE-2026-109619",
+          "t": "CVE-2026-109618",
           "cls": "cve"
         },
         {
-          "t": "CVE-2026-109618",
+          "t": "CVE-2026-109619",
           "cls": "cve"
         }
       ],
       "iocs": {
         "cves": [
-          "CVE-2026-109619",
-          "CVE-2026-109618"
+          "CVE-2026-109618",
+          "CVE-2026-109619"
         ],
         "ips": [],
         "hashes": []
@@ -3523,6 +3516,25 @@
       "source": "ESET Blog",
       "cat": "malware",
       "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "HaveIB-b64c2548b2f3",
+      "title": "СберСпасибо (SberSpasibo) - 3,288,711 breached accounts",
+      "link": "https://haveibeenpwned.com/Breach/SberSpasibo",
+      "desc": "In March 2023, data allegedly taken from СберСпасибо (SberSpasibo), the loyalty program of Russian bank Сбербанк (Sberbank), was published online. The data contained records relating to 48M users, including 3.3M unique email addresses alongside phone numbers and dates of birth. Data also included bank card numbers stored as unsalted SHA-1 hashes, plus loyalty program details such as membership dat",
+      "pubDate": "Wed, 11 Nov 2026 01:44:58 Z",
+      "source": "HaveIBeenPwned",
+      "cat": "breaches",
+      "sev": "high",
       "tags": [],
       "iocs": {
         "cves": [],
@@ -3800,25 +3812,6 @@
       "ts": 0
     },
     {
-      "id": "HaveIB-8b0c6566a0e7",
-      "title": "McKesson - 6,404,340 breached accounts",
-      "link": "https://haveibeenpwned.com/Breach/McKesson",
-      "desc": "In August 2026, healthcare and pharmaceutical company McKesson was targeted in a ShinyHunters \"pay or leak\" extortion campaign. The group subsequently published a substantial corpus of data they alleged was sourced from the company, which included 6.4M unique email addresses among other personal and corporate data attributes. The impacted data related to a range of individuals and roles, including",
-      "pubDate": "Thu, 10 Sep 2026 05:45:39 Z",
-      "source": "HaveIBeenPwned",
-      "cat": "breaches",
-      "sev": "critical",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
       "id": "r/nets-67719a2b5cc9",
       "title": "r/netsec monthly discussion & tool thread",
       "link": "https://www.reddit.com/r/netsec/comments/1xl4ghe/rnetsec_monthly_discussion_tool_thread/",
@@ -3895,11 +3888,11 @@
       "ts": 0
     },
     {
-      "id": "r/nets-8890364eeef7",
-      "title": "Kubernetes Non-Core Security Audit",
-      "link": "https://www.reddit.com/r/netsec/comments/1xspr6l/kubernetes_noncore_security_audit/",
-      "desc": "&#32; submitted by &#32;  /u/smaury   [link] &#32; [comments]",
-      "pubDate": "2026-11-10T15:27:08+00:00",
+      "id": "r/nets-957491d5ca57",
+      "title": "Supabase Security findings why RLS is only 25% of the issues",
+      "link": "https://www.reddit.com/r/netsec/comments/1xt0jrg/supabase_security_findings_why_rls_is_only_25_of/",
+      "desc": "&#32; submitted by &#32;  /u/1thirteenthirtyseven   [link] &#32; [comments]",
+      "pubDate": "2026-11-10T22:21:14+00:00",
       "source": "r/netsec",
       "cat": "community",
       "sev": "medium",
@@ -3914,11 +3907,11 @@
       "ts": 0
     },
     {
-      "id": "r/nets-957491d5ca57",
-      "title": "Supabase Security findings why RLS is only 25% of the issues",
-      "link": "https://www.reddit.com/r/netsec/comments/1xt0jrg/supabase_security_findings_why_rls_is_only_25_of/",
-      "desc": "&#32; submitted by &#32;  /u/1thirteenthirtyseven   [link] &#32; [comments]",
-      "pubDate": "2026-11-10T22:21:14+00:00",
+      "id": "r/nets-8890364eeef7",
+      "title": "Kubernetes Non-Core Security Audit",
+      "link": "https://www.reddit.com/r/netsec/comments/1xspr6l/kubernetes_noncore_security_audit/",
+      "desc": "&#32; submitted by &#32;  /u/smaury   [link] &#32; [comments]",
+      "pubDate": "2026-11-10T15:27:08+00:00",
       "source": "r/netsec",
       "cat": "community",
       "sev": "medium",
