@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T16:28:47.727700+00:00",
+  "generated_at": "2026-11-11T22:57:39.041624+00:00",
   "sources_ok": 16,
   "sources_total": 20,
   "source_status": {
@@ -90,6 +90,32 @@
   },
   "total": 205,
   "articles": [
+    {
+      "id": "TheHa-2add58010387",
+      "title": "Critical Zoom Workplace Flaw Could Allow Unauthenticated Remote Privilege Escalation",
+      "link": "https://thehackernews.com/2026/11/critical-zoom-workplace-flaw-could.html",
+      "desc": "Zoom has released software updates to address two security flaws impacting Zoom Workplace for Windows, including a critical bug that could result in privilege escalation on affected systems.\n\nThe vulnerabilities are listed below -\n\n\n  CVE-2026-108186 (CVSS score: 9.6) - An improper input validation vulnerability that could allow an unauthenticated user to conduct an escalation of privilege via",
+      "pubDate": "Wed, 11 Nov 2026 21:42:46 +0530",
+      "source": "The Hacker News",
+      "cat": "threats",
+      "sev": "high",
+      "tags": [
+        {
+          "t": "CVE-2026-108186",
+          "cls": "cve"
+        }
+      ],
+      "iocs": {
+        "cves": [
+          "CVE-2026-108186"
+        ],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
     {
       "id": "TheHa-caa9d3f4a2da",
       "title": "AntiFox AI Pentesting Platform Linked to Attacks That Accessed AWS Production Secrets",
@@ -383,14 +409,14 @@
       "ts": 0
     },
     {
-      "id": "TheHa-a79fbabe33d6",
-      "title": "Blind Eagle Uses Fake Court Notices to Deliver Remote Access Trojan Across Latin America",
-      "link": "https://thehackernews.com/2026/11/blind-eagle-uses-fake-court-notices-to.html",
-      "desc": "The threat actor known as Blind Eagle has resurfaced with a new campaign targeting organizations in Latin America through judicial and administrative-themed phishing lures to deliver a remote access trojan (RAT) that shares its lineage with AsyncRAT and DCRat.\n\n\"The campaign uses Portuguese and Spanish lures that resemble court notifications, fiscalía notices, tutela proceedings, and",
-      "pubDate": "Tue, 10 Nov 2026 21:28:44 +0530",
-      "source": "The Hacker News",
+      "id": "Krebs-f0ea36af7be1",
+      "title": "Who Runs the Ransomware Group Qilin?",
+      "link": "https://krebsonsecurity.com/2026/11/who-runs-the-ransomware-group-qilin/",
+      "desc": "The cybercrime group Qilin has emerged as the world's most active ransomware affiliate program, claiming at least 365 victim organizations in the past three months alone. But even top Russian hackers make operational security mistakes, and the administrator of Qilin has made a few key missteps over the last decade that all point to a 36-year-old man living in St. Petersburg, Russia.",
+      "pubDate": "Wed, 11 Nov 2026 18:06:01 +0000",
+      "source": "Krebs on Security",
       "cat": "malware",
-      "sev": "high",
+      "sev": "medium",
       "tags": [],
       "iocs": {
         "cves": [],
@@ -573,14 +599,14 @@
       "ts": 0
     },
     {
-      "id": "Krebs-ba1f71da9e4d",
-      "title": "Dutch Police Arrest ‘Reformed’ Hacker in Shiny Hunters Investigation",
-      "link": "https://krebsonsecurity.com/2026/09/dutch-police-arrest-reformed-hacker-in-shiny-hunters-investigation/",
-      "desc": "Authorities in the Netherlands have arrested a 23-year-old convicted cybercriminal on suspicion of aiding in data thefts and extortions by the prolific hacker group ShinyHunters. In the days immediately following the suspect's arrest, remaining ShinyHunters members dramatically escalated their attacks, stealing highly sensitive data from the FBI and extorting the Russian ransomware group Cl0p.",
-      "pubDate": "Mon, 28 Sep 2026 15:08:57 +0000",
-      "source": "Krebs on Security",
-      "cat": "malware",
-      "sev": "high",
+      "id": "Securi-650623772dc2",
+      "title": "Today: CISO Forum Virtual Summit 2026 Day 2 – Join Cybersecurity Leaders Online",
+      "link": "https://www.securityweek.com/today-ciso-forum-virtual-summit-2026-join-global-cybersecurity-leaders/",
+      "desc": "Designed for cybersecurity leaders, this immersive two-day virtual event is your premier destination to discuss, share, and learn innovative risk management and defense strategies defining the modern enterprise.\nThe post Today: CISO Forum Virtual Summit 2026 Day 2 &#8211; Join Cybersecurity Leaders Online appeared first on SecurityWeek.",
+      "pubDate": "Wed, 11 Nov 2026 16:29:42 +0000",
+      "source": "SecurityWeek",
+      "cat": "threats",
+      "sev": "medium",
       "tags": [],
       "iocs": {
         "cves": [],
@@ -754,38 +780,19 @@
       "sev": "high",
       "tags": [
         {
-          "t": "CVE-2026-111793",
+          "t": "CVE-2026-20320",
           "cls": "cve"
         },
         {
-          "t": "CVE-2026-20320",
+          "t": "CVE-2026-111793",
           "cls": "cve"
         }
       ],
       "iocs": {
         "cves": [
-          "CVE-2026-111793",
-          "CVE-2026-20320"
+          "CVE-2026-20320",
+          "CVE-2026-111793"
         ],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "Securi-fbbf304fd2df",
-      "title": "Chipmaker Patch Tuesday: Over 200 Vulnerabilities Addressed by Intel, AMD",
-      "link": "https://www.securityweek.com/chipmaker-patch-tuesday-over-200-vulnerabilities-addressed-by-intel-amd/",
-      "desc": "Intel and AMD disclose more than 200 vulnerabilities, including critical flaws in Intel TDX software and numerous AMD graphics bugs.\nThe post Chipmaker Patch Tuesday: Over 200 Vulnerabilities Addressed by Intel, AMD appeared first on SecurityWeek.",
-      "pubDate": "Wed, 11 Nov 2026 08:42:44 +0000",
-      "source": "SecurityWeek",
-      "cat": "threats",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
         "ips": [],
         "hashes": []
       },
@@ -887,18 +894,18 @@
       "sev": "critical",
       "tags": [
         {
-          "t": "CVE-2026-105559",
+          "t": "CVE-2026-119948",
           "cls": "cve"
         },
         {
-          "t": "CVE-2026-119948",
+          "t": "CVE-2026-105559",
           "cls": "cve"
         }
       ],
       "iocs": {
         "cves": [
-          "CVE-2026-105559",
-          "CVE-2026-119948"
+          "CVE-2026-119948",
+          "CVE-2026-105559"
         ],
         "ips": [],
         "hashes": []
@@ -992,6 +999,25 @@
       "source": "GBHackers",
       "cat": "breaches",
       "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "HackRe-b0502ceda893",
+      "title": "When Market Data Can’t Be Trusted: Why Feed Integrity Matters to Order-Flow Analysis",
+      "link": "https://hackread.com/market-data-trust-feed-integrity-order-flow-analysis/",
+      "desc": "Missing trades, delayed quotes and wrong timestamps distort order-flow analysis. Learn how market data feed integrity affects charts and trading apps.",
+      "pubDate": "Wed, 11 Nov 2026 19:56:26 +0000",
+      "source": "HackRead",
+      "cat": "threats",
+      "sev": "medium",
       "tags": [],
       "iocs": {
         "cves": [],
@@ -1163,25 +1189,6 @@
       "source": "HackRead",
       "cat": "threats",
       "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "HackRe-baf3b6d1f1ad",
-      "title": "Inside New Zealand’s Telco Data Breaches",
-      "link": "https://hackread.com/inside-new-zealands-telco-data-breaches/",
-      "desc": "An Auckland ransomware case and three years of Spark disclosures reveal how little the headline numbers can tell&#8230;",
-      "pubDate": "Mon, 09 Nov 2026 11:02:02 +0000",
-      "source": "HackRead",
-      "cat": "breaches",
-      "sev": "high",
       "tags": [],
       "iocs": {
         "cves": [],
@@ -2509,18 +2516,18 @@
       "sev": "high",
       "tags": [
         {
-          "t": "CVE-2026-88771",
+          "t": "CVE-2026-88772",
           "cls": "cve"
         },
         {
-          "t": "CVE-2026-88772",
+          "t": "CVE-2026-88771",
           "cls": "cve"
         }
       ],
       "iocs": {
         "cves": [
-          "CVE-2026-88771",
-          "CVE-2026-88772"
+          "CVE-2026-88772",
+          "CVE-2026-88771"
         ],
         "ips": [],
         "hashes": []
@@ -2557,6 +2564,25 @@
       "source": "Sophos Research",
       "cat": "malware",
       "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "Malwar-e5db0eb99038",
+      "title": "Vanderbilt restores systems after cyberattack as hackers claim data theft",
+      "link": "https://www.malwarebytes.com/blog/news/2026/11/vanderbilt-restores-systems-after-cyberattack-as-hackers-claim-data-theft",
+      "desc": "Vanderbilt University is restoring campus technology, but has not confirmed the attackers’ claims of stolen student and employee data.",
+      "pubDate": "Wed, 11 Nov 2026 18:29:01 GMT",
+      "source": "Malwarebytes",
+      "cat": "malware",
+      "sev": "high",
       "tags": [],
       "iocs": {
         "cves": [],
@@ -2834,13 +2860,13 @@
       "ts": 0
     },
     {
-      "id": "Malwar-f77df614229f",
-      "title": "The fake $750 Apple Cash reward that pays out nothing",
-      "link": "https://www.malwarebytes.com/blog/scams/2026/11/the-fake-750-apple-cash-reward-that-pays-out-nothing",
-      "desc": "A fake $750 Apple Cash offer uses scripted checks and fake countdowns. Affiliate marketers earn a commission; you get no reward.",
-      "pubDate": "Wed, 04 Nov 2026 18:49:13 GMT",
-      "source": "Malwarebytes",
-      "cat": "malware",
+      "id": "SANSI-590d20cccfc1",
+      "title": "Microsoft Patch Tuesday November 2026, (Tue, Nov 10th)",
+      "link": "https://isc.sans.edu/diary/rss/33508",
+      "desc": "Microsoft continues its AI-induced patch surge, addressing 1,260 different vulnerabilities this month. 68 of these vulnerabilities are considered critical. 167 of the vulnerabilities are Chromium issues affecting Microsoft Edge.&#xd;",
+      "pubDate": "Wed, 11 Nov 2026 18:28:43 GMT",
+      "source": "SANS ISC",
+      "cat": "vulns",
       "sev": "medium",
       "tags": [],
       "iocs": {
@@ -2858,25 +2884,6 @@
       "link": "https://isc.sans.edu/diary/rss/33510",
       "desc": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
       "pubDate": "Wed, 11 Nov 2026 02:00:03 GMT",
-      "source": "SANS ISC",
-      "cat": "vulns",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "SANSI-bb524b614447",
-      "title": "Microsoft Patch Tuesday November 2027 , (Tue, Nov 10th)",
-      "link": "https://isc.sans.edu/diary/rss/33508",
-      "desc": "Microsoft continues its AI-induced patch surge, addressing 1,260 different vulnerabilities this month. 68 of these vulnerabilities are considered critical. 167 of the vulnerabilities are Chromium issues affecting Microsoft Edge.&#xd;",
-      "pubDate": "Tue, 10 Nov 2026 19:09:32 GMT",
       "source": "SANS ISC",
       "cat": "vulns",
       "sev": "medium",
@@ -3905,14 +3912,14 @@
       "ts": 0
     },
     {
-      "id": "r/nets-e8500c22d658",
-      "title": "Qlik Sense Servers Hit With PowerShell Reverse Shells; Attacker Server Holds ActiveMQ and Veeam Exploits",
-      "link": "https://www.reddit.com/r/netsec/comments/1xtjslt/qlik_sense_servers_hit_with_powershell_reverse/",
-      "desc": "&#32; submitted by &#32;  /u/Much-Television-9449   [link] &#32; [comments]",
-      "pubDate": "2026-11-11T14:55:07+00:00",
+      "id": "r/nets-ff6846c78e0e",
+      "title": "Hide and Stream: Ambient Aircraft-DopplerGeolocation of Live Audio, and a Defense",
+      "link": "https://www.reddit.com/r/netsec/comments/1xtkb4y/hide_and_stream_ambient/",
+      "desc": "Working draft (potential DEFCON publication). critique welcome  &#32; submitted by &#32;  /u/lymn   [link] &#32; [comments]",
+      "pubDate": "2026-11-11T15:15:12+00:00",
       "source": "r/netsec",
       "cat": "community",
-      "sev": "high",
+      "sev": "medium",
       "tags": [],
       "iocs": {
         "cves": [],
@@ -3924,14 +3931,14 @@
       "ts": 0
     },
     {
-      "id": "r/nets-ff6846c78e0e",
-      "title": "Hide and Stream: Ambient Aircraft-DopplerGeolocation of Live Audio, and a Defense",
-      "link": "https://www.reddit.com/r/netsec/comments/1xtkb4y/hide_and_stream_ambient/",
-      "desc": "Working draft (potential DEFCON publication). critique welcome  &#32; submitted by &#32;  /u/lymn   [link] &#32; [comments]",
-      "pubDate": "2026-11-11T15:15:12+00:00",
+      "id": "r/nets-e8500c22d658",
+      "title": "Qlik Sense Servers Hit With PowerShell Reverse Shells; Attacker Server Holds ActiveMQ and Veeam Exploits",
+      "link": "https://www.reddit.com/r/netsec/comments/1xtjslt/qlik_sense_servers_hit_with_powershell_reverse/",
+      "desc": "&#32; submitted by &#32;  /u/Much-Television-9449   [link] &#32; [comments]",
+      "pubDate": "2026-11-11T14:55:07+00:00",
       "source": "r/netsec",
       "cat": "community",
-      "sev": "medium",
+      "sev": "high",
       "tags": [],
       "iocs": {
         "cves": [],
@@ -3962,14 +3969,14 @@
       "ts": 0
     },
     {
-      "id": "r/nets-957491d5ca57",
-      "title": "Supabase Security findings why RLS is only 25% of the issues",
-      "link": "https://www.reddit.com/r/netsec/comments/1xt0jrg/supabase_security_findings_why_rls_is_only_25_of/",
-      "desc": "&#32; submitted by &#32;  /u/1thirteenthirtyseven   [link] &#32; [comments]",
-      "pubDate": "2026-11-10T22:21:14+00:00",
+      "id": "r/nets-331237567162",
+      "title": "Electron, we have a problem",
+      "link": "https://www.reddit.com/r/netsec/comments/1xskopy/electron_we_have_a_problem/",
+      "desc": "Many Electron apps auto-update without verifying signatures. Many also still trust the compromised eMudhra certificates. Together, that lets an attacker on your network install malware on your machine. I've compiled a list of notable Electron apps, installed them in a lab, and test which still trust the eMudhra certs, compared to whether they verify update signatures. You can find the full table o",
+      "pubDate": "2026-11-10T11:38:05+00:00",
       "source": "r/netsec",
       "cat": "community",
-      "sev": "medium",
+      "sev": "high",
       "tags": [],
       "iocs": {
         "cves": [],
@@ -3981,14 +3988,14 @@
       "ts": 0
     },
     {
-      "id": "r/nets-331237567162",
-      "title": "Electron, we have a problem",
-      "link": "https://www.reddit.com/r/netsec/comments/1xskopy/electron_we_have_a_problem/",
-      "desc": "Many Electron apps auto-update without verifying signatures. Many also still trust the compromised eMudhra certificates. Together, that lets an attacker on your network install malware on your machine. I've compiled a list of notable Electron apps, installed them in a lab, and test which still trust the eMudhra certs, compared to whether they verify update signatures. You can find the full table o",
-      "pubDate": "2026-11-10T11:38:05+00:00",
+      "id": "r/nets-957491d5ca57",
+      "title": "Supabase Security findings why RLS is only 25% of the issues",
+      "link": "https://www.reddit.com/r/netsec/comments/1xt0jrg/supabase_security_findings_why_rls_is_only_25_of/",
+      "desc": "&#32; submitted by &#32;  /u/1thirteenthirtyseven   [link] &#32; [comments]",
+      "pubDate": "2026-11-10T22:21:14+00:00",
       "source": "r/netsec",
       "cat": "community",
-      "sev": "high",
+      "sev": "medium",
       "tags": [],
       "iocs": {
         "cves": [],
