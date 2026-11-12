@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-11T22:57:39.041624+00:00",
-  "sources_ok": 16,
+  "generated_at": "2026-11-12T03:43:38.287210+00:00",
+  "sources_ok": 15,
   "sources_total": 20,
   "source_status": {
     "The Hacker News": {
@@ -16,8 +16,9 @@
       "articles": 10
     },
     "GBHackers": {
-      "ok": true,
-      "articles": 10
+      "ok": false,
+      "articles": 0,
+      "error": "Invalid feed: <unknown>:815:4: mismatched tag"
     },
     "HackRead": {
       "ok": true,
@@ -88,7 +89,7 @@
       "error": "429 Client Error: Too Many Requests for url: https://www.reddit.com/r/blueteamsec/.rss"
     }
   },
-  "total": 205,
+  "total": 195,
   "articles": [
     {
       "id": "TheHa-2add58010387",
@@ -388,18 +389,18 @@
       "sev": "high",
       "tags": [
         {
-          "t": "CVE-2026-105134",
+          "t": "CVE-2026-105133",
           "cls": "cve"
         },
         {
-          "t": "CVE-2026-105133",
+          "t": "CVE-2026-105134",
           "cls": "cve"
         }
       ],
       "iocs": {
         "cves": [
-          "CVE-2026-105134",
-          "CVE-2026-105133"
+          "CVE-2026-105133",
+          "CVE-2026-105134"
         ],
         "ips": [],
         "hashes": []
@@ -793,215 +794,6 @@
           "CVE-2026-20320",
           "CVE-2026-111793"
         ],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "GBHack-23323ebe1a85",
-      "title": "Criminal IP Launches New TI Feed App on Splunkbase for Automated Threat Detection",
-      "link": "https://gbhackers.com/criminal-ip-ti-feed-app-splunkbase/",
-      "desc": "Torrance, USA, November 11th, 2026, CyberNewswire Criminal IP, the AI-powered threat intelligence and attack surface management platform developed by AI SPERA, has launched the Criminal IP TI Feed app for Splunk. Available through Splunkbase, the app automatically correlates Criminal IP threat intelligence with firewall traffic logs collected in Splunk. The integration enables security teams to [&",
-      "pubDate": "Wed, 11 Nov 2026 15:18:09 +0000",
-      "source": "GBHackers",
-      "cat": "threats",
-      "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "GBHack-7ba6cc6375ba",
-      "title": "Fortinet2Shell Vulnerability Lets Hackers Execute Code on FortiClient Systems Through Malicious Websites",
-      "link": "https://gbhackers.com/fortinet2shell-vulnerability/",
-      "desc": "Fortinet has patched a critical flaw in FortiClient that lets attackers run code on a victim&#8217;s computer through a malicious website. The bug is tracked as CVE-2026-121529 (advisory FG-IR-26-194). Researcher Kevin Joensen of Baldur Security reported it and nicknamed it &#8220;Fortinet2Shell.&#8221; Attackers have targeted Fortinet endpoint tools before, as seen in a FortiClient code execution",
-      "pubDate": "Wed, 11 Nov 2026 13:21:13 +0000",
-      "source": "GBHackers",
-      "cat": "threats",
-      "sev": "high",
-      "tags": [
-        {
-          "t": "CVE-2026-121529",
-          "cls": "cve"
-        }
-      ],
-      "iocs": {
-        "cves": [
-          "CVE-2026-121529"
-        ],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "GBHack-990f7dae8390",
-      "title": "N-able Warns of Critical N-central Zero-Day Vulnerability Actively Exploited by Hackers",
-      "link": "https://gbhackers.com/n-able-warns-of-critical-n-central-zero-day-vulnerability/",
-      "desc": "N-able has warned that attackers are actively scanning for vulnerable N-central servers after the publication of proof-of-concept (PoC) code related to critical flaws in its remote monitoring and management (RMM) platform. The company declared a major outage incident on November 9, 2026, and has noted increased scanning activity associated with the released PoC code. This [&#8230;]\nThe post N-able",
-      "pubDate": "Wed, 11 Nov 2026 12:32:40 +0000",
-      "source": "GBHackers",
-      "cat": "threats",
-      "sev": "critical",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "GBHack-72fe008f751e",
-      "title": "BluePhishing Attack Abuses Microsoft Entra OAuth Consent to Create Hidden AI Agent Identities",
-      "link": "https://gbhackers.com/bluephishing-attack/",
-      "desc": "&#8220;BluePhishing,&#8221; a technique that extends OAuth consent phishing to Microsoft Entra&#8217;s AI agent model. The attacker needs only one consent click to create persistent agent identities inside a victim tenant. Proofpoint says this is a research-based proof of concept and it has not identified any in-the-wild activity Microsoft Entra Agent ID extends Entra to AI [&#8230;]\nThe post Blue",
-      "pubDate": "Wed, 11 Nov 2026 12:16:02 +0000",
-      "source": "GBHackers",
-      "cat": "threats",
-      "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "GBHack-7953cb8cb6f4",
-      "title": "Windows Active Directory RCE and DoS Vulnerabilities Put Windows Systems at Risk",
-      "link": "https://gbhackers.com/windows-active-directory-rce-and-dos-vulnerabilities/",
-      "desc": "Microsoft disclosed two Windows Active Directory vulnerabilities on November 10, 2026, exposing affected systems to remote code execution and denial of service. Tracked as CVE-2026-119948 and CVE-2026-105559, both carry an Important severity rating. Their attack vectors require low privileges and no user interaction, highlighting the potential consequences of compromised accounts within enterprise",
-      "pubDate": "Wed, 11 Nov 2026 12:13:44 +0000",
-      "source": "GBHackers",
-      "cat": "threats",
-      "sev": "critical",
-      "tags": [
-        {
-          "t": "CVE-2026-119948",
-          "cls": "cve"
-        },
-        {
-          "t": "CVE-2026-105559",
-          "cls": "cve"
-        }
-      ],
-      "iocs": {
-        "cves": [
-          "CVE-2026-119948",
-          "CVE-2026-105559"
-        ],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "GBHack-92dbe66da6d8",
-      "title": "Researchers Uncover 45 AI Hacking Frameworks, With Hundreds of Attack Consoles Exposed on the Internet",
-      "link": "https://gbhackers.com/45-ai-hacking-frameworks/",
-      "desc": "Researchers have mapped about 45 open-source frameworks that wire a large language model into a loop that runs offensive tools and acts on their output. The catalog follows the takedown of ARTEX, an agentic penetration-testing platform. It shows the risk is spreading well beyond that single project. The takedown did not stop the spread. ARTEX-named [&#8230;]\nThe post Researchers Uncover 45 AI Hack",
-      "pubDate": "Wed, 11 Nov 2026 11:47:59 +0000",
-      "source": "GBHackers",
-      "cat": "threats",
-      "sev": "critical",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "GBHack-7ae10e788739",
-      "title": "Ivanti Patches Critical SQL Injection Flaw Allowing Remote Code Execution Without Login",
-      "link": "https://gbhackers.com/ivanti-patches-critical-sql-injection-flaw/",
-      "desc": "Ivanti has released November 2026 security updates for Endpoint Manager (EPM), Endpoint Manager Mobile (EPMM), Sentry, Cloud Services Application (CSA), and User Workspace Manager (UWM). The flaws expose systems to remote code execution, certificate changes, data theft, and service disruption. Critical EPM and CSA vulnerabilities require immediate attention. Ivanti said the issues came through res",
-      "pubDate": "Wed, 11 Nov 2026 09:36:55 +0000",
-      "source": "GBHackers",
-      "cat": "threats",
-      "sev": "critical",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "GBHack-eb2881f43d24",
-      "title": "Corelight Warns AI Agents Can Silently Run Unreviewed Code With Privileged Access to Enterprise Networks",
-      "link": "https://gbhackers.com/corelight-reveals-ai-security/",
-      "desc": "AI coding assistants can run MCP servers whose dependencies change without any configuration edit, and those servers often hold administrator credentials. The finding comes from a lab investigation that began as a blast-radius analysis using an AI agent. The agent noticed other AI agents on an administrator&#8217;s workstation. Nothing there was compromised, but the setup [&#8230;]\nThe post Coreli",
-      "pubDate": "Wed, 11 Nov 2026 09:29:36 +0000",
-      "source": "GBHackers",
-      "cat": "threats",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "GBHack-a63c4c70bacb",
-      "title": "Notion AI Data Breach Exposes Customer Chat Transcripts After Third-Party Fireworks AI Cyberattack",
-      "link": "https://gbhackers.com/notion-ai-data-breach-exposes-customer-chat-transcripts/",
-      "desc": "Notion has confirmed that a cyberattack against its AI infrastructure provider, Fireworks AI, exposed customer chat transcripts affecting fewer than 1% of Notion workspaces. The company said its own systems were not breached and no other Notion features were affected. Impacted customers received notifications on November 9, 2026, while the investigation remains ongoing. The incident [&#8230;]\nThe ",
-      "pubDate": "Wed, 11 Nov 2026 09:27:03 +0000",
-      "source": "GBHackers",
-      "cat": "breaches",
-      "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "GBHack-b0f4f5e6e3e3",
-      "title": "Railway Security Breach Exposes Customer API Keys, Database Passwords and Cloud Secrets",
-      "link": "https://gbhackers.com/railway-security-breach-exposes-customer-api-keys/",
-      "desc": "Railway has reported a security incident after noticing unusual activity in systems that store customer environment variables. An unauthorized third party may have accessed encrypted variables and obtained decrypted content for some values, potentially exposing API keys, database passwords, and private registry credentials. The platform is urging all customers to rotate their stored secrets, even ",
-      "pubDate": "Wed, 11 Nov 2026 08:28:16 +0000",
-      "source": "GBHackers",
-      "cat": "breaches",
-      "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
         "ips": [],
         "hashes": []
       },
@@ -2252,6 +2044,25 @@
       "ts": 0
     },
     {
+      "id": "Sophos-f0474c34e2f7",
+      "title": "Malicious ScreenConnect deployments observed",
+      "link": "https://www.sophos.com/en-us/blog/malicious-screenconnect-deployments-observed",
+      "desc": "Categories: Threat ResearchTags: advisory, connectwise, ScreenConnect",
+      "pubDate": "Wed, 11 Nov 2026 00:00:00 GMT",
+      "source": "Sophos Research",
+      "cat": "malware",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
       "id": "Sophos-a02753839903",
       "title": "N-able issues advisory on critical vulnerabilities",
       "link": "https://www.sophos.com/en-us/blog/n-able-issues-advisory-on-critical-vulnerabilities",
@@ -2364,18 +2175,18 @@
       "sev": "high",
       "tags": [
         {
-          "t": "CVE-2026-109618",
+          "t": "CVE-2026-109619",
           "cls": "cve"
         },
         {
-          "t": "CVE-2026-109619",
+          "t": "CVE-2026-109618",
           "cls": "cve"
         }
       ],
       "iocs": {
         "cves": [
-          "CVE-2026-109618",
-          "CVE-2026-109619"
+          "CVE-2026-109619",
+          "CVE-2026-109618"
         ],
         "ips": [],
         "hashes": []
@@ -2516,18 +2327,18 @@
       "sev": "high",
       "tags": [
         {
-          "t": "CVE-2026-88772",
+          "t": "CVE-2026-88771",
           "cls": "cve"
         },
         {
-          "t": "CVE-2026-88771",
+          "t": "CVE-2026-88772",
           "cls": "cve"
         }
       ],
       "iocs": {
         "cves": [
-          "CVE-2026-88772",
-          "CVE-2026-88771"
+          "CVE-2026-88771",
+          "CVE-2026-88772"
         ],
         "ips": [],
         "hashes": []
@@ -2545,25 +2356,6 @@
       "source": "Sophos Research",
       "cat": "malware",
       "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "Sophos-dc4b186ffd7d",
-      "title": "September Patch Tuesday haul includes 973 CVEs",
-      "link": "https://www.sophos.com/en-us/blog/september-2026-patch-tuesday",
-      "desc": "&lt;p&gt;Windows takes 718 fixes… but what if it was actually a slow month?&lt;/p&gt;Categories: Threat ResearchTags: Patch Tuesday, x-ops, Threat Research",
-      "pubDate": "Wed, 16 Sep 2026 00:00:00 GMT",
-      "source": "Sophos Research",
-      "cat": "malware",
-      "sev": "medium",
       "tags": [],
       "iocs": {
         "cves": [],
@@ -2860,6 +2652,25 @@
       "ts": 0
     },
     {
+      "id": "SANSI-1a2c0cad8552",
+      "title": "ISC Stormcast For Thursday, November 12th, 2026 https://isc.sans.edu/podcastdetail/10176, (Thu, Nov 12th)",
+      "link": "https://isc.sans.edu/diary/rss/33512",
+      "desc": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
+      "pubDate": "Thu, 12 Nov 2026 02:00:03 GMT",
+      "source": "SANS ISC",
+      "cat": "vulns",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
       "id": "SANSI-590d20cccfc1",
       "title": "Microsoft Patch Tuesday November 2026, (Tue, Nov 10th)",
       "link": "https://isc.sans.edu/diary/rss/33508",
@@ -3037,25 +2848,6 @@
         "cves": [
           "CVE-2023-20198"
         ],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "SANSI-a0f4b2c57dfe",
-      "title": "ISC Stormcast For Thursday, November 5th, 2026 https://isc.sans.edu/podcastdetail/10166, (Thu, Nov 5th)",
-      "link": "https://isc.sans.edu/diary/rss/33490",
-      "desc": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
-      "pubDate": "Thu, 05 Nov 2026 11:25:11 GMT",
-      "source": "SANS ISC",
-      "cat": "vulns",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
         "ips": [],
         "hashes": []
       },
@@ -3416,18 +3208,18 @@
       "sev": "high",
       "tags": [
         {
-          "t": "CVE-2026-109618",
+          "t": "CVE-2026-109619",
           "cls": "cve"
         },
         {
-          "t": "CVE-2026-109619",
+          "t": "CVE-2026-109618",
           "cls": "cve"
         }
       ],
       "iocs": {
         "cves": [
-          "CVE-2026-109618",
-          "CVE-2026-109619"
+          "CVE-2026-109619",
+          "CVE-2026-109618"
         ],
         "ips": [],
         "hashes": []
@@ -3893,6 +3685,25 @@
       "ts": 0
     },
     {
+      "id": "r/nets-d307531cbfa9",
+      "title": "History of Password Cracking",
+      "link": "https://www.reddit.com/r/netsec/comments/1xtz6sk/history_of_password_cracking/",
+      "desc": "&#32; submitted by &#32;  /u/netmux   [link] &#32; [comments]",
+      "pubDate": "2026-11-12T01:02:04+00:00",
+      "source": "r/netsec",
+      "cat": "community",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
       "id": "r/nets-4c32fb4c5cce",
       "title": "ScriptBlock Smuggling - AMSI Evasion",
       "link": "https://www.reddit.com/r/netsec/comments/1xtj92s/scriptblock_smuggling_amsi_evasion/",
@@ -4091,25 +3902,6 @@
       "source": "r/netsec",
       "cat": "community",
       "sev": "critical",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "r/nets-f55968c7ece5",
-      "title": "I spent countless nights digging into PHP2Shell. Here's a deep dive into how it actually works, from memory to PHP internals to a real exploit.",
-      "link": "https://www.reddit.com/r/netsec/comments/1xqlw37/i_spent_countless_nights_digging_into_php2shell/",
-      "desc": "When the PHP vulnerabilities were first announced, I spent a HUGE amount of time trying to figure out the logic behind them. As many others who tried investigating them probably noticed, there was barely any technical information available at the time. We had a few basic hints: something related to PHP_SESSION_UPLOAD_PROGRESS, some kind of Out of Memory condition, and, of course, that video Calif ",
-      "pubDate": "2026-11-08T01:00:49+00:00",
-      "source": "r/netsec",
-      "cat": "community",
-      "sev": "high",
       "tags": [],
       "iocs": {
         "cves": [],
