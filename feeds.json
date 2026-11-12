@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-12T03:43:38.287210+00:00",
-  "sources_ok": 15,
+  "generated_at": "2026-11-12T12:19:15.363449+00:00",
+  "sources_ok": 16,
   "sources_total": 20,
   "source_status": {
     "The Hacker News": {
@@ -16,9 +16,8 @@
       "articles": 10
     },
     "GBHackers": {
-      "ok": false,
-      "articles": 0,
-      "error": "Invalid feed: <unknown>:815:4: mismatched tag"
+      "ok": true,
+      "articles": 10
     },
     "HackRead": {
       "ok": true,
@@ -89,8 +88,117 @@
       "error": "429 Client Error: Too Many Requests for url: https://www.reddit.com/r/blueteamsec/.rss"
     }
   },
-  "total": 195,
+  "total": 205,
   "articles": [
+    {
+      "id": "TheHa-2239792c9ebc",
+      "title": "Critical Pre-Auth MongoDB Flaw (CVE-2026-118383) Can Crash Lagging Servers on Failover",
+      "link": "https://thehackernews.com/2026/11/critical-pre-auth-mongodb-flaw-cve-2026.html",
+      "desc": "A critical flaw in MongoDB Server allows an unauthenticated attacker to send two requests that trigger a crash on the database server. The crash occurs only if that server is later chosen to take over as the main server while it still lacks some recent changes.\n\nMongoDB, the company that makes the database, released fixed versions earlier this week.\n\nThe affected servers are members of a replica",
+      "pubDate": "Thu, 12 Nov 2026 14:55:00 +0530",
+      "source": "The Hacker News",
+      "cat": "threats",
+      "sev": "high",
+      "tags": [
+        {
+          "t": "CVE-2026-118383",
+          "cls": "cve"
+        }
+      ],
+      "iocs": {
+        "cves": [
+          "CVE-2026-118383"
+        ],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "TheHa-a89a4bb20e64",
+      "title": "Node.js Fixes 16 Flaws, Including HTTP/2 Bugs That Crash Servers and Leak Other Connections' Data",
+      "link": "https://thehackernews.com/2026/11/nodejs-fixes-16-flaws-including-http2.html",
+      "desc": "A flaw fixed in Node.js this week lets unauthenticated clients crash servers that use the runtime's built-in HTTP/2 support on the 24.x and 26.x release lines. A second HTTP/2 flaw can cause a server to send a client pieces of its memory, including responses intended for other connections.\n\nFixed versions were released for all three supported lines: 22.23.5, 24.22.3, and 26.13.1.\n\nThe crash",
+      "pubDate": "Thu, 12 Nov 2026 13:50:37 +0530",
+      "source": "The Hacker News",
+      "cat": "breaches",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "TheHa-90de4e168e78",
+      "title": "Attacker Used 4,837 Hijacked GitHub Accounts to Run a CI Secret Stealer in 1,806+ Repositories",
+      "link": "https://thehackernews.com/2026/11/4837-hijacked-github-accounts-ran-ci.html",
+      "desc": "Starting Tuesday, an attacker used stolen credentials for 4,837 GitHub accounts to plant a secret stealer in repositories those accounts could write to, according to Aikido Security, a security software company.\n\nThe stealer is built to take the secrets and cloud credentials that a repository's CI workflows can reach. It ran in at least 1,806 repositories, where the attacker has likely collected",
+      "pubDate": "Thu, 12 Nov 2026 12:12:47 +0530",
+      "source": "The Hacker News",
+      "cat": "threats",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "TheHa-4046a9e60ac2",
+      "title": "Critical Apache HTTP/2 Flaw Could Let Unauthenticated Attackers Execute Code Remotely",
+      "link": "https://thehackernews.com/2026/11/critical-apache-http2-flaw-could-let.html",
+      "desc": "A critical flaw in Apache HTTP Server's HTTP/2 module, mod_http2, can let a remote attacker run code on the server. Tracked as CVE-2026-119618, it affects versions 2.4.55 through 2.4.70 and is fixed in version 2.4.71, released yesterday.\n\nOnly servers with HTTP/2 enabled are affected, according to Red Hat, which ships the server as part of Red Hat Enterprise Linux.\n\nAn attacker who can reach the",
+      "pubDate": "Thu, 12 Nov 2026 10:42:26 +0530",
+      "source": "The Hacker News",
+      "cat": "threats",
+      "sev": "high",
+      "tags": [
+        {
+          "t": "CVE-2026-119618",
+          "cls": "cve"
+        }
+      ],
+      "iocs": {
+        "cves": [
+          "CVE-2026-119618"
+        ],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "TheHa-64a2b77131b0",
+      "title": "ScreenConnect Attacks Target at Least 288 Endpoints Across 48 Organizations With Rogue Clients",
+      "link": "https://thehackernews.com/2026/11/screenconnect-attacks-target-at-least.html",
+      "desc": "ConnectWise has taken the precautionary step of disabling five third-party extensions in partner environments following reports of unauthorized access.\n\nIn an advisory posted on its site, the company said there is no evidence that the incident involves a compromise of its infrastructure or a vulnerability in the ScreenConnect software.\n\n\"Our initial assessment suggests the activity may involve",
+      "pubDate": "Thu, 12 Nov 2026 10:09:48 +0530",
+      "source": "The Hacker News",
+      "cat": "threats",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
     {
       "id": "TheHa-2add58010387",
       "title": "Critical Zoom Workplace Flaw Could Allow Unauthenticated Remote Privilege Escalation",
@@ -296,120 +404,6 @@
       "ts": 0
     },
     {
-      "id": "TheHa-2a2812311759",
-      "title": "Git Patches Flaw That Lets Malicious Repositories Execute Code During Recursive Clones",
-      "link": "https://thehackernews.com/2026/11/git-patches-flaw-that-lets-malicious.html",
-      "desc": "A flaw in Git can let a malicious repository run an attacker's code on a computer that clones it recursively, together with its submodules. The Git project fixed it this week in Git 2.56.1, with matching fixes for the 2.50 through 2.55 series in 2.50.2, 2.51.3, 2.52.1, 2.53.1, 2.54.1 and 2.55.1.\n\nThe flaw, tracked as CVE-2026-111760, is an integer truncation in how Git handles its index. An",
-      "pubDate": "Wed, 11 Nov 2026 00:53:10 +0530",
-      "source": "The Hacker News",
-      "cat": "threats",
-      "sev": "high",
-      "tags": [
-        {
-          "t": "CVE-2026-111760",
-          "cls": "cve"
-        }
-      ],
-      "iocs": {
-        "cves": [
-          "CVE-2026-111760"
-        ],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "TheHa-bbc2907efe31",
-      "title": "SGLang RCE Exploit Breaches NEAR AI, Steals Data From 18 Agents and About 100 Users",
-      "link": "https://thehackernews.com/2026/11/sglang-rce-exploit-breaches-near-ai.html",
-      "desc": "An attacker exploited a remote code execution flaw in SGLang, an open-source inference engine, and ran code on one of NEAR AI's inference servers last Sunday.\n\nThe attacker could also have seen requests being processed on that server that day, including requests sent in confidential mode, the company said earlier this week. That mode processes requests inside a trusted execution environment (TEE",
-      "pubDate": "Wed, 11 Nov 2026 00:49:39 +0530",
-      "source": "The Hacker News",
-      "cat": "breaches",
-      "sev": "critical",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "TheHa-d4e246827284",
-      "title": "Hackers Exploit Critical Xen Orchestra Auth Bypass Flaw to Gain Admin Access",
-      "link": "https://thehackernews.com/2026/11/hackers-exploit-critical-xen-orchestra.html",
-      "desc": "French software company Vates VMS has warned of a critical security vulnerability in Xen Orchestra that it said is being actively exploited in the wild.\n\nThe authentication bypass flaw, which does not yet have a CVE identifier, is tracked as VSA-2026-062.\n\n\"REST cookie parsing turns authenticationToken=j:%7B%7D into {},\" Vates VMS said in an alert. \"REST authentication passes that object to the",
-      "pubDate": "Tue, 10 Nov 2026 23:42:21 +0530",
-      "source": "The Hacker News",
-      "cat": "threats",
-      "sev": "critical",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "TheHa-138e4e9f5f41",
-      "title": "Three China-Nexus Espionage Campaigns Linked Through Sparrow Malware Ecosystem",
-      "link": "https://thehackernews.com/2026/11/three-china-nexus-espionage-campaigns.html",
-      "desc": "Three distinct threat activity clusters with shared infrastructure and malware code similarities have been observed targeting telecommunications providers, government organizations, military entities, research institutions, and critical infrastructure across Latin America, Asia, and Europe over the past year.\n\nCheck Point Research is tracking the clusters under the names SilentDelivery,",
-      "pubDate": "Tue, 10 Nov 2026 23:13:23 +0530",
-      "source": "The Hacker News",
-      "cat": "malware",
-      "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "TheHa-1828230c191f",
-      "title": "Attackers Exploit AhsayCBS Flaws to Deploy Sandbox-Evading Python Backdoor",
-      "link": "https://thehackernews.com/2026/11/attackers-exploit-ahsaycbs-flaws-to.html",
-      "desc": "Cybersecurity researchers have disclosed details of an attack that exploited two now-patched vulnerabilities in AhsayCBS to deliver a Python-based implant.\n\nThe activity, observed by Huntress in early October 2026, involves the exploitation of a chain comprising CVE-2026-105133 and CVE-2026-105134 to bypass authentication and execute arbitrary commands on affected systems. Patches for the two",
-      "pubDate": "Tue, 10 Nov 2026 21:30:55 +0530",
-      "source": "The Hacker News",
-      "cat": "threats",
-      "sev": "high",
-      "tags": [
-        {
-          "t": "CVE-2026-105133",
-          "cls": "cve"
-        },
-        {
-          "t": "CVE-2026-105134",
-          "cls": "cve"
-        }
-      ],
-      "iocs": {
-        "cves": [
-          "CVE-2026-105133",
-          "CVE-2026-105134"
-        ],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
       "id": "Krebs-f0ea36af7be1",
       "title": "Who Runs the Ransomware Group Qilin?",
       "link": "https://krebsonsecurity.com/2026/11/who-runs-the-ransomware-group-qilin/",
@@ -600,6 +594,101 @@
       "ts": 0
     },
     {
+      "id": "Securi-12e93ea595b3",
+      "title": "Notion Customer Data Compromised in Fireworks AI Hack",
+      "link": "https://www.securityweek.com/notion-customer-data-compromised-in-fireworks-ai-hack/",
+      "desc": "The attackers accessed chat transcripts for fewer than 1% of Notion workspaces. Most transcripts were unattributable.\nThe post Notion Customer Data Compromised in Fireworks AI Hack appeared first on SecurityWeek.",
+      "pubDate": "Thu, 12 Nov 2026 11:08:52 +0000",
+      "source": "SecurityWeek",
+      "cat": "threats",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "Securi-b77235072c32",
+      "title": "Hackers Deploy Malware in Fresh ScreenConnect Campaign",
+      "link": "https://www.securityweek.com/hackers-deploy-malware-in-fresh-screenconnect-campaign/",
+      "desc": "The attackers exploited a vulnerability in a legitimate extension to bypass ScreenConnect authentication.\nThe post Hackers Deploy Malware in Fresh ScreenConnect Campaign appeared first on SecurityWeek.",
+      "pubDate": "Thu, 12 Nov 2026 10:39:34 +0000",
+      "source": "SecurityWeek",
+      "cat": "malware",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "Securi-ad414f0d8d55",
+      "title": "Hackers Target N-central Zero-Days as N-able Rushes Patches",
+      "link": "https://www.securityweek.com/hackers-target-n-central-zero-days-as-n-able-rushes-patches/",
+      "desc": "The malicious activity started shortly after a researcher dropped over 30 zero-days. N-able patched the unauthenticated ones.\nThe post Hackers Target N-central Zero-Days as N-able Rushes Patches  appeared first on SecurityWeek.",
+      "pubDate": "Thu, 12 Nov 2026 09:39:55 +0000",
+      "source": "SecurityWeek",
+      "cat": "threats",
+      "sev": "critical",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "Securi-4f2adc315a1c",
+      "title": "Critical Red Hat Quay Vulnerability Could Expose Private Container Images",
+      "link": "https://www.securityweek.com/critical-red-hat-quay-vulnerability-could-expose-private-container-images/",
+      "desc": "Attackers could exploit a critical Red Hat Quay flaw to steal private container images, overwrite repositories and maintain persistent access.\nThe post Critical Red Hat Quay Vulnerability Could Expose Private Container Images appeared first on SecurityWeek.",
+      "pubDate": "Thu, 12 Nov 2026 09:23:21 +0000",
+      "source": "SecurityWeek",
+      "cat": "threats",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "Securi-41ed1fee4bc9",
+      "title": "Maersk Confirms Data Theft Amid $5 Million Extortion Attempt",
+      "link": "https://www.securityweek.com/maersk-confirms-data-theft-amid-5-million-extortion-attempt/",
+      "desc": "The WhiteArmor ransomware group claims it stole 100GB of data from the shipping giant’s systems.\nThe post Maersk Confirms Data Theft Amid $5 Million Extortion Attempt appeared first on SecurityWeek.",
+      "pubDate": "Thu, 12 Nov 2026 08:38:47 +0000",
+      "source": "SecurityWeek",
+      "cat": "malware",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
       "id": "Securi-650623772dc2",
       "title": "Today: CISO Forum Virtual Summit 2026 Day 2 – Join Cybersecurity Leaders Online",
       "link": "https://www.securityweek.com/today-ciso-forum-virtual-summit-2026-join-global-cybersecurity-leaders/",
@@ -695,105 +784,228 @@
       "ts": 0
     },
     {
-      "id": "Securi-89f206583e70",
-      "title": "Fortinet Patches Nearly 100 Vulnerabilities",
-      "link": "https://www.securityweek.com/fortinet-patches-nearly-100-vulnerabilities/",
-      "desc": "The massive drop comes after the company integrated frontier AI models into its product security testing.\nThe post Fortinet Patches Nearly 100 Vulnerabilities appeared first on SecurityWeek.",
-      "pubDate": "Wed, 11 Nov 2026 12:10:14 +0000",
-      "source": "SecurityWeek",
+      "id": "GBHack-5ac4583db473",
+      "title": "PoC Exploit Released for Critical Cisco Expressway RCE Vulnerability With CVSS 9.8 Score",
+      "link": "https://gbhackers.com/poc-exploit-released-for-critical-cisco-expressway-rce/",
+      "desc": "A public proof-of-concept exploit is now available for CVE-2026-76466, a critical flaw in Cisco Expressway that lets an unauthenticated attacker run commands as root. Cisco published its advisory on October 21, 2026, and the flaw carries a CVSS score of 9.8. Researcher Nicolas Krassas (dinosn) posted the exploit and a fleet detector on GitHub. That [&#8230;]\nThe post PoC Exploit Released for Criti",
+      "pubDate": "Thu, 12 Nov 2026 10:53:36 +0000",
+      "source": "GBHackers",
       "cat": "threats",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "Securi-50235505cb8f",
-      "title": "Bay Raises $50 Million to Control What Enterprise AI Agents Can Do",
-      "link": "https://www.securityweek.com/bay-raises-50-million-to-control-what-enterprise-ai-agents-can-do/",
-      "desc": "Founded by three ex-IDF Unit 8200 intelligence officers, Bay is launched to provide a control plane for AI agents.\nThe post Bay Raises $50 Million to Control What Enterprise AI Agents Can Do appeared first on SecurityWeek.",
-      "pubDate": "Wed, 11 Nov 2026 11:30:00 +0000",
-      "source": "SecurityWeek",
-      "cat": "threats",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "Securi-574b7d35eaf4",
-      "title": "Dreeze Emerges From Stealth With $33M to Rebuild Cloud Apps After Cyberattacks",
-      "link": "https://www.securityweek.com/dreeze-emerges-from-stealth-with-33m-to-rebuild-cloud-apps-after-cyberattacks/",
-      "desc": "Created by Zerto and Kashya veterans, the startup has launched a platform designed to recover whole cloud applications. \nThe post Dreeze Emerges From Stealth With $33M to Rebuild Cloud Apps After Cyberattacks appeared first on SecurityWeek.",
-      "pubDate": "Wed, 11 Nov 2026 11:16:40 +0000",
-      "source": "SecurityWeek",
-      "cat": "threats",
-      "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "Securi-0407d169db99",
-      "title": "ICS Patch Tuesday: Siemens Flags High-Severity Flaws, Node2Shell Exposure",
-      "link": "https://www.securityweek.com/ics-patch-tuesday-siemens-flags-high-severity-flaws-node2shell-exposure/",
-      "desc": "Pre-Patch Tuesday advisories were published by VDE CERT, Phoenix Contact, Johnson Controls, and Hitachi Energy. \nThe post ICS Patch Tuesday: Siemens Flags High-Severity Flaws, Node2Shell Exposure appeared first on SecurityWeek.",
-      "pubDate": "Wed, 11 Nov 2026 10:35:15 +0000",
-      "source": "SecurityWeek",
-      "cat": "threats",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "Securi-174df4daf165",
-      "title": "Threat Actors Exploit Openwave, Cisco BroadWorks Vulnerabilities",
-      "link": "https://www.securityweek.com/threat-actors-exploit-openwave-cisco-broadworks-vulnerabilities/",
-      "desc": "The flaws, CVE-2026-111793 and CVE-2026-20320, let attackers leak sensitive information, including configuration data.\nThe post Threat Actors Exploit Openwave, Cisco BroadWorks Vulnerabilities appeared first on SecurityWeek.",
-      "pubDate": "Wed, 11 Nov 2026 09:01:07 +0000",
-      "source": "SecurityWeek",
-      "cat": "breaches",
-      "sev": "high",
+      "sev": "critical",
       "tags": [
         {
-          "t": "CVE-2026-20320",
-          "cls": "cve"
-        },
-        {
-          "t": "CVE-2026-111793",
+          "t": "CVE-2026-76466",
           "cls": "cve"
         }
       ],
       "iocs": {
         "cves": [
-          "CVE-2026-20320",
-          "CVE-2026-111793"
+          "CVE-2026-76466"
         ],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "GBHack-bb67ab86a530",
+      "title": "Palo Alto Networks Patches PAN-OS Vulnerability Allowing Remote Code Execution With Root Privileges",
+      "link": "https://gbhackers.com/palo-alto-networks-patches-pan-os-vulnerability/",
+      "desc": "Palo Alto Networks has released fixes for CVE-2026-0330, a remote code execution vulnerability affecting PAN-OS software running on Panorama. The flaw allows an authenticated administrator with network access to execute arbitrary code with root privileges, according to the company’s security advisory, published November 11, 2026. The vendor classifies the issue as medium severity with moderate [&#",
+      "pubDate": "Thu, 12 Nov 2026 10:34:34 +0000",
+      "source": "GBHackers",
+      "cat": "threats",
+      "sev": "critical",
+      "tags": [
+        {
+          "t": "CVE-2026-0330",
+          "cls": "cve"
+        }
+      ],
+      "iocs": {
+        "cves": [
+          "CVE-2026-0330"
+        ],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "GBHack-6fd64b13dcd0",
+      "title": "Qilin Ransomware Gang Leader Allegedly Identified as 36-Year-Old Russian Man",
+      "link": "https://gbhackers.com/qilin-ransomware-gang-leader/",
+      "desc": "The administrator of the Qilin ransomware operation has allegedly been identified as Aleksey Mikhailovich Yakovtsev, a 36-year-old St. Petersburg resident. A KrebsOnSecurity investigation published November 11 connects the underground identity “Haise” to Yakovtsev through historical forum accounts, Telegram identifiers, and breached records. The attribution remains an allegation. Qilin Ransomware ",
+      "pubDate": "Thu, 12 Nov 2026 10:12:04 +0000",
+      "source": "GBHackers",
+      "cat": "breaches",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "GBHack-337192b716fb",
+      "title": "12 Adversarial Exposure Validation Tools: The 2026 Buyer’s Verdict Guide",
+      "link": "https://gbhackers.com/adversarial-exposure-validation-tools/",
+      "desc": "Adversarial exposure validation (AEV) is the label the market settled on for the merged territory of breach-and-attack simulation, autonomous penetration testing, and automated red teaming three lanes that always answered the same buyer question with different risk appetites. The purchase goes wrong when a change-averse estate adopts a live-testing engine it cannot govern, or a [&#8230;]\nThe post ",
+      "pubDate": "Thu, 12 Nov 2026 09:25:00 +0000",
+      "source": "GBHackers",
+      "cat": "breaches",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "GBHack-4660f377f864",
+      "title": "Microsoft Finds Hackers Using GSocket to Hide Linux Backdoors as Legitimate System Processes",
+      "link": "https://gbhackers.com/gsocket-based-linux-attacks/",
+      "desc": "Attackers deployed GSocket on compromised Linux servers, disguised its processes as legitimate system components, and retained access after administrators patched the original vulnerabilities. In its November 11 report, Microsoft described unrelated threat actors abusing the open source remote access tool rather than maintaining dedicated command-and-control infrastructure. Defender for Endpoint t",
+      "pubDate": "Thu, 12 Nov 2026 08:13:07 +0000",
+      "source": "GBHackers",
+      "cat": "threats",
+      "sev": "critical",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "GBHack-6ecde11ded73",
+      "title": "Shipping Giant Maersk Confirms Data Breach Following Unauthorized Access to IT Systems",
+      "link": "https://gbhackers.com/shipping-giant-maersk-confirms-data-breach/",
+      "desc": "A.P. Moller–Maersk has confirmed unauthorized access and data extraction affecting a local legacy IT system inherited through a previous acquisition. In its November 11 security advisory, the shipping company said investigators currently believe no sensitive information was disclosed, while emphasizing that its investigation remains ongoing. Maersk Data Breach The disclosure indicates that informa",
+      "pubDate": "Thu, 12 Nov 2026 06:50:29 +0000",
+      "source": "GBHackers",
+      "cat": "breaches",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "GBHack-6e397694bcca",
+      "title": "New Windows SignDrop Zero-Day Exploit Allows Attackers to Gain SYSTEM Privileges",
+      "link": "https://gbhackers.com/new-windows-signdrop-zero-day/",
+      "desc": "A researcher known as MSNightmare, also called Chaotic Eclipse, has published a working proof of concept for an unpatched Windows zero-day dubbed SignDrop. The exploit turns a standard user account into NT AUTHORITY\\SYSTEM by abusing the Common Log File System (CLFS) driver, clfs.sys. It was released on GitHub on November 10, the same day as [&#8230;]\nThe post New Windows SignDrop Zero-Day Exploit",
+      "pubDate": "Thu, 12 Nov 2026 06:41:09 +0000",
+      "source": "GBHackers",
+      "cat": "threats",
+      "sev": "critical",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "GBHack-ba577078a24e",
+      "title": "Hackers Compromise Nearly 5,000 GitHub Accounts to Steal Secrets From Software Development Pipelines",
+      "link": "https://gbhackers.com/github-accounts-compromised/",
+      "desc": "Attackers used stolen GitHub credentials belonging to 4,837 accounts to probe 61,764 repositories in a campaign targeting software development secrets and cloud access. Beginning November 10, the operation injected malicious workflows into accessible repositories, with evidence of credential exfiltration from at least 1,806 repositories. At least 50 compromised users publish packages across npm, G",
+      "pubDate": "Thu, 12 Nov 2026 06:37:27 +0000",
+      "source": "GBHackers",
+      "cat": "threats",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "GBHack-175e403b6a03",
+      "title": "Microsoft AI Exposes 21-Year-Old Linux Kernel Bug Among 59 Security Issues Reported to Maintainers",
+      "link": "https://gbhackers.com/linux-kernel-flaws/",
+      "desc": "AI-driven scanning system, codenamed MDASH, to find 59 security issues in the Linux kernel. One of them, a cls_u32 shift-out-of-bounds flaw tracked as CVE-2026-74544, had gone unnoticed for at least 21 years. One full-time researcher and one intern scanned selected kernel subsystems, including networking, filesystems and security modules, from late May to mid-June 2026. The [&#8230;]\nThe post Micr",
+      "pubDate": "Thu, 12 Nov 2026 05:50:53 +0000",
+      "source": "GBHackers",
+      "cat": "threats",
+      "sev": "high",
+      "tags": [
+        {
+          "t": "CVE-2026-74544",
+          "cls": "cve"
+        }
+      ],
+      "iocs": {
+        "cves": [
+          "CVE-2026-74544"
+        ],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "GBHack-351907964ecf",
+      "title": "Apache HTTP Server Patches Critical RCE Vulnerability Allowing Attackers to Execute Remote Code",
+      "link": "https://gbhackers.com/apache-http-server-patches-critical-rce-vulnerability/",
+      "desc": "Apache has released HTTP Server 2.4.71 to address three security vulnerabilities, including a critical memory corruption flaw that could enable remote code execution. Released on November 11, 2026, the update fixes weaknesses in mod_http2, mod_md, and mod_vhost_alias, rated critical, important, and low severity, respectively. The release follows earlier Apache HTTP Server security updates that add",
+      "pubDate": "Thu, 12 Nov 2026 05:50:37 +0000",
+      "source": "GBHackers",
+      "cat": "threats",
+      "sev": "critical",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "HackRe-8df452d49b33",
+      "title": "GhostMap Android Flaw Can Leave Phones Stuck in Crash Loop",
+      "link": "https://hackread.com/ghostmap-android-flaw-phones-stuck-crash-loop/",
+      "desc": "An Android security flaw could turn a seemingly ordinary app installation into a serious recovery problem, with some&#8230;",
+      "pubDate": "Thu, 12 Nov 2026 07:33:29 +0000",
+      "source": "HackRead",
+      "cat": "threats",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
         "ips": [],
         "hashes": []
       },
@@ -959,25 +1171,6 @@
       "link": "https://hackread.com/offsec-celebrates-20-years-of-practitioner-built-training-from-the-creators-of-kali-linux-and-oscp/",
       "desc": "New York, USA, 10th November 2026, CyberNewswire",
       "pubDate": "Tue, 10 Nov 2026 12:00:05 +0000",
-      "source": "HackRead",
-      "cat": "threats",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "HackRe-6293298a69d4",
-      "title": "Finite State Raises $27 Million to Help Device Makers Fight ‘Vulnpocalypse’ with AI-Powered Product Security",
-      "link": "https://hackread.com/finite-state-raises-27-million-to-help-device-makers-fight-vulnpocalypse-with-ai-powered-product-security/",
-      "desc": "Columbus, Ohio, United States, 10th November 2026, CyberNewswire",
-      "pubDate": "Tue, 10 Nov 2026 11:00:06 +0000",
       "source": "HackRead",
       "cat": "threats",
       "sev": "medium",
@@ -2175,18 +2368,18 @@
       "sev": "high",
       "tags": [
         {
-          "t": "CVE-2026-109619",
+          "t": "CVE-2026-109618",
           "cls": "cve"
         },
         {
-          "t": "CVE-2026-109618",
+          "t": "CVE-2026-109619",
           "cls": "cve"
         }
       ],
       "iocs": {
         "cves": [
-          "CVE-2026-109619",
-          "CVE-2026-109618"
+          "CVE-2026-109618",
+          "CVE-2026-109619"
         ],
         "ips": [],
         "hashes": []
@@ -2356,6 +2549,44 @@
       "source": "Sophos Research",
       "cat": "malware",
       "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "Malwar-8fd6910ba8b9",
+      "title": "Why scammers want you to allow push notifications",
+      "link": "https://www.malwarebytes.com/blog/mobile/2026/11/why-scammers-want-you-to-allow-notifications",
+      "desc": "Browser push notifications are a common nuisance, and they can make people think their device is infected with adware.",
+      "pubDate": "Thu, 12 Nov 2026 10:52:57 GMT",
+      "source": "Malwarebytes",
+      "cat": "malware",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "Malwar-c959dc80187f",
+      "title": "FBI agent stole $2.47m in crypto from criminal wallets",
+      "link": "https://www.malwarebytes.com/blog/news/2026/11/fbi-agent-stole-2-47m-in-crypto-from-criminal-wallets",
+      "desc": "A former FBI supervisor memorized cryptocurrency wallet recovery phrases to steal millions, then confessed because it was “eating him up inside.”",
+      "pubDate": "Thu, 12 Nov 2026 09:03:03 GMT",
+      "source": "Malwarebytes",
+      "cat": "malware",
+      "sev": "medium",
       "tags": [],
       "iocs": {
         "cves": [],
@@ -2614,36 +2845,24 @@
       "ts": 0
     },
     {
-      "id": "Malwar-371112047c3b",
-      "title": "Scammers use AI-generated images of missing pets to extort owners",
-      "link": "https://www.malwarebytes.com/blog/ai/2026/11/scammers-use-ai-generated-images-of-missing-pets-to-extort-owners",
-      "desc": "Scammers are using AI images to enhance their \"I've found your missing pet and want money to return it to you\" schemes.",
-      "pubDate": "Thu, 05 Nov 2026 21:34:14 GMT",
-      "source": "Malwarebytes",
-      "cat": "malware",
-      "sev": "medium",
-      "tags": [],
+      "id": "SANSI-a173f06f95ab",
+      "title": "Exploit Attempts for GPUStack Authentication Bypass (CVE-2026-102895), (Thu, Nov 12th)",
+      "link": "https://isc.sans.edu/diary/rss/33514",
+      "desc": "CVE-2026-102895 is a trivial authentication-bypass vulnerability. GPUStack is also an attractive target. It is open-source software that manages clusters of GPUs, which are typically used to run AI workloads. All versions of GPUStack prior to 2.2.0, which was released at the end of June. This vulnerability was not made public until the end of July, and the CVE was assigned on November 4th. &#xd;",
+      "pubDate": "Thu, 12 Nov 2026 11:56:24 GMT",
+      "source": "SANS ISC",
+      "cat": "vulns",
+      "sev": "critical",
+      "tags": [
+        {
+          "t": "CVE-2026-102895",
+          "cls": "cve"
+        }
+      ],
       "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "Malwar-bc8420fae40a",
-      "title": "Vizio, Samsung smart TVs seem to ignore tracking opt outs",
-      "link": "https://www.malwarebytes.com/blog/news/2026/11/vizio-samsung-smart-tvs-seem-to-ignore-tracking-opt-outs",
-      "desc": "If you thought that opting out of surveillance on your smart TV would give you your privacy back, think again.",
-      "pubDate": "Thu, 05 Nov 2026 12:10:50 GMT",
-      "source": "Malwarebytes",
-      "cat": "malware",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
+        "cves": [
+          "CVE-2026-102895"
+        ],
         "ips": [],
         "hashes": []
       },
@@ -2830,24 +3049,17 @@
       "ts": 0
     },
     {
-      "id": "SANSI-dc04e35bb40a",
-      "title": "Vulnerability Scans for Older Cisco IOS Vulnerability / Opt-Out Headers, (Thu, Nov 5th)",
-      "link": "https://isc.sans.edu/diary/rss/33492",
-      "desc": "This morning, I was browsing our honeypot data for any new and existing PHP exploit attempts. Instead, I first ran into some GeoServer exploits, but found them to be too boring to write up. This Cisco IOS exploit attempt was a bit more interesting. Still nothing new. I suspect this is for CVE-2023-20198.&#xd;",
-      "pubDate": "Thu, 05 Nov 2026 15:29:08 GMT",
-      "source": "SANS ISC",
-      "cat": "vulns",
-      "sev": "high",
-      "tags": [
-        {
-          "t": "CVE-2023-20198",
-          "cls": "cve"
-        }
-      ],
+      "id": "Schnei-4b99fe5d80e6",
+      "title": "Another Way Police Are Locating People from Their Smartphones",
+      "link": "https://www.schneier.com/blog/archives/2026/11/another-way-police-are-locating-people-from-their-smartphones.html",
+      "desc": "Penlink&#8217;s Webloc is an application that locates people using information from the weather, gaming, email, and religious apps on their phone. It&#8217;s sold to the police.\nThe tool collects vast quantities of location data from smartphones via commonly used weather, gaming, email and religious apps. It can build a detailed picture of where a smartphone has been over the past 12 months, and u",
+      "pubDate": "2026-11-12T12:02:58Z",
+      "source": "Schneier",
+      "cat": "tools",
+      "sev": "medium",
+      "tags": [],
       "iocs": {
-        "cves": [
-          "CVE-2023-20198"
-        ],
+        "cves": [],
         "ips": [],
         "hashes": []
       },
@@ -3027,25 +3239,6 @@
       "ts": 0
     },
     {
-      "id": "Schnei-47ecbdfabbe0",
-      "title": "Studying Fraudulent North Korean IT Workers",
-      "link": "https://www.schneier.com/blog/archives/2026/10/studying-fraudulent-north-korean-it-workers.html",
-      "desc": "Researchers set up a fake start-up company to study fraudulent North Korean IT workers.",
-      "pubDate": "2026-10-28T11:05:00Z",
-      "source": "Schneier",
-      "cat": "tools",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
       "id": "ESETB-80952204731f",
       "title": "Exchange for breakfast: Turla’s Cereal tricks are not for kids",
       "link": "https://www.welivesecurity.com/en/eset-research/exchange-for-breakfast-turlas-cereal-tricks-are-not-for-kids/",
@@ -3208,18 +3401,18 @@
       "sev": "high",
       "tags": [
         {
-          "t": "CVE-2026-109619",
+          "t": "CVE-2026-109618",
           "cls": "cve"
         },
         {
-          "t": "CVE-2026-109618",
+          "t": "CVE-2026-109619",
           "cls": "cve"
         }
       ],
       "iocs": {
         "cves": [
-          "CVE-2026-109619",
-          "CVE-2026-109618"
+          "CVE-2026-109618",
+          "CVE-2026-109619"
         ],
         "ips": [],
         "hashes": []
@@ -3666,11 +3859,11 @@
       "ts": 0
     },
     {
-      "id": "r/nets-b12661434895",
-      "title": "2.4% of AFRINIC’s IPv4 addresses answer from outside Africa, and about 81% of those sit in one company’s four blocks",
-      "link": "https://www.reddit.com/r/netsec/comments/1xtirgl/24_of_afrinics_ipv4_addresses_answer_from_outside/",
-      "desc": "I work at IPinfo and this one started with a simple question: if a registry says an address is African, is it actually in Africa? This started as work for a paper by our research team (WHEREIS, IMC 2026). We tested it with ping times. Light in fiber only travels so far in a millisecond, so a fast reply puts a hard limit on how far away an address can be. Most registries pass, but AFRINIC is the ex",
-      "pubDate": "2026-11-11T14:12:37+00:00",
+      "id": "r/nets-d307531cbfa9",
+      "title": "History of Password Cracking",
+      "link": "https://www.reddit.com/r/netsec/comments/1xtz6sk/history_of_password_cracking/",
+      "desc": "&#32; submitted by &#32;  /u/netmux   [link] &#32; [comments]",
+      "pubDate": "2026-11-12T01:02:04+00:00",
       "source": "r/netsec",
       "cat": "community",
       "sev": "medium",
@@ -3685,11 +3878,11 @@
       "ts": 0
     },
     {
-      "id": "r/nets-d307531cbfa9",
-      "title": "History of Password Cracking",
-      "link": "https://www.reddit.com/r/netsec/comments/1xtz6sk/history_of_password_cracking/",
-      "desc": "&#32; submitted by &#32;  /u/netmux   [link] &#32; [comments]",
-      "pubDate": "2026-11-12T01:02:04+00:00",
+      "id": "r/nets-b12661434895",
+      "title": "2.4% of AFRINIC’s IPv4 addresses answer from outside Africa, and about 81% of those sit in one company’s four blocks",
+      "link": "https://www.reddit.com/r/netsec/comments/1xtirgl/24_of_afrinics_ipv4_addresses_answer_from_outside/",
+      "desc": "I work at IPinfo and this one started with a simple question: if a registry says an address is African, is it actually in Africa? This started as work for a paper by our research team (WHEREIS, IMC 2026). We tested it with ping times. Light in fiber only travels so far in a millisecond, so a fast reply puts a hard limit on how far away an address can be. Most registries pass, but AFRINIC is the ex",
+      "pubDate": "2026-11-11T14:12:37+00:00",
       "source": "r/netsec",
       "cat": "community",
       "sev": "medium",
