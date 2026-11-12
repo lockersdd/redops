@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T12:19:15.363449+00:00",
+  "generated_at": "2026-11-12T20:17:11.166937+00:00",
   "sources_ok": 16,
   "sources_total": 20,
   "source_status": {
@@ -91,6 +91,236 @@
   "total": 205,
   "articles": [
     {
+      "id": "TheHa-d4b5dc93f5a4",
+      "title": "Webinar: See How Identity Blind Spots Put Your SOC at Risk and How to Close Them",
+      "link": "https://thehackernews.com/2026/11/your-soc-sees-alert-but-does-it-know.html",
+      "desc": "Security teams have more alerts, logs, and monitoring tools than ever. Yet when an attack happens, one simple question can still take too long to answer: Who or what is behind this activity, and what can they access?\n\nA suspicious login might belong to an employee. An unusual API call could come from a machine account. Or an AI agent might be accessing sensitive systems using permissions nobody",
+      "pubDate": "Thu, 12 Nov 2026 23:37:15 +0530",
+      "source": "The Hacker News",
+      "cat": "threats",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "TheHa-318c212f187a",
+      "title": "ThreatsDay: 59 Linux Kernel Bugs, Falcon Spyware, GSocket Backdoors + 17 More Stories",
+      "link": "https://thehackernews.com/2026/11/threatsday-59-linux-kernel-bugs-falcon.html",
+      "desc": "A search result isn't always safe. An access request isn't always harmless. And a familiar account doesn't always mean a familiar person is using it. Simple things to remember. Yet a surprising amount of this week's trouble starts right there.\n\nAttackers are using fake websites, stolen access, and trusted tools to get into places they shouldn't be. AI is helping them build attacks faster, while",
+      "pubDate": "Thu, 12 Nov 2026 23:32:51 +0530",
+      "source": "The Hacker News",
+      "cat": "threats",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "TheHa-00a50dd2e2dd",
+      "title": "New SignDrop Zero-Day Exploit Turns Windows CLFS Security Feature Into SYSTEM Access",
+      "link": "https://thehackernews.com/2026/11/new-signdrop-zero-day-exploit-turns.html",
+      "desc": "Public exploit code released earlier this week claims that a local Windows user can gain SYSTEM privileges through the Common Log File System driver.\n\nThe proof of concept, called SignDrop, targets a log-authentication feature added to the driver last year. It abuses how clfs.sys creates companion files when a privileged process opens a prepared log, using path redirection to take control of",
+      "pubDate": "Thu, 12 Nov 2026 23:20:27 +0530",
+      "source": "The Hacker News",
+      "cat": "threats",
+      "sev": "critical",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "TheHa-35966e8d7d76",
+      "title": "Critical Red Hat Quay Flaw Lets Attackers Read and Overwrite All Private Container Images in a Registry",
+      "link": "https://thehackernews.com/2026/11/critical-red-hat-quay-flaw-lets.html",
+      "desc": "A critical flaw in Red Hat Quay allows an attacker who can access a Quay registry to read and overwrite private container images in every repository.\n\nQuay enables anonymous access by default, and while it is enabled, the attacker needs no account. When it is off, anyone with a valid account can still exploit the flaw, Red Hat said yesterday. The company has released fixed builds for eight Quay",
+      "pubDate": "Thu, 12 Nov 2026 21:57:01 +0530",
+      "source": "The Hacker News",
+      "cat": "threats",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "TheHa-5f4c8e9c3612",
+      "title": "Citrix Patches 12 NetScaler and Secure Access Client Flaws, Including Authentication Bypass",
+      "link": "https://thehackernews.com/2026/11/citrix-patches-12-netscaler-and-secure.html",
+      "desc": "Citrix has released patches for multiple critical security flaws impacting NetScaler ADC, Citrix NetScaler Gateway, and NetScaler Console that could lead to denial-of-service (DoS) or an authentication bypass.\n\nThe critical vulnerabilities that impact NetScaler ADC and NetScaler Gateway are listed below -\n\n\n  CVE-2026-120868 (CVSS score: 9.3) - A memory overflow vulnerability in Packet",
+      "pubDate": "Thu, 12 Nov 2026 21:08:49 +0530",
+      "source": "The Hacker News",
+      "cat": "threats",
+      "sev": "high",
+      "tags": [
+        {
+          "t": "CVE-2026-120868",
+          "cls": "cve"
+        }
+      ],
+      "iocs": {
+        "cves": [
+          "CVE-2026-120868"
+        ],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "TheHa-db4862ae3cbd",
+      "title": "186 Fake AI Domains Redirect Users to ClickFix Lures, Browser Malware, and Search Hijackers",
+      "link": "https://thehackernews.com/2026/11/186-fake-ai-domains-redirect-users-to.html",
+      "desc": "Cybersecurity researchers have found that lookalike domains masquerading as artificial intelligence (AI) tools are being used to serve ClickFix-style lures, browser-hijacking malware, and a set of extensions that hijack user searches.\n\nThis delivery pattern has been codenamed TypoPrompting by Island.\n\n\"AI-app lookalikes that turn an attempt to reach a familiar tool into a prompt to verify,",
+      "pubDate": "Thu, 12 Nov 2026 20:45:40 +0530",
+      "source": "The Hacker News",
+      "cat": "malware",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "TheHa-411d60bc04df",
+      "title": "SCKit Malware Turns ScreenConnect Support Sessions Into Potential MSP Attack Paths",
+      "link": "https://thehackernews.com/2026/11/sckit-malware-targets-screenconnect.html",
+      "desc": "The ongoing campaign targeting ConnectWise ScreenConnect deployments involves the exploitation of a now-patched critical security flaw in the remote access software, and not a new vulnerability, it has emerged.\n\nBlackpoint Cyber's Adversary Pursuit Group (APG), which shared the details with The Hacker News, said the recovered attacker toolkit exploits CVE-2026-84869 (CVSS score: 9.9), an",
+      "pubDate": "Thu, 12 Nov 2026 18:38:28 +0530",
+      "source": "The Hacker News",
+      "cat": "malware",
+      "sev": "high",
+      "tags": [
+        {
+          "t": "CVE-2026-84869",
+          "cls": "cve"
+        }
+      ],
+      "iocs": {
+        "cves": [
+          "CVE-2026-84869"
+        ],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "TheHa-fa9d9a5b0a45",
+      "title": "Google Cloud Warns Three AMD Turin CPU Flaws Could Leak Data Across Processes in VMs",
+      "link": "https://thehackernews.com/2026/11/google-cloud-warns-three-amd-turin-cpu.html",
+      "desc": "Google Cloud VMs on AMD Turin chips need a guest OS patch and a stop-and-start to protect against three CPU side-channel flaws, Google said this week.\n\nThe company has already applied mitigations against attacks between VMs, and between VMs and the host. Inside a VM, the flaws may let an attacker with code on the same processor core infer data from other processes or the kernel.\n\nThe affected",
+      "pubDate": "Thu, 12 Nov 2026 17:39:14 +0530",
+      "source": "The Hacker News",
+      "cat": "breaches",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "TheHa-f503d9b7f522",
+      "title": "New N-central Exploits Work Against Patched Servers, Enable Root RCE and Windows SYSTEM Access",
+      "link": "https://thehackernews.com/2026/11/new-n-central-exploits-work-against.html",
+      "desc": "N-able on Thursday said it's investigating a new public disclosure containing claims of additional vulnerabilities in on-premise versions of N-central running version 2026.4.1 HF2.\n\n\"Based on our initial review, the server issue described depends on a non-default configuration in which the Legacy API is turned on and exposed to the public internet,\" N-able said in a new advisory. \"Legacy API is",
+      "pubDate": "Thu, 12 Nov 2026 17:21:43 +0530",
+      "source": "The Hacker News",
+      "cat": "threats",
+      "sev": "critical",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "TheHa-529df2e34e41",
+      "title": "Calendar Invites and Live Proxies: Inside a Google Session Hijacking Campaign",
+      "link": "https://thehackernews.com/2026/11/calendar-invites-and-live-proxies.html",
+      "desc": "Since mid-August 2026, a phishing operation has been stealing live Google sessions from corporate users. Every check defenders normally lean on to judge a link came back clean, and the operator designed it that way on purpose.\n\nThe Threat Research team at Material Security spotted the campaign and has since taken down hundreds of attacker domains in an effort the team calls Operation CloudFire.",
+      "pubDate": "Thu, 12 Nov 2026 17:21:31 +0530",
+      "source": "The Hacker News",
+      "cat": "threats",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "TheHa-ecc5a30494d5",
+      "title": "PTC Patches Critical Windchill and FlexPLM Flaw That Could Enable Remote Code Execution",
+      "link": "https://thehackernews.com/2026/11/ptc-patches-critical-windchill-and.html",
+      "desc": "PTC has released patches for a new critical vulnerability impacting Windchill and FlexPLM software that, if successfully exploited, could result in remote code execution.\n\nThe security flaw, tracked as CVE-2026-126325, carries a CVSS v4 score of 9.2 out of a maximum of 10.0.\n\nIt has been described as a case of improper input validation and deserialization of untrusted data that could result in",
+      "pubDate": "Thu, 12 Nov 2026 17:03:15 +0530",
+      "source": "The Hacker News",
+      "cat": "threats",
+      "sev": "critical",
+      "tags": [
+        {
+          "t": "CVE-2026-126325",
+          "cls": "cve"
+        }
+      ],
+      "iocs": {
+        "cves": [
+          "CVE-2026-126325"
+        ],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
       "id": "TheHa-2239792c9ebc",
       "title": "Critical Pre-Auth MongoDB Flaw (CVE-2026-118383) Can Crash Lagging Servers on Failover",
       "link": "https://thehackernews.com/2026/11/critical-pre-auth-mongodb-flaw-cve-2026.html",
@@ -172,229 +402,6 @@
       "iocs": {
         "cves": [
           "CVE-2026-119618"
-        ],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "TheHa-64a2b77131b0",
-      "title": "ScreenConnect Attacks Target at Least 288 Endpoints Across 48 Organizations With Rogue Clients",
-      "link": "https://thehackernews.com/2026/11/screenconnect-attacks-target-at-least.html",
-      "desc": "ConnectWise has taken the precautionary step of disabling five third-party extensions in partner environments following reports of unauthorized access.\n\nIn an advisory posted on its site, the company said there is no evidence that the incident involves a compromise of its infrastructure or a vulnerability in the ScreenConnect software.\n\n\"Our initial assessment suggests the activity may involve",
-      "pubDate": "Thu, 12 Nov 2026 10:09:48 +0530",
-      "source": "The Hacker News",
-      "cat": "threats",
-      "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "TheHa-2add58010387",
-      "title": "Critical Zoom Workplace Flaw Could Allow Unauthenticated Remote Privilege Escalation",
-      "link": "https://thehackernews.com/2026/11/critical-zoom-workplace-flaw-could.html",
-      "desc": "Zoom has released software updates to address two security flaws impacting Zoom Workplace for Windows, including a critical bug that could result in privilege escalation on affected systems.\n\nThe vulnerabilities are listed below -\n\n\n  CVE-2026-108186 (CVSS score: 9.6) - An improper input validation vulnerability that could allow an unauthenticated user to conduct an escalation of privilege via",
-      "pubDate": "Wed, 11 Nov 2026 21:42:46 +0530",
-      "source": "The Hacker News",
-      "cat": "threats",
-      "sev": "high",
-      "tags": [
-        {
-          "t": "CVE-2026-108186",
-          "cls": "cve"
-        }
-      ],
-      "iocs": {
-        "cves": [
-          "CVE-2026-108186"
-        ],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "TheHa-caa9d3f4a2da",
-      "title": "AntiFox AI Pentesting Platform Linked to Attacks That Accessed AWS Production Secrets",
-      "link": "https://thehackernews.com/2026/11/antifox-ai-pentesting-platform-linked.html",
-      "desc": "Cybersecurity researchers have disclosed details of a campaign in which an emerging agentic penetration testing platform called AntiFox has been used to steal Amazon Web Services (AWS) credentials and pivot laterally into compromised environments.\n\n\"In several recently observed intrusions, Alibaba Cloud systems hosting AntiFox interfaces were associated with confirmed malicious actions against",
-      "pubDate": "Wed, 11 Nov 2026 21:04:27 +0530",
-      "source": "The Hacker News",
-      "cat": "redteam",
-      "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "TheHa-697aa20c4e43",
-      "title": "Hackers Target Qlik Sense Servers With Reverse Shells, Stage ActiveMQ and Veeam Exploits",
-      "link": "https://thehackernews.com/2026/11/hackers-target-qlik-sense-servers-with.html",
-      "desc": "Threat actors have been observed targeting Qlik Sense servers to unsuccessfully deliver PowerShell reverse shell commands against multiple environments in October 2026.\n\nCynet's CyOps and Research teams said they identified the suspicious activity in October 2026 against several E.U.-based customers within a narrow window of just over three minutes.\n\nThe activity has been found to share some",
-      "pubDate": "Wed, 11 Nov 2026 19:31:00 +0530",
-      "source": "The Hacker News",
-      "cat": "threats",
-      "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "TheHa-9dc8a7ddca9b",
-      "title": "Over 35,000 Grok-Built Apps Exposed Online, Some Leaking Confidential Data and Passwords",
-      "link": "https://thehackernews.com/2026/11/over-35000-grok-built-apps-exposed.html",
-      "desc": "Of the 37,571 Grok-built apps that security company Claroc found online, 35,578 were open to anyone without a sign-in, the researchers said yesterday.\n\nThey included 24 apps built by staff at the social network X and at SpaceXSI, the company that makes the Grok AI assistant. Most of the open apps were games, landing pages, and calculators, but about 1 in 10 contained internal business or",
-      "pubDate": "Wed, 11 Nov 2026 17:49:40 +0530",
-      "source": "The Hacker News",
-      "cat": "breaches",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "TheHa-dcb9f6420118",
-      "title": "We Built An Agent That Broke All of Our Security Rules. Here's What We Learned.",
-      "link": "https://thehackernews.com/2026/11/we-built-agent-that-broke-all-of-our.html",
-      "desc": "We tell customers three things about securing AI agents: they need their own identities, access that fits the job they’re given, and traceability that’s separate from any human’s. That was true for us at Token as well. Then, we built an agent that broke all three by default.\n\nThis helped us think through how such agents should be defended. When a browser agent acts inside a user’s authenticated",
-      "pubDate": "Wed, 11 Nov 2026 17:31:59 +0530",
-      "source": "The Hacker News",
-      "cat": "threats",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "TheHa-975fd016ec44",
-      "title": "eMudhra Revokes 8 More CAs It Previously Declared Unaffected by Key Compromise",
-      "link": "https://thehackernews.com/2026/11/emudhra-revokes-8-more-cas-it.html",
-      "desc": "The in-house Python script behind eMudhra's October key compromise has now cost the company 8 more of its intermediate certificate authorities (CAs), even though it did not weaken their keys.\n\nEach intermediate CA has its own private key, which the company uses to sign the certificates it issues. The 8 intermediate CAs compromised in October had a different problem: a single line in the script",
-      "pubDate": "Wed, 11 Nov 2026 17:30:53 +0530",
-      "source": "The Hacker News",
-      "cat": "threats",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "TheHa-509ddd390a5e",
-      "title": "Microsoft Patches 1,259 Flaws, Including Exploited Outlook Bug That May Expose NTLMv2 Hashes",
-      "link": "https://thehackernews.com/2026/11/microsoft-patches-1259-flaws-including.html",
-      "desc": "Microsoft on Tuesday released patches for a total of 1,259 vulnerabilities spanning its software portfolio, the second consecutive month where the patch volume has exceeded 1,000 flaws.\n\nThese cover 726 flaws in Windows, 174 in Office, 61 in Developer Tools, 59 in SQL Server, 53 in Developer Tools, and 27 in SharePoint Server. The patches also include 165 non-Microsoft-issued CVE identifiers.",
-      "pubDate": "Wed, 11 Nov 2026 13:47:53 +0530",
-      "source": "The Hacker News",
-      "cat": "threats",
-      "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "TheHa-d7e75f814692",
-      "title": "Railway Says Stolen Customer AI Keys Led to $740,000 in Estimated Unauthorized Usage Charges",
-      "link": "https://thehackernews.com/2026/11/railway-says-stolen-customer-ai-keys.html",
-      "desc": "AI provider keys that customers stored on Railway were stolen in an October breach and used to commit an estimated $740,000 in unauthorized spending, the platform-as-a-service provider said yesterday. It has promised to pay those charges itself when an AI provider will not refund them.\n\nThe company builds and runs apps for its customers and stores their secrets, such as API keys and database",
-      "pubDate": "Wed, 11 Nov 2026 13:19:04 +0530",
-      "source": "The Hacker News",
-      "cat": "breaches",
-      "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "TheHa-beb3436b1d62",
-      "title": "Microsoft Researchers Show AI Agents Can Be Backdoored by Editing Fewer Than 10 Neurons",
-      "link": "https://thehackernews.com/2026/11/microsoft-researchers-show-ai-agents.html",
-      "desc": "An AI model can be given a hidden backdoor by editing fewer than 10 of its rarely used neurons, without retraining the model, Microsoft researchers have shown.\n\nWhen a chosen trigger appears, the model outputs an attacker's command, which an agent using that model would run with the agent's own permissions. The attacker must be able to change the model's weights.\n\nThe team tested the method on",
-      "pubDate": "Wed, 11 Nov 2026 12:51:05 +0530",
-      "source": "The Hacker News",
-      "cat": "threats",
-      "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "TheHa-471fff1e148e",
-      "title": "Cisco BroadWorks and Openwave Flaws Actively Exploited Despite Available Patches",
-      "link": "https://thehackernews.com/2026/11/cisco-broadworks-and-openwave-flaws.html",
-      "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) Tuesday added two security flaws impacting Cisco BroadWorks and Openwave Messaging Webtop Media Transcoder to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation.\n\nDetails of the vulnerabilities are below -\n\n\n  CVE-2026-20320 (CVSS score: 7.5) - An improper restriction of XML external entity",
-      "pubDate": "Wed, 11 Nov 2026 11:34:02 +0530",
-      "source": "The Hacker News",
-      "cat": "threats",
-      "sev": "critical",
-      "tags": [
-        {
-          "t": "CVE-2026-20320",
-          "cls": "cve"
-        }
-      ],
-      "iocs": {
-        "cves": [
-          "CVE-2026-20320"
         ],
         "ips": [],
         "hashes": []
@@ -594,6 +601,89 @@
       "ts": 0
     },
     {
+      "id": "Securi-387824c09dbd",
+      "title": "Apache Patches Critical HTTP Server RCE Found by Anthropic, Google",
+      "link": "https://www.securityweek.com/apache-patches-critical-http-server-rce-found-by-anthropic-google/",
+      "desc": "The mod_http2 race condition, CVE-2026-119618, could let unauthenticated attackers execute code on servers with HTTP/2 enabled.\nThe post Apache Patches Critical HTTP Server RCE Found by Anthropic, Google appeared first on SecurityWeek.",
+      "pubDate": "Thu, 12 Nov 2026 15:38:31 +0000",
+      "source": "SecurityWeek",
+      "cat": "threats",
+      "sev": "critical",
+      "tags": [
+        {
+          "t": "CVE-2026-119618",
+          "cls": "cve"
+        }
+      ],
+      "iocs": {
+        "cves": [
+          "CVE-2026-119618"
+        ],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "Securi-788d7793b8ce",
+      "title": "Chrome, Firefox Updates Patch Over 180 Vulnerabilities",
+      "link": "https://www.securityweek.com/chrome-firefox-updates-patch-180-vulnerabilities/",
+      "desc": "Google fixed 83 flaws with a new Chrome 157 release, and Mozilla addressed 99 bugs in Firefox 160.\nThe post Chrome, Firefox Updates Patch Over 180 Vulnerabilities appeared first on SecurityWeek.",
+      "pubDate": "Thu, 12 Nov 2026 13:42:09 +0000",
+      "source": "SecurityWeek",
+      "cat": "threats",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "Securi-d5e99aac05d2",
+      "title": "Attacker Targets 60,000 GitHub Repositories in Credential Theft Campaign",
+      "link": "https://www.securityweek.com/attacker-targets-60000-github-repositories-in-credential-theft-campaign/",
+      "desc": "Using thousands of hijacked accounts, the wfx-loot campaign planted a CI secret stealer that ran in over 1,800 GitHub repositories.\nThe post Attacker Targets 60,000 GitHub Repositories in Credential Theft Campaign appeared first on SecurityWeek.",
+      "pubDate": "Thu, 12 Nov 2026 13:39:03 +0000",
+      "source": "SecurityWeek",
+      "cat": "threats",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "Securi-617c98262b8d",
+      "title": "Daylight Lands $80 Million for AI-Powered Security Operations",
+      "link": "https://www.securityweek.com/daylight-lands-80-million-for-ai-powered-security-operations/",
+      "desc": "The company plans to accelerate product development, hire new talent, expand its US presence, and enter new markets.\nThe post Daylight Lands $80 Million for AI-Powered Security Operations appeared first on SecurityWeek.",
+      "pubDate": "Thu, 12 Nov 2026 13:12:11 +0000",
+      "source": "SecurityWeek",
+      "cat": "threats",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
       "id": "Securi-12e93ea595b3",
       "title": "Notion Customer Data Compromised in Fireworks AI Hack",
       "link": "https://www.securityweek.com/notion-customer-data-compromised-in-fireworks-ai-hack/",
@@ -708,12 +798,12 @@
       "ts": 0
     },
     {
-      "id": "Securi-8ccd88f34cfd",
-      "title": "Critical Xen Orchestra Flaws Exploited in Attacks",
-      "link": "https://www.securityweek.com/critical-xen-orchestra-flaws-exploited-in-attacks/",
-      "desc": "A critical authentication bypass allows attackers to execute arbitrary code as admin and take over XCP-ng nodes.\nThe post Critical Xen Orchestra Flaws Exploited in Attacks appeared first on SecurityWeek.",
-      "pubDate": "Wed, 11 Nov 2026 15:42:47 +0000",
-      "source": "SecurityWeek",
+      "id": "GBHack-9c17ea16544b",
+      "title": "nDiligence Releases Four-Year Study Identifying a Critical Supply-Chain Vulnerability Across 50 Platform Types",
+      "link": "https://gbhackers.com/ndiligence-releases-four-year-study-identifying-a-critical-supply-chain-vulnerability-across-50-platform-types/",
+      "desc": "San Francisco, California, USA, November 12th, 2026, CyberNewswire Four-year cybersecurity study finds all 50 types of software and devices examined vulnerable, with 46 rated Critical or High risk. nDiligence, Inc. today announced the release of Attack the Glass (ATG) research to the general public. The four-year study examines a cybersecurity vulnerability in how applications use [&#8230;]\nThe po",
+      "pubDate": "Thu, 12 Nov 2026 14:23:46 +0000",
+      "source": "GBHackers",
       "cat": "threats",
       "sev": "high",
       "tags": [],
@@ -727,13 +817,39 @@
       "ts": 0
     },
     {
-      "id": "Securi-d86118c52c31",
-      "title": "Asus, Zoom Release Security Patches",
-      "link": "https://www.securityweek.com/asus-zoom-release-security-patches/",
-      "desc": "Attackers could exploit them for command execution, memory overwrites, and privilege escalation.\nThe post Asus, Zoom Release Security Patches appeared first on SecurityWeek.",
-      "pubDate": "Wed, 11 Nov 2026 13:58:38 +0000",
-      "source": "SecurityWeek",
+      "id": "GBHack-437213c8b27b",
+      "title": "CISA Warns of Actively Exploited Microsoft Outlook Zero-Day Vulnerability",
+      "link": "https://gbhackers.com/cisa-warns-of-microsoft-outlook-zero-day-vulnerability/",
+      "desc": "The Cybersecurity and Infrastructure Security Agency has added CVE-2026-124194, an actively exploited Microsoft Outlook spoofing vulnerability, to its Known Exploited Vulnerabilities catalog. Added on November 10, 2026, the entry establishes a November 24 remediation deadline. The warning follows disclosures about Outlook authentication theft involving malicious message files and unsafe external c",
+      "pubDate": "Thu, 12 Nov 2026 13:32:25 +0000",
+      "source": "GBHackers",
       "cat": "threats",
+      "sev": "critical",
+      "tags": [
+        {
+          "t": "CVE-2026-124194",
+          "cls": "cve"
+        }
+      ],
+      "iocs": {
+        "cves": [
+          "CVE-2026-124194"
+        ],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "GBHack-91f91c1e5861",
+      "title": "ESET Blocks Over 700,000 Cruciferra Malware Attacks Using Advanced Encryption to Evade Antivirus Detection",
+      "link": "https://gbhackers.com/cruciferra-malware-attacks/",
+      "desc": "ESET says it has blocked more than 700,000 compromise attempts linked to Cruciferra since January 2026. Türkiye, Greece and Spain were the most affected countries. A crypter wraps a malicious payload in encryption and obfuscation so security tools cannot recognize it. Cruciferra&#8217;s distinguishing feature is its range of ciphers. Proofpoint documented more than 90 encryption [&#8230;]\nThe post",
+      "pubDate": "Thu, 12 Nov 2026 13:30:15 +0000",
+      "source": "GBHackers",
+      "cat": "malware",
       "sev": "high",
       "tags": [],
       "iocs": {
@@ -746,12 +862,12 @@
       "ts": 0
     },
     {
-      "id": "Securi-5acf275c5528",
-      "title": "Citrix, Ivanti Patch Critical and High-Severity Vulnerabilities",
-      "link": "https://www.securityweek.com/citrix-ivanti-patch-critical-and-high-severity-vulnerabilities/",
-      "desc": "Attackers could exploit the bugs to tamper with certificate entries, achieve remote code execution, and compromise hosts.\nThe post Citrix, Ivanti Patch Critical and High-Severity Vulnerabilities appeared first on SecurityWeek.",
-      "pubDate": "Wed, 11 Nov 2026 13:37:19 +0000",
-      "source": "SecurityWeek",
+      "id": "GBHack-b63cdec2f0b3",
+      "title": "Global Scam Networks Use AI, Deepfakes, and Crypto to Steal Billions From Victims, FATF Warns",
+      "link": "https://gbhackers.com/global-scam-networks/",
+      "desc": "Global scam networks are using artificial intelligence, deepfakes, and cryptocurrency infrastructure to industrialize fraud, inflicting tens of billions of dollars in annual losses, the Financial Action Task Force warned in a report published November 5, 2026. The report, Combating End-to-End Illicit Financial Flows Linked to Scam Compounds, describes a criminal ecosystem that extends beyond forti",
+      "pubDate": "Thu, 12 Nov 2026 13:20:07 +0000",
+      "source": "GBHackers",
       "cat": "threats",
       "sev": "critical",
       "tags": [],
@@ -765,14 +881,78 @@
       "ts": 0
     },
     {
-      "id": "Securi-d4de621745d4",
-      "title": "Finite State Raises $27 Million to Secure Software and Firmware in Connected Devices",
-      "link": "https://www.securityweek.com/finite-state-raises-27-million-to-secure-software-and-firmware-in-connected-devices/",
-      "desc": "The Series C round will fund international expansion and more autonomous features for the firm’s device security platform. \nThe post Finite State Raises $27 Million to Secure Software and Firmware in Connected Devices appeared first on SecurityWeek.",
-      "pubDate": "Wed, 11 Nov 2026 12:24:33 +0000",
-      "source": "SecurityWeek",
+      "id": "GBHack-c32671fff3d3",
+      "title": "Critical MongoDB Use-After-Free Vulnerability Allows Remote Code Execution Without Authentication",
+      "link": "https://gbhackers.com/critical-mongodb-use-after-free-vulnerability/",
+      "desc": "MongoDB has patched a critical use-after-free flaw, tracked as CVE-2026-118383 with a CVSS score of 9.5, that unauthenticated attackers can exploit over the network. The company found the bug internally and says it knows of no exploitation attempts so far. The advisory warns that the flaw can crash the server or, under certain conditions, allow [&#8230;]\nThe post Critical MongoDB Use-After-Free Vu",
+      "pubDate": "Thu, 12 Nov 2026 12:24:27 +0000",
+      "source": "GBHackers",
+      "cat": "threats",
+      "sev": "critical",
+      "tags": [
+        {
+          "t": "CVE-2026-118383",
+          "cls": "cve"
+        }
+      ],
+      "iocs": {
+        "cves": [
+          "CVE-2026-118383"
+        ],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "GBHack-b37f50cfc471",
+      "title": "Google Chrome Fixes 83 Security Flaws, Including 5 Critical Use-After-Free Vulnerabilities",
+      "link": "https://gbhackers.com/google-chrome-fixes-83-security-flaws/",
+      "desc": "Google released a Chrome desktop security update that addresses 83 vulnerabilities, including five critical use-after-free flaws affecting ServiceWorker, CSS, Layout, Skia, and Accessibility. Published November 11, 2026, the release upgrades Windows and macOS installations to versions 157.0.8103.78/.79 and Linux to 157.0.8103.78. Google’s Stable Channel advisory says it will continue distributing ",
+      "pubDate": "Thu, 12 Nov 2026 12:06:39 +0000",
+      "source": "GBHackers",
       "cat": "threats",
       "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "GBHack-a3bbcad8aafa",
+      "title": "AntiFox AI Agents Linked to AWS Attacks That Exposed Production Secrets and Compromised Web Servers",
+      "link": "https://gbhackers.com/antifox-ai-agents/",
+      "desc": "Attackers are using AntiFox, an agentic AI penetration-testing framework derived from ARTEX, to target internet-facing web applications and AWS environments. Reported on November 11, the findings follow Microsoft’s November 5 disclosure of ARTEX-assisted attacks against exposed GitHub credentials. Together, the investigations show how attackers are applying agentic workflows across cloud providers",
+      "pubDate": "Thu, 12 Nov 2026 11:47:43 +0000",
+      "source": "GBHackers",
+      "cat": "threats",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "GBHack-57ce5fe8d252",
+      "title": "State-Sponsored Hackers Deploy Up to 8 AI Agents to Target Taiwanese Government Systems",
+      "link": "https://gbhackers.com/ai-agents-target-taiwan/",
+      "desc": "A campaign against Taiwanese government entities used up to eight AI agents with limited human intervention. Recorded Future points to research describing the framework behind the attacks. Dream&#8217;s researchers recovered a 1,395-file workspace in July 2026. The framework, built on the Hermes and OpenClaw agents, launched up to eight lettered sub-agents per wave. Across 12 [&#8230;]\nThe post St",
+      "pubDate": "Thu, 12 Nov 2026 11:10:57 +0000",
+      "source": "GBHackers",
+      "cat": "threats",
+      "sev": "high",
       "tags": [],
       "iocs": {
         "cves": [],
@@ -836,14 +1016,14 @@
       "ts": 0
     },
     {
-      "id": "GBHack-6fd64b13dcd0",
-      "title": "Qilin Ransomware Gang Leader Allegedly Identified as 36-Year-Old Russian Man",
-      "link": "https://gbhackers.com/qilin-ransomware-gang-leader/",
-      "desc": "The administrator of the Qilin ransomware operation has allegedly been identified as Aleksey Mikhailovich Yakovtsev, a 36-year-old St. Petersburg resident. A KrebsOnSecurity investigation published November 11 connects the underground identity “Haise” to Yakovtsev through historical forum accounts, Telegram identifiers, and breached records. The attribution remains an allegation. Qilin Ransomware ",
-      "pubDate": "Thu, 12 Nov 2026 10:12:04 +0000",
-      "source": "GBHackers",
-      "cat": "breaches",
-      "sev": "high",
+      "id": "HackRe-11885c6ec6a6",
+      "title": "How Beginner Creators Can Earn with the Temu Influencer Program This Black Friday",
+      "link": "https://hackread.com/temu-influencer-program-black-friday/",
+      "desc": "Black Friday is a major shopping occasion, making it a timely opportunity for creators to share gift ideas,&#8230;",
+      "pubDate": "Thu, 12 Nov 2026 17:28:14 +0000",
+      "source": "HackRead",
+      "cat": "threats",
+      "sev": "medium",
       "tags": [],
       "iocs": {
         "cves": [],
@@ -855,31 +1035,12 @@
       "ts": 0
     },
     {
-      "id": "GBHack-337192b716fb",
-      "title": "12 Adversarial Exposure Validation Tools: The 2026 Buyer’s Verdict Guide",
-      "link": "https://gbhackers.com/adversarial-exposure-validation-tools/",
-      "desc": "Adversarial exposure validation (AEV) is the label the market settled on for the merged territory of breach-and-attack simulation, autonomous penetration testing, and automated red teaming three lanes that always answered the same buyer question with different risk appetites. The purchase goes wrong when a change-averse estate adopts a live-testing engine it cannot govern, or a [&#8230;]\nThe post ",
-      "pubDate": "Thu, 12 Nov 2026 09:25:00 +0000",
-      "source": "GBHackers",
-      "cat": "breaches",
-      "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "GBHack-4660f377f864",
-      "title": "Microsoft Finds Hackers Using GSocket to Hide Linux Backdoors as Legitimate System Processes",
-      "link": "https://gbhackers.com/gsocket-based-linux-attacks/",
-      "desc": "Attackers deployed GSocket on compromised Linux servers, disguised its processes as legitimate system components, and retained access after administrators patched the original vulnerabilities. In its November 11 report, Microsoft described unrelated threat actors abusing the open source remote access tool rather than maintaining dedicated command-and-control infrastructure. Defender for Endpoint t",
-      "pubDate": "Thu, 12 Nov 2026 08:13:07 +0000",
-      "source": "GBHackers",
+      "id": "HackRe-78abdec9ca8d",
+      "title": "Hackers Abuse Microsoft SQL Servers to Deploy Monero Miner and Gh0st RAT",
+      "link": "https://hackread.com/hackers-abuse-microsoft-sql-servers-monero-miner-gh0st-rat/",
+      "desc": "SEO: Fortinet discovered a campaign where attackers brute-force exposed Microsoft SQL Server installations and abuse T-SQL commands to&#8230;",
+      "pubDate": "Thu, 12 Nov 2026 16:30:49 +0000",
+      "source": "HackRead",
       "cat": "threats",
       "sev": "critical",
       "tags": [],
@@ -893,97 +1054,14 @@
       "ts": 0
     },
     {
-      "id": "GBHack-6ecde11ded73",
-      "title": "Shipping Giant Maersk Confirms Data Breach Following Unauthorized Access to IT Systems",
-      "link": "https://gbhackers.com/shipping-giant-maersk-confirms-data-breach/",
-      "desc": "A.P. Moller–Maersk has confirmed unauthorized access and data extraction affecting a local legacy IT system inherited through a previous acquisition. In its November 11 security advisory, the shipping company said investigators currently believe no sensitive information was disclosed, while emphasizing that its investigation remains ongoing. Maersk Data Breach The disclosure indicates that informa",
-      "pubDate": "Thu, 12 Nov 2026 06:50:29 +0000",
-      "source": "GBHackers",
-      "cat": "breaches",
-      "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "GBHack-6e397694bcca",
-      "title": "New Windows SignDrop Zero-Day Exploit Allows Attackers to Gain SYSTEM Privileges",
-      "link": "https://gbhackers.com/new-windows-signdrop-zero-day/",
-      "desc": "A researcher known as MSNightmare, also called Chaotic Eclipse, has published a working proof of concept for an unpatched Windows zero-day dubbed SignDrop. The exploit turns a standard user account into NT AUTHORITY\\SYSTEM by abusing the Common Log File System (CLFS) driver, clfs.sys. It was released on GitHub on November 10, the same day as [&#8230;]\nThe post New Windows SignDrop Zero-Day Exploit",
-      "pubDate": "Thu, 12 Nov 2026 06:41:09 +0000",
-      "source": "GBHackers",
-      "cat": "threats",
-      "sev": "critical",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "GBHack-ba577078a24e",
-      "title": "Hackers Compromise Nearly 5,000 GitHub Accounts to Steal Secrets From Software Development Pipelines",
-      "link": "https://gbhackers.com/github-accounts-compromised/",
-      "desc": "Attackers used stolen GitHub credentials belonging to 4,837 accounts to probe 61,764 repositories in a campaign targeting software development secrets and cloud access. Beginning November 10, the operation injected malicious workflows into accessible repositories, with evidence of credential exfiltration from at least 1,806 repositories. At least 50 compromised users publish packages across npm, G",
-      "pubDate": "Thu, 12 Nov 2026 06:37:27 +0000",
-      "source": "GBHackers",
+      "id": "HackRe-c2eca0e6af09",
+      "title": "nDiligence Releases Four-Year Study Identifying a Critical Supply-Chain Vulnerability Across 50 Platform Types",
+      "link": "https://hackread.com/ndiligence-releases-four-year-study-identifying-a-critical-supply-chain-vulnerability-across-50-platform-types/",
+      "desc": "San Francisco, California, USA, 12th November 2026, CyberNewswire",
+      "pubDate": "Thu, 12 Nov 2026 13:15:03 +0000",
+      "source": "HackRead",
       "cat": "threats",
       "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "GBHack-175e403b6a03",
-      "title": "Microsoft AI Exposes 21-Year-Old Linux Kernel Bug Among 59 Security Issues Reported to Maintainers",
-      "link": "https://gbhackers.com/linux-kernel-flaws/",
-      "desc": "AI-driven scanning system, codenamed MDASH, to find 59 security issues in the Linux kernel. One of them, a cls_u32 shift-out-of-bounds flaw tracked as CVE-2026-74544, had gone unnoticed for at least 21 years. One full-time researcher and one intern scanned selected kernel subsystems, including networking, filesystems and security modules, from late May to mid-June 2026. The [&#8230;]\nThe post Micr",
-      "pubDate": "Thu, 12 Nov 2026 05:50:53 +0000",
-      "source": "GBHackers",
-      "cat": "threats",
-      "sev": "high",
-      "tags": [
-        {
-          "t": "CVE-2026-74544",
-          "cls": "cve"
-        }
-      ],
-      "iocs": {
-        "cves": [
-          "CVE-2026-74544"
-        ],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "GBHack-351907964ecf",
-      "title": "Apache HTTP Server Patches Critical RCE Vulnerability Allowing Attackers to Execute Remote Code",
-      "link": "https://gbhackers.com/apache-http-server-patches-critical-rce-vulnerability/",
-      "desc": "Apache has released HTTP Server 2.4.71 to address three security vulnerabilities, including a critical memory corruption flaw that could enable remote code execution. Released on November 11, 2026, the update fixes weaknesses in mod_http2, mod_md, and mod_vhost_alias, rated critical, important, and low severity, respectively. The release follows earlier Apache HTTP Server security updates that add",
-      "pubDate": "Thu, 12 Nov 2026 05:50:37 +0000",
-      "source": "GBHackers",
-      "cat": "threats",
-      "sev": "critical",
       "tags": [],
       "iocs": {
         "cves": [],
@@ -1114,63 +1192,6 @@
       "link": "https://hackread.com/one-identity-unveils-safeguard-9-0-for-simpler-pam/",
       "desc": "Alisa Vijeo, California, 10th November 2026, CyberNewswire",
       "pubDate": "Tue, 10 Nov 2026 14:12:18 +0000",
-      "source": "HackRead",
-      "cat": "threats",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "HackRe-712ffa9e8012",
-      "title": "One Identity Unveils Identity Manager 10.0 LTS with AI and Modern UX",
-      "link": "https://hackread.com/one-identity-unveils-identity-manager-10-0-lts-with-ai-and-modern-ux/",
-      "desc": "Alisa Viejo, California, 10th November 2026, CyberNewswire",
-      "pubDate": "Tue, 10 Nov 2026 14:11:25 +0000",
-      "source": "HackRead",
-      "cat": "threats",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "HackRe-a083500c0090",
-      "title": "One Identity Unveils Active Roles 8.6 with Enhanced Security and Administration",
-      "link": "https://hackread.com/one-identity-unveils-active-roles-8-6-with-enhanced-security-and-administration/",
-      "desc": "Alisa Viejo, California, 10th November 2026, CyberNewswire",
-      "pubDate": "Tue, 10 Nov 2026 14:11:10 +0000",
-      "source": "HackRead",
-      "cat": "threats",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "HackRe-51cf3840032d",
-      "title": "OffSec Celebrates 20 Years of Practitioner-Built Training From the Creators of Kali Linux and OSCP",
-      "link": "https://hackread.com/offsec-celebrates-20-years-of-practitioner-built-training-from-the-creators-of-kali-linux-and-oscp/",
-      "desc": "New York, USA, 10th November 2026, CyberNewswire",
-      "pubDate": "Tue, 10 Nov 2026 12:00:05 +0000",
       "source": "HackRead",
       "cat": "threats",
       "sev": "medium",
@@ -1762,6 +1783,25 @@
       "ts": 0
     },
     {
+      "id": "Pentes-ef74e3ce794b",
+      "title": "Printerpix and the not so private photo album",
+      "link": "https://www.pentestpartners.com/security-blog/printerpix-and-the-not-so-private-photo-album/",
+      "desc": "TL;DR&#160; &#160;A bucketful of photos&#160; There are many services that allow digital photos to be converted to prints. These include a plethora of other printing services so that customer photos may be converted to picture books, mugs, magnetic photo tiles, clothing or even a throw.&#160; With the combination of destination, these services allow photos to [&#8230;]\nThe post Printerpix and the ",
+      "pubDate": "Thu, 12 Nov 2026 16:18:32 +0000",
+      "source": "PentestPartners",
+      "cat": "redteam",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
       "id": "Pentes-e96a3d5feccb",
       "title": "The problem with shared Wi-Fi passwords at work",
       "link": "https://www.pentestpartners.com/security-blog/the-problem-with-shared-wi-fi-passwords-at-work/",
@@ -1919,25 +1959,6 @@
       "link": "https://www.pentestpartners.com/security-blog/why-your-data-is-safer-than-you-think-on-public-wi-fi/",
       "desc": "TL;DR&#160; The coffee shop hacker&#160; Public Wi-Fi has&#160;acquired&#160;a slightly theatrical reputation. Join the network in a coffee shop, we are told, and a hacker in the corner can&#160;immediately&#160;steal your passwords and empty your bank account.&#160; It makes for good VPN advertising. It is not a particularly&#160;accurate&#160;picture of how the modern web works.&#160; Most legit",
       "pubDate": "Thu, 03 Sep 2026 12:43:48 +0000",
-      "source": "PentestPartners",
-      "cat": "redteam",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "Pentes-f63a0327ec91",
-      "title": "Estate planning of credentials",
-      "link": "https://www.pentestpartners.com/security-blog/estate-planning-of-credentials/",
-      "desc": "A sad start  Last year&#160;one of my colleagues, Ken, received the sad news that&#160;a&#160;father&#160;of a friend&#160;had passed away. He was a tech-savvy gentleman and had invested in smart&#160;tech&#160;to make his and his family’s life easier and,&#160;just as we recommend, he used strong and unique passwords everywhere. He&#160;stored&#160;all his passwords in an encrypted Excel spreadsh",
-      "pubDate": "Wed, 26 Aug 2026 10:28:00 +0000",
       "source": "PentestPartners",
       "cat": "redteam",
       "sev": "medium",
@@ -2560,6 +2581,25 @@
       "ts": 0
     },
     {
+      "id": "Malwar-4378ff2b2e1e",
+      "title": "LEGO’s BrickLink taken offline: What users should know",
+      "link": "https://www.malwarebytes.com/blog/news/2026/11/legos-bricklink-taken-offline-after-unusual-activity-what-users-should-know",
+      "desc": "BrickLink, the LEGO marketplace, has gone offline after detecting unusual activity, without disclosing whether customer data was affected.",
+      "pubDate": "Thu, 12 Nov 2026 14:25:49 GMT",
+      "source": "Malwarebytes",
+      "cat": "malware",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
       "id": "Malwar-8fd6910ba8b9",
       "title": "Why scammers want you to allow push notifications",
       "link": "https://www.malwarebytes.com/blog/mobile/2026/11/why-scammers-want-you-to-allow-notifications",
@@ -2658,7 +2698,7 @@
       "id": "Malwar-a5b03c6c5ef4",
       "title": "Microsoft Patch Tuesday fixes Outlook flaw already under attack",
       "link": "https://www.malwarebytes.com/blog/bugs/2026/11/microsoft-patch-tuesday-fixes-outlook-flaw-already-under-attack",
-      "desc": "Microsoft’s November 2026 Patch Tuesday fixes an actively exploited Outlook vulnerability. Check for Office updates separately.",
+      "desc": "Microsoft has fixed an actively exploited Outlook vulnerability. Check for Office updates separately.",
       "pubDate": "Wed, 11 Nov 2026 11:25:05 GMT",
       "source": "Malwarebytes",
       "cat": "malware",
@@ -2815,25 +2855,6 @@
       "source": "Malwarebytes",
       "cat": "malware",
       "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "Malwar-6839dd27c4f5",
-      "title": "NIKKE PC launcher compromise put players’ passwords and personal files at risk",
-      "link": "https://www.malwarebytes.com/blog/news/2026/11/nikke-pc-launcher-compromise-put-players-passwords-and-personal-files-at-risk",
-      "desc": "Players of Goddess of Victory: NIKKE are being urged to check their PCs after attackers tampered with files used by the game’s Windows launcher.",
-      "pubDate": "Thu, 05 Nov 2026 22:06:59 GMT",
-      "source": "Malwarebytes",
-      "cat": "malware",
-      "sev": "high",
       "tags": [],
       "iocs": {
         "cves": [],
@@ -3859,6 +3880,77 @@
       "ts": 0
     },
     {
+      "id": "r/nets-d508eabae284",
+      "title": "How we defended against an AI-driven ARTEX attack",
+      "link": "https://www.reddit.com/r/netsec/comments/1xucxqr/how_we_defended_against_an_aidriven_artex_attack/",
+      "desc": "&#32; submitted by &#32;  /u/Far_Ice2481   [link] &#32; [comments]",
+      "pubDate": "2026-11-12T13:36:34+00:00",
+      "source": "r/netsec",
+      "cat": "community",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "r/nets-c7934ed5259f",
+      "title": "prepared statements prevents SQLi. But it also helped me to exploit a 22 years old PostgreSQL 0-day RCE (CVE-2026-6460)",
+      "link": "https://www.reddit.com/r/netsec/comments/1xuh3jj/prepared_statements_prevents_sqli_but_it_also/",
+      "desc": "&#32; submitted by &#32;  /u/wtfse   [link] &#32; [comments]",
+      "pubDate": "2026-11-12T16:21:24+00:00",
+      "source": "r/netsec",
+      "cat": "community",
+      "sev": "critical",
+      "tags": [
+        {
+          "t": "CVE-2026-6460",
+          "cls": "cve"
+        }
+      ],
+      "iocs": {
+        "cves": [
+          "CVE-2026-6460"
+        ],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "r/nets-ae7d622964cb",
+      "title": "NvRoot (CVE-2026-47591) where in neocloud multi-tenant GPU environments, rent = root. Essentially it's a dirty page cache LPE using GPUs as catalyzer",
+      "link": "https://www.reddit.com/r/netsec/comments/1xuidu1/nvroot_cve202647591_where_in_neocloud_multitenant/",
+      "desc": "From unprivileged user to root. Most dangerous for those renting multi-tenanted GPU from a neocloud.  Fixed versions: NvRoot in 610.57.04 / 595.91.07 / 580.178.04  no sysctl or seccomp workaround.  Disclaimer: I work at Stealthium, alongside the team that found these. Happy to answer questions on exposure  &#32; submitted by &#32;  /u/ChrisAtStealthium   [link] &#32; [comments]",
+      "pubDate": "2026-11-12T17:09:00+00:00",
+      "source": "r/netsec",
+      "cat": "community",
+      "sev": "high",
+      "tags": [
+        {
+          "t": "CVE-2026-47591",
+          "cls": "cve"
+        }
+      ],
+      "iocs": {
+        "cves": [
+          "CVE-2026-47591"
+        ],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
       "id": "r/nets-d307531cbfa9",
       "title": "History of Password Cracking",
       "link": "https://www.reddit.com/r/netsec/comments/1xtz6sk/history_of_password_cracking/",
@@ -3897,11 +3989,11 @@
       "ts": 0
     },
     {
-      "id": "r/nets-4c32fb4c5cce",
-      "title": "ScriptBlock Smuggling - AMSI Evasion",
-      "link": "https://www.reddit.com/r/netsec/comments/1xtj92s/scriptblock_smuggling_amsi_evasion/",
-      "desc": "&#32; submitted by &#32;  /u/netbiosX   [link] &#32; [comments]",
-      "pubDate": "2026-11-11T14:33:04+00:00",
+      "id": "r/nets-5cba13c0728c",
+      "title": "Claude Code VSCode Plugin: Workspace Escape Via Misleading Permission Prompt",
+      "link": "https://www.reddit.com/r/netsec/comments/1xudxlg/claude_code_vscode_plugin_workspace_escape_via/",
+      "desc": "&#32; submitted by &#32;  /u/ultrastrik3   [link] &#32; [comments]",
+      "pubDate": "2026-11-12T14:18:32+00:00",
       "source": "r/netsec",
       "cat": "community",
       "sev": "medium",
@@ -3916,11 +4008,11 @@
       "ts": 0
     },
     {
-      "id": "r/nets-ff6846c78e0e",
-      "title": "Hide and Stream: Ambient Aircraft-DopplerGeolocation of Live Audio, and a Defense",
-      "link": "https://www.reddit.com/r/netsec/comments/1xtkb4y/hide_and_stream_ambient/",
-      "desc": "Working draft (potential DEFCON publication). critique welcome  &#32; submitted by &#32;  /u/lymn   [link] &#32; [comments]",
-      "pubDate": "2026-11-11T15:15:12+00:00",
+      "id": "r/nets-4c32fb4c5cce",
+      "title": "ScriptBlock Smuggling - AMSI Evasion",
+      "link": "https://www.reddit.com/r/netsec/comments/1xtj92s/scriptblock_smuggling_amsi_evasion/",
+      "desc": "&#32; submitted by &#32;  /u/netbiosX   [link] &#32; [comments]",
+      "pubDate": "2026-11-11T14:33:04+00:00",
       "source": "r/netsec",
       "cat": "community",
       "sev": "medium",
@@ -3943,6 +4035,25 @@
       "source": "r/netsec",
       "cat": "community",
       "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "r/nets-ff6846c78e0e",
+      "title": "Hide and Stream: Ambient Aircraft-DopplerGeolocation of Live Audio, and a Defense",
+      "link": "https://www.reddit.com/r/netsec/comments/1xtkb4y/hide_and_stream_ambient/",
+      "desc": "Working draft (potential DEFCON publication). critique welcome  &#32; submitted by &#32;  /u/lymn   [link] &#32; [comments]",
+      "pubDate": "2026-11-11T15:15:12+00:00",
+      "source": "r/netsec",
+      "cat": "community",
+      "sev": "medium",
       "tags": [],
       "iocs": {
         "cves": [],
@@ -4019,82 +4130,6 @@
       "source": "r/netsec",
       "cat": "community",
       "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "r/nets-5ee33df56c59",
-      "title": "IP snowshoeing under US .gov email via a whitelisted AmazonSES typo in SPF",
-      "link": "https://www.reddit.com/r/netsec/comments/1xry7z3/ip_snowshoeing_under_us_gov_email_via_a/",
-      "desc": "UPDATE: Livingston County, MI, has removed amzonses[.]com from its SPF record. It had been there since at least November 2023, and when we checked, it authorized 32,066 IPs to send email as milivcounty[.]gov Since our research on US government domains went public, several government organizations have made changes to their DNS. The City of Waynesboro, TN has fixed the typo in its MX record, and th",
-      "pubDate": "2026-11-09T17:41:19+00:00",
-      "source": "r/netsec",
-      "cat": "community",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "r/nets-2f136ff4ff88",
-      "title": "Certificate authority list: every CA's incident record since 2017",
-      "link": "https://www.reddit.com/r/netsec/comments/1xrsyyg/certificate_authority_list_every_cas_incident/",
-      "desc": "CAs found 17% of their own incidents in 2026 so far, down from 29% last year and 59% in 2022. Researchers, root programs, and other outsiders found the rest. That's from a dataset we built of every TLS incident in Mozilla's CA program since 2017 (1,581 as of November 7). 2026 is already the busiest year, with 338. Only 11 incidents in the whole set are critical, and eMudhra's computable keys are t",
-      "pubDate": "2026-11-09T14:24:35+00:00",
-      "source": "r/netsec",
-      "cat": "community",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "r/nets-0a1c2453bae8",
-      "title": "Tricking Deepseek Into Not Hacking Your Website",
-      "link": "https://www.reddit.com/r/netsec/comments/1xr332o/tricking_deepseek_into_not_hacking_your_website/",
-      "desc": "&#32; submitted by &#32;  /u/utku1337   [link] &#32; [comments]",
-      "pubDate": "2026-11-08T16:57:11+00:00",
-      "source": "r/netsec",
-      "cat": "community",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "r/nets-889e639f3fc6",
-      "title": "Pwning Home Assistant Green: Pre-Auth RCE in Eclipse Mosquitto",
-      "link": "https://www.reddit.com/r/netsec/comments/1xr33yo/pwning_home_assistant_green_preauth_rce_in/",
-      "desc": "&#32; submitted by &#32;  /u/parzel   [link] &#32; [comments]",
-      "pubDate": "2026-11-08T16:58:09+00:00",
-      "source": "r/netsec",
-      "cat": "community",
-      "sev": "critical",
       "tags": [],
       "iocs": {
         "cves": [],
