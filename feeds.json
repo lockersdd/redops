@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T20:17:11.166937+00:00",
+  "generated_at": "2026-11-13T01:22:03.455663+00:00",
   "sources_ok": 16,
   "sources_total": 20,
   "source_status": {
@@ -601,6 +601,25 @@
       "ts": 0
     },
     {
+      "id": "Securi-c6a9e9e71d88",
+      "title": "Microsoft 365 Outage Disrupts Outlook, Exchange Online and Teams",
+      "link": "https://www.securityweek.com/microsoft-365-outage-disrupts-outlook-exchange-online-and-teams/",
+      "desc": "Microsoft says failed server health checks disrupted Outlook and other Microsoft 365 services. The company is still investigating the cause and has disclosed no evidence of a cyberattack.\nThe post Microsoft 365 Outage Disrupts Outlook, Exchange Online and Teams appeared first on SecurityWeek.",
+      "pubDate": "Thu, 12 Nov 2026 20:55:30 +0000",
+      "source": "SecurityWeek",
+      "cat": "threats",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
       "id": "Securi-387824c09dbd",
       "title": "Apache Patches Critical HTTP Server RCE Found by Anthropic, Google",
       "link": "https://www.securityweek.com/apache-patches-critical-http-server-rce-found-by-anthropic-google/",
@@ -767,25 +786,6 @@
       "pubDate": "Thu, 12 Nov 2026 08:38:47 +0000",
       "source": "SecurityWeek",
       "cat": "malware",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "Securi-650623772dc2",
-      "title": "Today: CISO Forum Virtual Summit 2026 Day 2 – Join Cybersecurity Leaders Online",
-      "link": "https://www.securityweek.com/today-ciso-forum-virtual-summit-2026-join-global-cybersecurity-leaders/",
-      "desc": "Designed for cybersecurity leaders, this immersive two-day virtual event is your premier destination to discuss, share, and learn innovative risk management and defense strategies defining the modern enterprise.\nThe post Today: CISO Forum Virtual Summit 2026 Day 2 &#8211; Join Cybersecurity Leaders Online appeared first on SecurityWeek.",
-      "pubDate": "Wed, 11 Nov 2026 16:29:42 +0000",
-      "source": "SecurityWeek",
-      "cat": "threats",
       "sev": "medium",
       "tags": [],
       "iocs": {
@@ -2541,18 +2541,18 @@
       "sev": "high",
       "tags": [
         {
-          "t": "CVE-2026-88771",
+          "t": "CVE-2026-88772",
           "cls": "cve"
         },
         {
-          "t": "CVE-2026-88772",
+          "t": "CVE-2026-88771",
           "cls": "cve"
         }
       ],
       "iocs": {
         "cves": [
-          "CVE-2026-88771",
-          "CVE-2026-88772"
+          "CVE-2026-88772",
+          "CVE-2026-88771"
         ],
         "ips": [],
         "hashes": []
@@ -3880,14 +3880,14 @@
       "ts": 0
     },
     {
-      "id": "r/nets-d508eabae284",
-      "title": "How we defended against an AI-driven ARTEX attack",
-      "link": "https://www.reddit.com/r/netsec/comments/1xucxqr/how_we_defended_against_an_aidriven_artex_attack/",
-      "desc": "&#32; submitted by &#32;  /u/Far_Ice2481   [link] &#32; [comments]",
-      "pubDate": "2026-11-12T13:36:34+00:00",
+      "id": "r/nets-a3b86048a069",
+      "title": "OWASP Top 10 Neocloud and AI Data Center Security Risks project released",
+      "link": "https://www.reddit.com/r/netsec/comments/1xurha8/owasp_top_10_neocloud_and_ai_data_center_security/",
+      "desc": "&#32; submitted by &#32;  /u/Pale_Fly_2673   [link] &#32; [comments]",
+      "pubDate": "2026-11-12T22:58:44+00:00",
       "source": "r/netsec",
       "cat": "community",
-      "sev": "high",
+      "sev": "medium",
       "tags": [],
       "iocs": {
         "cves": [],
@@ -3917,6 +3917,63 @@
         "cves": [
           "CVE-2026-6460"
         ],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "r/nets-d508eabae284",
+      "title": "How we defended against an AI-driven ARTEX attack",
+      "link": "https://www.reddit.com/r/netsec/comments/1xucxqr/how_we_defended_against_an_aidriven_artex_attack/",
+      "desc": "&#32; submitted by &#32;  /u/Far_Ice2481   [link] &#32; [comments]",
+      "pubDate": "2026-11-12T13:36:34+00:00",
+      "source": "r/netsec",
+      "cat": "community",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "r/nets-35f83ddcfcfb",
+      "title": "Massive ‘wfx-loot’ Campaign Probes Over 60,000 GitHub Repositories to Steal CI and Cloud Secrets",
+      "link": "https://www.reddit.com/r/netsec/comments/1xuug3s/massive_wfxloot_campaign_probes_over_60000_github/",
+      "desc": "&#32; submitted by &#32;  /u/Much-Television-9449   [link] &#32; [comments]",
+      "pubDate": "2026-11-13T01:12:20+00:00",
+      "source": "r/netsec",
+      "cat": "community",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "r/nets-6ac35881625b",
+      "title": "JSON Schema References Considered Harmful",
+      "link": "https://www.reddit.com/r/netsec/comments/1xuqxqq/json_schema_references_considered_harmful/",
+      "desc": "&#32; submitted by &#32;  /u/allacebeats   [link] &#32; [comments]",
+      "pubDate": "2026-11-12T22:35:34+00:00",
+      "source": "r/netsec",
+      "cat": "community",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
         "ips": [],
         "hashes": []
       },
@@ -4027,25 +4084,6 @@
       "ts": 0
     },
     {
-      "id": "r/nets-e8500c22d658",
-      "title": "Qlik Sense Servers Hit With PowerShell Reverse Shells; Attacker Server Holds ActiveMQ and Veeam Exploits",
-      "link": "https://www.reddit.com/r/netsec/comments/1xtjslt/qlik_sense_servers_hit_with_powershell_reverse/",
-      "desc": "&#32; submitted by &#32;  /u/Much-Television-9449   [link] &#32; [comments]",
-      "pubDate": "2026-11-11T14:55:07+00:00",
-      "source": "r/netsec",
-      "cat": "community",
-      "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
       "id": "r/nets-ff6846c78e0e",
       "title": "Hide and Stream: Ambient Aircraft-DopplerGeolocation of Live Audio, and a Defense",
       "link": "https://www.reddit.com/r/netsec/comments/1xtkb4y/hide_and_stream_ambient/",
@@ -4065,30 +4103,11 @@
       "ts": 0
     },
     {
-      "id": "r/nets-07ee12c21210",
-      "title": "Cracking Server 2022 NTLMv1-SSP Hashes with Rainbow Tables",
-      "link": "https://www.reddit.com/r/netsec/comments/1xswu2e/cracking_server_2022_ntlmv1ssp_hashes_with/",
-      "desc": "A while back, I had released a blog showing that NTLMv1 downgrade attacks still work on Windows Server 2022! While it isn't a default setting, it's still a misconfiguration to potentially look for. If a DC’s LmCompatibilityLevel is set to 0-2, you can coerce authentication, strip Extended Session Security (ESS), and obtain an NTLMv1-SSP hash that’s crackable with a rainbow table. :) Blog: https://",
-      "pubDate": "2026-11-10T19:53:18+00:00",
-      "source": "r/netsec",
-      "cat": "community",
-      "sev": "critical",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "r/nets-331237567162",
-      "title": "Electron, we have a problem",
-      "link": "https://www.reddit.com/r/netsec/comments/1xskopy/electron_we_have_a_problem/",
-      "desc": "Many Electron apps auto-update without verifying signatures. Many also still trust the compromised eMudhra certificates. Together, that lets an attacker on your network install malware on your machine. I've compiled a list of notable Electron apps, installed them in a lab, and test which still trust the eMudhra certs, compared to whether they verify update signatures. You can find the full table o",
-      "pubDate": "2026-11-10T11:38:05+00:00",
+      "id": "r/nets-e8500c22d658",
+      "title": "Qlik Sense Servers Hit With PowerShell Reverse Shells; Attacker Server Holds ActiveMQ and Veeam Exploits",
+      "link": "https://www.reddit.com/r/netsec/comments/1xtjslt/qlik_sense_servers_hit_with_powershell_reverse/",
+      "desc": "&#32; submitted by &#32;  /u/Much-Television-9449   [link] &#32; [comments]",
+      "pubDate": "2026-11-11T14:55:07+00:00",
       "source": "r/netsec",
       "cat": "community",
       "sev": "high",
@@ -4103,33 +4122,14 @@
       "ts": 0
     },
     {
-      "id": "r/nets-957491d5ca57",
-      "title": "Supabase Security findings why RLS is only 25% of the issues",
-      "link": "https://www.reddit.com/r/netsec/comments/1xt0jrg/supabase_security_findings_why_rls_is_only_25_of/",
-      "desc": "&#32; submitted by &#32;  /u/1thirteenthirtyseven   [link] &#32; [comments]",
-      "pubDate": "2026-11-10T22:21:14+00:00",
+      "id": "r/nets-07ee12c21210",
+      "title": "Cracking Server 2022 NTLMv1-SSP Hashes with Rainbow Tables",
+      "link": "https://www.reddit.com/r/netsec/comments/1xswu2e/cracking_server_2022_ntlmv1ssp_hashes_with/",
+      "desc": "A while back, I had released a blog showing that NTLMv1 downgrade attacks still work on Windows Server 2022! While it isn't a default setting, it's still a misconfiguration to potentially look for. If a DC’s LmCompatibilityLevel is set to 0-2, you can coerce authentication, strip Extended Session Security (ESS), and obtain an NTLMv1-SSP hash that’s crackable with a rainbow table. :) Blog: https://",
+      "pubDate": "2026-11-10T19:53:18+00:00",
       "source": "r/netsec",
       "cat": "community",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "r/nets-8890364eeef7",
-      "title": "Kubernetes Non-Core Security Audit",
-      "link": "https://www.reddit.com/r/netsec/comments/1xspr6l/kubernetes_noncore_security_audit/",
-      "desc": "&#32; submitted by &#32;  /u/smaury   [link] &#32; [comments]",
-      "pubDate": "2026-11-10T15:27:08+00:00",
-      "source": "r/netsec",
-      "cat": "community",
-      "sev": "medium",
+      "sev": "critical",
       "tags": [],
       "iocs": {
         "cves": [],
