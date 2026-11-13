@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T16:59:59.741927+00:00",
+  "generated_at": "2026-11-13T22:30:30.160101+00:00",
   "sources_ok": 16,
   "sources_total": 20,
   "source_status": {
@@ -90,6 +90,32 @@
   },
   "total": 205,
   "articles": [
+    {
+      "id": "TheHa-2023a953c54a",
+      "title": "PostgreSQL Patches 52 Flaws, Including 22-Year-Old Bug Enabling Authenticated RCE",
+      "link": "https://thehackernews.com/2026/11/postgresql-patches-52-flaws-including.html",
+      "desc": "A type confusion flaw in PostgreSQL lets a database user who can create objects run code on the server. Updates released yesterday fix it, along with 51 other security flaws. Full protection from this flaw also requires rebuilding any C-language extensions installed on the server.\n\nThe flaw, tracked as CVE-2026-6460, has a CVSS score of 8.8. Any code run this way has the rights of the operating",
+      "pubDate": "Fri, 13 Nov 2026 22:23:08 +0530",
+      "source": "The Hacker News",
+      "cat": "threats",
+      "sev": "critical",
+      "tags": [
+        {
+          "t": "CVE-2026-6460",
+          "cls": "cve"
+        }
+      ],
+      "iocs": {
+        "cves": [
+          "CVE-2026-6460"
+        ],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
     {
       "id": "TheHa-5e45d9512a20",
       "title": "New Mior and Skyfall Attacks Let Rogue Cloud Hosts Steal Secrets From AMD SEV-SNP VMs",
@@ -364,32 +390,6 @@
       "ts": 0
     },
     {
-      "id": "TheHa-411d60bc04df",
-      "title": "SCKit Malware Turns ScreenConnect Support Sessions Into Potential MSP Attack Paths",
-      "link": "https://thehackernews.com/2026/11/sckit-malware-targets-screenconnect.html",
-      "desc": "The ongoing campaign targeting ConnectWise ScreenConnect deployments involves the exploitation of a now-patched critical security flaw in the remote access software, and not a new vulnerability, it has emerged.\n\nBlackpoint Cyber's Adversary Pursuit Group (APG), which shared the details with The Hacker News, said the recovered attacker toolkit exploits CVE-2026-84869 (CVSS score: 9.9), an",
-      "pubDate": "Thu, 12 Nov 2026 18:38:28 +0530",
-      "source": "The Hacker News",
-      "cat": "malware",
-      "sev": "high",
-      "tags": [
-        {
-          "t": "CVE-2026-84869",
-          "cls": "cve"
-        }
-      ],
-      "iocs": {
-        "cves": [
-          "CVE-2026-84869"
-        ],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
       "id": "Krebs-f0ea36af7be1",
       "title": "Who Runs the Ransomware Group Qilin?",
       "link": "https://krebsonsecurity.com/2026/11/who-runs-the-ransomware-group-qilin/",
@@ -580,6 +580,25 @@
       "ts": 0
     },
     {
+      "id": "Securi-78919cb69128",
+      "title": "FAA Ground Stop Issued Due to ‘Extraordinary Circumstances’",
+      "link": "https://www.securityweek.com/faa-ground-stop-issued-due-to-extraordinary-circumstances/",
+      "desc": "Federal officials have yet to say what caused the communications disruption or whether they are investigating a possible cyberattack.\nThe post FAA Ground Stop Issued Due to &#8216;Extraordinary Circumstances&#8217; appeared first on SecurityWeek.",
+      "pubDate": "Fri, 13 Nov 2026 21:33:27 +0000",
+      "source": "SecurityWeek",
+      "cat": "threats",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
       "id": "Securi-cadc20072672",
       "title": "In Other News: New CISA Director Nominee, Connected Car Hacking, Baker Tilly Data Breach",
       "link": "https://www.securityweek.com/in-other-news-new-cisa-director-nominee-connected-car-hacking-baker-tilly-data-breach/",
@@ -750,25 +769,6 @@
         "cves": [
           "CVE-2026-123039"
         ],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "Securi-bfeda367d36e",
-      "title": "Hackers Exploit New N-central Zero-Day Hours After PoC Publication",
-      "link": "https://www.securityweek.com/hackers-exploit-new-n-central-zero-day-hours-after-poc-publication/",
-      "desc": "Dubbed 4EverAble2Shell, the flaw could allow remote, unauthenticated attackers to execute code with root privileges.\nThe post Hackers Exploit New N-central Zero-Day Hours After PoC Publication appeared first on SecurityWeek.",
-      "pubDate": "Fri, 13 Nov 2026 07:20:50 +0000",
-      "source": "SecurityWeek",
-      "cat": "threats",
-      "sev": "critical",
-      "tags": [],
-      "iocs": {
-        "cves": [],
         "ips": [],
         "hashes": []
       },
@@ -974,6 +974,25 @@
       "ts": 0
     },
     {
+      "id": "HackRe-d9ac8348e274",
+      "title": "GNSS Spoofing and Jamming: What They Do to RTK Positioning and How Field Teams Can Spot Them",
+      "link": "https://hackread.com/gnss-spoofing-jamming-rtk-positioning-teams-spot/",
+      "desc": "Satellite positioning can fail even when a rover appears normal. Its fixed solution may disappear or its coordinates&#8230;",
+      "pubDate": "Fri, 13 Nov 2026 20:58:12 +0000",
+      "source": "HackRead",
+      "cat": "threats",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
       "id": "HackRe-517953fe1690",
       "title": "FBI Disrupts North Korean FaceStealer Scheme Behind $400M Crypto Theft",
       "link": "https://hackread.com/fbi-disrupts-north-korean-facestealer-crypto-theft/",
@@ -1134,25 +1153,6 @@
       "source": "HackRead",
       "cat": "threats",
       "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "HackRe-9f4074f611c4",
-      "title": "TinstaPorn Android Malware Poses as Casino App to Collect User Data",
-      "link": "https://hackread.com/tinstaporn-android-malware-casino-app-collect-user-data/",
-      "desc": "A fake Macau casino app uses rigged betting odds to exploit gamblers while collecting phone numbers, location data&#8230;",
-      "pubDate": "Wed, 11 Nov 2026 12:50:06 +0000",
-      "source": "HackRead",
-      "cat": "malware",
-      "sev": "high",
       "tags": [],
       "iocs": {
         "cves": [],
@@ -2347,18 +2347,18 @@
       "sev": "high",
       "tags": [
         {
-          "t": "CVE-2026-109618",
+          "t": "CVE-2026-109619",
           "cls": "cve"
         },
         {
-          "t": "CVE-2026-109619",
+          "t": "CVE-2026-109618",
           "cls": "cve"
         }
       ],
       "iocs": {
         "cves": [
-          "CVE-2026-109618",
-          "CVE-2026-109619"
+          "CVE-2026-109619",
+          "CVE-2026-109618"
         ],
         "ips": [],
         "hashes": []
@@ -2499,18 +2499,18 @@
       "sev": "high",
       "tags": [
         {
-          "t": "CVE-2026-88771",
+          "t": "CVE-2026-88772",
           "cls": "cve"
         },
         {
-          "t": "CVE-2026-88772",
+          "t": "CVE-2026-88771",
           "cls": "cve"
         }
       ],
       "iocs": {
         "cves": [
-          "CVE-2026-88771",
-          "CVE-2026-88772"
+          "CVE-2026-88772",
+          "CVE-2026-88771"
         ],
         "ips": [],
         "hashes": []
@@ -2528,6 +2528,25 @@
       "source": "Sophos Research",
       "cat": "malware",
       "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "Malwar-c718d78eaddc",
+      "title": "New York City votes to ban surveillance pricing",
+      "link": "https://www.malwarebytes.com/blog/news/2026/11/new-york-city-council-votes-to-ban-surveillance-pricing",
+      "desc": "The bill would stop companies from using personal data to set individualized prices. Here’s what that means for shoppers.",
+      "pubDate": "Fri, 13 Nov 2026 16:52:36 GMT",
+      "source": "Malwarebytes",
+      "cat": "malware",
+      "sev": "medium",
       "tags": [],
       "iocs": {
         "cves": [],
@@ -2558,8 +2577,8 @@
       "ts": 0
     },
     {
-      "id": "Malwar-eea19ef9c48d",
-      "title": "Worldwide Microsoft 365 outage disrupts Outlook, SharePoint, Teams, and more",
+      "id": "Malwar-81d987e84e4f",
+      "title": "Worldwide Microsoft 365 outage disrupts Outlook, SharePoint, Teams, and more [updated]",
       "link": "https://www.malwarebytes.com/blog/news/2026/11/worldwide-microsoft-365-outage-disrupts-outlook-sharepoint-teams-and-more",
       "desc": "A worldwide Microsoft 365 outage is having a severe impact on companies that rely on services like Outlook, Sharepoint, and Teams.",
       "pubDate": "Fri, 13 Nov 2026 08:35:18 GMT",
@@ -2805,25 +2824,6 @@
       "ts": 0
     },
     {
-      "id": "Malwar-a2be8173269b",
-      "title": "Big Tech sues over California plan to limit kids’ scrolling",
-      "link": "https://www.malwarebytes.com/blog/news/2026/11/big-tech-sues-over-california-plan-to-limit-kids-scrolling",
-      "desc": "Social media platforms Google, Meta, and TikTok say California’s law violates their free-speech rights and interferes with parents’ decisions.",
-      "pubDate": "Fri, 06 Nov 2026 15:06:02 GMT",
-      "source": "Malwarebytes",
-      "cat": "malware",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
       "id": "SANSI-02b7db90de81",
       "title": "Macfinger ClickFix campaign sends DownTheDRAIN infostealer for macOS, (Fri, Nov 13th)",
       "link": "https://isc.sans.edu/diary/rss/33518",
@@ -3021,6 +3021,25 @@
       "ts": 0
     },
     {
+      "id": "Schnei-822a6969275d",
+      "title": "Friday Squid Blogging: Pacific Flying Squid Populations Dropping in Korean Waters",
+      "link": "https://www.schneier.com/blog/archives/2026/11/friday-squid-blogging-pacific-flying-squid-populations-dropping-in-korean-waters.html",
+      "desc": "Climate change is the issue.\nAs usual, you can also use this squid post to talk about the security stories in the news that I haven&#8217;t covered.\nBlog moderation policy.",
+      "pubDate": "2026-11-13T22:00:46Z",
+      "source": "Schneier",
+      "cat": "tools",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
       "id": "Schnei-649f245c0604",
       "title": "AI Doesn’t Have to Go Rogue to Break the World",
       "link": "https://www.schneier.com/blog/archives/2026/11/ai-doesnt-have-to-go-rogue-to-break-the-world.html",
@@ -3181,25 +3200,6 @@
       "source": "Schneier",
       "cat": "tools",
       "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "Schnei-e4c455ecd0b3",
-      "title": "Friday Squid Blogging: Bigfin Squid Off California Coast",
-      "link": "https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-bigfin-squid-off-california-coast.html",
-      "desc": "Neat video:\nThe sighting, announced September 2, marks the first time anyone has spotted a live bigfin squid, which belongs to the Magnapinna genus, in the northeastern Pacific Ocean.\nAs usual, you can also use this squid post to talk about the security stories in the news that I haven&#8217;t covered.\nBlog moderation policy.",
-      "pubDate": "2026-10-30T21:04:36Z",
-      "source": "Schneier",
-      "cat": "tools",
-      "sev": "medium",
       "tags": [],
       "iocs": {
         "cves": [],
@@ -3373,18 +3373,18 @@
       "sev": "high",
       "tags": [
         {
-          "t": "CVE-2026-109618",
+          "t": "CVE-2026-109619",
           "cls": "cve"
         },
         {
-          "t": "CVE-2026-109619",
+          "t": "CVE-2026-109618",
           "cls": "cve"
         }
       ],
       "iocs": {
         "cves": [
-          "CVE-2026-109618",
-          "CVE-2026-109619"
+          "CVE-2026-109619",
+          "CVE-2026-109618"
         ],
         "ips": [],
         "hashes": []
@@ -3831,11 +3831,11 @@
       "ts": 0
     },
     {
-      "id": "r/nets-a3b86048a069",
-      "title": "OWASP Top 10 Neocloud and AI Data Center Security Risks project released",
-      "link": "https://www.reddit.com/r/netsec/comments/1xurha8/owasp_top_10_neocloud_and_ai_data_center_security/",
-      "desc": "&#32; submitted by &#32;  /u/Pale_Fly_2673   [link] &#32; [comments]",
-      "pubDate": "2026-11-12T22:58:44+00:00",
+      "id": "r/nets-3b82ce4590af",
+      "title": "Sharing ARTEX detection signature pack - from IOC w/playbook process",
+      "link": "https://www.reddit.com/r/netsec/comments/1xv53bm/sharing_artex_detection_signature_pack_from_ioc/",
+      "desc": "&#32; submitted by &#32;  /u/mmd0xFF   [link] &#32; [comments]",
+      "pubDate": "2026-11-13T11:08:34+00:00",
       "source": "r/netsec",
       "cat": "community",
       "sev": "medium",
@@ -3850,11 +3850,11 @@
       "ts": 0
     },
     {
-      "id": "r/nets-3b82ce4590af",
-      "title": "Sharing ARTEX detection signature pack - from IOC w/playbook process",
-      "link": "https://www.reddit.com/r/netsec/comments/1xv53bm/sharing_artex_detection_signature_pack_from_ioc/",
-      "desc": "&#32; submitted by &#32;  /u/mmd0xFF   [link] &#32; [comments]",
-      "pubDate": "2026-11-13T11:08:34+00:00",
+      "id": "r/nets-a3b86048a069",
+      "title": "OWASP Top 10 Neocloud and AI Data Center Security Risks project released",
+      "link": "https://www.reddit.com/r/netsec/comments/1xurha8/owasp_top_10_neocloud_and_ai_data_center_security/",
+      "desc": "&#32; submitted by &#32;  /u/Pale_Fly_2673   [link] &#32; [comments]",
+      "pubDate": "2026-11-12T22:58:44+00:00",
       "source": "r/netsec",
       "cat": "community",
       "sev": "medium",
@@ -3933,6 +3933,25 @@
       "ts": 0
     },
     {
+      "id": "r/nets-6ac35881625b",
+      "title": "JSON Schema References Considered Harmful",
+      "link": "https://www.reddit.com/r/netsec/comments/1xuqxqq/json_schema_references_considered_harmful/",
+      "desc": "&#32; submitted by &#32;  /u/allacebeats   [link] &#32; [comments]",
+      "pubDate": "2026-11-12T22:35:34+00:00",
+      "source": "r/netsec",
+      "cat": "community",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
       "id": "r/nets-ae7d622964cb",
       "title": "NvRoot (CVE-2026-47591) where in neocloud multi-tenant GPU environments, rent = root. Essentially it's a dirty page cache LPE using GPUs as catalyzer",
       "link": "https://www.reddit.com/r/netsec/comments/1xuidu1/nvroot_cve202647591_where_in_neocloud_multitenant/",
@@ -3951,25 +3970,6 @@
         "cves": [
           "CVE-2026-47591"
         ],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "r/nets-6ac35881625b",
-      "title": "JSON Schema References Considered Harmful",
-      "link": "https://www.reddit.com/r/netsec/comments/1xuqxqq/json_schema_references_considered_harmful/",
-      "desc": "&#32; submitted by &#32;  /u/allacebeats   [link] &#32; [comments]",
-      "pubDate": "2026-11-12T22:35:34+00:00",
-      "source": "r/netsec",
-      "cat": "community",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
         "ips": [],
         "hashes": []
       },
