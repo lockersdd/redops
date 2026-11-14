@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-14T16:30:05.858664+00:00",
-  "sources_ok": 16,
+  "generated_at": "2026-11-14T20:53:52.445604+00:00",
+  "sources_ok": 15,
   "sources_total": 20,
   "source_status": {
     "The Hacker News": {
@@ -20,8 +20,9 @@
       "articles": 10
     },
     "HackRead": {
-      "ok": true,
-      "articles": 10
+      "ok": false,
+      "articles": 0,
+      "error": "Invalid feed: <unknown>:94:2: mismatched tag"
     },
     "Exploit-DB": {
       "ok": true,
@@ -88,7 +89,7 @@
       "error": "429 Client Error: Too Many Requests for url: https://www.reddit.com/r/blueteamsec/.rss"
     }
   },
-  "total": 205,
+  "total": 195,
   "articles": [
     {
       "id": "TheHa-fa9afa81b1a4",
@@ -963,196 +964,6 @@
       "source": "GBHackers",
       "cat": "malware",
       "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "HackRe-907ccf31582d",
-      "title": "The Security Jobs Growing Around Enterprise AI Agents",
-      "link": "https://hackread.com/security-jobs-growing-around-enterprise-ai-agents/",
-      "desc": "Two years ago, most company AI use happened in a chat window. Today, AI assistants read shared mailboxes,&#8230;",
-      "pubDate": "Sat, 14 Nov 2026 13:04:01 +0000",
-      "source": "HackRead",
-      "cat": "threats",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "HackRe-d9ac8348e274",
-      "title": "GNSS Spoofing and Jamming: What They Do to RTK Positioning and How Field Teams Can Spot Them",
-      "link": "https://hackread.com/gnss-spoofing-jamming-rtk-positioning-teams-spot/",
-      "desc": "Satellite positioning can fail even when a rover appears normal. Its fixed solution may disappear or its coordinates&#8230;",
-      "pubDate": "Fri, 13 Nov 2026 20:58:12 +0000",
-      "source": "HackRead",
-      "cat": "threats",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "HackRe-517953fe1690",
-      "title": "FBI Disrupts North Korean FaceStealer Scheme Behind $400M Crypto Theft",
-      "link": "https://hackread.com/fbi-disrupts-north-korean-facestealer-crypto-theft/",
-      "desc": "The FaceStealer scheme used hijacked messaging accounts, fake video meetings and secretly recorded webcam footage to target cryptocurrency&#8230;",
-      "pubDate": "Fri, 13 Nov 2026 14:17:17 +0000",
-      "source": "HackRead",
-      "cat": "threats",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "HackRe-f2903d9ab195",
-      "title": "Agentic Finance Has an Accountability Gap, and KYA Aims to Close It",
-      "link": "https://hackread.com/agentic-finance-accountability-gap-kya-aims-close-it/",
-      "desc": "Know Your Agent (KYA) proposes identity, permissions and oversight for AI agents in finance, linking automated actions to people responsible for them.",
-      "pubDate": "Fri, 13 Nov 2026 10:31:18 +0000",
-      "source": "HackRead",
-      "cat": "threats",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "HackRe-bb278b37e6c5",
-      "title": "Hackers Use 4,837 Stolen GitHub Accounts to Target 61,764 Repositories",
-      "link": "https://hackread.com/hackers-stolen-github-accounts-target-repositories/",
-      "desc": "Hackers used 4,837 compromised GitHub accounts in the wfx-loot campaign to target repositories and steal developer credentials, cloud&#8230;",
-      "pubDate": "Fri, 13 Nov 2026 09:41:06 +0000",
-      "source": "HackRead",
-      "cat": "threats",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "HackRe-11885c6ec6a6",
-      "title": "How Beginner Creators Can Earn with the Temu Influencer Program This Black Friday",
-      "link": "https://hackread.com/temu-influencer-program-black-friday/",
-      "desc": "Black Friday is a major shopping occasion, making it a timely opportunity for creators to share gift ideas,&#8230;",
-      "pubDate": "Thu, 12 Nov 2026 17:28:14 +0000",
-      "source": "HackRead",
-      "cat": "threats",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "HackRe-78abdec9ca8d",
-      "title": "Hackers Abuse Microsoft SQL Servers to Deploy Monero Miner and Gh0st RAT",
-      "link": "https://hackread.com/hackers-abuse-microsoft-sql-servers-monero-miner-gh0st-rat/",
-      "desc": "SEO: Fortinet discovered a campaign where attackers brute-force exposed Microsoft SQL Server installations and abuse T-SQL commands to&#8230;",
-      "pubDate": "Thu, 12 Nov 2026 16:30:49 +0000",
-      "source": "HackRead",
-      "cat": "threats",
-      "sev": "critical",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "HackRe-c2eca0e6af09",
-      "title": "nDiligence Releases Four-Year Study Identifying a Critical Supply-Chain Vulnerability Across 50 Platform Types",
-      "link": "https://hackread.com/ndiligence-releases-four-year-study-identifying-a-critical-supply-chain-vulnerability-across-50-platform-types/",
-      "desc": "San Francisco, California, USA, 12th November 2026, CyberNewswire",
-      "pubDate": "Thu, 12 Nov 2026 13:15:03 +0000",
-      "source": "HackRead",
-      "cat": "threats",
-      "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "HackRe-8df452d49b33",
-      "title": "GhostMap Android Flaw Can Leave Phones Stuck in Crash Loop",
-      "link": "https://hackread.com/ghostmap-android-flaw-phones-stuck-crash-loop/",
-      "desc": "An Android security flaw could turn a seemingly ordinary app installation into a serious recovery problem, with some&#8230;",
-      "pubDate": "Thu, 12 Nov 2026 07:33:29 +0000",
-      "source": "HackRead",
-      "cat": "threats",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "HackRe-b0502ceda893",
-      "title": "When Market Data Can’t Be Trusted: Why Feed Integrity Matters to Order-Flow Analysis",
-      "link": "https://hackread.com/market-data-trust-feed-integrity-order-flow-analysis/",
-      "desc": "Missing trades, delayed quotes and wrong timestamps distort order-flow analysis. Learn how market data feed integrity affects charts and trading apps.",
-      "pubDate": "Wed, 11 Nov 2026 19:56:26 +0000",
-      "source": "HackRead",
-      "cat": "threats",
-      "sev": "medium",
       "tags": [],
       "iocs": {
         "cves": [],
@@ -2347,18 +2158,18 @@
       "sev": "high",
       "tags": [
         {
-          "t": "CVE-2026-109618",
+          "t": "CVE-2026-109619",
           "cls": "cve"
         },
         {
-          "t": "CVE-2026-109619",
+          "t": "CVE-2026-109618",
           "cls": "cve"
         }
       ],
       "iocs": {
         "cves": [
-          "CVE-2026-109618",
-          "CVE-2026-109619"
+          "CVE-2026-109619",
+          "CVE-2026-109618"
         ],
         "ips": [],
         "hashes": []
@@ -2499,18 +2310,18 @@
       "sev": "high",
       "tags": [
         {
-          "t": "CVE-2026-88772",
+          "t": "CVE-2026-88771",
           "cls": "cve"
         },
         {
-          "t": "CVE-2026-88771",
+          "t": "CVE-2026-88772",
           "cls": "cve"
         }
       ],
       "iocs": {
         "cves": [
-          "CVE-2026-88772",
-          "CVE-2026-88771"
+          "CVE-2026-88771",
+          "CVE-2026-88772"
         ],
         "ips": [],
         "hashes": []
@@ -3021,6 +2832,25 @@
       "ts": 0
     },
     {
+      "id": "Schnei-ac2663f490cd",
+      "title": "Upcoming Speaking Engagements",
+      "link": "https://www.schneier.com/blog/archives/2026/11/upcoming-speaking-engagements-62.html",
+      "desc": "This is a current list of where and when I am scheduled to speak:\n\nI’m speaking at the Catalyst Summit in Brampton, Ontario, Canada, on Wednesday, November 18, 2026.\nI’m speaking at QT Qonference 2026 in Toronto, Ontario, Canada, on Thursday, November 19, 2026.\n\nThe list is maintained on this page.",
+      "pubDate": "2026-11-14T17:02:39Z",
+      "source": "Schneier",
+      "cat": "tools",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
       "id": "Schnei-822a6969275d",
       "title": "Friday Squid Blogging: Pacific Flying Squid Populations Dropping in Korean Waters",
       "link": "https://www.schneier.com/blog/archives/2026/11/friday-squid-blogging-pacific-flying-squid-populations-dropping-in-korean-waters.html",
@@ -3178,25 +3008,6 @@
       "link": "https://www.schneier.com/blog/archives/2026/11/ais-hacking-the-law.html",
       "desc": "In both a 2021 essay and my 2022 book, A Hacker&#8217;s Mind, I talk about AIs finding vulnerabilities and exploits&#8212;hacking&#8212;the legal system.\nHere&#8217;s some demonstrations of this from Germany:\nLegal systems encode the foundations of social order in natural language. Similar to computer systems, the written law can contain vulnerabilities that invite exploitation.1 Courts absorb mos",
       "pubDate": "2026-11-03T12:01:00Z",
-      "source": "Schneier",
-      "cat": "tools",
-      "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "Schnei-b59500cca75a",
-      "title": "AI Vulnerability Finding",
-      "link": "https://www.schneier.com/blog/archives/2026/11/ai-vulnerability-finding-2.html",
-      "desc": "A comment:\n3% of &#8216;critical&#8217; software security bugs, in all of recorded history, have been found in the last month. This is on pace to find another ~100,000 bugs this year alone, adding ~26% more vulnerabilities to the all time total Do you realize how fucking insane that is?\nYes. It is a new world out there.",
-      "pubDate": "2026-11-02T12:02:34Z",
       "source": "Schneier",
       "cat": "tools",
       "sev": "high",
@@ -3392,18 +3203,18 @@
       "sev": "high",
       "tags": [
         {
-          "t": "CVE-2026-109618",
+          "t": "CVE-2026-109619",
           "cls": "cve"
         },
         {
-          "t": "CVE-2026-109619",
+          "t": "CVE-2026-109618",
           "cls": "cve"
         }
       ],
       "iocs": {
         "cves": [
-          "CVE-2026-109618",
-          "CVE-2026-109619"
+          "CVE-2026-109619",
+          "CVE-2026-109618"
         ],
         "ips": [],
         "hashes": []
