@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T09:58:02.412325+00:00",
+  "generated_at": "2026-11-14T16:30:05.858664+00:00",
   "sources_ok": 16,
   "sources_total": 20,
   "source_status": {
@@ -90,6 +90,32 @@
   },
   "total": 205,
   "articles": [
+    {
+      "id": "TheHa-fa9afa81b1a4",
+      "title": "Attackers Exploit UnrealIRCd Flaw That Enables Server-Level Command Injection",
+      "link": "https://thehackernews.com/2026/11/attackers-exploit-unrealircd-flaw-that.html",
+      "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added a high-severity security flaw impacting UnrealIRCd, an open-source Internet Relay Chat (IRC) server, to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation.\n\nThe vulnerability, tracked as CVE-2026-114713 (CVSS score: 8.6), is a case of improper neutralization of delimiters",
+      "pubDate": "Sat, 14 Nov 2026 18:08:35 +0530",
+      "source": "The Hacker News",
+      "cat": "threats",
+      "sev": "critical",
+      "tags": [
+        {
+          "t": "CVE-2026-114713",
+          "cls": "cve"
+        }
+      ],
+      "iocs": {
+        "cves": [
+          "CVE-2026-114713"
+        ],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
     {
       "id": "TheHa-2023a953c54a",
       "title": "PostgreSQL Patches 52 Flaws, Including 22-Year-Old Bug Enabling Authenticated RCE",
@@ -371,25 +397,6 @@
       "ts": 0
     },
     {
-      "id": "TheHa-db4862ae3cbd",
-      "title": "186 Fake AI Domains Redirect Users to ClickFix Lures, Browser Malware, and Search Hijackers",
-      "link": "https://thehackernews.com/2026/11/186-fake-ai-domains-redirect-users-to.html",
-      "desc": "Cybersecurity researchers have found that lookalike domains masquerading as artificial intelligence (AI) tools are being used to serve ClickFix-style lures, browser-hijacking malware, and a set of extensions that hijack user searches.\n\nThis delivery pattern has been codenamed TypoPrompting by Island.\n\n\"AI-app lookalikes that turn an attempt to reach a familiar tool into a prompt to verify,",
-      "pubDate": "Thu, 12 Nov 2026 20:45:40 +0530",
-      "source": "The Hacker News",
-      "cat": "malware",
-      "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
       "id": "Krebs-f0ea36af7be1",
       "title": "Who Runs the Ransomware Group Qilin?",
       "link": "https://krebsonsecurity.com/2026/11/who-runs-the-ransomware-group-qilin/",
@@ -580,6 +587,44 @@
       "ts": 0
     },
     {
+      "id": "Securi-9db3558260ce",
+      "title": "Is AI Making Us Worse at Cybersecurity?",
+      "link": "https://www.securityweek.com/is-ai-making-us-worse-at-cybersecurity/",
+      "desc": "Overreliance on AI could erode the creativity, clear communication, and critical thinking security teams need when there’s no playbook.\nThe post Is AI Making Us Worse at Cybersecurity? appeared first on SecurityWeek.",
+      "pubDate": "Sat, 14 Nov 2026 14:00:00 +0000",
+      "source": "SecurityWeek",
+      "cat": "threats",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "Securi-866711dd3862",
+      "title": "Apple Reveals How Secure Exclaves Shield Camera and Microphone Data",
+      "link": "https://www.securityweek.com/apple-reveals-how-secure-exclaves-shield-camera-and-microphone-data/",
+      "desc": "The tech giant has detailed the architecture designed to isolate ambient sensor data from the main OS on HomeView and new iPhones.\nThe post Apple Reveals How Secure Exclaves Shield Camera and Microphone Data appeared first on SecurityWeek.",
+      "pubDate": "Sat, 14 Nov 2026 11:00:00 +0000",
+      "source": "SecurityWeek",
+      "cat": "threats",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
       "id": "Securi-857e0aafdc42",
       "title": "No Signs of Hacking in FAA Ground Stop as FBI Reportedly Probes Software Update",
       "link": "https://www.securityweek.com/no-signs-of-hacking-in-faa-ground-stop-as-fbi-reportedly-probes-software-update/",
@@ -721,44 +766,6 @@
       "source": "SecurityWeek",
       "cat": "threats",
       "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "Securi-a7deb9a434d4",
-      "title": "OpenAI Unveils Daybreak Red Team, Defense Factory Security Tools",
-      "link": "https://www.securityweek.com/openai-unveils-daybreak-red-team-defense-factory-security-tools/",
-      "desc": "Daybreak Red Team pentests web applications with AI agents, while Defense Factory investigates security findings and prepares patches.\nThe post OpenAI Unveils Daybreak Red Team, Defense Factory Security Tools appeared first on SecurityWeek.",
-      "pubDate": "Fri, 13 Nov 2026 09:21:01 +0000",
-      "source": "SecurityWeek",
-      "cat": "redteam",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "Securi-122490caec32",
-      "title": "Nightmare Eclipse Drops Windows Zero-Day Exploit ‘SignDrop’",
-      "link": "https://www.securityweek.com/nightmare-eclipse-drops-windows-zero-day-exploit-signdrop/",
-      "desc": "It abuses CLFS and Windows Defender to trigger arbitrary file creation in the context of the antimalware process.\nThe post Nightmare Eclipse Drops Windows Zero-Day Exploit &#8216;SignDrop&#8217; appeared first on SecurityWeek.",
-      "pubDate": "Fri, 13 Nov 2026 08:50:36 +0000",
-      "source": "SecurityWeek",
-      "cat": "malware",
-      "sev": "critical",
       "tags": [],
       "iocs": {
         "cves": [],
@@ -967,6 +974,25 @@
       "ts": 0
     },
     {
+      "id": "HackRe-907ccf31582d",
+      "title": "The Security Jobs Growing Around Enterprise AI Agents",
+      "link": "https://hackread.com/security-jobs-growing-around-enterprise-ai-agents/",
+      "desc": "Two years ago, most company AI use happened in a chat window. Today, AI assistants read shared mailboxes,&#8230;",
+      "pubDate": "Sat, 14 Nov 2026 13:04:01 +0000",
+      "source": "HackRead",
+      "cat": "threats",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
       "id": "HackRe-d9ac8348e274",
       "title": "GNSS Spoofing and Jamming: What They Do to RTK Positioning and How Field Teams Can Spot Them",
       "link": "https://hackread.com/gnss-spoofing-jamming-rtk-positioning-teams-spot/",
@@ -1124,25 +1150,6 @@
       "link": "https://hackread.com/market-data-trust-feed-integrity-order-flow-analysis/",
       "desc": "Missing trades, delayed quotes and wrong timestamps distort order-flow analysis. Learn how market data feed integrity affects charts and trading apps.",
       "pubDate": "Wed, 11 Nov 2026 19:56:26 +0000",
-      "source": "HackRead",
-      "cat": "threats",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "HackRe-6ea7b31db86c",
-      "title": "Criminal IP Launches New TI Feed App on Splunkbase for Automated Threat Detection",
-      "link": "https://hackread.com/criminal-ip-launches-new-ti-feed-app-on-splunkbase-for-automated-threat-detection/",
-      "desc": "Torrance, USA, 11th November 2026, CyberNewswire",
-      "pubDate": "Wed, 11 Nov 2026 14:00:05 +0000",
       "source": "HackRead",
       "cat": "threats",
       "sev": "medium",
@@ -2492,18 +2499,18 @@
       "sev": "high",
       "tags": [
         {
-          "t": "CVE-2026-88771",
+          "t": "CVE-2026-88772",
           "cls": "cve"
         },
         {
-          "t": "CVE-2026-88772",
+          "t": "CVE-2026-88771",
           "cls": "cve"
         }
       ],
       "iocs": {
         "cves": [
-          "CVE-2026-88771",
-          "CVE-2026-88772"
+          "CVE-2026-88772",
+          "CVE-2026-88771"
         ],
         "ips": [],
         "hashes": []
@@ -3824,6 +3831,25 @@
       "ts": 0
     },
     {
+      "id": "r/nets-b8c786b87a6a",
+      "title": "Ruohang Feng: PostgreSQL Just Patched 52 CVEs in a Single Minor Release",
+      "link": "https://www.reddit.com/r/netsec/comments/1xw5ldq/ruohang_feng_postgresql_just_patched_52_cves_in_a/",
+      "desc": "&#32; submitted by &#32;  /u/macroKnoll37   [link] &#32; [comments]",
+      "pubDate": "2026-11-14T15:48:48+00:00",
+      "source": "r/netsec",
+      "cat": "community",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
       "id": "r/nets-ff0d2258661d",
       "title": "Helping Developers Writing Code Analyzer Queries",
       "link": "https://www.reddit.com/r/netsec/comments/1xvqwd5/helping_developers_writing_code_analyzer_queries/",
@@ -3945,6 +3971,25 @@
       "ts": 0
     },
     {
+      "id": "r/nets-6ac35881625b",
+      "title": "JSON Schema References Considered Harmful",
+      "link": "https://www.reddit.com/r/netsec/comments/1xuqxqq/json_schema_references_considered_harmful/",
+      "desc": "&#32; submitted by &#32;  /u/allacebeats   [link] &#32; [comments]",
+      "pubDate": "2026-11-12T22:35:34+00:00",
+      "source": "r/netsec",
+      "cat": "community",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
       "id": "r/nets-ae7d622964cb",
       "title": "NvRoot (CVE-2026-47591) where in neocloud multi-tenant GPU environments, rent = root. Essentially it's a dirty page cache LPE using GPUs as catalyzer",
       "link": "https://www.reddit.com/r/netsec/comments/1xuidu1/nvroot_cve202647591_where_in_neocloud_multitenant/",
@@ -3963,25 +4008,6 @@
         "cves": [
           "CVE-2026-47591"
         ],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "r/nets-6ac35881625b",
-      "title": "JSON Schema References Considered Harmful",
-      "link": "https://www.reddit.com/r/netsec/comments/1xuqxqq/json_schema_references_considered_harmful/",
-      "desc": "&#32; submitted by &#32;  /u/allacebeats   [link] &#32; [comments]",
-      "pubDate": "2026-11-12T22:35:34+00:00",
-      "source": "r/netsec",
-      "cat": "community",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
         "ips": [],
         "hashes": []
       },
@@ -4052,25 +4078,6 @@
       "link": "https://www.reddit.com/r/netsec/comments/1xtj92s/scriptblock_smuggling_amsi_evasion/",
       "desc": "&#32; submitted by &#32;  /u/netbiosX   [link] &#32; [comments]",
       "pubDate": "2026-11-11T14:33:04+00:00",
-      "source": "r/netsec",
-      "cat": "community",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "r/nets-ff6846c78e0e",
-      "title": "Hide and Stream: Ambient Aircraft-DopplerGeolocation of Live Audio, and a Defense",
-      "link": "https://www.reddit.com/r/netsec/comments/1xtkb4y/hide_and_stream_ambient/",
-      "desc": "Working draft (potential DEFCON publication). critique welcome  &#32; submitted by &#32;  /u/lymn   [link] &#32; [comments]",
-      "pubDate": "2026-11-11T15:15:12+00:00",
       "source": "r/netsec",
       "cat": "community",
       "sev": "medium",
