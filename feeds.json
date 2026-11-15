@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-14T20:53:52.445604+00:00",
-  "sources_ok": 15,
+  "generated_at": "2026-11-15T00:51:07.792508+00:00",
+  "sources_ok": 16,
   "sources_total": 20,
   "source_status": {
     "The Hacker News": {
@@ -20,9 +20,8 @@
       "articles": 10
     },
     "HackRead": {
-      "ok": false,
-      "articles": 0,
-      "error": "Invalid feed: <unknown>:94:2: mismatched tag"
+      "ok": true,
+      "articles": 10
     },
     "Exploit-DB": {
       "ok": true,
@@ -89,7 +88,7 @@
       "error": "429 Client Error: Too Many Requests for url: https://www.reddit.com/r/blueteamsec/.rss"
     }
   },
-  "total": 195,
+  "total": 205,
   "articles": [
     {
       "id": "TheHa-fa9afa81b1a4",
@@ -964,6 +963,196 @@
       "source": "GBHackers",
       "cat": "malware",
       "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "HackRe-907ccf31582d",
+      "title": "The Security Jobs Growing Around Enterprise AI Agents",
+      "link": "https://hackread.com/security-jobs-growing-around-enterprise-ai-agents/",
+      "desc": "Two years ago, most company AI use happened in a chat window. Today, AI assistants read shared mailboxes,&#8230;",
+      "pubDate": "Sat, 14 Nov 2026 13:04:01 +0000",
+      "source": "HackRead",
+      "cat": "threats",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "HackRe-d9ac8348e274",
+      "title": "GNSS Spoofing and Jamming: What They Do to RTK Positioning and How Field Teams Can Spot Them",
+      "link": "https://hackread.com/gnss-spoofing-jamming-rtk-positioning-teams-spot/",
+      "desc": "Satellite positioning can fail even when a rover appears normal. Its fixed solution may disappear or its coordinates&#8230;",
+      "pubDate": "Fri, 13 Nov 2026 20:58:12 +0000",
+      "source": "HackRead",
+      "cat": "threats",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "HackRe-517953fe1690",
+      "title": "FBI Disrupts North Korean FaceStealer Scheme Behind $400M Crypto Theft",
+      "link": "https://hackread.com/fbi-disrupts-north-korean-facestealer-crypto-theft/",
+      "desc": "The FaceStealer scheme used hijacked messaging accounts, fake video meetings and secretly recorded webcam footage to target cryptocurrency&#8230;",
+      "pubDate": "Fri, 13 Nov 2026 14:17:17 +0000",
+      "source": "HackRead",
+      "cat": "threats",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "HackRe-f2903d9ab195",
+      "title": "Agentic Finance Has an Accountability Gap, and KYA Aims to Close It",
+      "link": "https://hackread.com/agentic-finance-accountability-gap-kya-aims-close-it/",
+      "desc": "Know Your Agent (KYA) proposes identity, permissions and oversight for AI agents in finance, linking automated actions to people responsible for them.",
+      "pubDate": "Fri, 13 Nov 2026 10:31:18 +0000",
+      "source": "HackRead",
+      "cat": "threats",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "HackRe-bb278b37e6c5",
+      "title": "Hackers Use 4,837 Stolen GitHub Accounts to Target 61,764 Repositories",
+      "link": "https://hackread.com/hackers-stolen-github-accounts-target-repositories/",
+      "desc": "Hackers used 4,837 compromised GitHub accounts in the wfx-loot campaign to target repositories and steal developer credentials, cloud&#8230;",
+      "pubDate": "Fri, 13 Nov 2026 09:41:06 +0000",
+      "source": "HackRead",
+      "cat": "threats",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "HackRe-11885c6ec6a6",
+      "title": "How Beginner Creators Can Earn with the Temu Influencer Program This Black Friday",
+      "link": "https://hackread.com/temu-influencer-program-black-friday/",
+      "desc": "Black Friday is a major shopping occasion, making it a timely opportunity for creators to share gift ideas,&#8230;",
+      "pubDate": "Thu, 12 Nov 2026 17:28:14 +0000",
+      "source": "HackRead",
+      "cat": "threats",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "HackRe-78abdec9ca8d",
+      "title": "Hackers Abuse Microsoft SQL Servers to Deploy Monero Miner and Gh0st RAT",
+      "link": "https://hackread.com/hackers-abuse-microsoft-sql-servers-monero-miner-gh0st-rat/",
+      "desc": "SEO: Fortinet discovered a campaign where attackers brute-force exposed Microsoft SQL Server installations and abuse T-SQL commands to&#8230;",
+      "pubDate": "Thu, 12 Nov 2026 16:30:49 +0000",
+      "source": "HackRead",
+      "cat": "threats",
+      "sev": "critical",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "HackRe-c2eca0e6af09",
+      "title": "nDiligence Releases Four-Year Study Identifying a Critical Supply-Chain Vulnerability Across 50 Platform Types",
+      "link": "https://hackread.com/ndiligence-releases-four-year-study-identifying-a-critical-supply-chain-vulnerability-across-50-platform-types/",
+      "desc": "San Francisco, California, USA, 12th November 2026, CyberNewswire",
+      "pubDate": "Thu, 12 Nov 2026 13:15:03 +0000",
+      "source": "HackRead",
+      "cat": "threats",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "HackRe-8df452d49b33",
+      "title": "GhostMap Android Flaw Can Leave Phones Stuck in Crash Loop",
+      "link": "https://hackread.com/ghostmap-android-flaw-phones-stuck-crash-loop/",
+      "desc": "An Android security flaw could turn a seemingly ordinary app installation into a serious recovery problem, with some&#8230;",
+      "pubDate": "Thu, 12 Nov 2026 07:33:29 +0000",
+      "source": "HackRead",
+      "cat": "threats",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "HackRe-b0502ceda893",
+      "title": "When Market Data Can’t Be Trusted: Why Feed Integrity Matters to Order-Flow Analysis",
+      "link": "https://hackread.com/market-data-trust-feed-integrity-order-flow-analysis/",
+      "desc": "Missing trades, delayed quotes and wrong timestamps distort order-flow analysis. Learn how market data feed integrity affects charts and trading apps.",
+      "pubDate": "Wed, 11 Nov 2026 19:56:26 +0000",
+      "source": "HackRead",
+      "cat": "threats",
+      "sev": "medium",
       "tags": [],
       "iocs": {
         "cves": [],
@@ -3763,14 +3952,14 @@
       "ts": 0
     },
     {
-      "id": "r/nets-d508eabae284",
-      "title": "How we defended against an AI-driven ARTEX attack",
-      "link": "https://www.reddit.com/r/netsec/comments/1xucxqr/how_we_defended_against_an_aidriven_artex_attack/",
-      "desc": "&#32; submitted by &#32;  /u/Far_Ice2481   [link] &#32; [comments]",
-      "pubDate": "2026-11-12T13:36:34+00:00",
+      "id": "r/nets-6ac35881625b",
+      "title": "JSON Schema References Considered Harmful",
+      "link": "https://www.reddit.com/r/netsec/comments/1xuqxqq/json_schema_references_considered_harmful/",
+      "desc": "&#32; submitted by &#32;  /u/allacebeats   [link] &#32; [comments]",
+      "pubDate": "2026-11-12T22:35:34+00:00",
       "source": "r/netsec",
       "cat": "community",
-      "sev": "high",
+      "sev": "medium",
       "tags": [],
       "iocs": {
         "cves": [],
@@ -3782,14 +3971,14 @@
       "ts": 0
     },
     {
-      "id": "r/nets-6ac35881625b",
-      "title": "JSON Schema References Considered Harmful",
-      "link": "https://www.reddit.com/r/netsec/comments/1xuqxqq/json_schema_references_considered_harmful/",
-      "desc": "&#32; submitted by &#32;  /u/allacebeats   [link] &#32; [comments]",
-      "pubDate": "2026-11-12T22:35:34+00:00",
+      "id": "r/nets-d508eabae284",
+      "title": "How we defended against an AI-driven ARTEX attack",
+      "link": "https://www.reddit.com/r/netsec/comments/1xucxqr/how_we_defended_against_an_aidriven_artex_attack/",
+      "desc": "&#32; submitted by &#32;  /u/Far_Ice2481   [link] &#32; [comments]",
+      "pubDate": "2026-11-12T13:36:34+00:00",
       "source": "r/netsec",
       "cat": "community",
-      "sev": "medium",
+      "sev": "high",
       "tags": [],
       "iocs": {
         "cves": [],
