@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T07:38:45.782016+00:00",
+  "generated_at": "2026-11-15T15:27:48.836753+00:00",
   "sources_ok": 16,
   "sources_total": 20,
   "source_status": {
@@ -90,6 +90,44 @@
   },
   "total": 205,
   "articles": [
+    {
+      "id": "TheHa-d79daa836608",
+      "title": "Italy Fines Meta €805 Million Over Facebook's Android Gallery Access Without Explicit Consent",
+      "link": "https://thehackernews.com/2026/11/italy-fines-meta-805-million-over.html",
+      "desc": "Meta was fined €805 million in Italy yesterday over a Facebook for Android feature that suggests photos and videos from users' phone galleries for them to post.\n\nThe Garante, Italy's data protection authority, found that the feature was enabled by default and that the app accessed Italian users' photos, videos, and related metadata without their explicit consent.\n\nThe company has 60 days to",
+      "pubDate": "Sun, 15 Nov 2026 16:57:31 +0530",
+      "source": "The Hacker News",
+      "cat": "threats",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "TheHa-d148e272ceed",
+      "title": "Cursor Says Stolen Fireworks AI Key Led to Trojanized Claude Code Extension Incident",
+      "link": "https://thehackernews.com/2026/11/stolen-fireworks-ai-key-led-to-cursor.html",
+      "desc": "The compromise of Anthropic's official Claude Code extension on Cursor's extension marketplace was the result of the theft of an access key that was exposed in the wake of a breach targeting Fireworks AI.\n\n\"An attacker obtained an access key we had issued to Fireworks,\" Cursor said in a Friday update. \"The key was exposed by Fireworks, and the attacker used it to copy data from a read-only",
+      "pubDate": "Sun, 15 Nov 2026 13:52:04 +0530",
+      "source": "The Hacker News",
+      "cat": "breaches",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
     {
       "id": "TheHa-fa9afa81b1a4",
       "title": "Attackers Exploit UnrealIRCd Flaw That Enables Server-Level Command Injection",
@@ -352,51 +390,6 @@
       "ts": 0
     },
     {
-      "id": "TheHa-35966e8d7d76",
-      "title": "Critical Red Hat Quay Flaw Lets Attackers Read and Overwrite All Private Container Images in a Registry",
-      "link": "https://thehackernews.com/2026/11/critical-red-hat-quay-flaw-lets.html",
-      "desc": "A critical flaw in Red Hat Quay allows an attacker who can access a Quay registry to read and overwrite private container images in every repository.\n\nQuay enables anonymous access by default, and while it is enabled, the attacker needs no account. When it is off, anyone with a valid account can still exploit the flaw, Red Hat said yesterday. The company has released fixed builds for eight Quay",
-      "pubDate": "Thu, 12 Nov 2026 21:57:01 +0530",
-      "source": "The Hacker News",
-      "cat": "threats",
-      "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "TheHa-5f4c8e9c3612",
-      "title": "Citrix Patches 12 NetScaler and Secure Access Client Flaws, Including Authentication Bypass",
-      "link": "https://thehackernews.com/2026/11/citrix-patches-12-netscaler-and-secure.html",
-      "desc": "Citrix has released patches for multiple critical security flaws impacting NetScaler ADC, Citrix NetScaler Gateway, and NetScaler Console that could lead to denial-of-service (DoS) or an authentication bypass.\n\nThe critical vulnerabilities that impact NetScaler ADC and NetScaler Gateway are listed below -\n\n\n  CVE-2026-120868 (CVSS score: 9.3) - A memory overflow vulnerability in Packet",
-      "pubDate": "Thu, 12 Nov 2026 21:08:49 +0530",
-      "source": "The Hacker News",
-      "cat": "threats",
-      "sev": "high",
-      "tags": [
-        {
-          "t": "CVE-2026-120868",
-          "cls": "cve"
-        }
-      ],
-      "iocs": {
-        "cves": [
-          "CVE-2026-120868"
-        ],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
       "id": "Krebs-f0ea36af7be1",
       "title": "Who Runs the Ransomware Group Qilin?",
       "link": "https://krebsonsecurity.com/2026/11/who-runs-the-ransomware-group-qilin/",
@@ -587,6 +580,44 @@
       "ts": 0
     },
     {
+      "id": "Securi-bd9c75b8a107",
+      "title": "Pentagon Renames CDAO ‘Super Intelligence Office’",
+      "link": "https://www.securityweek.com/pentagon-renames-cdao-super-intelligence-office/",
+      "desc": "The move follows President Trump’s order to replace “artificial intelligence” with “super intelligence” in executive branch communications.\nThe post Pentagon Renames CDAO ‘Super Intelligence Office’ appeared first on SecurityWeek.",
+      "pubDate": "Sun, 15 Nov 2026 12:51:33 +0000",
+      "source": "SecurityWeek",
+      "cat": "threats",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "Securi-0dfc5a534c3d",
+      "title": "Meta Fined $887 Million in Italy Over Android Gallery Photos and Videos on Facebook",
+      "link": "https://www.securityweek.com/meta-fined-887-million-in-italy-over-android-gallery-photos-and-videos-on-facebook/",
+      "desc": "The directive protects smartphones as part of a person’s private sphere and requires “free and informed consent” for such access, the authority said.\nThe post Meta Fined $887 Million in Italy Over Android Gallery Photos and Videos on Facebook appeared first on SecurityWeek.",
+      "pubDate": "Sat, 14 Nov 2026 19:00:00 +0000",
+      "source": "SecurityWeek",
+      "cat": "threats",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
       "id": "Securi-9db3558260ce",
       "title": "Is AI Making Us Worse at Cybersecurity?",
       "link": "https://www.securityweek.com/is-ai-making-us-worse-at-cybersecurity/",
@@ -728,44 +759,6 @@
       "source": "SecurityWeek",
       "cat": "threats",
       "sev": "critical",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "Securi-c5ca10d8e213",
-      "title": "Law Enforcement Disrupts Gootloader, CastleRAT, and StealC Infrastructure",
-      "link": "https://www.securityweek.com/law-enforcement-disrupts-gootloader-castlerat-and-stealc-infrastructure/",
-      "desc": "Investigators seized 235 servers and 257 domains, along with 6.4 million victim credentials as part of Operation Endgame.\nThe post Law Enforcement Disrupts Gootloader, CastleRAT, and StealC Infrastructure appeared first on SecurityWeek.",
-      "pubDate": "Fri, 13 Nov 2026 10:48:40 +0000",
-      "source": "SecurityWeek",
-      "cat": "threats",
-      "sev": "critical",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "Securi-7414b7bf4c5b",
-      "title": "Citrix Patches 10 Critical NetScaler Vulnerabilities",
-      "link": "https://www.securityweek.com/citrix-patches-10-critical-netscaler-vulnerabilities/",
-      "desc": "Successful exploitation could lead to unexpected behavior or denial-of-service (DoS) conditions.\nThe post Citrix Patches 10 Critical NetScaler Vulnerabilities appeared first on SecurityWeek.",
-      "pubDate": "Fri, 13 Nov 2026 09:36:56 +0000",
-      "source": "SecurityWeek",
-      "cat": "threats",
-      "sev": "high",
       "tags": [],
       "iocs": {
         "cves": [],
@@ -2347,18 +2340,18 @@
       "sev": "high",
       "tags": [
         {
-          "t": "CVE-2026-109619",
+          "t": "CVE-2026-109618",
           "cls": "cve"
         },
         {
-          "t": "CVE-2026-109618",
+          "t": "CVE-2026-109619",
           "cls": "cve"
         }
       ],
       "iocs": {
         "cves": [
-          "CVE-2026-109619",
-          "CVE-2026-109618"
+          "CVE-2026-109618",
+          "CVE-2026-109619"
         ],
         "ips": [],
         "hashes": []
@@ -2499,18 +2492,18 @@
       "sev": "high",
       "tags": [
         {
-          "t": "CVE-2026-88772",
+          "t": "CVE-2026-88771",
           "cls": "cve"
         },
         {
-          "t": "CVE-2026-88771",
+          "t": "CVE-2026-88772",
           "cls": "cve"
         }
       ],
       "iocs": {
         "cves": [
-          "CVE-2026-88772",
-          "CVE-2026-88771"
+          "CVE-2026-88771",
+          "CVE-2026-88772"
         ],
         "ips": [],
         "hashes": []
@@ -3392,18 +3385,18 @@
       "sev": "high",
       "tags": [
         {
-          "t": "CVE-2026-109619",
+          "t": "CVE-2026-109618",
           "cls": "cve"
         },
         {
-          "t": "CVE-2026-109618",
+          "t": "CVE-2026-109619",
           "cls": "cve"
         }
       ],
       "iocs": {
         "cves": [
-          "CVE-2026-109619",
-          "CVE-2026-109618"
+          "CVE-2026-109618",
+          "CVE-2026-109619"
         ],
         "ips": [],
         "hashes": []
@@ -3831,87 +3824,11 @@
       "ts": 0
     },
     {
-      "id": "r/nets-b8c786b87a6a",
-      "title": "Ruohang Feng: PostgreSQL Just Patched 52 CVEs in a Single Minor Release",
-      "link": "https://www.reddit.com/r/netsec/comments/1xw5ldq/ruohang_feng_postgresql_just_patched_52_cves_in_a/",
-      "desc": "&#32; submitted by &#32;  /u/macroKnoll37   [link] &#32; [comments]",
-      "pubDate": "2026-11-14T15:48:48+00:00",
-      "source": "r/netsec",
-      "cat": "community",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "r/nets-ff0d2258661d",
-      "title": "Helping Developers Writing Code Analyzer Queries",
-      "link": "https://www.reddit.com/r/netsec/comments/1xvqwd5/helping_developers_writing_code_analyzer_queries/",
-      "desc": "&#32; submitted by &#32;  /u/Agile_Pangolin_7021   [link] &#32; [comments]",
-      "pubDate": "2026-11-14T02:27:30+00:00",
-      "source": "r/netsec",
-      "cat": "community",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "r/nets-3b82ce4590af",
-      "title": "Sharing ARTEX detection signature pack - from IOC w/playbook process",
-      "link": "https://www.reddit.com/r/netsec/comments/1xv53bm/sharing_artex_detection_signature_pack_from_ioc/",
-      "desc": "&#32; submitted by &#32;  /u/mmd0xFF   [link] &#32; [comments]",
-      "pubDate": "2026-11-13T11:08:34+00:00",
-      "source": "r/netsec",
-      "cat": "community",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
       "id": "r/nets-a3b86048a069",
       "title": "OWASP Top 10 Neocloud and AI Data Center Security Risks project released",
       "link": "https://www.reddit.com/r/netsec/comments/1xurha8/owasp_top_10_neocloud_and_ai_data_center_security/",
       "desc": "&#32; submitted by &#32;  /u/Pale_Fly_2673   [link] &#32; [comments]",
       "pubDate": "2026-11-12T22:58:44+00:00",
-      "source": "r/netsec",
-      "cat": "community",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "r/nets-35f83ddcfcfb",
-      "title": "Massive ‘wfx-loot’ Campaign Probes Over 60,000 GitHub Repositories to Steal CI and Cloud Secrets",
-      "link": "https://www.reddit.com/r/netsec/comments/1xuug3s/massive_wfxloot_campaign_probes_over_60000_github/",
-      "desc": "&#32; submitted by &#32;  /u/Much-Television-9449   [link] &#32; [comments]",
-      "pubDate": "2026-11-13T01:12:20+00:00",
       "source": "r/netsec",
       "cat": "community",
       "sev": "medium",
@@ -3944,25 +3861,6 @@
         "cves": [
           "CVE-2026-6460"
         ],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "r/nets-6ac35881625b",
-      "title": "JSON Schema References Considered Harmful",
-      "link": "https://www.reddit.com/r/netsec/comments/1xuqxqq/json_schema_references_considered_harmful/",
-      "desc": "&#32; submitted by &#32;  /u/allacebeats   [link] &#32; [comments]",
-      "pubDate": "2026-11-12T22:35:34+00:00",
-      "source": "r/netsec",
-      "cat": "community",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
         "ips": [],
         "hashes": []
       },
@@ -4054,11 +3952,11 @@
       "ts": 0
     },
     {
-      "id": "r/nets-5cba13c0728c",
-      "title": "Claude Code VSCode Plugin: Workspace Escape Via Misleading Permission Prompt",
-      "link": "https://www.reddit.com/r/netsec/comments/1xudxlg/claude_code_vscode_plugin_workspace_escape_via/",
-      "desc": "&#32; submitted by &#32;  /u/ultrastrik3   [link] &#32; [comments]",
-      "pubDate": "2026-11-12T14:18:32+00:00",
+      "id": "r/nets-4c32fb4c5cce",
+      "title": "ScriptBlock Smuggling - AMSI Evasion",
+      "link": "https://www.reddit.com/r/netsec/comments/1xtj92s/scriptblock_smuggling_amsi_evasion/",
+      "desc": "&#32; submitted by &#32;  /u/netbiosX   [link] &#32; [comments]",
+      "pubDate": "2026-11-11T14:33:04+00:00",
       "source": "r/netsec",
       "cat": "community",
       "sev": "medium",
@@ -4073,11 +3971,106 @@
       "ts": 0
     },
     {
-      "id": "r/nets-4c32fb4c5cce",
-      "title": "ScriptBlock Smuggling - AMSI Evasion",
-      "link": "https://www.reddit.com/r/netsec/comments/1xtj92s/scriptblock_smuggling_amsi_evasion/",
-      "desc": "&#32; submitted by &#32;  /u/netbiosX   [link] &#32; [comments]",
-      "pubDate": "2026-11-11T14:33:04+00:00",
+      "id": "r/nets-07ee12c21210",
+      "title": "Cracking Server 2022 NTLMv1-SSP Hashes with Rainbow Tables",
+      "link": "https://www.reddit.com/r/netsec/comments/1xswu2e/cracking_server_2022_ntlmv1ssp_hashes_with/",
+      "desc": "A while back, I had released a blog showing that NTLMv1 downgrade attacks still work on Windows Server 2022! While it isn't a default setting, it's still a misconfiguration to potentially look for. If a DC’s LmCompatibilityLevel is set to 0-2, you can coerce authentication, strip Extended Session Security (ESS), and obtain an NTLMv1-SSP hash that’s crackable with a rainbow table. :) Blog: https://",
+      "pubDate": "2026-11-10T19:53:18+00:00",
+      "source": "r/netsec",
+      "cat": "community",
+      "sev": "critical",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "r/nets-92dd645e22b7",
+      "title": "New Kimsuki (APT-43) active infrastructure and campaign discovered",
+      "link": "https://www.reddit.com/r/netsec/comments/1xtioog/new_kimsuki_apt43_active_infrastructure_and/",
+      "desc": "Stormshield's Cyber Threat Intelligence team has uncovered the Trigram campaign, targeting the AI, blockchain, and logistics sectors across Europe and the United States.  The Bait: Threat actors impersonate 50 companies using fake job offers, invitations, and package tracking notifications to deliver an infostealer to victims. Behind the Scenes: A dedicated platform enables the attackers to track ",
+      "pubDate": "2026-11-11T14:09:28+00:00",
+      "source": "r/netsec",
+      "cat": "community",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "r/nets-331237567162",
+      "title": "Electron, we have a problem",
+      "link": "https://www.reddit.com/r/netsec/comments/1xskopy/electron_we_have_a_problem/",
+      "desc": "Many Electron apps auto-update without verifying signatures. Many also still trust the compromised eMudhra certificates. Together, that lets an attacker on your network install malware on your machine. I've compiled a list of notable Electron apps, installed them in a lab, and test which still trust the eMudhra certs, compared to whether they verify update signatures. You can find the full table o",
+      "pubDate": "2026-11-10T11:38:05+00:00",
+      "source": "r/netsec",
+      "cat": "community",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "r/nets-957491d5ca57",
+      "title": "Supabase Security findings why RLS is only 25% of the issues",
+      "link": "https://www.reddit.com/r/netsec/comments/1xt0jrg/supabase_security_findings_why_rls_is_only_25_of/",
+      "desc": "&#32; submitted by &#32;  /u/1thirteenthirtyseven   [link] &#32; [comments]",
+      "pubDate": "2026-11-10T22:21:14+00:00",
+      "source": "r/netsec",
+      "cat": "community",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "r/nets-8890364eeef7",
+      "title": "Kubernetes Non-Core Security Audit",
+      "link": "https://www.reddit.com/r/netsec/comments/1xspr6l/kubernetes_noncore_security_audit/",
+      "desc": "&#32; submitted by &#32;  /u/smaury   [link] &#32; [comments]",
+      "pubDate": "2026-11-10T15:27:08+00:00",
+      "source": "r/netsec",
+      "cat": "community",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "r/nets-5ee33df56c59",
+      "title": "IP snowshoeing under US .gov email via a whitelisted AmazonSES typo in SPF",
+      "link": "https://www.reddit.com/r/netsec/comments/1xry7z3/ip_snowshoeing_under_us_gov_email_via_a/",
+      "desc": "UPDATE: Livingston County, MI, has removed amzonses[.]com from its SPF record. It had been there since at least November 2023, and when we checked, it authorized 32,066 IPs to send email as milivcounty[.]gov Since our research on US government domains went public, several government organizations have made changes to their DNS. The City of Waynesboro, TN has fixed the typo in its MX record, and th",
+      "pubDate": "2026-11-09T17:41:19+00:00",
       "source": "r/netsec",
       "cat": "community",
       "sev": "medium",
