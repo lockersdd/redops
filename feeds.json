@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T00:50:24.373921+00:00",
+  "generated_at": "2026-11-16T07:44:07.411085+00:00",
   "sources_ok": 16,
   "sources_total": 20,
   "source_status": {
@@ -770,14 +770,33 @@
       "ts": 0
     },
     {
-      "id": "GBHack-3eb43e472619",
-      "title": "BlackNevas Ransomware Attacks VMware ESXi Servers, Destroying Virtual Machines and Backup Infrastructure",
-      "link": "https://gbhackers.com/blacknevas-ransomware-attacks-vmware-esxi-servers/",
-      "desc": "A newly disclosed intrusion in which the BlackNevas group destroyed an organization&#8217;s entire virtualization estate over 10 days. Kaspersky&#8217;s Global Emergency Response Team (GERT) documented the attackers wiped four ESXi hosts, every virtual machine on them, both vCenter Server Appliances (VCSA) and all connected backup infrastructure. They exploited no hypervisor flaw, guest-to-host es",
-      "pubDate": "Sat, 14 Nov 2026 07:47:10 +0000",
+      "id": "GBHack-27190ad9a997",
+      "title": "10 Network Vulnerability Scanners: The 2026 Buyer’s Verdict Guide",
+      "link": "https://gbhackers.com/network-vulnerability-scanners-buyers-guide/",
+      "desc": "Honest network scanning is settled before a single packet leaves: where the engines sit relative to segmentation, how credentials reach them for authenticated depth, and which scan windows the operations teams who own those switches have agreed to. This verdict guide judges the field with those three realities declared on every entry, and with one [&#8230;]\nThe post 10 Network Vulnerability Scanne",
+      "pubDate": "Mon, 16 Nov 2026 07:11:15 +0000",
+      "source": "GBHackers",
+      "cat": "threats",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "GBHack-3f5aed47b019",
+      "title": "Hackers Disguise LOTUSLITE V2 Malware as Indo-Pacific Security Assessment to Compromise Windows Systems",
+      "link": "https://gbhackers.com/lotuslite-v2-malware/",
+      "desc": "A Thailand-focused malware campaign is distributing LOTUSLITE V2 through an Indo-Pacific economic and security assessment lure, using legitimate PDFgear software to execute malicious code on Windows systems. The supplied technical analysis assesses with high confidence that the .NET implant succeeds LOTUSLITE, although its association with Mustang Panda, also called Earth Preta, remains an analyti",
+      "pubDate": "Mon, 16 Nov 2026 07:10:59 +0000",
       "source": "GBHackers",
       "cat": "malware",
-      "sev": "critical",
+      "sev": "high",
       "tags": [],
       "iocs": {
         "cves": [],
@@ -789,56 +808,11 @@
       "ts": 0
     },
     {
-      "id": "GBHack-e93e4821d883",
-      "title": "CISA Warns of Actively Exploited Check Point Zero-Day Vulnerability Allowing Attackers to Gain Root Access",
-      "link": "https://gbhackers.com/cisa-check-point-zero-day-vulnerability/",
-      "desc": "CISA has reportedly added CVE-2026-123039, a Check Point Gaia OS permission flaw, to its Known Exploited Vulnerabilities catalog following active exploitation. The entry supplied for this report lists November 13, 2026, as the addition date and November 16 as the remediation deadline. Check Point exploitation reporting nevertheless identifies compromised customers and a practical route from [&#823",
-      "pubDate": "Sat, 14 Nov 2026 07:27:07 +0000",
-      "source": "GBHackers",
-      "cat": "threats",
-      "sev": "critical",
-      "tags": [
-        {
-          "t": "CVE-2026-123039",
-          "cls": "cve"
-        }
-      ],
-      "iocs": {
-        "cves": [
-          "CVE-2026-123039"
-        ],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "GBHack-c8edce3a57de",
-      "title": "Hackers Use Stolen LLM API Keys to Power ARTEX AI Agents and Continue Credential Theft",
-      "link": "https://gbhackers.com/hackers-llm-api-keys-artex-ai-agents/",
-      "desc": "Chinese-nexus threat actors used ARTEX, an open-source agentic penetration-testing framework, to steal large language model API credentials and feed them back into infrastructure powering further attacks. Amazon Threat Intelligence uncovered the financially motivated campaigns after its MadPot decoy network captured requests containing the agents’ operational memory between October 3 and November ",
-      "pubDate": "Sat, 14 Nov 2026 07:19:13 +0000",
-      "source": "GBHackers",
-      "cat": "threats",
-      "sev": "critical",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "GBHack-59948740dfbb",
-      "title": "FBI Warns Hackers Are Weaponizing ARTEX AI Framework to Launch Autonomous Cyberattacks Worldwide",
-      "link": "https://gbhackers.com/fbi-warns-artex-ai-framework/",
-      "desc": "The FBI has issued FLASH-20261113-001, warning that hackers are weaponizing ARTEX, an autonomous penetration testing framework, to accelerate cyberattacks worldwide. Published November 13, the advisory describes operations observed since August 2026, spanning reconnaissance, exploitation, privilege escalation, and data exfiltration. Some intrusions progressed from initial targeting to privileged a",
-      "pubDate": "Sat, 14 Nov 2026 07:07:54 +0000",
+      "id": "GBHack-62dda4f9ee2a",
+      "title": "11 Web Application Vulnerability Scanners: The 2026 Buyer’s Verdict Guide",
+      "link": "https://gbhackers.com/web-app-scanners-buyers-guide/",
+      "desc": "Web application scanning is won or lost at the crawl, and most procurement conversations never test it. Single-page apps, authenticated flows, and API backends defeat naive crawlers, so a scanner that touches 40% of your routes is describing a different application from the one you deployed. This verdict guide weighs eleven options on coverage honesty, [&#8230;]\nThe post 11 Web Application Vulnera",
+      "pubDate": "Mon, 16 Nov 2026 07:06:42 +0000",
       "source": "GBHackers",
       "cat": "threats",
       "sev": "high",
@@ -853,30 +827,11 @@
       "ts": 0
     },
     {
-      "id": "GBHack-70c8f4b8d3c6",
-      "title": "Hackers Use Falcon C2 Framework to Hijack Browsers and Steal Credentials From Government Agencies",
-      "link": "https://gbhackers.com/hackers-use-falcon-c2-framework/",
-      "desc": "Hackers deployed Falcon, a Node.js command-and-control framework tracked as XG or Xiàng Gē, against government entities in one Middle Eastern country and four Southeast Asian countries between March and May 2026. Unit 42 identified targets spanning foreign affairs, defense, interior, and law enforcement organizations, indicating strategic intelligence collection. The framework executes malicious J",
-      "pubDate": "Sat, 14 Nov 2026 06:54:02 +0000",
-      "source": "GBHackers",
-      "cat": "threats",
-      "sev": "critical",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "GBHack-6599438c3edd",
-      "title": "Japan Hit by Record Cyberattack Surge as Hackers Use AI to Exploit Security Vulnerabilities",
-      "link": "https://gbhackers.com/japan-cyberattack-ai-security-vulnerabilities/",
-      "desc": "Japan recorded 233 publicly disclosed security incidents in October 2026, approximately 2.4 times its previous monthly peak, as researchers uncovered AI-assisted exploitation targeting application backends. MM Research Institute estimated that incidents disclosed during October exposed or potentially exposed 185 million personal information records, nearly four times the total reported throughout ",
-      "pubDate": "Sat, 14 Nov 2026 06:48:05 +0000",
+      "id": "GBHack-31254a664198",
+      "title": "11 Vulnerability Management Tools: The 2026 Buyer’s Verdict Guide",
+      "link": "https://gbhackers.com/vulnerability-management-buyers-guide/",
+      "desc": "Vulnerability management is bought on the promise of finding flaws and judged on the reality of closing them and the gap between those two is where most programs quietly fail. Detection is a commodity; the 2026 differentiators are coverage honesty (what each model can’t see), prioritization that survives contact with threat reality, and remediation workflow [&#8230;]\nThe post 11 Vulnerability Mana",
+      "pubDate": "Mon, 16 Nov 2026 06:57:34 +0000",
       "source": "GBHackers",
       "cat": "threats",
       "sev": "high",
@@ -891,14 +846,33 @@
       "ts": 0
     },
     {
-      "id": "GBHack-6f86f12a908a",
-      "title": "Uber Hacked – Hackers Steal Drivers’ License Personal Data",
-      "link": "https://gbhackers.com/uber-hacked-hackers-steal-drivers-license-personal-data/",
-      "desc": "Thousands of Uber drivers in the United States are being told that their personal and driver&#8217;s license information was stolen. The data was taken in an October breach at Fireworks AI, a third-party technology provider that held Uber records. Uber disclosed the incident in breach notices filed with several state attorneys general, including California. According [&#8230;]\nThe post Uber Hacked",
-      "pubDate": "Sat, 14 Nov 2026 05:47:51 +0000",
+      "id": "GBHack-775937807004",
+      "title": "Hackers Sell Corporate VPN, RDP, and Cloud Access Through Underground Forums",
+      "link": "https://gbhackers.com/stolen-credentials-trading/",
+      "desc": "Threat actors are advertising corporate VPN accounts, remote desktop connections, cloud credentials, and authenticated business application sessions across underground forums, offering buyers potential footholds for data theft, fraud, espionage, and ransomware. Advertised prices ranged from $250 for an alleged PandaDoc session to $4,000 for manufacturing-sector remote access. The advertisements re",
+      "pubDate": "Mon, 16 Nov 2026 06:30:28 +0000",
+      "source": "GBHackers",
+      "cat": "malware",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "GBHack-0310a85ae84e",
+      "title": "Cursor Security Breach Exposes API Credentials and Source Code Following Fireworks AI Supply Chain Attack",
+      "link": "https://gbhackers.com/cursor-security-breach-exposes-api-credentials/",
+      "desc": "Cursor disclosed a security breach involving exposed API credentials, archived source code, and malicious Claude Code extensions after an attacker obtained a vendor access key exposed by Fireworks AI. In its November 13 incident update, the company said most customers were unaffected and that it had directly notified everyone affected. The intrusion began when the [&#8230;]\nThe post Cursor Securit",
+      "pubDate": "Mon, 16 Nov 2026 06:29:42 +0000",
       "source": "GBHackers",
       "cat": "breaches",
-      "sev": "high",
+      "sev": "critical",
       "tags": [],
       "iocs": {
         "cves": [],
@@ -910,11 +884,11 @@
       "ts": 0
     },
     {
-      "id": "GBHack-40d6dfed5322",
-      "title": "Hackers Manipulate NVIDIA GPU Monitoring to Conceal Cryptocurrency Mining on Compromised Linux Servers",
-      "link": "https://gbhackers.com/nvidia-gpu-monitoring/",
-      "desc": "A Linux cryptomining intrusion in which attackers falsified NVIDIA GPU telemetry, concealed mining processes with a kernel rootkit, and maintained separate command channels through Tor and Ethereum. Tracked as REF3364, the operation deployed a coordinated toolkit across three Linux GPU hosts after abusing an internet-exposed Ray job agent. Its layered concealment targets both operating-system visi",
-      "pubDate": "Fri, 13 Nov 2026 13:03:07 +0000",
+      "id": "GBHack-3c89d33ea36f",
+      "title": "Tor Releases Emergency Security Update to Defend Against Ongoing Massive DDoS Attacks",
+      "link": "https://gbhackers.com/tor-releases-emergency-security-update/",
+      "desc": "The Tor Project has released version 0.4.9.17, an emergency security update. It addresses a distributed denial-of-service (DDoS) attack overwhelming relays across the anonymity network. The release is the latest in a fast run of security-focused builds. It follows 0.4.9.16 on November 5, and the Tor Project says more updates are coming. Tor Emergency Security Update [&#8230;]\nThe post Tor Releases",
+      "pubDate": "Mon, 16 Nov 2026 06:29:25 +0000",
       "source": "GBHackers",
       "cat": "threats",
       "sev": "high",
@@ -929,11 +903,11 @@
       "ts": 0
     },
     {
-      "id": "GBHack-f89a3e8cc257",
-      "title": "FBI Disrupts North Korean FaceStealer Attacks Linked to $400 Million in Crypto Theft",
-      "link": "https://gbhackers.com/fbi-disrupts-north-korean-facestealer-attacks/",
-      "desc": "The U.S. Justice Department and the FBI have seized the cloud infrastructure behind &#8220;FaceStealer,&#8221; a North Korean social engineering scheme connected to over $400 million in cryptocurrency theft in the past 18 months. Announced on November 12, 2026, this action also addresses the separate theft of approximately $6 billion from Binance, which the FBI attributes [&#8230;]\nThe post FBI Di",
-      "pubDate": "Fri, 13 Nov 2026 12:14:32 +0000",
+      "id": "GBHack-37e962e97a58",
+      "title": "Microsoft Warns Hackers Are Exploiting Microsoft 365 Outage to Launch Credential Phishing Attacks",
+      "link": "https://gbhackers.com/microsoft-warns-hackers-are-exploiting-microsoft-365-outage/",
+      "desc": "Microsoft has issued a warning about an active phishing campaign exploiting the Microsoft 365 service disruption on November 12. Attackers are impersonating service health notifications and referencing the legitimate Exchange Online incident EX1550543. By leveraging a real operational issue, they are making fraudulent email recovery requests appear credible to enterprise users. Microsoft 365 Outag",
+      "pubDate": "Mon, 16 Nov 2026 06:26:31 +0000",
       "source": "GBHackers",
       "cat": "threats",
       "sev": "high",
@@ -948,14 +922,33 @@
       "ts": 0
     },
     {
-      "id": "GBHack-0547ed556943",
-      "title": "Hackers Exploit ChatGPT and Claude Website Typos to Deliver Malware and Hijack Browsers",
-      "link": "https://gbhackers.com/ai-website-typos-exploited/",
-      "desc": "Oleg Zaytsev traced 186 lookalike domains across 27 AI brands, including Claude, ChatGPT, DeepSeek, Perplexity, Midjourney, ElevenLabs and Cursor. He named the delivery pattern TypoPrompting. Ordinary typing errors led visitors to ClickFix lures, browser-hijacking malware and search-hijacking extensions. ChatGPT drew the most lookalikes with 25, followed by Claude with 18 and DeepSeek with 16. The",
-      "pubDate": "Fri, 13 Nov 2026 12:05:34 +0000",
+      "id": "GBHack-2b3ac748421d",
+      "title": "ARTEX AI Agents Use Nmap, PsExec, and WinRM to Automate Enterprise Network Attacks",
+      "link": "https://gbhackers.com/ai-powered-network-attacks/",
+      "desc": "ARTEX-derived AI agents orchestrate enterprise intrusion attempts using Nmap, PsExec, and Windows Remote Management. Controlled testing showed agents switching techniques after failures, generating detectable network activity even when they failed to achieve their objectives. The research highlights an operational distinction: agentic frameworks accelerate familiar attack techniques rather than in",
+      "pubDate": "Mon, 16 Nov 2026 05:57:28 +0000",
       "source": "GBHackers",
-      "cat": "malware",
+      "cat": "threats",
       "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "GBHack-49407dbfc44f",
+      "title": "Claude AI Hacks 32-Year-Old Jeep Engine Computer Using $3 Arduino to Execute Custom Code",
+      "link": "https://gbhackers.com/claude-ai-hacks-32-year-old-jeep-engine-computer/",
+      "desc": "A car owner shared how AI coding agents helped him read, copy, and run custom code on the engine computer of his 1994 Jeep Cherokee. Muhammad Zulali documented this week-long project in a YouTube video released on November 10, 2026. He used a $3 Arduino Nano to complete the task, and the Jeep ultimately passed [&#8230;]\nThe post Claude AI Hacks 32-Year-Old Jeep Engine Computer Using $3 Arduino to ",
+      "pubDate": "Mon, 16 Nov 2026 04:57:11 +0000",
+      "source": "GBHackers",
+      "cat": "threats",
+      "sev": "medium",
       "tags": [],
       "iocs": {
         "cves": [],
@@ -2492,18 +2485,18 @@
       "sev": "high",
       "tags": [
         {
-          "t": "CVE-2026-88771",
+          "t": "CVE-2026-88772",
           "cls": "cve"
         },
         {
-          "t": "CVE-2026-88772",
+          "t": "CVE-2026-88771",
           "cls": "cve"
         }
       ],
       "iocs": {
         "cves": [
-          "CVE-2026-88771",
-          "CVE-2026-88772"
+          "CVE-2026-88772",
+          "CVE-2026-88771"
         ],
         "ips": [],
         "hashes": []
@@ -2817,6 +2810,25 @@
       "ts": 0
     },
     {
+      "id": "SANSI-7b82f27ac011",
+      "title": "ISC Stormcast For Monday, November 16th, 2026 https://isc.sans.edu/podcastdetail/10180, (Mon, Nov 16th)",
+      "link": "https://isc.sans.edu/diary/rss/33520",
+      "desc": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
+      "pubDate": "Mon, 16 Nov 2026 02:00:05 GMT",
+      "source": "SANS ISC",
+      "cat": "vulns",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
       "id": "SANSI-704fad796ef2",
       "title": "YARA-X 1.23.0 Release, (Sun, Nov 15th)",
       "link": "https://isc.sans.edu/diary/rss/33496",
@@ -2984,25 +2996,6 @@
       "source": "SANS ISC",
       "cat": "vulns",
       "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "SANSI-c7860142297a",
-      "title": "Attackers Searching for SAP Netweaver Webshells, (Mon, Nov 9th)",
-      "link": "https://isc.sans.edu/diary/rss/33502",
-      "desc": "Just saw a new (to me) URL in our honeypot data today:&#xd;",
-      "pubDate": "Mon, 09 Nov 2026 18:18:15 GMT",
-      "source": "SANS ISC",
-      "cat": "vulns",
-      "sev": "high",
       "tags": [],
       "iocs": {
         "cves": [],
@@ -3824,6 +3817,25 @@
       "ts": 0
     },
     {
+      "id": "r/nets-4c6a87270fdd",
+      "title": "vm2's own repo lists its next sandbox escapes: a deferred nesting fix, a \"monitoring\" entry in ATTACKS.md, and species shims for Promise and Array but not typed arrays",
+      "link": "https://www.reddit.com/r/netsec/comments/1xxibhv/vm2s_own_repo_lists_its_next_sandbox_escapes_a/",
+      "desc": "Author here. I had written up six vm2 CVEs one at a time, then read all six in a row. Read that way they stop looking like separate bugs. Short version: vm2's bridge is a hand-written wrap list, so it is always one language feature behind. Every fix is one of three moves: add an entry, delete the feature (WebAssembly JSTag), or lie to V8 about a property it reads in C++ (the species shims). None o",
+      "pubDate": "2026-11-16T06:32:20+00:00",
+      "source": "r/netsec",
+      "cat": "community",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
       "id": "r/nets-ad01ec9f560d",
       "title": "Dry Soup: this holiday season you need to choose a family code word",
       "link": "https://www.reddit.com/r/netsec/comments/1xx6e0s/dry_soup_this_holiday_season_you_need_to_choose_a/",
@@ -4052,25 +4064,6 @@
       "link": "https://www.reddit.com/r/netsec/comments/1xt0jrg/supabase_security_findings_why_rls_is_only_25_of/",
       "desc": "&#32; submitted by &#32;  /u/1thirteenthirtyseven   [link] &#32; [comments]",
       "pubDate": "2026-11-10T22:21:14+00:00",
-      "source": "r/netsec",
-      "cat": "community",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "r/nets-8890364eeef7",
-      "title": "Kubernetes Non-Core Security Audit",
-      "link": "https://www.reddit.com/r/netsec/comments/1xspr6l/kubernetes_noncore_security_audit/",
-      "desc": "&#32; submitted by &#32;  /u/smaury   [link] &#32; [comments]",
-      "pubDate": "2026-11-10T15:27:08+00:00",
       "source": "r/netsec",
       "cat": "community",
       "sev": "medium",
