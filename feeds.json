@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-16T18:05:03.486937+00:00",
-  "sources_ok": 16,
+  "generated_at": "2026-11-17T01:57:34.837372+00:00",
+  "sources_ok": 15,
   "sources_total": 20,
   "source_status": {
     "The Hacker News": {
@@ -20,8 +20,9 @@
       "articles": 10
     },
     "HackRead": {
-      "ok": true,
-      "articles": 10
+      "ok": false,
+      "articles": 0,
+      "error": "Invalid feed: <unknown>:94:2: mismatched tag"
     },
     "Exploit-DB": {
       "ok": true,
@@ -88,7 +89,7 @@
       "error": "429 Client Error: Too Many Requests for url: https://www.reddit.com/r/blueteamsec/.rss"
     }
   },
-  "total": 205,
+  "total": 195,
   "articles": [
     {
       "id": "TheHa-5c90031f4f3a",
@@ -580,6 +581,25 @@
       "ts": 0
     },
     {
+      "id": "Securi-7f41bd7058e8",
+      "title": "Trump Administration Moves to Block China From Indirect Access to American AI Technology",
+      "link": "https://www.securityweek.com/trump-administration-moves-to-block-china-from-indirect-access-to-american-ai-technology/",
+      "desc": "Under the new rule, overseas data centers that serve companies in countries including China, Russia, Iran and Cuba are required to identify their end users.\nThe post Trump Administration Moves to Block China From Indirect Access to American AI Technology appeared first on SecurityWeek.",
+      "pubDate": "Mon, 16 Nov 2026 20:00:00 +0000",
+      "source": "SecurityWeek",
+      "cat": "threats",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
       "id": "Securi-b5d801e8f158",
       "title": "Cursor Supply Chain Attack Started at Fireworks AI",
       "link": "https://www.securityweek.com/cursor-supply-chain-attack-started-at-fireworks/",
@@ -747,25 +767,6 @@
       "source": "SecurityWeek",
       "cat": "threats",
       "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "Securi-bd9c75b8a107",
-      "title": "Pentagon Renames CDAO ‘Super Intelligence Office’",
-      "link": "https://www.securityweek.com/pentagon-renames-cdao-super-intelligence-office/",
-      "desc": "The move follows President Trump’s order to replace “artificial intelligence” with “super intelligence” in executive branch communications.\nThe post Pentagon Renames CDAO ‘Super Intelligence Office’ appeared first on SecurityWeek.",
-      "pubDate": "Sun, 15 Nov 2026 12:51:33 +0000",
-      "source": "SecurityWeek",
-      "cat": "threats",
-      "sev": "medium",
       "tags": [],
       "iocs": {
         "cves": [],
@@ -961,196 +962,6 @@
       "desc": "More than 700 internet-reachable PentAGI instances as AI-enabled penetration testing frameworks increasingly appear in real-world offensive operations. The finding highlights the growing availability of platforms that automate reconnaissance, vulnerability testing, and follow-on activity, reducing manual effort and allowing operators to pursue multiple intrusion paths simultaneously. The count rep",
       "pubDate": "Mon, 16 Nov 2026 09:52:00 +0000",
       "source": "GBHackers",
-      "cat": "threats",
-      "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "HackRe-f885e75e1afa",
-      "title": "Google Spots AI Agent Turning Security Patches Into Exploits",
-      "link": "https://hackread.com/google-ai-agent-turning-security-patches-exploits/",
-      "desc": "Google reports hackers using an AI agent to study new patches, identify software flaws and automatically develop and&#8230;",
-      "pubDate": "Mon, 16 Nov 2026 17:24:22 +0000",
-      "source": "HackRead",
-      "cat": "threats",
-      "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "HackRe-a47853544c15",
-      "title": "ArcticRAT Android Malware Uses Grok AI to Analyse Stolen Banking Texts",
-      "link": "https://hackread.com/arcticrat-android-malware-grok-ai-analyse-banking-texts/",
-      "desc": "ArcticRAT Android malware can inspect installed apps, sort through SMS alerts and collect financial details, while remote-control features&#8230;",
-      "pubDate": "Mon, 16 Nov 2026 08:28:18 +0000",
-      "source": "HackRead",
-      "cat": "malware",
-      "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "HackRe-907ccf31582d",
-      "title": "The Security Jobs Growing Around Enterprise AI Agents",
-      "link": "https://hackread.com/security-jobs-growing-around-enterprise-ai-agents/",
-      "desc": "Two years ago, most company AI use happened in a chat window. Today, AI assistants read shared mailboxes,&#8230;",
-      "pubDate": "Sat, 14 Nov 2026 13:04:01 +0000",
-      "source": "HackRead",
-      "cat": "threats",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "HackRe-d9ac8348e274",
-      "title": "GNSS Spoofing and Jamming: What They Do to RTK Positioning and How Field Teams Can Spot Them",
-      "link": "https://hackread.com/gnss-spoofing-jamming-rtk-positioning-teams-spot/",
-      "desc": "Satellite positioning can fail even when a rover appears normal. Its fixed solution may disappear or its coordinates&#8230;",
-      "pubDate": "Fri, 13 Nov 2026 20:58:12 +0000",
-      "source": "HackRead",
-      "cat": "threats",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "HackRe-517953fe1690",
-      "title": "FBI Disrupts North Korean FaceStealer Scheme Behind $400M Crypto Theft",
-      "link": "https://hackread.com/fbi-disrupts-north-korean-facestealer-crypto-theft/",
-      "desc": "The FaceStealer scheme used hijacked messaging accounts, fake video meetings and secretly recorded webcam footage to target cryptocurrency&#8230;",
-      "pubDate": "Fri, 13 Nov 2026 14:17:17 +0000",
-      "source": "HackRead",
-      "cat": "threats",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "HackRe-f2903d9ab195",
-      "title": "Agentic Finance Has an Accountability Gap, and KYA Aims to Close It",
-      "link": "https://hackread.com/agentic-finance-accountability-gap-kya-aims-close-it/",
-      "desc": "Know Your Agent (KYA) proposes identity, permissions and oversight for AI agents in finance, linking automated actions to people responsible for them.",
-      "pubDate": "Fri, 13 Nov 2026 10:31:18 +0000",
-      "source": "HackRead",
-      "cat": "threats",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "HackRe-bb278b37e6c5",
-      "title": "Hackers Use 4,837 Stolen GitHub Accounts to Target 61,764 Repositories",
-      "link": "https://hackread.com/hackers-stolen-github-accounts-target-repositories/",
-      "desc": "Hackers used 4,837 compromised GitHub accounts in the wfx-loot campaign to target repositories and steal developer credentials, cloud&#8230;",
-      "pubDate": "Fri, 13 Nov 2026 09:41:06 +0000",
-      "source": "HackRead",
-      "cat": "threats",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "HackRe-11885c6ec6a6",
-      "title": "How Beginner Creators Can Earn with the Temu Influencer Program This Black Friday",
-      "link": "https://hackread.com/temu-influencer-program-black-friday/",
-      "desc": "Black Friday is a major shopping occasion, making it a timely opportunity for creators to share gift ideas,&#8230;",
-      "pubDate": "Thu, 12 Nov 2026 17:28:14 +0000",
-      "source": "HackRead",
-      "cat": "threats",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "HackRe-78abdec9ca8d",
-      "title": "Hackers Abuse Microsoft SQL Servers to Deploy Monero Miner and Gh0st RAT",
-      "link": "https://hackread.com/hackers-abuse-microsoft-sql-servers-monero-miner-gh0st-rat/",
-      "desc": "SEO: Fortinet discovered a campaign where attackers brute-force exposed Microsoft SQL Server installations and abuse T-SQL commands to&#8230;",
-      "pubDate": "Thu, 12 Nov 2026 16:30:49 +0000",
-      "source": "HackRead",
-      "cat": "threats",
-      "sev": "critical",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "HackRe-c2eca0e6af09",
-      "title": "nDiligence Releases Four-Year Study Identifying a Critical Supply-Chain Vulnerability Across 50 Platform Types",
-      "link": "https://hackread.com/ndiligence-releases-four-year-study-identifying-a-critical-supply-chain-vulnerability-across-50-platform-types/",
-      "desc": "San Francisco, California, USA, 12th November 2026, CyberNewswire",
-      "pubDate": "Thu, 12 Nov 2026 13:15:03 +0000",
-      "source": "HackRead",
       "cat": "threats",
       "sev": "high",
       "tags": [],
@@ -2347,18 +2158,18 @@
       "sev": "high",
       "tags": [
         {
-          "t": "CVE-2026-109618",
+          "t": "CVE-2026-109619",
           "cls": "cve"
         },
         {
-          "t": "CVE-2026-109619",
+          "t": "CVE-2026-109618",
           "cls": "cve"
         }
       ],
       "iocs": {
         "cves": [
-          "CVE-2026-109618",
-          "CVE-2026-109619"
+          "CVE-2026-109619",
+          "CVE-2026-109618"
         ],
         "ips": [],
         "hashes": []
@@ -2499,18 +2310,18 @@
       "sev": "high",
       "tags": [
         {
-          "t": "CVE-2026-88771",
+          "t": "CVE-2026-88772",
           "cls": "cve"
         },
         {
-          "t": "CVE-2026-88772",
+          "t": "CVE-2026-88771",
           "cls": "cve"
         }
       ],
       "iocs": {
         "cves": [
-          "CVE-2026-88771",
-          "CVE-2026-88772"
+          "CVE-2026-88772",
+          "CVE-2026-88771"
         ],
         "ips": [],
         "hashes": []
@@ -2834,18 +2645,18 @@
       "sev": "critical",
       "tags": [
         {
-          "t": "CVE-2026-42271",
+          "t": "CVE-2026-48710",
           "cls": "cve"
         },
         {
-          "t": "CVE-2026-48710",
+          "t": "CVE-2026-42271",
           "cls": "cve"
         }
       ],
       "iocs": {
         "cves": [
-          "CVE-2026-42271",
-          "CVE-2026-48710"
+          "CVE-2026-48710",
+          "CVE-2026-42271"
         ],
         "ips": [],
         "hashes": []
@@ -3404,18 +3215,18 @@
       "sev": "high",
       "tags": [
         {
-          "t": "CVE-2026-109618",
+          "t": "CVE-2026-109619",
           "cls": "cve"
         },
         {
-          "t": "CVE-2026-109619",
+          "t": "CVE-2026-109618",
           "cls": "cve"
         }
       ],
       "iocs": {
         "cves": [
-          "CVE-2026-109618",
-          "CVE-2026-109619"
+          "CVE-2026-109619",
+          "CVE-2026-109618"
         ],
         "ips": [],
         "hashes": []
