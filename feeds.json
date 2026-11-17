@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-17T01:57:34.837372+00:00",
-  "sources_ok": 15,
+  "generated_at": "2026-11-17T10:30:05.490125+00:00",
+  "sources_ok": 16,
   "sources_total": 20,
   "source_status": {
     "The Hacker News": {
@@ -20,9 +20,8 @@
       "articles": 10
     },
     "HackRead": {
-      "ok": false,
-      "articles": 0,
-      "error": "Invalid feed: <unknown>:94:2: mismatched tag"
+      "ok": true,
+      "articles": 10
     },
     "Exploit-DB": {
       "ok": true,
@@ -89,8 +88,65 @@
       "error": "429 Client Error: Too Many Requests for url: https://www.reddit.com/r/blueteamsec/.rss"
     }
   },
-  "total": 195,
+  "total": 205,
   "articles": [
+    {
+      "id": "TheHa-7f6c687ee705",
+      "title": "Hijacked Optimizely Scripts Served Card Skimmer and iOS Exploit Kits to CNN, BBC and Zoom Visitors",
+      "link": "https://thehackernews.com/2026/11/hijacked-optimizely-scripts-served-card.html",
+      "desc": "An attacker exploited a flaw in Optimizely Web Experimentation to plant malicious code in some of the scripts that customers' websites load from the service, Optimizely said early today.\n\nVisitors to sites run by at least 178 organizations, including CNN, the BBC and Zoom, received the code yesterday, according to Report URI, a firm that monitors the scripts websites run.\n\nThe code was built to",
+      "pubDate": "Tue, 17 Nov 2026 12:42:13 +0530",
+      "source": "The Hacker News",
+      "cat": "threats",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "TheHa-053586b2ca36",
+      "title": "ConnectWise Warns ScreenConnect Attacks Continue as SCKit Targets Unpatched Systems",
+      "link": "https://thehackernews.com/2026/11/connectwise-warns-screenconnect-attacks.html",
+      "desc": "ConnectWise on Monday said it completed its investigation into unauthorized access targeting partner ScreenConnect environments, and recommended customers to ensure that the technician client is running version 26.6.5 or later.\n\nThe company said additional activity targeting on-premises environments continues to be reported where the identified third-party extensions remain enabled, and",
+      "pubDate": "Tue, 17 Nov 2026 11:59:27 +0530",
+      "source": "The Hacker News",
+      "cat": "threats",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "TheHa-08af41a70f2f",
+      "title": "N-able Patches 17 N-central Flaws as Attackers Exploit Earlier Bugs to Deploy Crypto Miners",
+      "link": "https://thehackernews.com/2026/11/n-able-patches-17-n-central-flaws-as.html",
+      "desc": "N-able has released a new security update to address additional critical security flaws impacting N-central.\n\nDescribing N-central 2026.4 Hotfix 3 as a critical security update, the company said it includes a number of security patches and fixes that enhance the security of the Remote Monitoring and Management (RMM) and Unified Endpoint Management (UEM) platform.\n\n\"HF3 builds on the",
+      "pubDate": "Tue, 17 Nov 2026 10:30:34 +0530",
+      "source": "The Hacker News",
+      "cat": "threats",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
     {
       "id": "TheHa-5c90031f4f3a",
       "title": "Google Finds Hackers Using AI Agents to Build and Run Exploits From Software Patches",
@@ -323,63 +379,6 @@
       "source": "The Hacker News",
       "cat": "threats",
       "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "TheHa-49171bcff26d",
-      "title": "FBI Says North Korean Hackers Stole Over $400 Million in Crypto Using Deepfake Video Calls",
-      "link": "https://thehackernews.com/2026/11/fbi-says-north-korean-hackers-stole.html",
-      "desc": "The U.S. Federal Bureau of Investigation (FBI) has established that threat actors tied to the Democratic People's Republic of Korea (DPRK aka North Korea) have stolen more than $400 million worth of cryptocurrency as part of a social engineering scheme codenamed FaceStealer in the last 18 months.\n\nAs part of a coordinated set of actions announced by the U.S. government, the cloud-based",
-      "pubDate": "Fri, 13 Nov 2026 19:58:58 +0530",
-      "source": "The Hacker News",
-      "cat": "threats",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "TheHa-1df3a5460783",
-      "title": "Trezor Confirms Hidden Implants in CryptoBilis-Sold Wallets That Can Steal Recovery Phrases",
-      "link": "https://thehackernews.com/2026/11/trezor-confirms-hidden-hardware.html",
-      "desc": "Three Trezor Safe 5 wallets bought from the reseller CryptoBilis contain an implant, an extra circuit board that can copy their recovery phrases, hardware wallet maker Trezor said yesterday.\n\nThe implant reads the phrase from the wallet's screen and sends it over the mobile network to a server controlled by the attackers. The company examined one of the wallets in its lab, identified the other",
-      "pubDate": "Fri, 13 Nov 2026 19:24:20 +0530",
-      "source": "The Hacker News",
-      "cat": "threats",
-      "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "TheHa-0272ec659a6a",
-      "title": "When an AI Agent Goes Wrong, Can You Stop It?",
-      "link": "https://thehackernews.com/2026/11/when-ai-agent-goes-wrong-can-you-stop-it.html",
-      "desc": "Suppose an AI agent is asked to sort support tickets and look up account details. A ticket contains instructions that lead the agent to export records to an unfamiliar destination. The agent can make the request because its identity has access to the records and its connected tools allow the action.\n\nThat kind of scenario raises a response question: what does “stop the agent” actually mean? A",
-      "pubDate": "Fri, 13 Nov 2026 17:22:31 +0530",
-      "source": "The Hacker News",
-      "cat": "threats",
-      "sev": "medium",
       "tags": [],
       "iocs": {
         "cves": [],
@@ -778,30 +777,11 @@
       "ts": 0
     },
     {
-      "id": "GBHack-ffffb712abf1",
-      "title": "Leaked Credentials Are an Enterprise Problem: GitGuardian Extends Its Good Samaritan Program to Security Teams",
-      "link": "https://gbhackers.com/leaked-credentials-are-an-enterprise-problem-gitguardian-extends-its-good-samaritan-program-to-security-teams/",
-      "desc": "New York, USA, November 16th, 2026, CyberNewswire AI attribution has linked more than 3,913 high-impact leaks to 1,532 companies since spring; security experts handle critical disclosures to enterprise security teams. GitGuardian, the secrets security platform, today announced the Enterprise Good Samaritan Program, an expansion of its longstanding responsible disclosure efforts aimed at strengthen",
-      "pubDate": "Mon, 16 Nov 2026 14:38:03 +0000",
-      "source": "GBHackers",
-      "cat": "breaches",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "GBHack-2dcad4f0be66",
-      "title": "Microsoft Reveals Windows Bug That Crashed Over 80% of Servers During Global Microsoft 365 Outage",
-      "link": "https://gbhackers.com/microsoft-reveals-windows-bug-that-crashed-over-80-of-servers/",
-      "desc": "Microsoft has attributed the global Microsoft 365 disruption on November 12–13, 2026, to a latent Windows defect that rendered more than 80% of its affected networking gateway servers unresponsive. Its preliminary incident report, dated November 15, describes how lock contention, redistributed traffic, and reduced capacity combined to trigger a cascading infrastructure failure. The Microsoft 365 [",
-      "pubDate": "Mon, 16 Nov 2026 13:53:16 +0000",
+      "id": "GBHack-878c772ac20a",
+      "title": "11 Penetration Testing Companies: The 2026 Buyer’s Verdict Guide",
+      "link": "https://gbhackers.com/penetration-testing-companies-buyers-guide/",
+      "desc": "Buying penetration testing well is mostly a scoping discipline, and the vendor you choose matters far less than the question you hand them. The firms below span boutique offensive specialists, consulting-scale assessment benches, and intelligence-led houses and the difference that decides value is not brand but the depth of the actual testers assigned, the ratio [&#8230;]\nThe post 11 Penetration T",
+      "pubDate": "Tue, 17 Nov 2026 07:54:17 +0000",
       "source": "GBHackers",
       "cat": "threats",
       "sev": "medium",
@@ -816,11 +796,11 @@
       "ts": 0
     },
     {
-      "id": "GBHack-7a2b897837ed",
-      "title": "Claude Code Extension Could Let AI Agents Access Files Outside Trusted Workspaces Through Symlinks",
-      "link": "https://gbhackers.com/claude-code-extension/",
-      "desc": "Anthropic&#8217;s Claude Code extension for Visual Studio Code reportedly shows misleading file paths in its permission prompts. A researcher says this can lead users to approve file access outside their trusted workspace. Anthropic closed the report as informative and did not treat it as a vulnerability. The researcher disagrees and says the issue is unpatched [&#8230;]\nThe post Claude Code Exten",
-      "pubDate": "Mon, 16 Nov 2026 12:58:24 +0000",
+      "id": "GBHack-c8d96a2ed40b",
+      "title": "11 Attack Path Management Tools: The 2026 Buyer’s Verdict Guide",
+      "link": "https://gbhackers.com/attack-path-management-buyers-guide/",
+      "desc": "Attack path management answers the question that reframes every remediation meeting: not “which vulnerabilities exist” but “which chain of them actually walks an attacker from a phished laptop to domain control.” The discipline splits into identity-path analyzers (who can reach what, through which privilege), network-path modelers (which route through which firewall rule), and the exposure [&#8230",
+      "pubDate": "Tue, 17 Nov 2026 07:48:04 +0000",
       "source": "GBHackers",
       "cat": "threats",
       "sev": "high",
@@ -835,11 +815,11 @@
       "ts": 0
     },
     {
-      "id": "GBHack-f33ebd712377",
-      "title": "Apple Unveils Secure Exclaves to Protect Camera and Microphone Data From Kernel-Level Attacks",
-      "link": "https://gbhackers.com/apple-unveils-secure-exclaves-to-protect-camera/",
-      "desc": "Apple has detailed Secure Exclaves, a hardware-backed security architecture designed to protect camera and microphone processing even when attackers compromise the operating system kernel. Developed by its Security Engineering and Architecture and Core Operating Systems teams, the architecture separates sensitive ambient sensing workloads from applications, system services, and the main operating ",
-      "pubDate": "Mon, 16 Nov 2026 12:49:33 +0000",
+      "id": "GBHack-a81574062ebd",
+      "title": "11 Cyber Asset Attack Surface Management (CAASM) Tools: The 2026 Buyer’s Verdict Guide",
+      "link": "https://gbhackers.com/caasm-tools-buyers-guide/",
+      "desc": "The reason CAASM became a category is simple: every security product keeps its own asset list and none of them agree one laptop logged under three identities, a server your EDR reports but your scanner never saw, a cloud workload the CMDB never recorded. These tools consolidate those conflicting lists from the products you already [&#8230;]\nThe post 11 Cyber Asset Attack Surface Management (CAASM)",
+      "pubDate": "Tue, 17 Nov 2026 07:40:42 +0000",
       "source": "GBHackers",
       "cat": "threats",
       "sev": "high",
@@ -854,14 +834,14 @@
       "ts": 0
     },
     {
-      "id": "GBHack-5413b191188e",
-      "title": "macOS 27 Siri Stores Conversations in SQLite Database, Raising Privacy Concerns",
-      "link": "https://gbhackers.com/macos-27-siri-stores-conversations-in-sqlite-database/",
-      "desc": "Apple’s new Siri app in macOS 27 retains conversations in a locally accessible SQLite database, creating a forensic record of interactions users might otherwise consider temporary. Researcher Yogesh Khatri documented the behavior in a November 15 forensic analysis, reporting that his system’s default conversation retention setting was “Forever.” Other available options were 30 days and [&#8230;]\nT",
-      "pubDate": "Mon, 16 Nov 2026 12:25:51 +0000",
+      "id": "GBHack-982ca0054a32",
+      "title": "11 Attack Surface Management (ASM/EASM) Tools: The 2026 Buyer’s Verdict Guide",
+      "link": "https://gbhackers.com/asm-tools-buyers-guide/",
+      "desc": "External attack surface management settles a question attackers resolve every day and most defenders never do: which of your assets is genuinely reachable from the internet at this moment? The buying trap is attribution mis-mapped assets in both directions flood teams with other companies’ infrastructure or miss your own, and it’s the complaint that kills [&#8230;]\nThe post 11 Attack Surface Manag",
+      "pubDate": "Tue, 17 Nov 2026 07:37:18 +0000",
       "source": "GBHackers",
       "cat": "threats",
-      "sev": "medium",
+      "sev": "high",
       "tags": [],
       "iocs": {
         "cves": [],
@@ -873,14 +853,14 @@
       "ts": 0
     },
     {
-      "id": "GBHack-4cf890cedf4f",
-      "title": "Hackers Can Search Compromised Computers by Job Title and Company in New AI-Powered Marketplace",
-      "link": "https://gbhackers.com/ai-powered-marketplace/",
-      "desc": "A new cybercrime forum service turns stolen infostealer logs into searchable profiles. Instead of selling raw credential dumps, it attaches a plain-language description to each compromised computer. The description covers the apparent owner, workplace, installed applications, and valuable data. Buyers can query these descriptions in natural language. They can also filter by country, operating syst",
-      "pubDate": "Mon, 16 Nov 2026 12:02:19 +0000",
+      "id": "GBHack-354b5adde6aa",
+      "title": "11 Continuous Threat Exposure Management (CTEM) Platforms: The 2026 Buyer’s Verdict Guide",
+      "link": "https://gbhackers.com/ctem-platforms-buyers-guide/",
+      "desc": "Gartner’s CTEM framework names five moves scoping, discovery, prioritization, validation, mobilization and the uncomfortable buying truth is that no vendor genuinely delivers all five, however the slide deck reads. Programs fail when a team believes one platform covers the whole loop and quietly drops validation, the step that turns a vulnerability list into a proven-exploitable [&#8230;]\nThe post",
+      "pubDate": "Tue, 17 Nov 2026 07:32:56 +0000",
       "source": "GBHackers",
       "cat": "threats",
-      "sev": "medium",
+      "sev": "high",
       "tags": [],
       "iocs": {
         "cves": [],
@@ -892,23 +872,42 @@
       "ts": 0
     },
     {
-      "id": "GBHack-63d03e459485",
-      "title": "Apple Microphone Vulnerability Allows Hackers to Secretly Record Audio Without User Permission",
-      "link": "https://gbhackers.com/apple-microphone-vulnerability/",
-      "desc": "A flaw in Apple&#8217;s audio media daemon let sandboxed apps record microphone audio without permission and, on an earlier build, without the orange privacy indicator. Meta Red Team X researcher Nik Tsytsarkin disclosed the bug as CVE-2026-65339, also crediting Mustafa Calap. Apple&#8217;s advisory describes it only as an Audio issue where &#8220;an app may be [&#8230;]\nThe post Apple Microphone ",
-      "pubDate": "Mon, 16 Nov 2026 11:42:44 +0000",
+      "id": "GBHack-cd24174b7379",
+      "title": "ARTEX AI Framework Linked to 44-Hour Barracuda Cloud Attack Targeting Credentials and Crypto Wallets",
+      "link": "https://gbhackers.com/44-hour-cloud-attack/",
+      "desc": "Barracuda has linked a 44-hour intrusion across approximately 10 cloud accounts to activity consistent with ARTEX, an open-source, AI-driven penetration-testing framework. The attacker chained stolen credentials across cloud infrastructure, analytics, source-code repositories and Kubernetes, while searching for cryptocurrency wallets and reusable secrets. The company disclosed the incident on Nove",
+      "pubDate": "Tue, 17 Nov 2026 07:19:53 +0000",
       "source": "GBHackers",
-      "cat": "redteam",
+      "cat": "threats",
+      "sev": "critical",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "GBHack-28d26bc5e2dc",
+      "title": "Hackers Abuse ScreenConnect Vulnerability to Install Rogue Remote Access Clients on Technician Systems",
+      "link": "https://gbhackers.com/screenconnect-vulnerability-abused/",
+      "desc": "Hackers are exploiting CVE-2026-84869 in ConnectWise ScreenConnect to execute malicious files on technicians’ workstations and deploy attacker-controlled remote access clients. Huntress confirmed a November 12 compromise in which a guest-pushed batch file notified a Telegram bot, downloaded an installer, and established a rogue ScreenConnect connection within approximately nine seconds. A technici",
+      "pubDate": "Tue, 17 Nov 2026 06:43:53 +0000",
+      "source": "GBHackers",
+      "cat": "threats",
       "sev": "high",
       "tags": [
         {
-          "t": "CVE-2026-65339",
+          "t": "CVE-2026-84869",
           "cls": "cve"
         }
       ],
       "iocs": {
         "cves": [
-          "CVE-2026-65339"
+          "CVE-2026-84869"
         ],
         "ips": [],
         "hashes": []
@@ -918,11 +917,11 @@
       "ts": 0
     },
     {
-      "id": "GBHack-c58977ceda70",
-      "title": "Apache Shiro and APISIX Security Flaws Let Attackers Bypass Authentication and Gain Unauthorized Access",
-      "link": "https://gbhackers.com/apache-shiro-and-apisix-security-flaws/",
-      "desc": "Two Apache projects have disclosed authentication bypass vulnerabilities. One is a critical flaw in Apache Shiro&#8217;s LDAP realm. The other is a high-severity identity spoofing issue in the Apache APISIX API gateway. Both flaws let an attacker gain access without valid credentials and depend on specific configurations. Apache Shiro and APISIX Security Flaws The Shiro [&#8230;]\nThe post Apache S",
-      "pubDate": "Mon, 16 Nov 2026 11:25:25 +0000",
+      "id": "GBHack-93cceedec2e4",
+      "title": "Hackers Could Hijack Claude Code Memory to Control AI Agents and Steal Sensitive Corporate Data",
+      "link": "https://gbhackers.com/claude-code-memory-hijacked/",
+      "desc": "Attackers who already control a device can turn Claude Code agents into live command-and-control (C2) implants. They used the Claude platform&#8217;s own memory stores feature. Darktrace stresses that the work was done in a controlled lab and does not rely on a vulnerability in the Claude platform. Darktrace argues that enterprise AI agents are the [&#8230;]\nThe post Hackers Could Hijack Claude Co",
+      "pubDate": "Tue, 17 Nov 2026 06:15:36 +0000",
       "source": "GBHackers",
       "cat": "threats",
       "sev": "high",
@@ -937,12 +936,107 @@
       "ts": 0
     },
     {
-      "id": "GBHack-d89d6342f305",
-      "title": "Hackers Revive Retadup Botnet Shut Down in 2019 to Deliver CoffeeLoader Malware via USB Drive",
-      "link": "https://gbhackers.com/coffeeloader-malware-attack/",
-      "desc": "Attackers have revived command infrastructure associated with Retadup, the USB-spreading worm disrupted by French authorities in 2019, to distribute CoffeeLoader malware. An updated variant detected in August 2026 combines removable-drive propagation with GPU-assisted unpacking, process injection, and cryptographically verified payload delivery. Researchers recorded Retadup infection attempts agai",
-      "pubDate": "Mon, 16 Nov 2026 10:24:35 +0000",
+      "id": "GBHack-4872bff5677a",
+      "title": "Hackers Exploit the ß vs ss Filename Trick to Bypass macOS Security Checks and Overwrite Files",
+      "link": "https://gbhackers.com/hackers-exploit-the-s-vs-ss-filename-trick-to-bypass-macos-security-checks/",
+      "desc": "A Unicode quirk in how macOS names files has exposed several widely used developer tools to file-overwrite and exclusion-bypass attacks. CERT/CC published Vulnerability Note VU#604762 on November 16, 2026. It describes a mismatch between the Apple File System (APFS) and the way multiple applications compare file paths. Attackers can supply an alternative Unicode spelling, such [&#8230;]\nThe post H",
+      "pubDate": "Tue, 17 Nov 2026 05:50:21 +0000",
       "source": "GBHackers",
+      "cat": "threats",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "GBHack-9ff4ac568fc3",
+      "title": "Google Warns Hackers Are Using Autonomous AI Agents to Exploit Vulnerabilities Without Human Intervention",
+      "link": "https://gbhackers.com/google-warns-hackers-are-using-autonomous-ai-agents/",
+      "desc": "Google Threat Intelligence Group (GTIG) has warned that adversarial AI use has crossed a significant threshold. For the first time, threat actors are running vulnerability discovery and exploitation without a human in the loop. The November 17 GTIG AI Threat Tracker says attackers have moved past basic prompting to autonomous multi-agent frameworks, automated exploit pipelines, [&#8230;]\nThe post ",
+      "pubDate": "Tue, 17 Nov 2026 05:36:37 +0000",
+      "source": "GBHackers",
+      "cat": "threats",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "HackRe-ca9965999e11",
+      "title": "Five Situations Where Crypto Sentiment Deserves a Closer Look",
+      "link": "https://hackread.com/five-situations-crypto-sentiment-closer-look/",
+      "desc": "Learn when to check crypto fear and greed indexes, from Bitcoin crashes and rallies to FOMO, contrarian trades, and conflicting market signals and trends.",
+      "pubDate": "Mon, 16 Nov 2026 20:45:32 +0000",
+      "source": "HackRead",
+      "cat": "threats",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "HackRe-716fb58b9c2f",
+      "title": "From Courtroom to Boardroom: How XRP has Become a Go-To Institutional Altcoin",
+      "link": "https://hackread.com/courtroom-boardroom-xrp-institutional-altcoin/",
+      "desc": "XRP gains institutional interest as Ripple's SEC case ends, spot ETFs launch, and financial firms turn to the token for payments and treasury holdings.",
+      "pubDate": "Mon, 16 Nov 2026 20:22:06 +0000",
+      "source": "HackRead",
+      "cat": "threats",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "HackRe-f885e75e1afa",
+      "title": "Google Spots AI Agent Turning Security Patches Into Exploits",
+      "link": "https://hackread.com/google-ai-agent-turning-security-patches-exploits/",
+      "desc": "Google reports hackers using an AI agent to study new patches, identify software flaws and automatically develop and&#8230;",
+      "pubDate": "Mon, 16 Nov 2026 17:24:22 +0000",
+      "source": "HackRead",
+      "cat": "threats",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "HackRe-a47853544c15",
+      "title": "ArcticRAT Android Malware Uses Grok AI to Analyse Stolen Banking Texts",
+      "link": "https://hackread.com/arcticrat-android-malware-grok-ai-analyse-banking-texts/",
+      "desc": "ArcticRAT Android malware can inspect installed apps, sort through SMS alerts and collect financial details, while remote-control features&#8230;",
+      "pubDate": "Mon, 16 Nov 2026 08:28:18 +0000",
+      "source": "HackRead",
       "cat": "malware",
       "sev": "high",
       "tags": [],
@@ -956,14 +1050,109 @@
       "ts": 0
     },
     {
-      "id": "GBHack-9bd6f1d77222",
-      "title": "Researchers Find 700 Exposed PentAGI Instances as AI-Powered Hacking Frameworks Spread",
-      "link": "https://gbhackers.com/700-exposed-pentagi-instances/",
-      "desc": "More than 700 internet-reachable PentAGI instances as AI-enabled penetration testing frameworks increasingly appear in real-world offensive operations. The finding highlights the growing availability of platforms that automate reconnaissance, vulnerability testing, and follow-on activity, reducing manual effort and allowing operators to pursue multiple intrusion paths simultaneously. The count rep",
-      "pubDate": "Mon, 16 Nov 2026 09:52:00 +0000",
-      "source": "GBHackers",
+      "id": "HackRe-907ccf31582d",
+      "title": "The Security Jobs Growing Around Enterprise AI Agents",
+      "link": "https://hackread.com/security-jobs-growing-around-enterprise-ai-agents/",
+      "desc": "Two years ago, most company AI use happened in a chat window. Today, AI assistants read shared mailboxes,&#8230;",
+      "pubDate": "Sat, 14 Nov 2026 13:04:01 +0000",
+      "source": "HackRead",
       "cat": "threats",
-      "sev": "high",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "HackRe-d9ac8348e274",
+      "title": "GNSS Spoofing and Jamming: What They Do to RTK Positioning and How Field Teams Can Spot Them",
+      "link": "https://hackread.com/gnss-spoofing-jamming-rtk-positioning-teams-spot/",
+      "desc": "Satellite positioning can fail even when a rover appears normal. Its fixed solution may disappear or its coordinates&#8230;",
+      "pubDate": "Fri, 13 Nov 2026 20:58:12 +0000",
+      "source": "HackRead",
+      "cat": "threats",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "HackRe-517953fe1690",
+      "title": "FBI Disrupts North Korean FaceStealer Scheme Behind $400M Crypto Theft",
+      "link": "https://hackread.com/fbi-disrupts-north-korean-facestealer-crypto-theft/",
+      "desc": "The FaceStealer scheme used hijacked messaging accounts, fake video meetings and secretly recorded webcam footage to target cryptocurrency&#8230;",
+      "pubDate": "Fri, 13 Nov 2026 14:17:17 +0000",
+      "source": "HackRead",
+      "cat": "threats",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "HackRe-f2903d9ab195",
+      "title": "Agentic Finance Has an Accountability Gap, and KYA Aims to Close It",
+      "link": "https://hackread.com/agentic-finance-accountability-gap-kya-aims-close-it/",
+      "desc": "Know Your Agent (KYA) proposes identity, permissions and oversight for AI agents in finance, linking automated actions to people responsible for them.",
+      "pubDate": "Fri, 13 Nov 2026 10:31:18 +0000",
+      "source": "HackRead",
+      "cat": "threats",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "HackRe-bb278b37e6c5",
+      "title": "Hackers Use 4,837 Stolen GitHub Accounts to Target 61,764 Repositories",
+      "link": "https://hackread.com/hackers-stolen-github-accounts-target-repositories/",
+      "desc": "Hackers used 4,837 compromised GitHub accounts in the wfx-loot campaign to target repositories and steal developer credentials, cloud&#8230;",
+      "pubDate": "Fri, 13 Nov 2026 09:41:06 +0000",
+      "source": "HackRead",
+      "cat": "threats",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "HackRe-11885c6ec6a6",
+      "title": "How Beginner Creators Can Earn with the Temu Influencer Program This Black Friday",
+      "link": "https://hackread.com/temu-influencer-program-black-friday/",
+      "desc": "Black Friday is a major shopping occasion, making it a timely opportunity for creators to share gift ideas,&#8230;",
+      "pubDate": "Thu, 12 Nov 2026 17:28:14 +0000",
+      "source": "HackRead",
+      "cat": "threats",
+      "sev": "medium",
       "tags": [],
       "iocs": {
         "cves": [],
@@ -2158,18 +2347,18 @@
       "sev": "high",
       "tags": [
         {
-          "t": "CVE-2026-109619",
+          "t": "CVE-2026-109618",
           "cls": "cve"
         },
         {
-          "t": "CVE-2026-109618",
+          "t": "CVE-2026-109619",
           "cls": "cve"
         }
       ],
       "iocs": {
         "cves": [
-          "CVE-2026-109619",
-          "CVE-2026-109618"
+          "CVE-2026-109618",
+          "CVE-2026-109619"
         ],
         "ips": [],
         "hashes": []
@@ -2635,6 +2824,25 @@
       "ts": 0
     },
     {
+      "id": "SANSI-3e00dc08f978",
+      "title": "ISC Stormcast For Tuesday, November 17th, 2026 https://isc.sans.edu/podcastdetail/10182, (Tue, Nov 17th)",
+      "link": "https://isc.sans.edu/diary/rss/33524",
+      "desc": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
+      "pubDate": "Tue, 17 Nov 2026 02:05:15 GMT",
+      "source": "SANS ISC",
+      "cat": "vulns",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
       "id": "SANSI-6553b2ba9945",
       "title": "Scans for LiteLLM/Starlette (CVE-2026-42271, CVE-2026-48710), (Mon, Nov 16th)",
       "link": "https://isc.sans.edu/diary/rss/33522",
@@ -2645,18 +2853,18 @@
       "sev": "critical",
       "tags": [
         {
-          "t": "CVE-2026-48710",
+          "t": "CVE-2026-42271",
           "cls": "cve"
         },
         {
-          "t": "CVE-2026-42271",
+          "t": "CVE-2026-48710",
           "cls": "cve"
         }
       ],
       "iocs": {
         "cves": [
-          "CVE-2026-48710",
-          "CVE-2026-42271"
+          "CVE-2026-42271",
+          "CVE-2026-48710"
         ],
         "ips": [],
         "hashes": []
@@ -2811,25 +3019,6 @@
       "link": "https://isc.sans.edu/diary/rss/33510",
       "desc": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
       "pubDate": "Wed, 11 Nov 2026 02:00:03 GMT",
-      "source": "SANS ISC",
-      "cat": "vulns",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "SANSI-43d7101cecaa",
-      "title": "Apple Patches Everyting: November 2026 Edition, (Tue, Nov 10th)",
-      "link": "https://isc.sans.edu/diary/rss/33506",
-      "desc": "&#xd;",
-      "pubDate": "Tue, 10 Nov 2026 12:48:55 GMT",
       "source": "SANS ISC",
       "cat": "vulns",
       "sev": "medium",
@@ -3215,18 +3404,18 @@
       "sev": "high",
       "tags": [
         {
-          "t": "CVE-2026-109619",
+          "t": "CVE-2026-109618",
           "cls": "cve"
         },
         {
-          "t": "CVE-2026-109618",
+          "t": "CVE-2026-109619",
           "cls": "cve"
         }
       ],
       "iocs": {
         "cves": [
-          "CVE-2026-109619",
-          "CVE-2026-109618"
+          "CVE-2026-109618",
+          "CVE-2026-109619"
         ],
         "ips": [],
         "hashes": []
@@ -3654,30 +3843,11 @@
       "ts": 0
     },
     {
-      "id": "r/nets-4c6a87270fdd",
-      "title": "vm2's own repo lists its next sandbox escapes: a deferred nesting fix, a \"monitoring\" entry in ATTACKS.md, and species shims for Promise and Array but not typed arrays",
-      "link": "https://www.reddit.com/r/netsec/comments/1xxibhv/vm2s_own_repo_lists_its_next_sandbox_escapes_a/",
-      "desc": "Author here. I had written up six vm2 CVEs one at a time, then read all six in a row. Read that way they stop looking like separate bugs. Short version: vm2's bridge is a hand-written wrap list, so it is always one language feature behind. Every fix is one of three moves: add an entry, delete the feature (WebAssembly JSTag), or lie to V8 about a property it reads in C++ (the species shims). None o",
-      "pubDate": "2026-11-16T06:32:20+00:00",
-      "source": "r/netsec",
-      "cat": "community",
-      "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "r/nets-ad01ec9f560d",
-      "title": "Dry Soup: this holiday season you need to choose a family code word",
-      "link": "https://www.reddit.com/r/netsec/comments/1xx6e0s/dry_soup_this_holiday_season_you_need_to_choose_a/",
-      "desc": "&#32; submitted by &#32;  /u/coldBlock73   [link] &#32; [comments]",
-      "pubDate": "2026-11-15T20:50:37+00:00",
+      "id": "r/nets-cf8f93590d39",
+      "title": "Glasswing overwhelms maintainers with underwhelming findings (VulnCheck)",
+      "link": "https://www.reddit.com/r/netsec/comments/1xyfaen/glasswing_overwhelms_maintainers_with/",
+      "desc": "&#32; submitted by &#32;  /u/sonicLodge91   [link] &#32; [comments]",
+      "pubDate": "2026-11-17T08:37:55+00:00",
       "source": "r/netsec",
       "cat": "community",
       "sev": "medium",
@@ -3839,14 +4009,14 @@
       "ts": 0
     },
     {
-      "id": "r/nets-07ee12c21210",
-      "title": "Cracking Server 2022 NTLMv1-SSP Hashes with Rainbow Tables",
-      "link": "https://www.reddit.com/r/netsec/comments/1xswu2e/cracking_server_2022_ntlmv1ssp_hashes_with/",
-      "desc": "A while back, I had released a blog showing that NTLMv1 downgrade attacks still work on Windows Server 2022! While it isn't a default setting, it's still a misconfiguration to potentially look for. If a DC’s LmCompatibilityLevel is set to 0-2, you can coerce authentication, strip Extended Session Security (ESS), and obtain an NTLMv1-SSP hash that’s crackable with a rainbow table. :) Blog: https://",
-      "pubDate": "2026-11-10T19:53:18+00:00",
+      "id": "r/nets-92dd645e22b7",
+      "title": "New Kimsuki (APT-43) active infrastructure and campaign discovered",
+      "link": "https://www.reddit.com/r/netsec/comments/1xtioog/new_kimsuki_apt43_active_infrastructure_and/",
+      "desc": "Stormshield's Cyber Threat Intelligence team has uncovered the Trigram campaign, targeting the AI, blockchain, and logistics sectors across Europe and the United States.  The Bait: Threat actors impersonate 50 companies using fake job offers, invitations, and package tracking notifications to deliver an infostealer to victims. Behind the Scenes: A dedicated platform enables the attackers to track ",
+      "pubDate": "2026-11-11T14:09:28+00:00",
       "source": "r/netsec",
       "cat": "community",
-      "sev": "critical",
+      "sev": "high",
       "tags": [],
       "iocs": {
         "cves": [],
@@ -3858,14 +4028,14 @@
       "ts": 0
     },
     {
-      "id": "r/nets-92dd645e22b7",
-      "title": "New Kimsuki (APT-43) active infrastructure and campaign discovered",
-      "link": "https://www.reddit.com/r/netsec/comments/1xtioog/new_kimsuki_apt43_active_infrastructure_and/",
-      "desc": "Stormshield's Cyber Threat Intelligence team has uncovered the Trigram campaign, targeting the AI, blockchain, and logistics sectors across Europe and the United States.  The Bait: Threat actors impersonate 50 companies using fake job offers, invitations, and package tracking notifications to deliver an infostealer to victims. Behind the Scenes: A dedicated platform enables the attackers to track ",
-      "pubDate": "2026-11-11T14:09:28+00:00",
+      "id": "r/nets-07ee12c21210",
+      "title": "Cracking Server 2022 NTLMv1-SSP Hashes with Rainbow Tables",
+      "link": "https://www.reddit.com/r/netsec/comments/1xswu2e/cracking_server_2022_ntlmv1ssp_hashes_with/",
+      "desc": "A while back, I had released a blog showing that NTLMv1 downgrade attacks still work on Windows Server 2022! While it isn't a default setting, it's still a misconfiguration to potentially look for. If a DC’s LmCompatibilityLevel is set to 0-2, you can coerce authentication, strip Extended Session Security (ESS), and obtain an NTLMv1-SSP hash that’s crackable with a rainbow table. :) Blog: https://",
+      "pubDate": "2026-11-10T19:53:18+00:00",
       "source": "r/netsec",
       "cat": "community",
-      "sev": "high",
+      "sev": "critical",
       "tags": [],
       "iocs": {
         "cves": [],
@@ -3901,6 +4071,25 @@
       "link": "https://www.reddit.com/r/netsec/comments/1xt0jrg/supabase_security_findings_why_rls_is_only_25_of/",
       "desc": "&#32; submitted by &#32;  /u/1thirteenthirtyseven   [link] &#32; [comments]",
       "pubDate": "2026-11-10T22:21:14+00:00",
+      "source": "r/netsec",
+      "cat": "community",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "r/nets-8890364eeef7",
+      "title": "Kubernetes Non-Core Security Audit",
+      "link": "https://www.reddit.com/r/netsec/comments/1xspr6l/kubernetes_noncore_security_audit/",
+      "desc": "&#32; submitted by &#32;  /u/smaury   [link] &#32; [comments]",
+      "pubDate": "2026-11-10T15:27:08+00:00",
       "source": "r/netsec",
       "cat": "community",
       "sev": "medium",
