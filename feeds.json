@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T01:47:53.662370+00:00",
+  "generated_at": "2026-11-18T09:52:35.047419+00:00",
   "sources_ok": 15,
   "sources_total": 20,
   "source_status": {
@@ -91,6 +91,70 @@
   },
   "total": 190,
   "articles": [
+    {
+      "id": "TheHa-4638d38ffb7d",
+      "title": "Attackers Compromise Microsoft's Agent Framework PyPI Package to Steal Cloud Credentials",
+      "link": "https://thehackernews.com/2026/11/attackers-compromise-microsofts-agent.html",
+      "desc": "Threat actors have compromised Microsoft's agent-framework package to push a credential stealer, according to reports from Aikido, Chainguard, Endor Labs, OX Security, SafeDep, Socket, StepSecurity, and Google-owned Wiz.\n\nThe malicious versions, 1.26.1 and 1.26.2, were published 33 minutes apart on November 17, 2026, and are designed to run a credential stealer on every Python start. As of",
+      "pubDate": "Wed, 18 Nov 2026 12:15:26 +0530",
+      "source": "The Hacker News",
+      "cat": "threats",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "TheHa-5927e31f6af5",
+      "title": "Russian COLD RELIC Hackers Use Stolen Google Workspace Data to Breach Second U.S. Organization",
+      "link": "https://thehackernews.com/2026/11/russian-cold-relic-hackers-use-stolen.html",
+      "desc": "The Russia-linked cyber espionage group known as Cold Relic (formerly COLDRIVER and UNC4057) has been observed weaponizing a single cloud compromise into a launchpad for a series of linked intrusions resulting in third-party compromise.\n\nGoogle's Mandiant and Threat Intelligence Group (GTIG) said it investigated a 2026 compromise at a U.S.-based organization in which the adversary leveraged",
+      "pubDate": "Wed, 18 Nov 2026 11:28:04 +0530",
+      "source": "The Hacker News",
+      "cat": "breaches",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "TheHa-3bd3c37af191",
+      "title": "Java4Shell Flaw (CVE-2026-114938) Enables Pre-Auth RCE in Jira, Jenkins, Keycloak and More",
+      "link": "https://thehackernews.com/2026/11/java4shell-cve-2026-114938-enables-pre.html",
+      "desc": "A Java flaw called Java4Shell can let attackers without an account run their own code on Jira, Jenkins, Keycloak, and three other widely used applications, says Calif, the security research firm that disclosed it this week.\n\nThe flaw is present in Java 17.0.6 and later, and the vulnerable code runs only on x86-64 Intel and AMD chips that support the AVX-512 VBMI feature.\n\nTracked as",
+      "pubDate": "Wed, 18 Nov 2026 09:57:41 +0530",
+      "source": "The Hacker News",
+      "cat": "threats",
+      "sev": "critical",
+      "tags": [
+        {
+          "t": "CVE-2026-114938",
+          "cls": "cve"
+        }
+      ],
+      "iocs": {
+        "cves": [
+          "CVE-2026-114938"
+        ],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
     {
       "id": "TheHa-dc616f4906ee",
       "title": "Researchers Claim Two RCE Exploits That Bypass Telegram’s New Android Defenses",
@@ -327,50 +391,12 @@
       "ts": 0
     },
     {
-      "id": "TheHa-4427e99a6086",
-      "title": "Six Unpatched Danfoss Refrigeration Controller Flaws Could Allow Remote Takeover Without Login",
-      "link": "https://thehackernews.com/2026/11/six-unpatched-danfoss-refrigeration.html",
-      "desc": "Six flaws in Danfoss AK-SM800A refrigeration controllers could let a remote attacker take over a controller without logging in, Dutch security consultancy Midnight Blue said earlier this week.\n\nNo patch is available, and the researchers say the newest firmware, version 5.4.0, does not fix the flaws.\n\nGovernment cybersecurity agencies in Belgium, Ireland and Germany told operators this week to",
-      "pubDate": "Mon, 16 Nov 2026 18:04:21 +0530",
-      "source": "The Hacker News",
-      "cat": "threats",
-      "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "TheHa-752e576477ce",
-      "title": "Retadup Worm Resurfaces 7 Years After Takedown to Spread CoffeeLoader Malware",
-      "link": "https://thehackernews.com/2026/11/retadup-worm-resurfaces-7-years-after.html",
-      "desc": "Cybersecurity researchers have disclosed details of a new variant of CoffeeLoader, a malware designed to deliver additional payloads to infected machines.\n\n\"On launch, the NSIS-based installer executable dropped a file named '7z.dll' into a temporary directory and ran it through rundll32.exe,\" Kaspersky said in an analysis published today.\n\n\"The '7z.dll' file was a patched version of the",
-      "pubDate": "Mon, 16 Nov 2026 18:03:18 +0530",
-      "source": "The Hacker News",
-      "cat": "malware",
-      "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "TheHa-3ada99428431",
-      "title": "SANSAR Linux Cryptomining Malware Uses Modified NVIDIA Library to Hide GPU Activity",
-      "link": "https://thehackernews.com/2026/11/sansar-linux-cryptomining-malware-uses.html",
-      "desc": "A financially motivated threat activity cluster tracked as REF3364 has been attributed to a Linux-focused cryptocurrency mining operation that tampers with the readings used to detect high GPU workloads.\n\nCentral to the intrusion is a toolkit called SANSAR, a Rust-based orchestrator that receives commands over the TOR anonymity network to manage CPU and GPU miners. The activity was observed in",
-      "pubDate": "Mon, 16 Nov 2026 15:02:57 +0530",
-      "source": "The Hacker News",
+      "id": "Krebs-1883507b9c4e",
+      "title": "Attackers Used Optimizely to A/B Test Malware on Top Websites",
+      "link": "https://krebsonsecurity.com/2026/11/attackers-used-optimizely-to-a-b-test-malware-on-top-websites/",
+      "desc": "At least 178 top web destinations unwittingly served a variety of malware exploits against visitors over the past 24 hours thanks to a security vulnerability involving Optimizely, a company that helps websites customize user experiences and test out new features. Experts say the incident, which saw data-stealing malicious software silently injected into sites like the BBC, CNN, Equifax, Ledger and",
+      "pubDate": "Wed, 18 Nov 2026 02:52:04 +0000",
+      "source": "Krebs on Security",
       "cat": "malware",
       "sev": "high",
       "tags": [],
@@ -555,12 +581,50 @@
       "ts": 0
     },
     {
-      "id": "Krebs-f0eab7d43bde",
-      "title": "ShinyHunters Extorted Boeing Spin-off Prior to Arrests",
-      "link": "https://krebsonsecurity.com/2026/10/shinyhunters-extorted-boeing-spin-off-prior-to-arrests/",
-      "desc": "A teenager from Amman, Jordan suspected of leading the prolific data theft and extortion group ShinyHunters has been detained and is reportedly cooperating with the FBI to identify other members of the hacking gang. KrebsOnSecurity has learned that the suspect, who uses the hacker handle \"Rey,\" was detained as ShinyHunters was in the process of extorting a business unit recently divested by the gl",
-      "pubDate": "Wed, 07 Oct 2026 13:48:45 +0000",
-      "source": "Krebs on Security",
+      "id": "Securi-7ef8cad4f2c0",
+      "title": "Oracle Patches 950 Vulnerabilities With November 2026 CSPU",
+      "link": "https://www.securityweek.com/oracle-patches-640-vulnerabilities-with-november-2026-cspu/",
+      "desc": "Over 300 patches address unauthenticated, remotely exploitable flaws, while 62 fix critical-severity flaws.\nThe post Oracle Patches 950 Vulnerabilities With November 2026 CSPU appeared first on SecurityWeek.",
+      "pubDate": "Wed, 18 Nov 2026 08:47:18 +0000",
+      "source": "SecurityWeek",
+      "cat": "threats",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "Securi-225d387b1bff",
+      "title": "Java4Shell Vulnerability Puts Many Enterprise Applications at Risk of Takeover",
+      "link": "https://www.securityweek.com/java4shell-vulnerability-puts-many-enterprise-applications-at-risk-of-takeover/",
+      "desc": "Calif demonstrated remote code execution in Jira, Jenkins and Keycloak, while VulnCheck says real-world RCE requires per-target work\nThe post Java4Shell Vulnerability Puts Many Enterprise Applications at Risk of Takeover appeared first on SecurityWeek.",
+      "pubDate": "Wed, 18 Nov 2026 07:43:34 +0000",
+      "source": "SecurityWeek",
+      "cat": "threats",
+      "sev": "critical",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "Securi-3403685212e2",
+      "title": "Classified Communications Network at the National Security Agency Goes Down, Defense Official Says",
+      "link": "https://www.securityweek.com/classified-communications-network-at-the-national-security-agency-goes-down-defense-official-says/",
+      "desc": "The problem disrupted the operations of NSANet, a classified internal network used by employees of the agency.\nThe post Classified Communications Network at the National Security Agency Goes Down, Defense Official Says appeared first on SecurityWeek.",
+      "pubDate": "Wed, 18 Nov 2026 02:15:07 +0000",
+      "source": "SecurityWeek",
       "cat": "threats",
       "sev": "medium",
       "tags": [],
@@ -714,144 +778,11 @@
       "ts": 0
     },
     {
-      "id": "Securi-f8707751d0fa",
-      "title": "N-able Kills Legacy APIs, Patches 17 N-central Zero-Days",
-      "link": "https://www.securityweek.com/n-able-kills-legacy-apis-patches-17-n-central-zero-days/",
-      "desc": "The patches target recently disclosed zero-days, as well as vulnerabilities already exploited in the wild.\nThe post N-able Kills Legacy APIs, Patches 17 N-central Zero-Days appeared first on SecurityWeek.",
-      "pubDate": "Tue, 17 Nov 2026 12:28:45 +0000",
-      "source": "SecurityWeek",
-      "cat": "threats",
-      "sev": "critical",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "Securi-5a5ab6f745ce",
-      "title": "California Sues OpenAI, Seeking Court-Ordered Changes After the Hugging Face Hack",
-      "link": "https://www.securityweek.com/california-sues-openai-seeking-court-ordered-changes-after-the-hugging-face-hack/",
-      "desc": "The lawsuit alleges that OpenAI misled and endangered the public and users by knowingly developing advanced AI models without necessary safeguards.\nThe post California Sues OpenAI, Seeking Court-Ordered Changes After the Hugging Face Hack appeared first on SecurityWeek.",
-      "pubDate": "Tue, 17 Nov 2026 12:00:00 +0000",
-      "source": "SecurityWeek",
-      "cat": "threats",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "Securi-382ab0623b60",
-      "title": "Optimizely Vulnerability Exploited to Serve Malware on Major Websites",
-      "link": "https://www.securityweek.com/optimizely-vulnerability-exploited-to-serve-malware-on-major-websites/",
-      "desc": "Affected organizations include BBC, CNN, Zoom, GitLab, Salesforce, Equifax, HSBC, and IKEA.\nThe post Optimizely Vulnerability Exploited to Serve Malware on Major Websites appeared first on SecurityWeek.",
-      "pubDate": "Tue, 17 Nov 2026 10:22:20 +0000",
-      "source": "SecurityWeek",
-      "cat": "malware",
-      "sev": "critical",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "GBHack-4968e2ed392c",
-      "title": "OPTIMJACK Attack Injects Malicious JavaScript Into CNN, Zoom and Other Major Websites to Steal Data",
-      "link": "https://gbhackers.com/optimjack-attack/",
-      "desc": "OPTIMJACK, a malicious JavaScript delivery campaign observed on CNN, Zoom, and other prominent websites through a third-party script layer. Detected on November 16, the activity reportedly involved code designed to replace cryptocurrency wallet addresses, collect payment details, and selectively deliver additional content to iPhone and iPad browser profiles. Successful financial theft and device e",
-      "pubDate": "Tue, 17 Nov 2026 13:26:59 +0000",
-      "source": "GBHackers",
-      "cat": "threats",
-      "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "GBHack-18250b376a40",
-      "title": "Hackers Deploy PerfectPioneer RAT and KUKURAT Backdoor to Steal Sensitive Government Data",
-      "link": "https://gbhackers.com/kukurat-backdoor-activity/",
-      "desc": "A China-linked espionage group has spent nine months refining two custom remote access Trojans against Southeast Asian government networks. Palo Alto Networks&#8217; Unit 42 published its findings on November 16, 2026. The activity dates back to at least July 2025. Unit 42 tracks the actor as TGR-STA-0049. Other vendors call it REF7707, Earth Alux or [&#8230;]\nThe post Hackers Deploy PerfectPionee",
-      "pubDate": "Tue, 17 Nov 2026 12:54:29 +0000",
-      "source": "GBHackers",
-      "cat": "malware",
-      "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "GBHack-138d9c5abf67",
-      "title": "McDonald’s iOS App Flooded With Suspicious Push Notifications in Possible Cyberattack",
-      "link": "https://gbhackers.com/mcdonalds-ios-app-flooded-with-suspicious-push-notifications/",
-      "desc": "McDonald’s mobile application reportedly delivered a wave of abnormal push notifications on November 17, 2026, raising concerns about possible abuse of its notification infrastructure. According to a post attributed to security researcher blackorbird, the activity began around 14:20 and mainly affected iOS users. The report remains unverified, and the available information does not establish a [&#",
-      "pubDate": "Tue, 17 Nov 2026 12:43:45 +0000",
-      "source": "GBHackers",
-      "cat": "threats",
-      "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "GBHack-87d260a430b0",
-      "title": "Microsoft Warns Hackers Are Exploiting Microsoft 365 Outages to Launch Credential Phishing Attacks",
-      "link": "https://gbhackers.com/microsoft-warns-hackers-are-exploiting-microsoft-365-outages/",
-      "desc": "Microsoft Threat Intelligence observed a coordinated, high-volume phishing campaign on November 13, 2026, targeting organizations across multiple sectors worldwide. Attackers impersonated Microsoft 365 service-health notifications, claiming emails held during an outage would disappear unless recipients restored them within 24 hours. Microsoft assessed the activity as likely credential phishing but",
-      "pubDate": "Tue, 17 Nov 2026 12:20:34 +0000",
-      "source": "GBHackers",
-      "cat": "threats",
-      "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "GBHack-4a381daede83",
-      "title": "GitLab Patches 37 Security Vulnerabilities Affecting CI/CD Pipelines, GitLab Pages, and MCP Server",
-      "link": "https://gbhackers.com/gitlab-patches-37-security-vulnerabilities/",
-      "desc": "GitLab released versions 19.5.6, 19.4.8, and 19.3.9 on November 16, 2026. These updates address 37 security vulnerabilities across both the Community Edition and the Enterprise Edition. The fixes include four high-severity issues, 24 medium-severity issues, and nine low-severity issues that affect development infrastructure, integrations, and AI features. Self-managed administrators should upgrade",
-      "pubDate": "Tue, 17 Nov 2026 11:13:01 +0000",
+      "id": "GBHack-73881351ae09",
+      "title": "11 Cloud Email Security (Microsoft 365 & Google): The 2026 Buyer’s Verdict Guide",
+      "link": "https://gbhackers.com/cloud-email-security-buyers-guide/",
+      "desc": "Cloud email security is the lane that assumes your mail already lives in Microsoft 365 or Google Workspace and asks the sharper question: what gets past the native filters, and how fast can you pull it back after delivery? The API-native architecture OAuth in, no MX change, behavioral analysis of the full mailbox context became [&#8230;]\nThe post 11 Cloud Email Security (Microsoft 365 &amp; Google",
+      "pubDate": "Wed, 18 Nov 2026 08:28:57 +0000",
       "source": "GBHackers",
       "cat": "threats",
       "sev": "medium",
@@ -866,11 +797,30 @@
       "ts": 0
     },
     {
-      "id": "GBHack-4d79c36f9eaa",
-      "title": "Hacker Behind Massive GTA 6 Leak Pleads Guilty to Breaching Rockstar Games",
-      "link": "https://gbhackers.com/hacker-behind-massive-gta-6-leak-pleads-guilty/",
-      "desc": "Arion Kurtaj, the hacker responsible for the massive Grand Theft Auto 6 leak, has pleaded guilty to breaching Rockstar Games and attempting to extort the developer. The 21-year-old from Oxford admitted the offenses at Woolwich Crown Court on November 16, alongside other cybercrimes committed during his teenage involvement with Lapsus$. His pleas follow an unusual [&#8230;]\nThe post Hacker Behind M",
-      "pubDate": "Tue, 17 Nov 2026 10:55:52 +0000",
+      "id": "GBHack-11eb65d49e8d",
+      "title": "Hackers Abuse Microsoft 365 Outage Confusion to Launch Fake Email Restoration Scams",
+      "link": "https://gbhackers.com/microsoft-365-outage/",
+      "desc": "Attackers exploited the November 12 Microsoft 365 outage by sending fake service health notices that claimed four emails were being held and would be deleted unless recipients restored them. The messages cited EX1550543, the genuine Exchange Online incident number, and some imposed a 24-hour deadline. Microsoft Threat Intelligence said the activity was consistent with credential [&#8230;]\nThe post",
+      "pubDate": "Wed, 18 Nov 2026 08:26:50 +0000",
+      "source": "GBHackers",
+      "cat": "threats",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "GBHack-e4433fa02599",
+      "title": "11 Email Security Solutions: The 2026 Buyer’s Verdict Guide",
+      "link": "https://gbhackers.com/email-security-buyers-guide/",
+      "desc": "Email remains the number-one breach entry point, and the market that defends it split into two architectures that behave nothing alike: secure email gateways that sit inline and inspect mail before delivery, and API-based platforms that plug into Microsoft 365 or Google via API and catch what the native filters missed including the payload-less social-engineering [&#8230;]\nThe post 11 Email Securi",
+      "pubDate": "Wed, 18 Nov 2026 08:25:14 +0000",
       "source": "GBHackers",
       "cat": "breaches",
       "sev": "high",
@@ -885,32 +835,13 @@
       "ts": 0
     },
     {
-      "id": "GBHack-ec533014620d",
-      "title": "Mozilla Releases Firefox 160 Security Update Fixing 99 Vulnerabilities, Including Sandbox Escape Flaws",
-      "link": "https://gbhackers.com/mozilla-releases-firefox-160-security-update/",
-      "desc": "Mozilla has released Firefox 160 with fixes for 99 security vulnerabilities. Mozilla announced the update on November 10, 2026, as part of Mozilla Foundation Security Advisory 2026-125, which rates its overall impact as high. The advisory lists 57 high-severity flaws, 24 moderate and 18 low. Most of the high-severity bugs are memory-safety problems. Use-after-free errors [&#8230;]\nThe post Mozilla",
-      "pubDate": "Tue, 17 Nov 2026 10:09:20 +0000",
+      "id": "GBHack-47948eb07ed9",
+      "title": "11 Managed Vulnerability Scanning Services: The 2026 Buyer’s Verdict Guide",
+      "link": "https://gbhackers.com/managed-vulnerability-scanning-buyers-guide/",
+      "desc": "Managed vulnerability scanning exists because owning a scanner and running a program are different jobs, and the second one is where most in-house efforts quietly stall. These services run the scanning, triage the findings, and hand you a prioritized list but the value cliff is the handoff boundary: what the provider owns ends at a [&#8230;]\nThe post 11 Managed Vulnerability Scanning Services: The",
+      "pubDate": "Wed, 18 Nov 2026 08:21:16 +0000",
       "source": "GBHackers",
       "cat": "threats",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "GBHack-f5a9458931d9",
-      "title": "Hackers Use Malicious DLL and Fake PDF Files to Deliver PureLogs and PureRAT Payloads",
-      "link": "https://gbhackers.com/malicious-dll-payload/",
-      "desc": "A shipment-themed ZIP archive is delivering a multistage malware chain that combines DLL side-loading, disguised utilities, and encrypted Python code to deploy payloads associated with PureLogs and PureRAT infrastructure. Unit 42 observed the activity on October 21, 2026, according to research notes dated November 16 and credited to Shazan Khaja and Muhammet Algan. Originally named [&#8230;]\nThe p",
-      "pubDate": "Tue, 17 Nov 2026 09:21:02 +0000",
-      "source": "GBHackers",
-      "cat": "malware",
       "sev": "high",
       "tags": [],
       "iocs": {
@@ -923,11 +854,30 @@
       "ts": 0
     },
     {
-      "id": "GBHack-b1129f4b3ac8",
-      "title": "Apple Tightens macOS 27.3 Security to Stop Apps From Accessing Sensitive Files Without Explicit Permission",
-      "link": "https://gbhackers.com/apple-tightens-macos-27-3-security/",
-      "desc": "Apple is enhancing data permissions in macOS 27.3 beta 2 by introducing new controls that let users restrict applications to specific folders or apps instead of granting broad access. Announced on November 16, 2026, these changes aim to increase transparency around powerful permissions while preserving the approvals users have already granted. Apple Tightens macOS 27.3 [&#8230;]\nThe post Apple Tig",
-      "pubDate": "Tue, 17 Nov 2026 09:12:56 +0000",
+      "id": "GBHack-348114879c28",
+      "title": "11 Red Team & Adversary Emulation Services: The 2026 Buyer’s Verdict Guide",
+      "link": "https://gbhackers.com/red-team-services-buyers-guide/",
+      "desc": "A red team engagement is not a bigger penetration test it is a measured answer to one question: does your detection and response function actually catch a capable adversary pursuing a specific objective? The firms below span intelligence-led houses that emulate named threat actors, elite tradecraft boutiques, and consulting-scale benches, and the difference that decides [&#8230;]\nThe post 11 Red T",
+      "pubDate": "Wed, 18 Nov 2026 08:18:46 +0000",
+      "source": "GBHackers",
+      "cat": "redteam",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "GBHack-e2ff47e7bd80",
+      "title": "11 PTaaS Platforms: The 2026 Buyer’s Verdict Guide",
+      "link": "https://gbhackers.com/ptaas-buyers-guide/",
+      "desc": "Penetration-testing-as-a-service turned the annual engagement into a living register: a platform where findings surface continuously, retesting is a button, and scope stays current between formal tests. But the label covers three genuinely different delivery models vetted private researcher communities, employed consultant benches, and bug-bounty-adjacent crowds and buying the wrong one for your r",
+      "pubDate": "Wed, 18 Nov 2026 08:09:45 +0000",
       "source": "GBHackers",
       "cat": "threats",
       "sev": "medium",
@@ -942,17 +892,107 @@
       "ts": 0
     },
     {
-      "id": "GBHack-5a29dad53fe4",
-      "title": "Old Bitly Links Hijacked to Redirect Users From McDonald’s, Burger King, and Government X Posts",
-      "link": "https://gbhackers.com/old-bitly-links-hijacked-to-redirect-users/",
-      "desc": "Old Bitly links embedded in historical X posts from McDonald’s, Burger King, government agencies, and prominent politicians have been repurposed to redirect visitors to unrelated websites. This incident highlights how trusted social media archives can become channels for redirection years after the original posts were published. This occurs even when the original messages remain unchanged, [&#8230",
-      "pubDate": "Tue, 17 Nov 2026 08:57:12 +0000",
+      "id": "GBHack-46321f81088f",
+      "title": "US Trucking Companies Targeted by Fake Carrier Verification Sites Stealing Passwords and Financial Data",
+      "link": "https://gbhackers.com/fake-carrier-verification-sites/",
+      "desc": "A phishing campaign targeting US trucking companies uses counterfeit federal carrier verification sites to collect identity records, fleet fuel account passwords, and one-time authentication codes. Researchers linked approximately 1,430 domains to HelloFriends in 2026. That figure measures associated infrastructure, not the number of companies compromised. The report did not quantify successful ac",
+      "pubDate": "Wed, 18 Nov 2026 07:49:55 +0000",
       "source": "GBHackers",
       "cat": "threats",
-      "sev": "medium",
+      "sev": "high",
       "tags": [],
       "iocs": {
         "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "GBHack-d396d8bf1be3",
+      "title": "Hackers Abuse FortiGate and SonicWall VPN Access to Infiltrate Enterprise Networks",
+      "link": "https://gbhackers.com/stolen-vpn-credentials/",
+      "desc": "An enterprise intrusion operation linked to the handle tcherber, recovering more than 500 FortiGate VPN credential entries and logs showing successful tunnels into multiple victim networks in May and June 2026. The findings establish unauthorized access through FortiGate tunnels, not a confirmed SonicWall breach or exploitation of a newly disclosed VPN vulnerability. The recovered Go [&#8230;]\nThe",
+      "pubDate": "Wed, 18 Nov 2026 06:41:42 +0000",
+      "source": "GBHackers",
+      "cat": "breaches",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "GBHack-95e8b246013e",
+      "title": "Critical Apache HTTP Server Vulnerability Exploited in the Wild to Gain Remote Code Execution",
+      "link": "https://gbhackers.com/critical-apache-http-server-vulnerability/",
+      "desc": "Attackers are reportedly exploiting CVE-2026-119618, a critical vulnerability in Apache HTTP Server’s HTTP/2 module that can allow unauthenticated remote code execution. The Cyber Security Agency of Singapore warned on November 17 that exploitation was underway and that a public proof of concept was available. The agency urged administrators to patch immediately but did not identify [&#8230;]\nThe ",
+      "pubDate": "Wed, 18 Nov 2026 06:24:07 +0000",
+      "source": "GBHackers",
+      "cat": "threats",
+      "sev": "critical",
+      "tags": [
+        {
+          "t": "CVE-2026-119618",
+          "cls": "cve"
+        }
+      ],
+      "iocs": {
+        "cves": [
+          "CVE-2026-119618"
+        ],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "GBHack-b9eb8283f679",
+      "title": "Google Warns Russian Hackers Are Using Stolen Cloud Data to Impersonate Employees and Breach More Organizations",
+      "link": "https://gbhackers.com/stolen-cloud-data/",
+      "desc": "Two U.S. cloud intrusions to COLD RELIC, a Russian espionage group that used information stolen from one organization to impersonate an employee and breach another. The cases show why a cloud breach can put business partners at risk even after the original victim has contained it: stolen staff directories and correspondence can help attackers pose [&#8230;]\nThe post Google Warns Russian Hackers Ar",
+      "pubDate": "Wed, 18 Nov 2026 06:00:08 +0000",
+      "source": "GBHackers",
+      "cat": "breaches",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "HackRe-eb976160e5e2",
+      "title": "Java4Shell Flaw Lets Attackers Target Java Servers Without Logging In",
+      "link": "https://hackread.com/java4shell-flaw-run-code-java-servers-logging-in/",
+      "desc": "Oracle patches Java4Shell (CVE-2026-114938), an OpenJDK flaw that can let attackers read server memory and run malicious code without any credentials.",
+      "pubDate": "Wed, 18 Nov 2026 08:41:47 +0000",
+      "source": "HackRead",
+      "cat": "threats",
+      "sev": "high",
+      "tags": [
+        {
+          "t": "CVE-2026-114938",
+          "cls": "cve"
+        }
+      ],
+      "iocs": {
+        "cves": [
+          "CVE-2026-114938"
+        ],
         "ips": [],
         "hashes": []
       },
@@ -1118,25 +1158,6 @@
       "link": "https://hackread.com/five-situations-crypto-sentiment-closer-look/",
       "desc": "Learn when to check crypto fear and greed indexes, from Bitcoin crashes and rallies to FOMO, contrarian trades, and conflicting market signals and trends.",
       "pubDate": "Mon, 16 Nov 2026 20:45:32 +0000",
-      "source": "HackRead",
-      "cat": "threats",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "HackRe-716fb58b9c2f",
-      "title": "From Courtroom to Boardroom: How XRP has Become a Go-To Institutional Altcoin",
-      "link": "https://hackread.com/courtroom-boardroom-xrp-institutional-altcoin/",
-      "desc": "XRP gains institutional interest as Ripple's SEC case ends, spot ETFs launch, and financial firms turn to the token for payments and treasury holdings.",
-      "pubDate": "Mon, 16 Nov 2026 20:22:06 +0000",
       "source": "HackRead",
       "cat": "threats",
       "sev": "medium",
@@ -2806,6 +2827,25 @@
       "ts": 0
     },
     {
+      "id": "SANSI-5791a398d8e3",
+      "title": "ISC Stormcast For Wednesday, November 18th, 2026 https://isc.sans.edu/podcastdetail/10184, (Wed, Nov 18th)",
+      "link": "https://isc.sans.edu/diary/rss/33528",
+      "desc": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
+      "pubDate": "Wed, 18 Nov 2026 02:00:03 GMT",
+      "source": "SANS ISC",
+      "cat": "vulns",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
       "id": "SANSI-e2202fb5443d",
       "title": "A phishing page interested in MX records, (Tue, Nov 17th)",
       "link": "https://isc.sans.edu/diary/rss/33526",
@@ -2854,18 +2894,18 @@
       "sev": "critical",
       "tags": [
         {
-          "t": "CVE-2026-42271",
+          "t": "CVE-2026-48710",
           "cls": "cve"
         },
         {
-          "t": "CVE-2026-48710",
+          "t": "CVE-2026-42271",
           "cls": "cve"
         }
       ],
       "iocs": {
         "cves": [
-          "CVE-2026-42271",
-          "CVE-2026-48710"
+          "CVE-2026-48710",
+          "CVE-2026-42271"
         ],
         "ips": [],
         "hashes": []
@@ -2982,25 +3022,6 @@
       "link": "https://isc.sans.edu/diary/rss/33512",
       "desc": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
       "pubDate": "Thu, 12 Nov 2026 02:00:03 GMT",
-      "source": "SANS ISC",
-      "cat": "vulns",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "SANSI-590d20cccfc1",
-      "title": "Microsoft Patch Tuesday November 2026, (Tue, Nov 10th)",
-      "link": "https://isc.sans.edu/diary/rss/33508",
-      "desc": "Microsoft continues its AI-induced patch surge, addressing 1,260 different vulnerabilities this month. 68 of these vulnerabilities are considered critical. 167 of the vulnerabilities are Chromium issues affecting Microsoft Edge.&#xd;",
-      "pubDate": "Wed, 11 Nov 2026 18:28:43 GMT",
       "source": "SANS ISC",
       "cat": "vulns",
       "sev": "medium",
