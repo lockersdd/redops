@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-17T19:19:09.899259+00:00",
-  "sources_ok": 14,
+  "generated_at": "2026-11-18T01:47:53.662370+00:00",
+  "sources_ok": 15,
   "sources_total": 20,
   "source_status": {
     "The Hacker News": {
@@ -28,9 +28,8 @@
       "articles": 15
     },
     "VulnHub": {
-      "ok": false,
-      "articles": 0,
-      "error": "HTTPSConnectionPool(host='www.vulnhub.com', port=443): Read timed out. (read timeout=15)"
+      "ok": true,
+      "articles": 15
     },
     "PentestPartners": {
       "ok": true,
@@ -90,8 +89,27 @@
       "error": "429 Client Error: Too Many Requests for url: https://www.reddit.com/r/blueteamsec/.rss"
     }
   },
-  "total": 175,
+  "total": 190,
   "articles": [
+    {
+      "id": "TheHa-dc616f4906ee",
+      "title": "Researchers Claim Two RCE Exploits That Bypass Telegram’s New Android Defenses",
+      "link": "https://thehackernews.com/2026/11/researchers-claim-two-rce-exploits-that.html",
+      "desc": "A malicious widget can bypass the security filter that Telegram added to its Android app last week and run code outside it, according to NebuSec, a security company.\n\nWidgets are small interactive blocks that bots send inside chat messages, and their JavaScript runs on the user's phone. The researchers ran their demonstration on a Telegram test server, because only approved bots can send",
+      "pubDate": "Wed, 18 Nov 2026 01:04:20 +0530",
+      "source": "The Hacker News",
+      "cat": "threats",
+      "sev": "critical",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
     {
       "id": "TheHa-042a84386785",
       "title": "Oracle to Patch 11 Java Flaws Today as Critical OpenJDK RCE (CVE-2026-114938) Report Emerges",
@@ -354,25 +372,6 @@
       "pubDate": "Mon, 16 Nov 2026 15:02:57 +0530",
       "source": "The Hacker News",
       "cat": "malware",
-      "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "TheHa-9abd933f8790",
-      "title": "Amazon Uncovers AI Agent Campaign Targeting LiteLLM, Dify, and Other Apps for API Keys",
-      "link": "https://thehackernews.com/2026/11/amazon-uncovers-ai-agent-campaign.html",
-      "desc": "Attackers' AI agents have been hunting for weak spots in internet-exposed AI apps such as LiteLLM, One API, and Dify to steal the AI provider keys stored inside, according to the agents' own records.\n\nThe records, which Amazon's threat intelligence team captured with decoy servers, describe stolen keys being used to run the AI models that powered the search for more keys.\n\nThe team said this",
-      "pubDate": "Mon, 16 Nov 2026 13:04:21 +0530",
-      "source": "The Hacker News",
-      "cat": "threats",
       "sev": "high",
       "tags": [],
       "iocs": {
@@ -962,6 +961,25 @@
       "ts": 0
     },
     {
+      "id": "HackRe-cb130ed361ca",
+      "title": "Fast People Search Removal (2026): How to Opt Out & Remove Yourself",
+      "link": "https://hackread.com/fast-people-search-removal-2026-how-to-opt-out-remove/",
+      "desc": "Anyone can type your name into FastPeopleSearch and see your age, your current address, your phone numbers, and&#8230;",
+      "pubDate": "Tue, 17 Nov 2026 20:37:14 +0000",
+      "source": "HackRead",
+      "cat": "threats",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
       "id": "HackRe-f4666812bdd0",
       "title": "After Black October, OffSec Turns PHPH2Shell and Other New Vulnerabilities Into Hands-On Labs",
       "link": "https://hackread.com/after-black-october-offsec-turns-phph2shell-and-other-new-vulnerabilities-into-hands-on-labs/",
@@ -1122,25 +1140,6 @@
       "source": "HackRead",
       "cat": "threats",
       "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "HackRe-f885e75e1afa",
-      "title": "Google Spots AI Agent Turning Security Patches Into Exploits",
-      "link": "https://hackread.com/google-ai-agent-turning-security-patches-exploits/",
-      "desc": "Google reports hackers using an AI agent to study new patches, identify software flaws and automatically develop and&#8230;",
-      "pubDate": "Mon, 16 Nov 2026 17:24:22 +0000",
-      "source": "HackRead",
-      "cat": "threats",
-      "sev": "high",
       "tags": [],
       "iocs": {
         "cves": [],
@@ -1432,6 +1431,291 @@
       "pubDate": "Thu, 01 Oct 2026 00:00:00 +0000",
       "source": "Exploit-DB",
       "cat": "exploits",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "VulnHu-bf2625b8e99d",
+      "title": "Matrix-Breakout: 2 Morpheus",
+      "link": "https://www.vulnhub.com/entry/matrix-breakout_2-morpheus,757/",
+      "desc": "This is the second in the Matrix-Breakout series, subtitled Morpheus:1.  It’s themed as a throwback to the first Matrix movie.  You play Trinity, trying to investigate a computer on the Nebuchadnezzar that Cypher has locked everyone else out from, which holds the key to a mystery.VulnHub",
+      "pubDate": "2022-07-11T00:00:00+01:00",
+      "source": "VulnHub",
+      "cat": "vulns",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "VulnHu-0934025be221",
+      "title": "Web Machine: (N7)",
+      "link": "https://www.vulnhub.com/entry/web-machine_n7,756/",
+      "desc": "Difficulty: MediumVulnHub",
+      "pubDate": "2021-11-03T00:00:00+00:00",
+      "source": "VulnHub",
+      "cat": "vulns",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "VulnHu-63e9ce5b3f44",
+      "title": "The Planets: Earth",
+      "link": "https://www.vulnhub.com/entry/the-planets_earth,755/",
+      "desc": "Difficulty: Easy\nEarth is an easy box though you will likely find it more challenging than \"Mercury\" in this series and on the harder side of easy, depending on your experience. There are two flags on the box: a user and root flag which include an md5 hash. This has been tested on VirtualBox so may not work correctly on VMware. Any questions/issues or feedback please email me at: SirFlash at proto",
+      "pubDate": "2021-11-02T00:00:00+00:00",
+      "source": "VulnHub",
+      "cat": "vulns",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "VulnHu-b0606872d4e9",
+      "title": "Jangow: 1.0.1",
+      "link": "https://www.vulnhub.com/entry/jangow_101,754/",
+      "desc": "Difficulty: easy\nThe secret to this box is enumeration! Inquiries jangow2021@gmail.comVulnHub",
+      "pubDate": "2021-11-04T00:00:00+00:00",
+      "source": "VulnHub",
+      "cat": "vulns",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "VulnHu-c83658d3849c",
+      "title": "Red: 1",
+      "link": "https://www.vulnhub.com/entry/red_1,753/",
+      "desc": "Red has taken over your system, are you able to regain control?VulnHub",
+      "pubDate": "2021-10-27T00:00:00+01:00",
+      "source": "VulnHub",
+      "cat": "vulns",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "VulnHu-32d0105c3eef",
+      "title": "Napping: 1.0.1",
+      "link": "https://www.vulnhub.com/entry/napping_101,752/",
+      "desc": "Even Admins can fall asleep on the jobVulnHub",
+      "pubDate": "2021-10-22T00:00:00+01:00",
+      "source": "VulnHub",
+      "cat": "vulns",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "VulnHu-358e2723a3b0",
+      "title": "Empire: Breakout",
+      "link": "https://www.vulnhub.com/entry/empire_breakout,751/",
+      "desc": "Difficulty: Easy\nThis box was created to be an Easy box, but it can be Medium if you get lost.\nFor hints discord Server ( https://discord.gg/7asvAhCEhe )VulnHub",
+      "pubDate": "2021-10-21T00:00:00+01:00",
+      "source": "VulnHub",
+      "cat": "vulns",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "VulnHu-f1733f4b6f35",
+      "title": "Empire: LupinOne",
+      "link": "https://www.vulnhub.com/entry/empire_lupinone,750/",
+      "desc": "Difficulty: Medium\nThis box was created to be medium, but it can be hard if you get lost.\nCTF like box.\nYou have to enumerate as much as you can.\nFor hints discord Server ( https://discord.gg/7asvAhCEhe )VulnHub",
+      "pubDate": "2021-10-21T00:00:00+01:00",
+      "source": "VulnHub",
+      "cat": "vulns",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "VulnHu-6878c93ef3ba",
+      "title": "Thales: 1",
+      "link": "https://www.vulnhub.com/entry/thales_1,749/",
+      "desc": "Description :  Open your eyes and change your  perspective\nincludes 2 flags:user.txt and root.txt.\nTelegram: @machineboy141 (for any hint)VulnHub",
+      "pubDate": "2021-10-16T00:00:00+01:00",
+      "source": "VulnHub",
+      "cat": "vulns",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "VulnHu-9f94fd729970",
+      "title": "ICA: 1",
+      "link": "https://www.vulnhub.com/entry/ica_1,748/",
+      "desc": "According to information from our intelligence network, ICA is working on a secret project. We need to find out what the project is. Once you have the access information, send them to us. We will place a backdoor to access the system later. You just focus on what the project is. You will probably have to go through several layers of security. The Agency has full confidence that you will successful",
+      "pubDate": "2021-09-25T00:00:00+01:00",
+      "source": "VulnHub",
+      "cat": "vulns",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "VulnHu-8084369d5d6d",
+      "title": "digitalworld.local: electrical",
+      "link": "https://www.vulnhub.com/entry/digitalworldlocal_electrical,747/",
+      "desc": "Good Tech Inc. has realised its machines were vulnerable. They have decided to deploy a permanent VAPT machine within their network, where contractors can remotely access to perform the necessary vulnerability assessment scans.\nHowever, this has not been the most secure deployment. Can you root this machine?\nIf you MUST have hints for this machine: ELECTRICAL is (#1): well-intentioned but horrible",
+      "pubDate": "2021-09-22T00:00:00+01:00",
+      "source": "VulnHub",
+      "cat": "vulns",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "VulnHu-2067e2dfc321",
+      "title": "Noob: 1",
+      "link": "https://www.vulnhub.com/entry/noob_1,746/",
+      "desc": "N/AVulnHub",
+      "pubDate": "2021-09-22T00:00:00+01:00",
+      "source": "VulnHub",
+      "cat": "vulns",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "VulnHu-468962604b6c",
+      "title": "Corrosion: 2",
+      "link": "https://www.vulnhub.com/entry/corrosion_2,745/",
+      "desc": "Difficulty: Medium\nHint: Enumeration is key.VulnHub",
+      "pubDate": "2021-09-21T00:00:00+01:00",
+      "source": "VulnHub",
+      "cat": "vulns",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "VulnHu-7a83c2c398a7",
+      "title": "Dripping Blues: 1",
+      "link": "https://www.vulnhub.com/entry/dripping-blues_1,744/",
+      "desc": "get flags\ndifficulty: easy\nabout vm: tested and exported from virtualbox. dhcp and nested vtx/amdv enabled. you can contact me by email for troubleshooting or questions.VulnHub",
+      "pubDate": "2021-09-19T00:00:00+01:00",
+      "source": "VulnHub",
+      "cat": "vulns",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "VulnHu-2a43e5341098",
+      "title": "doubletrouble: 1",
+      "link": "https://www.vulnhub.com/entry/doubletrouble_1,743/",
+      "desc": "get flags\ndifficulty: easy\nabout vm: tested and exported from virtualbox. dhcp and nested vtx/amdv enabled. you can contact me by email for troubleshooting or questions.VulnHub",
+      "pubDate": "2021-09-11T00:00:00+01:00",
+      "source": "VulnHub",
+      "cat": "vulns",
       "sev": "medium",
       "tags": [],
       "iocs": {
@@ -1938,6 +2222,32 @@
       "ts": 0
     },
     {
+      "id": "Sophos-f9da5a9cd5d3",
+      "title": "'Java4Shell' vulnerability (CVE-2026-114938) could allow remote code execution",
+      "link": "https://www.sophos.com/en-us/blog/java4shell-could-allow-remote-code-execution",
+      "desc": "Categories: Threat ResearchTags: advisory, vulnerability, Oracle, Java",
+      "pubDate": "Tue, 17 Nov 2026 00:00:00 GMT",
+      "source": "Sophos Research",
+      "cat": "malware",
+      "sev": "critical",
+      "tags": [
+        {
+          "t": "CVE-2026-114938",
+          "cls": "cve"
+        }
+      ],
+      "iocs": {
+        "cves": [
+          "CVE-2026-114938"
+        ],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
       "id": "Sophos-f0474c34e2f7",
       "title": "Malicious ScreenConnect deployments observed",
       "link": "https://www.sophos.com/en-us/blog/malicious-screenconnect-deployments-observed",
@@ -2069,18 +2379,18 @@
       "sev": "high",
       "tags": [
         {
-          "t": "CVE-2026-109619",
+          "t": "CVE-2026-109618",
           "cls": "cve"
         },
         {
-          "t": "CVE-2026-109618",
+          "t": "CVE-2026-109619",
           "cls": "cve"
         }
       ],
       "iocs": {
         "cves": [
-          "CVE-2026-109619",
-          "CVE-2026-109618"
+          "CVE-2026-109618",
+          "CVE-2026-109619"
         ],
         "ips": [],
         "hashes": []
@@ -2203,37 +2513,6 @@
       "tags": [],
       "iocs": {
         "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "Sophos-098d0da75c06",
-      "title": "Citrix NetScaler vulnerabilities (CVE-2026-88771, CVE-2026-88772) in active exploitation",
-      "link": "https://www.sophos.com/en-us/blog/citrix-netscaler-cve-2026-88771-cve-2026-88772-in-active-exploitation",
-      "desc": "Categories: Threat ResearchTags: advisory, vulnerability, Citrix",
-      "pubDate": "Mon, 28 Sep 2026 00:00:00 GMT",
-      "source": "Sophos Research",
-      "cat": "malware",
-      "sev": "high",
-      "tags": [
-        {
-          "t": "CVE-2026-88772",
-          "cls": "cve"
-        },
-        {
-          "t": "CVE-2026-88771",
-          "cls": "cve"
-        }
-      ],
-      "iocs": {
-        "cves": [
-          "CVE-2026-88772",
-          "CVE-2026-88771"
-        ],
         "ips": [],
         "hashes": []
       },
@@ -3126,18 +3405,18 @@
       "sev": "high",
       "tags": [
         {
-          "t": "CVE-2026-109619",
+          "t": "CVE-2026-109618",
           "cls": "cve"
         },
         {
-          "t": "CVE-2026-109618",
+          "t": "CVE-2026-109619",
           "cls": "cve"
         }
       ],
       "iocs": {
         "cves": [
-          "CVE-2026-109619",
-          "CVE-2026-109618"
+          "CVE-2026-109618",
+          "CVE-2026-109619"
         ],
         "ips": [],
         "hashes": []
