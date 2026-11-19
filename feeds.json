@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-18T18:43:12.330626+00:00",
-  "sources_ok": 13,
+  "generated_at": "2026-11-19T00:59:44.714315+00:00",
+  "sources_ok": 15,
   "sources_total": 20,
   "source_status": {
     "The Hacker News": {
@@ -20,14 +20,12 @@
       "articles": 10
     },
     "HackRead": {
-      "ok": false,
-      "articles": 0,
-      "error": "Invalid feed: <unknown>:94:2: mismatched tag"
+      "ok": true,
+      "articles": 10
     },
     "Exploit-DB": {
-      "ok": false,
-      "articles": 0,
-      "error": "403 Client Error: Forbidden for url: https://www.exploit-db.com/rss.xml"
+      "ok": true,
+      "articles": 15
     },
     "VulnHub": {
       "ok": true,
@@ -91,8 +89,79 @@
       "error": "429 Client Error: Too Many Requests for url: https://www.reddit.com/r/blueteamsec/.rss"
     }
   },
-  "total": 165,
+  "total": 190,
   "articles": [
+    {
+      "id": "TheHa-7edfd39d47f0",
+      "title": "10-Year-Old NGINX HTTP/2 Flaw Lets Unauthenticated Attackers Execute Code on Servers",
+      "link": "https://thehackernews.com/2026/11/10-year-old-nginx-http2-flaw-lets.html",
+      "desc": "A flaw in NGINX's HTTP/2 support can allow an attacker to run code on servers with HTTP/2 enabled, without needing to log in.\n\nThe decade-old flaw, CVE-2026-123007, dubbed \"nginx2root,\" has been present in NGINX's open-source code since version 1.9.5, released on September 22, 2015. Fixed versions 1.31.9 and 1.30.7 came out today.\n\nF5, the company behind NGINX, says attackers can run code where",
+      "pubDate": "Thu, 19 Nov 2026 00:01:17 +0530",
+      "source": "The Hacker News",
+      "cat": "threats",
+      "sev": "critical",
+      "tags": [
+        {
+          "t": "CVE-2026-123007",
+          "cls": "cve"
+        }
+      ],
+      "iocs": {
+        "cves": [
+          "CVE-2026-123007"
+        ],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "TheHa-9e784c50e18f",
+      "title": "F5 Warns 6 Critical BIG-IP Flaws Can Crash Traffic in Specific Setups, May Allow RCE",
+      "link": "https://thehackernews.com/2026/11/f5-warns-6-critical-big-ip-flaws-can.html",
+      "desc": "Six critical vulnerabilities in F5 BIG-IP allow an attacker to crash the Traffic Management Microkernel (TMM) without logging in, disrupting traffic until the TMM restarts.\n\nEach flaw needs a specific setup on a virtual server: an iRule that uses a particular command, or an APM policy that includes two particular kinds of agent.\n\nF5, which makes BIG-IP, disclosed the flaws today and says they",
+      "pubDate": "Wed, 18 Nov 2026 23:45:39 +0530",
+      "source": "The Hacker News",
+      "cat": "threats",
+      "sev": "critical",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "TheHa-cdf6137791b9",
+      "title": "Critical Apache Roller RCE Flaw Under Active Exploitation, No Authentication Required",
+      "link": "https://thehackernews.com/2026/11/critical-apache-roller-rce-flaw-under.html",
+      "desc": "A critical security flaw in Apache Roller, an open-source, Java-based blogging platform, has come under active exploitation in the wild, according to the Apache Software Foundation (ASF)\n\nThe vulnerability, tracked as CVE-2026-129448 (CVSS score: 9.8), is a case of unauthenticated deserialization in the XML-RPC endpoint that could lead to remote code execution.\n\n\"Deserialization of Untrusted",
+      "pubDate": "Wed, 18 Nov 2026 22:40:45 +0530",
+      "source": "The Hacker News",
+      "cat": "threats",
+      "sev": "critical",
+      "tags": [
+        {
+          "t": "CVE-2026-129448",
+          "cls": "cve"
+        }
+      ],
+      "iocs": {
+        "cves": [
+          "CVE-2026-129448"
+        ],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
     {
       "id": "TheHa-3006d29e6f89",
       "title": "New EggStreme Malware Variant Goes Silent to Evade Security Tools in Government Attacks",
@@ -339,63 +408,6 @@
       "source": "The Hacker News",
       "cat": "threats",
       "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "TheHa-711411aa91f9",
-      "title": "Hackers Found a Way Around GitHub SHA Pinning. This Webinar Explains How to Close the Gap",
-      "link": "https://thehackernews.com/2026/11/hackers-found-way-around-github-sha.html",
-      "desc": "Pinning GitHub Actions to an exact version of their code, known as SHA pinning, has become the go-to defense against software supply chain attacks. Attackers have already found a way around it.\n\nIn March 2026, the hackers who hijacked Trivy, a widely used open-source security scanner, planted malicious code that looked like it came from GitHub's official checkout tool. They even labeled it a",
-      "pubDate": "Tue, 17 Nov 2026 17:55:06 +0530",
-      "source": "The Hacker News",
-      "cat": "threats",
-      "sev": "critical",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "TheHa-3c5115973208",
-      "title": "Researchers Detail iPhone Flaw That Let Apps Record Audio Despite Denied Microphone Permission",
-      "link": "https://thehackernews.com/2026/11/researchers-detail-iphone-flaw-that-let.html",
-      "desc": "A now-patched flaw in Apple's audio service let apps on iPhones and iPads record audio even after the user tapped \"Don't Allow\" on the microphone prompt.\n\nThe first security updates with the fix came out on August 17. Neither Apple nor the two researchers who found the flaw report that it was used in attacks.\n\nNik Tsytsarkin of Meta Red Team X published the technical details last week. Mustafa",
-      "pubDate": "Tue, 17 Nov 2026 17:44:36 +0530",
-      "source": "The Hacker News",
-      "cat": "redteam",
-      "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "TheHa-1f1c6e19e5d6",
-      "title": "New GitDoor and GraphDoor Backdoors Turn GitHub and SharePoint Into Covert C2 Channels",
-      "link": "https://thehackernews.com/2026/11/new-gitdoor-and-graphdoor-backdoors.html",
-      "desc": "Government sectors in Asia and Africa have been targeted by an active cyber intrusion campaign that delivers to previously undocumented backdoors that leverage legitimate services like Microsoft SharePoint and GitHub for command‑and‑control (C2).\n\nThe activity has been codenamed Operation ShadowCloud by Kaspersky. The Russian cybersecurity company said it identified the campaign in early 2026.",
-      "pubDate": "Tue, 17 Nov 2026 16:50:18 +0530",
-      "source": "The Hacker News",
-      "cat": "threats",
-      "sev": "high",
       "tags": [],
       "iocs": {
         "cves": [],
@@ -794,6 +806,82 @@
       "ts": 0
     },
     {
+      "id": "GBHack-10788ce0c737",
+      "title": "After Black October, OffSec Turns PHPH2Shell and Other New Vulnerabilities Into Hands-On Labs",
+      "link": "https://gbhackers.com/offsec-php2shell-black-october-hands-on-labs/",
+      "desc": "New York City, United States, November 18th, 2026, CyberNewswire OffSec built 14 labs on real CVEs in two weeks. Its Level 20 offer takes $550 off Learn One for learners ready to train against threats like these. OffSec, the world&#8217;s leading provider of hands-on cybersecurity training and certifications, released more than 80 hands-on labs in [&#8230;]\nThe post After Black October, OffSec Tur",
+      "pubDate": "Wed, 18 Nov 2026 16:16:41 +0000",
+      "source": "GBHackers",
+      "cat": "threats",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "GBHack-5da7df3d7491",
+      "title": "2027 Cybersecurity Excellence Awards Launch With Six New AI Security Categories",
+      "link": "https://gbhackers.com/2027-cybersecurity-excellence-awards/",
+      "desc": "San Francisco, USA, November 17th, 2026, CyberNewswire Global awards program invites nominations across more than 100 cybersecurity categories, with early-bird pricing through Cyber Monday. The Cybersecurity Excellence Awards, presented by Cybersecurity Insiders, announced the official launch of its 2027 awards season, inviting cybersecurity companies, innovators, professionals, and teams worldwid",
+      "pubDate": "Wed, 18 Nov 2026 15:53:09 +0000",
+      "source": "GBHackers",
+      "cat": "threats",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "GBHack-0fd4d2b85d56",
+      "title": "SpyCloud’s 2027 Forecast: Attackers Will Exploit Trusted Access, From Hijacked Sessions to AI Agents",
+      "link": "https://gbhackers.com/spycloud-2027-cybersecurity-forecast-trusted-access-ai-agents/",
+      "desc": "Austin, TX, USA, November 17th, 2026, CyberNewswire New predictions drawn from SpyCloud’s research teams and a survey of security professionals show why stolen sessions, API keys, and vendor connections will drive the most damaging attacks in 2027. SpyCloud, the leader in identity threat protection, today released its SpyCloud 2026 Forecast Report, outlining several predictions for [&#8230;]\nThe p",
+      "pubDate": "Wed, 18 Nov 2026 15:36:41 +0000",
+      "source": "GBHackers",
+      "cat": "threats",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "GBHack-54e7a861f754",
+      "title": "Armornet Debuts AI Security for the Code and Vendors Companies Trust",
+      "link": "https://gbhackers.com/armornet-ai-software-supply-chain-vendor-security/",
+      "desc": "Grand Rapids, Michigan, November 18th, 2026, CyberNewswire Startup shows teams the vendors they rely on, keeps a live risk score on each one and secures the software supply chain from end to end Armornet, an AI cybersecurity company, is accepting teams into the private alpha of its platform, which gives an automatically discovered, continuous view [&#8230;]\nThe post Armornet Debuts AI Security for",
+      "pubDate": "Wed, 18 Nov 2026 15:22:52 +0000",
+      "source": "GBHackers",
+      "cat": "threats",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
       "id": "GBHack-ceca6b645a6e",
       "title": "GitHub and Microsoft Launch AI Security Initiative to Protect Six Major Open Source Projects",
       "link": "https://gbhackers.com/github-and-microsoft-launch-ai-security-initiative/",
@@ -908,31 +996,12 @@
       "ts": 0
     },
     {
-      "id": "GBHack-550f1e61e545",
-      "title": "Tails 7.17.1 Released to Fix Critical uBlock Origin Vulnerability Affecting Tor Browser Users",
-      "link": "https://gbhackers.com/tails-7-17-1-released-to-fix-critical-ublock-origin-vulnerability/",
-      "desc": "The Tails team released version 7.17.1 as an emergency update to address a critical vulnerability in uBlock Origin, the ad-blocking extension included with the Tor Browser on Tails. This update temporarily removes the extension to close a security loophole that could let a malicious website execute JavaScript on another site with a single click. The [&#8230;]\nThe post Tails 7.17.1 Released to Fix ",
-      "pubDate": "Wed, 18 Nov 2026 10:36:58 +0000",
-      "source": "GBHackers",
-      "cat": "threats",
-      "sev": "critical",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "GBHack-b32493a99dde",
-      "title": "Japan’s Fugaku Supercomputer Hacked, Exposing Credentials and Personal Data of Up to 4,597 Users",
-      "link": "https://gbhackers.com/japans-fugaku-supercomputer-hacked-exposing-credentials/",
-      "desc": "Japan’s RIKEN research institute suspended operations of its Fugaku supercomputer after an intruder breached its operational network, putting the personal information of up to 4,597 users at risk. In a November 16 incident notice, RIKEN said the data taken or potentially taken included account records and files from Fugaku users’ home directories. Some of those [&#8230;]\nThe post Japan’s Fugaku Su",
-      "pubDate": "Wed, 18 Nov 2026 10:25:45 +0000",
-      "source": "GBHackers",
+      "id": "HackRe-de8e9a9486b8",
+      "title": "What a GitHub Actions Cache Can Expose to Anyone Who Opens a Pull Request",
+      "link": "https://hackread.com/what-github-actions-cache-expose-to-pull-request/",
+      "desc": "GitHub Actions caches can expose credentials to attackers through forked pull requests. Learn how secrets leak and how developers can prevent it.",
+      "pubDate": "Wed, 18 Nov 2026 16:51:11 +0000",
+      "source": "HackRead",
       "cat": "breaches",
       "sev": "high",
       "tags": [],
@@ -946,13 +1015,191 @@
       "ts": 0
     },
     {
-      "id": "GBHack-75ee51c7d926",
-      "title": "CyberStrikeAI Raises Security Concerns After 221 Tool Executions Without Human Oversight",
-      "link": "https://gbhackers.com/cyberstrikeai-security-risks/",
-      "desc": "An exposed CyberStrikeAI workspace recorded 221 tool executions during a November 16, 2026, offensive testing session in which formal approval enforcement was turned off partway through. The session documents a loss of tool-level oversight, not an autonomous intrusion. The records identify neither the operator nor whether the testing was authorized. Researchers examined a 6.69 MB [&#8230;]\nThe pos",
-      "pubDate": "Wed, 18 Nov 2026 10:07:51 +0000",
-      "source": "GBHackers",
+      "id": "HackRe-db480cb35f8f",
+      "title": "Armornet Debuts AI Security for the Code and Vendors Companies Trust",
+      "link": "https://hackread.com/armornet-debuts-ai-security-for-the-code-and-vendors-companies-trust/",
+      "desc": "Grand Rapids, Michigan, 18th November 2026, CyberNewswire",
+      "pubDate": "Wed, 18 Nov 2026 14:24:37 +0000",
+      "source": "HackRead",
       "cat": "threats",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "HackRe-4d5c615b12f9",
+      "title": "OX Security Launches OX Radar and Response Center to Show Companies Which Cyber Threats Actually Affect Them",
+      "link": "https://hackread.com/ox-security-launches-ox-radar-and-response-center-to-show-companies-which-cyber-threats-actually-affect-them/",
+      "desc": "New York, United States, 18th November 2026, TechnologyWire",
+      "pubDate": "Wed, 18 Nov 2026 13:58:11 +0000",
+      "source": "HackRead",
+      "cat": "threats",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "HackRe-eb976160e5e2",
+      "title": "Java4Shell Flaw Lets Attackers Target Java Servers Without Logging In",
+      "link": "https://hackread.com/java4shell-flaw-run-code-java-servers-logging-in/",
+      "desc": "Oracle patches Java4Shell (CVE-2026-114938), an OpenJDK flaw that can let attackers read server memory and run malicious code without any credentials.",
+      "pubDate": "Wed, 18 Nov 2026 08:41:47 +0000",
+      "source": "HackRead",
+      "cat": "threats",
+      "sev": "high",
+      "tags": [
+        {
+          "t": "CVE-2026-114938",
+          "cls": "cve"
+        }
+      ],
+      "iocs": {
+        "cves": [
+          "CVE-2026-114938"
+        ],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "HackRe-cb130ed361ca",
+      "title": "Fast People Search Removal (2026): How to Opt Out & Remove Yourself",
+      "link": "https://hackread.com/fast-people-search-removal-2026-how-to-opt-out-remove/",
+      "desc": "Anyone can type your name into FastPeopleSearch and see your age, your current address, your phone numbers, and&#8230;",
+      "pubDate": "Tue, 17 Nov 2026 20:37:14 +0000",
+      "source": "HackRead",
+      "cat": "threats",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "HackRe-f4666812bdd0",
+      "title": "After Black October, OffSec Turns PHPH2Shell and Other New Vulnerabilities Into Hands-On Labs",
+      "link": "https://hackread.com/after-black-october-offsec-turns-phph2shell-and-other-new-vulnerabilities-into-hands-on-labs/",
+      "desc": "New York City, United States, 17th November 2026, CyberNewswire",
+      "pubDate": "Tue, 17 Nov 2026 19:05:02 +0000",
+      "source": "HackRead",
+      "cat": "threats",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "HackRe-a7fe1cf67acc",
+      "title": "FBI Says ARTEX AI Tool Helped Hackers Gain Privileged Access in Under 3 Hours",
+      "link": "https://hackread.com/fbi-artex-ai-tool-hackers-gain-privileged-access/",
+      "desc": "The FBI is warning about a new framework, ARTEX, which automates several stages of a cyberattack, from finding&#8230;",
+      "pubDate": "Tue, 17 Nov 2026 16:51:49 +0000",
+      "source": "HackRead",
+      "cat": "threats",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "HackRe-dbcb833327d2",
+      "title": "2027 Cybersecurity Excellence Awards Launch With Six New AI Security Categories",
+      "link": "https://hackread.com/2027-cybersecurity-excellence-awards-launch-with-six-new-ai-security-categories/",
+      "desc": "San Francisco, USA, 17th November 2026, CyberNewswire",
+      "pubDate": "Tue, 17 Nov 2026 14:00:06 +0000",
+      "source": "HackRead",
+      "cat": "threats",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "HackRe-edbade3a635d",
+      "title": "SpyCloud’s 2027 Forecast: Attackers Will Exploit Trusted Access, From Hijacked Sessions to AI Agents",
+      "link": "https://hackread.com/spyclouds-2027-forecast-attackers-will-exploit-trusted-access-from-hijacked-sessions-to-ai-agents/",
+      "desc": "Austin, TX, USA, 17th November 2026, CyberNewswire",
+      "pubDate": "Tue, 17 Nov 2026 14:00:05 +0000",
+      "source": "HackRead",
+      "cat": "threats",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "HackRe-6bb608c98be2",
+      "title": "How Modern PAM Secures the AI Agents That Password Vaults Can’t",
+      "link": "https://hackread.com/pam-secures-ai-agents-password-vaults-cant/",
+      "desc": "Traditional privileged access management (PAM) was built for human users. Today, AI agents increasingly operate alongside those users,&#8230;",
+      "pubDate": "Tue, 17 Nov 2026 12:16:10 +0000",
+      "source": "HackRead",
+      "cat": "threats",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "Exploi-7f1e35a55fbe",
+      "title": "[remote] Ruflo MCP Bridge  3.16.2 - Remote Code Execution",
+      "link": "https://www.exploit-db.com/exploits/52705",
+      "desc": "Ruflo MCP Bridge  3.16.2 - Remote Code Execution",
+      "pubDate": "Wed, 11 Nov 2026 00:00:00 +0000",
+      "source": "Exploit-DB",
+      "cat": "exploits",
       "sev": "critical",
       "tags": [],
       "iocs": {
@@ -965,24 +1212,271 @@
       "ts": 0
     },
     {
-      "id": "GBHack-2581f2176787",
-      "title": "NVIDIA GPU Driver Flaw Allows Attackers to Gain Root Access and Escape Containers",
-      "link": "https://gbhackers.com/nvidia-gpu-driver-flaw/",
-      "desc": "A vulnerability in NVIDIA’s Linux GPU driver allows an unprivileged user to gain root access on the host and escape a container with access to the affected GPU device. Tracked as CVE-2026-47501 and dubbed ForgePtr, the flaw poses a particular risk to cloud providers that run workloads from multiple customers on the same server. In [&#8230;]\nThe post NVIDIA GPU Driver Flaw Allows Attackers to Gain ",
-      "pubDate": "Wed, 18 Nov 2026 09:40:35 +0000",
-      "source": "GBHackers",
-      "cat": "threats",
-      "sev": "high",
+      "id": "Exploi-1bb00e9cc860",
+      "title": "[remote] PHP2Shell (CVE-2026-109618) - PHP core versions after v5.4 - RCE",
+      "link": "https://www.exploit-db.com/exploits/52704",
+      "desc": "PHP2Shell (CVE-2026-109618) - PHP core versions after v5.4 - RCE",
+      "pubDate": "Thu, 22 Oct 2026 00:00:00 +0000",
+      "source": "Exploit-DB",
+      "cat": "exploits",
+      "sev": "critical",
       "tags": [
         {
-          "t": "CVE-2026-47501",
+          "t": "CVE-2026-109618",
           "cls": "cve"
         }
       ],
       "iocs": {
         "cves": [
-          "CVE-2026-47501"
+          "CVE-2026-109618"
         ],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "Exploi-12a0b384461b",
+      "title": "[webapps] pizzafy-1.0 - SQLi",
+      "link": "https://www.exploit-db.com/exploits/52703",
+      "desc": "pizzafy-1.0 - SQLi",
+      "pubDate": "Wed, 21 Oct 2026 00:00:00 +0000",
+      "source": "Exploit-DB",
+      "cat": "exploits",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "Exploi-8a2b51e56d72",
+      "title": "[remote] South River Technologies Titan MFT Server 26.0.0 - code execution",
+      "link": "https://www.exploit-db.com/exploits/52701",
+      "desc": "South River Technologies Titan MFT Server 26.0.0 - code execution",
+      "pubDate": "Wed, 21 Oct 2026 00:00:00 +0000",
+      "source": "Exploit-DB",
+      "cat": "exploits",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "Exploi-8eb04e6a124a",
+      "title": "[remote] Synametrics Syncrify 6.2 - command execution",
+      "link": "https://www.exploit-db.com/exploits/52700",
+      "desc": "Synametrics Syncrify 6.2 - command execution",
+      "pubDate": "Wed, 21 Oct 2026 00:00:00 +0000",
+      "source": "Exploit-DB",
+      "cat": "exploits",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "Exploi-bea0f7f00668",
+      "title": "[webapps] Keycloak  26.7.2 - Unauthenticated Account Takeover",
+      "link": "https://www.exploit-db.com/exploits/52699",
+      "desc": "Keycloak  26.7.2 - Unauthenticated Account Takeover",
+      "pubDate": "Wed, 21 Oct 2026 00:00:00 +0000",
+      "source": "Exploit-DB",
+      "cat": "exploits",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "Exploi-2e12328298a1",
+      "title": "[webapps] Open eClass 3.15 - RCE",
+      "link": "https://www.exploit-db.com/exploits/52698",
+      "desc": "Open eClass 3.15 - RCE",
+      "pubDate": "Wed, 21 Oct 2026 00:00:00 +0000",
+      "source": "Exploit-DB",
+      "cat": "exploits",
+      "sev": "critical",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "Exploi-1eea97863759",
+      "title": "[webapps] Automotive Shop Management System 1.0 - SQLi",
+      "link": "https://www.exploit-db.com/exploits/52697",
+      "desc": "Automotive Shop Management System 1.0 - SQLi",
+      "pubDate": "Wed, 21 Oct 2026 00:00:00 +0000",
+      "source": "Exploit-DB",
+      "cat": "exploits",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "Exploi-ee5e4cfc912a",
+      "title": "[remote] Edimax BR-6478AC firmware v2.20 - authenticated command injection",
+      "link": "https://www.exploit-db.com/exploits/52696",
+      "desc": "Edimax BR-6478AC firmware v2.20 - authenticated command injection",
+      "pubDate": "Wed, 21 Oct 2026 00:00:00 +0000",
+      "source": "Exploit-DB",
+      "cat": "exploits",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "Exploi-eb8ccadba78b",
+      "title": "[remote] Exasol Database 7.1.30 - command execution",
+      "link": "https://www.exploit-db.com/exploits/52695",
+      "desc": "Exasol Database 7.1.30 - command execution",
+      "pubDate": "Wed, 21 Oct 2026 00:00:00 +0000",
+      "source": "Exploit-DB",
+      "cat": "exploits",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "Exploi-b8ce8b7c34aa",
+      "title": "[remote] Parasoft Continuous Testing Platform 10.7.5 - JSP command execution",
+      "link": "https://www.exploit-db.com/exploits/52694",
+      "desc": "Parasoft Continuous Testing Platform 10.7.5 - JSP command execution",
+      "pubDate": "Wed, 21 Oct 2026 00:00:00 +0000",
+      "source": "Exploit-DB",
+      "cat": "exploits",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "Exploi-e715fca639d9",
+      "title": "[remote] ProSoft RLX-IFH24E v2.2.44 - Unsigned Firmware Upgrade Package Executed as Root",
+      "link": "https://www.exploit-db.com/exploits/52693",
+      "desc": "ProSoft RLX-IFH24E v2.2.44 - Unsigned Firmware Upgrade Package Executed as Root",
+      "pubDate": "Wed, 21 Oct 2026 00:00:00 +0000",
+      "source": "Exploit-DB",
+      "cat": "exploits",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "Exploi-e58fb2bd739c",
+      "title": "[remote] Teltonika_RutOS 00.07.06.21 - command injection",
+      "link": "https://www.exploit-db.com/exploits/52692",
+      "desc": "Teltonika_RutOS 00.07.06.21 - command injection",
+      "pubDate": "Thu, 01 Oct 2026 00:00:00 +0000",
+      "source": "Exploit-DB",
+      "cat": "exploits",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "Exploi-d8a202870dda",
+      "title": "[webapps] TigerGraph_Community_Edition 4.2.4  - arbitrary file write",
+      "link": "https://www.exploit-db.com/exploits/52691",
+      "desc": "TigerGraph_Community_Edition 4.2.4  - arbitrary file write",
+      "pubDate": "Thu, 01 Oct 2026 00:00:00 +0000",
+      "source": "Exploit-DB",
+      "cat": "exploits",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "Exploi-1ba7ee86c11c",
+      "title": "[webapps] WordPress 7.0.2 - Path Travesal",
+      "link": "https://www.exploit-db.com/exploits/52690",
+      "desc": "WordPress 7.0.2 - Path Travesal",
+      "pubDate": "Thu, 01 Oct 2026 00:00:00 +0000",
+      "source": "Exploit-DB",
+      "cat": "exploits",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
         "ips": [],
         "hashes": []
       },
@@ -1751,6 +2245,25 @@
       "ts": 0
     },
     {
+      "id": "Sophos-62482a1cd292",
+      "title": "Patches released for critical ‘NGINX2Root’ vulnerabilities",
+      "link": "https://www.sophos.com/en-us/blog/patches-released-for-critical-nginx2root-vulnerabilities",
+      "desc": "Categories: Threat ResearchTags: advisory, vulnerability, NGINX",
+      "pubDate": "Wed, 18 Nov 2026 00:00:00 GMT",
+      "source": "Sophos Research",
+      "cat": "malware",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
       "id": "Sophos-4afa15bf9aed",
       "title": "Hijacked Optimizely snippets served malicious code on major websites",
       "link": "https://www.sophos.com/en-us/blog/hijacked-optimizely-snippets-served-malicious-code",
@@ -2050,14 +2563,33 @@
       "ts": 0
     },
     {
-      "id": "Sophos-9b1ec8916849",
-      "title": "TerminalFix and Lorem Ipsum Loader enable covert tunneling",
-      "link": "https://www.sophos.com/en-us/blog/terminalfix-and-lorem-ipsum-loader-enable-covert-tunneling",
-      "desc": "The activity is linked to a broader campaign that previously used a different delivery mechanismCategories: Threat ResearchTags: TerminalFix, clickfix, Lorem Ipsum Loader",
-      "pubDate": "Wed, 30 Sep 2026 00:00:00 GMT",
-      "source": "Sophos Research",
+      "id": "Malwar-224a2f3c2120",
+      "title": "Outage or attack? Don’t let social media fill in the gaps",
+      "link": "https://www.malwarebytes.com/blog/ai/2026/11/outage-or-attack-dont-let-social-media-fill-in-the-gaps",
+      "desc": "Recent outages and attacks have people worried, sometimes needlessly. Don’t let social media turn a bug into a disaster.",
+      "pubDate": "Wed, 18 Nov 2026 22:07:01 GMT",
+      "source": "Malwarebytes",
       "cat": "malware",
-      "sev": "medium",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "Malwar-47219a03e91f",
+      "title": "GTA 6 scams could cost you your account, money, or crypto",
+      "link": "https://www.malwarebytes.com/blog/scams/2026/11/gta-6-scams-could-cost-you-your-account-money-or-crypto",
+      "desc": "A free GTA 6 code could cost you your Google account, money, or crypto. Here’s how scammers are exploiting the game’s launch hype.",
+      "pubDate": "Wed, 18 Nov 2026 22:06:05 GMT",
+      "source": "Malwarebytes",
+      "cat": "malware",
+      "sev": "high",
       "tags": [],
       "iocs": {
         "cves": [],
@@ -2316,32 +2848,13 @@
       "ts": 0
     },
     {
-      "id": "Malwar-c718d78eaddc",
-      "title": "New York City votes to ban surveillance pricing",
-      "link": "https://www.malwarebytes.com/blog/news/2026/11/new-york-city-council-votes-to-ban-surveillance-pricing",
-      "desc": "The bill would stop companies from using personal data to set individualized prices. Here’s what that means for shoppers.",
-      "pubDate": "Fri, 13 Nov 2026 16:52:36 GMT",
-      "source": "Malwarebytes",
-      "cat": "malware",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "Malwar-32034bba1f71",
-      "title": "Google pushes second Chrome update this week",
-      "link": "https://www.malwarebytes.com/blog/bugs/2026/11/google-pushes-second-chrome-update-this-week",
-      "desc": "Google has pushed out a second Chrome update this week, fixing security flaws that could allow attackers to run malicious code.",
-      "pubDate": "Fri, 13 Nov 2026 11:20:50 GMT",
-      "source": "Malwarebytes",
-      "cat": "malware",
+      "id": "SANSI-f9d6ca287ae2",
+      "title": "Java4Shell, NGINX2Shell and more: Why we are not at \"Yellow\", (Wed, Nov 18th)",
+      "link": "https://isc.sans.edu/diary/rss/33532",
+      "desc": "About a month ago, we went to Infocon Yellow for the first time in a few years. We decided to address the php2shell vulnerability and alert our readers to its significant impact. Following php2shell, we had a number of vulnerabilities and events that may also have scored high enough to trigger an Infocon \"Yellow\" &#x5b;infocon&#x5d;. In the last few days, we had a major Microsoft 365 outage, a cri",
+      "pubDate": "Wed, 18 Nov 2026 19:54:50 GMT",
+      "source": "SANS ISC",
+      "cat": "vulns",
       "sev": "high",
       "tags": [],
       "iocs": {
@@ -2421,18 +2934,18 @@
       "sev": "critical",
       "tags": [
         {
-          "t": "CVE-2026-48710",
+          "t": "CVE-2026-42271",
           "cls": "cve"
         },
         {
-          "t": "CVE-2026-42271",
+          "t": "CVE-2026-48710",
           "cls": "cve"
         }
       ],
       "iocs": {
         "cves": [
-          "CVE-2026-48710",
-          "CVE-2026-42271"
+          "CVE-2026-42271",
+          "CVE-2026-48710"
         ],
         "ips": [],
         "hashes": []
@@ -2536,25 +3049,6 @@
         "cves": [
           "CVE-2026-102895"
         ],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "SANSI-1a2c0cad8552",
-      "title": "ISC Stormcast For Thursday, November 12th, 2026 https://isc.sans.edu/podcastdetail/10176, (Thu, Nov 12th)",
-      "link": "https://isc.sans.edu/diary/rss/33512",
-      "desc": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
-      "pubDate": "Thu, 12 Nov 2026 02:00:03 GMT",
-      "source": "SANS ISC",
-      "cat": "vulns",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
         "ips": [],
         "hashes": []
       },
