@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T17:08:02.017318+00:00",
+  "generated_at": "2026-11-20T23:16:06.731633+00:00",
   "sources_ok": 15,
   "sources_total": 20,
   "source_status": {
@@ -91,6 +91,51 @@
   },
   "total": 190,
   "articles": [
+    {
+      "id": "TheHa-26158a4acb39",
+      "title": "WhatsApp Patches 3 Security Flaws, Including Android Bug Suspected of Use in Scams",
+      "link": "https://thehackernews.com/2026/11/whatsapp-patches-3-security-flaws.html",
+      "desc": "Meta-owned WhatsApp has addressed security vulnerabilities, including one impacting its Android app that it suspects may have been exploited in connection with scam messages.\n\nThe vulnerability, tracked as CVE-2026-23871, has been described as a case of incomplete validation of external ad-reply URLs in WhatsApp for Android and WhatsApp Business for Android before 2.26.17.4.\n\nThe issue could",
+      "pubDate": "Fri, 20 Nov 2026 23:27:20 +0530",
+      "source": "The Hacker News",
+      "cat": "threats",
+      "sev": "high",
+      "tags": [
+        {
+          "t": "CVE-2026-23871",
+          "cls": "cve"
+        }
+      ],
+      "iocs": {
+        "cves": [
+          "CVE-2026-23871"
+        ],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "TheHa-8132aff9bd92",
+      "title": "Bazuka Android Malware Uses Fake Screen Overlays to Hide Credential Theft and Device Control",
+      "link": "https://thehackernews.com/2026/11/bazuka-android-malware-uses-fake-screen.html",
+      "desc": "Cybersecurity researchers have disclosed details of a previously unknown Android malware framework called Bazuka that offers large language model (LLM) integration for victim management and control at scale.\n\nDutch mobile security company ThreatFabric said it discovered the threat in late October 2026 during an investigation into an NFC-relay banking Trojan.\n\n\"Bazuka is a full malware framework,",
+      "pubDate": "Fri, 20 Nov 2026 22:28:16 +0530",
+      "source": "The Hacker News",
+      "cat": "malware",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
     {
       "id": "TheHa-272f1853a918",
       "title": "Linux KVM Flaw CVE-2026-99312 Lets Guest VMs Access Host Memory on AMD Hosts",
@@ -378,44 +423,6 @@
           "CVE-2026-109618",
           "CVE-2026-109619"
         ],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "TheHa-41d1917b995e",
-      "title": "Hackers Breach N-able Cloud Server, Disrupting Email Security Management Across 3 Regions",
-      "link": "https://thehackernews.com/2026/11/n-able-confirms-hackers-accessed-cloud.html",
-      "desc": "N-able on Wednesday disclosed that unknown threat actors gained unauthorized access to one of the servers in the Mail Assure and Spam Experts Hosted Cloud, causing it to disable management interfaces and APIs.\n\n\"We have taken steps to mitigate the threat and are continuing to harden our services to reduce the risk of recurrence,\" N-able said.\n\n\"The investigation is ongoing, but at this time we",
-      "pubDate": "Thu, 19 Nov 2026 15:01:26 +0530",
-      "source": "The Hacker News",
-      "cat": "breaches",
-      "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "TheHa-ba21c947a760",
-      "title": "Ruby Ships Fixes for 7 Flaws, Including Critical Ruby2Shell, Said to Hit Default Rails Apps Pre-Auth",
-      "link": "https://thehackernews.com/2026/11/ruby-releases-fixes-for-7-regex-and.html",
-      "desc": "Ruby contains seven memory-safety flaws in its regular expression engine and its string case-conversion code. For five of them, its maintainers say, proof-of-concept exploits, or PoCs, have shown that crafted input can run code on the machine.\n\n\"We are aware of PoCs that prove some of them can be used to trigger remote code execution,\" the maintainers said.\n\nThe project released fixed versions",
-      "pubDate": "Thu, 19 Nov 2026 14:12:11 +0530",
-      "source": "The Hacker News",
-      "cat": "threats",
-      "sev": "critical",
-      "tags": [],
-      "iocs": {
-        "cves": [],
         "ips": [],
         "hashes": []
       },
@@ -818,6 +825,25 @@
       "ts": 0
     },
     {
+      "id": "GBHack-ad4caaf34476",
+      "title": "AI-Assisted Hackers Deploy 41 PowerShell Scripts to Steal Credentials From African Stock Exchange",
+      "link": "https://gbhackers.com/african-stock-exchange-credential-theft/",
+      "desc": "Symantec researchers say attackers probably used an AI-written toolkit to hunt for credentials at an African stock exchange. They ran 41 PowerShell modules in 3 minutes 12 seconds, from 08:44 to 08:47 UTC, under a webshell on an IIS server. The modules tested credentials, a reused bearer token and API keys against the exchange&#8217;s investment [&#8230;]\nThe post AI-Assisted Hackers Deploy 41 Pow",
+      "pubDate": "Fri, 20 Nov 2026 16:46:48 +0000",
+      "source": "GBHackers",
+      "cat": "threats",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
       "id": "GBHack-f002a7b06dd1",
       "title": "KPMG Canada Confirms Security Breach as Third Party Accesses Confidential Client Files",
       "link": "https://gbhackers.com/kpmg-canada-confirms-security-breach/",
@@ -873,25 +899,25 @@
       "sev": "critical",
       "tags": [
         {
-          "t": "CVE-2026-123633",
-          "cls": "cve"
-        },
-        {
           "t": "CVE-2026-113425",
           "cls": "cve"
         },
         {
-          "t": "CVE-2026-123634",
+          "t": "CVE-2026-123633",
+          "cls": "cve"
+        },
+        {
+          "t": "CVE-2026-121810",
           "cls": "cve"
         }
       ],
       "iocs": {
         "cves": [
-          "CVE-2026-123633",
           "CVE-2026-113425",
-          "CVE-2026-123634",
+          "CVE-2026-123633",
+          "CVE-2026-121810",
           "CVE-2026-123007",
-          "CVE-2026-121810"
+          "CVE-2026-123634"
         ],
         "ips": [],
         "hashes": []
@@ -1022,12 +1048,12 @@
       "ts": 0
     },
     {
-      "id": "GBHack-41bd1521ea8d",
-      "title": "12 SSE Solutions: The 2026 Buyer’s Verdict Guide",
-      "link": "https://gbhackers.com/sse-buyers-guide/",
-      "desc": "Security Service Edge is SASE’s security half SWG, CASB, ZTNA and, increasingly, DLP and browser isolation, all served from the cloud and most organisations put it in before they ever touch the networking side. This verdict guide judges twelve solutions, declaring each one’s lane, because the data-centric anchor, the isolation-first preventer, and the platform-estate fit [&#8230;]\nThe post 12 SSE ",
-      "pubDate": "Fri, 20 Nov 2026 10:42:23 +0000",
-      "source": "GBHackers",
+      "id": "HackRe-2f486d00a14c",
+      "title": "4 Best XRP Lending Platforms Compared by Security, LTV, and Speed",
+      "link": "https://hackread.com/xrp-lending-platforms-compared-security-ltv-speed/",
+      "desc": "Compare four XRP lending platforms by security, LTV, interest rates, funding speed and collateral risks, including CoinRabbit, Arch, Nexo and Coinbase.",
+      "pubDate": "Fri, 20 Nov 2026 22:26:16 +0000",
+      "source": "HackRead",
       "cat": "threats",
       "sev": "medium",
       "tags": [],
@@ -1198,25 +1224,6 @@
       "link": "https://hackread.com/armornet-debuts-ai-security-for-the-code-and-vendors-companies-trust/",
       "desc": "Grand Rapids, Michigan, 18th November 2026, CyberNewswire",
       "pubDate": "Wed, 18 Nov 2026 14:24:37 +0000",
-      "source": "HackRead",
-      "cat": "threats",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "HackRe-4d5c615b12f9",
-      "title": "OX Security Launches OX Radar and Response Center to Show Companies Which Cyber Threats Actually Affect Them",
-      "link": "https://hackread.com/ox-security-launches-ox-radar-and-response-center-to-show-companies-which-cyber-threats-actually-affect-them/",
-      "desc": "New York, United States, 18th November 2026, TechnologyWire",
-      "pubDate": "Wed, 18 Nov 2026 13:58:11 +0000",
       "source": "HackRead",
       "cat": "threats",
       "sev": "medium",
@@ -3088,6 +3095,25 @@
       "ts": 0
     },
     {
+      "id": "Schnei-b35fd7037cae",
+      "title": "Friday Squid Blogging: The Largest Squid Ever Filmed",
+      "link": "https://www.schneier.com/blog/archives/2026/11/friday-squid-blogging-the-largest-squid-ever-filmed.html",
+      "desc": "This  is the story of the largest squid ever filmed, in December 2006 near Japan&#8217;s Ogasawara Islands.\nAs usual, you can also use this squid post to talk about the security stories in the news that I haven&#8217;t covered.\nBlog moderation policy.",
+      "pubDate": "2026-11-20T22:04:12Z",
+      "source": "Schneier",
+      "cat": "tools",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
       "id": "Schnei-8539bb79d61d",
       "title": "Opening a 400-Year-Old Cryptex",
       "link": "https://www.schneier.com/blog/archives/2026/11/opening-a-400-year-old-cryptex.html",
@@ -3259,14 +3285,14 @@
       "ts": 0
     },
     {
-      "id": "Schnei-8e2c6230520b",
-      "title": "New OpenSSH Vulnerability",
-      "link": "https://www.schneier.com/blog/archives/2026/11/new-openssh-vulnerability.html",
-      "desc": "It&#8217;s a bad one, and it&#8217;s been in the code for a decade:\nA newly disclosed flaw involving OpenSSH and musl, dubbed &#8220;*sshole,&#8221; allows attackers to log in to certain Alpine Linux and other musl-based Linux accounts configured to block password authentication simply by entering an oversized password.\n&#8220;Oversized&#8221; means longer than 256 bytes. Details.\nSlashdot thread.",
-      "pubDate": "2026-11-10T12:02:38Z",
-      "source": "Schneier",
-      "cat": "tools",
-      "sev": "high",
+      "id": "ESETB-ccd4302e6ad4",
+      "title": "My IoT devices are no longer supported – is my smart home safe?",
+      "link": "https://www.welivesecurity.com/en/internet-of-things/iot-devices-no-longer-supported-smart-home-safe/",
+      "desc": "End-of-life smart devices can be a security risk if left unmanaged – here’s what to do instead",
+      "pubDate": "Thu, 19 Nov 2026 08:00:00 +0000",
+      "source": "ESET Blog",
+      "cat": "malware",
+      "sev": "medium",
       "tags": [],
       "iocs": {
         "cves": [],
@@ -3556,14 +3582,14 @@
       "ts": 0
     },
     {
-      "id": "ESETB-9d11f645a6e7",
-      "title": "Inbox flooded with sign-up messages? Email bombing explained",
-      "link": "https://www.welivesecurity.com/en/cybersecurity/inbox-flooded-signup-messages-email-bombing/",
-      "desc": "If you’re suddenly being overwhelmed with sign-up emails, it could very well be a sign of something more serious",
-      "pubDate": "Fri, 16 Oct 2026 09:00:00 +0000",
-      "source": "ESET Blog",
-      "cat": "malware",
-      "sev": "medium",
+      "id": "HaveIB-488b03d169bc",
+      "title": "Too Lost - 724,323 breached accounts",
+      "link": "https://haveibeenpwned.com/Breach/TooLost",
+      "desc": "In November 2026, an unauthorised party claimed to have obtained data from the music distributor for independent artists, Too Lost. The data contained 724k unique email addresses belonging to artists, their collaborators and fans. Some records also contained bcrypt password hashes, while a small subset included partial credit card data (last 4 digits and card type), identity verification informati",
+      "pubDate": "Fri, 20 Nov 2026 19:17:16 Z",
+      "source": "HaveIBeenPwned",
+      "cat": "breaches",
+      "sev": "high",
       "tags": [],
       "iocs": {
         "cves": [],
@@ -3827,25 +3853,6 @@
       "link": "https://haveibeenpwned.com/Breach/AngelOne",
       "desc": "In July 2024, the Indian stock brokerage firm Angel One confirmed that data leaked online related to a breach that occurred in April 2023. The leaked data included 7.9M user records containing 6.8M unique email addresses, along with names, physical addresses, phone numbers, bank account numbers, Permanent Account Numbers (PANs) and portfolio holdings. Angel One emphasised that the breach \"has no i",
       "pubDate": "Wed, 07 Oct 2026 03:45:31 Z",
-      "source": "HaveIBeenPwned",
-      "cat": "breaches",
-      "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "HaveIB-431266b507f1",
-      "title": "Medela - 423,947 breached accounts",
-      "link": "https://haveibeenpwned.com/Breach/Medela",
-      "desc": "In September 2026, Swiss medical device company Medela was the target of a ShinyHunters \"pay or leak\" extortion campaign. The data allegedly obtained in the breach was later published publicly and included 424k unique email addresses belonging predominantly to healthcare professionals, Medela staff and leads. The exposed data consisted primarily of corporate contact information, including names, p",
-      "pubDate": "Wed, 30 Sep 2026 11:48:28 Z",
       "source": "HaveIBeenPwned",
       "cat": "breaches",
       "sev": "high",
