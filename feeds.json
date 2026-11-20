@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T00:48:32.759850+00:00",
+  "generated_at": "2026-11-20T08:11:43.617951+00:00",
   "sources_ok": 14,
   "sources_total": 20,
   "source_status": {
@@ -93,6 +93,70 @@
   "total": 175,
   "articles": [
     {
+      "id": "TheHa-2fe7675d8f81",
+      "title": "ROMULUS ClickFix Attacks Deliver RAT That Can Spy on Users and Control PCs",
+      "link": "https://thehackernews.com/2026/11/romulus-clickfix-attacks-deliver-rat.html",
+      "desc": "Threat actors have been observed using the ROMULUS ClickFix malware delivery platform to deliver a previously undocumented remote access trojan (RAT) that shares similarities with CNCMachineRMS.\n\n\"ROMULUS likely operates as a delivery service, distributing CNCMachineRMS and Legion Loader through separate chains while retaining ClickFix and signed binary sideloading techniques,\" Blackpoint",
+      "pubDate": "Fri, 20 Nov 2026 12:41:39 +0530",
+      "source": "The Hacker News",
+      "cat": "malware",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "TheHa-9c24aec0e602",
+      "title": "China-Linked Hackers Exploit Critical VMware vCenter Zero-Day to Gain Admin Access and Steal Data",
+      "link": "https://thehackernews.com/2026/11/china-linked-hackers-exploit-critical.html",
+      "desc": "The suspected China-nexus cyber espionage group known as Armory Castle (formerly UNC5221) has been attributed to the zero-day exploitation of a critical security flaw in VMware vCenter Server in early September 2026.\n\nThe vulnerability, tracked as CVE-2026-123890 (CVSS score: 9.8), is a case of authentication bypass in the VMware Directory Service that could be exploited to gain unauthorized",
+      "pubDate": "Fri, 20 Nov 2026 12:03:31 +0530",
+      "source": "The Hacker News",
+      "cat": "threats",
+      "sev": "critical",
+      "tags": [
+        {
+          "t": "CVE-2026-123890",
+          "cls": "cve"
+        }
+      ],
+      "iocs": {
+        "cves": [
+          "CVE-2026-123890"
+        ],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "TheHa-0bf83b0c2357",
+      "title": "New Unpatched Windows 0-Day FastUnlock Lets Someone Holding a Locked PC Run Programs on It",
+      "link": "https://thehackernews.com/2026/11/new-unpatched-windows-0-day-fastunlock.html",
+      "desc": "A newly disclosed unpatched zero-day technique called FastUnlock lets someone with physical access to a locked Windows computer start programs without signing in. Whoever uses it gets only a limited account, not administrator control of the machine.\n\nThe method was posted yesterday by a researcher who uses the handles MSNightmare and Nightmare Eclipse, and the endpoint-security firm ThreatLocker",
+      "pubDate": "Fri, 20 Nov 2026 11:00:01 +0530",
+      "source": "The Hacker News",
+      "cat": "threats",
+      "sev": "critical",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
       "id": "TheHa-331d40da01d2",
       "title": "ThreatsDay: GPT-6.2 Jailbreak Flaws, BubbleLoader PNG Malware, $500M Ransom Demands + 17 More Stories",
       "link": "https://thehackernews.com/2026/11/threatsday-gpt-62-jailbreak-flaws.html",
@@ -164,14 +228,14 @@
       "ts": 0
     },
     {
-      "id": "TheHa-ba3ee8649e09",
-      "title": "Critical VMware vCenter Flaw (CVSS 9.8) Lets Network Attackers Bypass Authentication",
+      "id": "TheHa-1e8feded04ed",
+      "title": "Critical VMware vCenter Zero-Day Flaw Lets Network Attackers Bypass Authentication",
       "link": "https://thehackernews.com/2026/11/critical-vmware-vcenter-flaw-cvss-98.html",
       "desc": "A critical flaw in VMware vCenter lets an attacker with network access bypass authentication and gain unauthorized access to the system, Broadcom, which owns VMware, said in an advisory published today.\n\nFixed versions are out for all supported branches, and the company lists no workaround. vCenter is the central console for managing an organization's ESX hosts and virtual machines.\n\nThe",
       "pubDate": "Thu, 19 Nov 2026 20:41:06 +0530",
       "source": "The Hacker News",
       "cat": "threats",
-      "sev": "high",
+      "sev": "critical",
       "tags": [],
       "iocs": {
         "cves": [],
@@ -212,18 +276,18 @@
       "sev": "high",
       "tags": [
         {
-          "t": "CVE-2026-109618",
+          "t": "CVE-2026-109619",
           "cls": "cve"
         },
         {
-          "t": "CVE-2026-109619",
+          "t": "CVE-2026-109618",
           "cls": "cve"
         }
       ],
       "iocs": {
         "cves": [
-          "CVE-2026-109618",
-          "CVE-2026-109619"
+          "CVE-2026-109619",
+          "CVE-2026-109618"
         ],
         "ips": [],
         "hashes": []
@@ -252,8 +316,8 @@
       "ts": 0
     },
     {
-      "id": "TheHa-1121688b2943",
-      "title": "Ruby Releases Fixes for 7 Regex and String Flaws, Warns 5 Have Proof-of-Concept RCE",
+      "id": "TheHa-ba21c947a760",
+      "title": "Ruby Ships Fixes for 7 Flaws, Including Critical Ruby2Shell, Said to Hit Default Rails Apps Pre-Auth",
       "link": "https://thehackernews.com/2026/11/ruby-releases-fixes-for-7-regex-and.html",
       "desc": "Ruby contains seven memory-safety flaws in its regular expression engine and its string case-conversion code. For five of them, its maintainers say, proof-of-concept exploits, or PoCs, have shown that crafted input can run code on the machine.\n\n\"We are aware of PoCs that prove some of them can be used to trigger remote code execution,\" the maintainers said.\n\nThe project released fixed versions",
       "pubDate": "Thu, 19 Nov 2026 14:12:11 +0530",
@@ -346,70 +410,6 @@
         "cves": [
           "CVE-2026-123007"
         ],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "TheHa-9e784c50e18f",
-      "title": "F5 Warns 6 Critical BIG-IP Flaws Can Crash Traffic in Specific Setups, May Allow RCE",
-      "link": "https://thehackernews.com/2026/11/f5-warns-6-critical-big-ip-flaws-can.html",
-      "desc": "Six critical vulnerabilities in F5 BIG-IP allow an attacker to crash the Traffic Management Microkernel (TMM) without logging in, disrupting traffic until the TMM restarts.\n\nEach flaw needs a specific setup on a virtual server: an iRule that uses a particular command, or an APM policy that includes two particular kinds of agent.\n\nF5, which makes BIG-IP, disclosed the flaws today and says they",
-      "pubDate": "Wed, 18 Nov 2026 23:45:39 +0530",
-      "source": "The Hacker News",
-      "cat": "threats",
-      "sev": "critical",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "TheHa-cdf6137791b9",
-      "title": "Critical Apache Roller RCE Flaw Under Active Exploitation, No Authentication Required",
-      "link": "https://thehackernews.com/2026/11/critical-apache-roller-rce-flaw-under.html",
-      "desc": "A critical security flaw in Apache Roller, an open-source, Java-based blogging platform, has come under active exploitation in the wild, according to the Apache Software Foundation (ASF)\n\nThe vulnerability, tracked as CVE-2026-129448 (CVSS score: 9.8), is a case of unauthenticated deserialization in the XML-RPC endpoint that could lead to remote code execution.\n\n\"Deserialization of Untrusted",
-      "pubDate": "Wed, 18 Nov 2026 22:40:45 +0530",
-      "source": "The Hacker News",
-      "cat": "threats",
-      "sev": "critical",
-      "tags": [
-        {
-          "t": "CVE-2026-129448",
-          "cls": "cve"
-        }
-      ],
-      "iocs": {
-        "cves": [
-          "CVE-2026-129448"
-        ],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "TheHa-3006d29e6f89",
-      "title": "New EggStreme Malware Variant Goes Silent to Evade Security Tools in Government Attacks",
-      "link": "https://thehackernews.com/2026/11/eggstreme-hackers-rebuild-malware-with.html",
-      "desc": "The suspected Chinese advanced persistent threat (APT) group behind the sophisticated EggStreme malware has rebuilt its toolkit as it continues to target government organizations in the Philippines.\n\n\"When attackers are exposed, the cheap response is to rotate,\" Bitdefender said in a technical report shared with The Hacker News. \"A file hash changes with every recompile, a domain costs a few",
-      "pubDate": "Wed, 18 Nov 2026 19:41:28 +0530",
-      "source": "The Hacker News",
-      "cat": "malware",
-      "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
         "ips": [],
         "hashes": []
       },
@@ -608,6 +608,25 @@
       "ts": 0
     },
     {
+      "id": "Securi-32c259b736e7",
+      "title": "JPMorgan, Visa, Mastercard Cite Third-Party Incidents Amid Data Leak",
+      "link": "https://www.securityweek.com/jpmorgan-visa-mastercard-cite-third-party-incidents-amid-data-leak/",
+      "desc": "The companies point to third-party providers after the N0n extortion group leaked data allegedly tied to their customers.\nThe post JPMorgan, Visa, Mastercard Cite Third-Party Incidents Amid Data Leak appeared first on SecurityWeek.",
+      "pubDate": "Fri, 20 Nov 2026 07:35:46 +0000",
+      "source": "SecurityWeek",
+      "cat": "breaches",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
       "id": "Securi-d5a080c4e6c2",
       "title": "Newly Patched VMware vCenter Flaw Exploited as Zero-Day by Chinese APT",
       "link": "https://www.securityweek.com/newly-patched-vmware-vcenter-flaw-exploited-as-zero-day-by-chinese-apt/",
@@ -779,25 +798,6 @@
       "ts": 0
     },
     {
-      "id": "Securi-3bb2b76d5734",
-      "title": "Java4Shell Exploitation Attempts Begin as Vendors Rush Out Advisories",
-      "link": "https://www.securityweek.com/java4shell-exploitation-attempts-begin-as-vendors-rush-out-advisories/",
-      "desc": "GreyNoise, WatchTowr and Cloudflare report probing and exploit attempts, while Cisco, Elastic, Red Hat and Siemens detail impact.\nThe post Java4Shell Exploitation Attempts Begin as Vendors Rush Out Advisories appeared first on SecurityWeek.",
-      "pubDate": "Thu, 19 Nov 2026 09:10:58 +0000",
-      "source": "SecurityWeek",
-      "cat": "threats",
-      "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
       "id": "GBHack-7fed1b525b0d",
       "title": "Criminal IP Launches AITEM to Connect Asset Discovery with AI-Powered Exposure Management",
       "link": "https://gbhackers.com/criminal-ip-launches-aitem-to-connect-asset-discovery-with-ai-powered-exposure-management/",
@@ -827,18 +827,18 @@
       "sev": "high",
       "tags": [
         {
-          "t": "CVE-2026-120382",
+          "t": "CVE-2026-123007",
           "cls": "cve"
         },
         {
-          "t": "CVE-2026-123007",
+          "t": "CVE-2026-120382",
           "cls": "cve"
         }
       ],
       "iocs": {
         "cves": [
-          "CVE-2026-120382",
-          "CVE-2026-123007"
+          "CVE-2026-123007",
+          "CVE-2026-120382"
         ],
         "ips": [],
         "hashes": []
@@ -2159,18 +2159,18 @@
       "sev": "high",
       "tags": [
         {
-          "t": "CVE-2026-109618",
+          "t": "CVE-2026-109619",
           "cls": "cve"
         },
         {
-          "t": "CVE-2026-109619",
+          "t": "CVE-2026-109618",
           "cls": "cve"
         }
       ],
       "iocs": {
         "cves": [
-          "CVE-2026-109618",
-          "CVE-2026-109619"
+          "CVE-2026-109619",
+          "CVE-2026-109618"
         ],
         "ips": [],
         "hashes": []
@@ -2567,6 +2567,25 @@
       "ts": 0
     },
     {
+      "id": "SANSI-0eb919c28abf",
+      "title": "ISC Stormcast For Friday, November 20th, 2026 https://isc.sans.edu/podcastdetail/10188, (Fri, Nov 20th)",
+      "link": "https://isc.sans.edu/diary/rss/33538",
+      "desc": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
+      "pubDate": "Fri, 20 Nov 2026 02:00:02 GMT",
+      "source": "SANS ISC",
+      "cat": "vulns",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
       "id": "SANSI-59ea25fa39ec",
       "title": "ISC Stormcast For Thursday, November 19th, 2026 https://isc.sans.edu/podcastdetail/10186, (Thu, Nov 19th)",
       "link": "https://isc.sans.edu/diary/rss/33536",
@@ -2691,18 +2710,18 @@
       "sev": "critical",
       "tags": [
         {
-          "t": "CVE-2026-48710",
+          "t": "CVE-2026-42271",
           "cls": "cve"
         },
         {
-          "t": "CVE-2026-42271",
+          "t": "CVE-2026-48710",
           "cls": "cve"
         }
       ],
       "iocs": {
         "cves": [
-          "CVE-2026-48710",
-          "CVE-2026-42271"
+          "CVE-2026-42271",
+          "CVE-2026-48710"
         ],
         "ips": [],
         "hashes": []
@@ -2736,25 +2755,6 @@
       "link": "https://isc.sans.edu/diary/rss/33496",
       "desc": "YARA-X&&#x23;x26;&#x23;39&&#x23;x26;&#x23;x3b;s 1.23.0 release brings 4 improvements and 16 bugfixes.&#xd;",
       "pubDate": "Sun, 15 Nov 2026 18:17:27 GMT",
-      "source": "SANS ISC",
-      "cat": "vulns",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "SANSI-02b7db90de81",
-      "title": "Macfinger ClickFix campaign sends DownTheDRAIN infostealer for macOS, (Fri, Nov 13th)",
-      "link": "https://isc.sans.edu/diary/rss/33518",
-      "desc": "Introduction&#xd;",
-      "pubDate": "Fri, 13 Nov 2026 03:41:41 GMT",
       "source": "SANS ISC",
       "cat": "vulns",
       "sev": "medium",
@@ -3178,18 +3178,18 @@
       "sev": "high",
       "tags": [
         {
-          "t": "CVE-2026-109618",
+          "t": "CVE-2026-109619",
           "cls": "cve"
         },
         {
-          "t": "CVE-2026-109619",
+          "t": "CVE-2026-109618",
           "cls": "cve"
         }
       ],
       "iocs": {
         "cves": [
-          "CVE-2026-109618",
-          "CVE-2026-109619"
+          "CVE-2026-109619",
+          "CVE-2026-109618"
         ],
         "ips": [],
         "hashes": []
@@ -3245,6 +3245,25 @@
       "source": "ESET Blog",
       "cat": "malware",
       "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "HaveIB-e999135fbbdb",
+      "title": "Careers360 - 3,609,421 breached accounts",
+      "link": "https://haveibeenpwned.com/Breach/Careers360",
+      "desc": "In November 2026, data allegedly taken from the Indian education and careers platform Careers360 appeared on a public hacking forum. The 22M records included 3.6M unique email addresses alongside names, phone numbers, genders and caste categories, and most also contained students' entrance exam results, including ranks and marks.",
+      "pubDate": "Fri, 20 Nov 2026 03:44:54 Z",
+      "source": "HaveIBeenPwned",
+      "cat": "breaches",
+      "sev": "high",
       "tags": [],
       "iocs": {
         "cves": [],
@@ -3508,25 +3527,6 @@
       "link": "https://haveibeenpwned.com/Breach/Medela",
       "desc": "In September 2026, Swiss medical device company Medela was the target of a ShinyHunters \"pay or leak\" extortion campaign. The data allegedly obtained in the breach was later published publicly and included 424k unique email addresses belonging predominantly to healthcare professionals, Medela staff and leads. The exposed data consisted primarily of corporate contact information, including names, p",
       "pubDate": "Wed, 30 Sep 2026 11:48:28 Z",
-      "source": "HaveIBeenPwned",
-      "cat": "breaches",
-      "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "HaveIB-b2531527cb88",
-      "title": "LimeLeads - 17,838,396 breached accounts",
-      "link": "https://haveibeenpwned.com/Breach/LimeLeads",
-      "desc": "In 2019, the now-defunct B2B marketing leads database service LimeLeads suffered a data breach due to an exposed, unsecured Elasticsearch server. The incident exposed tens of millions of records of largely corporate contact data containing 17.8M unique email addresses, along with phone numbers, employers, job titles and geographic locations including state, city and postcode.",
-      "pubDate": "Tue, 22 Sep 2026 08:02:37 Z",
       "source": "HaveIBeenPwned",
       "cat": "breaches",
       "sev": "high",
