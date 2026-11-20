@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T18:01:31.795276+00:00",
+  "generated_at": "2026-11-20T00:48:32.759850+00:00",
   "sources_ok": 14,
   "sources_total": 20,
   "source_status": {
@@ -92,6 +92,25 @@
   },
   "total": 175,
   "articles": [
+    {
+      "id": "TheHa-331d40da01d2",
+      "title": "ThreatsDay: GPT-6.2 Jailbreak Flaws, BubbleLoader PNG Malware, $500M Ransom Demands + 17 More Stories",
+      "link": "https://thehackernews.com/2026/11/threatsday-gpt-62-jailbreak-flaws.html",
+      "desc": "The easiest way to fool someone is to give them something they already expect. A job offer. A message about a service outage. A familiar app. Nothing looks strange at first. And that's the problem. This week's stories show how ordinary things are being used to steal data, spread malware, and get people to hand over access.\n\nThere's another shift worth watching. AI is making some attacks easier",
+      "pubDate": "Fri, 20 Nov 2026 00:17:58 +0530",
+      "source": "The Hacker News",
+      "cat": "malware",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
     {
       "id": "TheHa-feb9ff0cc964",
       "title": "phpAfterShell Explained: How Hackers Could Turn a PHP Session Flaw Into Code Execution",
@@ -399,25 +418,6 @@
       "ts": 0
     },
     {
-      "id": "TheHa-f762a275301b",
-      "title": "New Attack Bypasses TPM Lockout to Crack Windows Hello and BitLocker PINs in Days, Not Years",
-      "link": "https://thehackernews.com/2026/11/flash-chip-attack-bypasses-tpm-lockout.html",
-      "desc": "On AMD-based PCs and some Intel PCs, the TPM lockout for Windows Hello and BitLocker PINs can be reset by someone who opens the PC's case, researchers at Technische Universität Berlin say.\n\nThat leaves short PINs open to guessing. In lab tests, the researchers found a four-digit Hello PIN on an AMD laptop and a 6-digit BitLocker PIN on an Intel laptop this way.\n\nBoth PINs were set by the",
-      "pubDate": "Wed, 18 Nov 2026 17:58:30 +0530",
-      "source": "The Hacker News",
-      "cat": "threats",
-      "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
       "id": "Krebs-1883507b9c4e",
       "title": "Attackers Used Optimizely to A/B Test Malware on Top Websites",
       "link": "https://krebsonsecurity.com/2026/11/attackers-used-optimizely-to-a-b-test-malware-on-top-websites/",
@@ -608,6 +608,25 @@
       "ts": 0
     },
     {
+      "id": "Securi-d5a080c4e6c2",
+      "title": "Newly Patched VMware vCenter Flaw Exploited as Zero-Day by Chinese APT",
+      "link": "https://www.securityweek.com/newly-patched-vmware-vcenter-flaw-exploited-as-zero-day-by-chinese-apt/",
+      "desc": "Google says a China-linked espionage group exploited a critical VMware vCenter authentication bypass before Broadcom released a patch.\nThe post Newly Patched VMware vCenter Flaw Exploited as Zero-Day by Chinese APT appeared first on SecurityWeek.",
+      "pubDate": "Thu, 19 Nov 2026 19:21:06 +0000",
+      "source": "SecurityWeek",
+      "cat": "threats",
+      "sev": "critical",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
       "id": "Securi-0eb4e821ecff",
       "title": "PHP Patches Seven Critical RCE Vulnerabilities",
       "link": "https://www.securityweek.com/php-patches-seven-critical-rce-vulnerabilities/",
@@ -779,32 +798,6 @@
       "ts": 0
     },
     {
-      "id": "Securi-34f227bf3606",
-      "title": "PHP Readies Critical Security Updates to Patch Another RCE Flaw",
-      "link": "https://www.securityweek.com/php-readies-critical-security-updates-to-patch-another-rce-flaw/",
-      "desc": "Affecting the session upload progress, CVE-2026-115560 was publicly disclosed two days after PHP2Shell patches landed.\nThe post PHP Readies Critical Security Updates to Patch Another RCE Flaw appeared first on SecurityWeek.",
-      "pubDate": "Thu, 19 Nov 2026 07:45:17 +0000",
-      "source": "SecurityWeek",
-      "cat": "threats",
-      "sev": "critical",
-      "tags": [
-        {
-          "t": "CVE-2026-115560",
-          "cls": "cve"
-        }
-      ],
-      "iocs": {
-        "cves": [
-          "CVE-2026-115560"
-        ],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
       "id": "GBHack-7fed1b525b0d",
       "title": "Criminal IP Launches AITEM to Connect Asset Discovery with AI-Powered Exposure Management",
       "link": "https://gbhackers.com/criminal-ip-launches-aitem-to-connect-asset-discovery-with-ai-powered-exposure-management/",
@@ -834,18 +827,18 @@
       "sev": "high",
       "tags": [
         {
-          "t": "CVE-2026-123007",
+          "t": "CVE-2026-120382",
           "cls": "cve"
         },
         {
-          "t": "CVE-2026-120382",
+          "t": "CVE-2026-123007",
           "cls": "cve"
         }
       ],
       "iocs": {
         "cves": [
-          "CVE-2026-123007",
-          "CVE-2026-120382"
+          "CVE-2026-120382",
+          "CVE-2026-123007"
         ],
         "ips": [],
         "hashes": []
@@ -1006,6 +999,25 @@
         "cves": [
           "CVE-2026-129448"
         ],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "HackRe-34b6d8166df3",
+      "title": "Why Most Apps Don’t Scale (and How to Fix Them)",
+      "link": "https://hackread.com/why-most-apps-do-not-scale-how-to-fix-them/",
+      "desc": "Most of what gets called a scaling problem has nothing to do with traffic. My text scanning app&#8230;",
+      "pubDate": "Thu, 19 Nov 2026 20:01:09 +0000",
+      "source": "HackRead",
+      "cat": "threats",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
         "ips": [],
         "hashes": []
       },
@@ -1184,25 +1196,6 @@
         "cves": [
           "CVE-2026-114938"
         ],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "HackRe-cb130ed361ca",
-      "title": "Fast People Search Removal (2026): How to Opt Out & Remove Yourself",
-      "link": "https://hackread.com/fast-people-search-removal-2026-how-to-opt-out-remove/",
-      "desc": "Anyone can type your name into FastPeopleSearch and see your age, your current address, your phone numbers, and&#8230;",
-      "pubDate": "Tue, 17 Nov 2026 20:37:14 +0000",
-      "source": "HackRead",
-      "cat": "threats",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
         "ips": [],
         "hashes": []
       },
@@ -1496,6 +1489,25 @@
       "ts": 0
     },
     {
+      "id": "Pentes-2528bd60a4fb",
+      "title": "The fridge hack UK supermarkets narrowly avoided?",
+      "link": "https://www.pentestpartners.com/security-blog/the-fridge-hack-uk-supermarkets-narrowly-avoided/",
+      "desc": "TL;DR&#160; Introduction A significant vulnerability was found by Neil McCourt of Omega Solutions. Andrew Tierney of Pen Test Partners worked with Neil to validate his findings, discovering a number of additional vulnerabilities in the process.&#160; Pen Test Partners, Omega Solutions, NCSC, RDM, the British Retail Consortium, DEFRA, the Food Standards Agency and others were involved [&#8230;]\nThe",
+      "pubDate": "Fri, 20 Nov 2026 00:01:00 +0000",
+      "source": "PentestPartners",
+      "cat": "redteam",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
       "id": "Pentes-ef74e3ce794b",
       "title": "Printerpix and the not so private photo album",
       "link": "https://www.pentestpartners.com/security-blog/printerpix-and-the-not-so-private-photo-album/",
@@ -1656,25 +1668,6 @@
       "source": "PentestPartners",
       "cat": "redteam",
       "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "Pentes-6bd9ab83f8ea",
-      "title": "Why your data is safer than you think on public Wi-Fi",
-      "link": "https://www.pentestpartners.com/security-blog/why-your-data-is-safer-than-you-think-on-public-wi-fi/",
-      "desc": "TL;DR&#160; The coffee shop hacker&#160; Public Wi-Fi has&#160;acquired&#160;a slightly theatrical reputation. Join the network in a coffee shop, we are told, and a hacker in the corner can&#160;immediately&#160;steal your passwords and empty your bank account.&#160; It makes for good VPN advertising. It is not a particularly&#160;accurate&#160;picture of how the modern web works.&#160; Most legit",
-      "pubDate": "Thu, 03 Sep 2026 12:43:48 +0000",
-      "source": "PentestPartners",
-      "cat": "redteam",
-      "sev": "medium",
       "tags": [],
       "iocs": {
         "cves": [],
@@ -2698,18 +2691,18 @@
       "sev": "critical",
       "tags": [
         {
-          "t": "CVE-2026-42271",
+          "t": "CVE-2026-48710",
           "cls": "cve"
         },
         {
-          "t": "CVE-2026-48710",
+          "t": "CVE-2026-42271",
           "cls": "cve"
         }
       ],
       "iocs": {
         "cves": [
-          "CVE-2026-42271",
-          "CVE-2026-48710"
+          "CVE-2026-48710",
+          "CVE-2026-42271"
         ],
         "ips": [],
         "hashes": []
