@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-23T02:21:43.017091+00:00",
-  "sources_ok": 15,
+  "generated_at": "2026-11-23T11:03:30.573248+00:00",
+  "sources_ok": 14,
   "sources_total": 20,
   "source_status": {
     "The Hacker News": {
@@ -48,8 +48,9 @@
       "articles": 15
     },
     "SANS ISC": {
-      "ok": true,
-      "articles": 10
+      "ok": false,
+      "articles": 0,
+      "error": "Invalid feed: <unknown>:2:0: syntax error"
     },
     "Schneier": {
       "ok": true,
@@ -89,8 +90,72 @@
       "error": "429 Client Error: Too Many Requests for url: https://www.reddit.com/r/blueteamsec/.rss"
     }
   },
-  "total": 190,
+  "total": 180,
   "articles": [
+    {
+      "id": "TheHa-fe5f17fe47ab",
+      "title": "Hackers Exploit Critical ASP.NET Anti-CSRF Library Flaw Allowing Unauthenticated RCE",
+      "link": "https://thehackernews.com/2026/11/hackers-exploit-critical-aspnet-anti.html",
+      "desc": "Cybersecurity researchers have urged users to discontinue using a legacy ASP.NET anti-CSRF library named Idunno.AntiCsrf (\"Idunno.AntiCsrf.dll\") following the discovery of a critical vulnerability that has been exploited in the wild.\n\nThe vulnerability, tracked as CVE-2026-131914, carries a CVSS score of 9.3 out of 10.0. The issue affects versions 0.9.1.0 and 0.9.1 Beta, and relates to an",
+      "pubDate": "Mon, 23 Nov 2026 14:41:56 +0530",
+      "source": "The Hacker News",
+      "cat": "threats",
+      "sev": "critical",
+      "tags": [
+        {
+          "t": "CVE-2026-131914",
+          "cls": "cve"
+        }
+      ],
+      "iocs": {
+        "cves": [
+          "CVE-2026-131914"
+        ],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "TheHa-22c80420a4de",
+      "title": "Hackers Exploited GL.iNet Cloud Flaw to Install Malware on Routers and KVM Devices",
+      "link": "https://thehackernews.com/2026/11/hackers-exploited-glinet-cloud-flaw-to.html",
+      "desc": "Hackers exploited a vulnerability in GL.iNet's GoodCloud remote management service to install malware on some customer routers and KVM devices, the maker of travel routers and remote-access KVM hardware said in a security notice updated today.\n\nThe company identified and fixed the flaw on Friday and blocked the access the attacker used, so devices can no longer be infected through this route.",
+      "pubDate": "Mon, 23 Nov 2026 14:34:08 +0530",
+      "source": "The Hacker News",
+      "cat": "malware",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "TheHa-5cfc18688130",
+      "title": "AI-Assisted Cyberattacks Trigger Unauthorized Payments at Indian Banks and Fintech Firms",
+      "link": "https://thehackernews.com/2026/11/ai-assisted-cyberattacks-trigger.html",
+      "desc": "The Indian Computer Emergency Response Team (CERT-In) has warned that threat actors are carrying out artificial intelligence (AI)-assisted cyber attacks targeting information and communication technology (ICT) assets in the country.\n\nThis unsanctioned activity has resulted in unauthorized financial transactions at banking and financial services entities, as well as technology service providers",
+      "pubDate": "Mon, 23 Nov 2026 13:54:15 +0530",
+      "source": "The Hacker News",
+      "cat": "threats",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
     {
       "id": "TheHa-bb0489543fc9",
       "title": "OpenRouter Drops 3 Providers After Researchers Catch Months of Prompt Theft at AI Hosting Firms",
@@ -336,77 +401,6 @@
       "pubDate": "Fri, 20 Nov 2026 16:08:22 +0530",
       "source": "The Hacker News",
       "cat": "threats",
-      "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "TheHa-b3b2b12710d7",
-      "title": "Hackers Exploit Critical Cisco Expressway Flaw, Breach Four Devices and Reach Internal Network",
-      "link": "https://thehackernews.com/2026/11/hackers-exploit-critical-cisco.html",
-      "desc": "Threat actors have been observed exploiting a recently disclosed critical security flaw in Cisco Expressway to breach a Russian organization shortly after the public release of a proof-of-concept (PoC) exploit.\n\nThe activity involves the exploitation of CVE-2026-76466 (CVSS score: 9.8), a vulnerability that could allow an unauthenticated, remote attacker with network access to a Cisco Expressway",
-      "pubDate": "Fri, 20 Nov 2026 16:02:50 +0530",
-      "source": "The Hacker News",
-      "cat": "breaches",
-      "sev": "high",
-      "tags": [
-        {
-          "t": "CVE-2026-76466",
-          "cls": "cve"
-        }
-      ],
-      "iocs": {
-        "cves": [
-          "CVE-2026-76466"
-        ],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "TheHa-e51dc65ba257",
-      "title": "China-Linked Hackers Exploit Critical VMware vCenter Zero-Day to Gain Admin Access and Steal Data",
-      "link": "https://thehackernews.com/2026/11/china-linked-hackers-exploit-critical.html",
-      "desc": "The suspected China-nexus cyber espionage group known as Armory Castle (formerly UNC5221) has been attributed to the zero-day exploitation of a critical security flaw in VMware vCenter Server in early September 2026.\n\nThe vulnerability, tracked as CVE-2026-123890 (CVSS score: 9.8), is a case of authentication bypass in the VMware Directory Service that could be exploited to gain unauthorized",
-      "pubDate": "Fri, 20 Nov 2026 15:08:15 +0530",
-      "source": "The Hacker News",
-      "cat": "threats",
-      "sev": "critical",
-      "tags": [
-        {
-          "t": "CVE-2026-123890",
-          "cls": "cve"
-        }
-      ],
-      "iocs": {
-        "cves": [
-          "CVE-2026-123890"
-        ],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "TheHa-2fe7675d8f81",
-      "title": "ROMULUS ClickFix Attacks Deliver RAT That Can Spy on Users and Control PCs",
-      "link": "https://thehackernews.com/2026/11/romulus-clickfix-attacks-deliver-rat.html",
-      "desc": "Threat actors have been observed using the ROMULUS ClickFix malware delivery platform to deliver a previously undocumented remote access trojan (RAT) that shares similarities with CNCMachineRMS.\n\n\"ROMULUS likely operates as a delivery service, distributing CNCMachineRMS and Legion Loader through separate chains while retaining ClickFix and signed binary sideloading techniques,\" Blackpoint",
-      "pubDate": "Fri, 20 Nov 2026 12:41:39 +0530",
-      "source": "The Hacker News",
-      "cat": "malware",
       "sev": "high",
       "tags": [],
       "iocs": {
@@ -813,146 +807,11 @@
       "ts": 0
     },
     {
-      "id": "GBHack-e14db41784b7",
-      "title": "Critical F5 BIG-IP Stack Buffer Overflow Flaw Enables Remote Code Execution and Denial-of-Service Attacks",
-      "link": "https://gbhackers.com/critical-f5-big-ip-stack-buffer-overflow-flaw/",
-      "desc": "F5 disclosed a critical stack-based buffer overflow in BIG-IP Access Policy Manager (APM) on November 18, 2026. Tracked as CVE-2026-123637, the flaw allows a remote, unauthenticated attacker to terminate the Traffic Management Microkernel (TMM), interrupting traffic while the process restarts. The affected configuration requires APM provisioning and a virtual server with a per-request policy that ",
-      "pubDate": "Sat, 21 Nov 2026 07:53:29 +0000",
-      "source": "GBHackers",
-      "cat": "threats",
-      "sev": "critical",
-      "tags": [
-        {
-          "t": "CVE-2026-123637",
-          "cls": "cve"
-        }
-      ],
-      "iocs": {
-        "cves": [
-          "CVE-2026-123637"
-        ],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "GBHack-c5f6ead78909",
-      "title": "China-Linked Webworm Hackers Deploy Custom SoftEther VPN to Maintain Hidden Access to Government Networks",
-      "link": "https://gbhackers.com/china-linked-webworm-softether-vpn/",
-      "desc": "A newly identified modified SoftEther VPN Bridge that is attributed with moderate confidence to Webworm, a China-aligned espionage group known for targeting government organizations, particularly in Europe. The November 19 analysis describes a Windows executable that preserves SoftEther’s network bridging capabilities while changing the artifacts defenders use to identify unauthorized deployments.",
-      "pubDate": "Sat, 21 Nov 2026 07:37:44 +0000",
-      "source": "GBHackers",
-      "cat": "threats",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "GBHack-a7c650998644",
-      "title": "New AI-Powered Bazuka Banking Trojan Targets Android Users With Keylogging and SMS Interception",
-      "link": "https://gbhackers.com/ai-powered-bazuka-banking-trojan-android-users/",
-      "desc": "A newly disclosed Bazuka, a modular Android banking Trojan that captures banking credentials and intercepts SMS verification codes while using large language models (LLMs) to help operators prioritize compromised devices. ThreatFabric discovered the framework in late October 2026 while investigating an incident involving a near-field communication (NFC) card relay application. Bazuka combines a dr",
-      "pubDate": "Sat, 21 Nov 2026 07:15:46 +0000",
-      "source": "GBHackers",
-      "cat": "malware",
-      "sev": "critical",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "GBHack-44c45c657b6e",
-      "title": "WhatsApp Security Flaw Lets Attackers Delete Files and Leak Chat Database Information on Android Devices",
-      "link": "https://gbhackers.com/whatsapp-security-flaw/",
-      "desc": "WhatsApp’s November 2026 security update addresses a SQL injection flaw that could let attackers delete locally stored WhatsApp files and infer limited information about a recipient’s chat database on Android. Tracked as CVE-2026-102769, the flaw affects WhatsApp for Android versions before 2.26.35.74. The file deletion scenario required the recipient to tap a specially crafted “order [&#8230;]\nTh",
-      "pubDate": "Sat, 21 Nov 2026 06:59:27 +0000",
-      "source": "GBHackers",
-      "cat": "breaches",
-      "sev": "high",
-      "tags": [
-        {
-          "t": "CVE-2026-102769",
-          "cls": "cve"
-        }
-      ],
-      "iocs": {
-        "cves": [
-          "CVE-2026-102769"
-        ],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "GBHack-ba12da72ea47",
-      "title": "North Korean IT Workers Create Fake Construction Company and Use AI Deepfakes to Target U.S. Businesses",
-      "link": "https://gbhackers.com/north-korean-fake-construction-company-ai-deepfakes/",
-      "desc": "A suspected North Korean remote worker used a fake Virginia construction company and an apparent real-time AI face swap to pursue contracts with U.S. businesses. The company, The Great House, advertised residential and commercial construction and engineering services from Lynchburg. Silent Push assessed that the operation sought to generate revenue for North Korea. Its investigation [&#8230;]\nThe ",
-      "pubDate": "Sat, 21 Nov 2026 06:50:30 +0000",
-      "source": "GBHackers",
-      "cat": "threats",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "GBHack-15125f3d563b",
-      "title": "Critical Apache Tomcat Security Flaw Enables Unauthorized Nodes to Join Protected Server Clusters",
-      "link": "https://gbhackers.com/critical-apache-tomcat-security-flaw/",
-      "desc": "The Apache Software Foundation disclosed a critical peer authentication bypass in Apache Tomcat that allows an unauthenticated node to join a cluster secured with TLS 1.3 and a pre-shared key (PSK). Tracked as CVE-2026-133325, the defect affects Tomcat 11.0.28 through 11.0.29, 10.1.62, and 9.0.124. Exposure depends on both the deployed release and the cluster transport [&#8230;]\nThe post Critical ",
-      "pubDate": "Sat, 21 Nov 2026 06:39:51 +0000",
-      "source": "GBHackers",
-      "cat": "threats",
-      "sev": "high",
-      "tags": [
-        {
-          "t": "CVE-2026-133325",
-          "cls": "cve"
-        }
-      ],
-      "iocs": {
-        "cves": [
-          "CVE-2026-133325"
-        ],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "GBHack-ad4caaf34476",
-      "title": "AI-Assisted Hackers Deploy 41 PowerShell Scripts to Steal Credentials From African Stock Exchange",
-      "link": "https://gbhackers.com/african-stock-exchange-credential-theft/",
-      "desc": "Symantec researchers say attackers probably used an AI-written toolkit to hunt for credentials at an African stock exchange. They ran 41 PowerShell modules in 3 minutes 12 seconds, from 08:44 to 08:47 UTC, under a webshell on an IIS server. The modules tested credentials, a reused bearer token and API keys against the exchange&#8217;s investment [&#8230;]\nThe post AI-Assisted Hackers Deploy 41 Pow",
-      "pubDate": "Fri, 20 Nov 2026 16:46:48 +0000",
+      "id": "GBHack-0f59e5dc24bf",
+      "title": "Samsung Securities Hit by Cyberattack, Exposing Personal Data of Over 8,000 Customers",
+      "link": "https://gbhackers.com/samsung-securities-hit-by-cyberattack/",
+      "desc": "Samsung Securities disclosed on Nov. 23 that a cyberattack exposed personal information belonging to 8,241 customers. The South Korean brokerage detected unauthorized access on Saturday, Nov. 21, in the Voice of Customer (VOC) system, a section of its website where customers submit inquiries and feedback. An unauthorized party obtained some files customers had attached to [&#8230;]\nThe post Samsun",
+      "pubDate": "Mon, 23 Nov 2026 10:09:33 +0000",
       "source": "GBHackers",
       "cat": "threats",
       "sev": "high",
@@ -967,42 +826,23 @@
       "ts": 0
     },
     {
-      "id": "GBHack-f002a7b06dd1",
-      "title": "KPMG Canada Confirms Security Breach as Third Party Accesses Confidential Client Files",
-      "link": "https://gbhackers.com/kpmg-canada-confirms-security-breach/",
-      "desc": "KPMG Canada confirmed that an unauthorized third party accessed confidential client tax documents in a cybersecurity breach. The accounting firm did not disclose when the intrusion occurred, how many clients were affected, or how many files were accessed. KPMG said it acted immediately to secure its systems and was contacting affected clients, according to a [&#8230;]\nThe post KPMG Canada Confirms",
-      "pubDate": "Fri, 20 Nov 2026 14:14:49 +0000",
-      "source": "GBHackers",
-      "cat": "breaches",
-      "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "GBHack-d04c59e603e2",
-      "title": "Palo Alto Networks Warns of Critical Java RCE Vulnerability Affecting Multiple Security Products",
-      "link": "https://gbhackers.com/palo-alto-networks-warns-of-critical-java-rce-vulnerability/",
-      "desc": "Palo Alto Networks has warned that a critical Java vulnerability, tracked as CVE-2026-114938, affects multiple Idira security products and could allow unauthenticated remote code execution (RCE). The company assigned the flaw a CVSS 4.0 base score of 9.2 but rated the urgency of its suggested response as moderate. It reported no known malicious exploitation. The [&#8230;]\nThe post Palo Alto Networ",
-      "pubDate": "Fri, 20 Nov 2026 14:04:02 +0000",
+      "id": "GBHack-952def68f5fb",
+      "title": "Hackers Exploit Cisco Expressway CVE-2026-76466 After Public PoC Release to Gain Root Privileges",
+      "link": "https://gbhackers.com/hackers-exploit-cisco-expressway-cve-2026-76466/",
+      "desc": "Threat actors have begun exploiting a critical Cisco Expressway flaw, CVE-2026-76466, shortly after a public proof-of-concept (PoC) exploit appeared. The attackers gained root-level remote command execution on internet-facing devices. F6&#8217;s Cyber Defense Center investigated the first observed case and reported it on November 19, 2026. The flaw carries a CVSS score of 9.8. Cisco Expressway [&#",
+      "pubDate": "Mon, 23 Nov 2026 09:54:56 +0000",
       "source": "GBHackers",
       "cat": "threats",
-      "sev": "critical",
+      "sev": "high",
       "tags": [
         {
-          "t": "CVE-2026-114938",
+          "t": "CVE-2026-76466",
           "cls": "cve"
         }
       ],
       "iocs": {
         "cves": [
-          "CVE-2026-114938"
+          "CVE-2026-76466"
         ],
         "ips": [],
         "hashes": []
@@ -1012,36 +852,162 @@
       "ts": 0
     },
     {
-      "id": "GBHack-380671925183",
-      "title": "NGINX2ROOT Exploits 5 Critical NGINX Vulnerabilities to Gain Remote Code Execution and Root Access",
-      "link": "https://gbhackers.com/nginx2root-exploits-5-critical-nginx-vulnerabilities/",
-      "desc": "Five memory corruption flaws in F5 NGINX Open Source and NGINX Plus, collectively named nginx2root, let remote, unauthenticated attackers run code on exposed web servers. Disclosed on November 18, 2026, the bugs are CVE-2026-123007, CVE-2026-123633, CVE-2026-123634, CVE-2026-121810, and CVE-2026-113425. F5 rates each 8.1 (High) under CVSS v3.1 and 9.2 (Critical) under CVSS v4.0. NGINX2ROOT Exploit",
-      "pubDate": "Fri, 20 Nov 2026 13:54:54 +0000",
+      "id": "GBHack-fa86865ca7eb",
+      "title": "Critical Palo Alto Networks PAN-OS Flaws Allow Unauthenticated Attackers to Execute Code Remotely",
+      "link": "https://gbhackers.com/critical-palo-alto-networks-pan-os-flaws/",
+      "desc": "Palo Alto Networks has disclosed two critical NGINX vulnerabilities that could let unauthenticated attackers remotely execute arbitrary code or crash worker processes on affected PAN-OS and Panorama deployments. The flaws, tracked as CVE-2026-123633 and CVE-2026-123007, affect specific releases in the PAN-OS 12.2, 12.1, and 11.2 branches. Exposure requires HTTP/2 to be enabled. Palo Alto Networks ",
+      "pubDate": "Mon, 23 Nov 2026 09:42:43 +0000",
       "source": "GBHackers",
       "cat": "threats",
-      "sev": "critical",
+      "sev": "high",
       "tags": [
         {
-          "t": "CVE-2026-121810",
+          "t": "CVE-2026-123633",
           "cls": "cve"
         },
         {
           "t": "CVE-2026-123007",
           "cls": "cve"
-        },
-        {
-          "t": "CVE-2026-113425",
-          "cls": "cve"
         }
       ],
       "iocs": {
         "cves": [
-          "CVE-2026-121810",
-          "CVE-2026-123007",
-          "CVE-2026-113425",
-          "CVE-2026-123634",
-          "CVE-2026-123633"
+          "CVE-2026-123633",
+          "CVE-2026-123007"
         ],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "GBHack-0c818f032bad",
+      "title": "Hackers Exploit GL.iNet Cloud Security Flaw to Infect Routers and KVM Devices With Malware",
+      "link": "https://gbhackers.com/hackers-exploit-gl-inet-cloud-security-flaw/",
+      "desc": "GL.iNet reported that an unauthorized party exploited a vulnerability in its cloud remote management services, allowing them to install malware on certain routers and keyboard, video, and mouse (KVM) devices. The company discovered the flaw on November 20, 2026. In an update on November 23, GL.iNet announced that it had patched the cloud service and [&#8230;]\nThe post Hackers Exploit GL.iNet Cloud",
+      "pubDate": "Mon, 23 Nov 2026 09:33:56 +0000",
+      "source": "GBHackers",
+      "cat": "malware",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "GBHack-e6532a0621a5",
+      "title": "Hackers Use Malicious Ads to Exploit iPhones and Steal Passwords, Messages, and Crypto Wallets",
+      "link": "https://gbhackers.com/hackers-use-malicious-ads-to-exploit-iphones-and-steal-passwords/",
+      "desc": "A malvertising operation dubbed MoldyRoost is buying online ads to compromise vulnerable iPhones and steal saved passwords, private messages, and cryptocurrency wallet recovery phrases. According to Confiant’s MoldyRoost investigation, loading the landing page after tapping an ad can trigger the attack. Visitors do not need to install an app, enter credentials, or run a command. [&#8230;]\nThe post",
+      "pubDate": "Mon, 23 Nov 2026 09:20:01 +0000",
+      "source": "GBHackers",
+      "cat": "threats",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "GBHack-c5834baf524d",
+      "title": "Hackers Could Control Linux Cloud Servers Using Vmcloudoor Backdoor Disguised as Trusted Agents",
+      "link": "https://gbhackers.com/vmcloudoor-backdoor/",
+      "desc": "A newly discovered Linux implant, Vmcloudoor, infects virtual machines on Chinese cloud platforms, mainly Alibaba Cloud, and also targets Tencent and Huawei. Researchers have only the helper module, which still shows the main capabilities. A second module, &#8220;Core&#8221;, is meant to execute commands retrieved from the command-and-control (C2) server. On Tencent it looks for /usr/local/qcloud ",
+      "pubDate": "Mon, 23 Nov 2026 09:17:56 +0000",
+      "source": "GBHackers",
+      "cat": "threats",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "GBHack-9426263ab95b",
+      "title": "Hackers Hide 13 ClickFix Injections and 7 Malicious Loaders on Compromised WordPress Site",
+      "link": "https://gbhackers.com/13-clickfix-injections/",
+      "desc": "Threat researchers discovered 13 ClickFix injections from three distinct kits and 7 additional malicious loaders on a single compromised WordPress website, revealing overlapping deployments that deliberately and accidentally disrupted one another. Five confirmed ClickFix injections retrieved their next-stage infrastructure from Polygon smart contracts using EtherHiding. Its document contained more",
+      "pubDate": "Mon, 23 Nov 2026 08:13:59 +0000",
+      "source": "GBHackers",
+      "cat": "threats",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "GBHack-d81129090abf",
+      "title": "11 Automotive Cybersecurity Companies: The 2026 Buyer’s Verdict Guide",
+      "link": "https://gbhackers.com/automotive-cybersecurity-buyers-guide/",
+      "desc": "The modern vehicle is a rolling network of a hundred-plus ECUs, cellular and Bluetooth connectivity, and over-the-air pipelines and UNECE WP.29 R155 plus ISO/SAE 21434 now make cybersecurity a condition of type approval, not an option. This verdict guide judges eleven companies, declaring each one’s layer ECU, in-vehicle network, cloud/fleet VSOC, or lifecycle because automotive [&#8230;]\nThe post",
+      "pubDate": "Mon, 23 Nov 2026 07:55:06 +0000",
+      "source": "GBHackers",
+      "cat": "threats",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "GBHack-df5c648aae11",
+      "title": "12 Medical Device (IoMT) Security Solutions: The 2026 Buyer’s Verdict Guide",
+      "link": "https://gbhackers.com/iomt-security-buyers-guide/",
+      "desc": "Medical-device security comes with a limit no other IoT domain shares: the device might be keeping someone alive, it often runs a legacy OS that can’t be patched, and you can’t pull it offline to lock it down. The clinical workflow always wins. This verdict guide judges twelve solutions, declaring each one’s lane, because the [&#8230;]\nThe post 12 Medical Device (IoMT) Security Solutions: The 2026",
+      "pubDate": "Mon, 23 Nov 2026 07:52:44 +0000",
+      "source": "GBHackers",
+      "cat": "threats",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "GBHack-e81a895671cc",
+      "title": "12 IoT Security Solutions: The 2026 Buyer’s Verdict Guide",
+      "link": "https://gbhackers.com/12-iot-security-solutions-the-2026-buyers-verdict-guide/",
+      "desc": "IoT security opens with a question most organisations simply can’t answer: exactly how many connected devices sit on the network right now? Cameras, badge readers, printers, building controls and sensors turn up with no agent, almost never see a patch, and frequently can’t take one. This verdict guide judges twelve solutions, declaring each one’s lane, [&#8230;]\nThe post 12 IoT Security Solutions:",
+      "pubDate": "Mon, 23 Nov 2026 07:50:28 +0000",
+      "source": "GBHackers",
+      "cat": "threats",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
         "ips": [],
         "hashes": []
       },
@@ -2610,6 +2576,25 @@
       "ts": 0
     },
     {
+      "id": "Malwar-a763ba690e96",
+      "title": "A week in security (November 16 – November 22)",
+      "link": "https://www.malwarebytes.com/blog/news/2026/11/a-week-in-security-november-16-november-22",
+      "desc": "A list of topics we covered in the week of November 16 to November 22 of 2026",
+      "pubDate": "Mon, 23 Nov 2026 08:01:00 GMT",
+      "source": "Malwarebytes",
+      "cat": "malware",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
       "id": "Malwar-9f3ea9345d14",
       "title": "US launches center to disrupt scams and warn victims sooner",
       "link": "https://www.malwarebytes.com/blog/news/2026/11/us-launches-center-to-disrupt-scams-and-warn-victims-sooner",
@@ -2868,227 +2853,6 @@
       "tags": [],
       "iocs": {
         "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "Malwar-53424c68de67",
-      "title": "Hijacked Bitly links turn old brand posts into offensive redirects",
-      "link": "https://www.malwarebytes.com/blog/news/2026/11/hijacked-bitly-links-turn-old-brand-posts-into-offensive-redirects",
-      "desc": "Old Bitly links in social posts from McDonald's, Burger King, and others have been redirecting visitors to unrelated Wikipedia pages.",
-      "pubDate": "Mon, 16 Nov 2026 13:50:47 GMT",
-      "source": "Malwarebytes",
-      "cat": "malware",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "SANSI-9e6c2aa2c626",
-      "title": "ISC Stormcast For Monday, November 23rd, 2026 https://isc.sans.edu/podcastdetail/10190, (Mon, Nov 23rd)",
-      "link": "https://isc.sans.edu/diary/rss/33548",
-      "desc": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
-      "pubDate": "Mon, 23 Nov 2026 02:00:04 GMT",
-      "source": "SANS ISC",
-      "cat": "vulns",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "SANSI-9d576cd6adb8",
-      "title": "A brief history of syslog timestamps, (Sun, Nov 22nd)",
-      "link": "https://isc.sans.edu/diary/rss/33530",
-      "desc": "BLUF: Debian and Ubuntu dropped a config directive in the rsyslogd package in early 2023.&#xd;",
-      "pubDate": "Sun, 22 Nov 2026 18:40:18 GMT",
-      "source": "SANS ISC",
-      "cat": "vulns",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "SANSI-0eb919c28abf",
-      "title": "ISC Stormcast For Friday, November 20th, 2026 https://isc.sans.edu/podcastdetail/10188, (Fri, Nov 20th)",
-      "link": "https://isc.sans.edu/diary/rss/33538",
-      "desc": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
-      "pubDate": "Fri, 20 Nov 2026 02:00:02 GMT",
-      "source": "SANS ISC",
-      "cat": "vulns",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "SANSI-59ea25fa39ec",
-      "title": "ISC Stormcast For Thursday, November 19th, 2026 https://isc.sans.edu/podcastdetail/10186, (Thu, Nov 19th)",
-      "link": "https://isc.sans.edu/diary/rss/33536",
-      "desc": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
-      "pubDate": "Thu, 19 Nov 2026 02:00:03 GMT",
-      "source": "SANS ISC",
-      "cat": "vulns",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "SANSI-2af9ecb4e80b",
-      "title": "Treat Your Honeypot Analysis Like Code: Git, Pull Requests and a Human Gate for AI &#x5b;Guest Diary&#x5d;, (Wed, Nov 18th)",
-      "link": "https://isc.sans.edu/diary/rss/33534",
-      "desc": "&#x5b;This is a Guest Diary by Kevin Truong, an ISC intern as part of the SANS.edu BACS program&#x5d;&#xd;",
-      "pubDate": "Thu, 19 Nov 2026 01:53:48 GMT",
-      "source": "SANS ISC",
-      "cat": "vulns",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "SANSI-f9d6ca287ae2",
-      "title": "Java4Shell, NGINX2Shell and more: Why we are not at \"Yellow\", (Wed, Nov 18th)",
-      "link": "https://isc.sans.edu/diary/rss/33532",
-      "desc": "About a month ago, we went to Infocon Yellow for the first time in a few years. We decided to address the php2shell vulnerability and alert our readers to its significant impact. Following php2shell, we had a number of vulnerabilities and events that may also have scored high enough to trigger an Infocon \"Yellow\" &#x5b;infocon&#x5d;. In the last few days, we had a major Microsoft 365 outage, a cri",
-      "pubDate": "Wed, 18 Nov 2026 19:54:50 GMT",
-      "source": "SANS ISC",
-      "cat": "vulns",
-      "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "SANSI-5791a398d8e3",
-      "title": "ISC Stormcast For Wednesday, November 18th, 2026 https://isc.sans.edu/podcastdetail/10184, (Wed, Nov 18th)",
-      "link": "https://isc.sans.edu/diary/rss/33528",
-      "desc": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
-      "pubDate": "Wed, 18 Nov 2026 02:00:03 GMT",
-      "source": "SANS ISC",
-      "cat": "vulns",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "SANSI-e2202fb5443d",
-      "title": "A phishing page interested in MX records, (Tue, Nov 17th)",
-      "link": "https://isc.sans.edu/diary/rss/33526",
-      "desc": "I&&#x23&#x3b;x26&#x3b;&#x23&#x3b;xe2&#x3b;&&#x23&#x3b;x26&#x3b;&#x23&#x3b;x80&#x3b;&&#x23&#x3b;x26&#x3b;&#x23&#x3b;x99&#x3b;ve mentioned before in some of my diaries that it can be instructive to look at what appear to be &&#x23&#x3b;x26&#x3b;&#x23&#x3b;xe2&#x3b;&&#x23&#x3b;x26&#x3b;&#x23&#x3b;x80&#x3b;&&#x23&#x3b;x26&#x3b;&#x23&#x3b;x9c&#x3b;generic&&#x23&#x3b;x26&#x3b;&#x23&#x3b;xe2&#x3b;&&#x23&",
-      "pubDate": "Tue, 17 Nov 2026 10:56:38 GMT",
-      "source": "SANS ISC",
-      "cat": "vulns",
-      "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "SANSI-3e00dc08f978",
-      "title": "ISC Stormcast For Tuesday, November 17th, 2026 https://isc.sans.edu/podcastdetail/10182, (Tue, Nov 17th)",
-      "link": "https://isc.sans.edu/diary/rss/33524",
-      "desc": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
-      "pubDate": "Tue, 17 Nov 2026 02:05:15 GMT",
-      "source": "SANS ISC",
-      "cat": "vulns",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "SANSI-6553b2ba9945",
-      "title": "Scans for LiteLLM/Starlette (CVE-2026-42271, CVE-2026-48710), (Mon, Nov 16th)",
-      "link": "https://isc.sans.edu/diary/rss/33522",
-      "desc": "This weekend, we started seeing requests for /mcp-rest/test/tools/list hitting our honeypots. These requests appear to attempt to exploit CVE-2026-42271 and CVE-2026-48710. Horizon3.ai published a short write-up about how these vulnerabilities can be chained to achieve remote code execution without authentication &#x5b;Horizon3&#x5d;&#xd;",
-      "pubDate": "Mon, 16 Nov 2026 13:11:04 GMT",
-      "source": "SANS ISC",
-      "cat": "vulns",
-      "sev": "critical",
-      "tags": [
-        {
-          "t": "CVE-2026-42271",
-          "cls": "cve"
-        },
-        {
-          "t": "CVE-2026-48710",
-          "cls": "cve"
-        }
-      ],
-      "iocs": {
-        "cves": [
-          "CVE-2026-42271",
-          "CVE-2026-48710"
-        ],
         "ips": [],
         "hashes": []
       },
@@ -3584,6 +3348,25 @@
       "ts": 0
     },
     {
+      "id": "HaveIB-768919a575a4",
+      "title": "Bromcom - 355,051 breached accounts",
+      "link": "https://haveibeenpwned.com/Breach/Bromcom",
+      "desc": "In September 2026, UK education software provider Bromcom suffered a data breach involving a legacy single sign-on (SSO) registration system. The incident exposed 355k unique email addresses belonging to staff and pupils at UK schools, alongside SSO registration reference numbers. Bromcom confirmed that no passwords or authentication tokens were exposed, and that the incident did not enable access",
+      "pubDate": "Mon, 23 Nov 2026 06:36:04 Z",
+      "source": "HaveIBeenPwned",
+      "cat": "breaches",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
       "id": "HaveIB-488b03d169bc",
       "title": "Too Lost - 724,323 breached accounts",
       "link": "https://haveibeenpwned.com/Breach/TooLost",
@@ -3836,25 +3619,6 @@
       "link": "https://haveibeenpwned.com/Breach/DoubleCounter",
       "desc": "In October 2026, the Discord server protection service Double Counter suffered a data breach attributed to a vulnerability in the Metabase analytics tool. In its disclosure notice, Double Counter advised that attackers gained access to a subset of its data. A corpus of data was subsequently published publicly and contained 275k unique email addresses and Discord usernames. A small number of record",
       "pubDate": "Wed, 07 Oct 2026 05:42:24 Z",
-      "source": "HaveIBeenPwned",
-      "cat": "breaches",
-      "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "HaveIB-69dc06c519ad",
-      "title": "Angel One - 6,765,054 breached accounts",
-      "link": "https://haveibeenpwned.com/Breach/AngelOne",
-      "desc": "In July 2024, the Indian stock brokerage firm Angel One confirmed that data leaked online related to a breach that occurred in April 2023. The leaked data included 7.9M user records containing 6.8M unique email addresses, along with names, physical addresses, phone numbers, bank account numbers, Permanent Account Numbers (PANs) and portfolio holdings. Angel One emphasised that the breach \"has no i",
-      "pubDate": "Wed, 07 Oct 2026 03:45:31 Z",
       "source": "HaveIBeenPwned",
       "cat": "breaches",
       "sev": "high",
