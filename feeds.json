@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T06:49:19.929335+00:00",
+  "generated_at": "2026-11-24T18:42:39.903336+00:00",
   "sources_ok": 15,
   "sources_total": 20,
   "source_status": {
@@ -91,6 +91,172 @@
   },
   "total": 190,
   "articles": [
+    {
+      "id": "TheHa-1fd445687055",
+      "title": "Iran-Aligned Volant Manticore Uses IPFS-Based KuboShell Backdoor in Espionage Campaigns",
+      "link": "https://thehackernews.com/2026/11/iran-aligned-volant-manticore-uses-ipfs.html",
+      "desc": "A previously undocumented Iran-aligned cyber espionage group called Volant Manticore has targeted telecommunications companies, airlines, and critical infrastructure in Cyprus.\n\nCentral to the group's operations is a backdoor called KuboShell that uses the InterPlanetary File System (IPFS) for command-and-control (C2) and deploys Homa, a post-compromise framework that's a reimplementation of",
+      "pubDate": "Tue, 24 Nov 2026 22:24:07 +0530",
+      "source": "The Hacker News",
+      "cat": "threats",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "TheHa-9787c279125c",
+      "title": "VMware vCenter Hit by Another Critical 9.8-Rated Auth Bypass Flaw After Zero-Day Exploitation",
+      "link": "https://thehackernews.com/2026/11/vmware-vcenter-hit-by-another-critical.html",
+      "desc": "Broadcom has shipped patches to address 23 vulnerabilities impacting VMware ESX, vCenter, Workstation, Fusion, and Avi Load Balancer, including one critical bug that could be abused to bypass authentication.\n\nThe critical vulnerability, tracked as CVE-2026-123903, is rated 9.8 out of 10.0 on the CVSS scoring system. It resides in the VMware Directory Service (\"vmdir\").\n\n\"A malicious actor with",
+      "pubDate": "Tue, 24 Nov 2026 18:58:26 +0530",
+      "source": "The Hacker News",
+      "cat": "threats",
+      "sev": "critical",
+      "tags": [
+        {
+          "t": "CVE-2026-123903",
+          "cls": "cve"
+        }
+      ],
+      "iocs": {
+        "cves": [
+          "CVE-2026-123903"
+        ],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "TheHa-2b5d1b44e8d5",
+      "title": "Okta Links ShinyHunters-Associated Vishing Group to New INCEPTION Data Leak Site",
+      "link": "https://thehackernews.com/2026/11/okta-links-shinyhunters-associated.html",
+      "desc": "A threat cluster previously assessed to be affiliated with the ShinyHunters extortion crew may have rebranded and continued operations under a new name called INCEPTION, according to Okta's Threat Intelligence team.\n\nThe cluster, dubbed O-UNC-053, is characterized by the use of voice phishing (aka vishing) attacks to trick targets into entering credentials in phishing pages and approving",
+      "pubDate": "Tue, 24 Nov 2026 18:58:21 +0530",
+      "source": "The Hacker News",
+      "cat": "breaches",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "TheHa-a3258142a6bf",
+      "title": "Hackers Found a Way Around GitHub SHA Pinning. This Webinar Explains How to Close the Gap",
+      "link": "https://thehackernews.com/2026/11/hackers-found-way-around-github-sha.html",
+      "desc": "Pinning GitHub Actions to an exact version of their code, known as SHA pinning, has become the go-to defense against software supply chain attacks. Attackers have already found a way around it.\n\nIn March 2026, the hackers who hijacked Trivy, a widely used open-source security scanner, planted malicious code that looked like it came from GitHub's official checkout tool. They even labeled it a",
+      "pubDate": "Tue, 24 Nov 2026 18:12:09 +0530",
+      "source": "The Hacker News",
+      "cat": "threats",
+      "sev": "critical",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "TheHa-1b25a338a1a6",
+      "title": "Google Researcher Shows How a Single Bit Change in .NET Files Bypassed Windows Code Integrity",
+      "link": "https://thehackernews.com/2026/11/google-researcher-shows-how-single-bit.html",
+      "desc": "A quirk in how the .NET Framework loads a program file let a local attacker run untrusted code past two separate protections on Windows built to block it, Google Project Zero researcher James Forshaw showed in a write-up published yesterday.\n\nThe same loading behavior bypassed Oracle VirtualBox's process hardening on Windows hosts, tracked as CVE-2026-87268, and Windows code integrity, tracked",
+      "pubDate": "Tue, 24 Nov 2026 17:32:00 +0530",
+      "source": "The Hacker News",
+      "cat": "threats",
+      "sev": "high",
+      "tags": [
+        {
+          "t": "CVE-2026-87268",
+          "cls": "cve"
+        }
+      ],
+      "iocs": {
+        "cves": [
+          "CVE-2026-87268"
+        ],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "TheHa-ddf386ce0ec1",
+      "title": "2027 SOC Budget Reset: 5 Priorities to Cut Costs and Reduce Cyber Risk",
+      "link": "https://thehackernews.com/2026/11/2027-soc-budget-reset-5-priorities-to.html",
+      "desc": "What if your biggest SOC budget problem isn't how much you spend, but how much analyst time you lose?\n\nAccording to ANY.RUN's estimates, SOC teams could recover 450 analyst hours per 1,000 investigated alerts through faster threat analysis and IOC research. That's a significant opportunity as manual investigations, repeated checks, and unnecessary escalations continue to drain resources.\n\nAs",
+      "pubDate": "Tue, 24 Nov 2026 17:31:54 +0530",
+      "source": "The Hacker News",
+      "cat": "threats",
+      "sev": "critical",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "TheHa-2ede8715b6b0",
+      "title": "Microsoft Fixes Azure API Management Classic Flaw as Actor Targets Customer Secrets",
+      "link": "https://thehackernews.com/2026/11/microsoft-fixes-azure-api-management.html",
+      "desc": "Norway's National Security Authority (NSM) has disclosed that it became aware of a security vulnerability in Microsoft's Azure API Management (APIM) that has affected multiple businesses in the country, including energy companies Equinor and Skagerak Energi.\n\n\"An unknown actor has been actively looking for access tokens, secrets, and named values ​​in APIM,\" NSM said. \"It is still uncertain how",
+      "pubDate": "Tue, 24 Nov 2026 16:14:49 +0530",
+      "source": "The Hacker News",
+      "cat": "threats",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "TheHa-0333aba2f722",
+      "title": "WHMCS SQL Injection Could Expose Customer Data and Admin Password Hashes without Login",
+      "link": "https://thehackernews.com/2026/11/whmcs-sql-injection-flaw-could-expose.html",
+      "desc": "A flaw in WHMCS's shopping cart, the billing and automation platform many web hosting companies use to run their businesses, could allow anyone on the internet to retrieve customer records and administrator password hashes from an installation's database. No login is needed.\n\nThe company disclosed the SQL injection yesterday along with two other flaws that need a logged-in client, and released",
+      "pubDate": "Tue, 24 Nov 2026 14:04:20 +0530",
+      "source": "The Hacker News",
+      "cat": "threats",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
     {
       "id": "TheHa-702983caa47c",
       "title": "OpenAI and Cisco Unveil AI-Assisted Linux Security Tool to Block Exploits Before Patching",
@@ -245,172 +411,6 @@
         "cves": [
           "CVE-2026-134624"
         ],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "TheHa-fe5f17fe47ab",
-      "title": "Hackers Exploit Critical ASP.NET Anti-CSRF Library Flaw Allowing Unauthenticated RCE",
-      "link": "https://thehackernews.com/2026/11/hackers-exploit-critical-aspnet-anti.html",
-      "desc": "Cybersecurity researchers have urged users to discontinue using a legacy ASP.NET anti-CSRF library named Idunno.AntiCsrf (\"Idunno.AntiCsrf.dll\") following the discovery of a critical vulnerability that has been exploited in the wild.\n\nThe vulnerability, tracked as CVE-2026-131914, carries a CVSS score of 9.3 out of 10.0. The issue affects versions 0.9.1.0 and 0.9.1 Beta, and relates to an",
-      "pubDate": "Mon, 23 Nov 2026 14:41:56 +0530",
-      "source": "The Hacker News",
-      "cat": "threats",
-      "sev": "critical",
-      "tags": [
-        {
-          "t": "CVE-2026-131914",
-          "cls": "cve"
-        }
-      ],
-      "iocs": {
-        "cves": [
-          "CVE-2026-131914"
-        ],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "TheHa-22c80420a4de",
-      "title": "Hackers Exploited GL.iNet Cloud Flaw to Install Malware on Routers and KVM Devices",
-      "link": "https://thehackernews.com/2026/11/hackers-exploited-glinet-cloud-flaw-to.html",
-      "desc": "Hackers exploited a vulnerability in GL.iNet's GoodCloud remote management service to install malware on some customer routers and KVM devices, the maker of travel routers and remote-access KVM hardware said in a security notice updated today.\n\nThe company identified and fixed the flaw on Friday and blocked the access the attacker used, so devices can no longer be infected through this route.",
-      "pubDate": "Mon, 23 Nov 2026 14:34:08 +0530",
-      "source": "The Hacker News",
-      "cat": "malware",
-      "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "TheHa-9abb5323284e",
-      "title": "AI-Assisted Cyber Attacks Trigger Unauthorized Payments at Indian Banks and Fintech Firms",
-      "link": "https://thehackernews.com/2026/11/ai-assisted-cyberattacks-trigger.html",
-      "desc": "The Indian Computer Emergency Response Team (CERT-In) has warned that threat actors are carrying out artificial intelligence (AI)-assisted cyber attacks targeting information and communication technology (ICT) assets in the country.\n\nThis unsanctioned activity has resulted in unauthorized financial transactions at banking and financial services entities, as well as technology service providers",
-      "pubDate": "Mon, 23 Nov 2026 13:54:15 +0530",
-      "source": "The Hacker News",
-      "cat": "threats",
-      "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "TheHa-bb0489543fc9",
-      "title": "OpenRouter Drops 3 Providers After Researchers Catch Months of Prompt Theft at AI Hosting Firms",
-      "link": "https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html",
-      "desc": "Attackers stole data from inside three AI inference providers for months, and none of the three knew until researchers told them, the industrial cybersecurity company Dragos said this week.\n\nSome of the stolen requests were flagged as Zero Data Retention, the setting that is supposed to mean a prompt is never stored.\n\nOpenRouter, a gateway that routes customers' AI requests to a pool of",
-      "pubDate": "Sun, 22 Nov 2026 10:36:55 +0530",
-      "source": "The Hacker News",
-      "cat": "threats",
-      "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "TheHa-ffd3821d0f03",
-      "title": "Researchers Demonstrate Ghostscript Sandbox-Escape RCE via Crafted File Uploads in Popular Apps",
-      "link": "https://thehackernews.com/2026/11/researchers-demonstrate-ghostscript.html",
-      "desc": "A now-patched flaw in Ghostscript allows a crafted file to escape the program's security sandbox and run commands on the server that processes it.\n\nGhostscript is the interpreter that many Linux servers use to convert uploaded PDFs, PostScript files, and images into other formats, often without the application calling it directly.\n\nSecurity firm pwn.ai showed this week that ordinary upload,",
-      "pubDate": "Sun, 22 Nov 2026 10:33:41 +0530",
-      "source": "The Hacker News",
-      "cat": "threats",
-      "sev": "critical",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "TheHa-387760695fc4",
-      "title": "A Single Malicious Webpage Let Researchers Hijack Meta Muse and Access Private Chats",
-      "link": "https://thehackernews.com/2026/11/a-single-malicious-webpage-let.html",
-      "desc": "A malicious webpage could extract a Meta Muse user's private conversations and stored memories from the assistant without triggering any approval prompt, researchers have shown.\n\nThe same attack could be extended to reach the credentials Muse stores for the user's connected accounts.\n\nThe work was a laboratory demonstration, not an attack on real users, and it stayed inside the individual user's",
-      "pubDate": "Sat, 21 Nov 2026 17:23:07 +0530",
-      "source": "The Hacker News",
-      "cat": "threats",
-      "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "TheHa-a0c8e54012c0",
-      "title": "GnuPG Warns Critical GPGME Flaw Could Expose App Data via Malicious OpenPGP Keys",
-      "link": "https://thehackernews.com/2026/11/gnupg-warns-critical-gpgme-flaw-could.html",
-      "desc": "A malicious OpenPGP key with an unusually long user ID can trigger a critical memory bug in GPGME, the standard library that programs use to work with GnuPG.\n\nThe GnuPG project warned yesterday that the flaw could be used to steal data from affected applications and has released fixed versions.\n\nThe bug, tracked as CVE-2026-129975, affects all software that uses GPGME before version 2.3.0,",
-      "pubDate": "Sat, 21 Nov 2026 16:35:53 +0530",
-      "source": "The Hacker News",
-      "cat": "threats",
-      "sev": "high",
-      "tags": [
-        {
-          "t": "CVE-2026-129975",
-          "cls": "cve"
-        }
-      ],
-      "iocs": {
-        "cves": [
-          "CVE-2026-129975"
-        ],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "TheHa-af8605c7db20",
-      "title": "Attackers' AI Agents Found a Zero-Day in Medical-Imaging Software and Gained Root Access",
-      "link": "https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html",
-      "desc": "Suspected China-linked hackers used autonomous AI agents to find a previously unknown flaw in MONAI Label, an open-source medical imaging server, and gain root access to a university server, Amazon Threat Intelligence said this week.\n\nThe flaw allows an attacker with no account to write files outside the server's storage folder, and it affects MONAI Label 0.8.5 and earlier in the default setup,",
-      "pubDate": "Sat, 21 Nov 2026 16:33:17 +0530",
-      "source": "The Hacker News",
-      "cat": "threats",
-      "sev": "critical",
-      "tags": [],
-      "iocs": {
-        "cves": [],
         "ips": [],
         "hashes": []
       },
@@ -609,6 +609,158 @@
       "ts": 0
     },
     {
+      "id": "Securi-53671d5a8702",
+      "title": "VMware Updates Patch Critical ESX, vCenter Vulnerabilities",
+      "link": "https://www.securityweek.com/vmware-updates-patch-critical-esx-vcenter-vulnerabilities/",
+      "desc": "The critical bugs include an authentication bypass in vCenter and flaws that could allow code execution on ESX hosts.\nThe post VMware Updates Patch Critical ESX, vCenter Vulnerabilities appeared first on SecurityWeek.",
+      "pubDate": "Tue, 24 Nov 2026 16:32:56 +0000",
+      "source": "SecurityWeek",
+      "cat": "threats",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "Securi-17e7bf77b4f9",
+      "title": "European Commission Uncovers Data Breach in Cyberattack Investigation",
+      "link": "https://www.securityweek.com/european-commission-uncovers-data-breach-in-cyberattack-investigation/",
+      "desc": "Names and email addresses of EU Academy users were exposed in the AI-assisted cyberattack the European Commission detected in October.\nThe post European Commission Uncovers Data Breach in Cyberattack Investigation appeared first on SecurityWeek.",
+      "pubDate": "Tue, 24 Nov 2026 14:49:59 +0000",
+      "source": "SecurityWeek",
+      "cat": "breaches",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "Securi-eb9d470daed0",
+      "title": "Check Point Security Management Servers Hacked in AI-Assisted Campaign",
+      "link": "https://www.securityweek.com/check-point-security-management-servers-hacked-in-ai-assisted-campaign/",
+      "desc": "The attacks were launched from 99 IP addresses and targeted organizations across multiple industries and countries.\nThe post Check Point Security Management Servers Hacked in AI-Assisted Campaign appeared first on SecurityWeek.",
+      "pubDate": "Tue, 24 Nov 2026 14:21:56 +0000",
+      "source": "SecurityWeek",
+      "cat": "threats",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "Securi-cf7eea2f5da5",
+      "title": "Anthropic Expands Enterprise Safeguards for Detecting AI Misuse",
+      "link": "https://www.securityweek.com/anthropic-expands-enterprise-safeguards-for-detecting-ai-misuse/",
+      "desc": "EFS helps zero-retention customers spot Claude misuse spread across many requests while keeping conversation data in their own cloud.\nThe post Anthropic Expands Enterprise Safeguards for Detecting AI Misuse appeared first on SecurityWeek.",
+      "pubDate": "Tue, 24 Nov 2026 13:30:23 +0000",
+      "source": "SecurityWeek",
+      "cat": "threats",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "Securi-0d2eed875b19",
+      "title": "OpenAI, Cisco Unveil Open Source Tool to Shield Unpatched Linux Systems",
+      "link": "https://www.securityweek.com/openai-cisco-unveil-open-source-tool-to-shield-unpatched-linux-systems/",
+      "desc": "OpenAI and Cisco’s Shirudo uses AI-generated shields to block Linux exploits while patches are prepared, but it’s not yet production-ready.\nThe post OpenAI, Cisco Unveil Open Source Tool to Shield Unpatched Linux Systems appeared first on SecurityWeek.",
+      "pubDate": "Tue, 24 Nov 2026 12:20:41 +0000",
+      "source": "SecurityWeek",
+      "cat": "threats",
+      "sev": "critical",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "Securi-d9aba23b9e3b",
+      "title": "1.5 Million Impacted by Data Breach at South Korean Electric Company KEPCO",
+      "link": "https://www.securityweek.com/1-5-million-impacted-by-data-breach-at-south-korean-electric-company-kepco/",
+      "desc": "Hackers stole personal information from the company’s customer portal and supplier relationship management platform.\nThe post 1.5 Million Impacted by Data Breach at South Korean Electric Company KEPCO appeared first on SecurityWeek.",
+      "pubDate": "Tue, 24 Nov 2026 11:50:21 +0000",
+      "source": "SecurityWeek",
+      "cat": "breaches",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "Securi-6a5132e1a7f1",
+      "title": "Elecbrakes Bluetooth Vulnerabilities Expose Trailers to Forced Braking",
+      "link": "https://www.securityweek.com/elecbrakes-bluetooth-vulnerabilities-expose-trailers-to-forced-braking/",
+      "desc": "Critical Bluetooth flaws in Elecbrakes controllers could let nearby attackers force trailer braking, potentially causing accidents.\nThe post Elecbrakes Bluetooth Vulnerabilities Expose Trailers to Forced Braking appeared first on SecurityWeek.",
+      "pubDate": "Tue, 24 Nov 2026 10:44:44 +0000",
+      "source": "SecurityWeek",
+      "cat": "threats",
+      "sev": "critical",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "Securi-878b949582d1",
+      "title": "Peninsula Energy Halts Trading After Cyber Incident Hits US Uranium Mine",
+      "link": "https://www.securityweek.com/peninsula-energy-halts-trading-after-cyber-incident-hits-us-uranium-mine/",
+      "desc": "The company told the ASX that a cybersecurity incident at its Wyoming uranium project would temporarily affect operations.\nThe post Peninsula Energy Halts Trading After Cyber Incident Hits US Uranium Mine appeared first on SecurityWeek.",
+      "pubDate": "Tue, 24 Nov 2026 10:35:04 +0000",
+      "source": "SecurityWeek",
+      "cat": "threats",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
       "id": "Securi-6f8617d33e24",
       "title": "Azure Flaw Exploited to Target Secrets at Norwegian Energy Firms",
       "link": "https://www.securityweek.com/azure-flaw-exploited-to-target-secrets-at-norwegian-energy-firms/",
@@ -647,31 +799,12 @@
       "ts": 0
     },
     {
-      "id": "Securi-e72e3942d612",
-      "title": "phpAfterShell Vulnerability Revives PHP2Shell’s Attack Path",
-      "link": "https://www.securityweek.com/phpaftershell-vulnerability-revives-php2shells-attack-path/",
-      "desc": "If a session overwrite operation is interrupted, an attacker who controls the fresh data could trigger data deserialization and RCE.\nThe post phpAfterShell Vulnerability Revives PHP2Shell&#8217;s Attack Path appeared first on SecurityWeek.",
-      "pubDate": "Mon, 23 Nov 2026 13:58:07 +0000",
-      "source": "SecurityWeek",
-      "cat": "threats",
-      "sev": "critical",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "Securi-9e088747469b",
-      "title": "GL.iNet Routers, KVMs Compromised via Remote Management Service Flaw",
-      "link": "https://www.securityweek.com/gl-inet-routers-kvms-compromised-via-remote-management-service-flaw/",
-      "desc": "Attackers abused a flaw in the GoodCloud remote management service to push malware to devices, and cleaning them requires new firmware.\nThe post GL.iNet Routers, KVMs Compromised via Remote Management Service Flaw appeared first on SecurityWeek.",
-      "pubDate": "Mon, 23 Nov 2026 13:26:22 +0000",
-      "source": "SecurityWeek",
+      "id": "GBHack-4d5132e4794a",
+      "title": "AI-Powered Hackers Deploy Stealthy ZQAgent Malware to Keep Control of Compromised Linux Servers",
+      "link": "https://gbhackers.com/zqagent-malware-attack/",
+      "desc": "An LLM-driven intrusion tool has deployed a persistent Linux backdoor, which is unusual for this class of attack. LLM-driven intrusions have mostly been fast, noisy smash-and-grab operations. They rarely leave footholds beyond staged credentials, so defenders can usually contain them by isolating the initial-access vector and revoking credentials. ZQAgent breaks that pattern. NVISO believes the [&",
+      "pubDate": "Tue, 24 Nov 2026 13:16:03 +0000",
+      "source": "GBHackers",
       "cat": "malware",
       "sev": "high",
       "tags": [],
@@ -685,31 +818,12 @@
       "ts": 0
     },
     {
-      "id": "Securi-b4a2f6f575bd",
-      "title": "AI Inference Providers Failed to Detect Hacking and Prompt Theft, Says Dragos",
-      "link": "https://www.securityweek.com/ai-inference-providers-failed-to-detect-hacking-and-prompt-theft-says-dragos/",
-      "desc": "Dragos uncovered undetected intrusions at three AI inference providers using nearly two million prompts sent to AI services.\nThe post AI Inference Providers Failed to Detect Hacking and Prompt Theft, Says Dragos appeared first on SecurityWeek.",
-      "pubDate": "Mon, 23 Nov 2026 12:16:20 +0000",
-      "source": "SecurityWeek",
-      "cat": "threats",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "Securi-a96bfac37d90",
-      "title": "BadBox 3.0 Ad Fraud Operation Generating 40 Billion Daily Bid Requests Disrupted",
-      "link": "https://www.securityweek.com/badbox-3-0-ad-fraud-operation-generating-40-billion-daily-bid-requests-disrupted/",
-      "desc": "Backdoors on low-cost consumer devices served modules for ad fraud and for turning devices into residential proxies. \nThe post BadBox 3.0 Ad Fraud Operation Generating 40 Billion Daily Bid Requests Disrupted appeared first on SecurityWeek.",
-      "pubDate": "Mon, 23 Nov 2026 11:44:18 +0000",
-      "source": "SecurityWeek",
+      "id": "GBHack-c62e4ebbc68d",
+      "title": "New Android Camera Attack Lets Hackers Eavesdrop on Speech Without Microphone Access",
+      "link": "https://gbhackers.com/new-android-camera-attack/",
+      "desc": "Security researchers have demonstrated that an Android app with camera permission can recover parts of speech played through a phone’s built-in loudspeaker without accessing the microphone. The attack, dubbed CAMEAR, uses motion data exposed by Android’s Camera2 interface rather than video frames or audio recordings. The findings reveal a gap between what Android’s permission prompts [&#8230;]\nThe",
+      "pubDate": "Tue, 24 Nov 2026 13:05:52 +0000",
+      "source": "GBHackers",
       "cat": "threats",
       "sev": "high",
       "tags": [],
@@ -723,13 +837,13 @@
       "ts": 0
     },
     {
-      "id": "Securi-873794bb0bfe",
-      "title": "SAP NetWeaver, Cisco Expressway Flaws Exploited in Attacks",
-      "link": "https://www.securityweek.com/sap-netweaver-cisco-expressway-flaws-exploited-in-attacks/",
-      "desc": "Threat actors could exploit them to leak or modify server information and to execute commands as root.\nThe post SAP NetWeaver, Cisco Expressway Flaws Exploited in Attacks appeared first on SecurityWeek.",
-      "pubDate": "Mon, 23 Nov 2026 11:35:15 +0000",
-      "source": "SecurityWeek",
-      "cat": "breaches",
+      "id": "GBHack-4b873759a990",
+      "title": "EvilTokens Phishing Infrastructure Resurfaces After Microsoft Takedown With New Device-Code Attack Hosts",
+      "link": "https://gbhackers.com/eviltokens-phishing-infrastructure/",
+      "desc": "Phishing infrastructure tied to the EvilTokens kit is active again, about two months after Microsoft disrupted the service. The kit hijacks Microsoft 365 accounts by abusing the OAuth device authorization grant. Microsoft says it compromised more than 12,000 inboxes across over 10,000 organizations. The lure page asks Microsoft to start a device-code flow and receives [&#8230;]\nThe post EvilTokens",
+      "pubDate": "Tue, 24 Nov 2026 12:07:06 +0000",
+      "source": "GBHackers",
+      "cat": "threats",
       "sev": "high",
       "tags": [],
       "iocs": {
@@ -742,36 +856,24 @@
       "ts": 0
     },
     {
-      "id": "Securi-cfc2e7e40c01",
-      "title": "CrowdStrike to Acquire Zscaler in $43.9 Billion Deal",
-      "link": "https://www.securityweek.com/crowdstrike-to-acquire-zscaler-in-43-9-billion-deal/",
-      "desc": "CrowdStrike expects the combined company to have more than $10 billion in annual recurring revenue.\nThe post CrowdStrike to Acquire Zscaler in $43.9 Billion Deal appeared first on SecurityWeek.",
-      "pubDate": "Mon, 23 Nov 2026 11:31:44 +0000",
-      "source": "SecurityWeek",
-      "cat": "threats",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "Securi-231932b50f33",
-      "title": "FBI Investigating Apparent Hack of Its Key National Criminal Justice Database, AP Source Says",
-      "link": "https://www.securityweek.com/fbi-investigating-apparent-hack-of-its-key-national-criminal-justice-database-ap-source-says/",
-      "desc": "The FBI is investigating an apparent hack of a national law enforcement database that it maintains.\nThe post FBI Investigating Apparent Hack of Its Key National Criminal Justice Database, AP Source Says appeared first on SecurityWeek.",
-      "pubDate": "Sun, 22 Nov 2026 00:53:02 +0000",
-      "source": "SecurityWeek",
+      "id": "GBHack-771fcb6c6009",
+      "title": "Hackers Could Suddenly Apply Trailer Brakes at Highway Speeds Through Bluetooth Vulnerability",
+      "link": "https://gbhackers.com/bluetooth-vulnerability/",
+      "desc": "Researchers have found that anyone within Bluetooth range of an unpatched Elecbrakes trailer brake controller can apply the trailer&#8217;s brakes with any force. The attacker needs no pairing, PIN or authentication. The flaw is tracked as CVE-2026-96805 and scored CVSS 9.6 (Critical). They decompiled the Elecbrakes Android app with AI assistance and mapped 47 Bluetooth [&#8230;]\nThe post Hackers ",
+      "pubDate": "Tue, 24 Nov 2026 09:16:35 +0000",
+      "source": "GBHackers",
       "cat": "threats",
       "sev": "critical",
-      "tags": [],
+      "tags": [
+        {
+          "t": "CVE-2026-96805",
+          "cls": "cve"
+        }
+      ],
       "iocs": {
-        "cves": [],
+        "cves": [
+          "CVE-2026-96805"
+        ],
         "ips": [],
         "hashes": []
       },
@@ -780,30 +882,11 @@
       "ts": 0
     },
     {
-      "id": "Securi-cad5ec7ed73b",
-      "title": "President Trump Taps Kirsten Davies as National Cyber Director",
-      "link": "https://www.securityweek.com/president-trump-taps-kirsten-davies-as-national-cyber-director/",
-      "desc": "White House says the battle-tested cyber leader will drive an America First cyber strategy.\nThe post President Trump Taps Kirsten Davies as National Cyber Director appeared first on SecurityWeek.",
-      "pubDate": "Sat, 21 Nov 2026 13:00:00 +0000",
-      "source": "SecurityWeek",
-      "cat": "threats",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "GBHack-aef298bffd47",
-      "title": "OpenAI and Cisco Introduce Shirudo to Block Exploits on Running Linux Systems",
-      "link": "https://gbhackers.com/openai-and-cisco-introduce-shirudo-to-block-exploits/",
-      "desc": "OpenAI and Cisco launched Shirudo, an open-source security runtime designed to prevent exploit attempts on running Linux systems without restarting protected services. In a controlled demonstration, a safeguard created using OpenAI’s Codex successfully blocked a Java4Shell exploit attempt against Elasticsearch while the service remained operational. This project aims to address the gap between ide",
-      "pubDate": "Tue, 24 Nov 2026 04:54:34 +0000",
+      "id": "GBHack-ba5b6a6a930d",
+      "title": "12 Fraud Detection Software: The 2026 Buyer’s Verdict Guide",
+      "link": "https://gbhackers.com/fraud-detection-buyers-guide/",
+      "desc": "Fraud detection is a tightrope with a knife’s edge: too slack and the losses pile up, too strict and you turn away good customers and choke your revenue. This guide weighs twelve platforms and names each one’s vertical, because ecommerce chargebacks, payments and fintech, identity fraud and new-account abuse are truly different purchases the top [&#8230;]\nThe post 12 Fraud Detection Software: The ",
+      "pubDate": "Tue, 24 Nov 2026 08:27:33 +0000",
       "source": "GBHackers",
       "cat": "threats",
       "sev": "critical",
@@ -818,14 +901,33 @@
       "ts": 0
     },
     {
-      "id": "GBHack-c2125c6b959d",
-      "title": "Weekly Cybersecurity Newsletter – Top 50 Biggest Cybersecurity Stories of the Week",
-      "link": "https://gbhackers.com/weekly-cybersecurity-newsletter-november-16-20-2026/",
-      "desc": "JPMorgan &#38; KPMG Breaches, ARTEX AI Hits EU Commission, Fugaku Supercomputer Hacked, Windows 11 Zero-Day, Ruby2Shell &#38; NGINX2ROOT RCE &#38; More&#160; Welcome to this week&#8217;s edition of the GBHackers cybersecurity newsletter your weekly cybersecurity bulletin covering the 50 most important stories from November 16 to 20, 2026. Big breaches led the week: JPMorgan Chase, KPMG [&#8230;]\nT",
-      "pubDate": "Mon, 23 Nov 2026 13:29:34 +0000",
+      "id": "GBHack-35bd00edd106",
+      "title": "12 Brand Protection & Anti-Impersonation Tools: The 2026 Buyer’s Verdict Guide",
+      "link": "https://gbhackers.com/brand-protection-buyers-guide/",
+      "desc": "“Brand protection” splits into two very different jobs depending on who’s at the table. Security teams picture spoofed domains, credential-harvesting pages and impersonated executives that burn customers and staff. Legal and ecommerce teams picture knock-off goods, unauthorised resellers and trademark abuse that bleed the top line. This verdict guide judges twelve tools, declaring each one’s [&#82",
+      "pubDate": "Tue, 24 Nov 2026 08:25:04 +0000",
+      "source": "GBHackers",
+      "cat": "threats",
+      "sev": "critical",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "GBHack-bfd4f6c7fe05",
+      "title": "12 Digital Risk Protection (DRP) Solutions: The 2026 Buyer’s Verdict Guide",
+      "link": "https://gbhackers.com/digital-risk-protection-buyers-guide/",
+      "desc": "Digital risk protection keeps watch over everything about your organisation that sits beyond the perimeter look-alike domains, leaked data, spoofed social accounts, exposed assets, brand abuse and, crucially, acts on it. The question that defines the category isn’t how wide the monitoring reaches, but whether a platform can actually pull the fake domain down instead [&#8230;]\nThe post 12 Digital R",
+      "pubDate": "Tue, 24 Nov 2026 08:18:36 +0000",
       "source": "GBHackers",
       "cat": "breaches",
-      "sev": "critical",
+      "sev": "medium",
       "tags": [],
       "iocs": {
         "cves": [],
@@ -837,11 +939,11 @@
       "ts": 0
     },
     {
-      "id": "GBHack-30bb7c993680",
-      "title": "CrowdStrike Acquires Zscaler in $43.9 Billion Deal to Combine Endpoint and Network Security",
-      "link": "https://gbhackers.com/crowdstrike-acquires-zscaler-in-43-9-billion-deal/",
-      "desc": "CrowdStrike has agreed to acquire Zscaler in an all-stock transaction valued at approximately $43.9 billion, bringing together two distinct security layers, software that monitors endpoints and cloud workloads, and a cloud service that inspects their connections. The companies announced the definitive agreement on November 23, 2026. It has not yet closed. Under the terms outlined [&#8230;]\nThe pos",
-      "pubDate": "Mon, 23 Nov 2026 13:14:17 +0000",
+      "id": "GBHack-c3ec1a111f45",
+      "title": "12 Dark Web Monitoring Services: The 2026 Buyer’s Verdict Guide",
+      "link": "https://gbhackers.com/dark-web-monitoring-buyers-guide/",
+      "desc": "Dark web monitoring is only as good as two things: how deep the collection reaches into closed forums, Telegram channels, and criminal marketplaces, and whether the alerts are actionable intelligence or noise about data already everywhere. This verdict guide judges twelve services, declaring each one’s lane, because broad criminal intelligence, recaptured-credential depth, and investigation toolin",
+      "pubDate": "Tue, 24 Nov 2026 08:08:51 +0000",
       "source": "GBHackers",
       "cat": "threats",
       "sev": "medium",
@@ -856,12 +958,50 @@
       "ts": 0
     },
     {
-      "id": "GBHack-a78b557e6e26",
-      "title": "Indian Government Warns WhatsApp Web Sessions Can Be Hijacked to Steal Messages and Impersonate Users",
-      "link": "https://gbhackers.com/indian-government-warns-whatsapp-web-sessions-can-be-hijacked/",
-      "desc": "India’s Ministry of Home Affairs has warned that unauthorized access to a signed-in WhatsApp Web session can expose private messages and allow someone to impersonate the account holder. The National Cybercrime Threat Analytics Unit (NCTAU), part of the Indian Cyber Crime Coordination Center (I4C), issued the warning in a November 18 advisory that singles out [&#8230;]\nThe post Indian Government Wa",
-      "pubDate": "Mon, 23 Nov 2026 12:44:20 +0000",
+      "id": "GBHack-4f2c80ddd54b",
+      "title": "12 Post-Quantum / Quantum-Safe Cryptography Solutions: The 2026 Buyer’s Verdict Guide",
+      "link": "https://gbhackers.com/post-quantum-cryptography-buyers-guide/",
+      "desc": "What drives post-quantum cryptography isn’t a machine that’s already here it’s “harvest now, decrypt later”: attackers hoovering up encrypted data today to crack open the moment a cryptographically useful quantum computer shows up. Now that NIST’s PQC standards are locked, the job has moved from research to migration, and the thorniest part is discovery most [&#8230;]\nThe post 12 Post-Quantum / Qu",
+      "pubDate": "Tue, 24 Nov 2026 08:00:32 +0000",
       "source": "GBHackers",
+      "cat": "threats",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "GBHack-7e863f55a41e",
+      "title": "Hackers Use AI Agents to Hijack Kubernetes Clusters and Steal Sensitive Cloud Credentials",
+      "link": "https://gbhackers.com/kubernetes-clusters-hijacking/",
+      "desc": "Hackers are using AI offensive agents to compromise Kubernetes clusters, harvest cloud credentials, and exploit trust relationships across development infrastructure. Investigations describe opportunistic campaigns and targeted intrusions in which automated agents connect stolen identities, excessive permissions, and exposed secrets into multistage attacks. However, researchers caution that not ev",
+      "pubDate": "Tue, 24 Nov 2026 07:57:17 +0000",
+      "source": "GBHackers",
+      "cat": "threats",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "HackRe-9bf8b6fdb848",
+      "title": "Researchers Disrupt Massive BADBOX 3.0 Ad Fraud and Proxy Botnet",
+      "link": "https://hackread.com/badbox-3-0-ad-fraud-botnet-disrupted-android-tv-boxes/",
+      "desc": "HUMAN disrupted BADBOX 3.0, an Android botnet that generated about 40 billion ad bid requests per day at its peak and sold access to home connections.",
+      "pubDate": "Tue, 24 Nov 2026 14:34:34 +0000",
+      "source": "HackRead",
       "cat": "threats",
       "sev": "medium",
       "tags": [],
@@ -875,40 +1015,14 @@
       "ts": 0
     },
     {
-      "id": "GBHack-95b1d30652cc",
-      "title": "Hackers Actively Exploit Critical ASP.NET Vulnerability to Execute Remote Code and Compromise Web Servers",
-      "link": "https://gbhackers.com/hackers-actively-exploit-critical-asp-net-vulnerability/",
-      "desc": "A serious vulnerability in a long-abandoned ASP.NET security library is currently being exploited. This flaw allows unauthorized attackers to take control of IIS web servers with a single HTTP request. The issue is tracked as CVE-2026-131914 (MNDT-2026-0048) and involves an insecure deserialization bug (CWE-502) affecting Idunno.AntiCsrf.dll version 0.9.1.0 (also referred to as 0.9.1 Beta). It [&#",
-      "pubDate": "Mon, 23 Nov 2026 12:24:57 +0000",
-      "source": "GBHackers",
+      "id": "HackRe-5891b430b250",
+      "title": "When Threat Intelligence Works Against Your SOC: 3 Patterns to Watch For",
+      "link": "https://hackread.com/when-threat-intelligence-works-against-soc-pattern/",
+      "desc": "Poor threat intelligence can slow your SOC. Learn how to fix three recurring problems: gaps in threat data, delayed updates and too many manual tasks.",
+      "pubDate": "Tue, 24 Nov 2026 12:51:04 +0000",
+      "source": "HackRead",
       "cat": "threats",
-      "sev": "high",
-      "tags": [
-        {
-          "t": "CVE-2026-131914",
-          "cls": "cve"
-        }
-      ],
-      "iocs": {
-        "cves": [
-          "CVE-2026-131914"
-        ],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "GBHack-f59ebdc58921",
-      "title": "CISA Warns Hackers Are Actively Exploiting Cisco, VMware, SAP, and Apache Vulnerabilities",
-      "link": "https://gbhackers.com/cisa-warns-hackers-are-actively-exploiting/",
-      "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) added four vulnerabilities affecting Cisco Expressway, VMware vCenter, SAP NetWeaver, and Apache Roller to its Known Exploited Vulnerabilities (KEV) Catalog on November 20, 2026. The agency cited evidence of active exploitation for all four flaws. The CISA alert did not identify victims or link the vulnerabilities to [&#8230;]\nThe po",
-      "pubDate": "Mon, 23 Nov 2026 11:39:48 +0000",
-      "source": "GBHackers",
-      "cat": "threats",
-      "sev": "high",
+      "sev": "medium",
       "tags": [],
       "iocs": {
         "cves": [],
@@ -920,93 +1034,17 @@
       "ts": 0
     },
     {
-      "id": "GBHack-777b6047ccec",
-      "title": "Fake Claude AI Downloads Could Let Hackers Steal Your Passwords and Crypto Wallets",
-      "link": "https://gbhackers.com/fake-claude-ai-downloads/",
-      "desc": "A fake &#8220;Claude Opus 5 Free Desktop&#8221; app is spreading RevStealer, a Windows infostealer built to take credentials, browser sessions, and cryptocurrency wallet data. Morphisec Threat Labs published its analysis on August 31, and the lure exploits demand for free access to AI tools. There is no sign that Anthropic itself was compromised. Before the [&#8230;]\nThe post Fake Claude AI Downlo",
-      "pubDate": "Mon, 23 Nov 2026 10:54:19 +0000",
-      "source": "GBHackers",
+      "id": "HackRe-d28ad652cea9",
+      "title": "UK Retailer Next Discloses Cyber Incident at Online Supplier",
+      "link": "https://hackread.com/uk-retailer-next-cyber-incident-online-supplier/",
+      "desc": "UK retailer Next says an online supplier cyber incident exposed its company information. It found no evidence that customer personal data was exposed.",
+      "pubDate": "Tue, 24 Nov 2026 08:56:13 +0000",
+      "source": "HackRead",
       "cat": "threats",
-      "sev": "high",
+      "sev": "medium",
       "tags": [],
       "iocs": {
         "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "GBHack-0f59e5dc24bf",
-      "title": "Samsung Securities Hit by Cyberattack, Exposing Personal Data of Over 8,000 Customers",
-      "link": "https://gbhackers.com/samsung-securities-hit-by-cyberattack/",
-      "desc": "Samsung Securities disclosed on Nov. 23 that a cyberattack exposed personal information belonging to 8,241 customers. The South Korean brokerage detected unauthorized access on Saturday, Nov. 21, in the Voice of Customer (VOC) system, a section of its website where customers submit inquiries and feedback. An unauthorized party obtained some files customers had attached to [&#8230;]\nThe post Samsun",
-      "pubDate": "Mon, 23 Nov 2026 10:09:33 +0000",
-      "source": "GBHackers",
-      "cat": "threats",
-      "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "GBHack-952def68f5fb",
-      "title": "Hackers Exploit Cisco Expressway CVE-2026-76466 After Public PoC Release to Gain Root Privileges",
-      "link": "https://gbhackers.com/hackers-exploit-cisco-expressway-cve-2026-76466/",
-      "desc": "Threat actors have begun exploiting a critical Cisco Expressway flaw, CVE-2026-76466, shortly after a public proof-of-concept (PoC) exploit appeared. The attackers gained root-level remote command execution on internet-facing devices. F6&#8217;s Cyber Defense Center investigated the first observed case and reported it on November 19, 2026. The flaw carries a CVSS score of 9.8. Cisco Expressway [&#",
-      "pubDate": "Mon, 23 Nov 2026 09:54:56 +0000",
-      "source": "GBHackers",
-      "cat": "threats",
-      "sev": "high",
-      "tags": [
-        {
-          "t": "CVE-2026-76466",
-          "cls": "cve"
-        }
-      ],
-      "iocs": {
-        "cves": [
-          "CVE-2026-76466"
-        ],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "GBHack-fa86865ca7eb",
-      "title": "Critical Palo Alto Networks PAN-OS Flaws Allow Unauthenticated Attackers to Execute Code Remotely",
-      "link": "https://gbhackers.com/critical-palo-alto-networks-pan-os-flaws/",
-      "desc": "Palo Alto Networks has disclosed two critical NGINX vulnerabilities that could let unauthenticated attackers remotely execute arbitrary code or crash worker processes on affected PAN-OS and Panorama deployments. The flaws, tracked as CVE-2026-123633 and CVE-2026-123007, affect specific releases in the PAN-OS 12.2, 12.1, and 11.2 branches. Exposure requires HTTP/2 to be enabled. Palo Alto Networks ",
-      "pubDate": "Mon, 23 Nov 2026 09:42:43 +0000",
-      "source": "GBHackers",
-      "cat": "threats",
-      "sev": "high",
-      "tags": [
-        {
-          "t": "CVE-2026-123007",
-          "cls": "cve"
-        },
-        {
-          "t": "CVE-2026-123633",
-          "cls": "cve"
-        }
-      ],
-      "iocs": {
-        "cves": [
-          "CVE-2026-123007",
-          "CVE-2026-123633"
-        ],
         "ips": [],
         "hashes": []
       },
@@ -1137,63 +1175,6 @@
       "source": "HackRead",
       "cat": "malware",
       "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "HackRe-2f486d00a14c",
-      "title": "4 Best XRP Lending Platforms Compared by Security, LTV, and Speed",
-      "link": "https://hackread.com/xrp-lending-platforms-compared-security-ltv-speed/",
-      "desc": "Compare four XRP lending platforms by security, LTV, interest rates, funding speed and collateral risks, including CoinRabbit, Arch, Nexo and Coinbase.",
-      "pubDate": "Fri, 20 Nov 2026 22:26:16 +0000",
-      "source": "HackRead",
-      "cat": "threats",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "HackRe-e6ea8eeac5fa",
-      "title": "JPMorgan Chase, Visa and Mastercard confirm vendor incidents after n0n leak claims",
-      "link": "https://hackread.com/jpmorgan-chase-visa-mastercard-vendor-incidents-n0n-leak/",
-      "desc": "Hackread counted over 27,000 email addresses in files n0n posted, while JPMorgan Chase, Visa and Mastercard acknowledged third-party vendor incidents.",
-      "pubDate": "Fri, 20 Nov 2026 09:50:52 +0000",
-      "source": "HackRead",
-      "cat": "breaches",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "HackRe-34b6d8166df3",
-      "title": "Why Most Apps Don’t Scale (and How to Fix Them)",
-      "link": "https://hackread.com/why-most-apps-do-not-scale-how-to-fix-them/",
-      "desc": "Most of what gets called a scaling problem has nothing to do with traffic. My text scanning app&#8230;",
-      "pubDate": "Thu, 19 Nov 2026 20:01:09 +0000",
-      "source": "HackRead",
-      "cat": "threats",
-      "sev": "medium",
       "tags": [],
       "iocs": {
         "cves": [],
@@ -1395,14 +1376,14 @@
       "ts": 0
     },
     {
-      "id": "Exploi-05a9e9b8bc44",
-      "title": "[remote] Parasoft Continuous Testing Platform 10.7.5 - JSP Command Execution",
+      "id": "Exploi-198f2ffbf197",
+      "title": "[remote] Parasoft Continuous Testing Platform 10.7.5 - Unauthenticated Remote Code Execution (RCE)",
       "link": "https://www.exploit-db.com/exploits/52694",
-      "desc": "Parasoft Continuous Testing Platform 10.7.5 - JSP Command Execution",
+      "desc": "Parasoft Continuous Testing Platform 10.7.5 - Unauthenticated Remote Code Execution (RCE)",
       "pubDate": "Wed, 21 Oct 2026 00:00:00 +0000",
       "source": "Exploit-DB",
       "cat": "exploits",
-      "sev": "medium",
+      "sev": "critical",
       "tags": [],
       "iocs": {
         "cves": [],
@@ -2568,6 +2549,63 @@
       "ts": 0
     },
     {
+      "id": "Malwar-d3864429bfad",
+      "title": "A bot tested an AWS key within 8 seconds of exposure",
+      "link": "https://www.malwarebytes.com/blog/ai/2026/11/a-bot-tested-an-aws-key-within-8-seconds-of-exposure",
+      "desc": "If you accidentally publish a cloud access key, a bot could find it before you have time to take it down.",
+      "pubDate": "Tue, 24 Nov 2026 17:08:51 GMT",
+      "source": "Malwarebytes",
+      "cat": "malware",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "Malwar-086fc1b73895",
+      "title": "New Windows security check could let apps block access",
+      "link": "https://www.malwarebytes.com/blog/news/2026/11/new-windows-security-check-could-let-apps-block-access",
+      "desc": "Windows baseline protection will show which of eight safeguards your PC is missing and help you turn them on.",
+      "pubDate": "Tue, 24 Nov 2026 12:22:17 GMT",
+      "source": "Malwarebytes",
+      "cat": "malware",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "Malwar-deab1d213a6c",
+      "title": "Researchers planted secrets in AI prompts. Attackers found them",
+      "link": "https://www.malwarebytes.com/blog/ai/2026/11/researchers-planted-secrets-in-ai-prompts-attackers-found-them",
+      "desc": "Researchers planted access keys in AI prompts. Within hours, attackers were testing some of them against Amazon cloud accounts.",
+      "pubDate": "Tue, 24 Nov 2026 11:21:42 GMT",
+      "source": "Malwarebytes",
+      "cat": "malware",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
       "id": "Malwar-f3312b02b672",
       "title": "Muse AI got nosy and started making things up, Meta insiders say",
       "link": "https://www.malwarebytes.com/blog/ai/2026/11/muse-ai-got-nosy-and-started-making-things-up-meta-insiders-say",
@@ -2796,63 +2834,6 @@
       "ts": 0
     },
     {
-      "id": "Malwar-a432c973e57c",
-      "title": "Java4Shell: A critical flaw with a narrow reach",
-      "link": "https://www.malwarebytes.com/blog/bugs/2026/11/java4shell-a-critical-flaw-with-a-narrow-reach",
-      "desc": "Researchers used AI to find a Java vulnerability and named it Java4Shell. Here’s why organizations need to patch.",
-      "pubDate": "Wed, 18 Nov 2026 11:41:07 GMT",
-      "source": "Malwarebytes",
-      "cat": "malware",
-      "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "Malwar-5fc011c6837c",
-      "title": "OpenAI lost control of AI agents over 80 times, California alleges",
-      "link": "https://www.malwarebytes.com/blog/ai/2026/11/openai-lost-control-of-ai-agents-over-80-times-california-alleges",
-      "desc": "California is suing the company, alleging that OpenAI failed to contain experimental AI agents and misled the public about its safety measures.",
-      "pubDate": "Tue, 17 Nov 2026 18:29:25 GMT",
-      "source": "Malwarebytes",
-      "cat": "malware",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "Malwar-e2ea99358a27",
-      "title": "“Amazon” job offer promises $5,000 a month, but it’s got all the signs of a scam",
-      "link": "https://www.malwarebytes.com/blog/threat-intel/2026/11/amazon-job-offer-promises-5000-a-month-but-its-got-all-the-signs-of-a-scam",
-      "desc": "Lookalike Amazon sites advertise high-paying remote jobs, but has all the signs of a reshipping scam.",
-      "pubDate": "Tue, 17 Nov 2026 13:37:48 GMT",
-      "source": "Malwarebytes",
-      "cat": "malware",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
       "id": "SANSI-7c7e6c1df597",
       "title": "Scanning from Subnet 109.160.32.0/24, (Mon, Nov 23rd)",
       "link": "https://isc.sans.edu/diary/rss/33550",
@@ -3043,6 +3024,25 @@
       "ts": 0
     },
     {
+      "id": "Schnei-d78a206148ed",
+      "title": "We Get the Infrastructure We Pay For",
+      "link": "https://www.schneier.com/blog/archives/2026/11/we-get-the-infrastructure-we-pay-for.html",
+      "desc": "This essay originally appeared as part of a round table in The Free Press entitled &#8220;Is America’s Infrastructure Under Attack?&#8221;\nMicrosoft, the FAA, banks, United Airlines, the NSA&#8212;it&#8217;s been a really bad week in cyberspace. But, amazing as it might seem, these are not related. As far as we know, they&#8217;re not the result of cyberattacks. They&#8217;re not even related to A",
+      "pubDate": "2026-11-24T12:06:50Z",
+      "source": "Schneier",
+      "cat": "tools",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
       "id": "Schnei-89897d68cd07",
       "title": "Humans Have Rights. Machines Do Not.",
       "link": "https://www.schneier.com/blog/archives/2026/11/humans-have-rights-machines-do-not.html",
@@ -3200,25 +3200,6 @@
       "link": "https://www.schneier.com/blog/archives/2026/11/ai-doesnt-have-to-go-rogue-to-break-the-world.html",
       "desc": "This essay is adapted from a keynote speech delivered at the DEF CON 34 conference in Las Vegas on August 7, 2026. The essay originally appeared in CyberScoop.\nI want to talk about AI hacking. There are three aspects: people hacking AI systems, people using AI to hack other systems, and AIs hacking systems on their own, not even maliciously. The last two matter more than the first. The third is th",
       "pubDate": "2026-11-13T12:03:30Z",
-      "source": "Schneier",
-      "cat": "tools",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "Schnei-4b99fe5d80e6",
-      "title": "Another Way Police Are Locating People from Their Smartphones",
-      "link": "https://www.schneier.com/blog/archives/2026/11/another-way-police-are-locating-people-from-their-smartphones.html",
-      "desc": "Penlink&#8217;s Webloc is an application that locates people using information from the weather, gaming, email, and religious apps on their phone. It&#8217;s sold to the police.\nThe tool collects vast quantities of location data from smartphones via commonly used weather, gaming, email and religious apps. It can build a detailed picture of where a smartphone has been over the past 12 months, and u",
-      "pubDate": "2026-11-12T12:02:58Z",
       "source": "Schneier",
       "cat": "tools",
       "sev": "medium",
