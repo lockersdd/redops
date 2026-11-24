@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-23T22:51:15.751490+00:00",
-  "sources_ok": 14,
+  "generated_at": "2026-11-24T06:49:19.929335+00:00",
+  "sources_ok": 15,
   "sources_total": 20,
   "source_status": {
     "The Hacker News": {
@@ -24,9 +24,8 @@
       "articles": 10
     },
     "Exploit-DB": {
-      "ok": false,
-      "articles": 0,
-      "error": "502 Server Error: Bad Gateway for url: https://www.exploit-db.com/rss.xml"
+      "ok": true,
+      "articles": 15
     },
     "VulnHub": {
       "ok": true,
@@ -90,8 +89,53 @@
       "error": "429 Client Error: Too Many Requests for url: https://www.reddit.com/r/blueteamsec/.rss"
     }
   },
-  "total": 175,
+  "total": 190,
   "articles": [
+    {
+      "id": "TheHa-702983caa47c",
+      "title": "OpenAI and Cisco Unveil AI-Assisted Linux Security Tool to Block Exploits Before Patching",
+      "link": "https://thehackernews.com/2026/11/openai-and-cisco-unveil-ai-assisted.html",
+      "desc": "OpenAI and Cisco have teamed up to launch Shirudo (meaning \"shield\" in Japanese), an open-source Linux runtime that allows artificial intelligence (AI) agents to defend systems without downtime.\n\n\"It lets agents write dynamic eBPF controls to shield systems from exploits, giving defenders more time to test and roll out patches,\" OpenAI said in a post on X.\n\nThe AI upstart called the initiative a",
+      "pubDate": "Tue, 24 Nov 2026 11:32:57 +0530",
+      "source": "The Hacker News",
+      "cat": "threats",
+      "sev": "critical",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "TheHa-0770ecc3c006",
+      "title": "Hackers Exploit N-able MailAssure Flaw While AI Agents Exploit MONAI Label Zero-Day",
+      "link": "https://thehackernews.com/2026/11/hackers-exploit-n-able-mailassure-flaw.html",
+      "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added two flaws impacting N-able MailAssure and MONAI Label to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation.\n\nThe critical vulnerabilities are listed below -\n\n\n  CVE-2026-134624 (CVSS score: 9.3) - A server-side request forgery (SSRF) vulnerability in N-able MailAssure's LDAP",
+      "pubDate": "Tue, 24 Nov 2026 11:32:45 +0530",
+      "source": "The Hacker News",
+      "cat": "threats",
+      "sev": "critical",
+      "tags": [
+        {
+          "t": "CVE-2026-134624",
+          "cls": "cve"
+        }
+      ],
+      "iocs": {
+        "cves": [
+          "CVE-2026-134624"
+        ],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
     {
       "id": "TheHa-e9997ad67a7e",
       "title": "Webworm Suspected of Modifying SoftEther VPN to Evade Detection and Hide Remote Access",
@@ -375,51 +419,6 @@
       "ts": 0
     },
     {
-      "id": "TheHa-5968a29dbca7",
-      "title": "Signal Blocks AI Agents From Reading Private Chats via Screenshots on Android and iOS",
-      "link": "https://thehackernews.com/2026/11/signal-blocks-ai-agents-from-reading.html",
-      "desc": "Signal has announced that it will restrict screenshots by default to stop artificial intelligence (AI) agents from reading private chats on Android and iOS devices, but conceded that the protection is \"incomplete.\"\n\nThe feature applies to agentic systems built into iOS 27 and on Android versions where the encrypted messaging platform can detect an AI assistant attempting to read the Signal",
-      "pubDate": "Sat, 21 Nov 2026 14:19:20 +0530",
-      "source": "The Hacker News",
-      "cat": "threats",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "TheHa-7780413b6cbe",
-      "title": "Hackers Exploit Critical VMware, Cisco, and Apache Flaws as Espionage Attacks Emerge",
-      "link": "https://thehackernews.com/2026/11/hackers-exploit-critical-vmware-cisco.html",
-      "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added four flaws impacting Apache Roller, Cisco Expressway, SAP NetWeaver, and Broadcom VMware vCenter to its Known Exploited Vulnerabilities (KEV), citing evidence of active exploitation.\n\nThe vulnerabilities are listed below -\n\n\n  CVE-2026-129448 (CVSS score: 9.8) - A deserialization of untrusted data vulnerability in",
-      "pubDate": "Sat, 21 Nov 2026 14:19:13 +0530",
-      "source": "The Hacker News",
-      "cat": "threats",
-      "sev": "high",
-      "tags": [
-        {
-          "t": "CVE-2026-129448",
-          "cls": "cve"
-        }
-      ],
-      "iocs": {
-        "cves": [
-          "CVE-2026-129448"
-        ],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
       "id": "Krebs-1280076ed364",
       "title": "CTO of ‘RansomwareHelp’ Indicted for Wire Fraud",
       "link": "https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud/",
@@ -629,10 +628,10 @@
       "ts": 0
     },
     {
-      "id": "Securi-b72506468aae",
-      "title": "N-able Patches Critical Flaw Disclosed After Mail Assure Cyberattack",
+      "id": "Securi-75f52b860fe9",
+      "title": "N-able Patches Critical Flaw Discovered After Mail Assure Cyberattack",
       "link": "https://www.securityweek.com/n-able-patches-critical-flaw-disclosed-after-mail-assure-cyberattack/",
-      "desc": "The company has restored access to the affected services and continues to monitor the affected environments.\nThe post N-able Patches Critical Flaw Disclosed After Mail Assure Cyberattack  appeared first on SecurityWeek.",
+      "desc": "The company has restored access to the affected services and continues to monitor the affected environments.\nThe post N-able Patches Critical Flaw Discovered After Mail Assure Cyberattack  appeared first on SecurityWeek.",
       "pubDate": "Mon, 23 Nov 2026 15:06:49 +0000",
       "source": "SecurityWeek",
       "cat": "threats",
@@ -789,6 +788,25 @@
       "source": "SecurityWeek",
       "cat": "threats",
       "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "GBHack-aef298bffd47",
+      "title": "OpenAI and Cisco Introduce Shirudo to Block Exploits on Running Linux Systems",
+      "link": "https://gbhackers.com/openai-and-cisco-introduce-shirudo-to-block-exploits/",
+      "desc": "OpenAI and Cisco launched Shirudo, an open-source security runtime designed to prevent exploit attempts on running Linux systems without restarting protected services. In a controlled demonstration, a safeguard created using OpenAI’s Codex successfully blocked a Java4Shell exploit attempt against Elasticsearch while the service remained operational. This project aims to address the gap between ide",
+      "pubDate": "Tue, 24 Nov 2026 04:54:34 +0000",
+      "source": "GBHackers",
+      "cat": "threats",
+      "sev": "critical",
       "tags": [],
       "iocs": {
         "cves": [],
@@ -976,38 +994,19 @@
       "sev": "high",
       "tags": [
         {
-          "t": "CVE-2026-123633",
+          "t": "CVE-2026-123007",
           "cls": "cve"
         },
         {
-          "t": "CVE-2026-123007",
+          "t": "CVE-2026-123633",
           "cls": "cve"
         }
       ],
       "iocs": {
         "cves": [
-          "CVE-2026-123633",
-          "CVE-2026-123007"
+          "CVE-2026-123007",
+          "CVE-2026-123633"
         ],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "GBHack-0c818f032bad",
-      "title": "Hackers Exploit GL.iNet Cloud Security Flaw to Infect Routers and KVM Devices With Malware",
-      "link": "https://gbhackers.com/hackers-exploit-gl-inet-cloud-security-flaw/",
-      "desc": "GL.iNet reported that an unauthorized party exploited a vulnerability in its cloud remote management services, allowing them to install malware on certain routers and keyboard, video, and mouse (KVM) devices. The company discovered the flaw on November 20, 2026. In an update on November 23, GL.iNet announced that it had patched the cloud service and [&#8230;]\nThe post Hackers Exploit GL.iNet Cloud",
-      "pubDate": "Mon, 23 Nov 2026 09:33:56 +0000",
-      "source": "GBHackers",
-      "cat": "malware",
-      "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
         "ips": [],
         "hashes": []
       },
@@ -1194,6 +1193,291 @@
       "pubDate": "Thu, 19 Nov 2026 20:01:09 +0000",
       "source": "HackRead",
       "cat": "threats",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "Exploi-1dcf992634cc",
+      "title": "[remote] Ruflo MCP Bridge 3.16.2 - Remote Code Execution (RCE)",
+      "link": "https://www.exploit-db.com/exploits/52705",
+      "desc": "Ruflo MCP Bridge 3.16.2 - Remote Code Execution (RCE)",
+      "pubDate": "Wed, 11 Nov 2026 00:00:00 +0000",
+      "source": "Exploit-DB",
+      "cat": "exploits",
+      "sev": "critical",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "Exploi-803d12b9b9eb",
+      "title": "[remote] PHP > 5.4 - 'PHP2Shell' Remote Code Execution (RCE)",
+      "link": "https://www.exploit-db.com/exploits/52704",
+      "desc": "PHP > 5.4 - 'PHP2Shell' Remote Code Execution (RCE)",
+      "pubDate": "Thu, 22 Oct 2026 00:00:00 +0000",
+      "source": "Exploit-DB",
+      "cat": "exploits",
+      "sev": "critical",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "Exploi-d0c2f19f4fe6",
+      "title": "[webapps] pizzafy-1.0 - SQL Injection (SQLi)",
+      "link": "https://www.exploit-db.com/exploits/52703",
+      "desc": "pizzafy-1.0 - SQL Injection (SQLi)",
+      "pubDate": "Wed, 21 Oct 2026 00:00:00 +0000",
+      "source": "Exploit-DB",
+      "cat": "exploits",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "Exploi-c572bd76929b",
+      "title": "[remote] South River Technologies Titan MFT Server 26.0.0 - Code Execution",
+      "link": "https://www.exploit-db.com/exploits/52701",
+      "desc": "South River Technologies Titan MFT Server 26.0.0 - Code Execution",
+      "pubDate": "Wed, 21 Oct 2026 00:00:00 +0000",
+      "source": "Exploit-DB",
+      "cat": "exploits",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "Exploi-56547da4a6de",
+      "title": "[remote] Synametrics Syncrify 6.2 - Command Execution",
+      "link": "https://www.exploit-db.com/exploits/52700",
+      "desc": "Synametrics Syncrify 6.2 - Command Execution",
+      "pubDate": "Wed, 21 Oct 2026 00:00:00 +0000",
+      "source": "Exploit-DB",
+      "cat": "exploits",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "Exploi-f800afcb0e7f",
+      "title": "[webapps] Keycloak 26.7.2 - Unauthenticated Account Takeover",
+      "link": "https://www.exploit-db.com/exploits/52699",
+      "desc": "Keycloak 26.7.2 - Unauthenticated Account Takeover",
+      "pubDate": "Wed, 21 Oct 2026 00:00:00 +0000",
+      "source": "Exploit-DB",
+      "cat": "exploits",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "Exploi-e159b3970182",
+      "title": "[webapps] Open eClass 3.15 - Remote Code Execution (RCE)",
+      "link": "https://www.exploit-db.com/exploits/52698",
+      "desc": "Open eClass 3.15 - Remote Code Execution (RCE)",
+      "pubDate": "Wed, 21 Oct 2026 00:00:00 +0000",
+      "source": "Exploit-DB",
+      "cat": "exploits",
+      "sev": "critical",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "Exploi-60cb5508cd11",
+      "title": "[webapps] Automotive Shop Management System 1.0 - SQL Injection (SQLi)",
+      "link": "https://www.exploit-db.com/exploits/52697",
+      "desc": "Automotive Shop Management System 1.0 - SQL Injection (SQLi)",
+      "pubDate": "Wed, 21 Oct 2026 00:00:00 +0000",
+      "source": "Exploit-DB",
+      "cat": "exploits",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "Exploi-434400bba97e",
+      "title": "[remote] Edimax BR-6478AC firmware 2.20 - Authenticated Command Injection",
+      "link": "https://www.exploit-db.com/exploits/52696",
+      "desc": "Edimax BR-6478AC firmware 2.20 - Authenticated Command Injection",
+      "pubDate": "Wed, 21 Oct 2026 00:00:00 +0000",
+      "source": "Exploit-DB",
+      "cat": "exploits",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "Exploi-878a99e846c5",
+      "title": "[remote] Exasol Database 7.1.30 - Command Execution",
+      "link": "https://www.exploit-db.com/exploits/52695",
+      "desc": "Exasol Database 7.1.30 - Command Execution",
+      "pubDate": "Wed, 21 Oct 2026 00:00:00 +0000",
+      "source": "Exploit-DB",
+      "cat": "exploits",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "Exploi-05a9e9b8bc44",
+      "title": "[remote] Parasoft Continuous Testing Platform 10.7.5 - JSP Command Execution",
+      "link": "https://www.exploit-db.com/exploits/52694",
+      "desc": "Parasoft Continuous Testing Platform 10.7.5 - JSP Command Execution",
+      "pubDate": "Wed, 21 Oct 2026 00:00:00 +0000",
+      "source": "Exploit-DB",
+      "cat": "exploits",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "Exploi-c2905ab57fda",
+      "title": "[remote] ProSoft RLX-IFH24E 2.2.44 - Unsigned Firmware Upgrade Package Executed as Root",
+      "link": "https://www.exploit-db.com/exploits/52693",
+      "desc": "ProSoft RLX-IFH24E 2.2.44 - Unsigned Firmware Upgrade Package Executed as Root",
+      "pubDate": "Wed, 21 Oct 2026 00:00:00 +0000",
+      "source": "Exploit-DB",
+      "cat": "exploits",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "Exploi-b0dffebbad42",
+      "title": "[remote] Teltonika_RutOS 00.07.06.21 - Command Injection",
+      "link": "https://www.exploit-db.com/exploits/52692",
+      "desc": "Teltonika_RutOS 00.07.06.21 - Command Injection",
+      "pubDate": "Thu, 01 Oct 2026 00:00:00 +0000",
+      "source": "Exploit-DB",
+      "cat": "exploits",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "Exploi-e52c7f336427",
+      "title": "[webapps] TigerGraph_Community_Edition 4.2.4 - Arbitrary File write",
+      "link": "https://www.exploit-db.com/exploits/52691",
+      "desc": "TigerGraph_Community_Edition 4.2.4 - Arbitrary File write",
+      "pubDate": "Thu, 01 Oct 2026 00:00:00 +0000",
+      "source": "Exploit-DB",
+      "cat": "exploits",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "Exploi-1ba7ee86c11c",
+      "title": "[webapps] WordPress 7.0.2 - Path Travesal",
+      "link": "https://www.exploit-db.com/exploits/52690",
+      "desc": "WordPress 7.0.2 - Path Travesal",
+      "pubDate": "Thu, 01 Oct 2026 00:00:00 +0000",
+      "source": "Exploit-DB",
+      "cat": "exploits",
       "sev": "medium",
       "tags": [],
       "iocs": {
@@ -2187,18 +2471,18 @@
       "sev": "high",
       "tags": [
         {
-          "t": "CVE-2026-109619",
+          "t": "CVE-2026-109618",
           "cls": "cve"
         },
         {
-          "t": "CVE-2026-109618",
+          "t": "CVE-2026-109619",
           "cls": "cve"
         }
       ],
       "iocs": {
         "cves": [
-          "CVE-2026-109619",
-          "CVE-2026-109618"
+          "CVE-2026-109618",
+          "CVE-2026-109619"
         ],
         "ips": [],
         "hashes": []
@@ -2569,6 +2853,44 @@
       "ts": 0
     },
     {
+      "id": "SANSI-7c7e6c1df597",
+      "title": "Scanning from Subnet 109.160.32.0/24, (Mon, Nov 23rd)",
+      "link": "https://isc.sans.edu/diary/rss/33550",
+      "desc": "This subnet is assigned to a web hosting and virtual private server (VPS) provider BANATSYNC SRL with AS198364, located in Timisoara, Romania. This graph shows the DShield sensor activity over the past 90 days for this subnet and it is still ongoing as of this writing.&#xd;",
+      "pubDate": "Tue, 24 Nov 2026 02:32:00 GMT",
+      "source": "SANS ISC",
+      "cat": "vulns",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "SANSI-a2abdcb76963",
+      "title": "ISC Stormcast For Tuesday, November 24th, 2026 https://isc.sans.edu/podcastdetail/10192, (Tue, Nov 24th)",
+      "link": "https://isc.sans.edu/diary/rss/33552",
+      "desc": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
+      "pubDate": "Tue, 24 Nov 2026 02:00:04 GMT",
+      "source": "SANS ISC",
+      "cat": "vulns",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
       "id": "SANSI-9e6c2aa2c626",
       "title": "ISC Stormcast For Monday, November 23rd, 2026 https://isc.sans.edu/podcastdetail/10190, (Mon, Nov 23rd)",
       "link": "https://isc.sans.edu/diary/rss/33548",
@@ -2713,56 +3035,6 @@
       "tags": [],
       "iocs": {
         "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "SANSI-3e00dc08f978",
-      "title": "ISC Stormcast For Tuesday, November 17th, 2026 https://isc.sans.edu/podcastdetail/10182, (Tue, Nov 17th)",
-      "link": "https://isc.sans.edu/diary/rss/33524",
-      "desc": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
-      "pubDate": "Tue, 17 Nov 2026 02:05:15 GMT",
-      "source": "SANS ISC",
-      "cat": "vulns",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "SANSI-6553b2ba9945",
-      "title": "Scans for LiteLLM/Starlette (CVE-2026-42271, CVE-2026-48710), (Mon, Nov 16th)",
-      "link": "https://isc.sans.edu/diary/rss/33522",
-      "desc": "This weekend, we started seeing requests for /mcp-rest/test/tools/list hitting our honeypots. These requests appear to attempt to exploit CVE-2026-42271 and CVE-2026-48710. Horizon3.ai published a short write-up about how these vulnerabilities can be chained to achieve remote code execution without authentication &#x5b;Horizon3&#x5d;&#xd;",
-      "pubDate": "Mon, 16 Nov 2026 13:11:04 GMT",
-      "source": "SANS ISC",
-      "cat": "vulns",
-      "sev": "critical",
-      "tags": [
-        {
-          "t": "CVE-2026-48710",
-          "cls": "cve"
-        },
-        {
-          "t": "CVE-2026-42271",
-          "cls": "cve"
-        }
-      ],
-      "iocs": {
-        "cves": [
-          "CVE-2026-48710",
-          "CVE-2026-42271"
-        ],
         "ips": [],
         "hashes": []
       },
@@ -3199,18 +3471,18 @@
       "sev": "high",
       "tags": [
         {
-          "t": "CVE-2026-109619",
+          "t": "CVE-2026-109618",
           "cls": "cve"
         },
         {
-          "t": "CVE-2026-109618",
+          "t": "CVE-2026-109619",
           "cls": "cve"
         }
       ],
       "iocs": {
         "cves": [
-          "CVE-2026-109619",
-          "CVE-2026-109618"
+          "CVE-2026-109618",
+          "CVE-2026-109619"
         ],
         "ips": [],
         "hashes": []
@@ -3315,8 +3587,8 @@
       "ts": 0
     },
     {
-      "id": "HaveIB-e72c7156d967",
-      "title": "CastleRAT - 179,745 breached accounts",
+      "id": "HaveIB-197d2e2a1e62",
+      "title": "CastleRAT - 430,557 breached accounts",
       "link": "https://haveibeenpwned.com/Breach/CastleRAT",
       "desc": "In November 2026, Europol and international law enforcement partners dismantled infrastructure supporting several malware operations. Among them was CastleRAT, a remote access trojan (RAT) that enabled criminals to remotely control infected computers. Europol provided HIBP with 180k email addresses associated with CastleRAT infections, along with 893k unique passwords observed more than 3M times a",
       "pubDate": "Fri, 13 Nov 2026 05:41:32 Z",
