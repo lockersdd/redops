@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T12:32:48.546321+00:00",
+  "generated_at": "2026-11-25T22:11:23.743971+00:00",
   "sources_ok": 14,
   "sources_total": 20,
   "source_status": {
@@ -92,6 +92,56 @@
   },
   "total": 180,
   "articles": [
+    {
+      "id": "TheHa-e2ed7150de76",
+      "title": "Hackers Exploit Two GeoServer Flaws as Researchers Warn of Unauthenticated RCE Chains",
+      "link": "https://thehackernews.com/2026/11/hackers-exploit-two-geoserver-flaws-as.html",
+      "desc": "Threat actors are actively exploiting two newly patched security flaws in GeoServer, according to watchTowr.\n\nThe vulnerabilities in question are CVE-2026-120705 and CVE-2026-129243, details of which are below -\n\n\n  CVE-2026-120705 (CVSS score: 8.6) - An arbitrary file read vulnerability that could enable an attacker to access local text files readable by the GeoServer process or fetch",
+      "pubDate": "Wed, 25 Nov 2026 18:18:54 +0530",
+      "source": "The Hacker News",
+      "cat": "threats",
+      "sev": "critical",
+      "tags": [
+        {
+          "t": "CVE-2026-129243",
+          "cls": "cve"
+        },
+        {
+          "t": "CVE-2026-120705",
+          "cls": "cve"
+        }
+      ],
+      "iocs": {
+        "cves": [
+          "CVE-2026-129243",
+          "CVE-2026-120705"
+        ],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "TheHa-d6f27efcb974",
+      "title": "U.S. Treasury's Financial Crimes Agency Takes Some Systems Offline After Cyber Intrusion",
+      "link": "https://thehackernews.com/2026/11/us-treasurys-fincen-takes-some-systems.html",
+      "desc": "The U.S. Treasury Department's Financial Crimes Enforcement Network (FinCEN) has been hit by a cybersecurity incident that resulted in \"unauthorized access to a limited subset of its systems,\" the bureau said on Tuesday. As a precaution, it has taken some systems offline.\n\nThe bureau collects suspicious activity reports and other Bank Secrecy Act (BSA) filings from banks and other financial",
+      "pubDate": "Wed, 25 Nov 2026 18:00:08 +0530",
+      "source": "The Hacker News",
+      "cat": "threats",
+      "sev": "critical",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
     {
       "id": "TheHa-2658864d5105",
       "title": "Credential Remediation Is Slow When You Don’t Know What Will Break",
@@ -361,44 +411,6 @@
       "ts": 0
     },
     {
-      "id": "TheHa-2ede8715b6b0",
-      "title": "Microsoft Fixes Azure API Management Classic Flaw as Actor Targets Customer Secrets",
-      "link": "https://thehackernews.com/2026/11/microsoft-fixes-azure-api-management.html",
-      "desc": "Norway's National Security Authority (NSM) has disclosed that it became aware of a security vulnerability in Microsoft's Azure API Management (APIM) that has affected multiple businesses in the country, including energy companies Equinor and Skagerak Energi.\n\n\"An unknown actor has been actively looking for access tokens, secrets, and named values ​​in APIM,\" NSM said. \"It is still uncertain how",
-      "pubDate": "Tue, 24 Nov 2026 16:14:49 +0530",
-      "source": "The Hacker News",
-      "cat": "threats",
-      "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "TheHa-0333aba2f722",
-      "title": "WHMCS SQL Injection Could Expose Customer Data and Admin Password Hashes without Login",
-      "link": "https://thehackernews.com/2026/11/whmcs-sql-injection-flaw-could-expose.html",
-      "desc": "A flaw in WHMCS's shopping cart, the billing and automation platform many web hosting companies use to run their businesses, could allow anyone on the internet to retrieve customer records and administrator password hashes from an installation's database. No login is needed.\n\nThe company disclosed the SQL injection yesterday along with two other flaws that need a logged-in client, and released",
-      "pubDate": "Tue, 24 Nov 2026 14:04:20 +0530",
-      "source": "The Hacker News",
-      "cat": "threats",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
       "id": "Krebs-1280076ed364",
       "title": "CTO of ‘RansomwareHelp’ Indicted for Wire Fraud",
       "link": "https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud/",
@@ -589,6 +601,82 @@
       "ts": 0
     },
     {
+      "id": "Securi-f75317002e53",
+      "title": "Two Newly Disclosed GeoServer Vulnerabilities Under Attack",
+      "link": "https://www.securityweek.com/two-newly-disclosed-geoserver-vulnerabilities-under-attack/",
+      "desc": "Attackers are probing GeoServer instances for two high-severity flaws that can be chained with other bugs for unauthenticated RCE.\nThe post Two Newly Disclosed GeoServer Vulnerabilities Under Attack appeared first on SecurityWeek.",
+      "pubDate": "Wed, 25 Nov 2026 15:27:36 +0000",
+      "source": "SecurityWeek",
+      "cat": "threats",
+      "sev": "critical",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "Securi-5c16d7064ad7",
+      "title": "ShinyHunters Claims Comeback, New Inception Group Rejects Alleged Ties",
+      "link": "https://www.securityweek.com/shinyhunters-claims-comeback-new-inception-group-rejects-alleged-ties/",
+      "desc": "An account tied to ShinyHunters announced the group’s return, as Okta spots possible links between Inception and ShinyHunters hackers.\nThe post ShinyHunters Claims Comeback, New Inception Group Rejects Alleged Ties appeared first on SecurityWeek.",
+      "pubDate": "Wed, 25 Nov 2026 14:15:25 +0000",
+      "source": "SecurityWeek",
+      "cat": "threats",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "Securi-c3f4378453f1",
+      "title": "US Treasury’s FinCEN Disconnects Systems Following Cyber Incident",
+      "link": "https://www.securityweek.com/us-treasurys-fincen-disconnects-systems-following-cyber-incident/",
+      "desc": "FinCEN has extended deadlines for filers affected by the disruptions while it is investigating the incident.\nThe post US Treasury&#8217;s FinCEN Disconnects Systems Following Cyber Incident appeared first on SecurityWeek.",
+      "pubDate": "Wed, 25 Nov 2026 13:39:21 +0000",
+      "source": "SecurityWeek",
+      "cat": "threats",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "Securi-cb0c3d380869",
+      "title": "Ground Truth: CISO Matt Martin on Building a Real Security Program Without an Enterprise Budget",
+      "link": "https://www.securityweek.com/ground-truth-ciso-matt-martin-on-building-a-real-security-program-without-an-enterprise-budget/",
+      "desc": "Matthew Martin is Chief Information Security and Privacy Officer at Western Carolina University.\nThe post Ground Truth: CISO Matt Martin on Building a Real Security Program Without an Enterprise Budget appeared first on SecurityWeek.",
+      "pubDate": "Wed, 25 Nov 2026 13:30:00 +0000",
+      "source": "SecurityWeek",
+      "cat": "threats",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
       "id": "Securi-4da18cb23d9b",
       "title": "Plagiarism Checker Turnitin Investigating Cyberattack",
       "link": "https://www.securityweek.com/plagiarism-checker-turnitin-investigating-cyberattack/",
@@ -710,31 +798,12 @@
       "ts": 0
     },
     {
-      "id": "Securi-17e7bf77b4f9",
-      "title": "European Commission Uncovers Data Breach in Cyberattack Investigation",
-      "link": "https://www.securityweek.com/european-commission-uncovers-data-breach-in-cyberattack-investigation/",
-      "desc": "Names and email addresses of EU Academy users were exposed in the AI-assisted cyberattack the European Commission detected in October.\nThe post European Commission Uncovers Data Breach in Cyberattack Investigation appeared first on SecurityWeek.",
-      "pubDate": "Tue, 24 Nov 2026 14:49:59 +0000",
-      "source": "SecurityWeek",
-      "cat": "breaches",
-      "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "Securi-eb9d470daed0",
-      "title": "Check Point Security Management Servers Hacked in AI-Assisted Campaign",
-      "link": "https://www.securityweek.com/check-point-security-management-servers-hacked-in-ai-assisted-campaign/",
-      "desc": "The attacks were launched from 99 IP addresses and targeted organizations across multiple industries and countries.\nThe post Check Point Security Management Servers Hacked in AI-Assisted Campaign appeared first on SecurityWeek.",
-      "pubDate": "Tue, 24 Nov 2026 14:21:56 +0000",
-      "source": "SecurityWeek",
+      "id": "HackRe-b33493785f1c",
+      "title": "1Password Says Hacker Copied Customer Account Data, Vaults Unaffected",
+      "link": "https://hackread.com/1password-attacker-copied-customer-account-data-vaults/",
+      "desc": "1Password says an attacker copied names, emails and some recovery tokens after accessing a staff GitHub account. Customer vaults were left unaffected.",
+      "pubDate": "Wed, 25 Nov 2026 21:19:49 +0000",
+      "source": "HackRead",
       "cat": "threats",
       "sev": "high",
       "tags": [],
@@ -748,12 +817,12 @@
       "ts": 0
     },
     {
-      "id": "Securi-cf7eea2f5da5",
-      "title": "Anthropic Expands Enterprise Safeguards for Detecting AI Misuse",
-      "link": "https://www.securityweek.com/anthropic-expands-enterprise-safeguards-for-detecting-ai-misuse/",
-      "desc": "EFS helps zero-retention customers spot Claude misuse spread across many requests while keeping conversation data in their own cloud.\nThe post Anthropic Expands Enterprise Safeguards for Detecting AI Misuse appeared first on SecurityWeek.",
-      "pubDate": "Tue, 24 Nov 2026 13:30:23 +0000",
-      "source": "SecurityWeek",
+      "id": "HackRe-d70903c32d39",
+      "title": "AI Can Write Code. Engineers Still Have to Decide What Ships",
+      "link": "https://hackread.com/ai-writes-code-engineers-decide-what-ships/",
+      "desc": "Senior roles drove most of the rebound in software job postings. See why employers value engineers who can review, test, and verify AI-generated code.",
+      "pubDate": "Wed, 25 Nov 2026 18:35:56 +0000",
+      "source": "HackRead",
       "cat": "threats",
       "sev": "medium",
       "tags": [],
@@ -767,14 +836,14 @@
       "ts": 0
     },
     {
-      "id": "Securi-0d2eed875b19",
-      "title": "OpenAI, Cisco Unveil Open Source Tool to Shield Unpatched Linux Systems",
-      "link": "https://www.securityweek.com/openai-cisco-unveil-open-source-tool-to-shield-unpatched-linux-systems/",
-      "desc": "OpenAI and Cisco’s Shirudo uses AI-generated shields to block Linux exploits while patches are prepared, but it’s not yet production-ready.\nThe post OpenAI, Cisco Unveil Open Source Tool to Shield Unpatched Linux Systems appeared first on SecurityWeek.",
-      "pubDate": "Tue, 24 Nov 2026 12:20:41 +0000",
-      "source": "SecurityWeek",
+      "id": "HackRe-35ff104b5470",
+      "title": "FBI Helps Free Over 2,200 Trafficking Victims in Global Scam Crackdown",
+      "link": "https://hackread.com/fbi-helps-free-trafficking-victims-global-scam-crackdown/",
+      "desc": "US prosecutors took action against over 800 defendants in more than 400 fraud cases. The FBI reported restraining nearly $17 billion in illicit funds.",
+      "pubDate": "Wed, 25 Nov 2026 17:22:40 +0000",
+      "source": "HackRead",
       "cat": "threats",
-      "sev": "critical",
+      "sev": "medium",
       "tags": [],
       "iocs": {
         "cves": [],
@@ -905,63 +974,6 @@
       "link": "https://hackread.com/how-to-use-camera-tracking-make-videos-dynamic/",
       "desc": "Discover ways to use camera tracking to bring more life and activity into your videos. Get hands-on methods for adding movement, effects, and dimension to your videos.",
       "pubDate": "Mon, 23 Nov 2026 20:12:15 +0000",
-      "source": "HackRead",
-      "cat": "threats",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "HackRe-56f525b33625",
-      "title": "Malicious Google Ads Target Mac Users with Fake Codex and Claude Code Downloads",
-      "link": "https://hackread.com/google-ads-mac-malware-fake-codex-claude-code/",
-      "desc": "Cato Networks found Google ads under verified business names promoting fake Codex, Claude Code and Homebrew downloads, exposing Mac devices to malware.",
-      "pubDate": "Mon, 23 Nov 2026 18:21:45 +0000",
-      "source": "HackRead",
-      "cat": "malware",
-      "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "HackRe-e381cf9264e7",
-      "title": "SplitSecure Launches New Access Control Architecture for Humans and AI Agents",
-      "link": "https://hackread.com/splitsecure-launches-new-access-control-architecture-for-humans-and-ai-agents/",
-      "desc": "San Francisco, United States, 23rd November 2026, CyberNewswire",
-      "pubDate": "Mon, 23 Nov 2026 17:00:07 +0000",
-      "source": "HackRead",
-      "cat": "threats",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "HackRe-a7d55d18282f",
-      "title": "When Executive Impersonation Spreads Across Multiple Platforms",
-      "link": "https://hackread.com/executive-impersonation-across-platforms/",
-      "desc": "Learn why executive impersonation can span fake accounts, cloned websites and copied identity material and why a coordinated assessment matters.",
-      "pubDate": "Sun, 22 Nov 2026 18:34:09 +0000",
       "source": "HackRead",
       "cat": "threats",
       "sev": "medium",
@@ -2242,18 +2254,18 @@
       "sev": "high",
       "tags": [
         {
-          "t": "CVE-2026-109618",
+          "t": "CVE-2026-109619",
           "cls": "cve"
         },
         {
-          "t": "CVE-2026-109619",
+          "t": "CVE-2026-109618",
           "cls": "cve"
         }
       ],
       "iocs": {
         "cves": [
-          "CVE-2026-109618",
-          "CVE-2026-109619"
+          "CVE-2026-109619",
+          "CVE-2026-109618"
         ],
         "ips": [],
         "hashes": []
@@ -2326,6 +2338,44 @@
       "desc": "&lt;p&gt;This article was first published &lt;a href=&quot;https://www.linkedin.com/pulse/building-intent-based-access-control-without-reading-minds-borges-dxg6e/&quot; target=&quot;_self&quot;&gt;on LinkedIn&lt;/a&gt;.&lt;/p&gt;Categories: AI Research, Threat ResearchTags: AI, AI RESEARCH, Threat Research",
       "pubDate": "Tue, 13 Oct 2026 00:00:00 GMT",
       "source": "Sophos Research",
+      "cat": "malware",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "Malwar-b4b11cfb58fc",
+      "title": "AI agents found an unpatched flaw after being told to “break in”",
+      "link": "https://www.malwarebytes.com/blog/ai/2026/11/ai-agents-found-an-unpatched-flaw-after-being-told-to-break-in",
+      "desc": "AI agents discovered a previously unknown vulnerability and later used it to take control of a university server.",
+      "pubDate": "Wed, 25 Nov 2026 14:24:16 GMT",
+      "source": "Malwarebytes",
+      "cat": "malware",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "Malwar-53d46339fdee",
+      "title": "Two exposed databases held over 3.5 billion records",
+      "link": "https://www.malwarebytes.com/blog/data-breaches/2026/11/two-exposed-databases-held-over-3-5-billion-records",
+      "desc": "Researchers found stolen passwords, session cookies and children's school records sitting in two open databases.",
+      "pubDate": "Wed, 25 Nov 2026 12:27:36 GMT",
+      "source": "Malwarebytes",
       "cat": "malware",
       "sev": "medium",
       "tags": [],
@@ -2572,44 +2622,6 @@
       "link": "https://www.malwarebytes.com/blog/ai/2026/11/outage-or-attack-dont-let-social-media-fill-in-the-gaps",
       "desc": "Recent outages and attacks have people worried, sometimes needlessly. Don’t let social media turn a bug into a disaster.",
       "pubDate": "Wed, 18 Nov 2026 22:07:01 GMT",
-      "source": "Malwarebytes",
-      "cat": "malware",
-      "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "Malwar-47219a03e91f",
-      "title": "GTA 6 scams could cost you your account, money, or crypto",
-      "link": "https://www.malwarebytes.com/blog/scams/2026/11/gta-6-scams-could-cost-you-your-account-money-or-crypto",
-      "desc": "A free GTA 6 code could cost you your Google account, money, or crypto. Here’s how scammers are exploiting the game’s launch hype.",
-      "pubDate": "Wed, 18 Nov 2026 22:06:05 GMT",
-      "source": "Malwarebytes",
-      "cat": "malware",
-      "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "Malwar-ecdf371dc705",
-      "title": "Who protects the antivirus? How we secure Malwarebytes itself",
-      "link": "https://www.malwarebytes.com/blog/inside-malwarebytes/2026/11/who-protects-the-antivirus-how-we-secure-malwarebytes-itself",
-      "desc": "Imagine a piece of malware that can disable your antivirus and leave you unprotected. That's exactly what we as engineers work to prevent.",
-      "pubDate": "Wed, 18 Nov 2026 13:32:54 GMT",
       "source": "Malwarebytes",
       "cat": "malware",
       "sev": "high",
@@ -3242,18 +3254,18 @@
       "sev": "high",
       "tags": [
         {
-          "t": "CVE-2026-109618",
+          "t": "CVE-2026-109619",
           "cls": "cve"
         },
         {
-          "t": "CVE-2026-109619",
+          "t": "CVE-2026-109618",
           "cls": "cve"
         }
       ],
       "iocs": {
         "cves": [
-          "CVE-2026-109618",
-          "CVE-2026-109619"
+          "CVE-2026-109619",
+          "CVE-2026-109618"
         ],
         "ips": [],
         "hashes": []
