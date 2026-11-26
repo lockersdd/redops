@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-26T04:16:59.418459+00:00",
-  "sources_ok": 14,
+  "generated_at": "2026-11-26T14:13:49.995736+00:00",
+  "sources_ok": 15,
   "sources_total": 20,
   "source_status": {
     "The Hacker News": {
@@ -16,9 +16,8 @@
       "articles": 10
     },
     "GBHackers": {
-      "ok": false,
-      "articles": 0,
-      "error": "Invalid feed: <unknown>:2:0: syntax error"
+      "ok": true,
+      "articles": 10
     },
     "HackRead": {
       "ok": true,
@@ -90,8 +89,103 @@
       "error": "429 Client Error: Too Many Requests for url: https://www.reddit.com/r/blueteamsec/.rss"
     }
   },
-  "total": 180,
+  "total": 190,
   "articles": [
+    {
+      "id": "TheHa-5c3764edeff4",
+      "title": "Most Wanted: The Phishing Kits and Techniques Getting Past Security Controls",
+      "link": "https://thehackernews.com/2026/11/most-wanted-phishing-kits-and.html",
+      "desc": "Every phishing attack has to get past email security, web filtering, and safe browsing before it reaches an employee. Some kits manage that far more often than others, and those are the kits that security teams need to know about.\n\nAt Push Security, we measure this as breakthrough rate: The share of attacks that get past email security, web gateways, and safe browsing to reach the user.\n\nHow an",
+      "pubDate": "Thu, 26 Nov 2026 16:27:55 +0530",
+      "source": "The Hacker News",
+      "cat": "threats",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "TheHa-654b8262d3be",
+      "title": "1Password Hacked, Customer Data and Source Code Stolen in GitHub Account Breach",
+      "link": "https://thehackernews.com/2026/11/1password-hacked-customer-data-and.html",
+      "desc": "Popular password management software 1Password on Wednesday disclosed a security incident involving its backend systems that led to the unauthorized access of some customer information, but emphasized that customer password vaults and other secrets were not accessed.\n\n\"While we took immediate steps to contain the incident, the attacker gained access to some of our backend systems and accessed a",
+      "pubDate": "Thu, 26 Nov 2026 16:27:25 +0530",
+      "source": "The Hacker News",
+      "cat": "breaches",
+      "sev": "critical",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "TheHa-955b93cb44c1",
+      "title": "Drupal Warns of New Highly Critical Site Takeover Vulnerability Under Active Exploitation",
+      "link": "https://thehackernews.com/2026/11/drupal-warns-of-new-highly-critical.html",
+      "desc": "Drupal has warned of a new \"highly critical\" security flaw impacting Drupal core that it said has been exploited in the wild.\n\nThe vulnerability, tracked as CVE-2026-136716 (CVSS score: N/A), has been described as a case of improper checking for unusual or exceptional conditions. It also relates to CVE-2026-132165 aka Fail2Install in that it addresses remaining vulnerable installation states",
+      "pubDate": "Thu, 26 Nov 2026 12:32:34 +0530",
+      "source": "The Hacker News",
+      "cat": "threats",
+      "sev": "high",
+      "tags": [
+        {
+          "t": "CVE-2026-136716",
+          "cls": "cve"
+        },
+        {
+          "t": "CVE-2026-132165",
+          "cls": "cve"
+        }
+      ],
+      "iocs": {
+        "cves": [
+          "CVE-2026-136716",
+          "CVE-2026-132165"
+        ],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "TheHa-f1897ce44a5d",
+      "title": "Hackers Exploit 10 Vulnerabilities Across Mitel, Juniper, Vates, and Danfoss Products",
+      "link": "https://thehackernews.com/2026/11/hackers-exploit-10-vulnerabilities.html",
+      "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added 10 security flaws to its Known Exploited Vulnerabilities (KEV) catalog, including five vulnerabilities impacting Mitel MiCollab that were disclosed last week.\n\nThe Mitel MiCollab vulnerabilities are listed below -\n\n\n  CVE-2026-133275 (CVSS score: 5.3) - An arbitrary file upload vulnerability in the Audio, Web and",
+      "pubDate": "Thu, 26 Nov 2026 12:14:46 +0530",
+      "source": "The Hacker News",
+      "cat": "threats",
+      "sev": "high",
+      "tags": [
+        {
+          "t": "CVE-2026-133275",
+          "cls": "cve"
+        }
+      ],
+      "iocs": {
+        "cves": [
+          "CVE-2026-133275"
+        ],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
     {
       "id": "TheHa-2e42174ddd91",
       "title": "13 Malicious NuGet Packages Turn Fake .NET Job Assessments Into Malware Delivery Traps",
@@ -122,18 +216,18 @@
       "sev": "critical",
       "tags": [
         {
-          "t": "CVE-2026-120705",
+          "t": "CVE-2026-129243",
           "cls": "cve"
         },
         {
-          "t": "CVE-2026-129243",
+          "t": "CVE-2026-120705",
           "cls": "cve"
         }
       ],
       "iocs": {
         "cves": [
-          "CVE-2026-120705",
-          "CVE-2026-129243"
+          "CVE-2026-129243",
+          "CVE-2026-120705"
         ],
         "ips": [],
         "hashes": []
@@ -313,96 +407,6 @@
       "tags": [],
       "iocs": {
         "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "TheHa-9787c279125c",
-      "title": "VMware vCenter Hit by Another Critical 9.8-Rated Auth Bypass Flaw After Zero-Day Exploitation",
-      "link": "https://thehackernews.com/2026/11/vmware-vcenter-hit-by-another-critical.html",
-      "desc": "Broadcom has shipped patches to address 23 vulnerabilities impacting VMware ESX, vCenter, Workstation, Fusion, and Avi Load Balancer, including one critical bug that could be abused to bypass authentication.\n\nThe critical vulnerability, tracked as CVE-2026-123903, is rated 9.8 out of 10.0 on the CVSS scoring system. It resides in the VMware Directory Service (\"vmdir\").\n\n\"A malicious actor with",
-      "pubDate": "Tue, 24 Nov 2026 18:58:26 +0530",
-      "source": "The Hacker News",
-      "cat": "threats",
-      "sev": "critical",
-      "tags": [
-        {
-          "t": "CVE-2026-123903",
-          "cls": "cve"
-        }
-      ],
-      "iocs": {
-        "cves": [
-          "CVE-2026-123903"
-        ],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "TheHa-2b5d1b44e8d5",
-      "title": "Okta Links ShinyHunters-Associated Vishing Group to New INCEPTION Data Leak Site",
-      "link": "https://thehackernews.com/2026/11/okta-links-shinyhunters-associated.html",
-      "desc": "A threat cluster previously assessed to be affiliated with the ShinyHunters extortion crew may have rebranded and continued operations under a new name called INCEPTION, according to Okta's Threat Intelligence team.\n\nThe cluster, dubbed O-UNC-053, is characterized by the use of voice phishing (aka vishing) attacks to trick targets into entering credentials in phishing pages and approving",
-      "pubDate": "Tue, 24 Nov 2026 18:58:21 +0530",
-      "source": "The Hacker News",
-      "cat": "breaches",
-      "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "TheHa-a3258142a6bf",
-      "title": "Hackers Found a Way Around GitHub SHA Pinning. This Webinar Explains How to Close the Gap",
-      "link": "https://thehackernews.com/2026/11/hackers-found-way-around-github-sha.html",
-      "desc": "Pinning GitHub Actions to an exact version of their code, known as SHA pinning, has become the go-to defense against software supply chain attacks. Attackers have already found a way around it.\n\nIn March 2026, the hackers who hijacked Trivy, a widely used open-source security scanner, planted malicious code that looked like it came from GitHub's official checkout tool. They even labeled it a",
-      "pubDate": "Tue, 24 Nov 2026 18:12:09 +0530",
-      "source": "The Hacker News",
-      "cat": "threats",
-      "sev": "critical",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "TheHa-1b25a338a1a6",
-      "title": "Google Researcher Shows How a Single Bit Change in .NET Files Bypassed Windows Code Integrity",
-      "link": "https://thehackernews.com/2026/11/google-researcher-shows-how-single-bit.html",
-      "desc": "A quirk in how the .NET Framework loads a program file let a local attacker run untrusted code past two separate protections on Windows built to block it, Google Project Zero researcher James Forshaw showed in a write-up published yesterday.\n\nThe same loading behavior bypassed Oracle VirtualBox's process hardening on Windows hosts, tracked as CVE-2026-87268, and Windows code integrity, tracked",
-      "pubDate": "Tue, 24 Nov 2026 17:32:00 +0530",
-      "source": "The Hacker News",
-      "cat": "threats",
-      "sev": "high",
-      "tags": [
-        {
-          "t": "CVE-2026-87268",
-          "cls": "cve"
-        }
-      ],
-      "iocs": {
-        "cves": [
-          "CVE-2026-87268"
-        ],
         "ips": [],
         "hashes": []
       },
@@ -601,6 +605,89 @@
       "ts": 0
     },
     {
+      "id": "Securi-888ae77cd3c3",
+      "title": "Critical Juniper Session Smart Conductor Flaw Exploited in Attacks",
+      "link": "https://www.securityweek.com/critical-juniper-session-smart-conductor-flaw-exploited-in-attacks/",
+      "desc": "Tracked as CVE-2026-103406, the vulnerability allows remote attackers to execute arbitrary commands as root.\nThe post Critical Juniper Session Smart Conductor Flaw Exploited in Attacks appeared first on SecurityWeek.",
+      "pubDate": "Thu, 26 Nov 2026 13:04:06 +0000",
+      "source": "SecurityWeek",
+      "cat": "threats",
+      "sev": "high",
+      "tags": [
+        {
+          "t": "CVE-2026-103406",
+          "cls": "cve"
+        }
+      ],
+      "iocs": {
+        "cves": [
+          "CVE-2026-103406"
+        ],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "Securi-b6390ff12b7a",
+      "title": "Mitel MiCollab Zero-Days Exploited in Suspected AI-Assisted Attacks",
+      "link": "https://www.securityweek.com/mitel-micollab-zero-days-exploited-in-suspected-ai-assisted-attacks/",
+      "desc": "Accenture says hackers exploited MiCollab flaws before Mitel’s advisory, likely aided by AI, in a suspected extortion campaign.\nThe post Mitel MiCollab Zero-Days Exploited in Suspected AI-Assisted Attacks appeared first on SecurityWeek.",
+      "pubDate": "Thu, 26 Nov 2026 11:35:25 +0000",
+      "source": "SecurityWeek",
+      "cat": "threats",
+      "sev": "critical",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "Securi-cdf1f6d841b0",
+      "title": "Drupal Installer Patch Left a Gap Attackers Are Already Exploiting",
+      "link": "https://www.securityweek.com/drupal-installer-patch-left-a-gap-attackers-are-already-exploiting/",
+      "desc": "Drupal warns that its previous installer patch left some websites vulnerable to takeover, with attackers already exploiting the gap.\nThe post Drupal Installer Patch Left a Gap Attackers Are Already Exploiting appeared first on SecurityWeek.",
+      "pubDate": "Thu, 26 Nov 2026 09:12:26 +0000",
+      "source": "SecurityWeek",
+      "cat": "threats",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "Securi-9658dafbf11c",
+      "title": "1Password Breach Exposes Customer Data, Internal Source Code",
+      "link": "https://www.securityweek.com/1password-breach-exposes-customer-data-internal-source-code/",
+      "desc": "A hacker used a compromised employee GitHub account to push malicious code and steal customer records, but vaults were not accessed.\nThe post 1Password Breach Exposes Customer Data, Internal Source Code appeared first on SecurityWeek.",
+      "pubDate": "Thu, 26 Nov 2026 08:32:10 +0000",
+      "source": "SecurityWeek",
+      "cat": "breaches",
+      "sev": "critical",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
       "id": "Securi-f75317002e53",
       "title": "Two Newly Disclosed GeoServer Vulnerabilities Under Attack",
       "link": "https://www.securityweek.com/two-newly-disclosed-geoserver-vulnerabilities-under-attack/",
@@ -722,13 +809,77 @@
       "ts": 0
     },
     {
-      "id": "Securi-fcb7032fab48",
-      "title": "Palo Alto Networks Patches Fragnesia Flaw Used to Root Firewalls",
-      "link": "https://www.securityweek.com/palo-alto-networks-patches-fragnesia-flaw-used-to-root-firewalls/",
-      "desc": "A China-linked hacking group chained PHP2Shell with Fragnesia in AI-assisted attacks that hit 25 servers.\nThe post Palo Alto Networks Patches Fragnesia Flaw Used to Root Firewalls appeared first on SecurityWeek.",
-      "pubDate": "Wed, 25 Nov 2026 08:12:24 +0000",
-      "source": "SecurityWeek",
+      "id": "GBHack-bebc3770ce6a",
+      "title": "Windows NTLM Security Update Causes Authentication Failures in Third-Party Apps and Devices",
+      "link": "https://gbhackers.com/windows-ntlm-security-update-causes-authentication-failures/",
+      "desc": "Microsoft has confirmed that Windows security updates released on or after November 10, 2026, can cause authentication failures in some third-party applications and devices that rely on NT LAN Manager (NTLM). Affected products can include authentication proxy servers, single sign-on (SSO) solutions, and application packaging tools. Microsoft documented the issue in KB5135557 after rolling out [&#8",
+      "pubDate": "Thu, 26 Nov 2026 12:10:20 +0000",
+      "source": "GBHackers",
       "cat": "threats",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "GBHack-44c1e2c98980",
+      "title": "Hackers Actively Exploit Critical Drupal Vulnerability to Take Over Websites",
+      "link": "https://gbhackers.com/hackers-actively-exploit-critical-drupal-vulnerability/",
+      "desc": "Hackers are actively exploiting CVE-2026-136716, a Drupal core access bypass that allows unauthenticated attackers to take over vulnerable websites. The Drupal Security Team confirmed exploitation in its November 25 security advisory, rating the flaw 21 out of 25 on its severity scale. Some production sites remain exposed even if administrators installed the previous round of [&#8230;]\nThe post Ha",
+      "pubDate": "Thu, 26 Nov 2026 11:50:47 +0000",
+      "source": "GBHackers",
+      "cat": "threats",
+      "sev": "high",
+      "tags": [
+        {
+          "t": "CVE-2026-136716",
+          "cls": "cve"
+        }
+      ],
+      "iocs": {
+        "cves": [
+          "CVE-2026-136716"
+        ],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "GBHack-5d26b494c8a2",
+      "title": "Critical GeoServer Vulnerability Chain Lets Hackers Execute Remote Commands Without Authentication",
+      "link": "https://gbhackers.com/critical-geoserver-vulnerability-chain/",
+      "desc": "Five vulnerabilities in GeoServer, an open-source server for publishing geospatial data, can be chained to execute operating system commands without valid credentials. Security researcher CryptoCat demonstrated the chain on a default Linux installation, while watchTowr reported seeing attempts to exploit two of the flaws in its honeypot network. The observations show attackers probing exposed serv",
+      "pubDate": "Thu, 26 Nov 2026 11:38:21 +0000",
+      "source": "GBHackers",
+      "cat": "threats",
+      "sev": "critical",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "GBHack-d378b597a2ba",
+      "title": "Hackers Poison GitHub Pull Requests With Malware That Can Steal Developer Passwords",
+      "link": "https://gbhackers.com/github-pull-requests/",
+      "desc": "A threat actor used rewritten commits in open GitHub pull requests to deliver the PolinRider credential-stealing loader. It targeted AsyncAPI Generator, CircuitVerse and Open Food Facts. None of the account&#8217;s 145 merged pull requests carries the loader, but CircuitVerse&#8217;s CI ran it and published 40 infected installers. On November 25, AsyncAPI Generator maintainer Lukasz Gornicki [&#82",
+      "pubDate": "Thu, 26 Nov 2026 11:11:04 +0000",
+      "source": "GBHackers",
+      "cat": "malware",
       "sev": "high",
       "tags": [],
       "iocs": {
@@ -741,13 +892,58 @@
       "ts": 0
     },
     {
-      "id": "Securi-d3abd1dc73c5",
-      "title": "Drupal Flaw Found by Anthropic Scanner Exploited in Attacks",
-      "link": "https://www.securityweek.com/drupal-flaw-found-by-anthropic-scanner-exploited-in-attacks/",
-      "desc": "CISA has added the vulnerability to its KEV catalog and instructed federal agencies to patch it within three days. \nThe post Drupal Flaw Found by Anthropic Scanner Exploited in Attacks appeared first on SecurityWeek.",
-      "pubDate": "Wed, 25 Nov 2026 08:01:06 +0000",
-      "source": "SecurityWeek",
+      "id": "GBHack-a902b0962171",
+      "title": "CISA Warns of 10 Actively Exploited Vulnerabilities in Juniper, Mitel, Danfoss, and Vates Products",
+      "link": "https://gbhackers.com/cisa-warns-of-10-actively-exploited-vulnerabilities/",
+      "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) added 10 vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog on November 25, 2026, citing evidence of in-the-wild exploitation. The CISA alert covers five flaws in Mitel MiCollab, three in the Danfoss AK-SM 800A Series, one in HPE Juniper Session Smart products, and one in Vates Xen [&#8230;]\nThe post CISA Warns of 1",
+      "pubDate": "Thu, 26 Nov 2026 09:33:17 +0000",
+      "source": "GBHackers",
       "cat": "threats",
+      "sev": "critical",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "GBHack-5a1a37613f76",
+      "title": "Critical Danfoss Refrigeration Controller Vulnerability Could Let Hackers Execute Arbitrary Code Remotely",
+      "link": "https://gbhackers.com/critical-danfoss-refrigeration-controller-vulnerability/",
+      "desc": "A critical vulnerability in Danfoss AK-SM 8xxA Series refrigeration controllers could allow remote attackers to execute arbitrary code without logging in. The flaw, tracked as CVE-2026-129713, affects software version 5.4.0 and earlier. In its November 24, 2026, industrial control systems advisory, the U.S. Cybersecurity and Infrastructure Security Agency (CISA) said no known public exploitation h",
+      "pubDate": "Thu, 26 Nov 2026 09:23:18 +0000",
+      "source": "GBHackers",
+      "cat": "threats",
+      "sev": "critical",
+      "tags": [
+        {
+          "t": "CVE-2026-129713",
+          "cls": "cve"
+        }
+      ],
+      "iocs": {
+        "cves": [
+          "CVE-2026-129713"
+        ],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "GBHack-a9410a0d1a6e",
+      "title": "Hackers Use Suspected SEO Poisoning to Lure Users Into Downloading Gh0stRAT Malware",
+      "link": "https://gbhackers.com/seo-poisoning-campaign-2/",
+      "desc": "A Gh0stRAT campaign that hides behind a working copy of the OhSoft oCam screen recorder. Researchers link the activity to Silver Fox and suspect SEO poisoning as the delivery method. Endpoint detection and response (EDR) stopped the infection roughly 90 seconds after the installer launched. In mid-September 2026, a user searched Google for oCam and [&#8230;]\nThe post Hackers Use Suspected SEO Pois",
+      "pubDate": "Thu, 26 Nov 2026 09:20:53 +0000",
+      "source": "GBHackers",
+      "cat": "malware",
       "sev": "high",
       "tags": [],
       "iocs": {
@@ -760,12 +956,31 @@
       "ts": 0
     },
     {
-      "id": "Securi-3b2cf9c5400f",
-      "title": "An Unclassified CIA System Was Breached in a Cyberattack, AP Source Says",
-      "link": "https://www.securityweek.com/an-unclassified-cia-system-was-breached-in-a-cyberattack-ap-source-says/",
-      "desc": "It was not clear what specific information was compromised or who was responsible.\nThe post An Unclassified CIA System Was Breached in a Cyberattack, AP Source Says appeared first on SecurityWeek.",
-      "pubDate": "Tue, 24 Nov 2026 22:41:58 +0000",
-      "source": "SecurityWeek",
+      "id": "GBHack-ac98ba73437a",
+      "title": "FIFA Confirms Data Breach After Hackers Steal Personal and Business Information",
+      "link": "https://gbhackers.com/fifa-confirms-data-breach/",
+      "desc": "FIFA confirmed that attackers gained unauthorized access to a “limited set of personal and business information.” At the same time, Spain’s LaLiga disclosed a separate intrusion that exposed personal data belonging to users of its digital fan services and those of several clubs. The disclosures point to two distinct incidents, FIFA has not publicly identified [&#8230;]\nThe post FIFA Confirms Data ",
+      "pubDate": "Thu, 26 Nov 2026 09:13:14 +0000",
+      "source": "GBHackers",
+      "cat": "breaches",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "GBHack-b09d4d0470a3",
+      "title": "1Password Data Breach – Hackers Compromise GitHub Account to Steal Customer Data and Source Code",
+      "link": "https://gbhackers.com/1password-data-breach-hackers-compromise-github-account/",
+      "desc": "1Password announced that an attacker had compromised a corporate GitHub account belonging to an employee. The attacker copied source code from private repositories and stole account information from some customers. However, 1Password confirmed that the attacker did not access or obtain customer vaults or their contents. The company did not specify how many customer accounts [&#8230;]\nThe post 1Pas",
+      "pubDate": "Thu, 26 Nov 2026 07:17:29 +0000",
+      "source": "GBHackers",
       "cat": "breaches",
       "sev": "critical",
       "tags": [],
@@ -779,14 +994,52 @@
       "ts": 0
     },
     {
-      "id": "Securi-53671d5a8702",
-      "title": "VMware Updates Patch Critical ESX, vCenter Vulnerabilities",
-      "link": "https://www.securityweek.com/vmware-updates-patch-critical-esx-vcenter-vulnerabilities/",
-      "desc": "The critical bugs include an authentication bypass in vCenter and flaws that could allow code execution on ESX hosts.\nThe post VMware Updates Patch Critical ESX, vCenter Vulnerabilities appeared first on SecurityWeek.",
-      "pubDate": "Tue, 24 Nov 2026 16:32:56 +0000",
-      "source": "SecurityWeek",
+      "id": "GBHack-ebe81c58d440",
+      "title": "OpenAI AI Agents Bypass Security Restrictions to Access Australian Government Systems",
+      "link": "https://gbhackers.com/openai-ai-agents/",
+      "desc": "OpenAI models under internal training escaped their sandboxes in June 2026 and reached Australian government systems. Talos&#8217;s analysis of the swarm&#8217;s public traces shows how multi-agent systems improvise when blocked, and those behaviors are now appearing in real attack frameworks. OpenAI says experimental internal models without full safeguards accessed Australian government websites ",
+      "pubDate": "Thu, 26 Nov 2026 06:26:29 +0000",
+      "source": "GBHackers",
+      "cat": "threats",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "HackRe-f35b5aca3d3f",
+      "title": "905,672 Characters Under Black Rectangles: Why a Qualified Signature Can’t Vouch for a GDPR Export",
+      "link": "https://hackread.com/905672-characters-qualified-signature-gdpr-export/",
+      "desc": "A signed GDPR export left 905,672 characters readable beneath black boxes, showing why a valid PDF signature cannot verify redactions or completeness.",
+      "pubDate": "Thu, 26 Nov 2026 10:46:47 +0000",
+      "source": "HackRead",
       "cat": "threats",
       "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "HackRe-dc8cc9197052",
+      "title": "Hackers used Hugging Face’s AI site builder to create fake Microsoft login pages",
+      "link": "https://hackread.com/hackers-hugging-face-ai-site-builder-fake-microsoft-login-pages/",
+      "desc": "Researchers found 42 phishing pages on Hugging Face Spaces, 29 built via its DeepSite AI app. The pages impersonated Microsoft, PayPal and 26 other brands.",
+      "pubDate": "Thu, 26 Nov 2026 09:28:59 +0000",
+      "source": "HackRead",
+      "cat": "threats",
+      "sev": "high",
       "tags": [],
       "iocs": {
         "cves": [],
@@ -936,44 +1189,6 @@
       "link": "https://hackread.com/when-threat-intelligence-works-against-soc-pattern/",
       "desc": "Poor threat intelligence can slow your SOC. Learn how to fix three recurring problems: gaps in threat data, delayed updates and too many manual tasks.",
       "pubDate": "Tue, 24 Nov 2026 12:51:04 +0000",
-      "source": "HackRead",
-      "cat": "threats",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "HackRe-d28ad652cea9",
-      "title": "UK Retailer Next Discloses Cyber Incident at Online Supplier",
-      "link": "https://hackread.com/uk-retailer-next-cyber-incident-online-supplier/",
-      "desc": "UK retailer Next says an online supplier cyber incident exposed its company information. It found no evidence that customer personal data was exposed.",
-      "pubDate": "Tue, 24 Nov 2026 08:56:13 +0000",
-      "source": "HackRead",
-      "cat": "threats",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "HackRe-f66b38cb3825",
-      "title": "How to Use Camera Tracking to Make Your Videos More Dynamic",
-      "link": "https://hackread.com/how-to-use-camera-tracking-make-videos-dynamic/",
-      "desc": "Discover ways to use camera tracking to bring more life and activity into your videos. Get hands-on methods for adding movement, effects, and dimension to your videos.",
-      "pubDate": "Mon, 23 Nov 2026 20:12:15 +0000",
       "source": "HackRead",
       "cat": "threats",
       "sev": "medium",
@@ -2254,18 +2469,18 @@
       "sev": "high",
       "tags": [
         {
-          "t": "CVE-2026-109619",
+          "t": "CVE-2026-109618",
           "cls": "cve"
         },
         {
-          "t": "CVE-2026-109618",
+          "t": "CVE-2026-109619",
           "cls": "cve"
         }
       ],
       "iocs": {
         "cves": [
-          "CVE-2026-109619",
-          "CVE-2026-109618"
+          "CVE-2026-109618",
+          "CVE-2026-109619"
         ],
         "ips": [],
         "hashes": []
@@ -2338,6 +2553,44 @@
       "desc": "&lt;p&gt;This article was first published &lt;a href=&quot;https://www.linkedin.com/pulse/building-intent-based-access-control-without-reading-minds-borges-dxg6e/&quot; target=&quot;_self&quot;&gt;on LinkedIn&lt;/a&gt;.&lt;/p&gt;Categories: AI Research, Threat ResearchTags: AI, AI RESEARCH, Threat Research",
       "pubDate": "Tue, 13 Oct 2026 00:00:00 GMT",
       "source": "Sophos Research",
+      "cat": "malware",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "Malwar-7a4e40c0fbea",
+      "title": "Why New York is banning AI chatbot toys",
+      "link": "https://www.malwarebytes.com/blog/ai/2026/11/why-new-york-is-banning-ai-chatbot-toys",
+      "desc": "New York’s five-year ban on making, distributing, and selling AI chatbot toys starts February 22, after the holiday shopping season.",
+      "pubDate": "Thu, 26 Nov 2026 12:20:27 GMT",
+      "source": "Malwarebytes",
+      "cat": "malware",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "Malwar-eeb582655bb7",
+      "title": "Teen missing for 521 days found help through Among Us chat",
+      "link": "https://www.malwarebytes.com/blog/family-and-parenting/2026/11/teen-missing-for-521-days-found-help-through-among-us-chat",
+      "desc": "A conversation that began in online game Among Us helped the FBI find a 17-year-old who’d been missing for over a year.",
+      "pubDate": "Thu, 26 Nov 2026 10:57:25 GMT",
+      "source": "Malwarebytes",
       "cat": "malware",
       "sev": "medium",
       "tags": [],
@@ -2587,44 +2840,6 @@
       "source": "Malwarebytes",
       "cat": "malware",
       "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "Malwar-c998dfad6d6c",
-      "title": "Scattered Spider’s phishing and SIM-swap tactics led to six-year sentence",
-      "link": "https://www.malwarebytes.com/blog/news/2026/11/scattered-spiders-phishing-and-sim-swap-tactics-led-to-six-year-sentence",
-      "desc": "Scattered Spider used fake texts to break into systems and SIM swaps to intercept security codes. Here’s how to protect your number.",
-      "pubDate": "Thu, 19 Nov 2026 09:41:18 GMT",
-      "source": "Malwarebytes",
-      "cat": "malware",
-      "sev": "critical",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "Malwar-224a2f3c2120",
-      "title": "Outage or attack? Don’t let social media fill in the gaps",
-      "link": "https://www.malwarebytes.com/blog/ai/2026/11/outage-or-attack-dont-let-social-media-fill-in-the-gaps",
-      "desc": "Recent outages and attacks have people worried, sometimes needlessly. Don’t let social media turn a bug into a disaster.",
-      "pubDate": "Wed, 18 Nov 2026 22:07:01 GMT",
-      "source": "Malwarebytes",
-      "cat": "malware",
-      "sev": "high",
       "tags": [],
       "iocs": {
         "cves": [],
@@ -3254,18 +3469,18 @@
       "sev": "high",
       "tags": [
         {
-          "t": "CVE-2026-109619",
+          "t": "CVE-2026-109618",
           "cls": "cve"
         },
         {
-          "t": "CVE-2026-109618",
+          "t": "CVE-2026-109619",
           "cls": "cve"
         }
       ],
       "iocs": {
         "cves": [
-          "CVE-2026-109619",
-          "CVE-2026-109618"
+          "CVE-2026-109618",
+          "CVE-2026-109619"
         ],
         "ips": [],
         "hashes": []
