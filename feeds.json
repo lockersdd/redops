@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T05:15:22.234295+00:00",
+  "generated_at": "2026-11-27T15:27:54.668003+00:00",
   "sources_ok": 15,
   "sources_total": 20,
   "source_status": {
@@ -92,6 +92,101 @@
   "total": 190,
   "articles": [
     {
+      "id": "TheHa-a695d8769d5b",
+      "title": "Microsoft Store App Found Delivering Vinci RAT Capable of Remote System Control",
+      "link": "https://thehackernews.com/2026/11/microsoft-store-app-found-delivering.html",
+      "desc": "Cybersecurity researchers have disclosed details of a cyber attack in which a threat actor leveraged a Microsoft Store application to deliver a remote access trojan (RAT) called Vinci RAT.\n\nThe intrusion, according to eSentire, begins with a redirection to a bogus site for a sniping tool (\"snipp.codes-team[.]com\"), from where a Microsoft-signed installer called \"Snipping-Tool.exe\" is",
+      "pubDate": "Fri, 27 Nov 2026 17:19:34 +0530",
+      "source": "The Hacker News",
+      "cat": "malware",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "TheHa-a69f3594bfe9",
+      "title": "How to Keep Your Security Picture Current When Attackers Move at AI Speed",
+      "link": "https://thehackernews.com/2026/11/how-to-keep-your-security-picture.html",
+      "desc": "Most security metrics are not built to be used. They are built to be shown. Somewhere between the quarterly review and the next status update, a set of numbers gets assembled that looks reassuring in a room and tells almost no one what is actually happening across the environment that week. Someone pulls them together the week before, cleans them up, and presents a picture of a program that is,",
+      "pubDate": "Fri, 27 Nov 2026 16:02:18 +0530",
+      "source": "The Hacker News",
+      "cat": "threats",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "TheHa-23c9bfe37ab1",
+      "title": "Hackers Trojanize Official Q-Dir and DesktopOK Downloads to Deliver Remote Access Malware",
+      "link": "https://thehackernews.com/2026/11/hackers-trojanize-official-q-dir-and.html",
+      "desc": "Cybersecurity researchers have disclosed details of a software supply chain attack that has tampered with Q-Dir and DesktopOK installation files distributed via the official SoftwareOK website.\n\n\"Evidence indicates that malicious files were generated not only when users downloaded the programs directly from the official download page but also during the update process of previously installed",
+      "pubDate": "Fri, 27 Nov 2026 14:59:30 +0530",
+      "source": "The Hacker News",
+      "cat": "malware",
+      "sev": "critical",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "TheHa-99b1e69fbfaa",
+      "title": "Switzerland Confirms AI-Assisted Cyberattacks Breached Critical Infrastructure Operators",
+      "link": "https://thehackernews.com/2026/11/switzerland-confirms-ai-assisted.html",
+      "desc": "Attackers using AI agents have broken into computer systems at Swiss organizations in four of five confirmed attacks, the first such cases in the country, the country's cybersecurity agency said yesterday.\n\nThree of the attacks targeted critical infrastructure operators, and two of those succeeded, with no major disruptions reported. The victims have not been named, and it is not known who is",
+      "pubDate": "Fri, 27 Nov 2026 11:34:20 +0530",
+      "source": "The Hacker News",
+      "cat": "breaches",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "TheHa-989e8ab82f16",
+      "title": "Unpatched Cacti Zero-Day Enables RCE in Just Four HTTP Requests via Guest Access",
+      "link": "https://thehackernews.com/2026/11/unpatched-cacti-zero-day-enables-rce-in.html",
+      "desc": "Details have emerged about a new zero-day vulnerability in Cacti, an open-source network monitoring tool, that could be exploited to achieve remote code execution.\n\nThe proof-of-concept (PoC) exploit, which has yet to be assigned a CVE identifier, has been tracked as 4HTTP2SHELL and 4HTTP2ROOT.\n\n\"I found a path from a fresh, unauthenticated HTTP session to command execution as the Cacti server",
+      "pubDate": "Fri, 27 Nov 2026 11:18:20 +0530",
+      "source": "The Hacker News",
+      "cat": "threats",
+      "sev": "critical",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
       "id": "TheHa-2ff53705a203",
       "title": "ThreatsDay: 10M NGINX Services at Risk, 250+ Malicious Extensions, AI Server Hijacking + 17 More Stories",
       "link": "https://thehackernews.com/2026/11/threatsday-250-rogue-extensions-10m.html",
@@ -114,7 +209,7 @@
       "id": "TheHa-919a0233eb0b",
       "title": "North Korea-Linked PolinRider Poisons Over 7,600 GitHub Repositories to Spread Malware",
       "link": "https://thehackernews.com/2026/11/north-korea-linked-polinrider-poisons.html",
-      "desc": "The threat actors behind the PolinRider campaign have been observed planting a Python loader in GitHub repositories, as evidence emerges that the activity may have started as far back as February 2025.\n\n\"The loader hides in a small utils package or in conftest.py,\" SafeDep said in a report published this week. \"When Python imports the file, the loader reads the newest transaction that an",
+      "desc": "The threat actors behind the PolinRider campaign have compromised over 7,600 GitHub repositories, in some cases planting a Python loader capable of delivering next-stage payloads, as evidence emerges that the activity may have started as far back as February 2025.\n\n\"These are real developers, not throwaway accounts,\" Apiiro researcher Shmulik Cohen said. \"6,541 of the 7,609 repos (86%) belong",
       "pubDate": "Thu, 26 Nov 2026 20:43:41 +0530",
       "source": "The Hacker News",
       "cat": "malware",
@@ -254,18 +349,18 @@
       "sev": "critical",
       "tags": [
         {
-          "t": "CVE-2026-120705",
+          "t": "CVE-2026-129243",
           "cls": "cve"
         },
         {
-          "t": "CVE-2026-129243",
+          "t": "CVE-2026-120705",
           "cls": "cve"
         }
       ],
       "iocs": {
         "cves": [
-          "CVE-2026-120705",
-          "CVE-2026-129243"
+          "CVE-2026-129243",
+          "CVE-2026-120705"
         ],
         "ips": [],
         "hashes": []
@@ -302,108 +397,6 @@
       "source": "The Hacker News",
       "cat": "breaches",
       "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "TheHa-f5142a57bc20",
-      "title": "Drupal Fail2Install Exploit Details Emerge as Critical RCE Flaw Faces Active Exploitation",
-      "link": "https://thehackernews.com/2026/11/drupal-fail2install-exploit-details.html",
-      "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a critical flaw impacting Drupal to its Known Exploited Vulnerabilities (KEV) catalog, requiring federal agencies to apply the fixes by November 27, 2026.\n\nThe vulnerability, tracked as CVE-2026-132165 aka Fail2Install (CVSS score: 9.8), is a case of remote code execution (RCE) impacting Drupal core.\n\n\"Drupal Core",
-      "pubDate": "Wed, 25 Nov 2026 16:53:26 +0530",
-      "source": "The Hacker News",
-      "cat": "threats",
-      "sev": "critical",
-      "tags": [
-        {
-          "t": "CVE-2026-132165",
-          "cls": "cve"
-        }
-      ],
-      "iocs": {
-        "cves": [
-          "CVE-2026-132165"
-        ],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "TheHa-0f0f351911a5",
-      "title": "Ex-OpenAI Employee Accused of Bugging Company Offices Granted $1 Million Bail",
-      "link": "https://thehackernews.com/2026/11/ex-openai-employee-accused-of-bugging.html",
-      "desc": "A former OpenAI employee accused of concealing a covert recording device at the company's San Francisco offices will be allowed to be released from jail on a $1 million bond, a San Francisco federal court judge ruled Tuesday.\n\nAbdulrahman Alfozan, a 35-year-old Saudi national, was arrested on October 9, 2026, for allegedly bugging the artificial intelligence (AI) company's offices with the aim",
-      "pubDate": "Wed, 25 Nov 2026 16:13:07 +0530",
-      "source": "The Hacker News",
-      "cat": "threats",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "TheHa-c627b931d4ee",
-      "title": "Hackers Exploited CVSS 10.0 Hex.pm RCE Flaw to Compromise 6 Package Registry Servers",
-      "link": "https://thehackernews.com/2026/11/hackers-exploited-cvss-100-hexpm-rce.html",
-      "desc": "An attacker ran operating system commands on Monday on six production servers of Hex.pm, the package registry that Elixir and Erlang developers fetch their dependencies from.\n\nThe flaw used in the attack had been in the registry's code since February 2016, and the team that maintains the service had every server on a patched build within about 15 minutes of the first malicious request.\n\nChecks",
-      "pubDate": "Wed, 25 Nov 2026 14:36:59 +0530",
-      "source": "The Hacker News",
-      "cat": "threats",
-      "sev": "critical",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "TheHa-17cb595d329f",
-      "title": "Hackers Compromise 24 Check Point Management Servers in Suspected AI-Driven Attack Campaign",
-      "link": "https://thehackernews.com/2026/11/hackers-compromise-24-check-point.html",
-      "desc": "An unknown threat actor has been using artificial intelligence (AI)-driven offensive tooling in a campaign targeting Check Point Security Management servers, impacting 22 distinct organizations across the world.\n\nThe intrusion activity, tracked by GreyNoise under the moniker GreyNoise Threat 13 (GT13), is assessed to have targeted organizations in the financial services, energy, government,",
-      "pubDate": "Wed, 25 Nov 2026 12:20:19 +0530",
-      "source": "The Hacker News",
-      "cat": "threats",
-      "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "TheHa-046e8eaab5fa",
-      "title": "Com-Affiliated Hackers Hijack Cloud Accounts via Vishing for Data Theft and Extortion",
-      "link": "https://thehackernews.com/2026/11/com-affiliated-hackers-hijack-cloud.html",
-      "desc": "Palo Alto Networks Unit 42 has disclosed that it's tracking and has responded to \"numerous waves of vishing attacks\" orchestrated by Com-affiliated threat actors since August 2026 that have led to data theft and extortion attempts.\n\nThe attacks have targeted financial services, healthcare, and legal services located in the U.S., the U.K., and Australia. Other targets include construction,",
-      "pubDate": "Wed, 25 Nov 2026 12:07:06 +0530",
-      "source": "The Hacker News",
-      "cat": "threats",
-      "sev": "high",
       "tags": [],
       "iocs": {
         "cves": [],
@@ -605,6 +598,82 @@
       "ts": 0
     },
     {
+      "id": "Securi-6ddb5045ecb2",
+      "title": "In Other News: Tanker Cyberattacks, EU Quantum Act, New VirusTotal Capabilities",
+      "link": "https://www.securityweek.com/in-other-news-tanker-cyberattacks-eu-quantum-act-new-virustotal-capabilities/",
+      "desc": "Noteworthy stories that might have slipped under the radar: RansomwareHelp accused of profiting from ransom payments, USDA payment systems breach, cybersecurity firm Radware hacked. \nThe post In Other News: Tanker Cyberattacks, EU Quantum Act, New VirusTotal Capabilities appeared first on SecurityWeek.",
+      "pubDate": "Fri, 27 Nov 2026 11:00:00 +0000",
+      "source": "SecurityWeek",
+      "cat": "breaches",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "Securi-efa132b75ac5",
+      "title": "100,000 Potentially Impacted by Colorado Data Breach",
+      "link": "https://www.securityweek.com/100000-potentially-impacted-by-colorado-data-breach/",
+      "desc": "Hackers breached the digital identification and document storage application myColorado and accessed user-uploaded data.\nThe post 100,000 Potentially Impacted by Colorado Data Breach appeared first on SecurityWeek.",
+      "pubDate": "Fri, 27 Nov 2026 09:30:54 +0000",
+      "source": "SecurityWeek",
+      "cat": "breaches",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "Securi-63328f8b0ccc",
+      "title": "Hex Package Manager Warns of Potential Data Breach",
+      "link": "https://www.securityweek.com/hex-package-manager-warns-of-potential-data-breach/",
+      "desc": "A vulnerability in hex.pm allowed hackers to run commands on web servers. No evidence of data modification was found, but database reads are not logged.\nThe post Hex Package Manager Warns of Potential Data Breach appeared first on SecurityWeek.",
+      "pubDate": "Fri, 27 Nov 2026 07:44:49 +0000",
+      "source": "SecurityWeek",
+      "cat": "breaches",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "Securi-f147f27abcd0",
+      "title": "SAP Confirms Cyberattack, Source Code Reportedly Compromised",
+      "link": "https://www.securityweek.com/sap-confirms-cyberattack-source-code-reportedly-compromised/",
+      "desc": "SAP has detected suspicious activity on GitHub, where hackers reportedly used stolen employee tokens to copy and alter source code.\nThe post SAP Confirms Cyberattack, Source Code Reportedly Compromised   appeared first on SecurityWeek.",
+      "pubDate": "Fri, 27 Nov 2026 07:36:14 +0000",
+      "source": "SecurityWeek",
+      "cat": "threats",
+      "sev": "critical",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
       "id": "Securi-2ff1e4e20ae7",
       "title": "FIFA Says It Has Been Victim of a Cyberattack Accessing ‘Personal and Business Information’",
       "link": "https://www.securityweek.com/fifa-says-it-has-been-victim-of-a-cyberattack-accessing-personal-and-business-information/",
@@ -726,109 +795,14 @@
       "ts": 0
     },
     {
-      "id": "Securi-5c16d7064ad7",
-      "title": "ShinyHunters Claims Comeback, New Inception Group Rejects Alleged Ties",
-      "link": "https://www.securityweek.com/shinyhunters-claims-comeback-new-inception-group-rejects-alleged-ties/",
-      "desc": "An account tied to ShinyHunters announced the group’s return, as Okta spots possible links between Inception and ShinyHunters hackers.\nThe post ShinyHunters Claims Comeback, New Inception Group Rejects Alleged Ties appeared first on SecurityWeek.",
-      "pubDate": "Wed, 25 Nov 2026 14:15:25 +0000",
-      "source": "SecurityWeek",
-      "cat": "threats",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "Securi-c3f4378453f1",
-      "title": "US Treasury’s FinCEN Disconnects Systems Following Cyber Incident",
-      "link": "https://www.securityweek.com/us-treasurys-fincen-disconnects-systems-following-cyber-incident/",
-      "desc": "FinCEN has extended deadlines for filers affected by the disruptions while it is investigating the incident.\nThe post US Treasury&#8217;s FinCEN Disconnects Systems Following Cyber Incident appeared first on SecurityWeek.",
-      "pubDate": "Wed, 25 Nov 2026 13:39:21 +0000",
-      "source": "SecurityWeek",
-      "cat": "threats",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "Securi-cb0c3d380869",
-      "title": "Ground Truth: CISO Matt Martin on Building a Real Security Program Without an Enterprise Budget",
-      "link": "https://www.securityweek.com/ground-truth-ciso-matt-martin-on-building-a-real-security-program-without-an-enterprise-budget/",
-      "desc": "Matthew Martin is Chief Information Security and Privacy Officer at Western Carolina University.\nThe post Ground Truth: CISO Matt Martin on Building a Real Security Program Without an Enterprise Budget appeared first on SecurityWeek.",
-      "pubDate": "Wed, 25 Nov 2026 13:30:00 +0000",
-      "source": "SecurityWeek",
-      "cat": "threats",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "Securi-4da18cb23d9b",
-      "title": "Plagiarism Checker Turnitin Investigating Cyberattack",
-      "link": "https://www.securityweek.com/plagiarism-checker-turnitin-investigating-cyberattack/",
-      "desc": "The edtech company says the systems are fully operational and safe to use while it investigates the incident.\nThe post Plagiarism Checker Turnitin Investigating Cyberattack appeared first on SecurityWeek.",
-      "pubDate": "Wed, 25 Nov 2026 10:40:07 +0000",
-      "source": "SecurityWeek",
-      "cat": "threats",
-      "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "GBHack-ad189e3e0af3",
-      "title": "The Anatomy of Tag Leakage: How Pixels, Session Replays, and Trackers Bypass Standard Banners",
-      "link": "https://gbhackers.com/the-anatomy-of-tag-leakage-how-pixels-session-replays-and-trackers-bypass-standard-banners/",
-      "desc": "A consent banner is a preference requirement. It writes a cookie or localStorage key recording the visitor&#8217;s choice for any code that decides to read it. Nothing in the banner stops a script tag from executing or a request from leaving the browser. Tag leakage is the gap between those two things: the banner says [&#8230;]\nThe post The Anatomy of Tag Leakage: How Pixels, Session Replays, and ",
-      "pubDate": "Thu, 26 Nov 2026 16:00:48 +0000",
-      "source": "GBHackers",
-      "cat": "breaches",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "GBHack-2425486269f2",
-      "title": "Hackers Infect 5,600 Devices With Stealthy Malware That Hides Remote-Control Commands in Normal Traffic",
-      "link": "https://gbhackers.com/stealthy-malware-campaign/",
-      "desc": "A new variant of the Cling botnet has infected about 5,600 devices. It hides its command-and-control (C&#38;C) traffic inside ordinary STUN exchanges, which makes it hard to spot. China&#8217;s CNCERT reported the spread in November 2026. The botnet mainly targets Linux servers and IoT devices. STUN helps devices behind a NAT discover their public address [&#8230;]\nThe post Hackers Infect 5,600 De",
-      "pubDate": "Thu, 26 Nov 2026 12:21:42 +0000",
+      "id": "GBHack-552a28cea90a",
+      "title": "Hackers Hide Malware as Google Sheets to Secretly Read Your Gmail Messages",
+      "link": "https://gbhackers.com/secret-gmail-access/",
+      "desc": "Remus Stealer&#8217;s operators are advertising a way to open a victim&#8217;s Gmail inbox directly from a stolen-device record. They claim access survives password changes and session revocation. The evidence points to a mailbox-access workflow built into an infostealer service. It does not show a Gmail zero-day. The version 1.3.9 announcement promotes email-code interception without collecting [",
+      "pubDate": "Fri, 27 Nov 2026 11:36:59 +0000",
       "source": "GBHackers",
       "cat": "malware",
-      "sev": "high",
+      "sev": "critical",
       "tags": [],
       "iocs": {
         "cves": [],
@@ -840,42 +814,23 @@
       "ts": 0
     },
     {
-      "id": "GBHack-bebc3770ce6a",
-      "title": "Windows NTLM Security Update Causes Authentication Failures in Third-Party Apps and Devices",
-      "link": "https://gbhackers.com/windows-ntlm-security-update-causes-authentication-failures/",
-      "desc": "Microsoft has confirmed that Windows security updates released on or after November 10, 2026, can cause authentication failures in some third-party applications and devices that rely on NT LAN Manager (NTLM). Affected products can include authentication proxy servers, single sign-on (SSO) solutions, and application packaging tools. Microsoft documented the issue in KB5135557 after rolling out [&#8",
-      "pubDate": "Thu, 26 Nov 2026 12:10:20 +0000",
+      "id": "GBHack-97d8f2cca0f1",
+      "title": "GitHub RCE Vulnerability Allows Hackers to Compromise Servers With a Single Git Push Command",
+      "link": "https://gbhackers.com/github-rce-vulnerability/",
+      "desc": "A serious vulnerability in GitHub&#8217;s internal Git infrastructure allowed an authenticated user to execute arbitrary commands on the server while processing a single git push. This flaw, identified as CVE-2026-3854, impacted GitHub.com, GitHub Enterprise Cloud, and self-hosted GitHub Enterprise Server (GHES). Wiz Research discovered the issue and reported it through GitHub&#8217;s bug bounty p",
+      "pubDate": "Fri, 27 Nov 2026 10:14:56 +0000",
       "source": "GBHackers",
       "cat": "threats",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "GBHack-44c1e2c98980",
-      "title": "Hackers Actively Exploit Critical Drupal Vulnerability to Take Over Websites",
-      "link": "https://gbhackers.com/hackers-actively-exploit-critical-drupal-vulnerability/",
-      "desc": "Hackers are actively exploiting CVE-2026-136716, a Drupal core access bypass that allows unauthenticated attackers to take over vulnerable websites. The Drupal Security Team confirmed exploitation in its November 25 security advisory, rating the flaw 21 out of 25 on its severity scale. Some production sites remain exposed even if administrators installed the previous round of [&#8230;]\nThe post Ha",
-      "pubDate": "Thu, 26 Nov 2026 11:50:47 +0000",
-      "source": "GBHackers",
-      "cat": "threats",
-      "sev": "high",
+      "sev": "critical",
       "tags": [
         {
-          "t": "CVE-2026-136716",
+          "t": "CVE-2026-3854",
           "cls": "cve"
         }
       ],
       "iocs": {
         "cves": [
-          "CVE-2026-136716"
+          "CVE-2026-3854"
         ],
         "ips": [],
         "hashes": []
@@ -885,14 +840,14 @@
       "ts": 0
     },
     {
-      "id": "GBHack-5d26b494c8a2",
-      "title": "Critical GeoServer Vulnerability Chain Lets Hackers Execute Remote Commands Without Authentication",
-      "link": "https://gbhackers.com/critical-geoserver-vulnerability-chain/",
-      "desc": "Five vulnerabilities in GeoServer, an open-source server for publishing geospatial data, can be chained to execute operating system commands without valid credentials. Security researcher CryptoCat demonstrated the chain on a default Linux installation, while watchTowr reported seeing attempts to exploit two of the flaws in its honeypot network. The observations show attackers probing exposed serv",
-      "pubDate": "Thu, 26 Nov 2026 11:38:21 +0000",
+      "id": "GBHack-c59735794182",
+      "title": "Fake Telegram Job Ads Linked to Espionage Recruitment and Paid Arson Offers",
+      "link": "https://gbhackers.com/fake-telegram-job-ads/",
+      "desc": "A Telegram network that mixes ordinary-looking job ads with overt intelligence recruitment and paid-crime offers. They tracked 88 accounts that published 3,089 recruitment posts between August 2024 and October 2026. The posts appeared in communities across Israel, the Gulf states, the UK and the US. Group-IB found the activity using its Threat Intelligence platform, which [&#8230;]\nThe post Fake T",
+      "pubDate": "Fri, 27 Nov 2026 09:36:02 +0000",
       "source": "GBHackers",
       "cat": "threats",
-      "sev": "critical",
+      "sev": "medium",
       "tags": [],
       "iocs": {
         "cves": [],
@@ -904,61 +859,23 @@
       "ts": 0
     },
     {
-      "id": "GBHack-d378b597a2ba",
-      "title": "Hackers Poison GitHub Pull Requests With Malware That Can Steal Developer Passwords",
-      "link": "https://gbhackers.com/github-pull-requests/",
-      "desc": "A threat actor used rewritten commits in open GitHub pull requests to deliver the PolinRider credential-stealing loader. It targeted AsyncAPI Generator, CircuitVerse and Open Food Facts. None of the account&#8217;s 145 merged pull requests carries the loader, but CircuitVerse&#8217;s CI ran it and published 40 infected installers. On November 25, AsyncAPI Generator maintainer Lukasz Gornicki [&#82",
-      "pubDate": "Thu, 26 Nov 2026 11:11:04 +0000",
-      "source": "GBHackers",
-      "cat": "malware",
-      "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "GBHack-a902b0962171",
-      "title": "CISA Warns of 10 Actively Exploited Vulnerabilities in Juniper, Mitel, Danfoss, and Vates Products",
-      "link": "https://gbhackers.com/cisa-warns-of-10-actively-exploited-vulnerabilities/",
-      "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) added 10 vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog on November 25, 2026, citing evidence of in-the-wild exploitation. The CISA alert covers five flaws in Mitel MiCollab, three in the Danfoss AK-SM 800A Series, one in HPE Juniper Session Smart products, and one in Vates Xen [&#8230;]\nThe post CISA Warns of 1",
-      "pubDate": "Thu, 26 Nov 2026 09:33:17 +0000",
-      "source": "GBHackers",
-      "cat": "threats",
-      "sev": "critical",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "GBHack-5a1a37613f76",
-      "title": "Critical Danfoss Refrigeration Controller Vulnerability Could Let Hackers Execute Arbitrary Code Remotely",
-      "link": "https://gbhackers.com/critical-danfoss-refrigeration-controller-vulnerability/",
-      "desc": "A critical vulnerability in Danfoss AK-SM 8xxA Series refrigeration controllers could allow remote attackers to execute arbitrary code without logging in. The flaw, tracked as CVE-2026-129713, affects software version 5.4.0 and earlier. In its November 24, 2026, industrial control systems advisory, the U.S. Cybersecurity and Infrastructure Security Agency (CISA) said no known public exploitation h",
-      "pubDate": "Thu, 26 Nov 2026 09:23:18 +0000",
+      "id": "GBHack-2ba658a8d025",
+      "title": "Critical Erlang/OTP Vulnerability Allows Hackers to Bypass TLS Certificate Authentication",
+      "link": "https://gbhackers.com/critical-erlang-otp-vulnerability/",
+      "desc": "A critical vulnerability has been identified in the Erlang/OTP SSL application that affects TLS 1.2 clients. This vulnerability allows these clients to complete a handshake without properly authenticating the server, even when certificate verification is enabled. Tracked as CVE-2026-124286, this flaw lets an attacker in a man-in-the-middle position impersonate a legitimate server, allowing them to",
+      "pubDate": "Fri, 27 Nov 2026 09:32:29 +0000",
       "source": "GBHackers",
       "cat": "threats",
       "sev": "critical",
       "tags": [
         {
-          "t": "CVE-2026-129713",
+          "t": "CVE-2026-124286",
           "cls": "cve"
         }
       ],
       "iocs": {
         "cves": [
-          "CVE-2026-129713"
+          "CVE-2026-124286"
         ],
         "ips": [],
         "hashes": []
@@ -968,11 +885,49 @@
       "ts": 0
     },
     {
-      "id": "GBHack-a9410a0d1a6e",
-      "title": "Hackers Use Suspected SEO Poisoning to Lure Users Into Downloading Gh0stRAT Malware",
-      "link": "https://gbhackers.com/seo-poisoning-campaign-2/",
-      "desc": "A Gh0stRAT campaign that hides behind a working copy of the OhSoft oCam screen recorder. Researchers link the activity to Silver Fox and suspect SEO poisoning as the delivery method. Endpoint detection and response (EDR) stopped the infection roughly 90 seconds after the installer launched. In mid-September 2026, a user searched Google for oCam and [&#8230;]\nThe post Hackers Use Suspected SEO Pois",
-      "pubDate": "Thu, 26 Nov 2026 09:20:53 +0000",
+      "id": "GBHack-8efaa43dc5c5",
+      "title": "Tor Browser 15.0.23 Released With Fixes for Security Bypass Vulnerabilities",
+      "link": "https://gbhackers.com/tor-browser-15-0-23-released/",
+      "desc": "The Tor Project released Tor Browser version 15.0.23, addressed two vulnerabilities that allowed WebAssembly to run despite restrictions imposed by the browser’s Safer security level. The update also included security patches from Mozilla and upgraded the NoScript extension across all platforms. An issue with signing the Windows installer affected how users could obtain the release; [&#8230;]\nThe ",
+      "pubDate": "Fri, 27 Nov 2026 09:20:53 +0000",
+      "source": "GBHackers",
+      "cat": "threats",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "GBHack-c030d0d5cf5e",
+      "title": "Cacti 4HTTP2ROOT Zero-Day Enables Unauthenticated Remote Code Execution",
+      "link": "https://gbhackers.com/cacti-4http2root-zero-day/",
+      "desc": "A zero-day vulnerability known as 4HTTP2ROOT allows remote attackers to execute operating system commands on Cacti version 1.2.31 without valid credentials if anonymous guest access is enabled. Security researcher ek0ms savi0r disclosed this flaw on November 26, 2026. Previdian confirmed a public proof of concept in their lab. At the time of disclosure, no official [&#8230;]\nThe post Cacti 4HTTP2R",
+      "pubDate": "Fri, 27 Nov 2026 09:10:37 +0000",
+      "source": "GBHackers",
+      "cat": "threats",
+      "sev": "critical",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "GBHack-dbc8f46ff2bd",
+      "title": "Hackers Hide Remote-Control Malware in Official Software Downloads That Appear to Work Normally",
+      "link": "https://gbhackers.com/q-dir-and-desktop-ok-installers/",
+      "desc": "Attackers have turned the official SoftwareOK website into a malware delivery channel. They tampered with Q-Dir and DesktopOK installers so the programs run normally. SoftwareOK distributes free Windows utilities such as Q-Dir, DesktopOK and WinScan2PDF. ASEC says the malicious files came through the official distribution path, not through third-party mirrors or advertisements. The affected builds",
+      "pubDate": "Fri, 27 Nov 2026 08:21:29 +0000",
       "source": "GBHackers",
       "cat": "malware",
       "sev": "high",
@@ -987,13 +942,89 @@
       "ts": 0
     },
     {
-      "id": "GBHack-ac98ba73437a",
-      "title": "FIFA Confirms Data Breach After Hackers Steal Personal and Business Information",
-      "link": "https://gbhackers.com/fifa-confirms-data-breach/",
-      "desc": "FIFA confirmed that attackers gained unauthorized access to a “limited set of personal and business information.” At the same time, Spain’s LaLiga disclosed a separate intrusion that exposed personal data belonging to users of its digital fan services and those of several clubs. The disclosures point to two distinct incidents, FIFA has not publicly identified [&#8230;]\nThe post FIFA Confirms Data ",
-      "pubDate": "Thu, 26 Nov 2026 09:13:14 +0000",
+      "id": "GBHack-28da18ec549d",
+      "title": "LostTrust Ransomware Revival Linked to Eclipse as Hackers Target U.S. Government and Energy Firms",
+      "link": "https://gbhackers.com/losttrust-ransomware/",
+      "desc": "A Russian-speaking ransomware crew is testing its implants against Microsoft Defender before deployment. Of 17 organizations named in the operators&#8217; own material, 14 are in the United States. They include a federal agency, three energy cooperatives and a healthcare provider. The operators keep a lab domain enrolled in Microsoft Defender for Endpoint and run their [&#8230;]\nThe post LostTrust",
+      "pubDate": "Fri, 27 Nov 2026 07:11:58 +0000",
+      "source": "GBHackers",
+      "cat": "malware",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "GBHack-b7f4e98c3593",
+      "title": "Hackers Steal Military Files and 19GB of Government Documents in Southeast Asia",
+      "link": "https://gbhackers.com/military-files-exposed/",
+      "desc": "A Vietnam-linked threat actor tracked as WeaveLotus breached government, military and legislative bodies in Thailand and the Philippines. It took gigabytes of internal documents, project plans and credentials, according to the SOCRadar Threat Research Unit (STRU). STRU confirmed five intrusions across Thailand and the Philippines. WeaveLotus also ran reconnaissance against more than 30 Indonesian ",
+      "pubDate": "Fri, 27 Nov 2026 06:42:13 +0000",
       "source": "GBHackers",
       "cat": "breaches",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "GBHack-9f41882572f2",
+      "title": "Standard Chartered’s Crypto Unit Zodia Custody Hit by Data Breach, Exposing Client and Employee Information",
+      "link": "https://gbhackers.com/standard-chartereds-crypto-unit-zodia-custody-hit-by-data-breach/",
+      "desc": "Standard Chartered’s cryptocurrency custody unit, Zodia Custody, disclosed a security breach that exposed information about some institutional clients and employees. Chief Executive Richard Clark told Reuters on November 26 that the company had found no unauthorized transactions in its investigation to date. The disclosure came weeks after Standard Chartered increased its stake in the business [&#",
+      "pubDate": "Fri, 27 Nov 2026 06:07:26 +0000",
+      "source": "GBHackers",
+      "cat": "breaches",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "HackRe-1d0f9c62b936",
+      "title": "What Happens When You Mine Crypto in a Game Instead of Real Life?",
+      "link": "https://hackread.com/what-happens-when-you-mine-crypto-in-game/",
+      "desc": "Learn how crypto mining games work, how they differ from real cryptocurrency mining, and what to know about rewards, withdrawals, costs and risks.",
+      "pubDate": "Fri, 27 Nov 2026 11:01:03 +0000",
+      "source": "HackRead",
+      "cat": "threats",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "HackRe-3b5e181a7d6e",
+      "title": "Fake Car Diagnostic Tools on GitHub Target Repair Shops with Malware",
+      "link": "https://hackread.com/fake-car-diagnostic-tools-github-repair-shops-malware/",
+      "desc": "16 fake GitHub repositories were found using real automotive code and AI-written READMEs to lure technicians into installing malware that could steal automaker logins.",
+      "pubDate": "Fri, 27 Nov 2026 10:07:13 +0000",
+      "source": "HackRead",
+      "cat": "malware",
       "sev": "high",
       "tags": [],
       "iocs": {
@@ -1144,44 +1175,6 @@
       "link": "https://hackread.com/database-exposed-credential-records-session-tokens/",
       "desc": "Cybersecurity researcher Jeremiah Fowler found an open database with roughly 2 billion records, including passwords, browser cookies and session tokens. Access was restricted.",
       "pubDate": "Wed, 25 Nov 2026 10:44:20 +0000",
-      "source": "HackRead",
-      "cat": "threats",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "HackRe-749eaf9cb55a",
-      "title": "Researchers Take Over Five US Treasury Subdomains for About $3 Each",
-      "link": "https://hackread.com/researchers-take-over-5-us-treasury-subdomains/",
-      "desc": "Old DNS records let Intruder researchers take over five US Treasury subdomains via reassigned AWS IP addresses. No government data theft was reported.",
-      "pubDate": "Tue, 24 Nov 2026 20:53:59 +0000",
-      "source": "HackRead",
-      "cat": "threats",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "HackRe-af3d0fcd2c4e",
-      "title": "Free vs. Paid Security Tools: Where Free Options Fall Short",
-      "link": "https://hackread.com/free-vs-paid-security-tools-free-options-fall-short/",
-      "desc": "Compare free and paid cybersecurity tools for small businesses with a look at where free options fall short on monitoring, investigation and response.",
-      "pubDate": "Tue, 24 Nov 2026 20:05:05 +0000",
       "source": "HackRead",
       "cat": "threats",
       "sev": "medium",
@@ -2462,18 +2455,18 @@
       "sev": "high",
       "tags": [
         {
-          "t": "CVE-2026-109618",
+          "t": "CVE-2026-109619",
           "cls": "cve"
         },
         {
-          "t": "CVE-2026-109619",
+          "t": "CVE-2026-109618",
           "cls": "cve"
         }
       ],
       "iocs": {
         "cves": [
-          "CVE-2026-109618",
-          "CVE-2026-109619"
+          "CVE-2026-109619",
+          "CVE-2026-109618"
         ],
         "ips": [],
         "hashes": []
@@ -2548,6 +2541,44 @@
       "source": "Sophos Research",
       "cat": "malware",
       "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "Malwar-4966cb21e70b",
+      "title": "Drupal sites are being hijacked, and a follow-up flaw is already under attack",
+      "link": "https://www.malwarebytes.com/blog/bugs/2026/11/drupal-sites-are-being-hijacked-and-a-follow-up-flaw-is-already-under-attack",
+      "desc": "Attackers are exploiting a second critical Drupal flaw. Some sites remained vulnerable even after the first patch.",
+      "pubDate": "Fri, 27 Nov 2026 14:53:16 GMT",
+      "source": "Malwarebytes",
+      "cat": "malware",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "Malwar-40623bb6da3d",
+      "title": "Malware steals Gmail messages using a fake Google Sheets extension",
+      "link": "https://www.malwarebytes.com/blog/news/2026/11/malware-steals-gmail-messages-using-a-fake-google-sheets-extension",
+      "desc": "Remus’s fake Chrome extension can read Gmail after a password change if you sign back in on the infected browser.",
+      "pubDate": "Fri, 27 Nov 2026 12:09:14 GMT",
+      "source": "Malwarebytes",
+      "cat": "malware",
+      "sev": "high",
       "tags": [],
       "iocs": {
         "cves": [],
@@ -2806,44 +2837,6 @@
       "ts": 0
     },
     {
-      "id": "Malwar-58d1f03d9a34",
-      "title": "Hackers leak data linked to Visa, Mastercard, and JPMorgan customers",
-      "link": "https://www.malwarebytes.com/blog/data-breaches/2026/11/hackers-leak-data-linked-to-visa-mastercard-and-jpmorgan-customers",
-      "desc": "A ransomware group has published data it claims was stolen from third-party providers linked to Visa, Mastercard, and JPMorgan Chase.",
-      "pubDate": "Fri, 20 Nov 2026 12:51:36 GMT",
-      "source": "Malwarebytes",
-      "cat": "malware",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "Malwar-7eb3fc3513e2",
-      "title": "Deepfake Elon Musk  nearly costs viewers $4.7 million in crypto",
-      "link": "https://www.malwarebytes.com/blog/ai/2026/11/deepfake-elon-musk-nearly-costs-viewers-4-7-million-in-crypto",
-      "desc": "Coinbase says it blocked $4.7 million in attempted payments to an Elon Musk deepfake scam.",
-      "pubDate": "Thu, 19 Nov 2026 17:26:39 GMT",
-      "source": "Malwarebytes",
-      "cat": "malware",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
       "id": "SANSI-9e6560594f22",
       "title": "ISC Stormcast For Wednesday, November 25th, 2026 https://isc.sans.edu/podcastdetail/10194, (Wed, Nov 25th)",
       "link": "https://isc.sans.edu/diary/rss/33554",
@@ -3034,6 +3027,25 @@
       "ts": 0
     },
     {
+      "id": "Schnei-5b954b3b72d9",
+      "title": "Recent Outages Have Economic Causes",
+      "link": "https://www.schneier.com/blog/archives/2026/11/recent-outages-have-economic-causes.html",
+      "desc": "This essay originally appeared in The Guardian. It&#8217;s an expanded version of the one I posted as &#8220;We Get the Infrastructure We Pay For.&#8221;\nIt&#8217;s been a bad week for our computerized infrastructure. We&#8217;ve seen outages at Microsoft, the FAA, a handful of banks, United Airlines, an unnamed classified NSA network, and Apple. People should be forgiven for suspecting a coordina",
+      "pubDate": "2026-11-27T12:02:23Z",
+      "source": "Schneier",
+      "cat": "tools",
+      "sev": "medium",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
       "id": "Schnei-d0421c8bf4f6",
       "title": "Tracking Incidents of Hacking Using AI Tools",
       "link": "https://www.schneier.com/blog/archives/2026/11/tracking-incidents-of-hacking-using-ai-tools.html",
@@ -3191,25 +3203,6 @@
       "link": "https://www.schneier.com/blog/archives/2026/11/upcoming-speaking-engagements-62.html",
       "desc": "This is a current list of where and when I am scheduled to speak:\n\nI’m speaking at the Catalyst Summit in Brampton, Ontario, Canada, on Wednesday, November 18, 2026.\nI’m speaking at QT Qonference 2026 in Toronto, Ontario, Canada, on Thursday, November 19, 2026.\n\nThe list is maintained on this page.",
       "pubDate": "2026-11-14T17:02:39Z",
-      "source": "Schneier",
-      "cat": "tools",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "Schnei-822a6969275d",
-      "title": "Friday Squid Blogging: Pacific Flying Squid Populations Dropping in Korean Waters",
-      "link": "https://www.schneier.com/blog/archives/2026/11/friday-squid-blogging-pacific-flying-squid-populations-dropping-in-korean-waters.html",
-      "desc": "Climate change is the issue.\nAs usual, you can also use this squid post to talk about the security stories in the news that I haven&#8217;t covered.\nBlog moderation policy.",
-      "pubDate": "2026-11-13T22:00:46Z",
       "source": "Schneier",
       "cat": "tools",
       "sev": "medium",
@@ -3462,18 +3455,18 @@
       "sev": "high",
       "tags": [
         {
-          "t": "CVE-2026-109618",
+          "t": "CVE-2026-109619",
           "cls": "cve"
         },
         {
-          "t": "CVE-2026-109619",
+          "t": "CVE-2026-109618",
           "cls": "cve"
         }
       ],
       "iocs": {
         "cves": [
-          "CVE-2026-109618",
-          "CVE-2026-109619"
+          "CVE-2026-109619",
+          "CVE-2026-109618"
         ],
         "ips": [],
         "hashes": []
