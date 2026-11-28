@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-28T06:53:41.510823+00:00",
-  "sources_ok": 15,
+  "generated_at": "2026-11-28T16:00:53.938624+00:00",
+  "sources_ok": 14,
   "sources_total": 20,
   "source_status": {
     "The Hacker News": {
@@ -20,8 +20,9 @@
       "articles": 10
     },
     "HackRead": {
-      "ok": true,
-      "articles": 10
+      "ok": false,
+      "articles": 0,
+      "error": "Invalid feed: <unknown>:94:2: mismatched tag"
     },
     "Exploit-DB": {
       "ok": true,
@@ -89,8 +90,27 @@
       "error": "429 Client Error: Too Many Requests for url: https://www.reddit.com/r/blueteamsec/.rss"
     }
   },
-  "total": 190,
+  "total": 180,
   "articles": [
+    {
+      "id": "TheHa-48051ec0c682",
+      "title": "pCloud Password Manager Hit by Cyber Attack Involving Email Address Exposure and Login Attempts",
+      "link": "https://thehackernews.com/2026/11/pcloud-password-manager-hit-by-cyber.html",
+      "desc": "Cross-platform password manager pCloud Pass has confirmed it was targeted by a cyber attack after users reported seeing unknown devices being connected to their accounts.\n\n\"A cyber attack targeting pCloud Pass occurred, which was promptly contained by the pCloud team,\" the Swiss company said in response to a number of posts on Reddit. \"Unfortunately, a small number of pCloud Pass user email",
+      "pubDate": "Sat, 28 Nov 2026 13:38:11 +0530",
+      "source": "The Hacker News",
+      "cat": "threats",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
     {
       "id": "TheHa-0dda1d650bd0",
       "title": "Suspected Vietnam-Linked Hackers Target Southeast Asia in South China Sea Espionage Campaign",
@@ -292,18 +312,18 @@
       "sev": "high",
       "tags": [
         {
-          "t": "CVE-2026-132165",
+          "t": "CVE-2026-136716",
           "cls": "cve"
         },
         {
-          "t": "CVE-2026-136716",
+          "t": "CVE-2026-132165",
           "cls": "cve"
         }
       ],
       "iocs": {
         "cves": [
-          "CVE-2026-132165",
-          "CVE-2026-136716"
+          "CVE-2026-136716",
+          "CVE-2026-132165"
         ],
         "ips": [],
         "hashes": []
@@ -368,38 +388,19 @@
       "sev": "critical",
       "tags": [
         {
-          "t": "CVE-2026-129243",
+          "t": "CVE-2026-120705",
           "cls": "cve"
         },
         {
-          "t": "CVE-2026-120705",
+          "t": "CVE-2026-129243",
           "cls": "cve"
         }
       ],
       "iocs": {
         "cves": [
-          "CVE-2026-129243",
-          "CVE-2026-120705"
+          "CVE-2026-120705",
+          "CVE-2026-129243"
         ],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "TheHa-d6f27efcb974",
-      "title": "U.S. Treasury's Financial Crimes Agency Takes Some Systems Offline After Cyber Intrusion",
-      "link": "https://thehackernews.com/2026/11/us-treasurys-fincen-takes-some-systems.html",
-      "desc": "The U.S. Treasury Department's Financial Crimes Enforcement Network (FinCEN) has been hit by a cybersecurity incident that resulted in \"unauthorized access to a limited subset of its systems,\" the bureau said on Tuesday. As a precaution, it has taken some systems offline.\n\nThe bureau collects suspicious activity reports and other Bank Secrecy Act (BSA) filings from banks and other financial",
-      "pubDate": "Wed, 25 Nov 2026 18:00:08 +0530",
-      "source": "The Hacker News",
-      "cat": "threats",
-      "sev": "critical",
-      "tags": [],
-      "iocs": {
-        "cves": [],
         "ips": [],
         "hashes": []
       },
@@ -795,6 +796,127 @@
       "ts": 0
     },
     {
+      "id": "GBHack-063b2223cf1f",
+      "title": "pCloud Pass Hit by Cyberattack, Exposing User Emails and Triggering Suspicious Login Alerts",
+      "link": "https://gbhackers.com/pcloud-pass-hit-by-cyberattack/",
+      "desc": "pCloud has confirmed a cyberattack on its pCloud Pass password manager service. The attack exposed a small number of user email addresses and produced automated &#8220;You connected a new device&#8221; alerts. The company says it contained the incident quickly. It says the attack was limited to pCloud Pass and did not affect its Cloud Storage [&#8230;]\nThe post pCloud Pass Hit by Cyberattack, Expo",
+      "pubDate": "Sat, 28 Nov 2026 08:44:39 +0000",
+      "source": "GBHackers",
+      "cat": "threats",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "GBHack-e260c46d2ea4",
+      "title": "Boston Scientific Data Breach – Hackers Steal Personal Information via Voice Phishing Attack",
+      "link": "https://gbhackers.com/boston-scientific-data-breach/",
+      "desc": "Boston Scientific has confirmed that a voice phishing (vishing) intrusion exposed personal and medical-related data from its cloud-based IT business applications. The medical technology company began sending breach notices to individuals across multiple U.S. states after it filed a sample notification with the California Attorney General on November 25. According to a breach notification, the [&#8",
+      "pubDate": "Sat, 28 Nov 2026 08:30:03 +0000",
+      "source": "GBHackers",
+      "cat": "breaches",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "GBHack-f0fc42ee005a",
+      "title": "Hong Kong’s Octopus Payment System Hit by Cyberattack, Exposing Data of Nearly 30,000 Customers and Merchants",
+      "link": "https://gbhackers.com/hong-kongs-octopus-payment-system-cyberattack/",
+      "desc": "Octopus Cards Limited, the Hong Kong smart-card and payments operator, has confirmed a cyberattack that exfiltrated personal data tied to about 7,500 individual customers and contact records for roughly 22,000 merchants. The company detected the intrusion on Friday morning and immediately activated containment procedures. Initial forensic triage shows the exfiltrated customer records contained nam",
+      "pubDate": "Sat, 28 Nov 2026 08:21:54 +0000",
+      "source": "GBHackers",
+      "cat": "threats",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "GBHack-9f2c55dbeb9e",
+      "title": "Hackers Set Freezer Controls to 100°C, Then Lock Technicians Out of the System",
+      "link": "https://gbhackers.com/hackers-set-freezer-controls-to-100c/",
+      "desc": "Attackers compromised the remote cold-chain management platform of Salamerija Alpija, a meat-processing plant run by the Tolmin Agricultural Cooperative in Slovenia. They pushed freezer chamber setpoints to 100°C. The intrusion was disclosed on November 26, 2026, and is the latest in a run of attacks on European refrigeration infrastructure. Around noon, an employee on a [&#8230;]\nThe post Hackers",
+      "pubDate": "Sat, 28 Nov 2026 08:13:10 +0000",
+      "source": "GBHackers",
+      "cat": "threats",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "GBHack-4e345a8999ff",
+      "title": "12-Year-Old Linux Kernel Flaw Allows Hackers to Take Over Servers Without Passwords",
+      "link": "https://gbhackers.com/12-year-old-linux-kernel-flaw/",
+      "desc": "A pre-authentication heap overflow in the Linux kernel&#8217;s in-kernel NFS server, nfsd, went undetected for 12 years. Tracked as CVE-2026-99362 and dubbed NFS2ROOT, it carries a CVSS 3.1 score of 9.8. A single unauthenticated TCP connection to port 2049 corrupts kernel memory and ends in a root shell. OpenSec Intelligence disclosed the defect on November [&#8230;]\nThe post 12-Year-Old Linux Ker",
+      "pubDate": "Sat, 28 Nov 2026 08:07:22 +0000",
+      "source": "GBHackers",
+      "cat": "threats",
+      "sev": "high",
+      "tags": [
+        {
+          "t": "CVE-2026-99362",
+          "cls": "cve"
+        }
+      ],
+      "iocs": {
+        "cves": [
+          "CVE-2026-99362"
+        ],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
+      "id": "GBHack-4b1d9bd80a2e",
+      "title": "Telegram Warns iPhone Users of Widespread Cyberattacks Exploiting Outdated iOS Versions",
+      "link": "https://gbhackers.com/telegram-warns-iphone-users-cyberattacks/",
+      "desc": "Telegram pushed an in-app notice on November 27 telling iPhone users on outdated iOS builds. The message warns that obsolete releases carry unpatched memory-corruption defects that expose accounts and data. It directs users to Settings, General, Software Update to install the latest release. The wording matches a surge in browser-delivered exploit chains targeting older iPhones. [&#8230;]\nThe post",
+      "pubDate": "Sat, 28 Nov 2026 07:52:32 +0000",
+      "source": "GBHackers",
+      "cat": "threats",
+      "sev": "high",
+      "tags": [],
+      "iocs": {
+        "cves": [],
+        "ips": [],
+        "hashes": []
+      },
+      "mitreTags": [],
+      "cvss": null,
+      "ts": 0
+    },
+    {
       "id": "GBHack-49f3bd1f3ddb",
       "title": "Hackers Use Fake Facebook Ads to Spread Malware That Steals Business Accounts and Emails",
       "link": "https://gbhackers.com/fake-facebook-ads/",
@@ -865,317 +987,6 @@
       "desc": "A Telegram network that mixes ordinary-looking job ads with overt intelligence recruitment and paid-crime offers. They tracked 88 accounts that published 3,089 recruitment posts between August 2024 and October 2026. The posts appeared in communities across Israel, the Gulf states, the UK and the US. Group-IB found the activity using its Threat Intelligence platform, which [&#8230;]\nThe post Fake T",
       "pubDate": "Fri, 27 Nov 2026 09:36:02 +0000",
       "source": "GBHackers",
-      "cat": "threats",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "GBHack-2ba658a8d025",
-      "title": "Critical Erlang/OTP Vulnerability Allows Hackers to Bypass TLS Certificate Authentication",
-      "link": "https://gbhackers.com/critical-erlang-otp-vulnerability/",
-      "desc": "A critical vulnerability has been identified in the Erlang/OTP SSL application that affects TLS 1.2 clients. This vulnerability allows these clients to complete a handshake without properly authenticating the server, even when certificate verification is enabled. Tracked as CVE-2026-124286, this flaw lets an attacker in a man-in-the-middle position impersonate a legitimate server, allowing them to",
-      "pubDate": "Fri, 27 Nov 2026 09:32:29 +0000",
-      "source": "GBHackers",
-      "cat": "threats",
-      "sev": "critical",
-      "tags": [
-        {
-          "t": "CVE-2026-124286",
-          "cls": "cve"
-        }
-      ],
-      "iocs": {
-        "cves": [
-          "CVE-2026-124286"
-        ],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "GBHack-8efaa43dc5c5",
-      "title": "Tor Browser 15.0.23 Released With Fixes for Security Bypass Vulnerabilities",
-      "link": "https://gbhackers.com/tor-browser-15-0-23-released/",
-      "desc": "The Tor Project released Tor Browser version 15.0.23, addressed two vulnerabilities that allowed WebAssembly to run despite restrictions imposed by the browser’s Safer security level. The update also included security patches from Mozilla and upgraded the NoScript extension across all platforms. An issue with signing the Windows installer affected how users could obtain the release; [&#8230;]\nThe ",
-      "pubDate": "Fri, 27 Nov 2026 09:20:53 +0000",
-      "source": "GBHackers",
-      "cat": "threats",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "GBHack-c030d0d5cf5e",
-      "title": "Cacti 4HTTP2ROOT Zero-Day Enables Unauthenticated Remote Code Execution",
-      "link": "https://gbhackers.com/cacti-4http2root-zero-day/",
-      "desc": "A zero-day vulnerability known as 4HTTP2ROOT allows remote attackers to execute operating system commands on Cacti version 1.2.31 without valid credentials if anonymous guest access is enabled. Security researcher ek0ms savi0r disclosed this flaw on November 26, 2026. Previdian confirmed a public proof of concept in their lab. At the time of disclosure, no official [&#8230;]\nThe post Cacti 4HTTP2R",
-      "pubDate": "Fri, 27 Nov 2026 09:10:37 +0000",
-      "source": "GBHackers",
-      "cat": "threats",
-      "sev": "critical",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "GBHack-dbc8f46ff2bd",
-      "title": "Hackers Hide Remote-Control Malware in Official Software Downloads That Appear to Work Normally",
-      "link": "https://gbhackers.com/q-dir-and-desktop-ok-installers/",
-      "desc": "Attackers have turned the official SoftwareOK website into a malware delivery channel. They tampered with Q-Dir and DesktopOK installers so the programs run normally. SoftwareOK distributes free Windows utilities such as Q-Dir, DesktopOK and WinScan2PDF. ASEC says the malicious files came through the official distribution path, not through third-party mirrors or advertisements. The affected builds",
-      "pubDate": "Fri, 27 Nov 2026 08:21:29 +0000",
-      "source": "GBHackers",
-      "cat": "malware",
-      "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "GBHack-28da18ec549d",
-      "title": "LostTrust Ransomware Revival Linked to Eclipse as Hackers Target U.S. Government and Energy Firms",
-      "link": "https://gbhackers.com/losttrust-ransomware/",
-      "desc": "A Russian-speaking ransomware crew is testing its implants against Microsoft Defender before deployment. Of 17 organizations named in the operators&#8217; own material, 14 are in the United States. They include a federal agency, three energy cooperatives and a healthcare provider. The operators keep a lab domain enrolled in Microsoft Defender for Endpoint and run their [&#8230;]\nThe post LostTrust",
-      "pubDate": "Fri, 27 Nov 2026 07:11:58 +0000",
-      "source": "GBHackers",
-      "cat": "malware",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "GBHack-b7f4e98c3593",
-      "title": "Hackers Steal Military Files and 19GB of Government Documents in Southeast Asia",
-      "link": "https://gbhackers.com/military-files-exposed/",
-      "desc": "A Vietnam-linked threat actor tracked as WeaveLotus breached government, military and legislative bodies in Thailand and the Philippines. It took gigabytes of internal documents, project plans and credentials, according to the SOCRadar Threat Research Unit (STRU). STRU confirmed five intrusions across Thailand and the Philippines. WeaveLotus also ran reconnaissance against more than 30 Indonesian ",
-      "pubDate": "Fri, 27 Nov 2026 06:42:13 +0000",
-      "source": "GBHackers",
-      "cat": "breaches",
-      "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "HackRe-1d0f9c62b936",
-      "title": "What Happens When You Mine Crypto in a Game Instead of Real Life?",
-      "link": "https://hackread.com/what-happens-when-you-mine-crypto-in-game/",
-      "desc": "Learn how crypto mining games work, how they differ from real cryptocurrency mining, and what to know about rewards, withdrawals, costs and risks.",
-      "pubDate": "Fri, 27 Nov 2026 11:01:03 +0000",
-      "source": "HackRead",
-      "cat": "threats",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "HackRe-3b5e181a7d6e",
-      "title": "Fake Car Diagnostic Tools on GitHub Target Repair Shops with Malware",
-      "link": "https://hackread.com/fake-car-diagnostic-tools-github-repair-shops-malware/",
-      "desc": "16 fake GitHub repositories were found using real automotive code and AI-written READMEs to lure technicians into installing malware that could steal automaker logins.",
-      "pubDate": "Fri, 27 Nov 2026 10:07:13 +0000",
-      "source": "HackRead",
-      "cat": "malware",
-      "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "HackRe-0eb1971d4391",
-      "title": "CS2 Scams in 2026: What Players Should Watch Out For",
-      "link": "https://hackread.com/cs2-scams-2026-what-players-should-watch-out-for/",
-      "desc": "Avoid CS2 scams in 2026, from fake Steam logins and trades to trade reversal tricks. Learn how to protect your Steam account and keep your skins safe.",
-      "pubDate": "Thu, 26 Nov 2026 20:48:54 +0000",
-      "source": "HackRead",
-      "cat": "threats",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "HackRe-6f3c64c1ccd3",
-      "title": "Facebook Ads for Fake Wallpapers Spread SYS010 Malware on Windows",
-      "link": "https://hackread.com/facebook-ads-fake-wallpapers-sys010-malware-windows/",
-      "desc": "Fake animated wallpaper ads on Facebook are being used to spread malware that targets Meta business accounts, steals&#8230;",
-      "pubDate": "Thu, 26 Nov 2026 17:09:09 +0000",
-      "source": "HackRead",
-      "cat": "malware",
-      "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "HackRe-f35b5aca3d3f",
-      "title": "905,672 Characters Under Black Rectangles: Why a Qualified Signature Can’t Vouch for a GDPR Export",
-      "link": "https://hackread.com/905672-characters-qualified-signature-gdpr-export/",
-      "desc": "A signed GDPR export left 905,672 characters readable beneath black boxes, showing why a valid PDF signature cannot verify redactions or completeness.",
-      "pubDate": "Thu, 26 Nov 2026 10:46:47 +0000",
-      "source": "HackRead",
-      "cat": "threats",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "HackRe-dc8cc9197052",
-      "title": "Hackers used Hugging Face’s AI site builder to create fake Microsoft login pages",
-      "link": "https://hackread.com/hackers-hugging-face-ai-site-builder-fake-microsoft-login-pages/",
-      "desc": "Researchers found 42 phishing pages on Hugging Face Spaces, 29 built via its DeepSite AI app. The pages impersonated Microsoft, PayPal and 26 other brands.",
-      "pubDate": "Thu, 26 Nov 2026 09:28:59 +0000",
-      "source": "HackRead",
-      "cat": "threats",
-      "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "HackRe-b33493785f1c",
-      "title": "1Password Says Hacker Copied Customer Account Data, Vaults Unaffected",
-      "link": "https://hackread.com/1password-attacker-copied-customer-account-data-vaults/",
-      "desc": "1Password says an attacker copied names, emails and some recovery tokens after accessing a staff GitHub account. Customer vaults were left unaffected.",
-      "pubDate": "Wed, 25 Nov 2026 21:19:49 +0000",
-      "source": "HackRead",
-      "cat": "threats",
-      "sev": "high",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "HackRe-d70903c32d39",
-      "title": "AI Can Write Code. Engineers Still Have to Decide What Ships",
-      "link": "https://hackread.com/ai-writes-code-engineers-decide-what-ships/",
-      "desc": "Senior roles drove most of the rebound in software job postings. See why employers value engineers who can review, test, and verify AI-generated code.",
-      "pubDate": "Wed, 25 Nov 2026 18:35:56 +0000",
-      "source": "HackRead",
-      "cat": "threats",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "HackRe-35ff104b5470",
-      "title": "FBI Helps Free Over 2,200 Trafficking Victims in Global Scam Crackdown",
-      "link": "https://hackread.com/fbi-helps-free-trafficking-victims-global-scam-crackdown/",
-      "desc": "US prosecutors took action against over 800 defendants in more than 400 fraud cases. The FBI reported restraining nearly $17 billion in illicit funds.",
-      "pubDate": "Wed, 25 Nov 2026 17:22:40 +0000",
-      "source": "HackRead",
-      "cat": "threats",
-      "sev": "medium",
-      "tags": [],
-      "iocs": {
-        "cves": [],
-        "ips": [],
-        "hashes": []
-      },
-      "mitreTags": [],
-      "cvss": null,
-      "ts": 0
-    },
-    {
-      "id": "HackRe-dee0a0dd7ddf",
-      "title": "Open database exposed 2 billion credential records, including session tokens",
-      "link": "https://hackread.com/database-exposed-credential-records-session-tokens/",
-      "desc": "Cybersecurity researcher Jeremiah Fowler found an open database with roughly 2 billion records, including passwords, browser cookies and session tokens. Access was restricted.",
-      "pubDate": "Wed, 25 Nov 2026 10:44:20 +0000",
-      "source": "HackRead",
       "cat": "threats",
       "sev": "medium",
       "tags": [],
@@ -2455,18 +2266,18 @@
       "sev": "high",
       "tags": [
         {
-          "t": "CVE-2026-109619",
+          "t": "CVE-2026-109618",
           "cls": "cve"
         },
         {
-          "t": "CVE-2026-109618",
+          "t": "CVE-2026-109619",
           "cls": "cve"
         }
       ],
       "iocs": {
         "cves": [
-          "CVE-2026-109619",
-          "CVE-2026-109618"
+          "CVE-2026-109618",
+          "CVE-2026-109619"
         ],
         "ips": [],
         "hashes": []
@@ -3455,18 +3266,18 @@
       "sev": "high",
       "tags": [
         {
-          "t": "CVE-2026-109619",
+          "t": "CVE-2026-109618",
           "cls": "cve"
         },
         {
-          "t": "CVE-2026-109618",
+          "t": "CVE-2026-109619",
           "cls": "cve"
         }
       ],
       "iocs": {
         "cves": [
-          "CVE-2026-109619",
-          "CVE-2026-109618"
+          "CVE-2026-109618",
+          "CVE-2026-109619"
         ],
         "ips": [],
         "hashes": []
